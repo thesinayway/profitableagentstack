@@ -30,3 +30,4 @@ select,input,textarea{padding:10px;border:1px solid #cbd5e1;border-radius:10px;f
 footer{background:var(--bg);color:#94a3b8;font-size:13px;padding:28px 0;margin-top:48px}footer a{color:#c4b5fd}
 @media(max-width:640px){nav a{margin:0 10px 0 0}.bars div{grid-template-columns:110px 1fr 60px}.hero{padding:40px 0}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+[hidden]{display:none!important}.logo-img{width:40px;height:40px;border-radius:10px;margin-right:10px;flex:none;background:#fff;border:1px solid var(--line);padding:4px}

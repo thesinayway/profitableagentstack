@@ -52,7 +52,8 @@
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Smartlead",
     "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
-   }
+   },
+   "logo": "/assets/logos/smartlead.ai.png"
   },
   {
    "name": "Instantly",
@@ -72,7 +73,8 @@
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Instantly",
     "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
-   }
+   },
+   "logo": "/assets/logos/instantly.ai.png"
   },
   {
    "name": "Salesforge",
@@ -91,7 +93,8 @@
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Salesforge",
     "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
-   }
+   },
+   "logo": "/assets/logos/salesforge.ai.png"
   },
   {
    "name": "lemlist",
@@ -110,7 +113,8 @@
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=lemlist",
     "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
-   }
+   },
+   "logo": "/assets/logos/lemlist.com.png"
   },
   {
    "name": "Reply.io",
@@ -129,7 +133,8 @@
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Reply.io",
     "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
-   }
+   },
+   "logo": "/assets/logos/reply.io.png"
   },
   {
    "name": "Woodpecker",
@@ -148,7 +153,8 @@
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Woodpecker",
     "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
-   }
+   },
+   "logo": "/assets/logos/woodpecker.co.png"
   },
   {
    "name": "Apollo",
@@ -167,7 +173,8 @@
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Apollo",
     "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
-   }
+   },
+   "logo": "/assets/logos/apollo.io.png"
   },
   {
    "name": "Exa",
@@ -186,7 +193,8 @@
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Exa",
     "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
-   }
+   },
+   "logo": "/assets/logos/exa.ai.png"
   },
   {
    "name": "Clay",
@@ -205,7 +213,8 @@
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Clay",
     "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
-   }
+   },
+   "logo": "/assets/logos/clay.com.png"
   },
   {
    "name": "Hunter",
@@ -225,7 +234,8 @@
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Hunter",
     "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
-   }
+   },
+   "logo": "/assets/logos/hunter.io.png"
   },
   {
    "name": "FullEnrich",
@@ -244,7 +254,8 @@
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=FullEnrich",
     "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
-   }
+   },
+   "logo": "/assets/logos/fullenrich.com.png"
   },
   {
    "name": "Clearout",
@@ -263,7 +274,8 @@
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Clearout",
     "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
-   }
+   },
+   "logo": "/assets/logos/clearout.io.png"
   },
   {
    "name": "HeyReach",
@@ -282,7 +294,8 @@
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=HeyReach",
     "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
-   }
+   },
+   "logo": "/assets/logos/heyreach.io.png"
   },
   {
    "name": "Expandi",
@@ -301,7 +314,8 @@
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Expandi",
     "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
-   }
+   },
+   "logo": "/assets/logos/expandi.io.png"
   },
   {
    "name": "Waalaxy",
@@ -320,7 +334,8 @@
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Waalaxy",
     "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
-   }
+   },
+   "logo": "/assets/logos/waalaxy.com.png"
   },
   {
    "name": "11x",
@@ -338,7 +353,8 @@
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=11x",
     "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
-   }
+   },
+   "logo": "/assets/logos/11x.ai.png"
   },
   {
    "name": "Artisan",
@@ -357,7 +373,8 @@
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Artisan",
     "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
-   }
+   },
+   "logo": "/assets/logos/artisan.co.png"
   },
   {
    "name": "Qualified",
@@ -375,7 +392,8 @@
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Qualified",
     "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
-   }
+   },
+   "logo": "/assets/logos/qualified.com.png"
   },
   {
    "name": "Postiz",
@@ -395,7 +413,8 @@
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Postiz",
     "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
-   }
+   },
+   "logo": "/assets/logos/postiz.com.png"
   },
   {
    "name": "HeyGen",
@@ -415,7 +434,8 @@
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=HeyGen",
     "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
-   }
+   },
+   "logo": "/assets/logos/heygen.com.png"
   },
   {
    "name": "RB2B",
@@ -434,7 +454,8 @@
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=RB2B",
     "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
-   }
+   },
+   "logo": "/assets/logos/rb2b.com.png"
   },
   {
    "name": "PostHog",
@@ -454,7 +475,8 @@
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=PostHog",
     "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
-   }
+   },
+   "logo": "/assets/logos/posthog.com.png"
   },
   {
    "name": "Common Room",
@@ -472,7 +494,8 @@
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Common+Room",
     "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
-   }
+   },
+   "logo": "/assets/logos/commonroom.io.png"
   }
  ],
  "releases": [
