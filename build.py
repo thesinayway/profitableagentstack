@@ -95,21 +95,21 @@ for u,n in UC.items():
   f'<h1>{e(qs[0][0][0].upper()+qs[0][0][1:])}</h1><p class="answer">{e(qs[0][1])}</p><div class="grid" id="list">{"".join(card(t) for t in ts) or "<p>No tools listed yet. <a href=/corrections.html>Suggest one</a>.</p>"}</div>{faqhtml(qs)}',[itemlist(ts,n),faq(qs)])
 # ---- stages
 for s,info in ST.items():
-  S=D['stacks'][s];rows=''.join(f'<tr><td>{UC[u]}</td><td><b>{e(tl)}</b></td><td>{e(tier)}</td><td>${amt:,}</td></tr>' for u,tl,tier,amt in S['items'])
+  S=D['stacks'][s];rows=''.join(f'<tr><td>{UC[u]}</td><td><b>{e(tl)}</b></td><td>{e(tier)}</td><td>${amt:,}</td><td class="mut">{e(why)}</td></tr>' for u,tl,tier,amt,why in S['items'])
   total=stack_total(s);extra=S.get('extra','')
   math=' + '.join(f'${i[3]}' for i in S['items'] if i[3])
   ts=rank([t for t in D['tools'] if s in t['stages']])
-  qs=[(f'How much does an AI GTM stack cost for a {info["short"].lower()} company?',f'About ${total:,}/mo {extra} for our recommended stack, estimated from published monthly list prices as of {C}. Assumptions: {S["assumptions"]} Actual cost depends on your usage, billing period, taxes and add-ons.'),
+  qs=[(f'How much does an AI GTM stack cost for a {info["short"]} company?',f'About ${total:,}/mo {extra} for our recommended stack, estimated from published monthly list prices as of {C}. Assumptions: {S["assumptions"]} Actual cost depends on your usage, billing period, taxes and add-ons.'),
       ('What is included in the recommended stack?',', '.join(f'{i[1]} ({UC[i[0]]})' for i in S['items'])+'.'),('Are these prices guaranteed?','No. They are estimates from vendor pricing pages and can change at any time. Always verify with the vendor before buying.')]
   cta=''
   if s=='growth':
     cta='''<section class="card feat" style="margin:28px 0"><h2 style="margin-top:0">Want this stack built and running in 30 days?</h2><p>The $2,500 Agent Launch Sprint: positioning, a lean outbound engine and launch content, built by agents and reviewed by a fractional CRO. Ongoing GTM advisory is also available.</p><a class="btn ghost" href="/sprint.html">Explore the GTM Sprint</a></section>
 <h2>What should a pre-seed to Series A team prioritize?</h2><p>Spend on the use cases that create pipeline first: list building, enrichment and outbound (email + LinkedIn), then signals that tell you who is already interested. Content tools come next. AI SDR platforms are mostly contact-sales and are optional at this stage. Revisit seat counts monthly; per-sender pricing (e.g. LinkedIn tools) is where costs grow fastest as you hire.</p>
 <h2>How does cost grow when the team grows from 3 to 10?</h2><p>In our estimates, LinkedIn senders and signals tools drive most of the increase: HeyReach goes from 2 to 10 senders ($158 to $790/mo), and intent platforms such as Common Room start at $2,500/mo billed annually.</p>'''
-  page(f'stages/{SLUG[s]}.html',f'AI GTM Stack for {info["name"]}: Cost & Tools | Profitable Agent Stack',f'Recommended AI GTM stack for {info["name"].lower()}, with estimated monthly cost (${total:,}/mo) from published prices and the math shown.',
+  page(f'stages/{SLUG[s]}.html',f'AI GTM Stack for {info["name"]}: Cost & Tools | Profitable Agent Stack',f'Recommended AI GTM stack for {info["name"]}, with estimated monthly cost (${total:,}/mo) from published prices and the math shown.',
   f'''<p><span class="badge {"p" if info.get("primary") else ""}">{"Primary focus" if info.get("primary") else "Stage guide"}</span></p><h1>{e(qs[0][0])}</h1><p class="answer">{e(qs[0][1])}</p>
-<h2>Recommended stack (estimate)</h2><table><thead><tr><th>Use case</th><th>Tool</th><th>Tier / assumption</th><th>Est. $/mo</th></tr></thead><tbody>{rows}<tr><th colspan="3">Estimated total</th><th>${total:,} {extra}</th></tr></tbody></table>
-<p class="mut">Math: {math} = ${total:,}/mo {extra}. Assumptions: {e(S["assumptions"])} Estimate only; excludes taxes, add-ons, overages and annual discounts. Prices as of {C}, verify with vendor.</p>{cta}
+<h2>Recommended stack (estimate)</h2><table><thead><tr><th>Use case</th><th>Tool</th><th>Tier / assumption</th><th>Est. $/mo</th><th>Why this pick</th></tr></thead><tbody>{rows}<tr><th colspan="3">Estimated total</th><th colspan="2">${total:,} {extra}</th></tr></tbody></table>
+<p class="mut">One tool per job, no paid overlap. A stack may intentionally leave a job (e.g. list building) to a tool already in it. Math: {math} = ${total:,}/mo {extra}. Assumptions: {e(S["assumptions"])} Estimate only; excludes taxes, add-ons, overages and annual discounts. Prices as of {C}, verify with vendor.</p>{cta}
 <h2>All tools that fit this stage</h2><div class="grid" id="list">{"".join(card(t) for t in ts)}</div>{faqhtml(qs)}''',[itemlist(ts,info['name']),faq(qs)])
 # ---- simple pages
 def simple(path,title,desc,h,ans,body,sch=()):
@@ -168,7 +168,7 @@ open('sitemap.xml','w').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset x
 L=f'# Profitable Agent Stack\n\n> Cost-first directory of AI GTM tools ranked by use-case fit, published price and user sentiment, with estimated monthly stack costs by company stage. Prices checked {C}; verify with vendors. Not advice.\n\n## Key pages\n'+''.join(f'- [{s["name"]}]({SITE}/stages/{SLUG[s["id"]]}.html): est. ${tot[s["id"]]:,}/mo stack\n' for s in D['stages'])+f'- [Directory]({SITE}/directory.html)\n- [Methodology]({SITE}/methodology.html)\n- [For AI agents]({SITE}/for-ai-agents.html)\n\n## Data\n- [tools.json]({SITE}/api/tools.json): CC BY 4.0, attribution required\n- [Full text]({SITE}/llms-full.txt)\n'
 open('llms.txt','w').write(L)
 full=L+'\n## Tools\n'+''.join(f'- {t["name"]} ({UC[t["use_case"]]}; stages: {", ".join(t["stages"])}): {price(t)}. Value score: {t["value_score"]}. Source: {t["source"]}\n' for t in R)
-full+='\n## Stage stacks (estimates)\n'+''.join(f'### {ST[s]["name"]}: ${stack_total(s):,}/mo {D["stacks"][s].get("extra","")}\nAssumptions: {D["stacks"][s]["assumptions"]}\n'+''.join(f'- {UC[i[0]]}: {i[1]}, {i[2]}, ${i[3]}\n' for i in D['stacks'][s]['items']) for s in ST)
+full+='\n## Stage stacks (estimates)\n'+''.join(f'### {ST[s]["name"]}: ${stack_total(s):,}/mo {D["stacks"][s].get("extra","")}\nAssumptions: {D["stacks"][s]["assumptions"]}\n'+''.join(f'- {UC[i[0]]}: {i[1]}, {i[2]}, ${i[3]} — {i[4]}\n' for i in D['stacks'][s]['items']) for s in ST)
 full+='\n## Methodology\nValue = 50% fit (editorial) + 30% cost + 20% sentiment; sentiment not yet verified so fit/cost reweighted 62.5/37.5.\n\n## Disclaimer\n'+DISC+'\n'
 open('llms-full.txt','w').write(full)
 print(len(PAGES),'pages')

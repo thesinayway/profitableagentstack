@@ -622,103 +622,112 @@
      "outbound-email",
      "Smartlead",
      "Base, 1 workspace",
-     39
+     39,
+     "Lowest published entry price for outbound email in our list."
     ],
     [
      "enrichment",
      "Hunter",
      "Free plan (50 credits)",
-     0
+     0,
+     "Free plan covers email finding/verification at solo volume."
     ],
     [
      "list-building",
      "Exa",
      "Free $10 credits/mo",
-     0
+     0,
+     "Free credits for finding target companies; Hunter then finds the emails."
     ],
     [
      "linkedin",
      "Waalaxy",
      "1 user \u00d7 \u20ac19 (EUR, not converted)",
-     0
+     0,
+     "Cheapest listed LinkedIn tool (per user, EUR)."
     ],
     [
      "launch-content",
      "Postiz",
      "Standard",
-     29
+     29,
+     "Social scheduling for founder-led content."
     ],
     [
      "signals",
      "PostHog",
      "Free allowance",
-     0
+     0,
+     "Free product analytics allowance."
     ],
     [
      "signals",
      "RB2B",
      "Free plan",
-     0
+     0,
+     "Free website-visitor identification; a different signal from product analytics."
     ]
    ],
    "extra": "+ \u20ac19 Waalaxy"
   },
   "growth": {
-   "assumptions": "3 people, 2 LinkedIn senders, ~5,000 emails/mo plus 1,500 lead credits, monthly billing.",
+   "assumptions": "3 people, 2 LinkedIn senders, ~5,000 emails/mo, monthly billing.",
    "items": [
     [
      "outbound-email",
      "Instantly",
      "Outreach Growth",
-     47
-    ],
-    [
-     "list-building",
-     "Instantly",
-     "Credits Growth (1,500 credits)",
-     47
+     47,
+     "Top value score for outbound; unlimited mailboxes on one plan. Its lead credits are not added because Hunter covers enrichment."
     ],
     [
      "enrichment",
      "Hunter",
      "Starter",
-     49
+     49,
+     "Finding and verifying emails, so no second data plan is needed."
     ],
     [
      "linkedin",
      "HeyReach",
      "Growth $79 \u00d7 2 senders",
-     158
+     158,
+     "Per-sender pricing scales with 2 founders/SDRs on LinkedIn."
     ],
     [
      "launch-content",
      "Postiz",
      "Team",
-     39
+     39,
+     "Social scheduling for a small team."
     ],
     [
      "launch-content",
      "HeyGen",
-     "Creator",
-     29
+     "Creator (video)",
+     29,
+     "Video creation (a separate job from scheduling): demos and outbound videos."
     ],
     [
      "signals",
      "RB2B",
      "Starter",
-     79
+     79,
+     "Identifies site visitors to feed outbound."
     ],
     [
      "signals",
      "PostHog",
      "Free allowance",
-     0
+     0,
+     "Product analytics on the free allowance."
     ],
     [
      "ai-sdr",
      "Artisan",
      "Optional \u2014 contact sales, not included",
-     0
+     0,
+     "Optional; only if you want an AI SDR instead of hiring one."
     ]
    ]
   },
@@ -729,43 +738,50 @@
      "outbound-email",
      "Instantly",
      "Outreach Hypergrowth",
-     358
+     358,
+     "Higher-volume outbound tier on the same tool."
     ],
     [
      "enrichment",
      "Hunter",
      "Scale",
-     299
+     299,
+     "Scale tier for team-wide email finding and verification."
     ],
     [
      "linkedin",
      "HeyReach",
      "Growth $79 \u00d7 10 senders",
-     790
+     790,
+     "One sender per rep on LinkedIn."
     ],
     [
      "launch-content",
      "Postiz",
      "Pro",
-     49
+     49,
+     "Social scheduling across a marketing team."
     ],
     [
      "launch-content",
      "HeyGen",
-     "Business",
-     149
+     "Business (video)",
+     149,
+     "Video creation (separate job from scheduling)."
     ],
     [
      "signals",
      "Common Room",
      "Essential (billed annually, 5 seats)",
-     2500
+     2500,
+     "Intent and community signals across channels; replaces RB2B at this stage."
     ],
     [
      "ai-sdr",
      "11x / Qualified",
      "Contact sales, not included",
-     0
+     0,
+     "Optional AI SDR; price on request."
     ]
    ]
   }

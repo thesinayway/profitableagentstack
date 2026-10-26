@@ -4,7 +4,7 @@
 
 ## Key pages
 - [Solo founder monetizing an idea](https://profitableagentstack.com/stages/solo-founder.html): est. $68/mo stack
-- [Pre-seed to Series A, growing](https://profitableagentstack.com/stages/pre-seed-to-series-a.html): est. $448/mo stack
+- [Pre-seed to Series A, growing](https://profitableagentstack.com/stages/pre-seed-to-series-a.html): est. $401/mo stack
 - [Later stage, 10+ people](https://profitableagentstack.com/stages/later-stage.html): est. $4,145/mo stack
 - [Directory](https://profitableagentstack.com/directory.html)
 - [Methodology](https://profitableagentstack.com/methodology.html)
@@ -42,33 +42,32 @@
 ## Stage stacks (estimates)
 ### Solo founder monetizing an idea: $68/mo + €19 Waalaxy
 Assumptions: 1 person, 1 LinkedIn account, ~5,000 emails/mo, monthly billing, entry tiers.
-- Outbound email / sequencing: Smartlead, Base, 1 workspace, $39
-- Enrichment & verification: Hunter, Free plan (50 credits), $0
-- List building & lead data: Exa, Free $10 credits/mo, $0
-- LinkedIn outreach: Waalaxy, 1 user × €19 (EUR, not converted), $0
-- Launch, content & social: Postiz, Standard, $29
-- Signals, intent & analytics: PostHog, Free allowance, $0
-- Signals, intent & analytics: RB2B, Free plan, $0
-### Pre-seed to Series A, growing: $448/mo 
-Assumptions: 3 people, 2 LinkedIn senders, ~5,000 emails/mo plus 1,500 lead credits, monthly billing.
-- Outbound email / sequencing: Instantly, Outreach Growth, $47
-- List building & lead data: Instantly, Credits Growth (1,500 credits), $47
-- Enrichment & verification: Hunter, Starter, $49
-- LinkedIn outreach: HeyReach, Growth $79 × 2 senders, $158
-- Launch, content & social: Postiz, Team, $39
-- Launch, content & social: HeyGen, Creator, $29
-- Signals, intent & analytics: RB2B, Starter, $79
-- Signals, intent & analytics: PostHog, Free allowance, $0
-- AI SDR / agentic SDR: Artisan, Optional — contact sales, not included, $0
+- Outbound email / sequencing: Smartlead, Base, 1 workspace, $39 — Lowest published entry price for outbound email in our list.
+- Enrichment & verification: Hunter, Free plan (50 credits), $0 — Free plan covers email finding/verification at solo volume.
+- List building & lead data: Exa, Free $10 credits/mo, $0 — Free credits for finding target companies; Hunter then finds the emails.
+- LinkedIn outreach: Waalaxy, 1 user × €19 (EUR, not converted), $0 — Cheapest listed LinkedIn tool (per user, EUR).
+- Launch, content & social: Postiz, Standard, $29 — Social scheduling for founder-led content.
+- Signals, intent & analytics: PostHog, Free allowance, $0 — Free product analytics allowance.
+- Signals, intent & analytics: RB2B, Free plan, $0 — Free website-visitor identification; a different signal from product analytics.
+### Pre-seed to Series A, growing: $401/mo 
+Assumptions: 3 people, 2 LinkedIn senders, ~5,000 emails/mo, monthly billing.
+- Outbound email / sequencing: Instantly, Outreach Growth, $47 — Top value score for outbound; unlimited mailboxes on one plan. Its lead credits are not added because Hunter covers enrichment.
+- Enrichment & verification: Hunter, Starter, $49 — Finding and verifying emails, so no second data plan is needed.
+- LinkedIn outreach: HeyReach, Growth $79 × 2 senders, $158 — Per-sender pricing scales with 2 founders/SDRs on LinkedIn.
+- Launch, content & social: Postiz, Team, $39 — Social scheduling for a small team.
+- Launch, content & social: HeyGen, Creator (video), $29 — Video creation (a separate job from scheduling): demos and outbound videos.
+- Signals, intent & analytics: RB2B, Starter, $79 — Identifies site visitors to feed outbound.
+- Signals, intent & analytics: PostHog, Free allowance, $0 — Product analytics on the free allowance.
+- AI SDR / agentic SDR: Artisan, Optional — contact sales, not included, $0 — Optional; only if you want an AI SDR instead of hiring one.
 ### Later stage, 10+ people: $4,145/mo 
 Assumptions: 10+ people, 10 LinkedIn senders, high email volume, monthly list prices except Common Room (billed annually).
-- Outbound email / sequencing: Instantly, Outreach Hypergrowth, $358
-- Enrichment & verification: Hunter, Scale, $299
-- LinkedIn outreach: HeyReach, Growth $79 × 10 senders, $790
-- Launch, content & social: Postiz, Pro, $49
-- Launch, content & social: HeyGen, Business, $149
-- Signals, intent & analytics: Common Room, Essential (billed annually, 5 seats), $2500
-- AI SDR / agentic SDR: 11x / Qualified, Contact sales, not included, $0
+- Outbound email / sequencing: Instantly, Outreach Hypergrowth, $358 — Higher-volume outbound tier on the same tool.
+- Enrichment & verification: Hunter, Scale, $299 — Scale tier for team-wide email finding and verification.
+- LinkedIn outreach: HeyReach, Growth $79 × 10 senders, $790 — One sender per rep on LinkedIn.
+- Launch, content & social: Postiz, Pro, $49 — Social scheduling across a marketing team.
+- Launch, content & social: HeyGen, Business (video), $149 — Video creation (separate job from scheduling).
+- Signals, intent & analytics: Common Room, Essential (billed annually, 5 seats), $2500 — Intent and community signals across channels; replaces RB2B at this stage.
+- AI SDR / agentic SDR: 11x / Qualified, Contact sales, not included, $0 — Optional AI SDR; price on request.
 
 ## Methodology
 Value = 50% fit (editorial) + 30% cost + 20% sentiment; sentiment not yet verified so fit/cost reweighted 62.5/37.5.
