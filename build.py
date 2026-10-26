@@ -38,15 +38,23 @@ PAGES=[]
 LOGONOTE='<p>Logos and trademarks belong to their owners and are used only to identify products; no endorsement implied. Owners can request removal via the <a href="/corrections.html">corrections page</a>.</p>'
 def init(n): return ''.join(w[0] for w in n.replace('.',' ').split()[:2]).upper()
 def price(t): return 'Contact sales' if t['status']=='contact' else t['price']
+import urllib.parse as _u
+UTM={'utm_source':'profitableagentstack','utm_medium':'referral','utm_campaign':'directory'}
+def tool_link(t):
+  """Single source for outbound tool links. Returns (href, rel, is_affiliate)."""
+  if t.get('affiliate_url'): return t['affiliate_url'],'sponsored noopener',True
+  p=_u.urlparse(t['homepage_url']);q=dict(_u.parse_qsl(p.query));q.update(UTM)
+  return _u.urlunparse(p._replace(query=_u.urlencode(q))),'noopener',False
 def card(t):
   b=''
   if best.get(t['use_case']) is t: b+='<span class="badge v">Best value</span>'
   if t['name'] in growth_picks: b+='<span class="badge p">Top pick for pre-seed</span>'
   if t['status']=='contact': b+='<span class="badge c">Contact sales</span>'
   if t['status']=='unverified': b+='<span class="badge c">Price not yet verified</span>'
+  L=tool_link(t)
   sc=t['value_score'];cost=t['from'] if t['from'] is not None else 1e9
   return f'''<article class="card" data-uc="{t['use_case']}" data-stages="{' '.join(t['stages'])}" data-score="{sc or 0}" data-cost="{cost}">
-<div class="row">{f'<img class="logo-img" src="{t["logo"]}" alt="{e(t["name"])} logo" width="40" height="40" loading="lazy">' if t.get('logo') else ''}<div><h3 style="margin:0">{e(t['name'])}</h3><span class="mut">{UC[t['use_case']]}</span></div><div style="margin-left:auto;text-align:right"><div class="score">{sc if sc is not None else '—'}</div><span class="mut">value score</span></div></div>
+<div class="row"><a class="row" href="{e(L[0])}" target="_blank" rel="{L[1]}" style="text-decoration:none;color:inherit">{f'<img class="logo-img" src="{t["logo"]}" alt="{e(t["name"])} logo" width="40" height="40" loading="lazy">' if t.get('logo') else ''}<h3 style="margin:0">{e(t['name'])}</h3></a>{' <span class="badge c">affiliate</span>' if L[2] else ''}<div><span class="mut">{UC[t['use_case']]}</span></div><div style="margin-left:auto;text-align:right"><div class="score">{sc if sc is not None else '—'}</div><span class="mut">value score</span></div></div>
 <p>{b}</p><p>{e(price(t))}</p><p class="mut">Fit {t['fit_score']}/5 (editorial) · Stages: {', '.join(ST[s]['short'] for s in t['stages'])}</p>
 <p class="mut">Prices as of {C}, verify with vendor. <a href="{t['source']}" rel="nofollow noopener" target="_blank">Pricing source</a> · <a href="{t['reviews']['g2_url']}" rel="nofollow noopener" target="_blank">See reviews on G2</a></p></article>'''
 def sw(t):
