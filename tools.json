@@ -1,0 +1,658 @@
+{
+ "checked": "2026-10-26",
+ "use_cases": [
+  {
+   "id": "positioning",
+   "name": "Positioning & messaging research"
+  },
+  {
+   "id": "list-building",
+   "name": "List building & lead data"
+  },
+  {
+   "id": "enrichment",
+   "name": "Enrichment & verification"
+  },
+  {
+   "id": "outbound-email",
+   "name": "Outbound email / sequencing"
+  },
+  {
+   "id": "linkedin",
+   "name": "LinkedIn outreach"
+  },
+  {
+   "id": "ai-sdr",
+   "name": "AI SDR / agentic SDR"
+  },
+  {
+   "id": "launch-content",
+   "name": "Launch, content & social"
+  },
+  {
+   "id": "signals",
+   "name": "Signals, intent & analytics"
+  }
+ ],
+ "tools": [
+  {
+   "name": "Smartlead",
+   "use_case": "outbound-email",
+   "from": 39,
+   "status": "published",
+   "price": "Base from $39/mo (pricing page also lists Pro, Smart, Prime tiers)",
+   "source": "https://www.smartlead.ai/pricing",
+   "fit_score": 4,
+   "stages": [
+    "solo",
+    "growth"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Smartlead",
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+   }
+  },
+  {
+   "name": "Instantly",
+   "use_case": "outbound-email",
+   "from": 47,
+   "status": "published",
+   "price": "Outreach Growth $47/mo, Hypergrowth $358/mo; Credits Growth $47/mo (1,500 credits)",
+   "source": "https://instantly.ai/pricing",
+   "fit_score": 5,
+   "stages": [
+    "solo",
+    "growth",
+    "later"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Instantly",
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+   }
+  },
+  {
+   "name": "Salesforge",
+   "use_case": "outbound-email",
+   "from": 48,
+   "status": "published",
+   "price": "Page title says 'Starting at $48/mo'; plan subscriptions shown at $40 and $80/mo billed monthly",
+   "source": "https://www.salesforge.ai/pricing",
+   "fit_score": 4,
+   "stages": [
+    "solo",
+    "growth"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Salesforge",
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+   }
+  },
+  {
+   "name": "lemlist",
+   "use_case": "outbound-email",
+   "from": 69,
+   "status": "published",
+   "price": "Email $69/mo monthly ($55 annual), 50,000 emails/mo; Multichannel $109/mo ($87 annual)",
+   "source": "https://www.lemlist.com/pricing",
+   "fit_score": 4,
+   "stages": [
+    "growth",
+    "later"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=lemlist",
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+   }
+  },
+  {
+   "name": "Reply.io",
+   "use_case": "outbound-email",
+   "from": 59,
+   "status": "published",
+   "price": "Email volume tiers 'starts from' $59 monthly (lower with annual); LinkedIn add-on $69/mo/acct; higher tiers vary",
+   "source": "https://reply.io/pricing/",
+   "fit_score": 4,
+   "stages": [
+    "growth",
+    "later"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Reply.io",
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+   }
+  },
+  {
+   "name": "Woodpecker",
+   "use_case": "outbound-email",
+   "from": null,
+   "status": "unverified",
+   "price": "Price not captured automatically \u2014 see vendor page",
+   "source": "https://woodpecker.co/pricing/",
+   "fit_score": 3,
+   "stages": [
+    "solo",
+    "growth"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Woodpecker",
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+   }
+  },
+  {
+   "name": "Apollo",
+   "use_case": "list-building",
+   "from": null,
+   "status": "unverified",
+   "price": "Price not captured automatically \u2014 see vendor page",
+   "source": "https://www.apollo.io/pricing",
+   "fit_score": 5,
+   "stages": [
+    "growth",
+    "later"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Apollo",
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+   }
+  },
+  {
+   "name": "Exa",
+   "use_case": "list-building",
+   "from": 0,
+   "status": "published",
+   "price": "Free $10 credits/mo; Search from $4 per 1k requests (usage-based)",
+   "source": "https://exa.ai/pricing",
+   "fit_score": 4,
+   "stages": [
+    "solo",
+    "growth"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Exa",
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+   }
+  },
+  {
+   "name": "Clay",
+   "use_case": "enrichment",
+   "from": null,
+   "status": "published",
+   "price": "Usage-based on actions; page shows e.g. 15K actions/mo at $60/mo and a plan at $167/mo \u2014 check tier details",
+   "source": "https://www.clay.com/pricing",
+   "fit_score": 5,
+   "stages": [
+    "growth",
+    "later"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Clay",
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+   }
+  },
+  {
+   "name": "Hunter",
+   "use_case": "enrichment",
+   "from": 0,
+   "status": "published",
+   "price": "Free (50 credits); Starter $49/mo monthly ($34 annual); Growth $149 ($104); Scale $299 ($209)",
+   "source": "https://hunter.io/pricing",
+   "fit_score": 4,
+   "stages": [
+    "solo",
+    "growth",
+    "later"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Hunter",
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+   }
+  },
+  {
+   "name": "FullEnrich",
+   "use_case": "enrichment",
+   "from": 0,
+   "status": "published",
+   "price": "Free trial; Pro 15K credits $720/mo; other credit tiers on page",
+   "source": "https://fullenrich.com/pricing",
+   "fit_score": 4,
+   "stages": [
+    "growth",
+    "later"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=FullEnrich",
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+   }
+  },
+  {
+   "name": "Clearout",
+   "use_case": "enrichment",
+   "from": null,
+   "status": "unverified",
+   "price": "Price not captured automatically \u2014 see vendor page",
+   "source": "https://clearout.io/pricing/",
+   "fit_score": 3,
+   "stages": [
+    "solo",
+    "growth"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Clearout",
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+   }
+  },
+  {
+   "name": "HeyReach",
+   "use_case": "linkedin",
+   "from": 79,
+   "status": "published",
+   "price": "Growth $79/sender/mo; Agency $999/mo (25 senders); Unlimited $2,999/mo",
+   "source": "https://www.heyreach.io/pricing",
+   "fit_score": 5,
+   "stages": [
+    "growth",
+    "later"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=HeyReach",
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+   }
+  },
+  {
+   "name": "Expandi",
+   "use_case": "linkedin",
+   "from": 99,
+   "status": "published",
+   "price": "$99/mo monthly ($79 annual), 7-day free trial",
+   "source": "https://expandi.io/pricing/",
+   "fit_score": 4,
+   "stages": [
+    "solo",
+    "growth"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Expandi",
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+   }
+  },
+  {
+   "name": "Waalaxy",
+   "use_case": "linkedin",
+   "from": 19,
+   "status": "published",
+   "price": "\u20ac19, \u20ac49, \u20ac69 per user/mo; 14-day free trial (EUR)",
+   "source": "https://www.waalaxy.com/pricing",
+   "fit_score": 4,
+   "stages": [
+    "solo",
+    "growth"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Waalaxy",
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+   }
+  },
+  {
+   "name": "11x",
+   "use_case": "ai-sdr",
+   "from": null,
+   "status": "contact",
+   "price": "Contact sales (no public price found)",
+   "source": "https://www.11x.ai/",
+   "fit_score": 4,
+   "stages": [
+    "later"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=11x",
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+   }
+  },
+  {
+   "name": "Artisan",
+   "use_case": "ai-sdr",
+   "from": null,
+   "status": "contact",
+   "price": "Contact sales (no public price captured)",
+   "source": "https://www.artisan.co/pricing",
+   "fit_score": 4,
+   "stages": [
+    "growth",
+    "later"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Artisan",
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+   }
+  },
+  {
+   "name": "Qualified",
+   "use_case": "ai-sdr",
+   "from": null,
+   "status": "contact",
+   "price": "Contact sales (no public price captured)",
+   "source": "https://www.qualified.com/pricing",
+   "fit_score": 4,
+   "stages": [
+    "later"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Qualified",
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+   }
+  },
+  {
+   "name": "Postiz",
+   "use_case": "launch-content",
+   "from": 29,
+   "status": "published",
+   "price": "Standard $29/mo, Team $39, Pro $49, Ultimate $99",
+   "source": "https://postiz.com/pricing",
+   "fit_score": 4,
+   "stages": [
+    "solo",
+    "growth",
+    "later"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Postiz",
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+   }
+  },
+  {
+   "name": "HeyGen",
+   "use_case": "launch-content",
+   "from": 0,
+   "status": "published",
+   "price": "Free $0; Creator $29/mo; Pro $49/mo; Business $149/mo",
+   "source": "https://www.heygen.com/pricing",
+   "fit_score": 4,
+   "stages": [
+    "solo",
+    "growth",
+    "later"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=HeyGen",
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+   }
+  },
+  {
+   "name": "RB2B",
+   "use_case": "signals",
+   "from": 0,
+   "status": "published",
+   "price": "Free $0; Starter $79/mo; Pro from $149; Pro+ from $199",
+   "source": "https://www.rb2b.com/pricing",
+   "fit_score": 4,
+   "stages": [
+    "solo",
+    "growth"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=RB2B",
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+   }
+  },
+  {
+   "name": "PostHog",
+   "use_case": "signals",
+   "from": 0,
+   "status": "published",
+   "price": "Free monthly allowance (e.g. 1M analytics events), then usage-based",
+   "source": "https://posthog.com/pricing",
+   "fit_score": 4,
+   "stages": [
+    "solo",
+    "growth",
+    "later"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=PostHog",
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+   }
+  },
+  {
+   "name": "Common Room",
+   "use_case": "signals",
+   "from": 2500,
+   "status": "published",
+   "price": "Essential $2,500/mo billed annually (5 seats)",
+   "source": "https://www.commonroom.io/pricing",
+   "fit_score": 4,
+   "stages": [
+    "later"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Common+Room",
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+   }
+  }
+ ],
+ "releases": [
+  {
+   "date": "2026-10-26",
+   "text": "Directory launched (draft) with 23 tools across 8 use cases. Weekly release and price-change log coming."
+  }
+ ],
+ "stages": [
+  {
+   "id": "solo",
+   "name": "Solo founder monetizing an idea",
+   "short": "Solo founder"
+  },
+  {
+   "id": "growth",
+   "name": "Pre-seed to Series A, growing",
+   "short": "Pre-seed to Series A",
+   "primary": true
+  },
+  {
+   "id": "later",
+   "name": "Later stage, 10+ people",
+   "short": "Later stage (10+)"
+  }
+ ],
+ "stacks": {
+  "solo": {
+   "assumptions": "1 person, 1 LinkedIn account, ~5,000 emails/mo, monthly billing, entry tiers.",
+   "items": [
+    [
+     "outbound-email",
+     "Smartlead",
+     "Base, 1 workspace",
+     39
+    ],
+    [
+     "enrichment",
+     "Hunter",
+     "Free plan (50 credits)",
+     0
+    ],
+    [
+     "list-building",
+     "Exa",
+     "Free $10 credits/mo",
+     0
+    ],
+    [
+     "linkedin",
+     "Waalaxy",
+     "1 user \u00d7 \u20ac19 (EUR, not converted)",
+     0
+    ],
+    [
+     "launch-content",
+     "Postiz",
+     "Standard",
+     29
+    ],
+    [
+     "signals",
+     "PostHog",
+     "Free allowance",
+     0
+    ],
+    [
+     "signals",
+     "RB2B",
+     "Free plan",
+     0
+    ]
+   ],
+   "extra": "+ \u20ac19 Waalaxy"
+  },
+  "growth": {
+   "assumptions": "3 people, 2 LinkedIn senders, ~5,000 emails/mo plus 1,500 lead credits, monthly billing.",
+   "items": [
+    [
+     "outbound-email",
+     "Instantly",
+     "Outreach Growth",
+     47
+    ],
+    [
+     "list-building",
+     "Instantly",
+     "Credits Growth (1,500 credits)",
+     47
+    ],
+    [
+     "enrichment",
+     "Hunter",
+     "Starter",
+     49
+    ],
+    [
+     "linkedin",
+     "HeyReach",
+     "Growth $79 \u00d7 2 senders",
+     158
+    ],
+    [
+     "launch-content",
+     "Postiz",
+     "Team",
+     39
+    ],
+    [
+     "launch-content",
+     "HeyGen",
+     "Creator",
+     29
+    ],
+    [
+     "signals",
+     "RB2B",
+     "Starter",
+     79
+    ],
+    [
+     "signals",
+     "PostHog",
+     "Free allowance",
+     0
+    ],
+    [
+     "ai-sdr",
+     "Artisan",
+     "Optional \u2014 contact sales, not included",
+     0
+    ]
+   ]
+  },
+  "later": {
+   "assumptions": "10+ people, 10 LinkedIn senders, high email volume, monthly list prices except Common Room (billed annually).",
+   "items": [
+    [
+     "outbound-email",
+     "Instantly",
+     "Outreach Hypergrowth",
+     358
+    ],
+    [
+     "enrichment",
+     "Hunter",
+     "Scale",
+     299
+    ],
+    [
+     "linkedin",
+     "HeyReach",
+     "Growth $79 \u00d7 10 senders",
+     790
+    ],
+    [
+     "launch-content",
+     "Postiz",
+     "Pro",
+     49
+    ],
+    [
+     "launch-content",
+     "HeyGen",
+     "Business",
+     149
+    ],
+    [
+     "signals",
+     "Common Room",
+     "Essential (billed annually, 5 seats)",
+     2500
+    ],
+    [
+     "ai-sdr",
+     "11x / Qualified",
+     "Contact sales, not included",
+     0
+    ]
+   ]
+  }
+ }
+}

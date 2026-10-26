@@ -1,0 +1,15 @@
+# Profitable Agent Stack
+
+> Cost-first directory of AI GTM tools ranked by use-case fit, published price and user sentiment, with estimated monthly stack costs by company stage. Prices checked 2026-10-26; verify with vendors. Not advice.
+
+## Key pages
+- [Solo founder monetizing an idea](https://profitableagentstack.com/stages/solo-founder.html): est. $68/mo stack
+- [Pre-seed to Series A, growing](https://profitableagentstack.com/stages/pre-seed-to-series-a.html): est. $448/mo stack
+- [Later stage, 10+ people](https://profitableagentstack.com/stages/later-stage.html): est. $4,145/mo stack
+- [Directory](https://profitableagentstack.com/directory.html)
+- [Methodology](https://profitableagentstack.com/methodology.html)
+- [For AI agents](https://profitableagentstack.com/for-ai-agents.html)
+
+## Data
+- [tools.json](https://profitableagentstack.com/api/tools.json): CC BY 4.0, attribution required
+- [Full text](https://profitableagentstack.com/llms-full.txt)
