@@ -3,35 +3,73 @@
  "use_cases": [
   {
    "id": "positioning",
-   "name": "Positioning & messaging research"
+   "name": "Positioning & messaging research",
+   "group": "sales"
   },
   {
    "id": "list-building",
-   "name": "List building & lead data"
+   "name": "List building & lead data",
+   "group": "sales"
   },
   {
    "id": "enrichment",
-   "name": "Enrichment & verification"
+   "name": "Enrichment & verification",
+   "group": "sales"
   },
   {
    "id": "outbound-email",
-   "name": "Outbound email / sequencing"
+   "name": "Outbound email / sequencing",
+   "group": "sales"
   },
   {
    "id": "linkedin",
-   "name": "LinkedIn outreach"
+   "name": "LinkedIn outreach",
+   "group": "sales"
   },
   {
    "id": "ai-sdr",
-   "name": "AI SDR / agentic SDR"
-  },
-  {
-   "id": "launch-content",
-   "name": "Launch, content & social"
+   "name": "AI SDR / agentic SDR",
+   "group": "sales"
   },
   {
    "id": "signals",
-   "name": "Signals, intent & analytics"
+   "name": "Signals, intent & analytics",
+   "group": "sales"
+  },
+  {
+   "id": "seo-content",
+   "name": "SEO & content",
+   "group": "marketing"
+  },
+  {
+   "id": "social-scheduling",
+   "name": "Social scheduling",
+   "group": "marketing"
+  },
+  {
+   "id": "landing-pages",
+   "name": "Landing pages & websites",
+   "group": "marketing"
+  },
+  {
+   "id": "newsletters",
+   "name": "Newsletters",
+   "group": "marketing"
+  },
+  {
+   "id": "design-video",
+   "name": "Design & video",
+   "group": "marketing"
+  },
+  {
+   "id": "community",
+   "name": "Community",
+   "group": "marketing"
+  },
+  {
+   "id": "web-analytics",
+   "name": "Web analytics",
+   "group": "marketing"
   }
  ],
  "tools": [
@@ -469,7 +507,7 @@
   },
   {
    "name": "Postiz",
-   "use_case": "launch-content",
+   "use_case": "social-scheduling",
    "from": 29,
    "status": "published",
    "price": "Standard $29/mo, Team $39, Pro $49, Ultimate $99",
@@ -494,7 +532,7 @@
   },
   {
    "name": "HeyGen",
-   "use_case": "launch-content",
+   "use_case": "design-video",
    "from": 0,
    "status": "published",
    "price": "Free $0; Creator $29/mo; Pro $49/mo; Business $149/mo",
@@ -588,9 +626,470 @@
    "affiliate_url": "",
    "cost_score": 40,
    "value_score": 65
+  },
+  {
+   "name": "Google Search Console",
+   "use_case": "seo-content",
+   "from": 0,
+   "status": "published",
+   "price": "Free (Google describes it as a free service)",
+   "source": "https://support.google.com/webmasters/answer/9128668",
+   "fit_score": 5,
+   "stages": [
+    "solo",
+    "growth",
+    "later"
+   ],
+   "checked": "2026-10-27",
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Google+Search+Console",
+    "note": "G2/Capterra blocked automated fetch; rating not shown"
+   },
+   "homepage_url": "https://search.google.com/search-console/about",
+   "affiliate_url": "",
+   "logo": "/assets/logos/support.google.com.png",
+   "cost_score": 100,
+   "value_score": 100
+  },
+  {
+   "name": "Ahrefs Free",
+   "use_case": "seo-content",
+   "from": 0,
+   "status": "published",
+   "price": "Free: site audit and SEO metrics for websites you verify (formerly Ahrefs Webmaster Tools); paid plans not captured",
+   "source": "https://ahrefs.com/webmaster-tools",
+   "fit_score": 4,
+   "stages": [
+    "solo",
+    "growth"
+   ],
+   "checked": "2026-10-27",
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Ahrefs+Free",
+    "note": "G2/Capterra blocked automated fetch; rating not shown"
+   },
+   "homepage_url": "https://ahrefs.com/",
+   "affiliate_url": "",
+   "logo": "/assets/logos/ahrefs.com.png",
+   "cost_score": 100,
+   "value_score": 88
+  },
+  {
+   "name": "Surfer",
+   "use_case": "seo-content",
+   "from": 49,
+   "status": "published",
+   "price": "Discovery $49/mo billed yearly; Standard $99/mo; Pro $182/mo (page lists \"USD per month\", billed yearly)",
+   "source": "https://surferseo.com/pricing/",
+   "fit_score": 4,
+   "stages": [
+    "growth",
+    "later"
+   ],
+   "checked": "2026-10-27",
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Surfer",
+    "note": "G2/Capterra blocked automated fetch; rating not shown"
+   },
+   "homepage_url": "https://surferseo.com/",
+   "affiliate_url": "",
+   "logo": "/assets/logos/surferseo.com.png",
+   "cost_score": 40,
+   "value_score": 65
+  },
+  {
+   "name": "Buffer",
+   "use_case": "social-scheduling",
+   "from": 0,
+   "status": "published",
+   "price": "Free: up to 3 channels, 10 scheduled posts per channel; Essentials $5/mo per channel (monthly); Team $10/mo per channel",
+   "source": "https://buffer.com/pricing",
+   "fit_score": 4,
+   "stages": [
+    "solo",
+    "growth",
+    "later"
+   ],
+   "checked": "2026-10-27",
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Buffer",
+    "note": "G2/Capterra blocked automated fetch; rating not shown"
+   },
+   "homepage_url": "https://buffer.com/",
+   "affiliate_url": "",
+   "logo": "/assets/logos/buffer.com.png",
+   "cost_score": 100,
+   "value_score": 88
+  },
+  {
+   "name": "Typefully",
+   "use_case": "social-scheduling",
+   "from": 0,
+   "status": "published",
+   "price": "Free plan available; paid plan prices not captured",
+   "source": "https://typefully.com/",
+   "fit_score": 4,
+   "stages": [
+    "solo",
+    "growth"
+   ],
+   "checked": "2026-10-27",
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Typefully",
+    "note": "G2/Capterra blocked automated fetch; rating not shown"
+   },
+   "homepage_url": "https://typefully.com/",
+   "affiliate_url": "",
+   "note": "Paid prices not captured; check vendor",
+   "logo": "/assets/logos/typefully.com.png",
+   "cost_score": 100,
+   "value_score": 88
+  },
+  {
+   "name": "Carrd",
+   "use_case": "landing-pages",
+   "from": 0,
+   "status": "published",
+   "price": "Free account; Pro Lite $9/yr, Pro Standard $19/yr (custom domain), up to $69/yr for 50 sites",
+   "source": "https://carrd.co/pro",
+   "fit_score": 4,
+   "stages": [
+    "solo",
+    "growth"
+   ],
+   "checked": "2026-10-27",
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Carrd",
+    "note": "G2/Capterra blocked automated fetch; rating not shown"
+   },
+   "homepage_url": "https://carrd.co/",
+   "affiliate_url": "",
+   "logo": "/assets/logos/carrd.co.png",
+   "cost_score": 100,
+   "value_score": 88
+  },
+  {
+   "name": "Framer",
+   "use_case": "landing-pages",
+   "from": 0,
+   "status": "published",
+   "price": "Free $0 (Framer domain); Basic $10/mo, Pro $30/mo (yearly-billing view; monthly-billing price not verified)",
+   "source": "https://www.framer.com/pricing",
+   "fit_score": 5,
+   "stages": [
+    "solo",
+    "growth"
+   ],
+   "checked": "2026-10-27",
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Framer",
+    "note": "G2/Capterra blocked automated fetch; rating not shown"
+   },
+   "homepage_url": "https://www.framer.com/",
+   "affiliate_url": "",
+   "logo": "/assets/logos/framer.com.png",
+   "cost_score": 100,
+   "value_score": 100
+  },
+  {
+   "name": "Webflow",
+   "use_case": "landing-pages",
+   "from": 0,
+   "status": "published",
+   "price": "Free (webflow.io domain); site plans Basic $15/mo billed yearly, CMS plan $25/mo billed yearly",
+   "source": "https://webflow.com/pricing",
+   "fit_score": 4,
+   "stages": [
+    "growth",
+    "later"
+   ],
+   "checked": "2026-10-27",
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Webflow",
+    "note": "G2/Capterra blocked automated fetch; rating not shown"
+   },
+   "homepage_url": "https://webflow.com/",
+   "affiliate_url": "",
+   "logo": "/assets/logos/webflow.com.png",
+   "cost_score": 100,
+   "value_score": 88
+  },
+  {
+   "name": "beehiiv",
+   "use_case": "newsletters",
+   "from": 0,
+   "status": "published",
+   "price": "Free forever (1,000-subscriber view); Lite $49/mo yearly billing; Pro $95/mo yearly billing",
+   "source": "https://www.beehiiv.com/pricing",
+   "fit_score": 5,
+   "stages": [
+    "solo",
+    "growth",
+    "later"
+   ],
+   "checked": "2026-10-27",
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=beehiiv",
+    "note": "G2/Capterra blocked automated fetch; rating not shown"
+   },
+   "homepage_url": "https://www.beehiiv.com/",
+   "affiliate_url": "",
+   "logo": "/assets/logos/beehiiv.com.png",
+   "cost_score": 100,
+   "value_score": 100
+  },
+  {
+   "name": "Kit",
+   "use_case": "newsletters",
+   "from": null,
+   "status": "unverified",
+   "price": "Price not captured: vendor pricing page blocked automated fetch \u2014 see vendor page",
+   "source": "https://kit.com/pricing",
+   "fit_score": 4,
+   "stages": [
+    "solo",
+    "growth"
+   ],
+   "checked": "2026-10-27",
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Kit",
+    "note": "G2/Capterra blocked automated fetch; rating not shown"
+   },
+   "homepage_url": "https://kit.com/",
+   "affiliate_url": "",
+   "logo": "/assets/logos/kit.com.png",
+   "cost_score": null,
+   "value_score": null
+  },
+  {
+   "name": "Descript",
+   "use_case": "design-video",
+   "from": 0,
+   "status": "published",
+   "price": "Free $0; Hobbyist $16/mo yearly ($24 monthly); Creator $24 yearly ($35 monthly); Business $50 yearly ($65 monthly), per person",
+   "source": "https://www.descript.com/pricing",
+   "fit_score": 4,
+   "stages": [
+    "solo",
+    "growth"
+   ],
+   "checked": "2026-10-27",
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Descript",
+    "note": "G2/Capterra blocked automated fetch; rating not shown"
+   },
+   "homepage_url": "https://www.descript.com/",
+   "affiliate_url": "",
+   "logo": "/assets/logos/descript.com.png",
+   "cost_score": 100,
+   "value_score": 88
+  },
+  {
+   "name": "CapCut",
+   "use_case": "design-video",
+   "from": 0,
+   "status": "published",
+   "price": "Free USD 0; paid plan prices not captured",
+   "source": "https://www.capcut.com/pricing",
+   "fit_score": 4,
+   "stages": [
+    "solo",
+    "growth"
+   ],
+   "checked": "2026-10-27",
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=CapCut",
+    "note": "G2/Capterra blocked automated fetch; rating not shown"
+   },
+   "homepage_url": "https://www.capcut.com/",
+   "affiliate_url": "",
+   "logo": "/assets/logos/capcut.com.png",
+   "cost_score": 100,
+   "value_score": 88
+  },
+  {
+   "name": "Canva",
+   "use_case": "design-video",
+   "from": null,
+   "status": "unverified",
+   "price": "Price not captured: vendor pricing page blocked automated fetch \u2014 see vendor page",
+   "source": "https://www.canva.com/pricing/",
+   "fit_score": 5,
+   "stages": [
+    "solo",
+    "growth",
+    "later"
+   ],
+   "checked": "2026-10-27",
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Canva",
+    "note": "G2/Capterra blocked automated fetch; rating not shown"
+   },
+   "homepage_url": "https://www.canva.com/",
+   "affiliate_url": "",
+   "logo": "/assets/logos/canva.com.png",
+   "cost_score": null,
+   "value_score": null
+  },
+  {
+   "name": "Circle",
+   "use_case": "community",
+   "from": 89,
+   "status": "published",
+   "price": "Professional $89/mo, Business $199/mo, Scale $419/mo (billing period not verified); 14-day free trial, no free plan listed",
+   "source": "https://circle.so/pricing",
+   "fit_score": 4,
+   "stages": [
+    "growth",
+    "later"
+   ],
+   "checked": "2026-10-27",
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Circle",
+    "note": "G2/Capterra blocked automated fetch; rating not shown"
+   },
+   "homepage_url": "https://circle.so/",
+   "affiliate_url": "",
+   "logo": "/assets/logos/circle.so.png",
+   "cost_score": 100,
+   "value_score": 88
+  },
+  {
+   "name": "Discord",
+   "use_case": "community",
+   "from": null,
+   "status": "unverified",
+   "price": "Price not captured: no pricing page found for community servers \u2014 see vendor",
+   "source": "https://discord.com/",
+   "fit_score": 4,
+   "stages": [
+    "solo",
+    "growth"
+   ],
+   "checked": "2026-10-27",
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Discord",
+    "note": "G2/Capterra blocked automated fetch; rating not shown"
+   },
+   "homepage_url": "https://discord.com/",
+   "affiliate_url": "",
+   "logo": "/assets/logos/discord.com.png",
+   "cost_score": null,
+   "value_score": null
+  },
+  {
+   "name": "Google Analytics",
+   "use_case": "web-analytics",
+   "from": 0,
+   "status": "published",
+   "price": "Free of charge (Google)",
+   "source": "https://marketingplatform.google.com/about/analytics/",
+   "fit_score": 4,
+   "stages": [
+    "solo",
+    "growth",
+    "later"
+   ],
+   "checked": "2026-10-27",
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Google+Analytics",
+    "note": "G2/Capterra blocked automated fetch; rating not shown"
+   },
+   "homepage_url": "https://marketingplatform.google.com/",
+   "affiliate_url": "",
+   "logo": "/assets/logos/marketingplatform.google.com.png",
+   "cost_score": 100,
+   "value_score": 88
+  },
+  {
+   "name": "Plausible",
+   "use_case": "web-analytics",
+   "from": 9,
+   "status": "published",
+   "price": "Starter $9/mo (up to 10k pageviews; monthly vs yearly billing view not verified), Growth $14/mo, Business $19/mo; 30-day free trial, no free plan",
+   "source": "https://plausible.io/",
+   "fit_score": 4,
+   "stages": [
+    "solo",
+    "growth"
+   ],
+   "checked": "2026-10-27",
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Plausible",
+    "note": "G2/Capterra blocked automated fetch; rating not shown"
+   },
+   "homepage_url": "https://plausible.io/",
+   "affiliate_url": "",
+   "logo": "/assets/logos/plausible.io.png",
+   "cost_score": 64,
+   "value_score": 74
+  },
+  {
+   "name": "Fathom Analytics",
+   "use_case": "web-analytics",
+   "from": 15,
+   "status": "published",
+   "price": "From $15/mo (up to 100,000 monthly pageviews); 7-day free trial",
+   "source": "https://usefathom.com/pricing",
+   "fit_score": 4,
+   "stages": [
+    "solo",
+    "growth",
+    "later"
+   ],
+   "checked": "2026-10-27",
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Fathom+Analytics",
+    "note": "G2/Capterra blocked automated fetch; rating not shown"
+   },
+   "homepage_url": "https://usefathom.com/",
+   "affiliate_url": "",
+   "logo": "/assets/logos/usefathom.com.png",
+   "cost_score": 40,
+   "value_score": 65
   }
  ],
  "releases": [
+  {
+   "date": "2026-10-27",
+   "text": "Added 7 marketing use cases (SEO & content, social scheduling, landing pages, newsletters, design & video, community, web analytics) and 18 tools; solo and pre-seed to Series A stacks now include a marketing section."
+  },
   {
    "date": "2026-10-26",
    "text": "Directory launched (draft) with 23 tools across 8 use cases. Weekly release and price-change log coming."
@@ -616,7 +1115,7 @@
  ],
  "stacks": {
   "solo": {
-   "assumptions": "1 person, 1 LinkedIn account, ~5,000 emails/mo, monthly billing, entry tiers.",
+   "assumptions": "1 person, 1 LinkedIn account, ~5,000 emails/mo, monthly billing, entry tiers. Marketing: free tiers used where they exist; Carrd priced yearly \u00f7 12.",
    "items": [
     [
      "outbound-email",
@@ -647,13 +1146,6 @@
      "Cheapest listed LinkedIn tool (per user, EUR)."
     ],
     [
-     "launch-content",
-     "Postiz",
-     "Standard",
-     29,
-     "Social scheduling for founder-led content."
-    ],
-    [
      "signals",
      "PostHog",
      "Free allowance",
@@ -666,12 +1158,47 @@
      "Free plan",
      0,
      "Free website-visitor identification; a different signal from product analytics."
+    ],
+    [
+     "social-scheduling",
+     "Postiz",
+     "Standard",
+     29,
+     "Social scheduling for founder-led content."
+    ],
+    [
+     "seo-content",
+     "Google Search Console",
+     "Free",
+     0,
+     "Free first-party search data: which queries bring visitors. Ahrefs Free is a good second look but would overlap."
+    ],
+    [
+     "landing-pages",
+     "Carrd",
+     "Pro Standard, $19/yr \u00f7 12",
+     1.58,
+     "Cheapest custom-domain landing page in our list; $19/yr is the yearly price on its Pro page."
+    ],
+    [
+     "newsletters",
+     "beehiiv",
+     "Free plan",
+     0,
+     "Free forever plan; upgrade to Lite ($49/mo yearly) only when monetizing."
+    ],
+    [
+     "design-video",
+     "CapCut",
+     "Free",
+     0,
+     "Free video editing for short clips; Canva (price not verified) is an optional design add-on and is not counted."
     ]
    ],
    "extra": "+ \u20ac19 Waalaxy"
   },
   "growth": {
-   "assumptions": "3 people, 2 LinkedIn senders, ~5,000 emails/mo, monthly billing.",
+   "assumptions": "3 people, 2 LinkedIn senders, ~5,000 emails/mo, monthly billing. Marketing: Surfer and Framer at their lowest listed paid tiers (yearly-billing view); Canva and Discord optional and not counted.",
    "items": [
     [
      "outbound-email",
@@ -695,20 +1222,6 @@
      "Per-sender pricing scales with 2 founders/SDRs on LinkedIn."
     ],
     [
-     "launch-content",
-     "Postiz",
-     "Team",
-     39,
-     "Social scheduling for a small team."
-    ],
-    [
-     "launch-content",
-     "HeyGen",
-     "Creator (video)",
-     29,
-     "Video creation (a separate job from scheduling): demos and outbound videos."
-    ],
-    [
      "signals",
      "RB2B",
      "Starter",
@@ -728,6 +1241,62 @@
      "Optional \u2014 contact sales, not included",
      0,
      "Optional; only if you want an AI SDR instead of hiring one."
+    ],
+    [
+     "social-scheduling",
+     "Postiz",
+     "Team",
+     39,
+     "Social scheduling for a small team."
+    ],
+    [
+     "design-video",
+     "HeyGen",
+     "Creator (video)",
+     29,
+     "Video creation (a separate job from scheduling): demos and outbound videos."
+    ],
+    [
+     "seo-content",
+     "Google Search Console",
+     "Free",
+     0,
+     "Free first-party search data; tracks whether content ranks."
+    ],
+    [
+     "seo-content",
+     "Surfer",
+     "Discovery, billed yearly",
+     49,
+     "Content optimization is a separate job from tracking; Discovery is its lowest listed tier."
+    ],
+    [
+     "landing-pages",
+     "Framer",
+     "Basic (yearly-billing price)",
+     10,
+     "Design-led pages with custom domain; Basic is its lowest paid tier. Monthly-billing price not verified."
+    ],
+    [
+     "newsletters",
+     "beehiiv",
+     "Free plan",
+     0,
+     "Free until you monetize; Lite is $49/mo yearly billing."
+    ],
+    [
+     "design-video",
+     "Canva",
+     "Optional, price not verified",
+     0,
+     "Common design pick, but its pricing page blocked our fetch, so it is not counted. HeyGen already covers video."
+    ],
+    [
+     "community",
+     "Discord",
+     "Optional, price not verified",
+     0,
+     "Free-to-start community option, but no vendor price was captured, so it is not counted."
     ]
    ]
   },
@@ -756,14 +1325,14 @@
      "One sender per rep on LinkedIn."
     ],
     [
-     "launch-content",
+     "social-scheduling",
      "Postiz",
      "Pro",
      49,
      "Social scheduling across a marketing team."
     ],
     [
-     "launch-content",
+     "design-video",
      "HeyGen",
      "Business (video)",
      149,

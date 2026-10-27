@@ -3,8 +3,8 @@
 > Cost-first directory of AI GTM tools ranked by use-case fit, published price and user sentiment, with estimated monthly stack costs by company stage. Prices checked 2026-10-26; verify with vendors. Not advice.
 
 ## Key pages
-- [Solo founder monetizing an idea](https://profitableagentstack.com/stages/solo-founder.html): est. $68/mo stack
-- [Pre-seed to Series A, growing](https://profitableagentstack.com/stages/pre-seed-to-series-a.html): est. $401/mo stack
+- [Solo founder monetizing an idea](https://profitableagentstack.com/stages/solo-founder.html): est. $69.58/mo stack
+- [Pre-seed to Series A, growing](https://profitableagentstack.com/stages/pre-seed-to-series-a.html): est. $460/mo stack
 - [Later stage, 10+ people](https://profitableagentstack.com/stages/later-stage.html): est. $4,145/mo stack
 - [Directory](https://profitableagentstack.com/directory.html)
 - [Methodology](https://profitableagentstack.com/methodology.html)
@@ -16,22 +16,37 @@
 - [Full text](https://profitableagentstack.com/llms-full.txt)
 
 ## Tools
+- Google Search Console (SEO & content; stages: solo, growth, later): Free (Google describes it as a free service). Value score: 100. Source: https://support.google.com/webmasters/answer/9128668
+- Framer (Landing pages & websites; stages: solo, growth): Free $0 (Framer domain); Basic $10/mo, Pro $30/mo (yearly-billing view; monthly-billing price not verified). Value score: 100. Source: https://www.framer.com/pricing
+- beehiiv (Newsletters; stages: solo, growth, later): Free forever (1,000-subscriber view); Lite $49/mo yearly billing; Pro $95/mo yearly billing. Value score: 100. Source: https://www.beehiiv.com/pricing
 - Instantly (Outbound email / sequencing; stages: solo, growth, later): Outreach Growth $47/mo, Hypergrowth $358/mo; Credits Growth $47/mo (1,500 credits). Value score: 94. Source: https://instantly.ai/pricing
 - Smartlead (Outbound email / sequencing; stages: solo, growth): Base from $39/mo (pricing page also lists Pro, Smart, Prime tiers). Value score: 88. Source: https://www.smartlead.ai/pricing
 - Exa (List building & lead data; stages: solo, growth): Free $10 credits/mo; Search from $4 per 1k requests (usage-based). Value score: 88. Source: https://exa.ai/pricing
 - Hunter (Enrichment & verification; stages: solo, growth, later): Free (50 credits); Starter $49/mo monthly ($34 annual); Growth $149 ($104); Scale $299 ($209). Value score: 88. Source: https://hunter.io/pricing
 - FullEnrich (Enrichment & verification; stages: growth, later): Free trial; Pro 15K credits $720/mo; other credit tiers on page. Value score: 88. Source: https://fullenrich.com/pricing
 - Waalaxy (LinkedIn outreach; stages: solo, growth): €19, €49, €69 per user/mo; 14-day free trial (EUR). Value score: 88. Source: https://www.waalaxy.com/pricing
-- HeyGen (Launch, content & social; stages: solo, growth, later): Free $0; Creator $29/mo; Pro $49/mo; Business $149/mo. Value score: 88. Source: https://www.heygen.com/pricing
+- HeyGen (Design & video; stages: solo, growth, later): Free $0; Creator $29/mo; Pro $49/mo; Business $149/mo. Value score: 88. Source: https://www.heygen.com/pricing
 - RB2B (Signals, intent & analytics; stages: solo, growth): Free $0; Starter $79/mo; Pro from $149; Pro+ from $199. Value score: 88. Source: https://www.rb2b.com/pricing
 - PostHog (Signals, intent & analytics; stages: solo, growth, later): Free monthly allowance (e.g. 1M analytics events), then usage-based. Value score: 88. Source: https://posthog.com/pricing
+- Ahrefs Free (SEO & content; stages: solo, growth): Free: site audit and SEO metrics for websites you verify (formerly Ahrefs Webmaster Tools); paid plans not captured. Value score: 88. Source: https://ahrefs.com/webmaster-tools
+- Buffer (Social scheduling; stages: solo, growth, later): Free: up to 3 channels, 10 scheduled posts per channel; Essentials $5/mo per channel (monthly); Team $10/mo per channel. Value score: 88. Source: https://buffer.com/pricing
+- Typefully (Social scheduling; stages: solo, growth): Free plan available; paid plan prices not captured. Value score: 88. Source: https://typefully.com/
+- Carrd (Landing pages & websites; stages: solo, growth): Free account; Pro Lite $9/yr, Pro Standard $19/yr (custom domain), up to $69/yr for 50 sites. Value score: 88. Source: https://carrd.co/pro
+- Webflow (Landing pages & websites; stages: growth, later): Free (webflow.io domain); site plans Basic $15/mo billed yearly, CMS plan $25/mo billed yearly. Value score: 88. Source: https://webflow.com/pricing
+- Descript (Design & video; stages: solo, growth): Free $0; Hobbyist $16/mo yearly ($24 monthly); Creator $24 yearly ($35 monthly); Business $50 yearly ($65 monthly), per person. Value score: 88. Source: https://www.descript.com/pricing
+- CapCut (Design & video; stages: solo, growth): Free USD 0; paid plan prices not captured. Value score: 88. Source: https://www.capcut.com/pricing
+- Circle (Community; stages: growth, later): Professional $89/mo, Business $199/mo, Scale $419/mo (billing period not verified); 14-day free trial, no free plan listed. Value score: 88. Source: https://circle.so/pricing
+- Google Analytics (Web analytics; stages: solo, growth, later): Free of charge (Google). Value score: 88. Source: https://marketingplatform.google.com/about/analytics/
 - HeyReach (LinkedIn outreach; stages: growth, later): Growth $79/sender/mo; Agency $999/mo (25 senders); Unlimited $2,999/mo. Value score: 83. Source: https://www.heyreach.io/pricing
 - Salesforge (Outbound email / sequencing; stages: solo, growth): Page title says 'Starting at $48/mo'; plan subscriptions shown at $40 and $80/mo billed monthly. Value score: 81. Source: https://www.salesforge.ai/pricing
+- Plausible (Web analytics; stages: solo, growth): Starter $9/mo (up to 10k pageviews; monthly vs yearly billing view not verified), Growth $14/mo, Business $19/mo; 30-day free trial, no free plan. Value score: 74. Source: https://plausible.io/
 - Reply.io (Outbound email / sequencing; stages: growth, later): Email volume tiers 'starts from' $59 monthly (lower with annual); LinkedIn add-on $69/mo/acct; higher tiers vary. Value score: 72. Source: https://reply.io/pricing/
 - lemlist (Outbound email / sequencing; stages: growth, later): Email $69/mo monthly ($55 annual), 50,000 emails/mo; Multichannel $109/mo ($87 annual). Value score: 65. Source: https://www.lemlist.com/pricing
 - Expandi (LinkedIn outreach; stages: solo, growth): $99/mo monthly ($79 annual), 7-day free trial. Value score: 65. Source: https://expandi.io/pricing/
-- Postiz (Launch, content & social; stages: solo, growth, later): Standard $29/mo, Team $39, Pro $49, Ultimate $99. Value score: 65. Source: https://postiz.com/pricing
+- Postiz (Social scheduling; stages: solo, growth, later): Standard $29/mo, Team $39, Pro $49, Ultimate $99. Value score: 65. Source: https://postiz.com/pricing
 - Common Room (Signals, intent & analytics; stages: later): Essential $2,500/mo billed annually (5 seats). Value score: 65. Source: https://www.commonroom.io/pricing
+- Surfer (SEO & content; stages: growth, later): Discovery $49/mo billed yearly; Standard $99/mo; Pro $182/mo (page lists "USD per month", billed yearly). Value score: 65. Source: https://surferseo.com/pricing/
+- Fathom Analytics (Web analytics; stages: solo, growth, later): From $15/mo (up to 100,000 monthly pageviews); 7-day free trial. Value score: 65. Source: https://usefathom.com/pricing
 - Woodpecker (Outbound email / sequencing; stages: solo, growth): Price not captured automatically — see vendor page. Value score: None. Source: https://woodpecker.co/pricing/
 - Apollo (List building & lead data; stages: growth, later): Price not captured automatically — see vendor page. Value score: None. Source: https://www.apollo.io/pricing
 - Clay (Enrichment & verification; stages: growth, later): Usage-based on actions; page shows e.g. 15K actions/mo at $60/mo and a plan at $167/mo — check tier details. Value score: None. Source: https://www.clay.com/pricing
@@ -39,34 +54,47 @@
 - 11x (AI SDR / agentic SDR; stages: later): Contact sales. Value score: None. Source: https://www.11x.ai/
 - Artisan (AI SDR / agentic SDR; stages: growth, later): Contact sales. Value score: None. Source: https://www.artisan.co/pricing
 - Qualified (AI SDR / agentic SDR; stages: later): Contact sales. Value score: None. Source: https://www.qualified.com/pricing
+- Kit (Newsletters; stages: solo, growth): Price not captured: vendor pricing page blocked automated fetch — see vendor page. Value score: None. Source: https://kit.com/pricing
+- Canva (Design & video; stages: solo, growth, later): Price not captured: vendor pricing page blocked automated fetch — see vendor page. Value score: None. Source: https://www.canva.com/pricing/
+- Discord (Community; stages: solo, growth): Price not captured: no pricing page found for community servers — see vendor. Value score: None. Source: https://discord.com/
 
 ## Stage stacks (estimates)
-### Solo founder monetizing an idea: $68/mo + €19 Waalaxy
-Assumptions: 1 person, 1 LinkedIn account, ~5,000 emails/mo, monthly billing, entry tiers.
+### Solo founder monetizing an idea: $69.58/mo + €19 Waalaxy
+Assumptions: 1 person, 1 LinkedIn account, ~5,000 emails/mo, monthly billing, entry tiers. Marketing: free tiers used where they exist; Carrd priced yearly ÷ 12.
 - Outbound email / sequencing: Smartlead, Base, 1 workspace, $39 — Lowest published entry price for outbound email in our list.
 - Enrichment & verification: Hunter, Free plan (50 credits), $0 — Free plan covers email finding/verification at solo volume.
 - List building & lead data: Exa, Free $10 credits/mo, $0 — Free credits for finding target companies; Hunter then finds the emails.
 - LinkedIn outreach: Waalaxy, 1 user × €19 (EUR, not converted), $0 — Cheapest listed LinkedIn tool (per user, EUR).
-- Launch, content & social: Postiz, Standard, $29 — Social scheduling for founder-led content.
 - Signals, intent & analytics: PostHog, Free allowance, $0 — Free product analytics allowance.
 - Signals, intent & analytics: RB2B, Free plan, $0 — Free website-visitor identification; a different signal from product analytics.
-### Pre-seed to Series A, growing: $401/mo 
-Assumptions: 3 people, 2 LinkedIn senders, ~5,000 emails/mo, monthly billing.
+- Social scheduling: Postiz, Standard, $29 — Social scheduling for founder-led content.
+- SEO & content: Google Search Console, Free, $0 — Free first-party search data: which queries bring visitors. Ahrefs Free is a good second look but would overlap.
+- Landing pages & websites: Carrd, Pro Standard, $19/yr ÷ 12, $1.58 — Cheapest custom-domain landing page in our list; $19/yr is the yearly price on its Pro page.
+- Newsletters: beehiiv, Free plan, $0 — Free forever plan; upgrade to Lite ($49/mo yearly) only when monetizing.
+- Design & video: CapCut, Free, $0 — Free video editing for short clips; Canva (price not verified) is an optional design add-on and is not counted.
+### Pre-seed to Series A, growing: $460/mo 
+Assumptions: 3 people, 2 LinkedIn senders, ~5,000 emails/mo, monthly billing. Marketing: Surfer and Framer at their lowest listed paid tiers (yearly-billing view); Canva and Discord optional and not counted.
 - Outbound email / sequencing: Instantly, Outreach Growth, $47 — Top value score for outbound; unlimited mailboxes on one plan. Its lead credits are not added because Hunter covers enrichment.
 - Enrichment & verification: Hunter, Starter, $49 — Finding and verifying emails, so no second data plan is needed.
 - LinkedIn outreach: HeyReach, Growth $79 × 2 senders, $158 — Per-sender pricing scales with 2 founders/SDRs on LinkedIn.
-- Launch, content & social: Postiz, Team, $39 — Social scheduling for a small team.
-- Launch, content & social: HeyGen, Creator (video), $29 — Video creation (a separate job from scheduling): demos and outbound videos.
 - Signals, intent & analytics: RB2B, Starter, $79 — Identifies site visitors to feed outbound.
 - Signals, intent & analytics: PostHog, Free allowance, $0 — Product analytics on the free allowance.
 - AI SDR / agentic SDR: Artisan, Optional — contact sales, not included, $0 — Optional; only if you want an AI SDR instead of hiring one.
+- Social scheduling: Postiz, Team, $39 — Social scheduling for a small team.
+- Design & video: HeyGen, Creator (video), $29 — Video creation (a separate job from scheduling): demos and outbound videos.
+- SEO & content: Google Search Console, Free, $0 — Free first-party search data; tracks whether content ranks.
+- SEO & content: Surfer, Discovery, billed yearly, $49 — Content optimization is a separate job from tracking; Discovery is its lowest listed tier.
+- Landing pages & websites: Framer, Basic (yearly-billing price), $10 — Design-led pages with custom domain; Basic is its lowest paid tier. Monthly-billing price not verified.
+- Newsletters: beehiiv, Free plan, $0 — Free until you monetize; Lite is $49/mo yearly billing.
+- Design & video: Canva, Optional, price not verified, $0 — Common design pick, but its pricing page blocked our fetch, so it is not counted. HeyGen already covers video.
+- Community: Discord, Optional, price not verified, $0 — Free-to-start community option, but no vendor price was captured, so it is not counted.
 ### Later stage, 10+ people: $4,145/mo 
 Assumptions: 10+ people, 10 LinkedIn senders, high email volume, monthly list prices except Common Room (billed annually).
 - Outbound email / sequencing: Instantly, Outreach Hypergrowth, $358 — Higher-volume outbound tier on the same tool.
 - Enrichment & verification: Hunter, Scale, $299 — Scale tier for team-wide email finding and verification.
 - LinkedIn outreach: HeyReach, Growth $79 × 10 senders, $790 — One sender per rep on LinkedIn.
-- Launch, content & social: Postiz, Pro, $49 — Social scheduling across a marketing team.
-- Launch, content & social: HeyGen, Business (video), $149 — Video creation (separate job from scheduling).
+- Social scheduling: Postiz, Pro, $49 — Social scheduling across a marketing team.
+- Design & video: HeyGen, Business (video), $149 — Video creation (separate job from scheduling).
 - Signals, intent & analytics: Common Room, Essential (billed annually, 5 seats), $2500 — Intent and community signals across channels; replaces RB2B at this stage.
 - AI SDR / agentic SDR: 11x / Qualified, Contact sales, not included, $0 — Optional AI SDR; price on request.
 
