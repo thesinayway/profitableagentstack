@@ -786,6 +786,131 @@
    ]
   }
  },
+ "il_stack": {
+  "checked": "2026-10-27",
+  "items": [
+   {
+    "job": "\u05de\u05e1\u05e4\u05e8 \u05d8\u05dc\u05e4\u05d5\u05df \u05d0\u05de\u05e8\u05d9\u05e7\u05d0\u05d9",
+    "tool": "Quo (\u05dc\u05e9\u05e2\u05d1\u05e8 OpenPhone)",
+    "tier": "Starter, \u05de\u05e9\u05ea\u05de\u05e9 \u05d0\u05d7\u05d3",
+    "price": 19,
+    "price_note": "$19 \u05dc\u05de\u05e9\u05ea\u05de\u05e9 \u05dc\u05d7\u05d5\u05d3\u05e9 \u05db\u05e4\u05d9 \u05e9\u05de\u05d5\u05e6\u05d2 \u05d1\u05e2\u05de\u05d5\u05d3; \u05dc\u05d0 \u05d0\u05d9\u05de\u05ea\u05e0\u05d5 \u05d0\u05dd \u05d6\u05d4 \u05d1\u05d7\u05d9\u05d5\u05d1 \u05d7\u05d5\u05d3\u05e9\u05d9 \u05d0\u05d5 \u05e9\u05e0\u05ea\u05d9",
+    "status": "published",
+    "source": "https://www.quo.com/pricing",
+    "homepage_url": "https://www.quo.com/",
+    "why": "\u05de\u05e1\u05e4\u05e8 \u05d0\u05de\u05e8\u05d9\u05e7\u05d0\u05d9 \u05dc\u05e9\u05d9\u05d7\u05d5\u05ea \u05d5-SMS \u05de\u05d4\u05d0\u05e4\u05dc\u05d9\u05e7\u05e6\u05d9\u05d4, \u05d1\u05dc\u05d9 SIM \u05d0\u05de\u05e8\u05d9\u05e7\u05d0\u05d9.",
+    "logo": "/assets/logos/quo.com.png"
+   },
+   {
+    "job": "\u05d3\u05d5\u05de\u05d9\u05d9\u05df \u05d5\u05ea\u05d9\u05d1\u05ea \u05de\u05d9\u05d9\u05dc",
+    "tool": "Google Workspace",
+    "tier": "Business Starter, \u05de\u05e9\u05ea\u05de\u05e9 \u05d0\u05d7\u05d3",
+    "price": 7,
+    "price_note": "$7 \u05dc\u05de\u05e9\u05ea\u05de\u05e9 \u05dc\u05d7\u05d5\u05d3\u05e9 (\u05dc\u05d0 \u05db\u05d5\u05dc\u05dc \u05de\u05e2\"\u05de); \u05d1\u05e2\u05de\u05d5\u05d3 \u05de\u05d5\u05e6\u05d2 \u05de\u05d1\u05e6\u05e2 \u05e9\u05dc 50% \u05d4\u05e0\u05d7\u05d4 \u05d1\u05d9\u05df 10.11.2026 \u05dc-10.2.2027",
+    "status": "published",
+    "source": "https://workspace.google.com/pricing",
+    "homepage_url": "https://workspace.google.com/",
+    "why": "\u05ea\u05d9\u05d1\u05d4 \u05e2\u05dc \u05d3\u05d5\u05de\u05d9\u05d9\u05df \u05de\u05e9\u05dc\u05db\u05dd \u05e9\u05e0\u05e8\u05d0\u05d9\u05ea \u05de\u05e7\u05e6\u05d5\u05e2\u05d9\u05ea \u05dc\u05e7\u05d5\u05e0\u05d9\u05dd \u05d0\u05de\u05e8\u05d9\u05e7\u05d0\u05d9\u05dd.",
+    "logo": "/assets/logos/workspace.google.com.png"
+   },
+   {
+    "job": "\u05e8\u05d9\u05e9\u05d5\u05dd \u05d3\u05d5\u05de\u05d9\u05d9\u05df \u05e0\u05e4\u05e8\u05d3 \u05dc\u05e9\u05dc\u05d9\u05d7\u05d4",
+    "tool": "Cloudflare Registrar",
+    "tier": "\u05d3\u05d5\u05de\u05d9\u05d9\u05df .com",
+    "price": null,
+    "price_note": "\u05de\u05d7\u05d9\u05e8 \u05dc\u05d0 \u05d0\u05d5\u05de\u05ea: Cloudflare \u05d2\u05d5\u05d1\u05d4 \u05de\u05d7\u05d9\u05e8 \u05e2\u05dc\u05d5\u05ea \u05e9\u05de\u05e9\u05ea\u05e0\u05d4 \u05dc\u05e4\u05d9 \u05e1\u05d9\u05d5\u05de\u05ea, \u05d5\u05d4\u05de\u05d7\u05d9\u05e8 \u05dc\u05d0 \u05de\u05d5\u05e4\u05d9\u05e2 \u05d1\u05e2\u05de\u05d5\u05d3 \u05d4\u05de\u05d5\u05e6\u05e8",
+    "status": "unverified",
+    "source": "https://www.cloudflare.com/products/registrar/",
+    "homepage_url": "https://www.cloudflare.com/",
+    "why": "\u05d3\u05d5\u05de\u05d9\u05d9\u05df \u05e0\u05e4\u05e8\u05d3 \u05dc\u05e9\u05dc\u05d9\u05d7\u05d4 \u05e7\u05e8\u05d4 \u05e9\u05d5\u05de\u05e8 \u05e2\u05dc \u05d4\u05de\u05d5\u05e0\u05d9\u05d8\u05d9\u05df \u05e9\u05dc \u05d4\u05d3\u05d5\u05de\u05d9\u05d9\u05df \u05d4\u05e8\u05d0\u05e9\u05d9.",
+    "logo": "/assets/logos/cloudflare.com.png"
+   },
+   {
+    "job": "Deliverability (\u05d7\u05d9\u05de\u05d5\u05dd \u05d5-SPF/DKIM/DMARC)",
+    "tool": "\u05db\u05dc\u05d5\u05dc \u05d1-Smartlead + \u05d4\u05d2\u05d3\u05e8\u05d5\u05ea DNS",
+    "tier": "\u2014",
+    "price": 0,
+    "price_note": "\u05e2\u05de\u05d5\u05d3 \u05d4\u05ea\u05de\u05d7\u05d5\u05e8 \u05e9\u05dc Smartlead \u05de\u05e6\u05d9\u05d9\u05df \u05d7\u05d9\u05de\u05d5\u05dd \u05de\u05d9\u05d9\u05dc\u05d9\u05dd \u05dc\u05dc\u05d0 \u05d4\u05d2\u05d1\u05dc\u05d4; \u05d4\u05d2\u05d3\u05e8\u05d5\u05ea DNS \u05d4\u05df \u05d1\u05d7\u05d9\u05e0\u05dd",
+    "status": "published",
+    "source": "https://www.smartlead.ai/pricing",
+    "homepage_url": "https://www.smartlead.ai/",
+    "why": "\u05d0\u05d9\u05df \u05e6\u05d5\u05e8\u05da \u05d1\u05db\u05dc\u05d9 \u05d7\u05d9\u05de\u05d5\u05dd \u05e0\u05e4\u05e8\u05d3: \u05d4\u05d7\u05d9\u05de\u05d5\u05dd \u05db\u05d1\u05e8 \u05db\u05dc\u05d5\u05dc \u05d1\u05db\u05dc\u05d9 \u05d4\u05e9\u05dc\u05d9\u05d7\u05d4.",
+    "logo": "/assets/logos/smartlead.ai.png"
+   },
+   {
+    "job": "\u05d0\u05d9\u05ea\u05d5\u05e8 \u05db\u05ea\u05d5\u05d1\u05d5\u05ea \u05de\u05d9\u05d9\u05dc",
+    "tool": "Hunter",
+    "tier": "Free (50 \u05e7\u05e8\u05d3\u05d9\u05d8\u05d9\u05dd)",
+    "price": 0,
+    "price_note": "\u05ea\u05d5\u05db\u05e0\u05d9\u05ea \u05d7\u05d9\u05e0\u05de\u05d9\u05ea \u05e2\u05dd 50 \u05e7\u05e8\u05d3\u05d9\u05d8\u05d9\u05dd \u05dc\u05d7\u05d5\u05d3\u05e9",
+    "status": "published",
+    "source": "https://hunter.io/pricing",
+    "homepage_url": "https://hunter.io/",
+    "why": "\u05de\u05e1\u05e4\u05d9\u05e7 \u05dc-20 \u05d4\u05e9\u05d9\u05d7\u05d5\u05ea \u05d4\u05e8\u05d0\u05e9\u05d5\u05e0\u05d5\u05ea; \u05de\u05e9\u05d3\u05e8\u05d2\u05d9\u05dd \u05e8\u05e7 \u05db\u05e9\u05d4\u05e0\u05e4\u05d7 \u05d2\u05d3\u05dc.",
+    "logo": "/assets/logos/hunter.io.png"
+   },
+   {
+    "job": "\u05e8\u05e6\u05e4\u05d9 \u05de\u05d9\u05d9\u05dc\u05d9\u05dd (Sequencing)",
+    "tool": "Smartlead",
+    "tier": "Base",
+    "price": 39,
+    "price_note": "$39 \u05dc\u05d7\u05d5\u05d3\u05e9",
+    "status": "published",
+    "source": "https://www.smartlead.ai/pricing",
+    "homepage_url": "https://www.smartlead.ai/",
+    "why": "\u05de\u05d7\u05d9\u05e8 \u05d4\u05db\u05e0\u05d9\u05e1\u05d4 \u05d4\u05e0\u05de\u05d5\u05da \u05d1\u05d9\u05d5\u05ea\u05e8 \u05d1\u05e8\u05e9\u05d9\u05de\u05d4 \u05e9\u05dc\u05e0\u05d5, \u05d5\u05db\u05d5\u05dc\u05dc \u05d7\u05d9\u05de\u05d5\u05dd.",
+    "logo": "/assets/logos/smartlead.ai.png"
+   },
+   {
+    "job": "\u05e4\u05e0\u05d9\u05d9\u05d4 \u05d1\u05dc\u05d9\u05e0\u05e7\u05d3\u05d0\u05d9\u05df",
+    "tool": "\u05d9\u05d3\u05e0\u05d9 (\u05d7\u05d9\u05e0\u05dd) / Waalaxy \u05d0\u05d5\u05e4\u05e6\u05d9\u05d5\u05e0\u05dc\u05d9",
+    "tier": "Waalaxy \u20ac19 \u05dc\u05de\u05e9\u05ea\u05de\u05e9",
+    "price": 0,
+    "price_note": "\u05d1\u05d4\u05ea\u05d7\u05dc\u05d4 \u05d9\u05d3\u05e0\u05d9 \u05d1-$0. \u05d0\u05dd \u05e8\u05d5\u05e6\u05d9\u05dd \u05d0\u05d5\u05d8\u05d5\u05de\u05e6\u05d9\u05d4: Waalaxy \u20ac19 \u05dc\u05de\u05e9\u05ea\u05de\u05e9 \u05dc\u05d7\u05d5\u05d3\u05e9 (\u05dc\u05d0 \u05e0\u05db\u05dc\u05dc \u05d1\u05e1\u05db\u05d5\u05dd)",
+    "status": "published",
+    "source": "https://www.waalaxy.com/pricing",
+    "homepage_url": "https://www.waalaxy.com/",
+    "why": "\u05d1-20 \u05d4\u05e9\u05d9\u05d7\u05d5\u05ea \u05d4\u05e8\u05d0\u05e9\u05d5\u05e0\u05d5\u05ea \u05d4\u05d5\u05d3\u05e2\u05d4 \u05d0\u05d9\u05e9\u05d9\u05ea \u05d9\u05d3\u05e0\u05d9\u05ea \u05e2\u05d5\u05d1\u05d3\u05ea \u05d8\u05d5\u05d1 \u05d9\u05d5\u05ea\u05e8 \u05de\u05d0\u05d5\u05d8\u05d5\u05de\u05e6\u05d9\u05d4.",
+    "logo": "/assets/logos/waalaxy.com.png"
+   },
+   {
+    "job": "\u05ea\u05d9\u05d0\u05d5\u05dd \u05e4\u05d2\u05d9\u05e9\u05d5\u05ea \u05d1\u05d9\u05df \u05d0\u05d6\u05d5\u05e8\u05d9 \u05d6\u05de\u05df",
+    "tool": "Cal.com",
+    "tier": "Individuals Free",
+    "price": 0,
+    "price_note": "\u05d7\u05d9\u05e0\u05dd \u05dc\u05de\u05e9\u05ea\u05de\u05e9 \u05d9\u05d7\u05d9\u05d3",
+    "status": "published",
+    "source": "https://cal.com/pricing",
+    "homepage_url": "https://cal.com/",
+    "why": "\u05de\u05e6\u05d9\u05d2 \u05dc\u05e7\u05d5\u05e0\u05d4 \u05d0\u05ea \u05d4\u05e9\u05e2\u05d5\u05ea \u05d1\u05d0\u05d6\u05d5\u05e8 \u05d4\u05d6\u05de\u05df \u05e9\u05dc\u05d5, \u05db\u05da \u05e9\u05dc\u05d0 \u05e6\u05e8\u05d9\u05da \u05dc\u05d7\u05e9\u05d1 \u05d4\u05e4\u05e8\u05e9\u05d9 \u05e9\u05e2\u05d5\u05ea.",
+    "logo": "/assets/logos/cal.com.png"
+   },
+   {
+    "job": "CRM",
+    "tool": "HubSpot CRM",
+    "tier": "Free",
+    "price": 0,
+    "price_note": "HubSpot \u05de\u05e6\u05d9\u05e2\u05d4 CRM \u05d7\u05d9\u05e0\u05de\u05d9 (\u05dc\u05e4\u05d9 \u05e2\u05de\u05d5\u05d3 \u05d4\u05de\u05d5\u05e6\u05e8)",
+    "status": "published",
+    "source": "https://www.hubspot.com/products/crm",
+    "homepage_url": "https://www.hubspot.com/",
+    "why": "\u05de\u05e2\u05e7\u05d1 \u05d7\u05d9\u05e0\u05de\u05d9 \u05d0\u05d7\u05e8\u05d9 \u05db\u05dc \u05e9\u05d9\u05d7\u05d4 \u05d5\u05e9\u05dc\u05d1, \u05e2\u05dd \u05de\u05e7\u05d5\u05dd \u05dc\u05d2\u05d3\u05d5\u05dc.",
+    "logo": "/assets/logos/hubspot.com.png"
+   },
+   {
+    "job": "\u05d0\u05e0\u05dc\u05d9\u05d8\u05d9\u05e7\u05d4",
+    "tool": "PostHog",
+    "tier": "\u05de\u05db\u05e1\u05d4 \u05d7\u05d9\u05e0\u05de\u05d9\u05ea",
+    "price": 0,
+    "price_note": "\u05de\u05db\u05e1\u05d4 \u05d7\u05d5\u05d3\u05e9\u05d9\u05ea \u05d7\u05d9\u05e0\u05de\u05d9\u05ea (\u05dc\u05de\u05e9\u05dc \u05de\u05d9\u05dc\u05d9\u05d5\u05df \u05d0\u05d9\u05e8\u05d5\u05e2\u05d9 \u05d0\u05e0\u05dc\u05d9\u05d8\u05d9\u05e7\u05d4)",
+    "status": "published",
+    "source": "https://posthog.com/pricing",
+    "homepage_url": "https://posthog.com/",
+    "why": "\u05e8\u05d5\u05d0\u05d9\u05dd \u05de\u05d9 \u05de\u05d4\u05e7\u05de\u05e4\u05d9\u05d9\u05df \u05d4\u05d2\u05d9\u05e2 \u05dc\u05d0\u05ea\u05e8 \u05d5\u05de\u05d4 \u05e2\u05e9\u05d4 \u05e9\u05dd.",
+    "logo": "/assets/logos/posthog.com.png"
+   }
+  ]
+ },
  "license": "CC BY 4.0 \u2014 attribute \"Profitable Agent Stack (profitableagentstack.com)\"",
  "disclaimer": "Profitable Agent Stack is for general information only, provided \"as is\" without warranties. Prices, plans, features and review data change often and may be inaccurate or out of date (last checked 2026-10-26); always verify with the vendor. Cost estimates and scores are editorial estimates, not advice. Nothing here is professional, legal or financial advice. Trademarks belong to their owners; listing is not endorsement. Some links may be affiliate or sponsored \u2014 see our Disclosure.",
  "methodology": "https://profitableagentstack.com/methodology.html"

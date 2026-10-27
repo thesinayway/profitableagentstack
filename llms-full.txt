@@ -9,6 +9,7 @@
 - [Directory](https://profitableagentstack.com/directory.html)
 - [Methodology](https://profitableagentstack.com/methodology.html)
 - [For AI agents](https://profitableagentstack.com/for-ai-agents.html)
+- [Hebrew hub for Israeli founders: First US conversations](https://profitableagentstack.com/il/): $0–$100/mo stack, playbooks with English templates, cohort waitlist (lang=he)
 
 ## Data
 - [tools.json](https://profitableagentstack.com/api/tools.json): CC BY 4.0, attribution required

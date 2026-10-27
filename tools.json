@@ -151,7 +151,7 @@
    "use_case": "outbound-email",
    "from": null,
    "status": "unverified",
-   "price": "Price not captured automatically \u2014 see vendor page",
+   "price": "Price not captured automatically — see vendor page",
    "source": "https://woodpecker.co/pricing/",
    "fit_score": 3,
    "stages": [
@@ -173,7 +173,7 @@
    "use_case": "list-building",
    "from": null,
    "status": "unverified",
-   "price": "Price not captured automatically \u2014 see vendor page",
+   "price": "Price not captured automatically — see vendor page",
    "source": "https://www.apollo.io/pricing",
    "fit_score": 5,
    "stages": [
@@ -217,7 +217,7 @@
    "use_case": "enrichment",
    "from": null,
    "status": "published",
-   "price": "Usage-based on actions; page shows e.g. 15K actions/mo at $60/mo and a plan at $167/mo \u2014 check tier details",
+   "price": "Usage-based on actions; page shows e.g. 15K actions/mo at $60/mo and a plan at $167/mo — check tier details",
    "source": "https://www.clay.com/pricing",
    "fit_score": 5,
    "stages": [
@@ -284,7 +284,7 @@
    "use_case": "enrichment",
    "from": null,
    "status": "unverified",
-   "price": "Price not captured automatically \u2014 see vendor page",
+   "price": "Price not captured automatically — see vendor page",
    "source": "https://clearout.io/pricing/",
    "fit_score": 3,
    "stages": [
@@ -350,7 +350,7 @@
    "use_case": "linkedin",
    "from": 19,
    "status": "published",
-   "price": "\u20ac19, \u20ac49, \u20ac69 per user/mo; 14-day free trial (EUR)",
+   "price": "€19, €49, €69 per user/mo; 14-day free trial (EUR)",
    "source": "https://www.waalaxy.com/pricing",
    "fit_score": 4,
    "stages": [
@@ -596,7 +596,7 @@
     [
      "linkedin",
      "Waalaxy",
-     "1 user \u00d7 \u20ac19 (EUR, not converted)",
+     "1 user × €19 (EUR, not converted)",
      0,
      "Cheapest listed LinkedIn tool (per user, EUR)."
     ],
@@ -622,7 +622,7 @@
      "Free website-visitor identification; a different signal from product analytics."
     ]
    ],
-   "extra": "+ \u20ac19 Waalaxy"
+   "extra": "+ €19 Waalaxy"
   },
   "growth": {
    "assumptions": "3 people, 2 LinkedIn senders, ~5,000 emails/mo, monthly billing.",
@@ -644,7 +644,7 @@
     [
      "linkedin",
      "HeyReach",
-     "Growth $79 \u00d7 2 senders",
+     "Growth $79 × 2 senders",
      158,
      "Per-sender pricing scales with 2 founders/SDRs on LinkedIn."
     ],
@@ -679,7 +679,7 @@
     [
      "ai-sdr",
      "Artisan",
-     "Optional \u2014 contact sales, not included",
+     "Optional — contact sales, not included",
      0,
      "Optional; only if you want an AI SDR instead of hiring one."
     ]
@@ -705,7 +705,7 @@
     [
      "linkedin",
      "HeyReach",
-     "Growth $79 \u00d7 10 senders",
+     "Growth $79 × 10 senders",
      790,
      "One sender per rep on LinkedIn."
     ],
@@ -739,5 +739,130 @@
     ]
    ]
   }
+ },
+ "il_stack": {
+  "checked": "2026-10-27",
+  "items": [
+   {
+    "job": "מספר טלפון אמריקאי",
+    "tool": "Quo (לשעבר OpenPhone)",
+    "tier": "Starter, משתמש אחד",
+    "price": 19,
+    "price_note": "$19 למשתמש לחודש כפי שמוצג בעמוד; לא אימתנו אם זה בחיוב חודשי או שנתי",
+    "status": "published",
+    "source": "https://www.quo.com/pricing",
+    "homepage_url": "https://www.quo.com/",
+    "why": "מספר אמריקאי לשיחות ו-SMS מהאפליקציה, בלי SIM אמריקאי.",
+    "logo": "/assets/logos/quo.com.png"
+   },
+   {
+    "job": "דומיין ותיבת מייל",
+    "tool": "Google Workspace",
+    "tier": "Business Starter, משתמש אחד",
+    "price": 7,
+    "price_note": "$7 למשתמש לחודש (לא כולל מע\"מ); בעמוד מוצג מבצע של 50% הנחה בין 10.11.2026 ל-10.2.2027",
+    "status": "published",
+    "source": "https://workspace.google.com/pricing",
+    "homepage_url": "https://workspace.google.com/",
+    "why": "תיבה על דומיין משלכם שנראית מקצועית לקונים אמריקאים.",
+    "logo": "/assets/logos/workspace.google.com.png"
+   },
+   {
+    "job": "רישום דומיין נפרד לשליחה",
+    "tool": "Cloudflare Registrar",
+    "tier": "דומיין .com",
+    "price": null,
+    "price_note": "מחיר לא אומת: Cloudflare גובה מחיר עלות שמשתנה לפי סיומת, והמחיר לא מופיע בעמוד המוצר",
+    "status": "unverified",
+    "source": "https://www.cloudflare.com/products/registrar/",
+    "homepage_url": "https://www.cloudflare.com/",
+    "why": "דומיין נפרד לשליחה קרה שומר על המוניטין של הדומיין הראשי.",
+    "logo": "/assets/logos/cloudflare.com.png"
+   },
+   {
+    "job": "Deliverability (חימום ו-SPF/DKIM/DMARC)",
+    "tool": "כלול ב-Smartlead + הגדרות DNS",
+    "tier": "—",
+    "price": 0,
+    "price_note": "עמוד התמחור של Smartlead מציין חימום מיילים ללא הגבלה; הגדרות DNS הן בחינם",
+    "status": "published",
+    "source": "https://www.smartlead.ai/pricing",
+    "homepage_url": "https://www.smartlead.ai/",
+    "why": "אין צורך בכלי חימום נפרד: החימום כבר כלול בכלי השליחה.",
+    "logo": "/assets/logos/smartlead.ai.png"
+   },
+   {
+    "job": "איתור כתובות מייל",
+    "tool": "Hunter",
+    "tier": "Free (50 קרדיטים)",
+    "price": 0,
+    "price_note": "תוכנית חינמית עם 50 קרדיטים לחודש",
+    "status": "published",
+    "source": "https://hunter.io/pricing",
+    "homepage_url": "https://hunter.io/",
+    "why": "מספיק ל-20 השיחות הראשונות; משדרגים רק כשהנפח גדל.",
+    "logo": "/assets/logos/hunter.io.png"
+   },
+   {
+    "job": "רצפי מיילים (Sequencing)",
+    "tool": "Smartlead",
+    "tier": "Base",
+    "price": 39,
+    "price_note": "$39 לחודש",
+    "status": "published",
+    "source": "https://www.smartlead.ai/pricing",
+    "homepage_url": "https://www.smartlead.ai/",
+    "why": "מחיר הכניסה הנמוך ביותר ברשימה שלנו, וכולל חימום.",
+    "logo": "/assets/logos/smartlead.ai.png"
+   },
+   {
+    "job": "פנייה בלינקדאין",
+    "tool": "ידני (חינם) / Waalaxy אופציונלי",
+    "tier": "Waalaxy €19 למשתמש",
+    "price": 0,
+    "price_note": "בהתחלה ידני ב-$0. אם רוצים אוטומציה: Waalaxy €19 למשתמש לחודש (לא נכלל בסכום)",
+    "status": "published",
+    "source": "https://www.waalaxy.com/pricing",
+    "homepage_url": "https://www.waalaxy.com/",
+    "why": "ב-20 השיחות הראשונות הודעה אישית ידנית עובדת טוב יותר מאוטומציה.",
+    "logo": "/assets/logos/waalaxy.com.png"
+   },
+   {
+    "job": "תיאום פגישות בין אזורי זמן",
+    "tool": "Cal.com",
+    "tier": "Individuals Free",
+    "price": 0,
+    "price_note": "חינם למשתמש יחיד",
+    "status": "published",
+    "source": "https://cal.com/pricing",
+    "homepage_url": "https://cal.com/",
+    "why": "מציג לקונה את השעות באזור הזמן שלו, כך שלא צריך לחשב הפרשי שעות.",
+    "logo": "/assets/logos/cal.com.png"
+   },
+   {
+    "job": "CRM",
+    "tool": "HubSpot CRM",
+    "tier": "Free",
+    "price": 0,
+    "price_note": "HubSpot מציעה CRM חינמי (לפי עמוד המוצר)",
+    "status": "published",
+    "source": "https://www.hubspot.com/products/crm",
+    "homepage_url": "https://www.hubspot.com/",
+    "why": "מעקב חינמי אחרי כל שיחה ושלב, עם מקום לגדול.",
+    "logo": "/assets/logos/hubspot.com.png"
+   },
+   {
+    "job": "אנליטיקה",
+    "tool": "PostHog",
+    "tier": "מכסה חינמית",
+    "price": 0,
+    "price_note": "מכסה חודשית חינמית (למשל מיליון אירועי אנליטיקה)",
+    "status": "published",
+    "source": "https://posthog.com/pricing",
+    "homepage_url": "https://posthog.com/",
+    "why": "רואים מי מהקמפיין הגיע לאתר ומה עשה שם.",
+    "logo": "/assets/logos/posthog.com.png"
+   }
+  ]
  }
 }

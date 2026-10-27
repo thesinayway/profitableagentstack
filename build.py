@@ -17,22 +17,24 @@ best={}
 for t in D['tools']:
   if t['value_score'] is not None and (t['use_case'] not in best or t['value_score']>best[t['use_case']]['value_score']): best[t['use_case']]=t
 growth_picks={i[1] for i in D['stacks']['growth']['items']}
-NAV=[('/stages/pre-seed-to-series-a.html','Pre-seed–Series A'),('/directory.html','Directory'),('/methodology.html','Methodology'),('/new-releases.html','New'),('/for-ai-agents.html','For AI agents'),('/sprint.html','GTM Sprint')]
+NAV=[('/stages/pre-seed-to-series-a.html','Pre-seed–Series A'),('/directory.html','Directory'),('/methodology.html','Methodology'),('/new-releases.html','New'),('/for-ai-agents.html','For AI agents'),('/sprint.html','GTM Sprint'),('/il/','עברית')]
 SLUG={'solo':'solo-founder','growth':'pre-seed-to-series-a','later':'later-stage'}
 DISC=f'Profitable Agent Stack is for general information only, provided "as is" without warranties. Prices, plans, features and review data change often and may be inaccurate or out of date (last checked {C}); always verify with the vendor. Cost estimates and scores are editorial estimates, not advice. Nothing here is professional, legal or financial advice. Trademarks belong to their owners; listing is not endorsement. Some links may be affiliate or sponsored — see our Disclosure.'
 def ld(o): return '<script type="application/ld+json">'+json.dumps(o)+'</script>'
 ORG={"@context":"https://schema.org","@type":"Organization","name":"Profitable Agent Stack","url":SITE,"legalName":"[Legal entity name]"}
-def page(path,title,desc,body,schema=(),hero=''):
-  url=SITE+'/'+('' if path=='index.html' else path)
-  nav=''.join(f'<a href="{h}">{n}</a>' for h,n in NAV)
+def page(path,title,desc,body,schema=(),hero='',lang='en',nav=None,foot=None,alts=None):
+  url=SITE+'/'+('' if path=='index.html' else path.replace('index.html',''))
+  nav=''.join(f'<a href="{h}"'+(' lang="he"' if n=='עברית' else '')+f'>{n}</a>' for h,n in (nav or NAV))
+  if path=='index.html': alts={'en':SITE+'/','he':SITE+'/il/','x-default':SITE+'/'}
+  alt=''.join(f'<link rel="alternate" hreflang="{k}" href="{v}">' for k,v in (alts or {}).items())
   sch=''.join(ld(s) for s in schema)
-  out=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{url}">
+  out=f'''<!doctype html><html lang="{lang}"{' dir="rtl"' if lang=="he" else ""}><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{url}">{alt}
 <meta property="og:type" content="website"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{url}"><meta property="og:site_name" content="Profitable Agent Stack"><meta name="twitter:card" content="summary">
-<link rel="alternate" type="application/json" href="/api/tools.json" title="Tools data"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/style.css">{sch}</head>
-<body><a href="#main" class="mut" style="position:absolute;left:-999px">Skip to content</a><header class="top"><div class="wrap"><a class="logo" href="/">Profitable <span>Agent Stack</span></a><nav aria-label="Main">{nav}</nav></div></header>
+<link rel="alternate" type="application/json" href="/api/tools.json" title="Tools data"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/style.css">{sch}</head>
+<body><a href="#main" class="skip">Skip to content</a><header class="top"><div class="wrap"><a class="logo" href="/">Profitable <span>Agent Stack</span></a><nav aria-label="Main">{nav}</nav></div></header>
 {hero}<main id="main" class="wrap">{body}</main>
-<footer><div class="wrap">{LOGONOTE if path.startswith(('directory','stages/','use-cases/')) else ''}<p><strong>Disclaimer:</strong> {e(DISC)}</p><p><a href="/terms.html">Terms</a> · <a href="/privacy.html">Privacy</a> · <a href="/disclosure.html">Affiliate disclosure</a> · <a href="/review-policy.html">Review policy</a> · <a href="/corrections.html">Corrections &amp; takedowns</a> · <a href="/feedback.html">Share your experience</a> · © 2026 [Legal entity name]</p></div></footer><script src="/assets/app.js" defer></script></body></html>'''
+<footer><div class="wrap">{foot or ((LOGONOTE if path.startswith(('directory','stages/','use-cases/')) else '')+f'<p><strong>Disclaimer:</strong> {e(DISC)}</p><p><a href="/terms.html">Terms</a> · <a href="/privacy.html">Privacy</a> · <a href="/disclosure.html">Affiliate disclosure</a> · <a href="/review-policy.html">Review policy</a> · <a href="/corrections.html">Corrections &amp; takedowns</a> · <a href="/feedback.html">Share your experience</a> · © 2026 [Legal entity name]</p>')}</div></footer><script src="/assets/app.js" defer></script></body></html>'''
   os.makedirs(os.path.dirname(path) or '.',exist_ok=True);open(path,'w').write(out);PAGES.append(url)
 PAGES=[]
 LOGONOTE='<p>Logos and trademarks belong to their owners and are used only to identify products; no endorsement implied. Owners can request removal via the <a href="/corrections.html">corrections page</a>.</p>'
@@ -159,13 +161,14 @@ simple('disclosure.html','Affiliate and Sponsorship Disclosure','How Profitable 
 ('Our own services','We promote our own Agent Launch Sprint and advisory, including on stage pages. Recommended stacks are chosen by the published method, not to sell services.'),
 ('Scores and reviews','Payment never changes fit, cost or value scores, badges, or which third-party ratings are shown. We do not accept payment for reviews.'),('FTC','Made in line with the U.S. FTC Guides Concerning the Use of Endorsements and Testimonials in Advertising.')]))
 simple('corrections.html','Corrections and Takedowns','How to request corrections or takedowns.','How do I report an error?','Email [contact email] with the subject "Correction: [tool name]", the page URL, what is wrong, and a link to the official vendor source.',P([('Logo removal','Trademark owners can ask us to remove their logo: email [contact email] with the subject "Logo removal: [tool name]" and proof you represent the owner. We will remove the logo promptly, usually within 5 business days.'),('Takedowns','For trademark, copyright or other takedown requests, include your contact details, the content concerned, the right you assert, and a good-faith statement that the request is accurate.'),('What we do','We aim to acknowledge within 5 business days, check the official source, and correct, annotate or remove content. Corrections are logged on New releases.')]))
+exec(open('il_build.py',encoding='utf-8').read())  # Hebrew /il/ hub
 # ---- machine-readable
 os.makedirs('api',exist_ok=True)
 api=dict(D);api['license']='CC BY 4.0 — attribute "Profitable Agent Stack (profitableagentstack.com)"';api['disclaimer']=DISC;api['methodology']=SITE+'/methodology.html'
 json.dump(api,open('api/tools.json','w'),indent=1)
 open('robots.txt','w').write('User-agent: *\nAllow: /\n\n'+''.join(f'User-agent: {b}\nAllow: /\n\n' for b in ['GPTBot','OAI-SearchBot','ChatGPT-User','ClaudeBot','Claude-Web','anthropic-ai','PerplexityBot','Perplexity-User','Google-Extended','Applebot-Extended','CCBot','Bytespider','meta-externalagent','cohere-ai'])+f'Sitemap: {SITE}/sitemap.xml\n')
 open('sitemap.xml','w').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{u}</loc><lastmod>{C}</lastmod></url>' for u in PAGES)+'</urlset>\n')
-L=f'# Profitable Agent Stack\n\n> Cost-first directory of AI GTM tools ranked by use-case fit, published price and user sentiment, with estimated monthly stack costs by company stage. Prices checked {C}; verify with vendors. Not advice.\n\n## Key pages\n'+''.join(f'- [{s["name"]}]({SITE}/stages/{SLUG[s["id"]]}.html): est. ${tot[s["id"]]:,}/mo stack\n' for s in D['stages'])+f'- [Directory]({SITE}/directory.html)\n- [Methodology]({SITE}/methodology.html)\n- [For AI agents]({SITE}/for-ai-agents.html)\n\n## Data\n- [tools.json]({SITE}/api/tools.json): CC BY 4.0, attribution required\n- [Full text]({SITE}/llms-full.txt)\n'
+L=f'# Profitable Agent Stack\n\n> Cost-first directory of AI GTM tools ranked by use-case fit, published price and user sentiment, with estimated monthly stack costs by company stage. Prices checked {C}; verify with vendors. Not advice.\n\n## Key pages\n'+''.join(f'- [{s["name"]}]({SITE}/stages/{SLUG[s["id"]]}.html): est. ${tot[s["id"]]:,}/mo stack\n' for s in D['stages'])+f'- [Directory]({SITE}/directory.html)\n- [Methodology]({SITE}/methodology.html)\n- [For AI agents]({SITE}/for-ai-agents.html)\n- [Hebrew hub for Israeli founders: First US conversations]({SITE}/il/): $0–$100/mo stack, playbooks with English templates, cohort waitlist (lang=he)\n\n## Data\n- [tools.json]({SITE}/api/tools.json): CC BY 4.0, attribution required\n- [Full text]({SITE}/llms-full.txt)\n'
 open('llms.txt','w').write(L)
 full=L+'\n## Tools\n'+''.join(f'- {t["name"]} ({UC[t["use_case"]]}; stages: {", ".join(t["stages"])}): {price(t)}. Value score: {t["value_score"]}. Source: {t["source"]}\n' for t in R)
 full+='\n## Stage stacks (estimates)\n'+''.join(f'### {ST[s]["name"]}: ${stack_total(s):,}/mo {D["stacks"][s].get("extra","")}\nAssumptions: {D["stacks"][s]["assumptions"]}\n'+''.join(f'- {UC[i[0]]}: {i[1]}, {i[2]}, ${i[3]} — {i[4]}\n' for i in D['stacks'][s]['items']) for s in ST)
