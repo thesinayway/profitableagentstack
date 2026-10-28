@@ -2,7 +2,7 @@
 IL=D['il_stack'];IC=IL['checked']
 HNAV=[('/il/','בית'),('/il/stack.html','הסטאק'),('/il/playbooks.html','מדריכים'),('/il/cohort.html','מחזור קבוצתי'),('/','English')]
 HFOOT=f'''<p><strong>הבהרה משפטית:</strong> האתר נועד למידע כללי בלבד ומסופק "כמות שהוא" (AS IS), ללא אחריות מכל סוג. מחירים, תוכניות ויכולות משתנים לעיתים קרובות ועשויים להיות לא מדויקים או לא מעודכנים (נבדקו לאחרונה ב-{IC}); יש לאמת תמיד מול הספק לפני רכישה. אין באמור ייעוץ משפטי, פיננסי או מקצועי. סימני מסחר שייכים לבעליהם ואינם מהווים המלצה. חלק מהקישורים עשויים להיות קישורי שותפים. הנוסח המחייב הוא הנוסח האנגלי של <a href="/terms.html" lang="en">תנאי השימוש</a> ו<a href="/disclosure.html" lang="en">גילוי נאות לשותפים</a>.</p>
-<p class="mut">הערה: התרגום לעברית טרם עבר בדיקה של דובר/ת עברית ועורך/ת דין. · <a href="/privacy.html">פרטיות</a> · <a href="/corrections.html">תיקונים והסרות</a> · © 2026 [Legal entity name]</p>'''
+<p class="mut">הערה: התרגום לעברית טרם עבר בדיקה של דובר/ת עברית ועורך/ת דין. · <a href="/privacy.html">פרטיות</a> · <a href="/corrections.html">תיקונים והסרות</a> · © 2026 The Sinay Way LLC. האתר מופעל על ידי The Sinay Way LLC כחלק משירותי הייעוץ שלה.</p>'''
 HALT=lambda p:{'he':SITE+'/il/'+p,'en':SITE+'/','x-default':SITE+'/'}
 def hpage(p,title,desc,body,schema=(),hero=''):
   sch=[dict(x,inLanguage='he') for x in schema]
@@ -49,10 +49,10 @@ PQ=[('איך מגיעים ל-20 שיחות מכירה ראשונות בארה"ב
 hpage('playbooks.html','מדריכים ותבניות למכירה לארה"ב | Profitable Agent Stack','מדריכים בעברית ותבניות באנגלית למייסדים ישראלים: 20 שיחות ראשונות, מייל קר, לינקדאין, טון אמריקאי, רשתות קשרים ואזורי זמן.',
 f'<h1>{e(PQ[0][0])}</h1><p class="answer">{e(PQ[0][1])}</p>'+''.join(f'<section class="card" style="margin:16px 0"><h2 style="margin-top:0">{h}</h2>{b}</section>' for h,b in PB)+hfaq(PQ[1:]),[faq(PQ)])
 # ---- cohort
-CQ=[('מה זה המחזור הקבוצתי?','גרסה קבוצתית ומשתלמת של ספרינט ה-GTM: קבוצה קטנה של מייסדים ישראלים שבונים יחד סטאק, רשימה ומסרים, ויוצאים ל-20 השיחות הראשונות. המחיר טרם נקבע.'),('כמה זה עולה?','המחיר טרם נקבע. הצטרפו לרשימת ההמתנה ונעדכן.')]
+CQ=[('מה זה המחזור הקבוצתי?','שירות ייעוץ קבוצתי של The Sinay Way LLC, גרסה קבוצתית של ספרינט ה-GTM: קבוצה קטנה של מייסדים ישראלים שבונים יחד סטאק, רשימה ומסרים, ויוצאים ל-20 השיחות הראשונות. המחיר טרם נקבע.'),('כמה זה עולה?','המחיר טרם נקבע. הצטרפו לרשימת ההמתנה ונעדכן.')]
 hpage('cohort.html','מחזור קבוצתי: השיחות הראשונות בארה"ב | Profitable Agent Stack','מחזור קבוצתי למייסדים ישראלים בשלב מוקדם, להגעה לשיחות מכירה ראשונות בארה"ב. המחיר טרם נקבע. רשימת המתנה.',
 f'''<h1>{e(CQ[0][0])}</h1><p class="answer">{e(CQ[0][1])}</p>
 <div class="grid"><div class="card"><h3>מה בונים</h3><p>מסר באנגלית, רשימת 100 לקוחות פוטנציאליים, הסטאק הזול ותבניות פנייה.</p></div><div class="card"><h3>איך זה עובד</h3><p>מפגשים קבוצתיים, ליווי של CRO פרקטי ועבודה שמבוצעת בעזרת סוכני AI.</p></div><div class="card feat"><h3>מחיר</h3><p class="score" style="color:#fff;-webkit-text-fill-color:#fff">טרם נקבע</p><p>רשימת המתנה</p></div></div>
 <form class="card" style="margin-top:20px" onsubmit="event.preventDefault();this.innerHTML='<p role=status>תודה! הטופס עדיין לא פעיל, ולכן לא נשמר או נשלח דבר.</p>'"><h2 style="margin-top:0">הצטרפות לרשימת ההמתנה</h2>
 <p><label>שם<br><input required></label></p><p><label>אימייל<br><input type="email" required dir="ltr"></label></p><p><label>שוק יעד<br><input placeholder='ארה"ב / אחר'></label></p><p><label>מה אתם מוכרים, במשפט אחד<br><textarea rows="3" style="width:100%"></textarea></label></p><button class="btn">שליחה</button><p class="mut">טופס לדוגמה בלבד: שום מידע לא נאסף או נשלח כרגע.</p></form>
-<p class="mut">אין התחייבות לתוצאות. התוכנית בהכנה ואינה פתוחה עדיין להרשמה.</p>{hfaq(CQ[1:])}''',[faq(CQ)])
+<p class="mut">שירות ייעוץ של The Sinay Way LLC. אין התחייבות לתוצאות. התנאים, ההיקף והתשלום ייקבעו רק בהסכם נפרד וחתום. התוכנית בהכנה ואינה פתוחה עדיין להרשמה.</p>{hfaq(CQ[1:])}''',[faq(CQ)])
