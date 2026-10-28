@@ -5,7 +5,7 @@
 ## Key pages
 - [Solo founder monetizing an idea](https://profitableagentstack.com/stages/solo-founder.html): est. $69.58/mo stack
 - [Pre-seed to Series A, growing](https://profitableagentstack.com/stages/pre-seed-to-series-a.html): est. $460/mo stack
-- [Later stage, 10+ people](https://profitableagentstack.com/stages/later-stage.html): est. $4,145/mo stack
+- [Later stage, 10+ people](https://profitableagentstack.com/stages/later-stage.html): est. $3,884/mo stack
 - [Directory](https://profitableagentstack.com/directory.html)
 - [Methodology](https://profitableagentstack.com/methodology.html)
 - [For AI agents](https://profitableagentstack.com/for-ai-agents.html)
@@ -19,7 +19,7 @@
 - Google Search Console (SEO & content; stages: solo, growth, later): Free (Google describes it as a free service). Value score: 100. Source: https://support.google.com/webmasters/answer/9128668
 - Framer (Landing pages & websites; stages: solo, growth): Free $0 (Framer domain); Basic $10/mo, Pro $30/mo (yearly-billing view; monthly-billing price not verified). Value score: 100. Source: https://www.framer.com/pricing
 - beehiiv (Newsletters; stages: solo, growth, later): Free forever (1,000-subscriber view); Lite $49/mo yearly billing; Pro $95/mo yearly billing. Value score: 100. Source: https://www.beehiiv.com/pricing
-- Instantly (Outbound email / sequencing; stages: solo, growth, later): Outreach Growth $47/mo, Hypergrowth $358/mo; Credits Growth $47/mo (1,500 credits). Value score: 94. Source: https://instantly.ai/pricing
+- Instantly (Outbound email / sequencing; stages: solo, growth, later): Outreach: Growth $47/mo (5,000 emails), Hypergrowth $97/mo (125,000 emails, 25,000 contacts), Light Speed $358/mo (500,000 emails); monthly billing view. Credits plans (e.g. Growth Credits $47/mo) are separate. Value score: 94. Source: https://instantly.ai/pricing
 - Smartlead (Outbound email / sequencing; stages: solo, growth): Base from $39/mo (pricing page also lists Pro, Smart, Prime tiers). Value score: 88. Source: https://www.smartlead.ai/pricing
 - Exa (List building & lead data; stages: solo, growth): Free $10 credits/mo; Search from $4 per 1k requests (usage-based). Value score: 88. Source: https://exa.ai/pricing
 - Hunter (Enrichment & verification; stages: solo, growth, later): Free (50 credits); Starter $49/mo monthly ($34 annual); Growth $149 ($104); Scale $299 ($209). Value score: 88. Source: https://hunter.io/pricing
@@ -88,9 +88,9 @@ Assumptions: 3 people, 2 LinkedIn senders, ~5,000 emails/mo, monthly billing. Ma
 - Newsletters: beehiiv, Free plan, $0 — Free until you monetize; Lite is $49/mo yearly billing.
 - Design & video: Canva, Optional, price not verified, $0 — Common design pick, but its pricing page blocked our fetch, so it is not counted. HeyGen already covers video.
 - Community: Discord, Optional, price not verified, $0 — Free-to-start community option, but no vendor price was captured, so it is not counted.
-### Later stage, 10+ people: $4,145/mo 
+### Later stage, 10+ people: $3,884/mo 
 Assumptions: 10+ people, 10 LinkedIn senders, high email volume, monthly list prices except Common Room (billed annually).
-- Outbound email / sequencing: Instantly, Outreach Hypergrowth, $358 — Higher-volume outbound tier on the same tool.
+- Outbound email / sequencing: Instantly, Outreach Hypergrowth (125,000 emails/mo), $97 — Fits a 10+ team: 125,000 emails/mo and 25,000 contacts on the vendor page (Light Speed, $358/mo, is for 500,000 emails/mo). Corrected 2026-10-28: we previously used $358, which was a misread of the bundle table.
 - Enrichment & verification: Hunter, Scale, $299 — Scale tier for team-wide email finding and verification.
 - LinkedIn outreach: HeyReach, Growth $79 × 10 senders, $790 — One sender per rep on LinkedIn.
 - Social scheduling: Postiz, Pro, $49 — Social scheduling across a marketing team.

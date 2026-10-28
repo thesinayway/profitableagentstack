@@ -102,7 +102,7 @@
    "use_case": "outbound-email",
    "from": 47,
    "status": "published",
-   "price": "Outreach Growth $47/mo, Hypergrowth $358/mo; Credits Growth $47/mo (1,500 credits)",
+   "price": "Outreach: Growth $47/mo (5,000 emails), Hypergrowth $97/mo (125,000 emails, 25,000 contacts), Light Speed $358/mo (500,000 emails); monthly billing view. Credits plans (e.g. Growth Credits $47/mo) are separate",
    "source": "https://instantly.ai/pricing",
    "fit_score": 5,
    "stages": [
@@ -119,6 +119,7 @@
    "logo": "/assets/logos/instantly.ai.png",
    "homepage_url": "https://instantly.ai/",
    "affiliate_url": "",
+   "checked": "2026-10-28",
    "cost_score": 84,
    "value_score": 94
   },
@@ -1087,6 +1088,10 @@
  ],
  "releases": [
   {
+   "date": "2026-10-28",
+   "text": "Price check: Instantly Outreach Hypergrowth is $97/mo (125,000 emails/mo); Light Speed is $358/mo. Our later-stage stack now uses Hypergrowth, lowering its estimate from $4,145 to $3,884/mo."
+  },
+  {
    "date": "2026-10-27",
    "text": "Added 7 marketing use cases (SEO & content, social scheduling, landing pages, newsletters, design & video, community, web analytics) and 18 tools; solo and pre-seed to Series A stacks now include a marketing section."
   },
@@ -1306,9 +1311,9 @@
     [
      "outbound-email",
      "Instantly",
-     "Outreach Hypergrowth",
-     358,
-     "Higher-volume outbound tier on the same tool."
+     "Outreach Hypergrowth (125,000 emails/mo)",
+     97,
+     "Fits a 10+ team: 125,000 emails/mo and 25,000 contacts on the vendor page (Light Speed, $358/mo, is for 500,000 emails/mo). Corrected 2026-10-28: we previously used $358, which was a misread of the bundle table."
     ],
     [
      "enrichment",
