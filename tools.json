@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-26",
+ "checked": "2026-11-02",
  "use_cases": [
   {
    "id": "positioning",
@@ -93,7 +93,9 @@
    },
    "logo": "/assets/logos/smartlead.ai.png",
    "homepage_url": "https://www.smartlead.ai/",
-   "affiliate_url": ""
+   "affiliate_url": "",
+   "checked": "2026-11-02",
+   "price_verified": true
   },
   {
    "name": "Instantly",
@@ -117,7 +119,8 @@
    "logo": "/assets/logos/instantly.ai.png",
    "homepage_url": "https://instantly.ai/",
    "affiliate_url": "",
-   "checked": "2026-10-28"
+   "checked": "2026-11-02",
+   "price_verified": true
   },
   {
    "name": "Salesforge",
@@ -139,7 +142,9 @@
    },
    "logo": "/assets/logos/salesforge.ai.png",
    "homepage_url": "https://www.salesforge.ai/",
-   "affiliate_url": ""
+   "affiliate_url": "",
+   "checked": "2026-11-02",
+   "price_verified": true
   },
   {
    "name": "lemlist",
@@ -161,7 +166,9 @@
    },
    "logo": "/assets/logos/lemlist.com.png",
    "homepage_url": "https://www.lemlist.com/",
-   "affiliate_url": ""
+   "affiliate_url": "",
+   "checked": "2026-11-02",
+   "price_verified": true
   },
   {
    "name": "Reply.io",
@@ -183,7 +190,9 @@
    },
    "logo": "/assets/logos/reply.io.png",
    "homepage_url": "https://reply.io/",
-   "affiliate_url": ""
+   "affiliate_url": "",
+   "checked": "2026-11-02",
+   "price_verified": true
   },
   {
    "name": "Woodpecker",
@@ -205,14 +214,16 @@
    },
    "logo": "/assets/logos/woodpecker.co.png",
    "homepage_url": "https://woodpecker.co/",
-   "affiliate_url": ""
+   "affiliate_url": "",
+   "checked": "2026-11-02",
+   "price_verified": false
   },
   {
    "name": "Apollo",
    "use_case": "list-building",
-   "from": null,
-   "status": "unverified",
-   "price": "Price not captured automatically — see vendor page",
+   "from": 0,
+   "status": "published",
+   "price": "Free Starter plan (no time limit, per vendor FAQ); paid plans Basic, Professional, Custom — prices not captured (page renders prices client-side)",
    "source": "https://www.apollo.io/pricing",
    "fit_score": 5,
    "stages": [
@@ -227,7 +238,9 @@
    },
    "logo": "/assets/logos/apollo.io.png",
    "homepage_url": "https://www.apollo.io/",
-   "affiliate_url": ""
+   "affiliate_url": "",
+   "checked": "2026-11-02",
+   "price_verified": true
   },
   {
    "name": "Exa",
@@ -249,14 +262,16 @@
    },
    "logo": "/assets/logos/exa.ai.png",
    "homepage_url": "https://exa.ai/",
-   "affiliate_url": ""
+   "affiliate_url": "",
+   "checked": "2026-11-02",
+   "price_verified": true
   },
   {
    "name": "Clay",
    "use_case": "enrichment",
-   "from": null,
+   "from": 0,
    "status": "published",
-   "price": "Usage-based on actions; page shows e.g. 15K actions/mo at $60/mo and a plan at $167/mo — check tier details",
+   "price": "Free plan (500 actions/mo); paid usage-based on actions: Launch shown at $167/mo (starts at 15,000 actions/mo), Growth $446/mo; the page's FAQ lists Launch from $185/mo and Growth from $495/mo (billing-period difference not verified) — check tier details",
    "source": "https://www.clay.com/pricing",
    "fit_score": 5,
    "stages": [
@@ -271,7 +286,9 @@
    },
    "logo": "/assets/logos/clay.com.png",
    "homepage_url": "https://www.clay.com/",
-   "affiliate_url": ""
+   "affiliate_url": "",
+   "checked": "2026-11-02",
+   "price_verified": true
   },
   {
    "name": "Hunter",
@@ -294,7 +311,9 @@
    },
    "logo": "/assets/logos/hunter.io.png",
    "homepage_url": "https://hunter.io/",
-   "affiliate_url": ""
+   "affiliate_url": "",
+   "checked": "2026-11-02",
+   "price_verified": true
   },
   {
    "name": "FullEnrich",
@@ -316,14 +335,16 @@
    },
    "logo": "/assets/logos/fullenrich.com.png",
    "homepage_url": "https://fullenrich.com/",
-   "affiliate_url": ""
+   "affiliate_url": "",
+   "checked": "2026-11-02",
+   "price_verified": true
   },
   {
    "name": "Clearout",
    "use_case": "enrichment",
    "from": null,
    "status": "unverified",
-   "price": "Price not captured automatically — see vendor page",
+   "price": "Price not captured automatically (page renders prices client-side); vendor FAQ mentions 100 free credits to evaluate and monthly, annual and pay-as-you-go options — see vendor page",
    "source": "https://clearout.io/pricing/",
    "fit_score": 3,
    "stages": [
@@ -338,7 +359,9 @@
    },
    "logo": "/assets/logos/clearout.io.png",
    "homepage_url": "https://clearout.io/",
-   "affiliate_url": ""
+   "affiliate_url": "",
+   "checked": "2026-11-02",
+   "price_verified": false
   },
   {
    "name": "HeyReach",
@@ -360,7 +383,9 @@
    },
    "logo": "/assets/logos/heyreach.io.png",
    "homepage_url": "https://www.heyreach.io/",
-   "affiliate_url": ""
+   "affiliate_url": "",
+   "checked": "2026-11-02",
+   "price_verified": true
   },
   {
    "name": "Expandi",
@@ -382,7 +407,9 @@
    },
    "logo": "/assets/logos/expandi.io.png",
    "homepage_url": "https://expandi.io/",
-   "affiliate_url": ""
+   "affiliate_url": "",
+   "checked": "2026-11-02",
+   "price_verified": true
   },
   {
    "name": "Waalaxy",
@@ -404,7 +431,9 @@
    },
    "logo": "/assets/logos/waalaxy.com.png",
    "homepage_url": "https://www.waalaxy.com/",
-   "affiliate_url": ""
+   "affiliate_url": "",
+   "checked": "2026-11-02",
+   "price_verified": true
   },
   {
    "name": "11x",
@@ -425,7 +454,9 @@
    },
    "logo": "/assets/logos/11x.ai.png",
    "homepage_url": "https://www.11x.ai/",
-   "affiliate_url": ""
+   "affiliate_url": "",
+   "checked": "2026-11-02",
+   "price_verified": true
   },
   {
    "name": "Artisan",
@@ -447,7 +478,9 @@
    },
    "logo": "/assets/logos/artisan.co.png",
    "homepage_url": "https://www.artisan.co/",
-   "affiliate_url": ""
+   "affiliate_url": "",
+   "checked": "2026-11-02",
+   "price_verified": true
   },
   {
    "name": "Qualified",
@@ -468,7 +501,9 @@
    },
    "logo": "/assets/logos/qualified.com.png",
    "homepage_url": "https://www.qualified.com/",
-   "affiliate_url": ""
+   "affiliate_url": "",
+   "checked": "2026-11-02",
+   "price_verified": true
   },
   {
    "name": "Postiz",
@@ -491,7 +526,9 @@
    },
    "logo": "/assets/logos/postiz.com.png",
    "homepage_url": "https://postiz.com/",
-   "affiliate_url": ""
+   "affiliate_url": "",
+   "checked": "2026-11-02",
+   "price_verified": true
   },
   {
    "name": "HeyGen",
@@ -514,7 +551,9 @@
    },
    "logo": "/assets/logos/heygen.com.png",
    "homepage_url": "https://www.heygen.com/",
-   "affiliate_url": ""
+   "affiliate_url": "",
+   "checked": "2026-11-02",
+   "price_verified": true
   },
   {
    "name": "RB2B",
@@ -536,7 +575,9 @@
    },
    "logo": "/assets/logos/rb2b.com.png",
    "homepage_url": "https://www.rb2b.com/",
-   "affiliate_url": ""
+   "affiliate_url": "",
+   "checked": "2026-11-02",
+   "price_verified": true
   },
   {
    "name": "PostHog",
@@ -559,7 +600,9 @@
    },
    "logo": "/assets/logos/posthog.com.png",
    "homepage_url": "https://posthog.com/",
-   "affiliate_url": ""
+   "affiliate_url": "",
+   "checked": "2026-11-02",
+   "price_verified": true
   },
   {
    "name": "Common Room",
@@ -580,7 +623,9 @@
    },
    "logo": "/assets/logos/commonroom.io.png",
    "homepage_url": "https://www.commonroom.io/",
-   "affiliate_url": ""
+   "affiliate_url": "",
+   "checked": "2026-11-02",
+   "price_verified": true
   },
   {
    "name": "Google Search Console",
@@ -595,7 +640,7 @@
     "growth",
     "later"
    ],
-   "checked": "2026-10-27",
+   "checked": "2026-11-02",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -604,7 +649,8 @@
    },
    "homepage_url": "https://search.google.com/search-console/about",
    "affiliate_url": "",
-   "logo": "/assets/logos/support.google.com.png"
+   "logo": "/assets/logos/support.google.com.png",
+   "price_verified": true
   },
   {
    "name": "Ahrefs Free",
@@ -618,7 +664,7 @@
     "solo",
     "growth"
    ],
-   "checked": "2026-10-27",
+   "checked": "2026-11-02",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -627,37 +673,39 @@
    },
    "homepage_url": "https://ahrefs.com/",
    "affiliate_url": "",
-   "logo": "/assets/logos/ahrefs.com.png"
+   "logo": "/assets/logos/ahrefs.com.png",
+   "price_verified": true
   },
   {
    "name": "Surfer",
    "use_case": "seo-content",
    "from": 49,
    "status": "published",
-   "price": "Discovery $49/mo billed yearly; Standard $99/mo; Pro $182/mo (page lists \"USD per month\", billed yearly)",
-   "source": "https://surferseo.com/pricing/",
+   "price": "Discovery $49/mo, AI Visibility $82/mo, Standard $99/mo, Pro $182/mo, Peace of Mind $299/mo (page lists \"USD per month\", billed yearly)",
+   "source": "https://surfer.ai/pricing/",
    "fit_score": 4,
    "stages": [
     "growth",
     "later"
    ],
-   "checked": "2026-10-27",
+   "checked": "2026-11-02",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Surfer",
     "note": "G2/Capterra blocked automated fetch; rating not shown"
    },
-   "homepage_url": "https://surferseo.com/",
+   "homepage_url": "https://surfer.ai/",
    "affiliate_url": "",
-   "logo": "/assets/logos/surferseo.com.png"
+   "logo": "/assets/logos/surferseo.com.png",
+   "price_verified": true
   },
   {
    "name": "Buffer",
    "use_case": "social-scheduling",
    "from": 0,
    "status": "published",
-   "price": "Free: up to 3 channels, 10 scheduled posts per channel; Essentials $5/mo per channel (monthly); Team $10/mo per channel",
+   "price": "Free: up to 3 channels; Essentials $5/mo per channel and Team $10/mo per channel (billed-yearly view: $60/yr and $120/yr per channel); vendor says annual billing saves 20%, monthly price not captured",
    "source": "https://buffer.com/pricing",
    "fit_score": 4,
    "stages": [
@@ -665,7 +713,7 @@
     "growth",
     "later"
    ],
-   "checked": "2026-10-27",
+   "checked": "2026-11-02",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -674,7 +722,8 @@
    },
    "homepage_url": "https://buffer.com/",
    "affiliate_url": "",
-   "logo": "/assets/logos/buffer.com.png"
+   "logo": "/assets/logos/buffer.com.png",
+   "price_verified": true
   },
   {
    "name": "Typefully",
@@ -682,13 +731,13 @@
    "from": 0,
    "status": "published",
    "price": "Free plan available; paid plan prices not captured",
-   "source": "https://typefully.com/",
+   "source": "https://typefully.com/pricing",
    "fit_score": 4,
    "stages": [
     "solo",
     "growth"
    ],
-   "checked": "2026-10-27",
+   "checked": "2026-11-02",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -698,7 +747,8 @@
    "homepage_url": "https://typefully.com/",
    "affiliate_url": "",
    "note": "Paid prices not captured; check vendor",
-   "logo": "/assets/logos/typefully.com.png"
+   "logo": "/assets/logos/typefully.com.png",
+   "price_verified": true
   },
   {
    "name": "Carrd",
@@ -706,22 +756,23 @@
    "from": 0,
    "status": "published",
    "price": "Free account; Pro Lite $9/yr, Pro Standard $19/yr (custom domain), up to $69/yr for 50 sites",
-   "source": "https://carrd.co/pro",
+   "source": "https://carrd.com/pro",
    "fit_score": 4,
    "stages": [
     "solo",
     "growth"
    ],
-   "checked": "2026-10-27",
+   "checked": "2026-11-02",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Carrd",
     "note": "G2/Capterra blocked automated fetch; rating not shown"
    },
-   "homepage_url": "https://carrd.co/",
+   "homepage_url": "https://carrd.com/",
    "affiliate_url": "",
-   "logo": "/assets/logos/carrd.co.png"
+   "logo": "/assets/logos/carrd.co.png",
+   "price_verified": true
   },
   {
    "name": "Framer",
@@ -735,7 +786,7 @@
     "solo",
     "growth"
    ],
-   "checked": "2026-10-27",
+   "checked": "2026-11-02",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -744,21 +795,22 @@
    },
    "homepage_url": "https://www.framer.com/",
    "affiliate_url": "",
-   "logo": "/assets/logos/framer.com.png"
+   "logo": "/assets/logos/framer.com.png",
+   "price_verified": true
   },
   {
    "name": "Webflow",
    "use_case": "landing-pages",
    "from": 0,
    "status": "published",
-   "price": "Free (webflow.io domain); site plans Basic $15/mo billed yearly, CMS plan $25/mo billed yearly",
+   "price": "Free (webflow.io domain); site plans Basic $15/mo billed yearly, Premium (CMS, new name on the page) $25/mo billed yearly",
    "source": "https://webflow.com/pricing",
    "fit_score": 4,
    "stages": [
     "growth",
     "later"
    ],
-   "checked": "2026-10-27",
+   "checked": "2026-11-02",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -767,7 +819,8 @@
    },
    "homepage_url": "https://webflow.com/",
    "affiliate_url": "",
-   "logo": "/assets/logos/webflow.com.png"
+   "logo": "/assets/logos/webflow.com.png",
+   "price_verified": true
   },
   {
    "name": "beehiiv",
@@ -782,7 +835,7 @@
     "growth",
     "later"
    ],
-   "checked": "2026-10-27",
+   "checked": "2026-11-02",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -791,21 +844,22 @@
    },
    "homepage_url": "https://www.beehiiv.com/",
    "affiliate_url": "",
-   "logo": "/assets/logos/beehiiv.com.png"
+   "logo": "/assets/logos/beehiiv.com.png",
+   "price_verified": true
   },
   {
    "name": "Kit",
    "use_case": "newsletters",
-   "from": null,
-   "status": "unverified",
-   "price": "Price not captured: vendor pricing page blocked automated fetch — see vendor page",
+   "from": 0,
+   "status": "published",
+   "price": "Free $0 (up to 10,000 subscribers); Creator $33/mo billed yearly ($390/yr); Pro $66/mo billed yearly, shown at $50/mo for the first year as a limited-time offer",
    "source": "https://kit.com/pricing",
    "fit_score": 4,
    "stages": [
     "solo",
     "growth"
    ],
-   "checked": "2026-10-27",
+   "checked": "2026-11-02",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -814,7 +868,8 @@
    },
    "homepage_url": "https://kit.com/",
    "affiliate_url": "",
-   "logo": "/assets/logos/kit.com.png"
+   "logo": "/assets/logos/kit.com.png",
+   "price_verified": true
   },
   {
    "name": "Descript",
@@ -828,7 +883,7 @@
     "solo",
     "growth"
    ],
-   "checked": "2026-10-27",
+   "checked": "2026-11-02",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -837,7 +892,8 @@
    },
    "homepage_url": "https://www.descript.com/",
    "affiliate_url": "",
-   "logo": "/assets/logos/descript.com.png"
+   "logo": "/assets/logos/descript.com.png",
+   "price_verified": true
   },
   {
    "name": "CapCut",
@@ -851,7 +907,7 @@
     "solo",
     "growth"
    ],
-   "checked": "2026-10-27",
+   "checked": "2026-11-02",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -860,7 +916,8 @@
    },
    "homepage_url": "https://www.capcut.com/",
    "affiliate_url": "",
-   "logo": "/assets/logos/capcut.com.png"
+   "logo": "/assets/logos/capcut.com.png",
+   "price_verified": true
   },
   {
    "name": "Canva",
@@ -875,7 +932,7 @@
     "growth",
     "later"
    ],
-   "checked": "2026-10-27",
+   "checked": "2026-11-02",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -884,7 +941,8 @@
    },
    "homepage_url": "https://www.canva.com/",
    "affiliate_url": "",
-   "logo": "/assets/logos/canva.com.png"
+   "logo": "/assets/logos/canva.com.png",
+   "price_verified": false
   },
   {
    "name": "Circle",
@@ -898,7 +956,7 @@
     "growth",
     "later"
    ],
-   "checked": "2026-10-27",
+   "checked": "2026-11-02",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -907,7 +965,8 @@
    },
    "homepage_url": "https://circle.so/",
    "affiliate_url": "",
-   "logo": "/assets/logos/circle.so.png"
+   "logo": "/assets/logos/circle.so.png",
+   "price_verified": true
   },
   {
    "name": "Discord",
@@ -921,7 +980,7 @@
     "solo",
     "growth"
    ],
-   "checked": "2026-10-27",
+   "checked": "2026-11-02",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -930,7 +989,8 @@
    },
    "homepage_url": "https://discord.com/",
    "affiliate_url": "",
-   "logo": "/assets/logos/discord.com.png"
+   "logo": "/assets/logos/discord.com.png",
+   "price_verified": false
   },
   {
    "name": "Google Analytics",
@@ -945,7 +1005,7 @@
     "growth",
     "later"
    ],
-   "checked": "2026-10-27",
+   "checked": "2026-11-02",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -954,7 +1014,8 @@
    },
    "homepage_url": "https://marketingplatform.google.com/",
    "affiliate_url": "",
-   "logo": "/assets/logos/marketingplatform.google.com.png"
+   "logo": "/assets/logos/marketingplatform.google.com.png",
+   "price_verified": true
   },
   {
    "name": "Plausible",
@@ -968,7 +1029,7 @@
     "solo",
     "growth"
    ],
-   "checked": "2026-10-27",
+   "checked": "2026-11-02",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -977,7 +1038,8 @@
    },
    "homepage_url": "https://plausible.io/",
    "affiliate_url": "",
-   "logo": "/assets/logos/plausible.io.png"
+   "logo": "/assets/logos/plausible.io.png",
+   "price_verified": true
   },
   {
    "name": "Fathom Analytics",
@@ -992,7 +1054,7 @@
     "growth",
     "later"
    ],
-   "checked": "2026-10-27",
+   "checked": "2026-11-02",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -1001,10 +1063,30 @@
    },
    "homepage_url": "https://usefathom.com/",
    "affiliate_url": "",
-   "logo": "/assets/logos/usefathom.com.png"
+   "logo": "/assets/logos/usefathom.com.png",
+   "price_verified": true
   }
  ],
  "releases": [
+  {
+   "date": "2026-11-02",
+   "text": "Price check of all 41 tools: no change to any price used in our stage stacks (totals unchanged). Kit now shows public prices (Free up to 10,000 subscribers; Creator $33/mo billed yearly) and Apollo confirms a free Starter plan; Clay shows a free plan (500 actions/mo); Webflow's $25 CMS plan is now named Premium; Surfer lists new AI Visibility ($82/mo) and Peace of Mind ($299/mo) tiers. Prices for Woodpecker, Clearout, Canva and Discord could not be verified."
+  },
+  {
+   "date": "2026-10-16",
+   "text": "Salesforce announced Hunter, an outbound sales agent on Agentforce with ZoomInfo and Demandbase as launch data partners; Demandbase says it is in pilot with general availability planned later in 2026. Not listed or priced yet.",
+   "source": "https://index.businessinsurance.com/observerreporter/article/bizwire-2026-10-15-demandbase-named-flagship-data-partner-for-hunter-salesforces-new-outbound-sales-agent"
+  },
+  {
+   "date": "2026-10-07",
+   "text": "AnySoft announced general availability of Anya, a team sales agent configured by RevOps that drafts follow-ups and updates CRM records. Not listed or priced yet.",
+   "source": "https://getanyagent.ai/press/anysoft-launches-anya"
+  },
+  {
+   "date": "2026-10-01",
+   "text": "EvaSpeaks launched an omnichannel AI agent platform that qualifies leads from phone, website and email conversations, books appointments and updates CRM leads. Not listed or priced yet.",
+   "source": "https://www.prnewswire.com/news-releases/evaspeaks-launches-omnichannel-ai-platform-that-turns-conversations-into-qualified-leads-302896653.html"
+  },
   {
    "date": "2026-10-28",
    "text": "Price check: Instantly Outreach Hypergrowth is $97/mo (125,000 emails/mo); Light Speed is $358/mo. Our later-stage stack now uses Hypergrowth, lowering its estimate from $4,145 to $3,884/mo."
@@ -1279,7 +1361,7 @@
   }
  },
  "il_stack": {
-  "checked": "2026-10-27",
+  "checked": "2026-11-02",
   "items": [
    {
     "job": "מספר טלפון אמריקאי",
@@ -1298,7 +1380,7 @@
     "tool": "Google Workspace",
     "tier": "Business Starter, משתמש אחד",
     "price": 7,
-    "price_note": "$7 למשתמש לחודש (לא כולל מע\"מ); בעמוד מוצג מבצע של 50% הנחה בין 10.11.2026 ל-10.2.2027",
+    "price_note": "$7 למשתמש לחודש (לא כולל מע\"מ); בעמוד מוצג מבצע של 50% הנחה בין 16.11.2026 ל-16.2.2027",
     "status": "published",
     "source": "https://workspace.google.com/pricing",
     "homepage_url": "https://workspace.google.com/",
@@ -1312,7 +1394,7 @@
     "price": null,
     "price_note": "מחיר לא אומת: Cloudflare גובה מחיר עלות שמשתנה לפי סיומת, והמחיר לא מופיע בעמוד המוצר",
     "status": "unverified",
-    "source": "https://www.cloudflare.com/products/registrar/",
+    "source": "https://www.cloudflare.com/domains/",
     "homepage_url": "https://www.cloudflare.com/",
     "why": "דומיין נפרד לשליחה קרה שומר על המוניטין של הדומיין הראשי.",
     "logo": "/assets/logos/cloudflare.com.png"
@@ -1409,6 +1491,11 @@
    "Ordinal",
    "EmailBison"
   ],
-  "status": "noted only, not listed or priced yet"
+  "status": "noted only, not listed or priced yet",
+  "candidates_from_releases": [
+   "Salesforce Hunter",
+   "AnySoft Anya",
+   "EvaSpeaks"
+  ]
  }
 }

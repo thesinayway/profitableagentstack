@@ -1,6 +1,6 @@
 # Profitable Agent Stack
 
-> Cost-first directory of AI GTM tools ranked by use-case fit, published price and user sentiment, with estimated monthly stack costs by company stage. Prices checked 2026-10-26; verify with vendors. Not advice.
+> Cost-first directory of AI GTM tools ranked by use-case fit, published price and user sentiment, with estimated monthly stack costs by company stage. Prices checked 2026-11-02; verify with vendors. Not advice.
 
 ## Key pages
 - [Solo founder monetizing an idea](https://profitableagentstack.com/stages/solo-founder.html): est. $69.58/mo stack
@@ -16,6 +16,8 @@
 - [Full text](https://profitableagentstack.com/llms-full.txt)
 
 ## Tools
+- Apollo (List building & lead data; stages: growth, later): Free Starter plan (no time limit, per vendor FAQ); paid plans Basic, Professional, Custom — prices not captured (page renders prices client-side). Value score: 100. Source: https://www.apollo.io/pricing
+- Clay (Enrichment & verification; stages: growth, later): Free plan (500 actions/mo); paid usage-based on actions: Launch shown at $167/mo (starts at 15,000 actions/mo), Growth $446/mo; the page's FAQ lists Launch from $185/mo and Growth from $495/mo (billing-period difference not verified) — check tier details. Value score: 100. Source: https://www.clay.com/pricing
 - Google Search Console (SEO & content; stages: solo, growth, later): Free (Google describes it as a free service). Value score: 100. Source: https://support.google.com/webmasters/answer/9128668
 - Framer (Landing pages & websites; stages: solo, growth): Free $0 (Framer domain); Basic $10/mo, Pro $30/mo (yearly-billing view; monthly-billing price not verified). Value score: 100. Source: https://www.framer.com/pricing
 - beehiiv (Newsletters; stages: solo, growth, later): Free forever (1,000-subscriber view); Lite $49/mo yearly billing; Pro $95/mo yearly billing. Value score: 100. Source: https://www.beehiiv.com/pricing
@@ -29,10 +31,11 @@
 - RB2B (Signals, intent & analytics; stages: solo, growth): Free $0; Starter $79/mo; Pro from $149; Pro+ from $199. Value score: 88. Source: https://www.rb2b.com/pricing
 - PostHog (Signals, intent & analytics; stages: solo, growth, later): Free monthly allowance (e.g. 1M analytics events), then usage-based. Value score: 88. Source: https://posthog.com/pricing
 - Ahrefs Free (SEO & content; stages: solo, growth): Free: site audit and SEO metrics for websites you verify (formerly Ahrefs Webmaster Tools); paid plans not captured. Value score: 88. Source: https://ahrefs.com/webmaster-tools
-- Buffer (Social scheduling; stages: solo, growth, later): Free: up to 3 channels, 10 scheduled posts per channel; Essentials $5/mo per channel (monthly); Team $10/mo per channel. Value score: 88. Source: https://buffer.com/pricing
-- Typefully (Social scheduling; stages: solo, growth): Free plan available; paid plan prices not captured. Value score: 88. Source: https://typefully.com/
-- Carrd (Landing pages & websites; stages: solo, growth): Free account; Pro Lite $9/yr, Pro Standard $19/yr (custom domain), up to $69/yr for 50 sites. Value score: 88. Source: https://carrd.co/pro
-- Webflow (Landing pages & websites; stages: growth, later): Free (webflow.io domain); site plans Basic $15/mo billed yearly, CMS plan $25/mo billed yearly. Value score: 88. Source: https://webflow.com/pricing
+- Buffer (Social scheduling; stages: solo, growth, later): Free: up to 3 channels; Essentials $5/mo per channel and Team $10/mo per channel (billed-yearly view: $60/yr and $120/yr per channel); vendor says annual billing saves 20%, monthly price not captured. Value score: 88. Source: https://buffer.com/pricing
+- Typefully (Social scheduling; stages: solo, growth): Free plan available; paid plan prices not captured. Value score: 88. Source: https://typefully.com/pricing
+- Carrd (Landing pages & websites; stages: solo, growth): Free account; Pro Lite $9/yr, Pro Standard $19/yr (custom domain), up to $69/yr for 50 sites. Value score: 88. Source: https://carrd.com/pro
+- Webflow (Landing pages & websites; stages: growth, later): Free (webflow.io domain); site plans Basic $15/mo billed yearly, Premium (CMS, new name on the page) $25/mo billed yearly. Value score: 88. Source: https://webflow.com/pricing
+- Kit (Newsletters; stages: solo, growth): Free $0 (up to 10,000 subscribers); Creator $33/mo billed yearly ($390/yr); Pro $66/mo billed yearly, shown at $50/mo for the first year as a limited-time offer. Value score: 88. Source: https://kit.com/pricing
 - Descript (Design & video; stages: solo, growth): Free $0; Hobbyist $16/mo yearly ($24 monthly); Creator $24 yearly ($35 monthly); Business $50 yearly ($65 monthly), per person. Value score: 88. Source: https://www.descript.com/pricing
 - CapCut (Design & video; stages: solo, growth): Free USD 0; paid plan prices not captured. Value score: 88. Source: https://www.capcut.com/pricing
 - Circle (Community; stages: growth, later): Professional $89/mo, Business $199/mo, Scale $419/mo (billing period not verified); 14-day free trial, no free plan listed. Value score: 88. Source: https://circle.so/pricing
@@ -45,16 +48,13 @@
 - Expandi (LinkedIn outreach; stages: solo, growth): $99/mo monthly ($79 annual), 7-day free trial. Value score: 65. Source: https://expandi.io/pricing/
 - Postiz (Social scheduling; stages: solo, growth, later): Standard $29/mo, Team $39, Pro $49, Ultimate $99. Value score: 65. Source: https://postiz.com/pricing
 - Common Room (Signals, intent & analytics; stages: later): Essential $2,500/mo billed annually (5 seats). Value score: 65. Source: https://www.commonroom.io/pricing
-- Surfer (SEO & content; stages: growth, later): Discovery $49/mo billed yearly; Standard $99/mo; Pro $182/mo (page lists "USD per month", billed yearly). Value score: 65. Source: https://surferseo.com/pricing/
+- Surfer (SEO & content; stages: growth, later): Discovery $49/mo, AI Visibility $82/mo, Standard $99/mo, Pro $182/mo, Peace of Mind $299/mo (page lists "USD per month", billed yearly). Value score: 65. Source: https://surfer.ai/pricing/
 - Fathom Analytics (Web analytics; stages: solo, growth, later): From $15/mo (up to 100,000 monthly pageviews); 7-day free trial. Value score: 65. Source: https://usefathom.com/pricing
 - Woodpecker (Outbound email / sequencing; stages: solo, growth): Price not captured automatically — see vendor page. Value score: None. Source: https://woodpecker.co/pricing/
-- Apollo (List building & lead data; stages: growth, later): Price not captured automatically — see vendor page. Value score: None. Source: https://www.apollo.io/pricing
-- Clay (Enrichment & verification; stages: growth, later): Usage-based on actions; page shows e.g. 15K actions/mo at $60/mo and a plan at $167/mo — check tier details. Value score: None. Source: https://www.clay.com/pricing
-- Clearout (Enrichment & verification; stages: solo, growth): Price not captured automatically — see vendor page. Value score: None. Source: https://clearout.io/pricing/
+- Clearout (Enrichment & verification; stages: solo, growth): Price not captured automatically (page renders prices client-side); vendor FAQ mentions 100 free credits to evaluate and monthly, annual and pay-as-you-go options — see vendor page. Value score: None. Source: https://clearout.io/pricing/
 - 11x (AI SDR / agentic SDR; stages: later): Contact sales. Value score: None. Source: https://www.11x.ai/
 - Artisan (AI SDR / agentic SDR; stages: growth, later): Contact sales. Value score: None. Source: https://www.artisan.co/pricing
 - Qualified (AI SDR / agentic SDR; stages: later): Contact sales. Value score: None. Source: https://www.qualified.com/pricing
-- Kit (Newsletters; stages: solo, growth): Price not captured: vendor pricing page blocked automated fetch — see vendor page. Value score: None. Source: https://kit.com/pricing
 - Canva (Design & video; stages: solo, growth, later): Price not captured: vendor pricing page blocked automated fetch — see vendor page. Value score: None. Source: https://www.canva.com/pricing/
 - Discord (Community; stages: solo, growth): Price not captured: no pricing page found for community servers — see vendor. Value score: None. Source: https://discord.com/
 
@@ -102,4 +102,4 @@ Assumptions: 10+ people, 10 LinkedIn senders, high email volume, monthly list pr
 Value = 50% fit (editorial) + 30% cost + 20% sentiment; sentiment not yet verified so fit/cost reweighted 62.5/37.5.
 
 ## Disclaimer
-Profitable Agent Stack is for general information only, provided "as is" without warranties. Prices, plans, features and review data change often and may be inaccurate or out of date (last checked 2026-10-26); always verify with the vendor. Cost estimates and scores are editorial estimates, not advice. Nothing here is professional, legal or financial advice. Trademarks belong to their owners; listing is not endorsement. Some links may be affiliate or sponsored — see our Disclosure.
+Profitable Agent Stack is for general information only, provided "as is" without warranties. Prices, plans, features and review data change often and may be inaccurate or out of date (last checked 2026-11-02); always verify with the vendor. Cost estimates and scores are editorial estimates, not advice. Nothing here is professional, legal or financial advice. Trademarks belong to their owners; listing is not endorsement. Some links may be affiliate or sponsored — see our Disclosure.
