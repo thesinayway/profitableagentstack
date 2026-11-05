@@ -37,8 +37,18 @@
    "group": "sales"
   },
   {
-   "id": "seo-content",
-   "name": "SEO & content",
+   "id": "search-performance",
+   "name": "Search performance",
+   "group": "marketing"
+  },
+  {
+   "id": "content-optimization",
+   "name": "Content optimization",
+   "group": "marketing"
+  },
+  {
+   "id": "aeo",
+   "name": "AEO (AI search visibility)",
    "group": "marketing"
   },
   {
@@ -689,7 +699,7 @@
   },
   {
    "name": "Google Search Console",
-   "use_case": "seo-content",
+   "use_case": "search-performance",
    "from": 0,
    "status": "published",
    "price": "Free (Google describes it as a free service)",
@@ -716,7 +726,7 @@
   },
   {
    "name": "Ahrefs Free",
-   "use_case": "seo-content",
+   "use_case": "search-performance",
    "from": 0,
    "status": "published",
    "price": "Free: site audit and SEO metrics for websites you verify (formerly Ahrefs Webmaster Tools); paid plans not captured",
@@ -741,7 +751,7 @@
   },
   {
    "name": "Surfer",
-   "use_case": "seo-content",
+   "use_case": "content-optimization",
    "from": 49,
    "status": "published",
    "price": "Discovery $49/mo, AI Visibility $82/mo, Standard $99/mo, Pro $182/mo, Peace of Mind $299/mo (page lists \"USD per month\", billed yearly)",
@@ -1152,9 +1162,178 @@
    "affiliate_url": "",
    "logo": "/assets/logos/usefathom.com.png",
    "price_verified": true
+  },
+  {
+   "name": "Peec AI",
+   "use_case": "aeo",
+   "from": 95,
+   "status": "published",
+   "price": "Starter $95/mo (50 prompts, 3 chosen models, unlimited users, SOC 2); Pro $245/mo (150 prompts, API); Advanced $495/mo (350 prompts); Enterprise custom (SSO, more models)",
+   "source": "https://peec.ai/pricing",
+   "fit_score": 4,
+   "stages": [
+    "early",
+    "scaling",
+    "large"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Peec+AI",
+    "note": "G2/Capterra not fetched for this tool; rating not shown"
+   },
+   "homepage_url": "https://peec.ai/",
+   "affiliate_url": "",
+   "checked": "2026-11-05",
+   "price_verified": true
+  },
+  {
+   "name": "Otterly.AI",
+   "use_case": "aeo",
+   "from": 29,
+   "status": "published",
+   "price": "Lite $29/mo (15 prompts, 4 engines); Standard $189/mo (100 prompts); Premium $489/mo (400 prompts); Enterprise custom (SSO); Claude, AI Mode and Gemini are paid add-ons",
+   "source": "https://otterly.ai/pricing",
+   "fit_score": 3,
+   "stages": [
+    "early",
+    "scaling"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Otterly.AI",
+    "note": "G2/Capterra not fetched for this tool; rating not shown"
+   },
+   "homepage_url": "https://otterly.ai/",
+   "affiliate_url": "",
+   "checked": "2026-11-05",
+   "price_verified": true
+  },
+  {
+   "name": "AthenaHQ",
+   "use_case": "aeo",
+   "from": 295,
+   "status": "published",
+   "price": "Essential free tier ($25 free credit); Starter $295/mo (3,600 credits, 11 models, billing basis monthly vs annual not verified); Enterprise custom (SAML SSO, RBAC, audit logs)",
+   "source": "https://www.athenahq.ai/plans",
+   "fit_score": 4,
+   "stages": [
+    "early",
+    "scaling",
+    "large"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=AthenaHQ",
+    "note": "G2/Capterra not fetched for this tool; rating not shown"
+   },
+   "homepage_url": "https://www.athenahq.ai/",
+   "affiliate_url": "",
+   "checked": "2026-11-05",
+   "price_verified": true
+  },
+  {
+   "name": "Scrunch",
+   "use_case": "aeo",
+   "from": 250,
+   "status": "published",
+   "price": "Core $250/mo (125 prompts, 4 LLMs, 5 licenses; third-party reports $300 month-to-month, not verified on vendor page); Enterprise custom (SSO, 9 LLMs, AXP)",
+   "source": "https://scrunch.com/pricing",
+   "fit_score": 4,
+   "stages": [
+    "early",
+    "scaling",
+    "large"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Scrunch",
+    "note": "G2/Capterra not fetched for this tool; rating not shown"
+   },
+   "homepage_url": "https://scrunch.com/",
+   "affiliate_url": "",
+   "checked": "2026-11-05",
+   "price_verified": true
+  },
+  {
+   "name": "Profound",
+   "use_case": "aeo",
+   "from": null,
+   "status": "contact",
+   "price": "Contact sales for Enterprise (custom; SOC 2 and SSO/SAML). Free 7-day trial (50 prompts, 3 engines). No public paid price for brands.",
+   "source": "https://www.tryprofound.com/pricing",
+   "fit_score": 4,
+   "stages": [
+    "scaling",
+    "large"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Profound",
+    "note": "G2/Capterra not fetched for this tool; rating not shown"
+   },
+   "homepage_url": "https://www.tryprofound.com/",
+   "affiliate_url": "",
+   "checked": "2026-11-05",
+   "price_verified": true
+  },
+  {
+   "name": "Salesloft",
+   "use_case": "outbound-email",
+   "from": null,
+   "status": "contact",
+   "price": "Contact sales (no public price; the pricing page goes to a talk-to-sales form). Third-party buyer-data reports mention per-seat annual contracts with a 10 to 15 seat minimum, not stated by the vendor.",
+   "source": "https://www.salesloft.com/pricing",
+   "fit_score": 4,
+   "stages": [
+    "scaling",
+    "large"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Salesloft",
+    "note": "Numeric G2 rating not shown (policy: not shown until fetched consistently). G2 reviewer company size, 2026-11-05: 16.5% small-business, 50.9% mid-market, 32.6% enterprise, of 4,287 reviews."
+   },
+   "homepage_url": "https://www.salesloft.com/",
+   "affiliate_url": "",
+   "checked": "2026-11-05",
+   "price_verified": true
+  },
+  {
+   "name": "Outreach",
+   "use_case": "outbound-email",
+   "from": null,
+   "status": "contact",
+   "price": "Contact sales (no public price). Vendor pricing page lists Amplify Essentials, Core, Plus and Pro packages priced per user plus AI credits (10,000 to 100,000 credits); request pricing.",
+   "source": "https://www.outreach.io/pricing",
+   "fit_score": 4,
+   "stages": [
+    "scaling",
+    "large"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Outreach",
+    "note": "Numeric G2 rating not shown (policy: not shown until fetched consistently). G2 reviewer company size, 2026-11-05: 19.1% small-business, 59.2% mid-market, 21.7% enterprise, of 3,574 reviews."
+   },
+   "homepage_url": "https://www.outreach.io/",
+   "affiliate_url": "",
+   "checked": "2026-11-05",
+   "price_verified": true
   }
  ],
  "releases": [
+  {
+   "date": "2026-11-05",
+   "text": "Split the old SEO & content use case into Search performance (Google Search Console, Ahrefs Free) and Content optimization (Surfer), so each job has one tool in a stack. Added a new AEO (AI search visibility) use case with 5 tools: Peec AI, Otterly.AI, AthenaHQ, Scrunch (published prices) and Profound (contact sales); recommended from Early scaling up, skipped for Solo and Small. Added Salesloft and Outreach (contact sales) to outbound; Salesloft replaces Reply.io as the Large outbound pick, so the Large total is a floor that drops by $59 and gains $495 for Peec AI. Sources and dates are on each tool and on the Large page.",
+   "source": "https://profitableagentstack.com/stages/large-multi-team.html"
+  },
   {
    "date": "2026-11-05",
    "text": "Refined recommended stacks to weigh who reviews and uses each tool at that GTM team size, not only the category-wide value score. Large list building now counts Apollo Organization (25 seats, billed annually, quote needed) instead of the free Starter plan; Large enrichment moves from Hunter to Clay (Growth list price plus an Enterprise quote for SSO). Scaling list building now counts Apollo Basic for 10 seats. Added ZoomInfo as contact sales (not in any stack). Sources and G2 reviewer company-size mixes are on the Scaling and Large pages."
@@ -1325,8 +1504,12 @@
      "These are contact-sales products. An agent cannot fix messaging that does not work by hand yet."
     ],
     [
-     "Social scheduling, SEO tooling, design/video, community",
-     "Useful later; none of them is needed to get the first customers."
+     "Social scheduling, search and content tools, design/video, community",
+     "Useful later; none of them is needed to get the first customers. Free Search Console is worth setting up when you publish."
+    ],
+    [
+     "AEO (AI search visibility) tools",
+     "No AI-search demand to measure yet, and warm leads and outbound come first. Revisit when content gets traffic."
     ]
    ]
   },
@@ -1378,11 +1561,11 @@
      ""
     ],
     [
-     "seo-content",
+     "search-performance",
      "Google Search Console",
      "Free",
      0,
-     "Free first-party search data. Paid content tools wait until you publish weekly.",
+     "Free first-party search data. Paid content optimization waits until you publish weekly.",
      ""
     ],
     [
@@ -1436,14 +1619,18 @@
      "Contact-sales pricing and little to feed it yet."
     ],
     [
-     "Paid SEO tools (Surfer), video, community",
-     "Use Search Console and publish first; add paid tools once content is a weekly habit."
+     "Content optimization (Surfer), video, community",
+     "Use Search Console and publish first; add paid content tools once content is a weekly habit."
+    ],
+    [
+     "AEO (AI search visibility) tools",
+     "Skip until AI assistants send you visits you can see in analytics; warm leads and outbound still produce more pipeline than AI-search visibility."
     ]
    ]
   },
   "early": {
    "who": "Six to fifteen people run go-to-market: dedicated sellers, someone owning content, and enough volume that tooling gaps cost real pipeline.",
-   "assumptions": "10 GTM people, 5 LinkedIn senders, ~25,000 emails/mo (inside Instantly's 125,000/mo Hypergrowth tier), monthly billing. Surfer is its yearly-billed view; Framer is its yearly-billing view. PostHog counted at its free allowance (usage-based beyond it).",
+   "assumptions": "10 GTM people, 5 LinkedIn senders, ~25,000 emails/mo (inside Instantly's 125,000/mo Hypergrowth tier), monthly billing. Surfer is its yearly-billed view; Framer is its yearly-billing view. PostHog counted at its free allowance (usage-based beyond it). Peec AI is its Starter monthly list price.",
    "extra": "",
    "bytool": [
     [
@@ -1497,19 +1684,27 @@
      ""
     ],
     [
-     "seo-content",
+     "search-performance",
      "Google Search Console",
      "Free",
      0,
-     "Free first-party data on which queries bring visitors.",
+     "Free first-party data on which queries bring visitors (search performance).",
      ""
     ],
     [
-     "seo-content",
+     "content-optimization",
      "Surfer",
      "Discovery, billed yearly",
      49,
-     "Content as a system: optimization is a separate job from tracking. Discovery is its lowest listed tier.",
+     "Content optimization is a separate job from search performance tracking. Discovery is its lowest listed tier.",
+     ""
+    ],
+    [
+     "aeo",
+     "Peec AI",
+     "Starter, monthly",
+     95,
+     "Lowest-priced dedicated AI-search tracker with a published price we found that fits a team: 50 prompts on 3 models, unlimited users, SOC 2 on every plan. Surfer is not the AEO pick: its AI tracker is an add-on to content editing, and this is a different job. Start small; skip if AI search is not yet a channel.",
      ""
     ],
     [
@@ -1565,12 +1760,16 @@
     [
      "Community, video",
      "Only if a specific channel is already working."
+    ],
+    [
+     "Content optimization at higher tiers; AEO beyond Peec Starter",
+     "Start at the entry tiers; more prompts and models only when AI-search referrals show up in analytics."
     ]
    ]
   },
   "scaling": {
    "who": "Sixteen to forty people in go-to-market, several managers, and RevOps starting to own reports, permissions and data hygiene.",
-   "assumptions": "25 GTM people, 10 LinkedIn senders, high email volume (125,000/mo), monthly list prices except Apollo (10 prospecting seats, billed annually); Webflow and Surfer are yearly-billed views. RB2B Pro is a 'from' price. PostHog counted at its free allowance (usage-based beyond it).",
+   "assumptions": "25 GTM people, 10 LinkedIn senders, high email volume (125,000/mo), monthly list prices except Apollo (10 prospecting seats, billed annually); Webflow and Surfer are yearly-billed views. RB2B Pro is a 'from' price. PostHog counted at its free allowance (usage-based beyond it). Peec AI is its Pro monthly list price.",
    "extra": "",
    "bytool": [
     [
@@ -1604,7 +1803,7 @@
      "Instantly",
      "Outreach Hypergrowth (125,000 emails/mo)",
      97,
-     "Cost-first pick at this volume. Test its admin and role controls in the trial; Reply.io is the step-up when you need org-level roles (see Large).",
+     "Cost-first pick at this volume. Test its admin and role controls in the trial; Reply.io, Salesloft or Outreach are the step-ups when you need org-level roles and a sales-engagement suite (see Large).",
      ""
     ],
     [
@@ -1624,19 +1823,27 @@
      "from"
     ],
     [
-     "seo-content",
+     "search-performance",
      "Google Search Console",
      "Free",
      0,
-     "Free first-party data.",
+     "Free first-party search performance data.",
      ""
     ],
     [
-     "seo-content",
+     "content-optimization",
      "Surfer",
      "Discovery, billed yearly",
      49,
-     "Content optimization, a separate job from tracking.",
+     "Content optimization, a separate job from search performance.",
+     ""
+    ],
+    [
+     "aeo",
+     "Peec AI",
+     "Pro, monthly",
+     245,
+     "150 prompts, 3 countries and 2 projects, plus API access for reporting. Dedicated AEO tracker with published pricing; AthenaHQ ($295) and Scrunch ($250) are the alternatives, Profound is contact sales.",
      ""
     ],
     [
@@ -1711,7 +1918,7 @@
   },
   "large": {
    "who": "More than forty people across several teams or regions. Procurement, security review and data-processing agreements are part of buying anything.",
-   "assumptions": "40+ GTM people across teams, 25 of them prospecting in Apollo (Organization, billed annually, 3-seat minimum), ~25 LinkedIn senders (HeyReach Agency tier), monthly list prices except Apollo and Common Room (billed annually, Common Room 5 seats). Clay is its Growth monthly list price; its Enterprise tier is custom. Reply.io is a 'from' price: its higher tiers vary and need a quote. Enterprise tiers, SSO and security documents are quote-based. This total is a floor, not a quote.",
+   "assumptions": "40+ GTM people across teams, 25 of them prospecting in Apollo (Organization, billed annually, 3-seat minimum), ~25 LinkedIn senders (HeyReach Agency tier), monthly list prices except Apollo and Common Room (billed annually, Common Room 5 seats). Clay is its Growth monthly list price; its Enterprise tier is custom. Salesloft (outbound) has no public price and counts as $0 here; expect a per-seat, annual quote with a seat minimum. Peec AI is Advanced's monthly list price; SSO needs its Enterprise quote. Enterprise tiers, SSO and security documents are quote-based. This total is a floor, not a quote.",
    "extra": "(list-price floor)",
    "bytool": [
     [
@@ -1742,11 +1949,11 @@
     ],
     [
      "outbound-email",
-     "Reply.io",
-     "Email, from $59",
-     59,
-     "Documents organization, multi-team and single-team roles and permissions in its help center, and says it is SOC 2 certified. Pricing beyond the entry tier needs a quote. Instantly ($97 at 125,000 emails/mo) is cheaper if your security team accepts its attestation.",
-     "from"
+     "Salesloft",
+     "Enterprise quote (per seat, no public list price)",
+     0,
+     "Pick over Outreach for a 40+ team: G2 reviewers are 32.6% enterprise and 50.9% mid-market (4,287 reviews) versus 21.7% and 59.2% for Outreach (3,574), G2 rates its ease of setup 8.6 vs 7.7 and support 8.6 vs 8.3, and it publicly documents SAML SSO (Okta, Entra, OneLogin) plus SOC 2 Type II, ISO 27001 and ISO 27701 with a public trust portal. No public price: $0 is counted, so this total is a floor. Outreach is the close alternative (SOC 2 Type II, ISO 27001, ISO 42001; trust center only via an account exec). Salesloft merged with Clari (Dec 2025): ask about packaging and renewal terms.",
+     "quote"
     ],
     [
      "linkedin",
@@ -1765,20 +1972,28 @@
      ""
     ],
     [
-     "seo-content",
+     "search-performance",
      "Google Search Console",
      "Free",
      0,
-     "Free first-party data.",
+     "Free first-party search performance data.",
      ""
     ],
     [
-     "seo-content",
+     "content-optimization",
      "Surfer",
      "Discovery, billed yearly",
      49,
-     "Content optimization; check seat limits for multiple teams.",
+     "Content optimization, a separate job from search performance; check seat limits for multiple teams.",
      ""
+    ],
+    [
+     "aeo",
+     "Peec AI",
+     "Advanced, monthly list (SSO needs Enterprise quote)",
+     495,
+     "Advanced lists 350 prompts, 5 projects and a Data Studio connector, and SOC 2 is on every plan, but SSO is Enterprise-only (custom price): get a quote if security requires SSO. Profound (contact sales; SOC 2, SSO/SAML) is the enterprise-first alternative, and AthenaHQ and Scrunch also list Enterprise SSO. We found no G2 reviewer-size data for these tools.",
+     "quote"
     ],
     [
      "social-scheduling",
@@ -1853,8 +2068,23 @@
      "https://www.clay.com/pricing"
     ],
     [
-     "Outbound and LinkedIn spot-check",
-     "G2 reviewer mix for our Large outbound pick: Reply.io is 80.5% small-business, 17.4% mid-market, 2.1% enterprise (1,568 reviews). HeyReach has only 74 G2 reviews. No tool we list for these jobs has a large mid-market or enterprise review base; Outreach (59.2% mid-market, 21.7% enterprise) and Salesloft (50.9%, 32.6%) do, but they are not listed. We did not change these picks and flag the gap.",
+     "Salesloft (outbound, our Large pick)",
+     "G2 comparison page (checked 2026-11-05): 4,287 reviews, 16.5% small-business, 50.9% mid-market, 32.6% enterprise; G2 ease of setup 8.6 vs Outreach 7.7, quality of support 8.6 vs 8.3. Vendor security page lists SOC 2 Type 2 and ISO 27001; its security measures document also lists ISO 27701; help center documents SAML SSO (Okta, OneLogin, Google, Microsoft Entra). Trust center is public. Pricing page goes to a talk-to-sales form (no list price). Vendor says Salesloft is now the company and platform brand after merging with Clari.",
+     "https://www.g2.com/compare/outreach-vs-salesloft"
+    ],
+    [
+     "Salesloft (security and SSO)",
+     "Security & compliance page and help center (checked 2026-11-05).",
+     "https://www.salesloft.com/security-compliance"
+    ],
+    [
+     "Outreach (outbound, also consider)",
+     "G2 comparison page (checked 2026-11-05): 3,574 reviews, 19.1% small-business, 59.2% mid-market, 21.7% enterprise; reviewers flag cost and a steeper learning curve more often. Vendor trust page lists SOC 2 Type II, ISO 27001, ISO 27701, ISO 42001 and HIPAA, but trust center access is through an account exec. Pricing page lists Amplify Essentials, Core, Plus and Pro with 10,000 to 100,000 AI credits and says pricing is per user plus consumption; no list price.",
+     "https://www.outreach.io/pricing"
+    ],
+    [
+     "Reply.io and HeyReach spot-check",
+     "Reply.io, our previous Large outbound pick, is 80.5% small-business, 17.4% mid-market, 2.1% enterprise (1,568 G2 reviews), so it moved to the all-tools list as a cheaper option. HeyReach (LinkedIn) has only 74 G2 reviews, so the LinkedIn pick is unchanged and no listed LinkedIn tool has a large enterprise review base.",
      "https://www.g2.com/compare/outreach-vs-salesloft"
     ],
     [
@@ -1881,6 +2111,11 @@
      "Instantly",
      "Public sources we found disagree on whether a SOC 2 Type II report is held. Ask the vendor for its current report under NDA before buying.",
      "https://instantly.ai/dpa"
+    ],
+    [
+     "Peec AI (AEO pick) and Profound",
+     "Peec pricing page (checked 2026-11-05): Starter $95, Pro $245, Advanced $495 per month; SOC 2 on every plan; SSO only on Enterprise (custom). Profound pricing page: Enterprise custom with SOC 2 and SSO/SAML; self-serve brand plans are not published. Vendor claims; we did not collect G2 reviewer-size data for AEO tools.",
+     "https://peec.ai/pricing"
     ]
    ],
    "evidence_date": "2026-11-05",

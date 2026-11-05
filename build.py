@@ -84,7 +84,7 @@ def costtxt(s):
 # (solo shown as ~$41 because Carrd is priced yearly/12)
 bars='<div class="bars">'+''.join(f'<div><span>{ST[s]["name"]} <small class="mut">{ST[s]["size"]}</small></span><span class="bar" style="width:{max(3,tot[s]/mx*100):.0f}%"></span><b>{"≥ " if s=="large" else ""}${tot[s]:,.0f}</b></div>' for s in ST)+'</div>'
 def pick(s,tool): return next(i for i in D['stacks'][s]['items'] if i[1]==tool)
-TOK={'checked':C,'cost:solo':f'${tot["solo"]:,.0f}','price:RB2B:starter':f'${pick("early","RB2B")[3]:,.0f}','price:Common Room:essential':f'${pick("large","Common Room")[3]:,.0f}'}
+TOK={'checked':C,'cost:solo':f'${tot["solo"]:,.0f}','price:RB2B:starter':f'${pick("early","RB2B")[3]:,.0f}','price:Peec AI:starter':f'${pick("early","Peec AI")[3]:,.0f}','price:Common Room:essential':f'${pick("large","Common Room")[3]:,.0f}'}
 hero=f'''<section class="hero"><div class="wrap"><span class="pill">Prices checked {C} · {len(D['tools'])} tools · {len(UC)} use cases</span><h1>Build your AI GTM stack for the best <span class="grad">value per dollar</span>.</h1>
 <p>Ranked by real user reviews and published prices — one tool per job, plus the use cases you can safely skip until your team is bigger. From about {TOK['cost:solo']}/mo for one person.</p>
 <p><a class="btn" href="/stages/">See stacks by GTM team size</a> <a class="btn ghost" href="/directory.html">Browse all tools</a></p></div></section>'''
@@ -284,5 +284,5 @@ full=L+'\n## Tools\n'+''.join(f'- {t["name"]} ({UC[t["use_case"]]}; stages: {", 
 full+='\n## Stacks by GTM team size (estimates)\n'+''.join(f'### {ST[s]["name"]} ({ST[s]["size"]}): {"at least " if s=="large" else ""}${stack_total(s):,}/mo {D["stacks"][s].get("extra","")}\nAssumptions: {D["stacks"][s]["assumptions"]}\n'+''.join(f'- {job(i)}: {i[1]}, {i[2]}, ${i[3]} — {i[4]}\n' for i in D['stacks'][s]['items']) for s in ST)
 full+='\n## Methodology\nValue = 50% fit (editorial) + 30% cost + 20% sentiment; sentiment not yet verified so fit/cost reweighted 62.5/37.5.\n\n## Disclaimer\n'+DISC+'\n'
 open('llms-full.txt','w').write(full)
-open('_redirects','w').write('/stages/pre-seed-to-series-a.html /stages/small-gtm-team.html 301\n/stages/pre-seed-to-series-a /stages/small-gtm-team.html 301\n/stages/later-stage.html /stages/scaling.html 301\n/stages/later-stage /stages/scaling.html 301\n')
+open('_redirects','w').write('/stages/pre-seed-to-series-a.html /stages/small-gtm-team.html 301\n/stages/pre-seed-to-series-a /stages/small-gtm-team.html 301\n/stages/later-stage.html /stages/scaling.html 301\n/stages/later-stage /stages/scaling.html 301\n/use-cases/seo-content.html /use-cases/search-performance.html 301\n/use-cases/seo-content /use-cases/search-performance.html 301\n')
 print(len(PAGES),'pages')
