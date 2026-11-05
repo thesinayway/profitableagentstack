@@ -244,7 +244,7 @@
    "use_case": "list-building",
    "from": 0,
    "status": "published",
-   "price": "Free Starter plan (no time limit, per vendor FAQ); paid plans Basic, Professional, Custom \u2014 prices not captured (page renders prices client-side)",
+   "price": "Free Starter plan (no time limit; Apollo's FAQ calls it for 'exploring or very light usage'); Basic $49, Professional $79, Organization $119 per seat/mo billed annually (Organization: 3-seat minimum, SSO listed in plan table); Custom plan for SSO, advanced security and custom volumes via sales",
    "source": "https://www.apollo.io/pricing",
    "fit_score": 5,
    "stages": [
@@ -257,13 +257,13 @@
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
-    "g2_url": "https://www.g2.com/search?query=Apollo",
-    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+    "g2_url": "https://www.g2.com/products/apollo-io/reviews",
+    "note": "Numeric G2 rating not shown (fetch limits). G2 reviewer company size, 2026-11-05: 67.0% small-business, 28.4% mid-market (51-1,000 employees), 4.6% enterprise (>1,000), of 9,858 reviews."
    },
    "logo": "/assets/logos/apollo.io.png",
    "homepage_url": "https://www.apollo.io/",
    "affiliate_url": "",
-   "checked": "2026-11-02",
+   "checked": "2026-11-05",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 100
@@ -296,11 +296,37 @@
    "value_score": 88
   },
   {
+   "name": "ZoomInfo",
+   "use_case": "list-building",
+   "from": null,
+   "status": "contact",
+   "price": "Contact sales (no public price). Vendor pricing page lists Professional, Copilot Advanced and Copilot Enterprise packages priced by licenses and credits.",
+   "source": "https://www.zoominfo.com/pricing",
+   "fit_score": 4,
+   "stages": [
+    "scaling",
+    "large"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=ZoomInfo",
+    "note": "Numeric G2 rating not shown (fetch limits). G2 reviewer company size, 2026-11-05: 25.8% small-business, 48.1% mid-market, 26.1% enterprise, of 8,728 reviews (ZoomInfo Sales)."
+   },
+   "logo": "/assets/logos/zoominfo.com.png",
+   "homepage_url": "https://www.zoominfo.com/",
+   "affiliate_url": "",
+   "checked": "2026-11-05",
+   "price_verified": true,
+   "cost_score": null,
+   "value_score": null
+  },
+  {
    "name": "Clay",
    "use_case": "enrichment",
    "from": 0,
    "status": "published",
-   "price": "Free plan (500 actions/mo); paid usage-based on actions: Launch shown at $167/mo (starts at 15,000 actions/mo), Growth $446/mo; the page's FAQ lists Launch from $185/mo and Growth from $495/mo (billing-period difference not verified) \u2014 check tier details",
+   "price": "Free plan (500 actions/mo); Launch $167/mo (annual-billing view; $185 monthly), Growth $446/mo (annual-billing view; $495 monthly), both usage-based on actions and data credits; Enterprise custom (SSO/SAML, SCIM, RBAC, IP allowlists, custom DPA)",
    "source": "https://www.clay.com/pricing",
    "fit_score": 5,
    "stages": [
@@ -312,13 +338,13 @@
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
-    "g2_url": "https://www.g2.com/search?query=Clay",
-    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+    "g2_url": "https://www.g2.com/products/clay-com-clay/reviews",
+    "note": "Numeric G2 rating not shown (fetch limits). G2 reviewer company size, 2026-11-05: 73.8% small-business, 24.8% mid-market, 1.4% enterprise, of 234 reviews."
    },
    "logo": "/assets/logos/clay.com.png",
    "homepage_url": "https://www.clay.com/",
    "affiliate_url": "",
-   "checked": "2026-11-02",
+   "checked": "2026-11-05",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 100
@@ -341,13 +367,13 @@
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
-    "g2_url": "https://www.g2.com/search?query=Hunter",
-    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+    "g2_url": "https://www.g2.com/products/hunter/reviews",
+    "note": "Numeric G2 rating not shown (fetch limits). G2 reviewers on 2026-11-05: 659 reviews, 31.9% mid-market (51-1,000 employees) per G2 comparison page."
    },
    "logo": "/assets/logos/hunter.io.png",
    "homepage_url": "https://hunter.io/",
    "affiliate_url": "",
-   "checked": "2026-11-02",
+   "checked": "2026-11-05",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 88
@@ -1215,6 +1241,10 @@
  "releases": [
   {
    "date": "2026-11-05",
+   "text": "Refined recommended stacks to weigh who reviews and uses each tool at that GTM team size, not only the category-wide value score. Large list building now counts Apollo Organization (25 seats, billed annually, quote needed) instead of the free Starter plan; Large enrichment moves from Hunter to Clay (Growth list price plus an Enterprise quote for SSO). Scaling list building now counts Apollo Basic for 10 seats. Added ZoomInfo as contact sales (not in any stack). Sources and G2 reviewer company-size mixes are on the Scaling and Large pages."
+  },
+  {
+   "date": "2026-11-05",
    "text": "Recommended stacks are now organized by GTM team size (solo founder 1, small team 2\u20135, early scaling 6\u201315, scaling 16\u201340, large / multi-team 40+) instead of funding stage, with use cases to skip at each size. Estimated totals changed accordingly; earlier entries below refer to the old stage names. Added an Articles section. Prices were last checked 2026-11-02; vendor security statements on the large-team page were checked 2026-11-05."
   },
   {
@@ -1515,7 +1545,7 @@
      "Apollo",
      "Free Starter plan",
      0,
-     "Highest value score for list building; free. Paid-tier prices were not captured, so none is counted: check limits as volume grows.",
+     "Free is for 'exploring or very light usage' per Apollo; we count $0 for light list pulls, but 6-15 people will likely outgrow it. Basic is $49/seat/mo billed annually (not counted). 28% of Apollo's 9,858 G2 reviewers are mid-market (51-1,000 employees).",
      ""
     ],
     [
@@ -1624,7 +1654,7 @@
   },
   "scaling": {
    "who": "Sixteen to forty people in go-to-market, several managers, and RevOps starting to own reports, permissions and data hygiene.",
-   "assumptions": "25 GTM people, 10 LinkedIn senders, high email volume (125,000/mo), monthly list prices; Webflow and Surfer are yearly-billed views. RB2B Pro is a 'from' price. PostHog counted at its free allowance (usage-based beyond it).",
+   "assumptions": "25 GTM people, 10 LinkedIn senders, high email volume (125,000/mo), monthly list prices except Apollo (10 prospecting seats, billed annually); Webflow and Surfer are yearly-billed views. RB2B Pro is a 'from' price. PostHog counted at its free allowance (usage-based beyond it).",
    "extra": "",
    "bytool": [
     [
@@ -1640,9 +1670,9 @@
     [
      "list-building",
      "Apollo",
-     "Free Starter plan",
-     0,
-     "Highest value score; free plan counted. Paid-tier prices were not captured: expect to need a paid plan for many seats and confirm with the vendor.",
+     "Basic, 10 seats \u00d7 $49 (billed annually)",
+     490,
+     "Free is for 'exploring or very light usage' per Apollo, so we count Basic for the 10 people who prospect ($49/seat/mo billed annually, credits pooled across the team). 28% of Apollo's 9,858 G2 reviewers are mid-market (51-1,000 employees), roughly 2,800 reviewers. Professional ($79) adds waterfall enrichment, which overlaps Hunter, so it is not counted. Confirm seats and credits with the vendor.",
      ""
     ],
     [
@@ -1650,7 +1680,7 @@
      "Hunter",
      "Scale",
      299,
-     "Largest listed tier; unlimited team members share one credit pool, so no per-seat cost.",
+     "Largest listed tier; unlimited team members share one credit pool, so no per-seat cost. G2 shows 31.9% of Hunter's 659 reviewers are mid-market (about 210) versus 24.8% of Clay's 234 (about 58), so Clay is not clearly the mid-market pick. Step up to Clay Growth ($495/mo monthly list) when RevOps needs CRM auto-sync, phone numbers and signals; the Large stack uses Clay.",
      ""
     ],
     [
@@ -1747,11 +1777,25 @@
      "Video and community tools",
      "Optional, not counted."
     ]
-   ]
+   ],
+   "evidence": [
+    [
+     "Apollo (list building)",
+     "Pricing page (checked 2026-11-05): Basic $49, Professional $79 per seat/mo billed annually. G2: of 9,858 reviews, 28.4% mid-market (51-1,000 employees) and 4.6% enterprise, so most reviewers are smaller teams but the mid-market base is large.",
+     "https://www.apollo.io/pricing"
+    ],
+    [
+     "Hunter vs Clay (enrichment)",
+     "G2 comparison (checked 2026-11-05): Hunter has 659 reviews (31.9% mid-market); Clay has 234 (24.8% mid-market, 1.4% enterprise). Clay's reviewers cite a learning curve and credit use. Neither review base is clearly mid-market-led, so we keep the cheaper pick here.",
+     "https://www.g2.com/compare/clay-com-clay-vs-hunter"
+    ]
+   ],
+   "evidence_title": "What we found: who reviews our list-building and enrichment picks",
+   "evidence_date": "2026-11-05"
   },
   "large": {
    "who": "More than forty people across several teams or regions. Procurement, security review and data-processing agreements are part of buying anything.",
-   "assumptions": "40+ GTM people across teams, ~25 LinkedIn senders (HeyReach Agency tier), monthly list prices except Common Room (billed annually, 5 seats). Reply.io is a 'from' price: its higher tiers vary and need a quote. Enterprise tiers, SSO and security documents are quote-based. This total is a floor, not a quote.",
+   "assumptions": "40+ GTM people across teams, 25 of them prospecting in Apollo (Organization, billed annually, 3-seat minimum), ~25 LinkedIn senders (HeyReach Agency tier), monthly list prices except Apollo and Common Room (billed annually, Common Room 5 seats). Clay is its Growth monthly list price; its Enterprise tier is custom. Reply.io is a 'from' price: its higher tiers vary and need a quote. Enterprise tiers, SSO and security documents are quote-based. This total is a floor, not a quote.",
    "extra": "(list-price floor)",
    "bytool": [
     [
@@ -1767,17 +1811,17 @@
     [
      "list-building",
      "Apollo",
-     "Free Starter plan",
-     0,
-     "Highest value score; free plan counted. A team this size needs a paid or custom plan, whose price we did not capture: get a quote.",
+     "Organization, 25 seats \u00d7 $119 (billed annually, 3-seat min)",
+     2975,
+     "Not the free Starter: 40+ people need SSO and admin controls, which Apollo sells on Organization ($119/seat/mo billed annually) and its Custom plan. Size evidence: of 9,858 G2 reviews, 28% come from mid-market and 5% from enterprise companies (roughly 2,800 and 450 reviewers), Apollo publishes a 130-rep customer story (Superside), and it lists SOC 2 Type II and ISO 27001 in its trust center. Seats assumed: 25 of your 40+ people prospect. ZoomInfo has a larger enterprise review share (26%) but no public price: quote both.",
      "quote"
     ],
     [
      "enrichment",
-     "Hunter",
-     "Scale",
-     299,
-     "Unlimited team members on one credit pool. Hunter says SOC 2 is available for enterprise; ask for it in writing.",
+     "Clay",
+     "Growth from $495/mo; Enterprise is custom",
+     495,
+     "Clay's Enterprise tier lists SSO/SAML, SCIM, role-based access, IP allowlists and a custom DPA, it states SOC 2 Type II and ISO 27001, and its case studies include Intercom, Verkada and Rippling. Hunter's public pages list a custom enterprise volume plan but no SSO. Caveat: Clay's G2 reviewers skew small (74% under 51 employees, 1% enterprise), with a learning curve and fast credit use as top complaints, so pilot with credit budgets. $495 is Growth's monthly list price; SSO and RBAC need the Enterprise quote.",
      "quote"
     ],
     [
@@ -1873,6 +1917,31 @@
    ],
    "evidence": [
     [
+     "Apollo (list building)",
+     "Pricing page: Organization is $119 per seat per month billed annually with a 3-seat minimum, and SSO appears in its plan table (checked 2026-11-05). Trust center lists SOC 2, ISO/IEC 27001, GDPR and CCPA. Help center has an article on setting up SSO. Vendor enterprise page cites RBAC, permission profiles and audit logging; vendor customer story: Superside runs 130 reps on Apollo. These are vendor statements.",
+     "https://www.apollo.io/pricing"
+    ],
+    [
+     "Apollo (G2 reviewer size)",
+     "G2 comparison page (checked 2026-11-05): of 9,858 Apollo reviews, 67.0% small-business (50 or fewer employees), 28.4% mid-market (51-1,000) and 4.6% enterprise (over 1,000). That is roughly 2,800 mid-market and 450 enterprise reviewers (our arithmetic from G2's percentages).",
+     "https://www.g2.com/compare/apollo-io-vs-clay-com-clay"
+    ],
+    [
+     "ZoomInfo (not in our stack: contact sales)",
+     "G2 reviewers (8,728 reviews, checked 2026-11-05) are 25.8% small-business, 48.1% mid-market and 26.1% enterprise, the most enterprise-heavy list-building voice we found. It publishes no price (priced by licenses and credits). Vendor security materials state SOC 2 Type II and ISO certifications. Request a quote next to Apollo's.",
+     "https://www.g2.com/compare/clay-com-clay-vs-zoominfo-sales"
+    ],
+    [
+     "Clay (enrichment)",
+     "Vendor pricing page (checked 2026-11-05): states SOC 2 Type II, ISO 27001, GDPR and CCPA. Enterprise (custom pricing, annual commitment) adds SSO/SAML, SCIM, RBAC, user groups with credit budgets, IP allowlists, and a custom CSA and DPA; Launch and Growth do not include SSO or RBAC. Named customer case studies on the page include Intercom, Verkada, Rippling and Hex. Growth is $495/mo monthly list ($446 annual view). G2: 234 reviews, 73.8% small-business, 24.8% mid-market, 1.4% enterprise; Hunter (659 reviews) shows 31.9% mid-market.",
+     "https://www.clay.com/pricing"
+    ],
+    [
+     "Outbound and LinkedIn spot-check",
+     "G2 reviewer mix for our Large outbound pick: Reply.io is 80.5% small-business, 17.4% mid-market, 2.1% enterprise (1,568 reviews). HeyReach has only 74 G2 reviews. No tool we list for these jobs has a large mid-market or enterprise review base; Outreach (59.2% mid-market, 21.7% enterprise) and Salesloft (50.9%, 32.6%) do, but they are not listed. We did not change these picks and flag the gap.",
+     "https://www.g2.com/compare/outreach-vs-salesloft"
+    ],
+    [
      "Common Room",
      "Vendor security page lists a SOC 2 Type 2 report, GDPR and CCPA compliance, SSO/SAML/SCIM and role-based access control.",
      "https://www.commonroom.io/security/"
@@ -1898,7 +1967,8 @@
      "https://instantly.ai/dpa"
     ]
    ],
-   "evidence_date": "2026-11-05"
+   "evidence_date": "2026-11-05",
+   "evidence_title": "What we found: who reviews these tools and enterprise readiness"
   }
  },
  "license": "CC BY 4.0 \u2014 attribute \"Profitable Agent Stack (profitableagentstack.com)\"",

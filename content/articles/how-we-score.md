@@ -21,6 +21,10 @@ Every tool in the [directory](/directory.html) gets one number: a **value score*
 
 Each stack on the [stacks-by-GTM-size hub](/stages/) adds up published monthly list prices for the stated tiers and seats, with the math shown. They are estimates: they exclude taxes, add-ons, overages and annual discounts, and prices change. Always verify with the vendor.
 
+## Scores do not pick the stack alone
+
+The score ranks tools within one use case. For a stack at a given team size we also weigh who reviews the tool at that size and, for large teams, enterprise readiness such as SSO and security documents. When the two disagree, for example a free plan that tops the score but is not what a 40-person team would run, we follow the size evidence and explain why on the stack page.
+
 ## The honest limits
 
 A score cannot know your market, your data or your team. Use it to shortlist, then run a trial. The full method lives on the [methodology page](/methodology.html), and if you spot an error, the [corrections page](/corrections.html) is the fastest way to tell us.

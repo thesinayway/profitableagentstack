@@ -21,6 +21,10 @@ Two companies can raise the same round and have very different go-to-market team
 - **Signals earn their place later than you think.** See [when to skip intent data](/articles/when-to-skip-intent-data.html).
 - **Procurement shows up.** Large teams need security documents and sometimes a sales call, and we say so when a tool is contact-sales.
 
+## How we pick tools for each size
+
+A tool's value score is category-wide and leans on its lowest published price, so a free plan can make a tool look like the best value for every team. For each size we also check who reviews and uses the tool: G2's reviewer company-size shares (50 or fewer employees, 51-1,000, over 1,000), customer stories that name team size, and for large teams security and admin evidence such as SSO, roles and SOC 2. That is why the 40+ stack counts a paid Apollo plan and picks Clay for enrichment, while solo and small stacks stay cost-first. Details are on the [methodology page](/methodology.html).
+
 ## Where to start
 
 Pick your size on the [stacks hub](/stages/). Each page lists who it is for, the recommended stack with an estimated monthly cost, the use cases that matter at that size, the ones to skip, and the best-value tool for each job we include.

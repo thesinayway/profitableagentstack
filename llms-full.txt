@@ -7,8 +7,8 @@
 - [Solo founder (1 GTM person)](https://profitableagentstack.com/stages/solo-founder.html): est. $41/mo stack
 - [Small GTM team (2–5 GTM people)](https://profitableagentstack.com/stages/small-gtm-team.html): est. $106/mo stack
 - [Early scaling (6–15 GTM people)](https://profitableagentstack.com/stages/early-scaling.html): est. $818/mo stack
-- [Scaling (16–40 GTM people)](https://profitableagentstack.com/stages/scaling.html): est. $1,458/mo stack
-- [Large / multi-team (40+ GTM people)](https://profitableagentstack.com/stages/large-multi-team.html): est. at least $3,980/mo stack
+- [Scaling (16–40 GTM people)](https://profitableagentstack.com/stages/scaling.html): est. $1,948/mo stack
+- [Large / multi-team (40+ GTM people)](https://profitableagentstack.com/stages/large-multi-team.html): est. at least $7,151/mo stack
 - [Directory](https://profitableagentstack.com/directory.html)
 - [Methodology](https://profitableagentstack.com/methodology.html)
 - [Articles](https://profitableagentstack.com/articles/)
@@ -19,8 +19,8 @@
 - [Full text](https://profitableagentstack.com/llms-full.txt)
 
 ## Tools
-- Apollo (List building & lead data; stages: solo, small, early, scaling, large): Free Starter plan (no time limit, per vendor FAQ); paid plans Basic, Professional, Custom — prices not captured (page renders prices client-side). Value score: 100. Source: https://www.apollo.io/pricing
-- Clay (Enrichment & verification; stages: small, early, scaling, large): Free plan (500 actions/mo); paid usage-based on actions: Launch shown at $167/mo (starts at 15,000 actions/mo), Growth $446/mo; the page's FAQ lists Launch from $185/mo and Growth from $495/mo (billing-period difference not verified) — check tier details. Value score: 100. Source: https://www.clay.com/pricing
+- Apollo (List building & lead data; stages: solo, small, early, scaling, large): Free Starter plan (no time limit; Apollo's FAQ calls it for 'exploring or very light usage'); Basic $49, Professional $79, Organization $119 per seat/mo billed annually (Organization: 3-seat minimum, SSO listed in plan table); Custom plan for SSO, advanced security and custom volumes via sales. Value score: 100. Source: https://www.apollo.io/pricing
+- Clay (Enrichment & verification; stages: small, early, scaling, large): Free plan (500 actions/mo); Launch $167/mo (annual-billing view; $185 monthly), Growth $446/mo (annual-billing view; $495 monthly), both usage-based on actions and data credits; Enterprise custom (SSO/SAML, SCIM, RBAC, IP allowlists, custom DPA). Value score: 100. Source: https://www.clay.com/pricing
 - Google Search Console (SEO & content; stages: solo, small, early, scaling, large): Free (Google describes it as a free service). Value score: 100. Source: https://support.google.com/webmasters/answer/9128668
 - Framer (Landing pages & websites; stages: solo, small, early): Free $0 (Framer domain); Basic $10/mo, Pro $30/mo (yearly-billing view; monthly-billing price not verified). Value score: 100. Source: https://www.framer.com/pricing
 - beehiiv (Newsletters; stages: solo, small, early, scaling, large): Free forever (1,000-subscriber view); Lite $49/mo yearly billing; Pro $95/mo yearly billing. Value score: 100. Source: https://www.beehiiv.com/pricing
@@ -54,6 +54,7 @@
 - Surfer (SEO & content; stages: small, early, scaling, large): Discovery $49/mo, AI Visibility $82/mo, Standard $99/mo, Pro $182/mo, Peace of Mind $299/mo (page lists "USD per month", billed yearly). Value score: 65. Source: https://surfer.ai/pricing/
 - Fathom Analytics (Web analytics; stages: solo, small, early, scaling, large): From $15/mo (up to 100,000 monthly pageviews); 7-day free trial. Value score: 65. Source: https://usefathom.com/pricing
 - Woodpecker (Outbound email / sequencing; stages: solo, small, early): Price not captured automatically — see vendor page. Value score: None. Source: https://woodpecker.co/pricing/
+- ZoomInfo (List building & lead data; stages: scaling, large): Contact sales. Value score: None. Source: https://www.zoominfo.com/pricing
 - Clearout (Enrichment & verification; stages: solo, small, early): Price not captured automatically (page renders prices client-side); vendor FAQ mentions 100 free credits to evaluate and monthly, annual and pay-as-you-go options — see vendor page. Value score: None. Source: https://clearout.io/pricing/
 - 11x (AI SDR / agentic SDR; stages: scaling, large): Contact sales. Value score: None. Source: https://www.11x.ai/
 - Artisan (AI SDR / agentic SDR; stages: small, early, scaling, large): Contact sales. Value score: None. Source: https://www.artisan.co/pricing
@@ -85,7 +86,7 @@ Assumptions: 3 GTM people, 2 LinkedIn users, ~5,000 emails/mo, monthly billing, 
 - Signals, intent & analytics: RB2B, Free plan, $0 — Optional, and only if warm intros plus outbound are already booking meetings: free website-visitor identification to prioritize follow-up.
 ### Early scaling (6–15 GTM people): $818/mo 
 Assumptions: 10 GTM people, 5 LinkedIn senders, ~25,000 emails/mo (inside Instantly's 125,000/mo Hypergrowth tier), monthly billing. Surfer is its yearly-billed view; Framer is its yearly-billing view. PostHog counted at its free allowance (usage-based beyond it).
-- List building & lead data: Apollo, Free Starter plan, $0 — Highest value score for list building; free. Paid-tier prices were not captured, so none is counted: check limits as volume grows.
+- List building & lead data: Apollo, Free Starter plan, $0 — Free is for 'exploring or very light usage' per Apollo; we count $0 for light list pulls, but 6-15 people will likely outgrow it. Basic is $49/seat/mo billed annually (not counted). 28% of Apollo's 9,858 G2 reviewers are mid-market (51-1,000 employees).
 - Enrichment & verification: Hunter, Growth, $149 — Clearer enrichment: more credits shared across unlimited team members, and verification before sending.
 - Outbound email / sequencing: Instantly, Outreach Hypergrowth (125,000 emails/mo), $97 — Full outbound volume on one plan; highest value score for outbound.
 - LinkedIn outreach: HeyReach, Growth $79 × 5 senders, $395 — Built for many senders (fit 5/5). Waalaxy is cheaper per seat if you only need light LinkedIn volume.
@@ -97,10 +98,10 @@ Assumptions: 10 GTM people, 5 LinkedIn senders, ~25,000 emails/mo (inside Instan
 - Newsletters: beehiiv, Free plan, $0 — Free until you monetize (Lite is $49/mo, yearly-billing view).
 - Web analytics: Google Analytics, Free, $0 — Website traffic and sources.
 - Product & funnel analytics: PostHog, Free allowance, $0 — Real product and funnel analytics (a separate job from visitor identification); usage-based beyond the free allowance.
-### Scaling (16–40 GTM people): $1,458/mo 
-Assumptions: 25 GTM people, 10 LinkedIn senders, high email volume (125,000/mo), monthly list prices; Webflow and Surfer are yearly-billed views. RB2B Pro is a 'from' price. PostHog counted at its free allowance (usage-based beyond it).
-- List building & lead data: Apollo, Free Starter plan, $0 — Highest value score; free plan counted. Paid-tier prices were not captured: expect to need a paid plan for many seats and confirm with the vendor.
-- Enrichment & verification: Hunter, Scale, $299 — Largest listed tier; unlimited team members share one credit pool, so no per-seat cost.
+### Scaling (16–40 GTM people): $1,948/mo 
+Assumptions: 25 GTM people, 10 LinkedIn senders, high email volume (125,000/mo), monthly list prices except Apollo (10 prospecting seats, billed annually); Webflow and Surfer are yearly-billed views. RB2B Pro is a 'from' price. PostHog counted at its free allowance (usage-based beyond it).
+- List building & lead data: Apollo, Basic, 10 seats × $49 (billed annually), $490 — Free is for 'exploring or very light usage' per Apollo, so we count Basic for the 10 people who prospect ($49/seat/mo billed annually, credits pooled across the team). 28% of Apollo's 9,858 G2 reviewers are mid-market (51-1,000 employees), roughly 2,800 reviewers. Professional ($79) adds waterfall enrichment, which overlaps Hunter, so it is not counted. Confirm seats and credits with the vendor.
+- Enrichment & verification: Hunter, Scale, $299 — Largest listed tier; unlimited team members share one credit pool, so no per-seat cost. G2 shows 31.9% of Hunter's 659 reviewers are mid-market (about 210) versus 24.8% of Clay's 234 (about 58), so Clay is not clearly the mid-market pick. Step up to Clay Growth ($495/mo monthly list) when RevOps needs CRM auto-sync, phone numbers and signals; the Large stack uses Clay.
 - Outbound email / sequencing: Instantly, Outreach Hypergrowth (125,000 emails/mo), $97 — Cost-first pick at this volume. Test its admin and role controls in the trial; Reply.io is the step-up when you need org-level roles (see Large).
 - LinkedIn outreach: HeyReach, Growth $79 × 10 senders, $790 — Multi-seat: its help center documents Admin and Member roles with per-feature permissions.
 - Signals, intent & analytics: RB2B, Pro (from $149), $149 — Signals are core at this size. RB2B Pro is the lowest-cost listed paid tier; Common Room ($2,500/mo) is the step-up for community and multi-channel signals.
@@ -111,10 +112,10 @@ Assumptions: 25 GTM people, 10 LinkedIn senders, high email volume (125,000/mo),
 - Newsletters: beehiiv, Free plan, $0 — Free until you monetize; Pro is $95/mo (yearly-billing view).
 - Web analytics: Google Analytics, Free, $0 — Website traffic and sources.
 - Product & funnel analytics: PostHog, Free allowance, $0 — Queryable product/funnel analytics. Pipeline and revenue reporting belong in your CRM, which this directory does not cover.
-### Large / multi-team (40+ GTM people): at least $3,980/mo (list-price floor)
-Assumptions: 40+ GTM people across teams, ~25 LinkedIn senders (HeyReach Agency tier), monthly list prices except Common Room (billed annually, 5 seats). Reply.io is a 'from' price: its higher tiers vary and need a quote. Enterprise tiers, SSO and security documents are quote-based. This total is a floor, not a quote.
-- List building & lead data: Apollo, Free Starter plan, $0 — Highest value score; free plan counted. A team this size needs a paid or custom plan, whose price we did not capture: get a quote.
-- Enrichment & verification: Hunter, Scale, $299 — Unlimited team members on one credit pool. Hunter says SOC 2 is available for enterprise; ask for it in writing.
+### Large / multi-team (40+ GTM people): at least $7,151/mo (list-price floor)
+Assumptions: 40+ GTM people across teams, 25 of them prospecting in Apollo (Organization, billed annually, 3-seat minimum), ~25 LinkedIn senders (HeyReach Agency tier), monthly list prices except Apollo and Common Room (billed annually, Common Room 5 seats). Clay is its Growth monthly list price; its Enterprise tier is custom. Reply.io is a 'from' price: its higher tiers vary and need a quote. Enterprise tiers, SSO and security documents are quote-based. This total is a floor, not a quote.
+- List building & lead data: Apollo, Organization, 25 seats × $119 (billed annually, 3-seat min), $2975 — Not the free Starter: 40+ people need SSO and admin controls, which Apollo sells on Organization ($119/seat/mo billed annually) and its Custom plan. Size evidence: of 9,858 G2 reviews, 28% come from mid-market and 5% from enterprise companies (roughly 2,800 and 450 reviewers), Apollo publishes a 130-rep customer story (Superside), and it lists SOC 2 Type II and ISO 27001 in its trust center. Seats assumed: 25 of your 40+ people prospect. ZoomInfo has a larger enterprise review share (26%) but no public price: quote both.
+- Enrichment & verification: Clay, Growth from $495/mo; Enterprise is custom, $495 — Clay's Enterprise tier lists SSO/SAML, SCIM, role-based access, IP allowlists and a custom DPA, it states SOC 2 Type II and ISO 27001, and its case studies include Intercom, Verkada and Rippling. Hunter's public pages list a custom enterprise volume plan but no SSO. Caveat: Clay's G2 reviewers skew small (74% under 51 employees, 1% enterprise), with a learning curve and fast credit use as top complaints, so pilot with credit budgets. $495 is Growth's monthly list price; SSO and RBAC need the Enterprise quote.
 - Outbound email / sequencing: Reply.io, Email, from $59, $59 — Documents organization, multi-team and single-team roles and permissions in its help center, and says it is SOC 2 certified. Pricing beyond the entry tier needs a quote. Instantly ($97 at 125,000 emails/mo) is cheaper if your security team accepts its attestation.
 - LinkedIn outreach: HeyReach, Agency (25 senders), $999 — $999/mo for 25 senders beats $79 × 25. Roles are documented, but we found no SOC 2 claim and its DPA says SSO is not currently supported: confirm with security.
 - Signals, intent & analytics: Common Room, Essential (billed annually, 5 seats), $2500 — Vendor security page lists a SOC 2 Type 2 report, GDPR and CCPA, SSO/SAML/SCIM and role-based access.
