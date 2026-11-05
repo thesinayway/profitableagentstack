@@ -16,48 +16,52 @@ for t in D['tools']:
 best={}
 for t in D['tools']:
   if t['value_score'] is not None and (t['use_case'] not in best or t['value_score']>best[t['use_case']]['value_score']): best[t['use_case']]=t
-growth_picks={i[1] for i in D['stacks']['growth']['items'] if 'Optional' not in i[2]}
-NAV=[('/stages/pre-seed-to-series-a.html','Pre-seed–Series A'),('/directory.html','Directory'),('/methodology.html','Methodology'),('/new-releases.html','New'),('/for-ai-agents.html','For AI agents'),('/sprint.html','GTM Sprint'),('/il/','עברית')]
-SLUG={'solo':'solo-founder','growth':'pre-seed-to-series-a','later':'later-stage'}
+REC={}
+for _b,_s in D['stacks'].items():
+  for i in _s['items']:
+    if i[1] in T and not i[2].startswith('Contact sales'): REC.setdefault(i[1],[]).append(_b)
+NAV=[('/directory.html','Directory'),('/methodology.html','Methodology'),('/new-releases.html','New'),('/for-ai-agents.html','For AI Agents'),('/articles/','Articles'),('/sprint.html','GTM Sprint')]
 DISC=f'Profitable Agent Stack is for general information only, provided "as is" without warranties. Prices, plans, features and review data change often and may be inaccurate or out of date (last checked {C}); always verify with the vendor. Cost estimates and scores are editorial estimates, not advice. Nothing here is professional, legal or financial advice. Trademarks belong to their owners; listing is not endorsement. Some links may be affiliate or sponsored — see our Disclosure.'
 def ld(o): return '<script type="application/ld+json">'+json.dumps(o)+'</script>'
 ORG={"@context":"https://schema.org","@type":"Organization","name":"Profitable Agent Stack","url":SITE,"legalName":"The Sinay Way LLC","email":"limoraiassistant@thesinayway.com"}
-def page(path,title,desc,body,schema=(),hero='',lang='en',nav=None,foot=None,alts=None):
+AFFNOTE='<p class="mut" role="note"><strong>Affiliate disclosure:</strong> this page includes affiliate links (marked "affiliate"). If you buy through them, The Sinay Way LLC may earn a commission at no extra cost to you. It never changes scores, prices or order. See our <a href="/disclosure.html">disclosure</a>.</p>'
+def page(path,title,desc,body,schema=(),hero='',foot=None):
   url=SITE+'/'+('' if path=='index.html' else path.replace('index.html',''))
-  nav=''.join(f'<a href="{h}"'+(' lang="he"' if n=='עברית' else '')+f'>{n}</a>' for h,n in (nav or NAV))
-  if path=='index.html': alts={'en':SITE+'/','he':SITE+'/il/','x-default':SITE+'/'}
-  alt=''.join(f'<link rel="alternate" hreflang="{k}" href="{v}">' for k,v in (alts or {}).items())
+  nav=''.join(f'<a href="{h}">{n}</a>' for h,n in NAV)
+  if 'rel="sponsored' in body: body=AFFNOTE+body
   sch=''.join(ld(s) for s in schema)
-  out=f'''<!doctype html><html lang="{lang}"{' dir="rtl"' if lang=="he" else ""}><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{url}">{alt}
+  out=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{url}">
 <meta property="og:type" content="website"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{url}"><meta property="og:site_name" content="Profitable Agent Stack"><meta name="twitter:card" content="summary">
-<link rel="alternate" type="application/json" href="/api/tools.json" title="Tools data"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/style.css">{sch}</head>
+<link rel="alternate" type="application/json" href="/api/tools.json" title="Tools data"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/style.css">{sch}</head>
 <body><a href="#main" class="skip">Skip to content</a><header class="top"><div class="wrap"><a class="logo" href="/">Profitable <span>Agent Stack</span></a><nav aria-label="Main">{nav}</nav></div></header>
 {hero}<main id="main" class="wrap">{body}</main>
-<footer><div class="wrap">{foot or ((LOGONOTE if path.startswith(('directory','stages/','use-cases/')) else '')+f'<p><strong>Disclaimer:</strong> {e(DISC)}</p><p><a href="/terms.html">Terms</a> · <a href="/privacy.html">Privacy</a> · <a href="/disclosure.html">Affiliate disclosure</a> · <a href="/review-policy.html">Review policy</a> · <a href="/corrections.html">Corrections &amp; takedowns</a> · <a href="/feedback.html">Share your experience</a> · © 2026 The Sinay Way LLC. This site is operated by The Sinay Way LLC as part of its advisory services.</p>')}</div></footer><script src="/assets/app.js" defer></script></body></html>'''
+<footer><div class="wrap">{foot or ((LOGONOTE if path.startswith(('directory','stages/','use-cases/')) else '')+f'<p><strong>Disclaimer:</strong> {e(DISC)}</p><p><a href="/stages/">Stacks by GTM team size</a> · <a href="/articles/">Articles</a> · <a href="/terms.html">Terms</a> · <a href="/privacy.html">Privacy</a> · <a href="/disclosure.html">Affiliate disclosure</a> · <a href="/review-policy.html">Review policy</a> · <a href="/corrections.html">Corrections &amp; takedowns</a> · <a href="/feedback.html">Share your experience</a> · © 2026 The Sinay Way LLC. This site is operated by The Sinay Way LLC as part of its advisory services.</p>')}</div></footer><script src="/assets/app.js" defer></script></body></html>'''
   os.makedirs(os.path.dirname(path) or '.',exist_ok=True);open(path,'w').write(out);PAGES.append(url)
 PAGES=[]
 LOGONOTE='<p>Logos and trademarks belong to their owners and are used only to identify products; no endorsement implied. Owners can request removal via the <a href="/corrections.html">corrections page</a>.</p>'
 def init(n): return ''.join(w[0] for w in n.replace('.',' ').split()[:2]).upper()
 def price(t): return 'Contact sales' if t['status']=='contact' else t['price']
 import urllib.parse as _u
-UTM={'utm_source':'profitableagentstack','utm_medium':'referral','utm_campaign':'directory'}
-def tool_link(t):
+UTM={'utm_source':'profitableagentstack','utm_medium':'referral'}
+import re as _re
+def _slug(n): return _re.sub(r'[^a-z0-9]+','-',n.lower()).strip('-')
+def tool_link(t,camp='directory'):
   """Single source for outbound tool links. Returns (href, rel, is_affiliate)."""
-  if t.get('affiliate_url'): return t['affiliate_url'],'sponsored noopener',True
-  p=_u.urlparse(t['homepage_url']);q=dict(_u.parse_qsl(p.query));q.update(UTM)
-  return _u.urlunparse(p._replace(query=_u.urlencode(q))),'noopener',False
-def card(t):
+  aff=bool(t.get('affiliate_url'));p=_u.urlparse(t['affiliate_url'] if aff else t['homepage_url']);q=dict(_u.parse_qsl(p.query));q.update(UTM);q['utm_campaign']=camp;q['utm_content']=_slug(t['name'])
+  return _u.urlunparse(p._replace(query=_u.urlencode(q))),('sponsored noopener' if aff else 'noopener'),aff
+ISBEST=lambda t:t['value_score'] is not None and t['value_score']==best[t['use_case']]['value_score']
+def card(t,camp='directory'):
   b=''
-  if best.get(t['use_case']) is t: b+='<span class="badge v">Best value</span>'
-  if t['name'] in growth_picks: b+='<span class="badge p">Top pick for pre-seed</span>'
+  if ISBEST(t): b+='<span class="badge v">Best value</span>'
+  if t['name'] in REC: b+='<span class="badge p">In our stacks: '+', '.join(ST[x]['short'] for x in dict.fromkeys(REC[t['name']]))+'</span>'
   if t['status']=='contact': b+='<span class="badge c">Contact sales</span>'
   if t['status']=='unverified': b+='<span class="badge c">Price not yet verified</span>'
-  L=tool_link(t)
+  L=tool_link(t,camp)
   sc=t['value_score'];cost=t['from'] if t['from'] is not None else 1e9
   return f'''<article class="card" data-uc="{t['use_case']}" data-stages="{' '.join(t['stages'])}" data-score="{sc or 0}" data-cost="{cost}">
 <div class="row">{f'<a href="{e(L[0])}" target="_blank" rel="{L[1]}"><img class="logo-img" src="{t["logo"]}" alt="{e(t["name"])} logo" width="40" height="40" loading="lazy"></a>' if t.get('logo') else ''}<div><h3 style="margin:0"><a href="{e(L[0])}" target="_blank" rel="{L[1]}" style="color:inherit;text-decoration:none">{e(t['name'])}</a>{' <span class="badge c">affiliate</span>' if L[2] else ''}</h3><span class="mut">{UC[t['use_case']]}</span></div><div style="margin-left:auto;text-align:right"><div class="score">{sc if sc is not None else '—'}</div><span class="mut">value score</span></div></div>
-<p>{b}</p><p>{e(price(t))}</p><p class="mut">Fit {t['fit_score']}/5 (editorial) · Stages: {', '.join(ST[s]['short'] for s in t['stages'])}</p>
+<p>{b}</p><p>{e(price(t))}</p><p class="mut">Fit {t['fit_score']}/5 (editorial) · Fits: {', '.join(ST[s]['short'] for s in t['stages'])}</p>
 <p class="mut">{'Prices as of' if t.get('price_verified',True) else 'Checked'} {t.get('checked',C)}{'' if t.get('price_verified',True) else ', price could not be verified'}, verify with vendor. <a href="{t['source']}" rel="nofollow noopener" target="_blank">Pricing source</a> · <a href="{t['reviews']['g2_url']}" rel="nofollow noopener" target="_blank">See reviews on G2</a></p></article>'''
 def sw(t):
   o={"@type":"SoftwareApplication","name":t['name'],"applicationCategory":"BusinessApplication","url":t['source']}
@@ -67,60 +71,115 @@ def itemlist(ts,name): return {"@context":"https://schema.org","@type":"ItemList
 def faq(qs): return {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for q,a in qs]}
 def faqhtml(qs): return '<h2>FAQ</h2>'+''.join(f'<h3>{e(q)}</h3><p>{e(a)}</p>' for q,a in qs)
 rank=lambda ts:sorted(ts,key=lambda t:-(t['value_score'] if t['value_score'] is not None else -1))
-def stack_total(s): return round(sum(i[3] for i in D['stacks'][s]['items']),2)
 MKT={u['id'] for u in D['use_cases'] if u.get('group')=='marketing'}
 def lc(n): return n if n[:2].isupper() else n[0].lower()+n[1:]
 # ---- home
+SLUG={s['id']:s['slug'] for s in D['stages']}
+def stack_total(s): return round(sum(i[3] for i in D['stacks'][s]['items']),2)
 tot={s:stack_total(s) for s in ST};mx=max(tot.values())
-bars='<div class="bars">'+''.join(f'<div><span>{ST[s]["short"]}</span><span class="bar" style="width:{max(3,tot[s]/mx*100):.0f}%"></span><b>${tot[s]:,}</b></div>' for s in ST)+'</div>'
-hero=f'''<section class="hero"><div class="wrap"><span class="pill">Prices checked {C} · {len(D['tools'])} tools · {len(UC)} use cases</span><h1>AI GTM tools ranked by what they <span class="grad">really cost</span>, and what users really think.</h1>
-<p>Use the best tool for each use case at the lowest cost. Our value score combines use-case fit, published price and user sentiment, and we show how it's calculated.</p>
-<p><a class="btn" href="/stages/pre-seed-to-series-a.html">See the pre-seed to Series A stack</a> <a class="btn ghost" href="/directory.html">Browse all tools</a></p></div></section>'''
-stc=''.join(f'<a class="card {"feat" if s.get("primary") else ""}" href="/stages/{SLUG[s["id"]]}.html"><h3>{s["name"]}</h3><p class="{"mut" if not s.get("primary") else ""}">Est. ${tot[s["id"]]:,}/mo recommended stack{" — our primary focus" if s.get("primary") else ""}</p><span class="badge">{"Our focus" if s.get("primary") else "View stack"}</span></a>' for s in D['stages'])
+def money(x): return f'${x:,.0f}' if x==int(x) else f'${x:,.2f}'
+def costtxt(s):
+  v=tot[s];x=D['stacks'][s].get('extra','')
+  return ('at least ' if s=='large' else '')+(f'${v:,.0f}' if s!='solo' else '$41')
+# (solo shown as ~$41 because Carrd is priced yearly/12)
+bars='<div class="bars">'+''.join(f'<div><span>{ST[s]["name"]} <small class="mut">{ST[s]["size"]}</small></span><span class="bar" style="width:{max(3,tot[s]/mx*100):.0f}%"></span><b>{"≥ " if s=="large" else ""}${tot[s]:,.0f}</b></div>' for s in ST)+'</div>'
+def pick(s,tool): return next(i for i in D['stacks'][s]['items'] if i[1]==tool)
+TOK={'checked':C,'cost:solo':f'${tot["solo"]:,.0f}','price:RB2B:starter':f'${pick("early","RB2B")[3]:,.0f}','price:Common Room:essential':f'${pick("large","Common Room")[3]:,.0f}'}
+hero=f'''<section class="hero"><div class="wrap"><span class="pill">Prices checked {C} · {len(D['tools'])} tools · {len(UC)} use cases</span><h1>Build your AI GTM stack for what it should <span class="grad">really cost</span>.</h1>
+<p>One tool per job, published prices with sources and dates, and the use cases you can safely skip until your team is bigger. From about {TOK['cost:solo']}/mo for one person.</p>
+<p><a class="btn" href="/stages/">See stacks by GTM team size</a> <a class="btn ghost" href="/directory.html">Browse all tools</a></p></div></section>'''
 _uc=lambda ids:''.join(f'<a class="card" href="/use-cases/{u}.html"><h3>{UC[u]}</h3><p class="mut">{"Best value: "+best[u]["name"] if u in best else "Coming soon"}</p></a>' for u in ids)
 ucc=f'<h3>Sales</h3><div class="grid">{_uc([u for u in UC if u not in MKT])}</div><h3>Marketing</h3><div class="grid">{_uc([u for u in UC if u in MKT])}</div>'
-HQ=[('What is Profitable Agent Stack?','A cost-first directory that ranks AI go-to-market tools by use case, published price and user sentiment, with estimated monthly stack costs by company stage.'),('Where do the prices come from?',f'From each vendor\'s own pricing page, with a source link and the date checked ({C}). Tools with no public price are marked contact sales.'),('Do you publish user ratings?','Only real public ratings from G2 or Capterra with a source link and date. Where they cannot be fetched reliably, we link to the reviews instead. We never create reviews or ratings ourselves.')]
-page('index.html','AI GTM Tools Ranked by Real Cost & User Sentiment | Profitable Agent Stack','Cost-first directory of AI GTM tools: published prices, value scores and estimated monthly stack costs for solo founders, pre-seed to Series A, and later-stage teams.',
-f'''<h2>What does an AI GTM stack cost by stage?</h2><p class="answer">Based on published list prices, our recommended stacks are estimated at about ${tot['solo']}/mo (+€19) for a solo founder, ${tot['growth']}/mo for a 3-person pre-seed to Series A team, and ${tot['later']:,}/mo for a 10+ person team. These are estimates; see each stage for the math.</p>{bars}
-<div class="grid">{stc}</div><h2>Which tool should I use for each use case?</h2>{ucc}
-<section class="card" style="margin-top:32px"><h2 style="margin-top:0">Get the Profitable Agent Stack Weekly</h2><p>New releases and price changes, once a week.</p><form onsubmit="event.preventDefault();this.innerHTML='<p role=status>Thanks! Signup is not live yet, so nothing was saved.</p>'"><label for="em" class="mut">Email</label><br><input id="em" type="email" required placeholder="you@company.com"> <button class="btn">Notify me</button></form><p class="mut">Placeholder: no data is collected or sent yet.</p></section>{faqhtml(HQ)}''',
+HQ=[('What is Profitable Agent Stack?','A cost-first directory that ranks AI go-to-market tools by use case, published price and user sentiment, with estimated monthly stack costs by GTM team size.'),('How are the stacks grouped?','By how many people do go-to-market: solo founder (1), small GTM team (2–5), early scaling (6–15), scaling (16–40) and large / multi-team (40+).'),('Where do the prices come from?',f'From each vendor\'s own pricing page, with a source link and the date checked ({C}). Tools with no public price are marked contact sales.'),('Do you publish user ratings?','Only real public ratings from G2 or Capterra with a source link and date. Where they cannot be fetched reliably, we link to the reviews instead. We never create reviews or ratings ourselves.')]
+ARTS=[]
+def _load_articles():
+  import glob
+  for f in sorted(glob.glob('content/articles/*.md')):
+    raw=open(f,encoding='utf-8').read();_,fm,body=raw.split('---\n',2)
+    m={k.strip():v.strip() for k,v in (l.split(':',1) for l in fm.strip().splitlines())}
+    m['body']=body;ARTS.append(m)
+  ARTS.sort(key=lambda a:(a['date'],a['slug']),reverse=True)
+_load_articles()
+artcards=''.join(f'<a class="card" href="/articles/{a["slug"]}.html"><h3>{e(a["title"])}</h3><p class="mut">{e(a["summary"])}</p></a>' for a in ARTS[:3])
+page('index.html','AI GTM Stacks Ranked by Real Cost | Profitable Agent Stack','Cost-first directory of AI GTM tools: published prices, value scores and estimated monthly stack costs by GTM team size, from solo founders to 40+ person teams.',
+f'''<h2>What does an AI GTM stack cost, by GTM team size?</h2><p class="answer">Based on published list prices, our recommended stacks are estimated at about {TOK['cost:solo']}/mo (+€19) for a solo founder, ${tot['small']:,.0f}/mo (+€38) for a 2–5 person team, ${tot['early']:,.0f}/mo for 6–15, ${tot['scaling']:,.0f}/mo for 16–40, and at least ${tot['large']:,.0f}/mo for 40+. Estimates only; each page shows the math.</p>{bars}
+<section class="card feat" style="margin:24px 0"><h2 style="margin-top:0">Find the stack for your GTM team size</h2><p>Five sizes, from 1 person to 40+. Each page shows who it is for, the recommended stack and monthly cost, the use cases that matter, and the ones to skip.</p><a class="btn ghost" href="/stages/">See stacks by GTM team size</a></section>
+<h2>How we keep the bill low</h2><div class="grid"><div class="card"><h3>One tool per job</h3><p class="mut">No paid overlap, and every pick comes with a reason. <a href="/articles/one-tool-per-job.html">Read why</a>.</p></div><div class="card"><h3>Real, dated prices</h3><p class="mut">Each price links to the vendor page and shows the date checked. If we could not verify it, we say so.</p></div><div class="card"><h3>Skip what you do not need yet</h3><p class="mut">Intent data and AI SDRs are not for everyone. <a href="/articles/when-to-skip-intent-data.html">See when to skip them</a>.</p></div></div>
+<h2>Which tool should I use for each use case?</h2>{ucc}
+<h2>From the articles</h2><div class="grid">{artcards}</div><p><a href="/articles/">All articles</a></p>{faqhtml(HQ)}''',
 [ORG,{"@context":"https://schema.org","@type":"WebSite","name":"Profitable Agent Stack","url":SITE},faq(HQ)],hero)
 # ---- directory
 opt=lambda d:''.join(f'<option value="{k}">{v}</option>' for k,v in d.items())
 R=rank(D['tools'])
-page('directory.html','AI GTM Tools Directory: Filter by Stage & Use Case | Profitable Agent Stack',f'All {len(R)} AI GTM tools with published prices, value scores and review links. Filter by company stage and use case, sort by value or cost.',
-f'''<h1>Which AI GTM tool is the best value?</h1><p class="answer">This directory ranks {len(R)} tools by value score (use-case fit + published cost; sentiment added when verified data is available). Filter by stage or use case, or sort by cost. <a href="/methodology.html">How scoring works</a>.</p>
-<div class="filters"><label class="sr">Stage <select data-filter="stage"><option value="">All stages</option>{opt({k:v['name'] for k,v in ST.items()})}</select></label><label>Use case <select data-filter="uc"><option value="">All use cases</option>{opt(UC)}</select></label><label>Sort <select id="sort"><option value="value">Best value</option><option value="asc">Cost: low to high</option><option value="desc">Cost: high to low</option></select></label></div>
+page('directory.html','AI GTM Tools Directory: Filter by GTM Team Size & Use Case | Profitable Agent Stack',f'All {len(R)} AI GTM tools with published prices, value scores and review links. Filter by GTM team size and use case, sort by value or cost.',
+f'''<h1>Which AI GTM tool is the best value?</h1><p class="answer">This directory ranks {len(R)} tools by value score (use-case fit + published cost; sentiment added when verified data is available). Filter by GTM team size or use case, or sort by cost. <a href="/methodology.html">How scoring works</a>.</p>
+<div class="filters"><label class="sr">GTM team size <select data-filter="stage"><option value="">All sizes</option>{opt({k:v['name']+' ('+v['size']+')' for k,v in ST.items()})}</select></label><label>Use case <select data-filter="uc"><option value="">All use cases</option>{opt(UC)}</select></label><label>Sort <select id="sort"><option value="value">Best value</option><option value="asc">Cost: low to high</option><option value="desc">Cost: high to low</option></select></label></div>
 <div class="grid" id="list">{''.join(card(t) for t in R)}</div>''',[itemlist(R,'AI GTM tools ranked by value')])
 # ---- use cases
 for u,n in UC.items():
   ts=rank([t for t in D['tools'] if t['use_case']==u]);b=best.get(u)
   qs=[(f'What is the best value tool for {lc(n)}?',(f'{b["name"]} has the highest value score ({b["value_score"]}) among tools we list, priced at: {b["price"]}. Verify with the vendor.' if b else 'We have not yet listed tools with published prices for this use case.')),(f'How much do {lc(n)} tools cost?','Published entry prices for listed tools: '+('; '.join(f'{t["name"]}: {price(t)}' for t in ts) if ts else 'none listed yet')+f'. Prices as of {C}.')]
   page(f'use-cases/{u}.html',f'Best {n} Tools by Cost & Value (2026) | Profitable Agent Stack',f'{n}: AI GTM tools ranked by value score with published prices checked {C}.',
-  f'<h1>{e(qs[0][0][0].upper()+qs[0][0][1:])}</h1><p class="answer">{e(qs[0][1])}</p><div class="grid" id="list">{"".join(card(t) for t in ts) or "<p>No tools listed yet. <a href=/corrections.html>Suggest one</a>.</p>"}</div>{faqhtml(qs)}',[itemlist(ts,n),faq(qs)])
+  f'<h1>{e(qs[0][0][0].upper()+qs[0][0][1:])}</h1><p class="answer">{e(qs[0][1])}</p><div class="grid" id="list">{"".join(card(t,"use-case") for t in ts) or "<p>No tools listed yet. <a href=/corrections.html>Suggest one</a>.</p>"}</div>{faqhtml(qs)}',[itemlist(ts,n),faq(qs)])
 _cd=sorted({t.get('checked',C) for t in D['tools']});CR=_cd[0] if len(_cd)==1 else f'{_cd[0]} to {_cd[-1]} (per tool)'
-# ---- stages
-for s,info in ST.items():
-  S=D['stacks'][s]
-  def _r(u,tl,tier,amt,why): return f'<tr><td>{UC[u]}</td><td><b>{e(tl)}</b></td><td>{e(tier)}</td><td>${amt:,}</td><td class="mut">{e(why)}</td></tr>'
-  _sa=[i for i in S['items'] if i[0] not in MKT];_mk=[i for i in S['items'] if i[0] in MKT]
-  _h=lambda t,l:f'<tr><th colspan="5">{t} — ${round(sum(i[3] for i in l),2):,}/mo</th></tr>'
-  rows=(_h('Sales stack',_sa)+''.join(_r(*i) for i in _sa)+_h('Marketing stack',_mk)+''.join(_r(*i) for i in _mk)) if _mk else ''.join(_r(*i) for i in _sa)
-  total=stack_total(s);extra=S.get('extra','')
-  math=' + '.join(f'${i[3]}' for i in S['items'] if i[3])
+# ---- stages (by GTM team size)
+UCX=dict(UC);JOBX={'PostHog':'Product & funnel analytics'}
+def job(i): return JOBX.get(i[1],UCX.get(i[0],i[0]))
+def amt(i):
+  a,f,tier=i[3],(i[5] if len(i)>5 else ''),i[2]
+  if f=='from': return f'from ${a:,.0f}'
+  if f=='quote': return (f'${a:,.0f} + quote' if a>0 or 'Free' in tier else 'Quote')
+  return f'${a:,.2f}'.rstrip('0').rstrip('.') if a!=int(a) else f'${a:,.0f}'
+def stage_rows(s):
+  camp='stack-'+s;out=[]
+  for i in D['stacks'][s]['items']:
+    t=T.get(i[1]);L=tool_link(t,camp) if t else None
+    name=(f'<a href="{e(L[0])}" target="_blank" rel="{L[1]}">{e(i[1])}</a>'+(' <span class="badge c">affiliate</span>' if L[2] else '')) if t else e(i[1])
+    vs=f' <span class="badge {"v" if ISBEST(t) else ""}">value {t["value_score"] if t["value_score"] is not None else "n/a"}{" · best in category" if ISBEST(t) else ""}</span>' if t else ''
+    out.append((i,f'<tr><td>{e(job(i))}</td><td><b>{name}</b>{vs}</td><td>{e(i[2])}</td><td>{e(amt(i))}</td><td class="mut">{e(i[4])}</td></tr>'))
+  return out
+ORDER=[s['id'] for s in D['stages']]
+def stage_page(s):
+  info=ST[s];S=D['stacks'][s];total=tot[s];extra=S.get('extra','')
+  rows=stage_rows(s)
+  _sa=[r for i,r in rows if i[0] not in MKT];_mk=[r for i,r in rows if i[0] in MKT]
+  _h=lambda t,l:f'<tr><th colspan="5">{t}</th></tr>'
+  tbl=(_h('Sales stack','')+''.join(_sa)+_h('Marketing stack','')+''.join(_mk))
+  floor='at least ' if s=='large' else ''
+  tl=f'{floor}${round(total):,}'
+  math=' + '.join(f'${i[3]:,g}' for i in S['items'] if i[3])
   ts=rank([t for t in D['tools'] if s in t['stages']])
-  qs=[(f'How much does an AI GTM stack cost for a {info["short"]} company?',f'About ${total:,}/mo {extra} for our recommended stack, estimated from published monthly list prices as of {CR}. Assumptions: {S["assumptions"]} Actual cost depends on your usage, billing period, taxes and add-ons.'),
-      ('What is included in the recommended stack?',', '.join(f'{i[1]} ({UC[i[0]]})' for i in S['items'])+'.'),('Are these prices guaranteed?','No. They are estimates from vendor pricing pages and can change at any time. Always verify with the vendor before buying.')]
-  cta=''
-  if s=='growth':
-    cta='''<section class="card feat" style="margin:28px 0"><h2 style="margin-top:0">Want this stack built and running in 30 days?</h2><p>The Agent Launch Sprint is an advisory service from The Sinay Way LLC: positioning, a lean outbound engine and launch content, built by agents and reviewed by a fractional CRO. Scope and fees are set in a separate signed agreement; outcomes are not guaranteed.</p><a class="btn ghost" href="/sprint.html">Explore the GTM Sprint</a></section>
-<h2>What should a pre-seed to Series A team prioritize?</h2><p>Spend on the use cases that create pipeline first: list building, enrichment and outbound (email + LinkedIn), then signals that tell you who is already interested. Content tools come next. AI SDR platforms are mostly contact-sales and are optional at this stage. Revisit seat counts monthly; per-sender pricing (e.g. LinkedIn tools) is where costs grow fastest as you hire.</p>
-<h2>What marketing should a pre-seed to Series A team add?</h2><p>Start with free search data (Google Search Console), one landing page or site with your own domain, and a newsletter on a free plan. Add paid content optimization only once you publish weekly. Social scheduling and video are already covered by Postiz and HeyGen, and analytics by PostHog, so we do not list a second tool for them.</p>\n<h2>How does cost grow when the team grows from 3 to 10?</h2><p>In our estimates, LinkedIn senders and signals tools drive most of the increase: HeyReach goes from 2 to 10 senders ($158 to $790/mo), and intent platforms such as Common Room start at $2,500/mo billed annually.</p>'''
-  page(f'stages/{SLUG[s]}.html',f'AI GTM Stack for {info["name"]}: Cost & Tools | Profitable Agent Stack',f'Recommended AI GTM stack for {info["name"]}, with estimated monthly cost (${total:,}/mo) from published prices and the math shown.',
-  f'''<p><span class="badge {"p" if info.get("primary") else ""}">{"Primary focus" if info.get("primary") else "Stage guide"}</span></p><h1>{e(qs[0][0])}</h1><p class="answer">{e(qs[0][1])}</p>
-<h2>Recommended stack (estimate)</h2><table><thead><tr><th>Use case</th><th>Tool</th><th>Tier / assumption</th><th>Est. $/mo</th><th>Why this pick</th></tr></thead><tbody>{rows}<tr><th colspan="3">Estimated total</th><th colspan="2">${total:,} {extra}</th></tr></tbody></table>
-<p class="mut">One tool per job, no paid overlap. A stack may intentionally leave a job (e.g. list building) to a tool already in it. Math: {math} = ${total:,}/mo {extra}. Assumptions: {e(S["assumptions"])} Estimate only; excludes taxes, add-ons, overages and annual discounts. Prices as of {CR}, verify with vendor.</p>{cta}
-<h2>All tools that fit this stage</h2><div class="grid" id="list">{"".join(card(t) for t in ts)}</div>{faqhtml(qs)}''',[itemlist(ts,info['name']),faq(qs)])
+  nt=''.join(f'<li><b>{e(a)}.</b> {e(b)}</li>' for a,b in S['bytool'])
+  matter=''.join(f'<li>{e(x)}</li>' for x in dict.fromkeys(job(i) for i in S['items'] if i[2] and not i[2].startswith('Contact sales')))
+  skip=''.join(f'<li><b>{e(a)}.</b> {e(b)}</li>' for a,b in S['skip'])
+  k=ORDER.index(s);nav=[]
+  if k>0: nav.append(f'<a href="/stages/{SLUG[ORDER[k-1]]}.html">← {ST[ORDER[k-1]]["name"]} ({ST[ORDER[k-1]]["size"]})</a>')
+  if k<len(ORDER)-1: nav.append(f'<a href="/stages/{SLUG[ORDER[k+1]]}.html">{ST[ORDER[k+1]]["name"]} ({ST[ORDER[k+1]]["size"]}) →</a>')
+  ev=''
+  if S.get('evidence'):
+    ev=f'<h2>What we found when checking enterprise readiness (as of {S["evidence_date"]})</h2><p class="mut">Statements come from each vendor\'s own pages or documents linked below. They may change; confirm security, SSO and compliance in writing before buying. This is not legal or compliance advice.</p><ul>'+''.join(f'<li><b>{e(a)}.</b> {e(b)} <a href="{e(c)}" rel="nofollow noopener" target="_blank">Source</a></li>' for a,b,c in S['evidence'])+'</ul>'
+  qs=[(f'How much does an AI GTM stack cost for {info["size"]} ({info["name"].lower()})?',f'About {tl}/mo {extra} for our recommended stack, estimated from published list prices as of {CR}. Assumptions: {S["assumptions"]} Actual cost depends on your usage, billing period, taxes and add-ons.'.replace('  ',' ')),
+      ('What is included in the recommended stack?',', '.join(f'{i[1]} ({job(i)})' for i in S['items'])+'.'),('Are these prices guaranteed?','No. They are estimates from vendor pricing pages and can change at any time. Always verify with the vendor before buying.')]
+  sprint='<section class="card feat" style="margin:28px 0"><h2 style="margin-top:0">Want help putting this in place?</h2><p>The GTM Sprint is an advisory service from The Sinay Way LLC. Scope and fees are set only in a separate signed agreement; outcomes are not guaranteed.</p><a class="btn ghost" href="/sprint.html">Explore the GTM Sprint</a></section>' if s in ('small','early') else ''
+  page(f'stages/{SLUG[s]}.html',f'AI GTM Stack for {info["name"]} ({info["size"]}): Cost & Tools | Profitable Agent Stack',f'Recommended AI GTM stack for {info["name"].lower()} ({info["size"]}): estimated {tl}/mo from published prices, use cases that matter, and what to skip.',
+  f'''<p><a href="/stages/">Stacks by GTM team size</a> › {e(info["name"])}</p><p><span class="badge p">{e(info["size"])}</span></p><h1>{e(info["name"])}: AI GTM stack for {e(info["size"])}, {"" if s=="large" else "about "}{tl}/mo</h1><p class="answer">{e(qs[0][1])}</p>
+<h2>Who this is for</h2><p>{e(S["who"])}</p>
+<h2>Recommended stack (estimate)</h2><p class="mut">One tool per job, no paid overlap. Each row shows our value score; "best in category" means the highest value score (ties included) among all tools we list for that use case.</p>
+<ul>{nt}</ul>
+<table><thead><tr><th>Use case</th><th>Best-value pick</th><th>Tier / assumption</th><th>Est. $/mo</th><th>Why this pick</th></tr></thead><tbody>{tbl}<tr><th colspan="3">Estimated total</th><th colspan="2">{tl} {extra}</th></tr></tbody></table>
+<p class="mut">Math: {math} = ${total:,.2f}/mo{(' (shown as '+tl+')') if round(total)!=total else ''}{(' '+extra) if extra else ''}. Assumptions: {e(S["assumptions"])} Estimate only; excludes taxes, add-ons, overages and annual discounts. Prices as of {CR}, verify with vendor. "from" and "quote" rows are not final prices.</p>
+<h2>Use cases that matter at this size</h2><ul>{matter}</ul>
+<h2>Skip for now</h2><ul>{skip}</ul>{ev}{sprint}
+<p>{" · ".join(nav)}</p>
+<h2>All tools that fit this size</h2><div class="grid" id="list">{"".join(card(t,"stack-"+s) for t in ts)}</div>{faqhtml(qs)}''',[itemlist(ts,info['name']),faq(qs)])
+for s in ST: stage_page(s)
+_hrows=''.join(f'<tr><td><a href="/stages/{SLUG[s]}.html"><b>{e(ST[s]["name"])}</b></a><br><span class="mut">{e(ST[s]["size"])}</span></td><td>{"at least " if s=="large" else ""}${tot[s]:,.0f}/mo{" "+e(D["stacks"][s].get("extra","")) if s not in ("large",) and D["stacks"][s].get("extra") else ""}</td><td>{e(D["stacks"][s]["who"])}</td></tr>' for s in ST)
+_hq=[('How should I pick a size?','Count the people who do go-to-market work (selling, outbound, content, RevOps), not total headcount. If you are between two sizes, start with the smaller stack and add tools when a job becomes a real bottleneck.'),('Why GTM team size instead of funding stage?','Funding rounds say little about the tools you need; the number of people running go-to-market says a lot, because seats, admin and volume drive both cost and fit.')]
+page('stages/index.html','AI GTM Stacks by GTM Team Size: Cost & Tools | Profitable Agent Stack','Recommended AI GTM stacks for five GTM team sizes, from a solo founder to 40+ people: estimated monthly cost, use cases that matter and what to skip.',
+f'''<h1>Which AI GTM stack fits your GTM team size?</h1><p class="answer">Pick the size that matches how many people do go-to-market. Each page shows who it is for, the recommended stack with an estimated monthly cost from published prices, the use cases that matter, what to skip, and the best-value tool for each job we include.</p>{bars}
+<div class="grid">{''.join(f'<a class="card" href="/stages/{SLUG[s]}.html"><h3>{e(ST[s]["name"])}</h3><p class="mut">{e(ST[s]["size"])}</p><p>{"At least " if s=="large" else "About "}${tot[s]:,.0f}/mo recommended stack</p><span class="badge">View stack</span></a>' for s in ST)}</div>
+<h2>Compare the five sizes</h2><table><thead><tr><th>Size</th><th>Est. cost</th><th>Who it is for</th></tr></thead><tbody>{_hrows}</tbody></table>
+<p class="mut">Estimates from published list prices as of {CR}; verify with vendors. Solo and Small also pay Waalaxy in euros (not converted). Large is a floor: enterprise tiers are quote-based. Read <a href="/articles/stacks-by-gtm-team-size.html">why we size stacks this way</a> and <a href="/articles/one-tool-per-job.html">how we pick one tool per job</a>.</p>{faqhtml(_hq)}''',[faq(_hq)])
 # ---- simple pages
 def simple(path,title,desc,h,ans,body,sch=()):
   page(path,title+' | Profitable Agent Stack',desc,f'<h1>{h}</h1><p class="answer">{ans}</p>{body}',sch)
@@ -129,21 +188,58 @@ simple('methodology.html','Scoring Methodology','How Profitable Agent Stack calc
 ('Fit score (editorial)','An editorial 1–5 judgment of how well the tool serves its use case, converted to 0–100 (×20). It is an opinion, not a measurement, and is reviewed when vendors or readers send corrections.'),
 ('Cost score','Within each use case, the lowest published starting price scores 100 and the highest scores 40, scaled linearly. Tools without a public price (contact sales or not yet verified) get no cost score and no value score.'),
 ('Sentiment score','Will use public G2 or Capterra ratings (rating ÷ 5 × 100) only when fetched with a source link and date. As of '+C+' these sites blocked automated checks, so sentiment is not yet included and we link to reviews instead.'),
-('Stack cost estimates','Sum of published monthly list prices for the stated tiers, seats and volumes on each stage page. Labeled estimates; excludes taxes, add-ons and overages.'),
+('Stack cost estimates','Sum of published monthly list prices for the stated tiers, seats and volumes on each GTM-team-size page. Labeled estimates; excludes taxes, add-ons and overages.'),
 ('Money never changes rank','Sponsorships and affiliate links do not change scores, prices or order.')]))
 simple('review-policy.html','Review Policy','How Profitable Agent Stack handles user reviews, ratings and feedback.','How do you handle reviews and ratings?','We never fabricate, buy or edit reviews or ratings. We show only public ratings from G2 or Capterra with a source link and date checked, or a link to the reviews.',P([
 ('Third-party ratings','Ratings belong to their sources and are shown as of the date checked. They may change. G2 and Capterra are trademarks of their owners and do not endorse us.'),
 ('Reader feedback','Feedback submitted through "Share your experience" (not live yet) may be moderated. We will not publish it as a rating, and we will remove content that is fake, abusive, defamatory or from someone with an undisclosed conflict of interest. Vendors may not review their own products.'),
 ('Incentives','We do not offer incentives for reviews. If that changes, incentivized feedback will be labeled.')]))
 simple('feedback.html','Share Your Experience','Share your experience with an AI GTM tool.','Have you used one of these tools?','Tell us what it really cost and how it performed. This form is a placeholder and does not send anything yet.',
-f'''<form class="card" onsubmit="event.preventDefault();this.innerHTML='<p role=status>Thanks! Feedback is not live yet, so nothing was sent.</p>'"><p><label>Tool<br><select required>{''.join(f'<option>{e(t["name"])}</option>' for t in R)}</select></label></p><p><label>Your stage<br><select>{opt({k:v['name'] for k,v in ST.items()})}</select></label></p><p><label>What do you pay per month (optional)<br><input type="text"></label></p><p><label>Your experience<br><textarea rows="5" required style="width:100%"></textarea></label></p><p><label><input type="checkbox" required> I am not affiliated with this vendor and agree to the <a href="/review-policy.html">Review policy</a> and <a href="/terms.html">Terms</a>.</label></p><button class="btn">Submit</button></form>''')
-simple('sprint.html','Agent Launch Sprint (advisory service)','Agent Launch Sprint: an advisory service from The Sinay Way LLC for pre-seed to Series A founders.','What is the Agent Launch Sprint?','An advisory service from The Sinay Way LLC for pre-seed to Series A founders: positioning, a lean outbound stack and launch content, built with AI agents and reviewed by a fractional CRO.','<div class="grid"><div class="card"><h3>Agent Launch Sprint</h3><p>A time-boxed advisory engagement. Not open for booking yet; no price is published.</p></div><div class="card"><h3>Ongoing advisory</h3><p>GTM advisory from The Sinay Way LLC. Contact us for details.</p></div></div><p class="mut">Advisory services are provided by The Sinay Way LLC, not by this directory. Scope, fees, deliverables and responsibilities are set only in a separate written agreement signed by both parties. Nothing on this page is an offer, a quote or a promise. Outcomes (meetings, pipeline, revenue) are not guaranteed. Using this website does not create an advisory or client relationship.</p><p><a class="btn" href="mailto:limoraiassistant@thesinayway.com?subject=Work%20with%20Limor%3A%20Agent%20Launch%20Sprint">Work with Limor: email us</a></p>')
+f'''<form class="card" onsubmit="event.preventDefault();this.innerHTML='<p role=status>Thanks! Feedback is not live yet, so nothing was sent.</p>'"><p><label>Tool<br><select required>{''.join(f'<option>{e(t["name"])}</option>' for t in R)}</select></label></p><p><label>Your GTM team size<br><select>{opt({k:v['name']+' ('+v['size']+')' for k,v in ST.items()})}</select></label></p><p><label>What do you pay per month (optional)<br><input type="text"></label></p><p><label>Your experience<br><textarea rows="5" required style="width:100%"></textarea></label></p><p><label><input type="checkbox" required> I am not affiliated with this vendor and agree to the <a href="/review-policy.html">Review policy</a> and <a href="/terms.html">Terms</a>.</label></p><button class="btn">Submit</button></form>''')
+simple('sprint.html','Agent Launch Sprint (advisory service)','Agent Launch Sprint: an advisory service from The Sinay Way LLC for founders and small GTM teams.','What is the Agent Launch Sprint?','An advisory service from The Sinay Way LLC for founders and small GTM teams: positioning, a lean outbound stack and launch content, built with AI agents and reviewed by a fractional CRO.','<div class="grid"><div class="card"><h3>Agent Launch Sprint</h3><p>A time-boxed advisory engagement. Not open for booking yet; no price is published.</p></div><div class="card"><h3>Ongoing advisory</h3><p>GTM advisory from The Sinay Way LLC. Contact us for details.</p></div></div><p class="mut">Advisory services are provided by The Sinay Way LLC, not by this directory. Scope, fees, deliverables and responsibilities are set only in a separate written agreement signed by both parties. Nothing on this page is an offer, a quote or a promise. Outcomes (meetings, pipeline, revenue) are not guaranteed. Using this website does not create an advisory or client relationship.</p><p><a class="btn" href="mailto:limoraiassistant@thesinayway.com?subject=Work%20with%20Limor%3A%20Agent%20Launch%20Sprint">Work with Limor: email us</a></p>')
 simple('about.html','About','About Profitable Agent Stack.','Who runs Profitable Agent Stack?','A cost-first directory of AI go-to-market tools operated by The Sinay Way LLC as part of its advisory services. We list published prices with source links and dates, and mark tools without public pricing as contact sales. We do not invent prices, features or reviews.','')
 simple('new-releases.html','New Releases & Price Changes','New AI GTM tool releases and pricing changes.','What changed this week?','The latest tool releases and price changes we have logged.',''.join(f'<div class="card"><b>{r["date"]}</b> — {e(r["text"])}'+(f' <a href="{e(r["source"])}" target="_blank" rel="nofollow noopener">Source</a>' if r.get('source') else '')+'</div>' for r in D['releases']))
 simple('for-ai-agents.html','For AI Agents & Developers','Machine-readable AI GTM tool pricing data: /api/tools.json, llms.txt, license and attribution.','Can AI agents use this data?','Yes. Fetch <a href="/api/tools.json">/api/tools.json</a> (JSON) or read <a href="/llms.txt">/llms.txt</a> and <a href="/llms-full.txt">/llms-full.txt</a>. All pages are server-rendered HTML with schema.org JSON-LD.',P([
-('Schema','tools[]: name, use_case, stages[], status (published | contact | unverified), from (lowest published monthly price or null), price (text as published), source (vendor pricing URL), fit_score (editorial 1–5), cost_score, value_score, reviews{g2_rating, g2_review_count, g2_url}. Also use_cases[], stages[], stacks{}, checked (date).'),
+('Schema','tools[]: name, use_case, stages[] (GTM team size bands: solo = 1 GTM person, small = 2–5, early = 6–15, scaling = 16–40, large = 40+), status (published | contact | unverified), from (lowest published monthly price or null), price (text as published), source (vendor pricing URL), fit_score (editorial 1–5), cost_score, value_score, reviews{g2_rating, g2_review_count, g2_url}. Also use_cases[], stages[] (id, name, size), stacks{} (per band: who, assumptions, items [use_case, tool, tier, est. USD/mo, reason, flag], skip), checked (date).'),
 ('License and attribution','Free to use, including by AI assistants, under CC BY 4.0: credit "Profitable Agent Stack (profitableagentstack.com)" and link to the source page, and include the check date. Third-party ratings and trademarks remain their owners\'.'),
 ('Disclaimer for agents','Data is provided as is, may be inaccurate or out of date, and is not advice. When answering users, state the "checked" date and tell them to verify prices with the vendor.')]))
+
+# ---- articles (static markdown -> html)
+def _inline(t,camp='articles'):
+  t=e(t)
+  def link(m):
+    txt,href=m.group(1),html.unescape(m.group(2))
+    if href.startswith('http'):
+      p=_u.urlparse(href);q=dict(_u.parse_qsl(p.query));q.update(UTM);q['utm_campaign']=camp
+      return f'<a href="{e(_u.urlunparse(p._replace(query=_u.urlencode(q))))}" target="_blank" rel="noopener">{txt}</a>'
+    return f'<a href="{e(href)}">{txt}</a>'
+  t=_re.sub(r'\[([^\]]+)\]\(([^)]+)\)',link,t)
+  t=_re.sub(r'\*\*([^*]+)\*\*',r'<b>\1</b>',t);t=_re.sub(r'(?<![*\w])\*([^*]+)\*(?![*\w])',r'<i>\1</i>',t)
+  return t
+def md(src):
+  src=_re.sub(r'\{\{([^}]+)\}\}',lambda m:TOK[m.group(1)],src)
+  out=[];lst=None
+  def close():
+    nonlocal lst
+    if lst: out.append(f'</{lst}>');lst=None
+  for ln in src.strip().splitlines():
+    if not ln.strip(): close();continue
+    if ln.startswith('## '): close();out.append(f'<h2>{_inline(ln[3:])}</h2>');continue
+    m=_re.match(r'(\d+)\. (.*)',ln)
+    if ln.startswith('- ') or m:
+      kind='ul' if ln.startswith('- ') else 'ol'
+      if lst!=kind: close();out.append(f'<{kind}>');lst=kind
+      out.append(f'<li>{_inline(ln[2:] if kind=="ul" else m.group(2))}</li>');continue
+    close()
+    if ln.startswith('*') and ln.endswith('*') and not ln.startswith('**'): out.append(f'<p class="mut">{_inline(ln.strip("*"))}</p>')
+    else: out.append(f'<p>{_inline(ln)}</p>')
+  close();return ''.join(out)
+for a in ARTS:
+  sch={"@context":"https://schema.org","@type":"Article","headline":a['title'],"description":a['summary'],"datePublished":a['date'],"dateModified":a['date'],"author":{"@type":"Organization","name":"Profitable Agent Stack","url":SITE},"publisher":{"@type":"Organization","name":"The Sinay Way LLC"},"mainEntityOfPage":f"{SITE}/articles/{a['slug']}.html"}
+  page(f'articles/{a["slug"]}.html',a['title']+' | Profitable Agent Stack',a['summary'],f'<p><a href="/articles/">Articles</a> › {e(a["title"])}</p><article><h1>{e(a["title"])}</h1><p class="mut">Published {a["date"]} by Profitable Agent Stack, operated by The Sinay Way LLC</p><p class="answer">{e(a["summary"])}</p>{md(a["body"])}</article>',[sch])
+page('articles/index.html','Articles: AI GTM Stack Guides | Profitable Agent Stack','Short, practical guides on choosing AI GTM tools by cost: how we score, when to skip intent data, and one tool per job.',
+ '<h1>Articles</h1><p class="answer">Short guides on spending less on your AI GTM stack. General information only, not advice.</p><div class="grid">'+''.join(f'<a class="card" href="/articles/{a["slug"]}.html"><h3>{e(a["title"])}</h3><p class="mut">{a["date"]}</p><p>{e(a["summary"])}</p></a>' for a in ARTS)+'</div>',
+ [{"@context":"https://schema.org","@type":"CollectionPage","name":"Articles","url":SITE+"/articles/"}])
 LEG='<p class="mut">Last updated '+C+'. This page is a general notice for a small site. It is not legal advice, and it has not been reviewed by a lawyer.</p>'
 simple('terms.html','Terms of Use','Terms of Use for profitableagentstack.com.','Terms of Use','Summary: the Site is informational only, provided as is, not advice; verify prices with vendors; disputes go to individual arbitration in Massachusetts.',LEG+P([
 ('1. Acceptance','By using profitableagentstack.com (the "Site"), operated by The Sinay Way LLC ("we") as part of its advisory services, you agree to these Terms. If you do not agree, do not use the Site.'),
@@ -164,26 +260,26 @@ simple('terms.html','Terms of Use','Terms of Use for profitableagentstack.com.',
 ('16. Changes; severability','We may update these Terms at any time; continued use means acceptance. If any provision is unenforceable, the rest remain in effect.'),('Contact','The Sinay Way LLC, <a href="mailto:limoraiassistant@thesinayway.com">limoraiassistant@thesinayway.com</a>.')]))
 simple('privacy.html','Privacy Policy','Privacy Policy for profitableagentstack.com.','Privacy Policy','We collect as little data as possible and do not sell it. The Site has no accounts, no tracking cookies and no working forms.',LEG+P([
 ('Who we are','The Site is operated by The Sinay Way LLC as part of its advisory services.'),
-('What we collect','Nothing through the Site itself: its feedback and waitlist forms are placeholders that send and store nothing. If you email us, we receive your email address and what you write, and use it only to reply and to handle corrections or requests. Hosting providers may keep standard server logs (such as IP address and browser type).'),
+('What we collect','Nothing through the Site itself: its feedback form is a placeholder that sends and stores nothing. If you email us, we receive your email address and what you write, and use it only to reply and to handle corrections or requests. Hosting providers may keep standard server logs (such as IP address and browser type).'),
 ('Cookies and analytics','No tracking cookies or analytics. Google Fonts is loaded from Google\'s servers, which receive your IP address.'),
 ('Sharing','We do not sell or rent personal data and do not use it for advertising. We may disclose it if required by law. If we add a form or any tool that collects personal data, we will update this policy first and name the provider.'),
 ('Your choices','Ask to access or delete anything you emailed us at <a href="mailto:limoraiassistant@thesinayway.com">limoraiassistant@thesinayway.com</a>.'),('Children','Not directed to children under 16.'),('Contact','The Sinay Way LLC, <a href="mailto:limoraiassistant@thesinayway.com">limoraiassistant@thesinayway.com</a>.')]))
 simple('disclosure.html','Affiliate and Sponsorship Disclosure','How Profitable Agent Stack earns money and keeps rankings independent.','How do you make money?','We may earn affiliate commissions or accept labeled sponsorships, and The Sinay Way LLC offers advisory services. None of this changes prices, scores or rank.',LEG+P([
-('Affiliate links','Some links may be affiliate links; if you buy through them, The Sinay Way LLC may earn a commission at no extra cost to you. As of '+C+' no affiliate links are active.'),('Sponsored placements','Any sponsored listing will be clearly labeled "Sponsored". None are sold at present.'),
-('Our own services','This site is operated by The Sinay Way LLC as part of its advisory services, and we promote those services, including on stage pages. They are provided only under a separate signed agreement; outcomes are not guaranteed. Recommended stacks are chosen by the published method, not to sell services.'),
+('Affiliate links','Some links may be affiliate links; if you buy through them, The Sinay Way LLC may earn a commission at no extra cost to you. Affiliate links are marked "affiliate" and tagged rel="sponsored"; pages that contain them carry a disclosure at the top. '+(('As of '+C+' affiliate links are active for: '+', '.join(t['name'] for t in D['tools'] if t.get('affiliate_url'))+'.') if any(t.get('affiliate_url') for t in D['tools']) else 'As of '+C+' no affiliate links are active. Outbound links to vendors carry UTM tags (utm_source=profitableagentstack) so traffic can be attributed, and they are not affiliate links.')),('Sponsored placements','Any sponsored listing will be clearly labeled "Sponsored". None are sold at present.'),
+('Our own services','This site is operated by The Sinay Way LLC as part of its advisory services, and we promote those services, including on some stack pages. They are provided only under a separate signed agreement; outcomes are not guaranteed. Recommended stacks are chosen by the published method, not to sell services.'),
 ('Scores and reviews','Payment never changes fit, cost or value scores, badges, or which third-party ratings are shown. We do not accept payment for reviews.'),('FTC','This disclosure is intended to follow the U.S. FTC Guides Concerning the Use of Endorsements and Testimonials in Advertising.')]))
 simple('corrections.html','Corrections and Takedowns','How to request corrections or takedowns.','How do I report an error?','Email <a href="mailto:limoraiassistant@thesinayway.com?subject=Correction">limoraiassistant@thesinayway.com</a> (The Sinay Way LLC) with the subject "Correction: [tool name]", the page URL, what is wrong, and a link to the official vendor source.',P([('Logo removal','Trademark owners can ask us to remove their logo: email <a href="mailto:limoraiassistant@thesinayway.com?subject=Logo%20removal">limoraiassistant@thesinayway.com</a> with the subject "Logo removal: [tool name]" and proof you represent the owner. We will remove the logo promptly, usually within 5 business days.'),('Takedowns','For trademark, copyright or other takedown requests, include your contact details, the content concerned, the right you assert, and a good-faith statement that the request is accurate.'),('What we do','We aim to acknowledge within 5 business days, check the official source, and correct, annotate or remove content. Corrections are logged on New releases.')]))
-exec(open('il_build.py',encoding='utf-8').read())  # Hebrew /il/ hub
 # ---- machine-readable
 os.makedirs('api',exist_ok=True)
-api=dict(D);api['license']='CC BY 4.0 — attribute "Profitable Agent Stack (profitableagentstack.com)"';api['disclaimer']=DISC;api['methodology']=SITE+'/methodology.html';api.pop('watchlist',None)
+api=dict(D);api['license']='CC BY 4.0 — attribute "Profitable Agent Stack (profitableagentstack.com)"';api['disclaimer']=DISC;api['methodology']=SITE+'/methodology.html';api.pop('watchlist',None);api.pop('il_stack',None);api.pop('stages_old_labels',None)
 json.dump(api,open('api/tools.json','w'),indent=1)
 open('robots.txt','w').write('User-agent: *\nAllow: /\n\n'+''.join(f'User-agent: {b}\nAllow: /\n\n' for b in ['GPTBot','OAI-SearchBot','ChatGPT-User','ClaudeBot','Claude-Web','anthropic-ai','PerplexityBot','Perplexity-User','Google-Extended','Applebot-Extended','CCBot','Bytespider','meta-externalagent','cohere-ai'])+f'Sitemap: {SITE}/sitemap.xml\n')
 open('sitemap.xml','w').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{u}</loc><lastmod>{C}</lastmod></url>' for u in PAGES)+'</urlset>\n')
-L=f'# Profitable Agent Stack\n\n> Cost-first directory of AI GTM tools ranked by use-case fit, published price and user sentiment, with estimated monthly stack costs by company stage. Prices checked {C}; verify with vendors. Not advice.\n\n## Key pages\n'+''.join(f'- [{s["name"]}]({SITE}/stages/{SLUG[s["id"]]}.html): est. ${tot[s["id"]]:,}/mo stack\n' for s in D['stages'])+f'- [Directory]({SITE}/directory.html)\n- [Methodology]({SITE}/methodology.html)\n- [For AI agents]({SITE}/for-ai-agents.html)\n- [Hebrew hub for Israeli founders: First US conversations]({SITE}/il/): $0–$100/mo stack, playbooks with English templates, cohort waitlist (lang=he)\n\n## Data\n- [tools.json]({SITE}/api/tools.json): CC BY 4.0, attribution required\n- [Full text]({SITE}/llms-full.txt)\n'
+L=f'# Profitable Agent Stack\n\n> Cost-first directory of AI GTM tools ranked by use-case fit, published price and user sentiment, with estimated monthly stack costs by GTM team size. Prices checked {C}; verify with vendors. Not advice.\n\n## Key pages\n- [Stacks by GTM team size]({SITE}/stages/)\n'+''.join(f'- [{s["name"]} ({s["size"]})]({SITE}/stages/{SLUG[s["id"]]}.html): est. {"at least " if s["id"]=="large" else ""}${tot[s["id"]]:,.0f}/mo stack\n' for s in D['stages'])+f'- [Directory]({SITE}/directory.html)\n- [Methodology]({SITE}/methodology.html)\n- [Articles]({SITE}/articles/)\n- [For AI agents]({SITE}/for-ai-agents.html)\n\n## Data\n- [tools.json]({SITE}/api/tools.json): CC BY 4.0, attribution required\n- [Full text]({SITE}/llms-full.txt)\n'
 open('llms.txt','w').write(L)
 full=L+'\n## Tools\n'+''.join(f'- {t["name"]} ({UC[t["use_case"]]}; stages: {", ".join(t["stages"])}): {price(t)}. Value score: {t["value_score"]}. Source: {t["source"]}\n' for t in R)
-full+='\n## Stage stacks (estimates)\n'+''.join(f'### {ST[s]["name"]}: ${stack_total(s):,}/mo {D["stacks"][s].get("extra","")}\nAssumptions: {D["stacks"][s]["assumptions"]}\n'+''.join(f'- {UC[i[0]]}: {i[1]}, {i[2]}, ${i[3]} — {i[4]}\n' for i in D['stacks'][s]['items']) for s in ST)
+full+='\n## Stacks by GTM team size (estimates)\n'+''.join(f'### {ST[s]["name"]} ({ST[s]["size"]}): {"at least " if s=="large" else ""}${stack_total(s):,}/mo {D["stacks"][s].get("extra","")}\nAssumptions: {D["stacks"][s]["assumptions"]}\n'+''.join(f'- {job(i)}: {i[1]}, {i[2]}, ${i[3]} — {i[4]}\n' for i in D['stacks'][s]['items']) for s in ST)
 full+='\n## Methodology\nValue = 50% fit (editorial) + 30% cost + 20% sentiment; sentiment not yet verified so fit/cost reweighted 62.5/37.5.\n\n## Disclaimer\n'+DISC+'\n'
 open('llms-full.txt','w').write(full)
+open('_redirects','w').write('/stages/pre-seed-to-series-a.html /stages/small-gtm-team.html 301\n/stages/pre-seed-to-series-a /stages/small-gtm-team.html 301\n/stages/later-stage.html /stages/scaling.html 301\n/stages/later-stage /stages/scaling.html 301\n')
 print(len(PAGES),'pages')

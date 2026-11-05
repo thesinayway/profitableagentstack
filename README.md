@@ -3,4 +3,4 @@
 
 - Source of truth: `tools.json`. Build: `python3 build.py` (no dependencies) → pre-rendered HTML, `api/tools.json`, `sitemap.xml`, `robots.txt`, `llms.txt`, `llms-full.txt`.
 - Fit scores are editorial; G2/Capterra ratings are null (sites blocked automated fetch) and only linked. Never add ratings without a source + date.
-- Test: `python3 -m http.server 8000`. Deploy: upload everything to the web root of profitableagentstack.com.
+- Test: `python3 -m http.server 8000`. Articles: Markdown in `content/articles/*.md` (front matter: title, slug, date, summary; `{{tokens}}` filled by build.py) → /articles/. Affiliate links: set `affiliate_url` on a tool in tools.json only with a real, approved link; the build adds rel=sponsored, the "affiliate" badge and a page disclosure automatically. Hebrew site files are kept outside this repo (/workspace/pas-il-offline) and are not built or linked. Deploy: copy built html/txt/xml, api/, assets/, stages/, use-cases/, articles/, _redirects into a dist folder (no CNAME, *.py, tools.json, *.md) then `npx wrangler pages deploy <dist> --project-name profitableagentstack --branch main --commit-dirty=true` from /workspace/wr.

@@ -83,7 +83,8 @@
    "fit_score": 4,
    "stages": [
     "solo",
-    "growth"
+    "small",
+    "early"
    ],
    "reviews": {
     "g2_rating": null,
@@ -107,8 +108,10 @@
    "fit_score": 5,
    "stages": [
     "solo",
-    "growth",
-    "later"
+    "small",
+    "early",
+    "scaling",
+    "large"
    ],
    "reviews": {
     "g2_rating": null,
@@ -132,7 +135,8 @@
    "fit_score": 4,
    "stages": [
     "solo",
-    "growth"
+    "small",
+    "early"
    ],
    "reviews": {
     "g2_rating": null,
@@ -155,8 +159,10 @@
    "source": "https://www.lemlist.com/pricing",
    "fit_score": 4,
    "stages": [
-    "growth",
-    "later"
+    "small",
+    "early",
+    "scaling",
+    "large"
    ],
    "reviews": {
     "g2_rating": null,
@@ -179,8 +185,10 @@
    "source": "https://reply.io/pricing/",
    "fit_score": 4,
    "stages": [
-    "growth",
-    "later"
+    "small",
+    "early",
+    "scaling",
+    "large"
    ],
    "reviews": {
     "g2_rating": null,
@@ -204,7 +212,8 @@
    "fit_score": 3,
    "stages": [
     "solo",
-    "growth"
+    "small",
+    "early"
    ],
    "reviews": {
     "g2_rating": null,
@@ -227,8 +236,11 @@
    "source": "https://www.apollo.io/pricing",
    "fit_score": 5,
    "stages": [
-    "growth",
-    "later"
+    "solo",
+    "small",
+    "early",
+    "scaling",
+    "large"
    ],
    "reviews": {
     "g2_rating": null,
@@ -252,7 +264,8 @@
    "fit_score": 4,
    "stages": [
     "solo",
-    "growth"
+    "small",
+    "early"
    ],
    "reviews": {
     "g2_rating": null,
@@ -275,8 +288,10 @@
    "source": "https://www.clay.com/pricing",
    "fit_score": 5,
    "stages": [
-    "growth",
-    "later"
+    "small",
+    "early",
+    "scaling",
+    "large"
    ],
    "reviews": {
     "g2_rating": null,
@@ -300,8 +315,10 @@
    "fit_score": 4,
    "stages": [
     "solo",
-    "growth",
-    "later"
+    "small",
+    "early",
+    "scaling",
+    "large"
    ],
    "reviews": {
     "g2_rating": null,
@@ -324,8 +341,10 @@
    "source": "https://fullenrich.com/pricing",
    "fit_score": 4,
    "stages": [
-    "growth",
-    "later"
+    "small",
+    "early",
+    "scaling",
+    "large"
    ],
    "reviews": {
     "g2_rating": null,
@@ -349,7 +368,8 @@
    "fit_score": 3,
    "stages": [
     "solo",
-    "growth"
+    "small",
+    "early"
    ],
    "reviews": {
     "g2_rating": null,
@@ -372,8 +392,10 @@
    "source": "https://www.heyreach.io/pricing",
    "fit_score": 5,
    "stages": [
-    "growth",
-    "later"
+    "small",
+    "early",
+    "scaling",
+    "large"
    ],
    "reviews": {
     "g2_rating": null,
@@ -397,7 +419,8 @@
    "fit_score": 4,
    "stages": [
     "solo",
-    "growth"
+    "small",
+    "early"
    ],
    "reviews": {
     "g2_rating": null,
@@ -421,7 +444,8 @@
    "fit_score": 4,
    "stages": [
     "solo",
-    "growth"
+    "small",
+    "early"
    ],
    "reviews": {
     "g2_rating": null,
@@ -444,7 +468,8 @@
    "source": "https://www.11x.ai/",
    "fit_score": 4,
    "stages": [
-    "later"
+    "scaling",
+    "large"
    ],
    "reviews": {
     "g2_rating": null,
@@ -467,8 +492,10 @@
    "source": "https://www.artisan.co/pricing",
    "fit_score": 4,
    "stages": [
-    "growth",
-    "later"
+    "small",
+    "early",
+    "scaling",
+    "large"
    ],
    "reviews": {
     "g2_rating": null,
@@ -491,7 +518,8 @@
    "source": "https://www.qualified.com/pricing",
    "fit_score": 4,
    "stages": [
-    "later"
+    "scaling",
+    "large"
    ],
    "reviews": {
     "g2_rating": null,
@@ -515,8 +543,10 @@
    "fit_score": 4,
    "stages": [
     "solo",
-    "growth",
-    "later"
+    "small",
+    "early",
+    "scaling",
+    "large"
    ],
    "reviews": {
     "g2_rating": null,
@@ -540,8 +570,10 @@
    "fit_score": 4,
    "stages": [
     "solo",
-    "growth",
-    "later"
+    "small",
+    "early",
+    "scaling",
+    "large"
    ],
    "reviews": {
     "g2_rating": null,
@@ -565,7 +597,9 @@
    "fit_score": 4,
    "stages": [
     "solo",
-    "growth"
+    "small",
+    "early",
+    "scaling"
    ],
    "reviews": {
     "g2_rating": null,
@@ -589,8 +623,10 @@
    "fit_score": 4,
    "stages": [
     "solo",
-    "growth",
-    "later"
+    "small",
+    "early",
+    "scaling",
+    "large"
    ],
    "reviews": {
     "g2_rating": null,
@@ -613,7 +649,7 @@
    "source": "https://www.commonroom.io/pricing",
    "fit_score": 4,
    "stages": [
-    "later"
+    "large"
    ],
    "reviews": {
     "g2_rating": null,
@@ -637,8 +673,10 @@
    "fit_score": 5,
    "stages": [
     "solo",
-    "growth",
-    "later"
+    "small",
+    "early",
+    "scaling",
+    "large"
    ],
    "checked": "2026-11-02",
    "reviews": {
@@ -662,7 +700,8 @@
    "fit_score": 4,
    "stages": [
     "solo",
-    "growth"
+    "small",
+    "early"
    ],
    "checked": "2026-11-02",
    "reviews": {
@@ -685,8 +724,10 @@
    "source": "https://surfer.ai/pricing/",
    "fit_score": 4,
    "stages": [
-    "growth",
-    "later"
+    "small",
+    "early",
+    "scaling",
+    "large"
    ],
    "checked": "2026-11-02",
    "reviews": {
@@ -710,8 +751,10 @@
    "fit_score": 4,
    "stages": [
     "solo",
-    "growth",
-    "later"
+    "small",
+    "early",
+    "scaling",
+    "large"
    ],
    "checked": "2026-11-02",
    "reviews": {
@@ -735,7 +778,8 @@
    "fit_score": 4,
    "stages": [
     "solo",
-    "growth"
+    "small",
+    "early"
    ],
    "checked": "2026-11-02",
    "reviews": {
@@ -760,7 +804,8 @@
    "fit_score": 4,
    "stages": [
     "solo",
-    "growth"
+    "small",
+    "early"
    ],
    "checked": "2026-11-02",
    "reviews": {
@@ -784,7 +829,8 @@
    "fit_score": 5,
    "stages": [
     "solo",
-    "growth"
+    "small",
+    "early"
    ],
    "checked": "2026-11-02",
    "reviews": {
@@ -807,8 +853,10 @@
    "source": "https://webflow.com/pricing",
    "fit_score": 4,
    "stages": [
-    "growth",
-    "later"
+    "small",
+    "early",
+    "scaling",
+    "large"
    ],
    "checked": "2026-11-02",
    "reviews": {
@@ -832,8 +880,10 @@
    "fit_score": 5,
    "stages": [
     "solo",
-    "growth",
-    "later"
+    "small",
+    "early",
+    "scaling",
+    "large"
    ],
    "checked": "2026-11-02",
    "reviews": {
@@ -857,7 +907,8 @@
    "fit_score": 4,
    "stages": [
     "solo",
-    "growth"
+    "small",
+    "early"
    ],
    "checked": "2026-11-02",
    "reviews": {
@@ -881,7 +932,8 @@
    "fit_score": 4,
    "stages": [
     "solo",
-    "growth"
+    "small",
+    "early"
    ],
    "checked": "2026-11-02",
    "reviews": {
@@ -905,7 +957,8 @@
    "fit_score": 4,
    "stages": [
     "solo",
-    "growth"
+    "small",
+    "early"
    ],
    "checked": "2026-11-02",
    "reviews": {
@@ -929,8 +982,10 @@
    "fit_score": 5,
    "stages": [
     "solo",
-    "growth",
-    "later"
+    "small",
+    "early",
+    "scaling",
+    "large"
    ],
    "checked": "2026-11-02",
    "reviews": {
@@ -953,8 +1008,10 @@
    "source": "https://circle.so/pricing",
    "fit_score": 4,
    "stages": [
-    "growth",
-    "later"
+    "small",
+    "early",
+    "scaling",
+    "large"
    ],
    "checked": "2026-11-02",
    "reviews": {
@@ -978,7 +1035,8 @@
    "fit_score": 4,
    "stages": [
     "solo",
-    "growth"
+    "small",
+    "early"
    ],
    "checked": "2026-11-02",
    "reviews": {
@@ -1002,8 +1060,10 @@
    "fit_score": 4,
    "stages": [
     "solo",
-    "growth",
-    "later"
+    "small",
+    "early",
+    "scaling",
+    "large"
    ],
    "checked": "2026-11-02",
    "reviews": {
@@ -1027,7 +1087,8 @@
    "fit_score": 4,
    "stages": [
     "solo",
-    "growth"
+    "small",
+    "early"
    ],
    "checked": "2026-11-02",
    "reviews": {
@@ -1051,8 +1112,10 @@
    "fit_score": 4,
    "stages": [
     "solo",
-    "growth",
-    "later"
+    "small",
+    "early",
+    "scaling",
+    "large"
    ],
    "checked": "2026-11-02",
    "reviews": {
@@ -1068,6 +1131,10 @@
   }
  ],
  "releases": [
+  {
+   "date": "2026-11-05",
+   "text": "Recommended stacks are now organized by GTM team size (solo founder 1, small team 2–5, early scaling 6–15, scaling 16–40, large / multi-team 40+) instead of funding stage, with use cases to skip at each size. Estimated totals changed accordingly; earlier entries below refer to the old stage names. Added an Articles section. Prices were last checked 2026-11-02; vendor security statements on the large-team page were checked 2026-11-05."
+  },
   {
    "date": "2026-11-02",
    "text": "Price check of all 41 tools: no change to any price used in our stage stacks (totals unchanged). Kit now shows public prices (Free up to 10,000 subscribers; Creator $33/mo billed yearly) and Apollo confirms a free Starter plan; Clay shows a free plan (500 actions/mo); Webflow's $25 CMS plan is now named Premium; Surfer lists new AI Visibility ($82/mo) and Peace of Mind ($299/mo) tiers. Prices for Woodpecker, Clearout, Canva and Discord could not be verified."
@@ -1103,261 +1170,653 @@
  "stages": [
   {
    "id": "solo",
-   "name": "Solo founder monetizing an idea",
-   "short": "Solo founder"
+   "name": "Solo founder",
+   "short": "Solo",
+   "size": "1 GTM person",
+   "min": 1,
+   "max": 1,
+   "slug": "solo-founder"
   },
   {
-   "id": "growth",
-   "name": "Pre-seed to Series A, growing",
-   "short": "Pre-seed to Series A",
-   "primary": true
+   "id": "small",
+   "name": "Small GTM team",
+   "short": "Small team",
+   "size": "2–5 GTM people",
+   "min": 2,
+   "max": 5,
+   "slug": "small-gtm-team"
   },
   {
-   "id": "later",
-   "name": "Later stage, 10+ people",
-   "short": "Later stage (10+)"
+   "id": "early",
+   "name": "Early scaling",
+   "short": "Early scaling",
+   "size": "6–15 GTM people",
+   "min": 6,
+   "max": 15,
+   "slug": "early-scaling"
+  },
+  {
+   "id": "scaling",
+   "name": "Scaling",
+   "short": "Scaling",
+   "size": "16–40 GTM people",
+   "min": 16,
+   "max": 40,
+   "slug": "scaling"
+  },
+  {
+   "id": "large",
+   "name": "Large / multi-team",
+   "short": "Large / multi-team",
+   "size": "40+ GTM people",
+   "min": 41,
+   "max": null,
+   "slug": "large-multi-team"
   }
  ],
  "stacks": {
   "solo": {
-   "assumptions": "1 person, 1 LinkedIn account, ~5,000 emails/mo, monthly billing, entry tiers. Marketing: free tiers used where they exist; Carrd priced yearly ÷ 12.",
+   "who": "One person doing all of go-to-market: you are the founder, the seller and the marketer. Your goal is the first repeatable customers, not a machine.",
+   "assumptions": "1 GTM person, 1 LinkedIn account, light volume. Hunter's free plan (50 credits/mo) caps how many new emails you can find; move up when you outgrow it. Monthly billing, entry tiers; Carrd is priced yearly ÷ 12.",
+   "extra": "+ €19 Waalaxy",
+   "bytool": [
+    [
+     "Warm network & referrals",
+     "Spreadsheet or notes app you already own. Message everyone you know who fits your ICP first; no tool is needed to do this."
+    ],
+    [
+     "ICP & positioning",
+     "Customer conversations plus a one-page doc. We list no paid tool for this job: talk to buyers first."
+    ]
+   ],
    "items": [
     [
-     "outbound-email",
-     "Smartlead",
-     "Base, 1 workspace",
-     39,
-     "Lowest published entry price for outbound email in our list."
+     "list-building",
+     "Apollo",
+     "Free Starter plan",
+     0,
+     "Highest value score for list building (free, fit 5/5). Exa is a free alternative if you prefer search-style prospecting. Free-plan limits change, so check them.",
+     ""
     ],
     [
      "enrichment",
      "Hunter",
      "Free plan (50 credits)",
      0,
-     "Free plan covers email finding/verification at solo volume."
+     "Free email finding and verification is enough for light hand-built lists.",
+     ""
     ],
     [
-     "list-building",
-     "Exa",
-     "Free $10 credits/mo",
-     0,
-     "Free credits for finding target companies; Hunter then finds the emails."
+     "outbound-email",
+     "Smartlead",
+     "Base, 1 workspace",
+     39,
+     "Lowest published entry price for outbound email in our list. Instantly scores higher on value (94 vs 88) but costs $8 more; revisit at 2–5 people.",
+     ""
     ],
     [
      "linkedin",
      "Waalaxy",
      "1 user × €19 (EUR, not converted)",
      0,
-     "Cheapest listed LinkedIn tool (per user, EUR)."
-    ],
-    [
-     "signals",
-     "PostHog",
-     "Free allowance",
-     0,
-     "Free product analytics allowance."
-    ],
-    [
-     "signals",
-     "RB2B",
-     "Free plan",
-     0,
-     "Free website-visitor identification; a different signal from product analytics."
-    ],
-    [
-     "social-scheduling",
-     "Postiz",
-     "Standard",
-     29,
-     "Social scheduling for founder-led content."
-    ],
-    [
-     "seo-content",
-     "Google Search Console",
-     "Free",
-     0,
-     "Free first-party search data: which queries bring visitors. Ahrefs Free is a good second look but would overlap."
+     "Cheapest listed LinkedIn tool and the best value score in its category. Per user, billed in euros.",
+     ""
     ],
     [
      "landing-pages",
      "Carrd",
      "Pro Standard, $19/yr ÷ 12",
      1.58,
-     "Cheapest custom-domain landing page in our list; $19/yr is the yearly price on its Pro page."
+     "Cheapest custom-domain landing page in our list; $19/yr is the yearly price on its Pro page.",
+     ""
     ],
     [
      "newsletters",
      "beehiiv",
      "Free plan",
      0,
-     "Free forever plan; upgrade to Lite ($49/mo yearly) only when monetizing."
+     "Highest value score; free until you monetize. Kit is the free alternative (free up to 10,000 subscribers).",
+     ""
     ],
     [
-     "design-video",
-     "CapCut",
+     "web-analytics",
+     "Google Analytics",
      "Free",
      0,
-     "Free video editing for short clips; Canva (price not verified) is an optional design add-on and is not counted."
+     "Free and good enough for basic traffic and source tracking at this size.",
+     ""
     ]
    ],
-   "extra": "+ €19 Waalaxy"
+   "skip": [
+    [
+     "Signals & intent data (RB2B, PostHog, Common Room)",
+     "Paid intent and visitor-identification tools tell you who to talk to. Until hand-built outbound gets replies, you have nobody to prioritize."
+    ],
+    [
+     "AI SDR / agentic SDR",
+     "These are contact-sales products. An agent cannot fix messaging that does not work by hand yet."
+    ],
+    [
+     "Social scheduling, SEO tooling, design/video, community",
+     "Useful later; none of them is needed to get the first customers."
+    ]
+   ]
   },
-  "growth": {
-   "assumptions": "3 people, 2 LinkedIn senders, ~5,000 emails/mo, monthly billing. Marketing: Surfer and Framer at their lowest listed paid tiers (yearly-billing view); Canva and Discord optional and not counted.",
+  "small": {
+   "who": "Two to five people share go-to-market. Warm intros and hand outbound already produce some meetings, and you now want a repeatable sequence plus a little content.",
+   "assumptions": "3 GTM people, 2 LinkedIn users, ~5,000 emails/mo, monthly billing, entry tiers. Waalaxy is priced per user in euros and not converted.",
+   "extra": "+ €38 Waalaxy (2 users)",
+   "bytool": [
+    [
+     "Warm network & referrals",
+     "Still your best channel. Keep it in a shared spreadsheet or your CRM."
+    ],
+    [
+     "ICP & positioning",
+     "Revisit with real call notes; no paid tool listed for this job."
+    ]
+   ],
    "items": [
     [
-     "outbound-email",
-     "Instantly",
-     "Outreach Growth",
-     47,
-     "Top value score for outbound; unlimited mailboxes on one plan. Its lead credits are not added because Hunter covers enrichment."
+     "list-building",
+     "Apollo",
+     "Free Starter plan",
+     0,
+     "Highest value score for list building; free. Check current free-plan limits.",
+     ""
     ],
     [
      "enrichment",
      "Hunter",
      "Starter",
      49,
-     "Finding and verifying emails, so no second data plan is needed."
+     "Hunter shares one credit pool across unlimited team members (vendor help center), so adding people does not add seats.",
+     ""
+    ],
+    [
+     "outbound-email",
+     "Instantly",
+     "Outreach Growth",
+     47,
+     "Highest value score for outbound (94). Unlimited mailboxes on one plan; its lead credits are not added because Hunter covers enrichment.",
+     ""
     ],
     [
      "linkedin",
-     "HeyReach",
-     "Growth $79 × 2 senders",
-     158,
-     "Per-sender pricing scales with 2 founders/SDRs on LinkedIn."
-    ],
-    [
-     "signals",
-     "RB2B",
-     "Starter",
-     79,
-     "Identifies site visitors to feed outbound."
-    ],
-    [
-     "signals",
-     "PostHog",
-     "Free allowance",
+     "Waalaxy",
+     "2 users × €19 (EUR, not converted)",
      0,
-     "Product analytics on the free allowance."
-    ],
-    [
-     "ai-sdr",
-     "Artisan",
-     "Optional — contact sales, not included",
-     0,
-     "Optional; only if you want an AI SDR instead of hiring one."
-    ],
-    [
-     "social-scheduling",
-     "Postiz",
-     "Team",
-     39,
-     "Social scheduling for a small team."
-    ],
-    [
-     "design-video",
-     "HeyGen",
-     "Creator (video)",
-     29,
-     "Video creation (a separate job from scheduling): demos and outbound videos."
+     "Light LinkedIn volume at the lowest per-user price. Move to HeyReach when you run many senders.",
+     ""
     ],
     [
      "seo-content",
      "Google Search Console",
      "Free",
      0,
-     "Free first-party search data; tracks whether content ranks."
+     "Free first-party search data. Paid content tools wait until you publish weekly.",
+     ""
     ],
     [
-     "seo-content",
-     "Surfer",
-     "Discovery, billed yearly",
-     49,
-     "Content optimization is a separate job from tracking; Discovery is its lowest listed tier."
+     "social-scheduling",
+     "Buffer",
+     "Free (up to 3 channels)",
+     0,
+     "Free for up to 3 channels; best value score in its category (tied with Typefully).",
+     ""
     ],
     [
      "landing-pages",
      "Framer",
-     "Basic (yearly-billing price)",
+     "Basic (yearly-billing view)",
      10,
-     "Design-led pages with custom domain; Basic is its lowest paid tier. Monthly-billing price not verified."
+     "Multi-page site with your own domain for content/SEO. Carrd is cheaper but single-page.",
+     ""
     ],
     [
      "newsletters",
      "beehiiv",
      "Free plan",
      0,
-     "Free until you monetize; Lite is $49/mo yearly billing."
+     "Free until you monetize.",
+     ""
     ],
     [
-     "design-video",
-     "Canva",
-     "Optional, price not verified",
+     "web-analytics",
+     "Google Analytics",
+     "Free",
      0,
-     "Common design pick, but its pricing page blocked our fetch, so it is not counted. HeyGen already covers video."
+     "Free web analytics; add product/funnel analytics later.",
+     ""
     ],
     [
-     "community",
-     "Discord",
-     "Optional, price not verified",
+     "signals",
+     "RB2B",
+     "Free plan",
      0,
-     "Free-to-start community option, but no vendor price was captured, so it is not counted."
+     "Optional, and only if warm intros plus outbound are already booking meetings: free website-visitor identification to prioritize follow-up.",
+     ""
+    ]
+   ],
+   "skip": [
+    [
+     "Paid signals & intent data",
+     "Use at most the free RB2B plan, and only once outbound is booking meetings."
+    ],
+    [
+     "AI SDR / agentic SDR",
+     "Contact-sales pricing and little to feed it yet."
+    ],
+    [
+     "Paid SEO tools (Surfer), video, community",
+     "Use Search Console and publish first; add paid tools once content is a weekly habit."
     ]
    ]
   },
-  "later": {
-   "assumptions": "10+ people, 10 LinkedIn senders, high email volume, monthly list prices except Common Room (billed annually).",
+  "early": {
+   "who": "Six to fifteen people run go-to-market: dedicated sellers, someone owning content, and enough volume that tooling gaps cost real pipeline.",
+   "assumptions": "10 GTM people, 5 LinkedIn senders, ~25,000 emails/mo (inside Instantly's 125,000/mo Hypergrowth tier), monthly billing. Surfer is its yearly-billed view; Framer is its yearly-billing view. PostHog counted at its free allowance (usage-based beyond it).",
+   "extra": "",
+   "bytool": [
+    [
+     "Warm network & referrals",
+     "Track in your CRM; keep investing, it is still your cheapest channel."
+    ],
+    [
+     "ICP & positioning",
+     "Refresh quarterly from win/loss notes; no paid tool listed."
+    ]
+   ],
    "items": [
+    [
+     "list-building",
+     "Apollo",
+     "Free Starter plan",
+     0,
+     "Highest value score for list building; free. Paid-tier prices were not captured, so none is counted: check limits as volume grows.",
+     ""
+    ],
+    [
+     "enrichment",
+     "Hunter",
+     "Growth",
+     149,
+     "Clearer enrichment: more credits shared across unlimited team members, and verification before sending.",
+     ""
+    ],
     [
      "outbound-email",
      "Instantly",
      "Outreach Hypergrowth (125,000 emails/mo)",
      97,
-     "Fits a 10+ team: 125,000 emails/mo and 25,000 contacts on the vendor page (Light Speed, $358/mo, is for 500,000 emails/mo). Corrected 2026-10-28: we previously used $358, which was a misread of the bundle table."
+     "Full outbound volume on one plan; highest value score for outbound.",
+     ""
+    ],
+    [
+     "linkedin",
+     "HeyReach",
+     "Growth $79 × 5 senders",
+     395,
+     "Built for many senders (fit 5/5). Waalaxy is cheaper per seat if you only need light LinkedIn volume.",
+     ""
+    ],
+    [
+     "signals",
+     "RB2B",
+     "Starter",
+     79,
+     "Signals become useful at this volume: identifies site visitors to feed outbound.",
+     ""
+    ],
+    [
+     "seo-content",
+     "Google Search Console",
+     "Free",
+     0,
+     "Free first-party data on which queries bring visitors.",
+     ""
+    ],
+    [
+     "seo-content",
+     "Surfer",
+     "Discovery, billed yearly",
+     49,
+     "Content as a system: optimization is a separate job from tracking. Discovery is its lowest listed tier.",
+     ""
+    ],
+    [
+     "social-scheduling",
+     "Postiz",
+     "Team",
+     39,
+     "Team scheduling beyond Buffer’s free 3-channel limit.",
+     ""
+    ],
+    [
+     "landing-pages",
+     "Framer",
+     "Basic (yearly-billing view)",
+     10,
+     "Design-led site with custom domain; lowest paid tier.",
+     ""
+    ],
+    [
+     "newsletters",
+     "beehiiv",
+     "Free plan",
+     0,
+     "Free until you monetize (Lite is $49/mo, yearly-billing view).",
+     ""
+    ],
+    [
+     "web-analytics",
+     "Google Analytics",
+     "Free",
+     0,
+     "Website traffic and sources.",
+     ""
+    ],
+    [
+     "signals",
+     "PostHog",
+     "Free allowance",
+     0,
+     "Real product and funnel analytics (a separate job from visitor identification); usage-based beyond the free allowance.",
+     ""
+    ]
+   ],
+   "skip": [
+    [
+     "AI SDR / agentic SDR",
+     "Optional and contact-sales. Hire or train humans first; add an agent only when the motion is proven and measured."
+    ],
+    [
+     "Paid intent platforms (Common Room)",
+     "$2,500/mo billed annually is poor value until you have enough volume for multi-channel intent to change who you call."
+    ],
+    [
+     "Community, video",
+     "Only if a specific channel is already working."
+    ]
+   ]
+  },
+  "scaling": {
+   "who": "Sixteen to forty people in go-to-market, several managers, and RevOps starting to own reports, permissions and data hygiene.",
+   "assumptions": "25 GTM people, 10 LinkedIn senders, high email volume (125,000/mo), monthly list prices; Webflow and Surfer are yearly-billed views. RB2B Pro is a 'from' price. PostHog counted at its free allowance (usage-based beyond it).",
+   "extra": "",
+   "bytool": [
+    [
+     "Warm network & referrals",
+     "Sourced and tracked in the CRM, not a tool in this stack."
+    ],
+    [
+     "ICP & positioning",
+     "Owned by product marketing; no paid tool listed."
+    ]
+   ],
+   "items": [
+    [
+     "list-building",
+     "Apollo",
+     "Free Starter plan",
+     0,
+     "Highest value score; free plan counted. Paid-tier prices were not captured: expect to need a paid plan for many seats and confirm with the vendor.",
+     ""
     ],
     [
      "enrichment",
      "Hunter",
      "Scale",
      299,
-     "Scale tier for team-wide email finding and verification."
+     "Largest listed tier; unlimited team members share one credit pool, so no per-seat cost.",
+     ""
+    ],
+    [
+     "outbound-email",
+     "Instantly",
+     "Outreach Hypergrowth (125,000 emails/mo)",
+     97,
+     "Cost-first pick at this volume. Test its admin and role controls in the trial; Reply.io is the step-up when you need org-level roles (see Large).",
+     ""
     ],
     [
      "linkedin",
      "HeyReach",
      "Growth $79 × 10 senders",
      790,
-     "One sender per rep on LinkedIn."
+     "Multi-seat: its help center documents Admin and Member roles with per-feature permissions.",
+     ""
+    ],
+    [
+     "signals",
+     "RB2B",
+     "Pro (from $149)",
+     149,
+     "Signals are core at this size. RB2B Pro is the lowest-cost listed paid tier; Common Room ($2,500/mo) is the step-up for community and multi-channel signals.",
+     "from"
+    ],
+    [
+     "seo-content",
+     "Google Search Console",
+     "Free",
+     0,
+     "Free first-party data.",
+     ""
+    ],
+    [
+     "seo-content",
+     "Surfer",
+     "Discovery, billed yearly",
+     49,
+     "Content optimization, a separate job from tracking.",
+     ""
     ],
     [
      "social-scheduling",
      "Postiz",
      "Pro",
      49,
-     "Social scheduling across a marketing team."
+     "Social scheduling across a marketing team.",
+     ""
     ],
     [
-     "design-video",
-     "HeyGen",
-     "Business (video)",
-     149,
-     "Video creation (separate job from scheduling)."
+     "landing-pages",
+     "Webflow",
+     "Premium (billed yearly)",
+     25,
+     "CMS-capable site for a content team; lowest CMS tier on its pricing page.",
+     ""
+    ],
+    [
+     "newsletters",
+     "beehiiv",
+     "Free plan",
+     0,
+     "Free until you monetize; Pro is $95/mo (yearly-billing view).",
+     ""
+    ],
+    [
+     "web-analytics",
+     "Google Analytics",
+     "Free",
+     0,
+     "Website traffic and sources.",
+     ""
+    ],
+    [
+     "signals",
+     "PostHog",
+     "Free allowance",
+     0,
+     "Queryable product/funnel analytics. Pipeline and revenue reporting belong in your CRM, which this directory does not cover.",
+     ""
+    ]
+   ],
+   "skip": [
+    [
+     "AI SDR / agentic SDR",
+     "Still optional. Run a measured pilot against human outbound; do not replace the team on a demo."
+    ],
+    [
+     "Common Room",
+     "Wait until RB2B-level signals are clearly insufficient."
+    ],
+    [
+     "Video and community tools",
+     "Optional, not counted."
+    ]
+   ]
+  },
+  "large": {
+   "who": "More than forty people across several teams or regions. Procurement, security review and data-processing agreements are part of buying anything.",
+   "assumptions": "40+ GTM people across teams, ~25 LinkedIn senders (HeyReach Agency tier), monthly list prices except Common Room (billed annually, 5 seats). Reply.io is a 'from' price: its higher tiers vary and need a quote. Enterprise tiers, SSO and security documents are quote-based. This total is a floor, not a quote.",
+   "extra": "(list-price floor)",
+   "bytool": [
+    [
+     "Warm network & referrals",
+     "Account-based; lives in the CRM."
+    ],
+    [
+     "ICP & positioning",
+     "Owned by product marketing; no paid tool listed."
+    ]
+   ],
+   "items": [
+    [
+     "list-building",
+     "Apollo",
+     "Free Starter plan",
+     0,
+     "Highest value score; free plan counted. A team this size needs a paid or custom plan, whose price we did not capture: get a quote.",
+     "quote"
+    ],
+    [
+     "enrichment",
+     "Hunter",
+     "Scale",
+     299,
+     "Unlimited team members on one credit pool. Hunter says SOC 2 is available for enterprise; ask for it in writing.",
+     "quote"
+    ],
+    [
+     "outbound-email",
+     "Reply.io",
+     "Email, from $59",
+     59,
+     "Documents organization, multi-team and single-team roles and permissions in its help center, and says it is SOC 2 certified. Pricing beyond the entry tier needs a quote. Instantly ($97 at 125,000 emails/mo) is cheaper if your security team accepts its attestation.",
+     "from"
+    ],
+    [
+     "linkedin",
+     "HeyReach",
+     "Agency (25 senders)",
+     999,
+     "$999/mo for 25 senders beats $79 × 25. Roles are documented, but we found no SOC 2 claim and its DPA says SSO is not currently supported: confirm with security.",
+     ""
     ],
     [
      "signals",
      "Common Room",
      "Essential (billed annually, 5 seats)",
      2500,
-     "Intent and community signals across channels; replaces RB2B at this stage."
+     "Vendor security page lists a SOC 2 Type 2 report, GDPR and CCPA, SSO/SAML/SCIM and role-based access.",
+     ""
+    ],
+    [
+     "seo-content",
+     "Google Search Console",
+     "Free",
+     0,
+     "Free first-party data.",
+     ""
+    ],
+    [
+     "seo-content",
+     "Surfer",
+     "Discovery, billed yearly",
+     49,
+     "Content optimization; check seat limits for multiple teams.",
+     ""
+    ],
+    [
+     "social-scheduling",
+     "Postiz",
+     "Pro",
+     49,
+     "Social scheduling across teams.",
+     ""
+    ],
+    [
+     "landing-pages",
+     "Webflow",
+     "Premium (billed yearly)",
+     25,
+     "CMS-capable site; lowest CMS tier. Enterprise plans are quote-based.",
+     ""
+    ],
+    [
+     "web-analytics",
+     "Google Analytics",
+     "Free",
+     0,
+     "Website traffic and sources.",
+     ""
+    ],
+    [
+     "signals",
+     "PostHog",
+     "Free allowance",
+     0,
+     "Product/funnel analytics, usage-based beyond the free allowance.",
+     ""
     ],
     [
      "ai-sdr",
-     "11x / Qualified",
-     "Contact sales, not included",
+     "Artisan",
+     "Contact sales — optional, not counted",
      0,
-     "Optional AI SDR; price on request."
+     "Only after a measured pilot: contact sales is fine at this size when the need is real. 11x and Qualified are the other listed options.",
+     "quote"
     ]
-   ]
+   ],
+   "skip": [
+    [
+     "Newsletter tooling",
+     "Brand and lifecycle email usually sit with a marketing platform you already own; not counted."
+    ],
+    [
+     "Community and video tools",
+     "Optional, not counted."
+    ]
+   ],
+   "evidence": [
+    [
+     "Common Room",
+     "Vendor security page lists a SOC 2 Type 2 report, GDPR and CCPA compliance, SSO/SAML/SCIM and role-based access control.",
+     "https://www.commonroom.io/security/"
+    ],
+    [
+     "Reply.io",
+     "Help center documents organization, multi-team and single-team roles and permissions; vendor white-label page says the platform is SOC 2 certified.",
+     "https://support.reply.io/hc/reply-help-center/articles/roles-permissions-tab"
+    ],
+    [
+     "HeyReach",
+     "Help center documents Admin and Member roles with per-feature permissions. Its data processing addendum says SSO (including SAML) is not currently supported, and we found no SOC 2 claim.",
+     "https://help.heyreach.io/en/articles/11782284-how-to-invite-team-members-and-manage-role-based-permissions-in-heyreach"
+    ],
+    [
+     "Hunter",
+     "Help center: unlimited team members at no extra cost on one shared credit pool, with Owner, Admin and Member roles. Vendor says a DPA is included and SOC 2 is for enterprise.",
+     "https://help.hunter.io/en/articles/15654553-hunter-account-faqs"
+    ],
+    [
+     "Instantly",
+     "Public sources we found disagree on whether a SOC 2 Type II report is held. Ask the vendor for its current report under NDA before buying.",
+     "https://instantly.ai/dpa"
+    ]
+   ],
+   "evidence_date": "2026-11-05"
   }
  },
  "il_stack": {
@@ -1497,5 +1956,10 @@
    "AnySoft Anya",
    "EvaSpeaks"
   ]
+ },
+ "stages_old_labels": {
+  "solo": "Solo founder monetizing an idea",
+  "growth": "Pre-seed to Series A, growing",
+  "later": "Later stage, 10+ people"
  }
 }
