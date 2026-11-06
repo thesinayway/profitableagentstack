@@ -1,6 +1,6 @@
 # Profitable Agent Stack
 
-> Cost-first directory of AI GTM tools ranked by use-case fit, published price and user sentiment, with estimated monthly stack costs by GTM team size. Prices checked 2026-11-02; verify with vendors. Not advice.
+> Cost-first directory of AI GTM tools ranked by use-case fit, published price and user sentiment, with estimated monthly stack costs by GTM team size. Prices checked 2026-11-05; verify with vendors. Not advice.
 
 ## Key pages
 - [Stacks by GTM team size](https://profitableagentstack.com/stages/)
@@ -24,7 +24,7 @@
 - Google Search Console (Search performance; stages: solo, small, early, scaling, large): Free (Google describes it as a free service). Value score: 100. Source: https://support.google.com/webmasters/answer/9128668
 - Framer (Landing pages & websites; stages: solo, small, early): Free $0 (Framer domain); Basic $10/mo, Pro $30/mo (yearly-billing view; monthly-billing price not verified). Value score: 100. Source: https://www.framer.com/pricing
 - beehiiv (Newsletters; stages: solo, small, early, scaling, large): Free forever (1,000-subscriber view); Lite $49/mo yearly billing; Pro $95/mo yearly billing. Value score: 100. Source: https://www.beehiiv.com/pricing
-- Instantly (Outbound email / sequencing; stages: solo, small, early, scaling, large): Outreach: Growth $47/mo (5,000 emails), Hypergrowth $97/mo (125,000 emails, 25,000 contacts), Light Speed $358/mo (500,000 emails); monthly billing view. Credits plans (e.g. Growth Credits $47/mo) are separate. Value score: 94. Source: https://instantly.ai/pricing
+- Instantly (Outbound email / sequencing; stages: solo, small, early, scaling, large): Outreach: Growth $47/mo (5,000 emails), Hypergrowth $107/mo (125,000 emails, 25,000 contacts), Light Speed $358/mo (500,000 emails); monthly billing view. Credits plans (e.g. Growth Credits $47/mo) are separate. Value score: 94. Source: https://instantly.ai/pricing
 - Smartlead (Outbound email / sequencing; stages: solo, small, early): Base from $39/mo (pricing page also lists Pro, Smart, Prime tiers). Value score: 88. Source: https://www.smartlead.ai/pricing
 - Exa (List building & lead data; stages: solo, small, early): Free $10 credits/mo; Search from $4 per 1k requests (usage-based). Value score: 88. Source: https://exa.ai/pricing
 - Hunter (Enrichment & verification; stages: solo, small, early, scaling, large): Free (50 credits); Starter $49/mo monthly ($34 annual); Growth $149 ($104); Scale $299 ($209). Value score: 88. Source: https://hunter.io/pricing
@@ -44,12 +44,17 @@
 - CapCut (Design & video; stages: solo, small, early): Free USD 0; paid plan prices not captured. Value score: 88. Source: https://www.capcut.com/pricing
 - Circle (Community; stages: small, early, scaling, large): Professional $89/mo, Business $199/mo, Scale $419/mo (billing period not verified); 14-day free trial, no free plan listed. Value score: 88. Source: https://circle.so/pricing
 - Google Analytics (Web analytics; stages: solo, small, early, scaling, large): Free of charge (Google). Value score: 88. Source: https://marketingplatform.google.com/about/analytics/
+- Unify (AI SDR / agentic SDR; stages: solo, small, early): Free plan (limited credits, up to 3 seats); Base $20/seat/mo (800 credits); Pro $60/seat/mo (2,400 credits); Business custom, annual. Website intent, signal-triggered automations and CRM writeback are Business features. Value score: 88. Source: https://www.unifygtm.com/pricing
 - HeyReach (LinkedIn outreach; stages: small, early, scaling, large): Growth $79/sender/mo; Agency $999/mo (25 senders); Unlimited $2,999/mo. Value score: 83. Source: https://www.heyreach.io/pricing
 - Peec AI (AEO (AI search visibility); stages: early, scaling, large): Starter $95/mo (50 prompts, 3 chosen models, unlimited users, SOC 2); Pro $245/mo (150 prompts, API); Advanced $495/mo (350 prompts); Enterprise custom (SSO, more models). Value score: 82. Source: https://peec.ai/pricing
 - Salesforge (Outbound email / sequencing; stages: solo, small, early): Page title says 'Starting at $48/mo'; plan subscriptions shown at $40 and $80/mo billed monthly. Value score: 81. Source: https://www.salesforge.ai/pricing
 - Otterly.AI (AEO (AI search visibility); stages: early, scaling): Lite $29/mo (15 prompts, 4 engines); Standard $189/mo (100 prompts); Premium $489/mo (400 prompts); Enterprise custom (SSO); Claude, AI Mode and Gemini are paid add-ons. Value score: 75. Source: https://otterly.ai/pricing
+- Regie.ai (AI SDR / agentic SDR; stages: solo, small, early): Free (250 one-time credits per person, up to 10 people); Pro $49/mo for one person; Team $150/seat/mo with a 2-seat minimum; Enterprise custom (monthly billing view). Value score: 75. Source: https://www.regie.ai/pricing
 - Plausible (Web analytics; stages: solo, small, early): Starter $9/mo (up to 10k pageviews; monthly vs yearly billing view not verified), Growth $14/mo, Business $19/mo; 30-day free trial, no free plan. Value score: 74. Source: https://plausible.io/
 - Reply.io (Outbound email / sequencing; stages: small, early, scaling, large): Email volume tiers 'starts from' $59 monthly (lower with annual); LinkedIn add-on $69/mo/acct; higher tiers vary. Value score: 72. Source: https://reply.io/pricing/
+- Swan AI (AI SDR / agentic SDR; stages: solo, small, early): Solo $100/mo (625 credits, 1 seat); Starter $200/mo (1,250 credits); Growth $419/mo (2,000 credits, 5 seats); Scale custom. Annual billing $80/$160/$335 per month. Free trial on Solo and Starter. Value score: 71. Source: https://www.getswan.com/pricing
+- Origami (AI SDR / agentic SDR; stages: solo, small, early): Starter $99/mo; Pro $199/mo; Max $399/mo; usage included and billed beyond that; unlimited team members on paid plans. 7-day trial requires a card and renews at $99/mo. Value score: 71. Source: https://origami.chat/pricing
+- Rox (AI SDR / agentic SDR; stages: solo, small, early): Individual from $100/mo; Teams from $255/mo for the whole team (unlimited seats); Enterprise contact sales. Usage billed in agent actions. Value score: 71. Source: https://www.rox.com/pricing
 - Scrunch (AEO (AI search visibility); stages: early, scaling, large): Core $250/mo (125 prompts, 4 LLMs, 5 licenses; third-party reports $300 month-to-month, not verified on vendor page); Enterprise custom (SSO, 9 LLMs, AXP). Value score: 69. Source: https://scrunch.com/pricing
 - lemlist (Outbound email / sequencing; stages: small, early, scaling, large): Email $69/mo monthly ($55 annual), 50,000 emails/mo; Multichannel $109/mo ($87 annual). Value score: 65. Source: https://www.lemlist.com/pricing
 - Expandi (LinkedIn outreach; stages: solo, small, early): $99/mo monthly ($79 annual), 7-day free trial. Value score: 65. Source: https://expandi.io/pricing/
@@ -57,6 +62,8 @@
 - Common Room (Signals, intent & analytics; stages: large): Essential $2,500/mo billed annually (5 seats). Value score: 65. Source: https://www.commonroom.io/pricing
 - Fathom Analytics (Web analytics; stages: solo, small, early, scaling, large): From $15/mo (up to 100,000 monthly pageviews); 7-day free trial. Value score: 65. Source: https://usefathom.com/pricing
 - AthenaHQ (AEO (AI search visibility); stages: early, scaling, large): Essential free tier ($25 free credit); Starter $295/mo (3,600 credits, 11 models, billing basis monthly vs annual not verified); Enterprise custom (SAML SSO, RBAC, audit logs). Value score: 65. Source: https://www.athenahq.ai/plans
+- Warmly (Signals, intent & analytics; stages: early, scaling, large): AI web de-anonymization from $10,000/yr; Inbound Chat $20,000/yr; AI Inbound Autopilot $30,000/yr; Signals add-on $10,000/yr. Value score: 55. Source: https://www.warmly.ai/pricing
+- Amplemarket (AI SDR / agentic SDR; stages: early, scaling): Startup $600/mo on an annual term with 2 users and 27,000 contacts; Growth and Elite custom. Value score: 52. Source: https://www.amplemarket.com/pricing
 - Woodpecker (Outbound email / sequencing; stages: solo, small, early): Price not captured automatically — see vendor page. Value score: None. Source: https://woodpecker.co/pricing/
 - ZoomInfo (List building & lead data; stages: scaling, large): Contact sales. Value score: None. Source: https://www.zoominfo.com/pricing
 - Clearout (Enrichment & verification; stages: solo, small, early): Price not captured automatically (page renders prices client-side); vendor FAQ mentions 100 free credits to evaluate and monthly, annual and pay-as-you-go options — see vendor page. Value score: None. Source: https://clearout.io/pricing/
@@ -68,6 +75,7 @@
 - Profound (AEO (AI search visibility); stages: scaling, large): Contact sales. Value score: None. Source: https://www.tryprofound.com/pricing
 - Salesloft (Outbound email / sequencing; stages: scaling, large): Contact sales. Value score: None. Source: https://www.salesloft.com/pricing
 - Outreach (Outbound email / sequencing; stages: scaling, large): Contact sales. Value score: None. Source: https://www.outreach.io/pricing
+- AiSDR (AI SDR / agentic SDR; stages: solo, small, early): Pay as you go: $1.50 per person prospected, no monthly subscription minimum (100 prospects = $150). Free account and campaign building; extras like warmed mailboxes and managed campaigns cost more. Value score: None. Source: https://aisdr.com/pricing/
 
 ## Stacks by GTM team size (estimates)
 ### Solo founder (1 GTM person): $40.58/mo + €19 Waalaxy
@@ -141,4 +149,4 @@ Assumptions: 40+ GTM people across teams, 25 of them prospecting in Apollo (Orga
 Value = 50% fit (editorial) + 30% cost + 20% sentiment; sentiment not yet verified so fit/cost reweighted 62.5/37.5.
 
 ## Disclaimer
-Profitable Agent Stack is for general information only, provided "as is" without warranties. Prices, plans, features and review data change often and may be inaccurate or out of date (last checked 2026-11-02); always verify with the vendor. Cost estimates and scores are editorial estimates, not advice. Nothing here is professional, legal or financial advice. Trademarks belong to their owners; listing is not endorsement. Some links may be affiliate or sponsored — see our Disclosure.
+Profitable Agent Stack is for general information only, provided "as is" without warranties. Prices, plans, features and review data change often and may be inaccurate or out of date (last checked 2026-11-05); always verify with the vendor. Cost estimates and scores are editorial estimates, not advice. Nothing here is professional, legal or financial advice. Trademarks belong to their owners; listing is not endorsement. Some links may be affiliate or sponsored — see our Disclosure.
