@@ -76,6 +76,9 @@
 - Salesloft (Outbound email / sequencing; stages: scaling, large): Contact sales. Value score: None. Source: https://www.salesloft.com/pricing
 - Outreach (Outbound email / sequencing; stages: scaling, large): Contact sales. Value score: None. Source: https://www.outreach.io/pricing
 - AiSDR (AI SDR / agentic SDR; stages: solo, small, early): Pay as you go: $1.50 per person prospected, no monthly subscription minimum (100 prospects = $150). Free account and campaign building; extras like warmed mailboxes and managed campaigns cost more. Value score: None. Source: https://aisdr.com/pricing/
+- Microsoft Sales Development Agent (AI SDR / agentic SDR; stages: scaling, large): Contact sales. Value score: None. Source: https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/03/sales-development-agent-enterprise-setup-best-practices/
+- Nooks (AI SDR / agentic SDR; stages: early, scaling): Contact sales. Value score: None. Source: https://www.nooks.ai/pricing
+- 6sense BDR Agent (AI SDR / agentic SDR; stages: scaling, large): Contact sales. Value score: None. Source: https://6sense.com/news/6sense-repositions-as-partner-for-agentic-gtm-unveils-new-brand-and-major-product-innovations-at-breakthrough-2026
 
 ## Stacks by GTM team size (estimates)
 ### Solo founder (1 GTM person): $40.58/mo + €19 Waalaxy
