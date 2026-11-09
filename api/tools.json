@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-05",
+ "checked": "2026-11-09",
  "use_cases": [
   {
    "id": "positioning",
@@ -105,7 +105,7 @@
    "logo": "/assets/logos/smartlead.ai.png",
    "homepage_url": "https://www.smartlead.ai/",
    "affiliate_url": "https://smartlead.ai?via=limor",
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 88
@@ -134,7 +134,7 @@
    "logo": "/assets/logos/instantly.ai.png",
    "homepage_url": "https://instantly.ai/",
    "affiliate_url": "",
-   "checked": "2026-11-05",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 84,
    "value_score": 94
@@ -161,7 +161,7 @@
    "logo": "/assets/logos/salesforge.ai.png",
    "homepage_url": "https://www.salesforge.ai/",
    "affiliate_url": "https://salesforge.ai/?via=limor",
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 82,
    "value_score": 81
@@ -189,7 +189,7 @@
    "logo": "/assets/logos/lemlist.com.png",
    "homepage_url": "https://www.lemlist.com/",
    "affiliate_url": "",
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 40,
    "value_score": 65
@@ -217,7 +217,7 @@
    "logo": "/assets/logos/reply.io.png",
    "homepage_url": "https://reply.io/",
    "affiliate_url": "",
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 60,
    "value_score": 72
@@ -273,7 +273,7 @@
    "logo": "/assets/logos/apollo.io.png",
    "homepage_url": "https://www.apollo.io/",
    "affiliate_url": "",
-   "checked": "2026-11-05",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 100
@@ -300,7 +300,7 @@
    "logo": "/assets/logos/exa.ai.png",
    "homepage_url": "https://exa.ai/",
    "affiliate_url": "",
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 88
@@ -354,7 +354,7 @@
    "logo": "/assets/logos/clay.com.png",
    "homepage_url": "https://www.clay.com/",
    "affiliate_url": "",
-   "checked": "2026-11-05",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 100
@@ -383,7 +383,7 @@
    "logo": "/assets/logos/hunter.io.png",
    "homepage_url": "https://hunter.io/",
    "affiliate_url": "",
-   "checked": "2026-11-05",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 88
@@ -411,7 +411,7 @@
    "logo": "/assets/logos/fullenrich.com.png",
    "homepage_url": "https://fullenrich.com/",
    "affiliate_url": "",
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 88
@@ -466,7 +466,7 @@
    "logo": "/assets/logos/heyreach.io.png",
    "homepage_url": "https://www.heyreach.io/",
    "affiliate_url": "",
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 55,
    "value_score": 83
@@ -493,7 +493,7 @@
    "logo": "/assets/logos/expandi.io.png",
    "homepage_url": "https://expandi.io/",
    "affiliate_url": "",
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 40,
    "value_score": 65
@@ -520,7 +520,7 @@
    "logo": "/assets/logos/waalaxy.com.png",
    "homepage_url": "https://www.waalaxy.com/",
    "affiliate_url": "https://waal.ink/N47esf",
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 88
@@ -629,7 +629,7 @@
    "logo": "/assets/logos/postiz.com.png",
    "homepage_url": "https://postiz.com/",
    "affiliate_url": "https://postiz.pro/limor-sinay",
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 40,
    "value_score": 65
@@ -658,7 +658,7 @@
    "logo": "/assets/logos/heygen.com.png",
    "homepage_url": "https://www.heygen.com/",
    "affiliate_url": "",
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 88
@@ -686,7 +686,7 @@
    "logo": "/assets/logos/rb2b.com.png",
    "homepage_url": "https://www.rb2b.com/",
    "affiliate_url": "https://rb2b.com/?ref=limor",
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 88
@@ -715,7 +715,7 @@
    "logo": "/assets/logos/posthog.com.png",
    "homepage_url": "https://posthog.com/",
    "affiliate_url": "",
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 88
@@ -740,7 +740,7 @@
    "logo": "/assets/logos/commonroom.io.png",
    "homepage_url": "https://www.commonroom.io/",
    "affiliate_url": "",
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 40,
    "value_score": 65
@@ -760,7 +760,7 @@
     "scaling",
     "large"
    ],
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -787,7 +787,7 @@
     "small",
     "early"
    ],
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -815,7 +815,7 @@
     "scaling",
     "large"
    ],
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -844,7 +844,7 @@
     "scaling",
     "large"
    ],
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -871,7 +871,7 @@
     "small",
     "early"
    ],
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -899,7 +899,7 @@
     "small",
     "early"
    ],
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -926,7 +926,7 @@
     "small",
     "early"
    ],
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -954,7 +954,7 @@
     "scaling",
     "large"
    ],
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -983,7 +983,7 @@
     "scaling",
     "large"
    ],
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -1010,7 +1010,7 @@
     "small",
     "early"
    ],
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -1037,7 +1037,7 @@
     "small",
     "early"
    ],
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -1064,7 +1064,7 @@
     "small",
     "early"
    ],
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -1121,7 +1121,7 @@
     "scaling",
     "large"
    ],
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -1177,7 +1177,7 @@
     "scaling",
     "large"
    ],
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -1204,7 +1204,7 @@
     "small",
     "early"
    ],
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -1233,7 +1233,7 @@
     "scaling",
     "large"
    ],
-   "checked": "2026-11-02",
+   "checked": "2026-11-09",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -1268,7 +1268,7 @@
    },
    "homepage_url": "https://peec.ai/",
    "affiliate_url": "",
-   "checked": "2026-11-05",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 85,
    "value_score": 82
@@ -1319,7 +1319,7 @@
    },
    "homepage_url": "https://www.athenahq.ai/",
    "affiliate_url": "",
-   "checked": "2026-11-05",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 40,
    "value_score": 65
@@ -1345,7 +1345,7 @@
    },
    "homepage_url": "https://scrunch.com/",
    "affiliate_url": "",
-   "checked": "2026-11-05",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 50,
    "value_score": 69
@@ -1447,7 +1447,7 @@
    "logo": "/assets/logos/unifygtm.com.png",
    "homepage_url": "https://www.unifygtm.com/",
    "affiliate_url": "",
-   "checked": "2026-11-05",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 88
@@ -1501,7 +1501,7 @@
    "logo": "/assets/logos/regie.ai.png",
    "homepage_url": "https://www.regie.ai/",
    "affiliate_url": "",
-   "checked": "2026-11-05",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 75
@@ -1528,7 +1528,7 @@
    "logo": "/assets/logos/getswan.com.png",
    "homepage_url": "https://www.getswan.com/",
    "affiliate_url": "",
-   "checked": "2026-11-05",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 90,
    "value_score": 71
@@ -1555,7 +1555,7 @@
    "logo": "/assets/logos/origami.chat.png",
    "homepage_url": "https://origami.chat/",
    "affiliate_url": "",
-   "checked": "2026-11-05",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 90,
    "value_score": 71
@@ -1582,7 +1582,7 @@
    "logo": "/assets/logos/rox.com.png",
    "homepage_url": "https://www.rox.com/",
    "affiliate_url": "",
-   "checked": "2026-11-05",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 90,
    "value_score": 71
@@ -1608,7 +1608,7 @@
    "logo": "/assets/logos/amplemarket.com.png",
    "homepage_url": "https://www.amplemarket.com/",
    "affiliate_url": "",
-   "checked": "2026-11-05",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 40,
    "value_score": 52
@@ -1635,13 +1635,38 @@
    "logo": "/assets/logos/warmly.ai.png",
    "homepage_url": "https://www.warmly.ai/",
    "affiliate_url": "",
-   "checked": "2026-11-05",
+   "checked": "2026-11-09",
    "price_verified": true,
    "cost_score": 80,
    "value_score": 55
   }
  ],
  "releases": [
+  {
+   "date": "2026-11-09",
+   "text": "New this week (not yet in the directory): Microsoft launched Sales Development Agent, an autonomous outbound and lead-qualification agent for Microsoft 365, Dynamics 365 and Salesforce, in Frontier public preview (Nov 3).",
+   "source": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/03/sales-development-agent-enterprise-setup-best-practices/"
+  },
+  {
+   "date": "2026-11-09",
+   "text": "New this week: Nooks announced its Revenue Agent Platform (deal, outbound, expansion and coaching agents) and Node, an AI assistant that manages open deals for AEs, alongside $500M in growth capital (Nov 4).",
+   "source": "https://www.nooks.ai/blog-posts/introducing-node-revenue-agent-platform"
+  },
+  {
+   "date": "2026-11-09",
+   "text": "New this week: 11x launched Scout List, which turns a plain-English targeting description into a qualified prospect list that can feed its AI SDR campaigns (Nov 4).",
+   "source": "https://www.11x.ai/blog/introducing-scout-list"
+  },
+  {
+   "date": "2026-11-09",
+   "text": "New this week: 6sense announced a BDR Agent (beta in November) and score explainability at Breakthrough 2026 (Nov 3).",
+   "source": "https://6sense.com/news/6sense-repositions-as-partner-for-agentic-gtm-unveils-new-brand-and-major-product-innovations-at-breakthrough-2026"
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Weekly price check: re-checked published prices for 44 tools on their vendor pricing pages; no price changes found. Otterly.AI's page did not render for our checker this week, so its Nov 5 prices stand unverified for now.",
+   "source": "https://profitableagentstack.com/directory.html"
+  },
   {
    "date": "2026-11-05",
    "text": "Added 8 AI GTM agent tools: Unify, AiSDR, Regie.ai, Swan AI, Origami, Rox (AI SDR, mostly Solo to Early scaling), Amplemarket (Early scaling and up) and Warmly (signals, Early scaling and up). Swan, Origami and Rox have no verified independent review data yet, so they are listed but not recommended. Persana was not added because it shut down in May 2026 after joining Rox. Corrected Instantly Hypergrowth to $107/mo. Recommended stacks are unchanged.",
@@ -2441,6 +2466,6 @@
   }
  },
  "license": "CC BY 4.0 \u2014 attribute \"Profitable Agent Stack (profitableagentstack.com)\"",
- "disclaimer": "Profitable Agent Stack is for general information only, provided \"as is\" without warranties. Prices, plans, features and review data change often and may be inaccurate or out of date (last checked 2026-11-05); always verify with the vendor. Cost estimates and scores are editorial estimates, not advice. Nothing here is professional, legal or financial advice. Trademarks belong to their owners; listing is not endorsement. Some links may be affiliate or sponsored \u2014 see our Disclosure.",
+ "disclaimer": "Profitable Agent Stack is for general information only, provided \"as is\" without warranties. Prices, plans, features and review data change often and may be inaccurate or out of date (last checked 2026-11-09); always verify with the vendor. Cost estimates and scores are editorial estimates, not advice. Nothing here is professional, legal or financial advice. Trademarks belong to their owners; listing is not endorsement. Some links may be affiliate or sponsored \u2014 see our Disclosure.",
  "methodology": "https://profitableagentstack.com/methodology.html"
 }

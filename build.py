@@ -27,6 +27,7 @@ ORG={"@context":"https://schema.org","@type":"Organization","name":"Profitable A
 AFFNOTE='<p class="mut" role="note"><strong>Affiliate disclosure:</strong> this page includes affiliate links (marked "affiliate"). If you buy through them, The Sinay Way LLC may earn a commission at no extra cost to you. It never changes scores, prices or order. See our <a href="/disclosure.html">disclosure</a>.</p>'
 def page(path,title,desc,body,schema=(),hero='',foot=None):
   url=SITE+'/'+('' if path=='index.html' else path.replace('index.html',''))
+  url=url[:-5] if url.endswith('.html') else url
   nav=''.join(f'<a href="{h}">{n}</a>' for h,n in NAV)
   if 'rel="sponsored' in body: body=AFFNOTE+body
   sch=''.join(ld(s) for s in schema)
@@ -238,7 +239,7 @@ def md(src):
     else: out.append(f'<p>{_inline(ln)}</p>')
   close();return ''.join(out)
 for a in ARTS:
-  sch={"@context":"https://schema.org","@type":"Article","headline":a['title'],"description":a['summary'],"datePublished":a['date'],"dateModified":a['date'],"author":{"@type":"Organization","name":"Profitable Agent Stack","url":SITE},"publisher":{"@type":"Organization","name":"The Sinay Way LLC"},"mainEntityOfPage":f"{SITE}/articles/{a['slug']}.html"}
+  sch={"@context":"https://schema.org","@type":"Article","headline":a['title'],"description":a['summary'],"datePublished":a['date'],"dateModified":a['date'],"author":{"@type":"Organization","name":"Profitable Agent Stack","url":SITE},"publisher":{"@type":"Organization","name":"The Sinay Way LLC"},"mainEntityOfPage":f"{SITE}/articles/{a['slug']}"}
   page(f'articles/{a["slug"]}.html',a['title']+' | Profitable Agent Stack',a['summary'],f'<p><a href="/articles/">Articles</a> › {e(a["title"])}</p><article><h1>{e(a["title"])}</h1><p class="mut">Published {a["date"]} by Profitable Agent Stack, operated by The Sinay Way LLC</p><p class="answer">{e(a["summary"])}</p>{md(a["body"])}</article>',[sch])
 page('articles/index.html','Articles: AI GTM Stack Guides | Profitable Agent Stack','Short, practical guides on choosing AI GTM tools by cost: how we score, when to skip intent data, and one tool per job.',
  '<h1>Articles</h1><p class="answer">Short guides on spending less on your AI GTM stack. General information only, not advice.</p><div class="grid">'+''.join(f'<a class="card" href="/articles/{a["slug"]}.html"><h3>{e(a["title"])}</h3><p class="mut">{a["date"]}</p><p>{e(a["summary"])}</p></a>' for a in ARTS)+'</div>',
@@ -277,7 +278,7 @@ os.makedirs('api',exist_ok=True)
 api=dict(D);api['license']='CC BY 4.0 — attribute "Profitable Agent Stack (profitableagentstack.com)"';api['disclaimer']=DISC;api['methodology']=SITE+'/methodology.html';api.pop('watchlist',None);api.pop('il_stack',None);api.pop('stages_old_labels',None)
 json.dump(api,open('api/tools.json','w'),indent=1)
 open('robots.txt','w').write('User-agent: *\nAllow: /\n\n'+''.join(f'User-agent: {b}\nAllow: /\n\n' for b in ['GPTBot','OAI-SearchBot','ChatGPT-User','ClaudeBot','Claude-Web','anthropic-ai','PerplexityBot','Perplexity-User','Google-Extended','Applebot-Extended','CCBot','Bytespider','meta-externalagent','cohere-ai'])+f'Sitemap: {SITE}/sitemap.xml\n')
-open('sitemap.xml','w').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{u}</loc><lastmod>{C}</lastmod></url>' for u in PAGES)+'</urlset>\n')
+open('sitemap.xml','w').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{u[:-5] if u.endswith(".html") else u}</loc><lastmod>{C}</lastmod></url>' for u in PAGES)+'</urlset>\n')
 L=f'# Profitable Agent Stack\n\n> Cost-first directory of AI GTM tools ranked by use-case fit, published price and user sentiment, with estimated monthly stack costs by GTM team size. Prices checked {C}; verify with vendors. Not advice.\n\n## Key pages\n- [Stacks by GTM team size]({SITE}/stages/)\n'+''.join(f'- [{s["name"]} ({s["size"]})]({SITE}/stages/{SLUG[s["id"]]}.html): est. {"at least " if s["id"]=="large" else ""}${tot[s["id"]]:,.0f}/mo stack\n' for s in D['stages'])+f'- [Directory]({SITE}/directory.html)\n- [Methodology]({SITE}/methodology.html)\n- [Articles]({SITE}/articles/)\n- [For AI agents]({SITE}/for-ai-agents.html)\n\n## Data\n- [tools.json]({SITE}/api/tools.json): CC BY 4.0, attribution required\n- [Full text]({SITE}/llms-full.txt)\n'
 open('llms.txt','w').write(L)
 full=L+'\n## Tools\n'+''.join(f'- {t["name"]} ({UC[t["use_case"]]}; stages: {", ".join(t["stages"])}): {price(t)}. Value score: {t["value_score"]}. Source: {t["source"]}\n' for t in R)

@@ -1,6 +1,6 @@
 # Profitable Agent Stack
 
-> Cost-first directory of AI GTM tools ranked by use-case fit, published price and user sentiment, with estimated monthly stack costs by GTM team size. Prices checked 2026-11-05; verify with vendors. Not advice.
+> Cost-first directory of AI GTM tools ranked by use-case fit, published price and user sentiment, with estimated monthly stack costs by GTM team size. Prices checked 2026-11-09; verify with vendors. Not advice.
 
 ## Key pages
 - [Stacks by GTM team size](https://profitableagentstack.com/stages/)
@@ -149,4 +149,4 @@ Assumptions: 40+ GTM people across teams, 25 of them prospecting in Apollo (Orga
 Value = 50% fit (editorial) + 30% cost + 20% sentiment; sentiment not yet verified so fit/cost reweighted 62.5/37.5.
 
 ## Disclaimer
-Profitable Agent Stack is for general information only, provided "as is" without warranties. Prices, plans, features and review data change often and may be inaccurate or out of date (last checked 2026-11-05); always verify with the vendor. Cost estimates and scores are editorial estimates, not advice. Nothing here is professional, legal or financial advice. Trademarks belong to their owners; listing is not endorsement. Some links may be affiliate or sponsored — see our Disclosure.
+Profitable Agent Stack is for general information only, provided "as is" without warranties. Prices, plans, features and review data change often and may be inaccurate or out of date (last checked 2026-11-09); always verify with the vendor. Cost estimates and scores are editorial estimates, not advice. Nothing here is professional, legal or financial advice. Trademarks belong to their owners; listing is not endorsement. Some links may be affiliate or sponsored — see our Disclosure.

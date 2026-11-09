@@ -1,6 +1,6 @@
 # Profitable Agent Stack
 
-> Cost-first directory of AI GTM tools ranked by use-case fit, published price and user sentiment, with estimated monthly stack costs by GTM team size. Prices checked 2026-11-05; verify with vendors. Not advice.
+> Cost-first directory of AI GTM tools ranked by use-case fit, published price and user sentiment, with estimated monthly stack costs by GTM team size. Prices checked 2026-11-09; verify with vendors. Not advice.
 
 ## Key pages
 - [Stacks by GTM team size](https://profitableagentstack.com/stages/)
