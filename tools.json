@@ -182,7 +182,7 @@
       },
       "logo": "/assets/logos/lemlist.com.png",
       "homepage_url": "https://www.lemlist.com/",
-      "affiliate_url": "",
+      "affiliate_url": "https://get.lemlist.com/3q3jpladw6up",
       "checked": "2026-11-09",
       "price_verified": true
     },
@@ -217,7 +217,7 @@
       "use_case": "outbound-email",
       "from": null,
       "status": "unverified",
-      "price": "Price not captured automatically \u2014 see vendor page",
+      "price": "Price not captured automatically — see vendor page",
       "source": "https://woodpecker.co/pricing/",
       "fit_score": 3,
       "stages": [
@@ -397,7 +397,7 @@
       "use_case": "enrichment",
       "from": null,
       "status": "unverified",
-      "price": "Price not captured automatically (page renders prices client-side); vendor FAQ mentions 100 free credits to evaluate and monthly, annual and pay-as-you-go options \u2014 see vendor page",
+      "price": "Price not captured automatically (page renders prices client-side); vendor FAQ mentions 100 free credits to evaluate and monthly, annual and pay-as-you-go options — see vendor page",
       "source": "https://clearout.io/pricing/",
       "fit_score": 3,
       "stages": [
@@ -473,7 +473,7 @@
       "use_case": "linkedin",
       "from": 19,
       "status": "published",
-      "price": "\u20ac19, \u20ac49, \u20ac69 per user/mo; 14-day free trial (EUR)",
+      "price": "€19, €49, €69 per user/mo; 14-day free trial (EUR)",
       "source": "https://www.waalaxy.com/pricing",
       "fit_score": 4,
       "stages": [
@@ -1011,7 +1011,7 @@
       "use_case": "design-video",
       "from": null,
       "status": "unverified",
-      "price": "Price not captured: vendor pricing page blocked automated fetch \u2014 see vendor page",
+      "price": "Price not captured: vendor pricing page blocked automated fetch — see vendor page",
       "source": "https://www.canva.com/pricing/",
       "fit_score": 5,
       "stages": [
@@ -1064,7 +1064,7 @@
       "use_case": "community",
       "from": null,
       "status": "unverified",
-      "price": "Price not captured: no pricing page found for community servers \u2014 see vendor",
+      "price": "Price not captured: no pricing page found for community servers — see vendor",
       "source": "https://discord.com/",
       "fit_score": 4,
       "stages": [
@@ -1646,7 +1646,7 @@
     },
     {
       "date": "2026-11-05",
-      "text": "Recommended stacks are now organized by GTM team size (solo founder 1, small team 2\u20135, early scaling 6\u201315, scaling 16\u201340, large / multi-team 40+) instead of funding stage, with use cases to skip at each size. Estimated totals changed accordingly; earlier entries below refer to the old stage names. Added an Articles section. Prices were last checked 2026-11-02; vendor security statements on the large-team page were checked 2026-11-05."
+      "text": "Recommended stacks are now organized by GTM team size (solo founder 1, small team 2–5, early scaling 6–15, scaling 16–40, large / multi-team 40+) instead of funding stage, with use cases to skip at each size. Estimated totals changed accordingly; earlier entries below refer to the old stage names. Added an Articles section. Prices were last checked 2026-11-02; vendor security statements on the large-team page were checked 2026-11-05."
     },
     {
       "date": "2026-11-02",
@@ -1694,7 +1694,7 @@
       "id": "small",
       "name": "Small GTM team",
       "short": "Small team",
-      "size": "2\u20135 GTM people",
+      "size": "2–5 GTM people",
       "min": 2,
       "max": 5,
       "slug": "small-gtm-team"
@@ -1703,7 +1703,7 @@
       "id": "early",
       "name": "Early scaling",
       "short": "Early scaling",
-      "size": "6\u201315 GTM people",
+      "size": "6–15 GTM people",
       "min": 6,
       "max": 15,
       "slug": "early-scaling"
@@ -1712,7 +1712,7 @@
       "id": "scaling",
       "name": "Scaling",
       "short": "Scaling",
-      "size": "16\u201340 GTM people",
+      "size": "16–40 GTM people",
       "min": 16,
       "max": 40,
       "slug": "scaling"
@@ -1730,8 +1730,8 @@
   "stacks": {
     "solo": {
       "who": "One person doing all of go-to-market: you are the founder, the seller and the marketer. Your goal is the first repeatable customers, not a machine.",
-      "assumptions": "1 GTM person, 1 LinkedIn account, light volume. Hunter's free plan (50 credits/mo) caps how many new emails you can find; move up when you outgrow it. Monthly billing, entry tiers; Carrd is priced yearly \u00f7 12.",
-      "extra": "+ \u20ac19 Waalaxy",
+      "assumptions": "1 GTM person, 1 LinkedIn account, light volume. Hunter's free plan (50 credits/mo) caps how many new emails you can find; move up when you outgrow it. Monthly billing, entry tiers; Carrd is priced yearly ÷ 12.",
+      "extra": "+ €19 Waalaxy",
       "bytool": [
         [
           "Warm network & referrals",
@@ -1764,13 +1764,13 @@
           "Smartlead",
           "Base, 1 workspace",
           39,
-          "Lowest published entry price for outbound email in our list. Instantly scores higher on value (94 vs 88) but costs $8 more; revisit at 2\u20135 people.",
+          "Lowest published entry price for outbound email in our list. Instantly scores higher on value (94 vs 88) but costs $8 more; revisit at 2–5 people.",
           ""
         ],
         [
           "linkedin",
           "Waalaxy",
-          "1 user \u00d7 \u20ac19 (EUR, not converted)",
+          "1 user × €19 (EUR, not converted)",
           0,
           "Cheapest listed LinkedIn tool and the best value score in its category. Per user, billed in euros.",
           ""
@@ -1778,7 +1778,7 @@
         [
           "landing-pages",
           "Carrd",
-          "Pro Standard, $19/yr \u00f7 12",
+          "Pro Standard, $19/yr ÷ 12",
           1.58,
           "Cheapest custom-domain landing page in our list; $19/yr is the yearly price on its Pro page.",
           ""
@@ -1822,7 +1822,7 @@
     "small": {
       "who": "Two to five people share go-to-market. Warm intros and hand outbound already produce some meetings, and you now want a repeatable sequence plus a little content.",
       "assumptions": "3 GTM people, 2 LinkedIn users, ~5,000 emails/mo, monthly billing, entry tiers. Waalaxy is priced per user in euros and not converted.",
-      "extra": "+ \u20ac38 Waalaxy (2 users)",
+      "extra": "+ €38 Waalaxy (2 users)",
       "bytool": [
         [
           "Warm network & referrals",
@@ -1861,7 +1861,7 @@
         [
           "linkedin",
           "Waalaxy",
-          "2 users \u00d7 \u20ac19 (EUR, not converted)",
+          "2 users × €19 (EUR, not converted)",
           0,
           "Light LinkedIn volume at the lowest per-user price. Move to HeyReach when you run many senders.",
           ""
@@ -1976,7 +1976,7 @@
         [
           "linkedin",
           "HeyReach",
-          "Growth $79 \u00d7 5 senders",
+          "Growth $79 × 5 senders",
           395,
           "Built for many senders (fit 5/5). Waalaxy is cheaper per seat if you only need light LinkedIn volume.",
           ""
@@ -2018,7 +2018,7 @@
           "Postiz",
           "Team",
           39,
-          "Team scheduling beyond Buffer\u2019s free 3-channel limit.",
+          "Team scheduling beyond Buffer’s free 3-channel limit.",
           ""
         ],
         [
@@ -2091,7 +2091,7 @@
         [
           "list-building",
           "Apollo",
-          "Basic, 10 seats \u00d7 $49 (billed annually)",
+          "Basic, 10 seats × $49 (billed annually)",
           490,
           "Free is for 'exploring or very light usage' per Apollo, so we count Basic for the 10 people who prospect ($49/seat/mo billed annually, credits pooled across the team). 28% of Apollo's 9,858 G2 reviewers are mid-market (51-1,000 employees), roughly 2,800 reviewers. Professional ($79) adds waterfall enrichment, which overlaps Hunter, so it is not counted. Confirm seats and credits with the vendor.",
           ""
@@ -2115,7 +2115,7 @@
         [
           "linkedin",
           "HeyReach",
-          "Growth $79 \u00d7 10 senders",
+          "Growth $79 × 10 senders",
           790,
           "Multi-seat: its help center documents Admin and Member roles with per-feature permissions.",
           ""
@@ -2240,7 +2240,7 @@
         [
           "list-building",
           "Apollo",
-          "Organization, 25 seats \u00d7 $119 (billed annually, 3-seat min)",
+          "Organization, 25 seats × $119 (billed annually, 3-seat min)",
           2975,
           "Not the free Starter: 40+ people need SSO and admin controls, which Apollo sells on Organization ($119/seat/mo billed annually) and its Custom plan. Size evidence: of 9,858 G2 reviews, 28% come from mid-market and 5% from enterprise companies (roughly 2,800 and 450 reviewers), Apollo publishes a 130-rep customer story (Superside), and it lists SOC 2 Type II and ISO 27001 in its trust center. Seats assumed: 25 of your 40+ people prospect. ZoomInfo has a larger enterprise review share (26%) but no public price: quote both.",
           "quote"
@@ -2266,7 +2266,7 @@
           "HeyReach",
           "Agency (25 senders)",
           999,
-          "$999/mo for 25 senders beats $79 \u00d7 25. Roles are documented, but we found no SOC 2 claim and its DPA says SSO is not currently supported: confirm with security.",
+          "$999/mo for 25 senders beats $79 × 25. Roles are documented, but we found no SOC 2 claim and its DPA says SSO is not currently supported: confirm with security.",
           ""
         ],
         [
@@ -2336,7 +2336,7 @@
         [
           "ai-sdr",
           "Artisan",
-          "Contact sales \u2014 optional, not counted",
+          "Contact sales — optional, not counted",
           0,
           "Only after a measured pilot: contact sales is fine at this size when the need is real. 11x and Qualified are the other listed options.",
           "quote"
@@ -2432,99 +2432,99 @@
     "checked": "2026-11-02",
     "items": [
       {
-        "job": "\u05de\u05e1\u05e4\u05e8 \u05d8\u05dc\u05e4\u05d5\u05df \u05d0\u05de\u05e8\u05d9\u05e7\u05d0\u05d9",
-        "tool": "Quo (\u05dc\u05e9\u05e2\u05d1\u05e8 OpenPhone)",
-        "tier": "Starter, \u05de\u05e9\u05ea\u05de\u05e9 \u05d0\u05d7\u05d3",
+        "job": "מספר טלפון אמריקאי",
+        "tool": "Quo (לשעבר OpenPhone)",
+        "tier": "Starter, משתמש אחד",
         "price": 19,
-        "price_note": "$19 \u05dc\u05de\u05e9\u05ea\u05de\u05e9 \u05dc\u05d7\u05d5\u05d3\u05e9 \u05db\u05e4\u05d9 \u05e9\u05de\u05d5\u05e6\u05d2 \u05d1\u05e2\u05de\u05d5\u05d3; \u05dc\u05d0 \u05d0\u05d9\u05de\u05ea\u05e0\u05d5 \u05d0\u05dd \u05d6\u05d4 \u05d1\u05d7\u05d9\u05d5\u05d1 \u05d7\u05d5\u05d3\u05e9\u05d9 \u05d0\u05d5 \u05e9\u05e0\u05ea\u05d9",
+        "price_note": "$19 למשתמש לחודש כפי שמוצג בעמוד; לא אימתנו אם זה בחיוב חודשי או שנתי",
         "status": "published",
         "source": "https://www.quo.com/pricing",
         "homepage_url": "https://www.quo.com/",
-        "why": "\u05de\u05e1\u05e4\u05e8 \u05d0\u05de\u05e8\u05d9\u05e7\u05d0\u05d9 \u05dc\u05e9\u05d9\u05d7\u05d5\u05ea \u05d5-SMS \u05de\u05d4\u05d0\u05e4\u05dc\u05d9\u05e7\u05e6\u05d9\u05d4, \u05d1\u05dc\u05d9 SIM \u05d0\u05de\u05e8\u05d9\u05e7\u05d0\u05d9.",
+        "why": "מספר אמריקאי לשיחות ו-SMS מהאפליקציה, בלי SIM אמריקאי.",
         "logo": "/assets/logos/quo.com.png"
       },
       {
-        "job": "\u05d3\u05d5\u05de\u05d9\u05d9\u05df \u05d5\u05ea\u05d9\u05d1\u05ea \u05de\u05d9\u05d9\u05dc",
+        "job": "דומיין ותיבת מייל",
         "tool": "Google Workspace",
-        "tier": "Business Starter, \u05de\u05e9\u05ea\u05de\u05e9 \u05d0\u05d7\u05d3",
+        "tier": "Business Starter, משתמש אחד",
         "price": 7,
-        "price_note": "$7 \u05dc\u05de\u05e9\u05ea\u05de\u05e9 \u05dc\u05d7\u05d5\u05d3\u05e9 (\u05dc\u05d0 \u05db\u05d5\u05dc\u05dc \u05de\u05e2\"\u05de); \u05d1\u05e2\u05de\u05d5\u05d3 \u05de\u05d5\u05e6\u05d2 \u05de\u05d1\u05e6\u05e2 \u05e9\u05dc 50% \u05d4\u05e0\u05d7\u05d4 \u05d1\u05d9\u05df 16.11.2026 \u05dc-16.2.2027",
+        "price_note": "$7 למשתמש לחודש (לא כולל מע\"מ); בעמוד מוצג מבצע של 50% הנחה בין 16.11.2026 ל-16.2.2027",
         "status": "published",
         "source": "https://workspace.google.com/pricing",
         "homepage_url": "https://workspace.google.com/",
-        "why": "\u05ea\u05d9\u05d1\u05d4 \u05e2\u05dc \u05d3\u05d5\u05de\u05d9\u05d9\u05df \u05de\u05e9\u05dc\u05db\u05dd \u05e9\u05e0\u05e8\u05d0\u05d9\u05ea \u05de\u05e7\u05e6\u05d5\u05e2\u05d9\u05ea \u05dc\u05e7\u05d5\u05e0\u05d9\u05dd \u05d0\u05de\u05e8\u05d9\u05e7\u05d0\u05d9\u05dd.",
+        "why": "תיבה על דומיין משלכם שנראית מקצועית לקונים אמריקאים.",
         "logo": "/assets/logos/workspace.google.com.png"
       },
       {
-        "job": "\u05e8\u05d9\u05e9\u05d5\u05dd \u05d3\u05d5\u05de\u05d9\u05d9\u05df \u05e0\u05e4\u05e8\u05d3 \u05dc\u05e9\u05dc\u05d9\u05d7\u05d4",
+        "job": "רישום דומיין נפרד לשליחה",
         "tool": "Cloudflare Registrar",
-        "tier": "\u05d3\u05d5\u05de\u05d9\u05d9\u05df .com",
+        "tier": "דומיין .com",
         "price": null,
-        "price_note": "\u05de\u05d7\u05d9\u05e8 \u05dc\u05d0 \u05d0\u05d5\u05de\u05ea: Cloudflare \u05d2\u05d5\u05d1\u05d4 \u05de\u05d7\u05d9\u05e8 \u05e2\u05dc\u05d5\u05ea \u05e9\u05de\u05e9\u05ea\u05e0\u05d4 \u05dc\u05e4\u05d9 \u05e1\u05d9\u05d5\u05de\u05ea, \u05d5\u05d4\u05de\u05d7\u05d9\u05e8 \u05dc\u05d0 \u05de\u05d5\u05e4\u05d9\u05e2 \u05d1\u05e2\u05de\u05d5\u05d3 \u05d4\u05de\u05d5\u05e6\u05e8",
+        "price_note": "מחיר לא אומת: Cloudflare גובה מחיר עלות שמשתנה לפי סיומת, והמחיר לא מופיע בעמוד המוצר",
         "status": "unverified",
         "source": "https://www.cloudflare.com/domains/",
         "homepage_url": "https://www.cloudflare.com/",
-        "why": "\u05d3\u05d5\u05de\u05d9\u05d9\u05df \u05e0\u05e4\u05e8\u05d3 \u05dc\u05e9\u05dc\u05d9\u05d7\u05d4 \u05e7\u05e8\u05d4 \u05e9\u05d5\u05de\u05e8 \u05e2\u05dc \u05d4\u05de\u05d5\u05e0\u05d9\u05d8\u05d9\u05df \u05e9\u05dc \u05d4\u05d3\u05d5\u05de\u05d9\u05d9\u05df \u05d4\u05e8\u05d0\u05e9\u05d9.",
+        "why": "דומיין נפרד לשליחה קרה שומר על המוניטין של הדומיין הראשי.",
         "logo": "/assets/logos/cloudflare.com.png"
       },
       {
-        "job": "Deliverability (\u05d7\u05d9\u05de\u05d5\u05dd \u05d5-SPF/DKIM/DMARC)",
-        "tool": "\u05db\u05dc\u05d5\u05dc \u05d1-Smartlead + \u05d4\u05d2\u05d3\u05e8\u05d5\u05ea DNS",
-        "tier": "\u2014",
+        "job": "Deliverability (חימום ו-SPF/DKIM/DMARC)",
+        "tool": "כלול ב-Smartlead + הגדרות DNS",
+        "tier": "—",
         "price": 0,
-        "price_note": "\u05e2\u05de\u05d5\u05d3 \u05d4\u05ea\u05de\u05d7\u05d5\u05e8 \u05e9\u05dc Smartlead \u05de\u05e6\u05d9\u05d9\u05df \u05d7\u05d9\u05de\u05d5\u05dd \u05de\u05d9\u05d9\u05dc\u05d9\u05dd \u05dc\u05dc\u05d0 \u05d4\u05d2\u05d1\u05dc\u05d4; \u05d4\u05d2\u05d3\u05e8\u05d5\u05ea DNS \u05d4\u05df \u05d1\u05d7\u05d9\u05e0\u05dd",
+        "price_note": "עמוד התמחור של Smartlead מציין חימום מיילים ללא הגבלה; הגדרות DNS הן בחינם",
         "status": "published",
         "source": "https://www.smartlead.ai/pricing",
         "homepage_url": "https://www.smartlead.ai/",
-        "why": "\u05d0\u05d9\u05df \u05e6\u05d5\u05e8\u05da \u05d1\u05db\u05dc\u05d9 \u05d7\u05d9\u05de\u05d5\u05dd \u05e0\u05e4\u05e8\u05d3: \u05d4\u05d7\u05d9\u05de\u05d5\u05dd \u05db\u05d1\u05e8 \u05db\u05dc\u05d5\u05dc \u05d1\u05db\u05dc\u05d9 \u05d4\u05e9\u05dc\u05d9\u05d7\u05d4.",
+        "why": "אין צורך בכלי חימום נפרד: החימום כבר כלול בכלי השליחה.",
         "logo": "/assets/logos/smartlead.ai.png"
       },
       {
-        "job": "\u05d0\u05d9\u05ea\u05d5\u05e8 \u05db\u05ea\u05d5\u05d1\u05d5\u05ea \u05de\u05d9\u05d9\u05dc",
+        "job": "איתור כתובות מייל",
         "tool": "Hunter",
-        "tier": "Free (50 \u05e7\u05e8\u05d3\u05d9\u05d8\u05d9\u05dd)",
+        "tier": "Free (50 קרדיטים)",
         "price": 0,
-        "price_note": "\u05ea\u05d5\u05db\u05e0\u05d9\u05ea \u05d7\u05d9\u05e0\u05de\u05d9\u05ea \u05e2\u05dd 50 \u05e7\u05e8\u05d3\u05d9\u05d8\u05d9\u05dd \u05dc\u05d7\u05d5\u05d3\u05e9",
+        "price_note": "תוכנית חינמית עם 50 קרדיטים לחודש",
         "status": "published",
         "source": "https://hunter.io/pricing",
         "homepage_url": "https://hunter.io/",
-        "why": "\u05de\u05e1\u05e4\u05d9\u05e7 \u05dc-20 \u05d4\u05e9\u05d9\u05d7\u05d5\u05ea \u05d4\u05e8\u05d0\u05e9\u05d5\u05e0\u05d5\u05ea; \u05de\u05e9\u05d3\u05e8\u05d2\u05d9\u05dd \u05e8\u05e7 \u05db\u05e9\u05d4\u05e0\u05e4\u05d7 \u05d2\u05d3\u05dc.",
+        "why": "מספיק ל-20 השיחות הראשונות; משדרגים רק כשהנפח גדל.",
         "logo": "/assets/logos/hunter.io.png"
       },
       {
-        "job": "\u05e8\u05e6\u05e4\u05d9 \u05de\u05d9\u05d9\u05dc\u05d9\u05dd (Sequencing)",
+        "job": "רצפי מיילים (Sequencing)",
         "tool": "Smartlead",
         "tier": "Base",
         "price": 39,
-        "price_note": "$39 \u05dc\u05d7\u05d5\u05d3\u05e9",
+        "price_note": "$39 לחודש",
         "status": "published",
         "source": "https://www.smartlead.ai/pricing",
         "homepage_url": "https://www.smartlead.ai/",
-        "why": "\u05de\u05d7\u05d9\u05e8 \u05d4\u05db\u05e0\u05d9\u05e1\u05d4 \u05d4\u05e0\u05de\u05d5\u05da \u05d1\u05d9\u05d5\u05ea\u05e8 \u05d1\u05e8\u05e9\u05d9\u05de\u05d4 \u05e9\u05dc\u05e0\u05d5, \u05d5\u05db\u05d5\u05dc\u05dc \u05d7\u05d9\u05de\u05d5\u05dd.",
+        "why": "מחיר הכניסה הנמוך ביותר ברשימה שלנו, וכולל חימום.",
         "logo": "/assets/logos/smartlead.ai.png"
       },
       {
-        "job": "\u05e4\u05e0\u05d9\u05d9\u05d4 \u05d1\u05dc\u05d9\u05e0\u05e7\u05d3\u05d0\u05d9\u05df",
-        "tool": "\u05d9\u05d3\u05e0\u05d9 (\u05d7\u05d9\u05e0\u05dd) / Waalaxy \u05d0\u05d5\u05e4\u05e6\u05d9\u05d5\u05e0\u05dc\u05d9",
-        "tier": "Waalaxy \u20ac19 \u05dc\u05de\u05e9\u05ea\u05de\u05e9",
+        "job": "פנייה בלינקדאין",
+        "tool": "ידני (חינם) / Waalaxy אופציונלי",
+        "tier": "Waalaxy €19 למשתמש",
         "price": 0,
-        "price_note": "\u05d1\u05d4\u05ea\u05d7\u05dc\u05d4 \u05d9\u05d3\u05e0\u05d9 \u05d1-$0. \u05d0\u05dd \u05e8\u05d5\u05e6\u05d9\u05dd \u05d0\u05d5\u05d8\u05d5\u05de\u05e6\u05d9\u05d4: Waalaxy \u20ac19 \u05dc\u05de\u05e9\u05ea\u05de\u05e9 \u05dc\u05d7\u05d5\u05d3\u05e9 (\u05dc\u05d0 \u05e0\u05db\u05dc\u05dc \u05d1\u05e1\u05db\u05d5\u05dd)",
+        "price_note": "בהתחלה ידני ב-$0. אם רוצים אוטומציה: Waalaxy €19 למשתמש לחודש (לא נכלל בסכום)",
         "status": "published",
         "source": "https://www.waalaxy.com/pricing",
         "homepage_url": "https://www.waalaxy.com/",
-        "why": "\u05d1-20 \u05d4\u05e9\u05d9\u05d7\u05d5\u05ea \u05d4\u05e8\u05d0\u05e9\u05d5\u05e0\u05d5\u05ea \u05d4\u05d5\u05d3\u05e2\u05d4 \u05d0\u05d9\u05e9\u05d9\u05ea \u05d9\u05d3\u05e0\u05d9\u05ea \u05e2\u05d5\u05d1\u05d3\u05ea \u05d8\u05d5\u05d1 \u05d9\u05d5\u05ea\u05e8 \u05de\u05d0\u05d5\u05d8\u05d5\u05de\u05e6\u05d9\u05d4.",
+        "why": "ב-20 השיחות הראשונות הודעה אישית ידנית עובדת טוב יותר מאוטומציה.",
         "logo": "/assets/logos/waalaxy.com.png"
       },
       {
-        "job": "\u05ea\u05d9\u05d0\u05d5\u05dd \u05e4\u05d2\u05d9\u05e9\u05d5\u05ea \u05d1\u05d9\u05df \u05d0\u05d6\u05d5\u05e8\u05d9 \u05d6\u05de\u05df",
+        "job": "תיאום פגישות בין אזורי זמן",
         "tool": "Cal.com",
         "tier": "Individuals Free",
         "price": 0,
-        "price_note": "\u05d7\u05d9\u05e0\u05dd \u05dc\u05de\u05e9\u05ea\u05de\u05e9 \u05d9\u05d7\u05d9\u05d3",
+        "price_note": "חינם למשתמש יחיד",
         "status": "published",
         "source": "https://cal.com/pricing",
         "homepage_url": "https://cal.com/",
-        "why": "\u05de\u05e6\u05d9\u05d2 \u05dc\u05e7\u05d5\u05e0\u05d4 \u05d0\u05ea \u05d4\u05e9\u05e2\u05d5\u05ea \u05d1\u05d0\u05d6\u05d5\u05e8 \u05d4\u05d6\u05de\u05df \u05e9\u05dc\u05d5, \u05db\u05da \u05e9\u05dc\u05d0 \u05e6\u05e8\u05d9\u05da \u05dc\u05d7\u05e9\u05d1 \u05d4\u05e4\u05e8\u05e9\u05d9 \u05e9\u05e2\u05d5\u05ea.",
+        "why": "מציג לקונה את השעות באזור הזמן שלו, כך שלא צריך לחשב הפרשי שעות.",
         "logo": "/assets/logos/cal.com.png"
       },
       {
@@ -2532,23 +2532,23 @@
         "tool": "HubSpot CRM",
         "tier": "Free",
         "price": 0,
-        "price_note": "HubSpot \u05de\u05e6\u05d9\u05e2\u05d4 CRM \u05d7\u05d9\u05e0\u05de\u05d9 (\u05dc\u05e4\u05d9 \u05e2\u05de\u05d5\u05d3 \u05d4\u05de\u05d5\u05e6\u05e8)",
+        "price_note": "HubSpot מציעה CRM חינמי (לפי עמוד המוצר)",
         "status": "published",
         "source": "https://www.hubspot.com/products/crm",
         "homepage_url": "https://www.hubspot.com/",
-        "why": "\u05de\u05e2\u05e7\u05d1 \u05d7\u05d9\u05e0\u05de\u05d9 \u05d0\u05d7\u05e8\u05d9 \u05db\u05dc \u05e9\u05d9\u05d7\u05d4 \u05d5\u05e9\u05dc\u05d1, \u05e2\u05dd \u05de\u05e7\u05d5\u05dd \u05dc\u05d2\u05d3\u05d5\u05dc.",
+        "why": "מעקב חינמי אחרי כל שיחה ושלב, עם מקום לגדול.",
         "logo": "/assets/logos/hubspot.com.png"
       },
       {
-        "job": "\u05d0\u05e0\u05dc\u05d9\u05d8\u05d9\u05e7\u05d4",
+        "job": "אנליטיקה",
         "tool": "PostHog",
-        "tier": "\u05de\u05db\u05e1\u05d4 \u05d7\u05d9\u05e0\u05de\u05d9\u05ea",
+        "tier": "מכסה חינמית",
         "price": 0,
-        "price_note": "\u05de\u05db\u05e1\u05d4 \u05d7\u05d5\u05d3\u05e9\u05d9\u05ea \u05d7\u05d9\u05e0\u05de\u05d9\u05ea (\u05dc\u05de\u05e9\u05dc \u05de\u05d9\u05dc\u05d9\u05d5\u05df \u05d0\u05d9\u05e8\u05d5\u05e2\u05d9 \u05d0\u05e0\u05dc\u05d9\u05d8\u05d9\u05e7\u05d4)",
+        "price_note": "מכסה חודשית חינמית (למשל מיליון אירועי אנליטיקה)",
         "status": "published",
         "source": "https://posthog.com/pricing",
         "homepage_url": "https://posthog.com/",
-        "why": "\u05e8\u05d5\u05d0\u05d9\u05dd \u05de\u05d9 \u05de\u05d4\u05e7\u05de\u05e4\u05d9\u05d9\u05df \u05d4\u05d2\u05d9\u05e2 \u05dc\u05d0\u05ea\u05e8 \u05d5\u05de\u05d4 \u05e2\u05e9\u05d4 \u05e9\u05dd.",
+        "why": "רואים מי מהקמפיין הגיע לאתר ומה עשה שם.",
         "logo": "/assets/logos/posthog.com.png"
       }
     ]
