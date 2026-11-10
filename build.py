@@ -20,6 +20,10 @@ REC={}
 for _b,_s in D['stacks'].items():
   for i in _s['items']:
     if i[1] in T and not i[2].startswith('Contact sales'): REC.setdefault(i[1],[]).append(_b)
+CRM=D.get('crm',{});SEP={u['id'] for u in D['use_cases'] if u.get('separate')}
+CRMP={}
+for _b,_c in CRM.get('stages',{}).items(): CRMP.setdefault(_c['pick'],[]).append(_b)
+def crm_signals(): return '<ul>'+''.join(f'<li><b>{e(a)}.</b> {e(b[0].upper()+b[1:])}</li>' for a,b in CRM['signals'])+'</ul>'
 NAV=[('/directory.html','Directory'),('/methodology.html','Methodology'),('/new-releases.html','New'),('/for-ai-agents.html','For AI Agents'),('/articles/','Articles'),('/advisory.html','Advisory')]
 DISC=f'Profitable Agent Stack is for general information only, provided "as is" without warranties. Prices, plans, features and review data change often and may be inaccurate or out of date (last checked {C}); always verify with the vendor. Cost estimates and scores are editorial estimates, not advice. Nothing here is professional, legal or financial advice. Trademarks belong to their owners; listing is not endorsement. Some links may be affiliate or sponsored — see our Disclosure.'
 def ld(o): return '<script type="application/ld+json">'+json.dumps(o)+'</script>'
@@ -55,6 +59,7 @@ ISBEST=lambda t:t['value_score'] is not None and t['value_score']==best[t['use_c
 def card(t,camp='directory'):
   b=''
   if ISBEST(t): b+='<span class="badge v">Best value</span>'
+  if t['name'] in CRMP: b+='<span class="badge p">CRM pick: '+', '.join(ST[x]['short'] for x in CRMP[t['name']])+'</span>'
   if t['name'] in REC: b+='<span class="badge p">In our stacks: '+', '.join(ST[x]['short'] for x in dict.fromkeys(REC[t['name']]))+'</span>'
   if t['status']=='contact': b+='<span class="badge c">Contact sales</span>'
   if t['status']=='unverified': b+='<span class="badge c">Price not yet verified</span>'
@@ -90,7 +95,7 @@ hero=f'''<section class="hero"><div class="wrap"><span class="pill">Prices check
 <p>Ranked by real user reviews and published prices — one tool per job, plus the use cases you can safely skip until your team is bigger. From about {TOK['cost:solo']}/mo for one person.</p>
 <p><a class="btn" href="/stages/">See stacks by GTM team size</a> <a class="btn ghost" href="/directory.html">Browse all tools</a></p></div></section>'''
 _uc=lambda ids:''.join(f'<a class="card" href="/use-cases/{u}.html"><h3>{UC[u]}</h3><p class="mut">{"Best value: "+best[u]["name"] if u in best else "Coming soon"}</p></a>' for u in ids)
-ucc=f'<h3>Sales</h3><div class="grid">{_uc([u for u in UC if u not in MKT])}</div><h3>Marketing</h3><div class="grid">{_uc([u for u in UC if u in MKT])}</div>'
+ucc=f'<h3>Sales</h3><div class="grid">{_uc([u for u in UC if u not in MKT and u not in SEP])}</div><h3>Marketing</h3><div class="grid">{_uc([u for u in UC if u in MKT])}</div>'+(f'<h3>CRM (separate from the stack)</h3><p class="mut">Not counted in stack totals. Start on a spreadsheet and add a CRM when it fits.</p><div class="grid">{_uc([u for u in UC if u in SEP])}</div>' if SEP else '')
 HQ=[('What is Profitable Agent Stack?','A value-first directory that ranks AI go-to-market tools by use case, real user reviews and published price, with estimated monthly stack costs by GTM team size.'),('How are the stacks grouped?','By how many people do go-to-market: solo founder (1), small GTM team (2–5), early scaling (6–15), scaling (16–40) and large / multi-team (40+).'),('Where do the prices come from?',f'From each vendor\'s own pricing page, with a source link and the date checked ({C}). Tools with no public price are marked contact sales.'),('Do you publish user ratings?','Only real public ratings from G2 or Capterra with a source link and date. Where they cannot be fetched reliably, we link to the reviews instead. We never create reviews or ratings ourselves.')]
 ARTS=[]
 def _load_articles():
@@ -120,8 +125,12 @@ f'''<h1>Which AI GTM tool is the best value?</h1><p class="answer">This director
 for u,n in UC.items():
   ts=rank([t for t in D['tools'] if t['use_case']==u]);b=best.get(u)
   qs=[(f'What is the best value tool for {lc(n)}?',(f'{b["name"]} has the highest value score ({b["value_score"]}) among tools we list, priced at: {b["price"]}. Verify with the vendor.' if b else 'We have not yet listed tools with published prices for this use case.')),(f'How much do {lc(n)} tools cost?','Published entry prices for listed tools: '+('; '.join(f'{t["name"]}: {price(t)}' for t in ts) if ts else 'none listed yet')+f'. Prices as of {C}.')]
+  xtra=''
+  if u in SEP and CRM:
+    qs.append(('When should I move from a spreadsheet to a CRM?','When a second person works the pipeline, live deals pass about 20–30, you copy sequencer replies by hand, email and LinkedIn reach the same people, investor pipeline reporting takes more than about an hour a month, or inbound leads or a first sales hire arrive.'))
+    xtra=f'<p>{e(CRM["intro"])}</p><h2>Our CRM pick by GTM team size</h2><table><thead><tr><th>Size</th><th>Pick</th><th>Est. $/mo</th><th>Runner-up</th><th>Est. $/mo</th></tr></thead><tbody>'+''.join(f'<tr><td><a href="/stages/{SLUG[k]}.html#crm">{e(ST[k]["name"])}</a><br><span class="mut">{e(ST[k]["size"])}</span></td><td><b>{e(v["pick"])}</b><br><span class="mut">{e(v["pick_tier"])}</span></td><td>{e(v["pick_cost"])}</td><td>{e(v["runner"])}<br><span class="mut">{e(v["runner_tier"])}</span></td><td>{e(v["runner_cost"])}</td></tr>' for k,v in CRM['stages'].items())+f'</tbody></table><p class="mut">Not included in recommended stack totals. List prices as of {CRM["checked"]}; verify with the vendor. The value score below ranks entry price and fit across all CRMs; the table above weighs fit for each team size.</p><h2>When a spreadsheet is enough</h2><p>A shared sheet is a real CRM for one person with a small, warm pipeline. Add a CRM when one of these is true:</p>'+crm_signals()+'<h2>All CRMs we list</h2>'
   page(f'use-cases/{u}.html',f'Best {n} Tools by Cost & Value (2026) | Profitable Agent Stack',f'{n}: AI GTM tools ranked by value score with published prices checked {C}.',
-  f'<h1>{e(qs[0][0][0].upper()+qs[0][0][1:])}</h1><p class="answer">{e(qs[0][1])}</p><div class="grid" id="list">{"".join(card(t,"use-case") for t in ts) or "<p>No tools listed yet. <a href=/corrections.html>Suggest one</a>.</p>"}</div>{faqhtml(qs)}',[itemlist(ts,n),faq(qs)])
+  f'<h1>{e(qs[0][0][0].upper()+qs[0][0][1:])}</h1><p class="answer">{e(qs[0][1])}</p>{xtra}<div class="grid" id="list">{"".join(card(t,"use-case") for t in ts) or "<p>No tools listed yet. <a href=/corrections.html>Suggest one</a>.</p>"}</div>{faqhtml(qs)}',[itemlist(ts,n),faq(qs)])
 _cd=sorted({t.get('checked',C) for t in D['tools']});CR=_cd[0] if len(_cd)==1 else f'{_cd[0]} to {_cd[-1]} (per tool)'
 # ---- stages (by GTM team size)
 UCX=dict(UC);JOBX={'PostHog':'Product & funnel analytics'}
@@ -140,6 +149,19 @@ def stage_rows(s):
     out.append((i,f'<tr><td>{e(job(i))}</td><td><b>{name}</b>{vs}</td><td>{e(i[2])}</td><td>{e(amt(i))}</td><td class="mut">{e(i[4])}</td></tr>'))
   return out
 ORDER=[s['id'] for s in D['stages']]
+def crm_tool(n,camp):
+  t=T.get(n)
+  if not t: return e(n)
+  L=tool_link(t,camp);return f'<a href="{e(L[0])}" target="_blank" rel="{L[1]}">{e(n)}</a>'+(' <span class="badge c">affiliate</span>' if L[2] else '')
+def crm_block(s):
+  c=CRM.get('stages',{}).get(s)
+  if not c: return ''
+  camp='crm-'+s
+  return f'''<section class="card" id="crm" style="margin:28px 0"><h2 style="margin-top:0">CRM for this team size (separate from the stack)</h2><p class="answer">For {e(ST[s]["size"])}: <b>{crm_tool(c["pick"],camp)}</b>, {e(c["pick_tier"])}, about <b>{e(c["pick_cost"])}</b>. Runner-up: <b>{crm_tool(c["runner"],camp)}</b>, {e(c["runner_tier"])}, about {e(c["runner_cost"])}. Not included in the stack total above.</p>
+<table><thead><tr><th></th><th>CRM</th><th>Tier / assumption</th><th>Est. cost</th></tr></thead><tbody><tr><td>Pick</td><td><b>{crm_tool(c["pick"],camp)}</b></td><td>{e(c["pick_tier"])}</td><td>{e(c["pick_cost"])}</td></tr><tr><td>Runner-up</td><td><b>{crm_tool(c["runner"],camp)}</b></td><td>{e(c["runner_tier"])}</td><td>{e(c["runner_cost"])}</td></tr></tbody></table>
+<p>{e(c["why"])}</p>{f'<p class="mut">Also worth a look: {e(c["also"])}</p>' if c.get("also") else ''}
+<h3>Spreadsheet or CRM?</h3><p>{e(c["sheet"])}</p><p>Signals that it is time for a CRM (our rules of thumb, not benchmarks):</p>{crm_signals()}
+<p class="mut">Starter sheet columns: {e(CRM["sheet_cols"])}. Every CRM listed imports a CSV, so nothing is lost when you switch. List prices as of {CRM["checked"]} from vendor pricing pages; verify with the vendor. Seat counts follow this page's assumptions. <a href="/use-cases/crm.html">All CRMs we list</a>.</p></section>'''
 def stage_page(s):
   info=ST[s];S=D['stacks'][s];total=tot[s];extra=S.get('extra','')
   rows=stage_rows(s)
@@ -169,6 +191,7 @@ def stage_page(s):
 <ul>{nt}</ul>
 <table><thead><tr><th>Use case</th><th>Best-value pick</th><th>Tier / assumption</th><th>Est. $/mo</th><th>Why this pick</th></tr></thead><tbody>{tbl}<tr><th colspan="3">Estimated total</th><th colspan="2">{tl} {extra}</th></tr></tbody></table>
 <p class="mut">Math: {math} = ${total:,.2f}/mo{(' (shown as '+tl+')') if round(total)!=total else ''}{(' '+extra) if extra else ''}. Assumptions: {e(S["assumptions"])} Estimate only; excludes taxes, add-ons, overages and annual discounts. Prices as of {CR}, verify with vendor. "from" and "quote" rows are not final prices.</p>
+{crm_block(s)}
 <h2>Use cases that matter at this size</h2><ul>{matter}</ul>
 <h2>Skip for now</h2><ul>{skip}</ul>{ev}{sprint}
 <p>{" · ".join(nav)}</p>
@@ -192,6 +215,7 @@ simple('methodology.html','Scoring Methodology','How Profitable Agent Stack calc
 ('Fit score (editorial)','An editorial 1–5 judgment of how well the tool serves its use case, converted to 0–100 (×20). It is an opinion, not a measurement, and is reviewed when vendors or readers send corrections.'),
 ('Cost score','Within each use case, the lowest published starting price scores 100 and the highest scores 40, scaled linearly. Tools without a public price (contact sales or not yet verified) get no cost score and no value score.'),
 ('Sentiment score','Will use public G2 or Capterra ratings (rating ÷ 5 × 100) only when fetched with a source link and date. As of '+C+' these sites blocked automated checks, so sentiment is not yet included and we link to reviews instead.'),
+('CRM is shown separately','Each team-size page has its own CRM section with a pick, a runner-up and when a spreadsheet is enough. CRM costs are not added to stack totals, because many teams already have a CRM or start on a spreadsheet.'),
 ('Stack cost estimates','Sum of published monthly list prices for the stated tiers, seats and volumes on each GTM-team-size page. Labeled estimates; excludes taxes, add-ons and overages.'),
 ('Money never changes rank','Sponsorships and affiliate links do not change scores, prices or order.')]))
 simple('review-policy.html','Review Policy','How Profitable Agent Stack handles user reviews, ratings and feedback.','How do you handle reviews and ratings?','We never fabricate, buy or edit reviews or ratings. We show only public ratings from G2 or Capterra with a source link and date checked, or a link to the reviews.',P([
@@ -283,6 +307,7 @@ L=f'# Profitable Agent Stack\n\n> Cost-first directory of AI GTM tools ranked by
 open('llms.txt','w').write(L)
 full=L+'\n## Tools\n'+''.join(f'- {t["name"]} ({UC[t["use_case"]]}; stages: {", ".join(t["stages"])}): {price(t)}. Value score: {t["value_score"]}. Source: {t["source"]}\n' for t in R)
 full+='\n## Stacks by GTM team size (estimates)\n'+''.join(f'### {ST[s]["name"]} ({ST[s]["size"]}): {"at least " if s=="large" else ""}${stack_total(s):,}/mo {D["stacks"][s].get("extra","")}\nAssumptions: {D["stacks"][s]["assumptions"]}\n'+''.join(f'- {job(i)}: {i[1]}, {i[2]}, ${i[3]} — {i[4]}\n' for i in D['stacks'][s]['items']) for s in ST)
+if CRM: full+='\n## CRM by GTM team size (separate from stacks, not in stack totals)\n'+''.join(f'- {ST[k]["name"]}: {v["pick"]}, {v["pick_tier"]}, {v["pick_cost"]}. Runner-up: {v["runner"]}, {v["runner_tier"]}, {v["runner_cost"]}.\n' for k,v in CRM['stages'].items())+'Move from a spreadsheet when: '+'; '.join(a[0].lower()+a[1:] for a,b in CRM['signals'])+'.\n'
 full+='\n## Methodology\nValue = 50% fit (editorial) + 30% cost + 20% sentiment; sentiment not yet verified so fit/cost reweighted 62.5/37.5.\n\n## Disclaimer\n'+DISC+'\n'
 open('llms-full.txt','w').write(full)
 open('_redirects','w').write('/stages/pre-seed-to-series-a.html /stages/small-gtm-team.html 301\n/stages/pre-seed-to-series-a /stages/small-gtm-team.html 301\n/stages/later-stage.html /stages/scaling.html 301\n/stages/later-stage /stages/scaling.html 301\n/use-cases/seo-content.html /use-cases/search-performance.html 301\n/use-cases/seo-content /use-cases/search-performance.html 301\n')

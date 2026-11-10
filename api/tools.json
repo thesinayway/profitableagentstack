@@ -80,6 +80,13 @@
    "id": "web-analytics",
    "name": "Web analytics",
    "group": "marketing"
+  },
+  {
+   "id": "crm",
+   "name": "CRM & pipeline",
+   "group": "sales",
+   "separate": true,
+   "note": "Shown on its own, next to the recommended stacks. CRM costs are never added to stack totals."
   }
  ],
  "tools": [
@@ -1717,9 +1724,336 @@
    "price_verified": true,
    "cost_score": null,
    "value_score": null
+  },
+  {
+   "name": "HubSpot Sales Hub",
+   "use_case": "crm",
+   "from": 0,
+   "status": "published",
+   "price": "Free CRM for up to 2 users; Starter $20/seat/mo list (new-customer limited-time price $10 monthly or $7 with annual prepay); Professional $90/seat/mo billed annually ($100 paid monthly with annual commitment) plus required $1,500 one-time onboarding; Enterprise from $150/seat/mo plus $3,500 one-time onboarding",
+   "source": "https://www.hubspot.com/pricing/sales",
+   "fit_score": 5,
+   "stages": [
+    "solo",
+    "small",
+    "early",
+    "scaling",
+    "large"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/products/hubspot-sales-hub/reviews",
+    "note": "Reviewer mix read from G2 2026-11-10 (star ratings not shown, per site rule). Reviewer company size: 60.5% small-business, 35.5% mid-market, 4.0% enterprise."
+   },
+   "logo": "/assets/logos/hubspot.com.png",
+   "homepage_url": "https://www.hubspot.com/products/crm",
+   "affiliate_url": "",
+   "checked": "2026-11-10",
+   "price_verified": true,
+   "cost_score": 100,
+   "value_score": 100
+  },
+  {
+   "name": "Pipedrive",
+   "use_case": "crm",
+   "from": 14,
+   "status": "published",
+   "price": "No free plan (14-day trial). Lite $14, Growth $39, Premium $59, Ultimate $79 per seat/mo billed annually; monthly billing $24, $49, $79, $99",
+   "source": "https://www.pipedrive.com/en/pricing",
+   "fit_score": 4,
+   "stages": [
+    "solo",
+    "small",
+    "early",
+    "scaling"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/products/pipedrive/reviews",
+    "note": "Reviewer mix read from G2 2026-11-10 (star ratings not shown, per site rule). Reviewer company size: 75.1% small-business, 21.7% mid-market, 3.3% enterprise."
+   },
+   "logo": "/assets/logos/pipedrive.com.png",
+   "homepage_url": "https://www.pipedrive.com/",
+   "affiliate_url": "",
+   "checked": "2026-11-10",
+   "price_verified": true,
+   "cost_score": 91,
+   "value_score": 84
+  },
+  {
+   "name": "Attio",
+   "use_case": "crm",
+   "from": 0,
+   "status": "published",
+   "price": "Free for up to 3 users (50,000 records); Plus $40/mo per workspace billed annually incl. 1 user + $35 per extra user ($50 + $44 monthly); Pro $100/mo per workspace annually incl. 1 user + $79 per extra user ($125 + $99 monthly); Ultra $1,000/mo annual incl. 5 users + $189 per user",
+   "source": "https://attio.com/pricing",
+   "fit_score": 4,
+   "stages": [
+    "solo",
+    "small",
+    "early"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/products/attio/reviews",
+    "note": "Reviewer mix read from G2 2026-11-10 (star ratings not shown, per site rule). Reviewer company size: 83.7% small-business, 15.8% mid-market, 0.5% enterprise."
+   },
+   "logo": "/assets/logos/attio.com.png",
+   "homepage_url": "https://attio.com/",
+   "affiliate_url": "",
+   "checked": "2026-11-10",
+   "price_verified": true,
+   "cost_score": 100,
+   "value_score": 88
+  },
+  {
+   "name": "folk",
+   "use_case": "crm",
+   "from": 24,
+   "status": "published",
+   "price": "Standard $24, Premium $48 per member/mo billed yearly ($30, $60 monthly); Enterprise from $80 yearly ($100 monthly). Free trial; no free plan shown",
+   "source": "https://www.folk.app/pricing",
+   "fit_score": 3,
+   "stages": [
+    "solo",
+    "small"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/products/folk-folk/reviews",
+    "note": "Reviewer mix read from G2 2026-11-10 (star ratings not shown, per site rule). G2 compare layout shows ~97.1% small-business; mid-market/enterprise split not readable."
+   },
+   "logo": "/assets/logos/folk.app.png",
+   "homepage_url": "https://www.folk.app/",
+   "affiliate_url": "",
+   "checked": "2026-11-10",
+   "price_verified": true,
+   "cost_score": 84,
+   "value_score": 69
+  },
+  {
+   "name": "Close",
+   "use_case": "crm",
+   "from": 9,
+   "status": "published",
+   "price": "No free plan (14-day trial). Solo $9/mo (1 user), Essentials $35, Growth $99, Scale $139 per user/mo billed annually; monthly $19, $49, $109, $149. Calling/SMS usage-based",
+   "source": "https://www.close.com/pricing",
+   "fit_score": 4,
+   "stages": [
+    "solo",
+    "small",
+    "early"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/products/close/reviews",
+    "note": "Reviewer mix read from G2 2026-11-10 (star ratings not shown, per site rule). Reviewer company size: 79.7% small-business, 19.7% mid-market; enterprise share not shown."
+   },
+   "logo": "/assets/logos/close.com.png",
+   "homepage_url": "https://www.close.com/",
+   "affiliate_url": "",
+   "checked": "2026-11-10",
+   "price_verified": true,
+   "cost_score": 94,
+   "value_score": 85
+  },
+  {
+   "name": "Zoho CRM",
+   "use_case": "crm",
+   "from": 0,
+   "status": "published",
+   "price": "Free for 3 users; Standard $14, Professional $23, Enterprise $40 per user/mo billed annually; monthly $20, $35, $50",
+   "source": "https://www.zoho.com/crm/zohocrm-pricing.html",
+   "fit_score": 4,
+   "stages": [
+    "small",
+    "early",
+    "scaling"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/products/zoho-crm/reviews",
+    "note": "Reviewer mix read from G2 2026-11-10 (star ratings not shown, per site rule). Reviewer company size: 61.4% small-business, 32.5% mid-market, 6.0% enterprise."
+   },
+   "logo": "/assets/logos/zoho.com.png",
+   "homepage_url": "https://www.zoho.com/crm/",
+   "affiliate_url": "",
+   "checked": "2026-11-10",
+   "price_verified": true,
+   "cost_score": 100,
+   "value_score": 88
+  },
+  {
+   "name": "Bigin by Zoho",
+   "use_case": "crm",
+   "from": 0,
+   "status": "published",
+   "price": "Free for 1 user (500 records); Express $7/user/mo billed yearly ($9 monthly); Premier $15 monthly (yearly price not rendered on vendor page); Bigin 360 $18/user/mo billed annually",
+   "source": "https://www.bigin.com/pricing.html",
+   "fit_score": 4,
+   "stages": [
+    "solo",
+    "small"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/products/bigin-by-zoho-crm/reviews",
+    "note": "Reviewer mix read from G2 2026-11-10 (star ratings not shown, per site rule). Reviewer company size: 90.9% small-business, 8.1% mid-market, 1.0% enterprise."
+   },
+   "logo": "/assets/logos/bigin.com.png",
+   "homepage_url": "https://www.bigin.com/",
+   "affiliate_url": "",
+   "checked": "2026-11-10",
+   "price_verified": true,
+   "cost_score": 100,
+   "value_score": 88
+  },
+  {
+   "name": "Copper",
+   "use_case": "crm",
+   "from": 23,
+   "status": "published",
+   "price": "Basic $23, Professional $59, Business $99 per seat/mo paid annually; monthly $29, $69, $134. Free trial; no free plan. Built for Google Workspace",
+   "source": "https://www.copper.com/pricing",
+   "fit_score": 3,
+   "stages": [
+    "solo",
+    "small",
+    "early"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/products/copper/reviews",
+    "note": "Reviewer mix read from G2 2026-11-10 (star ratings not shown, per site rule). Reviewer company size: 79.2% small-business, 17.3% mid-market; enterprise share not shown."
+   },
+   "logo": "/assets/logos/copper.com.png",
+   "homepage_url": "https://www.copper.com/",
+   "affiliate_url": "",
+   "checked": "2026-11-10",
+   "price_verified": true,
+   "cost_score": 84,
+   "value_score": 69
+  },
+  {
+   "name": "Salesforce Sales Cloud",
+   "use_case": "crm",
+   "from": 25,
+   "status": "published",
+   "price": "Starter Suite $25/user/mo (billed monthly or annually); Pro Suite $100 (billed annually, contract); Core $195 (replaces Enterprise Edition), Advanced $395, Max $550 per user/mo billed annually. Free Suite listed at $0 (limits not verified)",
+   "source": "https://www.salesforce.com/sales/pricing/",
+   "fit_score": 5,
+   "stages": [
+    "early",
+    "scaling",
+    "large"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/products/salesforce-salesforce-sales-cloud/reviews",
+    "note": "Reviewer mix read from G2 2026-11-10 (star ratings not shown, per site rule). Reviewer company size: 20.6% small-business, 45.7% mid-market, 33.7% enterprise."
+   },
+   "logo": "/assets/logos/salesforce.com.png",
+   "homepage_url": "https://www.salesforce.com/sales/",
+   "affiliate_url": "",
+   "checked": "2026-11-10",
+   "price_verified": true,
+   "cost_score": 83,
+   "value_score": 94
+  },
+  {
+   "name": "Apollo (built-in CRM)",
+   "use_case": "crm",
+   "from": 0,
+   "status": "published",
+   "price": "Free plan includes lead management; deal management starts on Basic $49/seat/mo billed annually ($65 monthly); Professional $79 ($99); Organization $119 annual only, 3-seat minimum",
+   "source": "https://www.apollo.io/pricing",
+   "fit_score": 3,
+   "stages": [
+    "solo",
+    "small"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/products/apollo-io/reviews",
+    "note": "G2 reviews cover Apollo as a whole (67.1% small-business on 2026-11-10), not its CRM features specifically, so no CRM rating shown."
+   },
+   "logo": "/assets/logos/apollo.io.png",
+   "homepage_url": "https://www.apollo.io/",
+   "affiliate_url": "",
+   "checked": "2026-11-10",
+   "price_verified": true,
+   "cost_score": 100,
+   "value_score": 75
+  },
+  {
+   "name": "Day AI",
+   "use_case": "crm",
+   "from": null,
+   "status": "unverified",
+   "price": "Priced per AI agent, not per seat: each workspace needs at least one Professional ($60/mo) or Executive ($200/mo) agent; Turbo agents $24/mo; Super $800/mo annual only; human colleagues can join free. Billing period of the default view not verified",
+   "source": "https://day.ai/pricing",
+   "fit_score": 3,
+   "stages": [
+    "solo",
+    "small"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Day+AI",
+    "note": "No G2 review base found 2026-11-10. Newer AI-native CRM; evidence thin."
+   },
+   "logo": "/assets/logos/day.ai.png",
+   "homepage_url": "https://day.ai/",
+   "affiliate_url": "",
+   "checked": "2026-11-10",
+   "price_verified": false,
+   "cost_score": null,
+   "value_score": null
+  },
+  {
+   "name": "Lightfield",
+   "use_case": "crm",
+   "from": 89,
+   "status": "published",
+   "price": "Starter $89/user/mo billed monthly (up to 3 seats); Pro $999/mo per workspace billed annually (5 capture seats, unlimited viewers); Growth $2,999/mo; Enterprise custom. 14-day trial, no free plan",
+   "source": "https://lightfield.app/pricing",
+   "fit_score": 3,
+   "stages": [
+    "solo",
+    "small"
+   ],
+   "reviews": {
+    "g2_rating": null,
+    "g2_review_count": null,
+    "g2_url": "https://www.g2.com/search?query=Lightfield",
+    "note": "G2 page not read on G2 directly 2026-11-10, so not shown."
+   },
+   "logo": "/assets/logos/lightfield.app.png",
+   "homepage_url": "https://lightfield.app/",
+   "affiliate_url": "",
+   "checked": "2026-11-10",
+   "price_verified": true,
+   "cost_score": 40,
+   "value_score": 52
   }
  ],
  "releases": [
+  {
+   "date": "2026-11-10",
+   "text": "Added CRM & pipeline as its own category: 12 CRMs in the directory (HubSpot Sales Hub, Pipedrive, Attio, folk, Close, Zoho CRM, Bigin by Zoho, Copper, Salesforce Sales Cloud, Apollo's built-in CRM, Day AI, Lightfield) and a separate 'CRM for this team size' section on each team-size page, with when a spreadsheet is enough. CRM is shown next to the recommended stacks and is not added to stack totals. Recommended stacks unchanged.",
+   "source": "https://profitableagentstack.com/use-cases/crm"
+  },
   {
    "date": "2026-11-09",
    "text": "Added Microsoft Sales Development Agent (Frontier public preview; Copilot Credits billing from Nov 16), Nooks Revenue Agent Platform (contact sales), and 6sense BDR Agent (November beta; contact sales) to the AI SDR directory. Cleared the broken Postiz Dub affiliate link (postiz.pro/limor-sinay redirected to an http gitroom.com 500) so the site falls back to the PAS-tagged postiz.com homepage. Noted 11x Scout List in the 11x listing. Recommended stacks unchanged.",
@@ -2546,6 +2880,94 @@
    ],
    "evidence_date": "2026-11-05",
    "evidence_title": "What we found: who reviews these tools and enterprise readiness"
+  }
+ },
+ "crm": {
+  "checked": "2026-11-10",
+  "intro": "Your CRM is where conversations and deals live. We keep it separate from the recommended stack, so stack totals do not include it. Many teams start on a shared spreadsheet and add a CRM when it fits.",
+  "signals": [
+   [
+    "A second person works the pipeline",
+    "a cofounder, first seller, contractor SDR or agency. Shared sheets struggle with ownership, duplicates and overwritten notes."
+   ],
+   [
+    "More than about 20\u201330 live deals or conversations at once",
+    "or a follow-up has slipped more than once."
+   ],
+   [
+    "You copy sequencer replies into the sheet by hand",
+    "more than about 30 minutes a week. Most CRMs here receive replies from Instantly, Smartlead or lemlist directly."
+   ],
+   [
+    "Email and LinkedIn reach the same people",
+    "one record per person stops you double-touching prospects."
+   ],
+   [
+    "Investor or board pipeline reporting takes more than about an hour a month",
+    "stage history and pipeline reports are built into every CRM listed, including free plans (depth varies)."
+   ],
+   [
+    "Inbound leads arrive or your first sales hire starts",
+    "forms, routing and activity history make the handoff work."
+   ]
+  ],
+  "sheet_cols": "Company, Contact, Email, LinkedIn URL, Source, Stage, Next step, Next-step date, Deal value, Last touch, Notes",
+  "stages": {
+   "solo": {
+    "pick": "HubSpot Sales Hub",
+    "pick_tier": "Google Sheet first, then HubSpot Free CRM (up to 2 users) when a signal below appears",
+    "pick_cost": "$0",
+    "runner": "Attio",
+    "runner_tier": "Free plan (up to 3 users)",
+    "runner_cost": "$0",
+    "why": "HubSpot Sales Hub has the largest small-business reviewer base among the CRMs we checked (60.5% of its G2 reviewers are small businesses) and native integrations with Apollo, Hunter, Smartlead and Waalaxy. Attio suits founders who want a flexible data model.",
+    "sheet": "A sheet is usually enough while you are the only person selling, live deals stay under about 20 and most come from your network. Move to a free CRM the week you turn on a sequencer, or once a follow-up slips.",
+    "also": "Zoho CRM Free (3 users), Bigin by Zoho Free (1 user) and Close Solo ($9/mo billed annually, built-in calling) also fit here."
+   },
+   "small": {
+    "pick": "HubSpot Sales Hub",
+    "pick_tier": "Free if 2 people work deals; Starter for 3 (3 seats \u00d7 $20 list)",
+    "pick_cost": "$0\u2013$60/mo",
+    "runner": "Pipedrive",
+    "runner_tier": "Lite, 3 seats \u00d7 $14 billed annually ($24 monthly)",
+    "runner_cost": "$42\u2013$72/mo",
+    "why": "HubSpot integrates natively with Instantly, Hunter, Apollo and Waalaxy, so replies and meetings can log themselves. HubSpot currently shows a limited-time lower Starter price for new customers; we use list price. Pipedrive is a strong choice for a simple visual pipeline (75.1% of its G2 reviewers are small businesses).",
+    "sheet": "A shared sheet can work for a short while, but at 2\u20135 a second person usually already works the pipeline, which is the clearest signal to add a CRM.",
+    "also": "Attio and Zoho CRM are free for up to 3 users. Close Essentials ($35/user/mo billed annually) fits phone-heavy teams."
+   },
+   "early": {
+    "pick": "HubSpot Sales Hub",
+    "pick_tier": "Starter, 10 seats \u00d7 $20 (list); Professional when you need forecasting and advanced automation",
+    "pick_cost": "$200/mo",
+    "runner": "Pipedrive",
+    "runner_tier": "Growth, 10 seats \u00d7 $39 billed annually ($49 monthly)",
+    "runner_cost": "$390\u2013$490/mo",
+    "why": "35.5% of HubSpot Sales Hub's G2 reviewers are mid-market companies, which supports staying on it as the team grows. Pipedrive Growth adds email sync, automations and forecasts.",
+    "sheet": "At 6\u201315 GTM people a shared sheet is rarely enough: several people work deals and replies arrive from more than one channel.",
+    "also": "Zoho CRM Standard ($14/user/mo billed annually) is a lower-cost option with native Hunter, lemlist and Smartlead integrations."
+   },
+   "scaling": {
+    "pick": "HubSpot Sales Hub",
+    "pick_tier": "Professional, 25 seats \u00d7 $90 billed annually, plus $1,500 one-time onboarding",
+    "pick_cost": "$2,250/mo + $1,500 one-time",
+    "runner": "Salesforce Sales Cloud",
+    "runner_tier": "Pro Suite, 25 seats \u00d7 $100 (billed annually, contract)",
+    "runner_cost": "$2,500/mo",
+    "why": "Professional adds forecasting and advanced automation. Salesforce has the largest mid-market and enterprise reviewer base in the category (45.7% mid-market, 33.7% enterprise of its G2 reviewers). If you pair Salesforce with Instantly, note that Instantly's native Salesforce integration retires on December 10, 2026; Instantly documents OutboundSync or Zapier as replacements.",
+    "sheet": "At this size the CRM is the system of record; a spreadsheet works only for side lists.",
+    "also": "Zoho CRM Professional (25 \u00d7 $23 billed annually, about $575/mo) is the lowest-cost credible option we found at this size."
+   },
+   "large": {
+    "pick": "Salesforce Sales Cloud",
+    "pick_tier": "Core (replaces Enterprise Edition), 40 seats \u00d7 $195 billed annually; expect a quote",
+    "pick_cost": "from $7,800/mo",
+    "runner": "HubSpot Sales Hub",
+    "runner_tier": "Enterprise, 40 seats \u00d7 $150, plus $3,500 one-time onboarding",
+    "runner_cost": "$6,000/mo + $3,500 one-time",
+    "why": "Salesforce has the largest enterprise reviewer base among the CRMs we checked (33.7% of its G2 reviewers are enterprise). Plan for a longer rollout. If you send with Instantly, its native Salesforce integration retires on December 10, 2026 (OutboundSync or Zapier are the documented replacements).",
+    "sheet": "At 40+ the CRM is the system of record; seat counts and admin rules matter more than the list price.",
+    "also": ""
+   }
   }
  },
  "license": "CC BY 4.0 \u2014 attribute \"Profitable Agent Stack (profitableagentstack.com)\"",
