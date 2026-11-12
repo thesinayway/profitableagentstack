@@ -29,20 +29,23 @@ DISC=f'Profitable Agent Stack is for general information only, provided "as is" 
 def ld(o): return '<script type="application/ld+json">'+json.dumps(o)+'</script>'
 ORG={"@context":"https://schema.org","@type":"Organization","name":"Profitable Agent Stack","url":SITE,"logo":SITE+"/assets/brand/logo-512.png","image":SITE+"/assets/brand/og-default.png","legalName":"The Sinay Way LLC","email":"limoraiassistant@thesinayway.com"}
 AFFNOTE='<p class="mut" role="note"><strong>Affiliate disclosure:</strong> this page includes affiliate links (marked "affiliate"). If you buy through them, The Sinay Way LLC may earn a commission at no extra cost to you. It never changes scores, prices or order. See our <a href="/disclosure.html">disclosure</a>.</p>'
-def page(path,title,desc,body,schema=(),hero='',foot=None):
+def page(path,title,desc,body,schema=(),hero='',foot=None,index=True):
   url=SITE+'/'+('' if path=='index.html' else path.replace('index.html',''))
   url=url[:-5] if url.endswith('.html') else url
   nav=''.join(f'<a href="{h}">{n}</a>' for h,n in NAV)
   if 'rel="sponsored' in body: body=AFFNOTE+body
   sch=''.join(ld(s) for s in schema)
+  robots='' if index else '<meta name="robots" content="noindex">'
+  canon=f'<link rel="canonical" href="{url}">' if index else ''
   out=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{url}">
+<title>{e(title)}</title><meta name="description" content="{e(desc)}">{robots}{canon}
 <meta property="og:type" content="website"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{url}"><meta property="og:site_name" content="Profitable Agent Stack"><meta property="og:image" content="{SITE}/assets/brand/og-default.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Profitable Agent Stack logo"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{SITE}/assets/brand/og-default.png"><link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml"><link rel="icon" href="/assets/brand/favicon-32.png" sizes="32x32" type="image/png"><link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png"><meta name="theme-color" content="#262c47">
 <link rel="alternate" type="application/json" href="/api/tools.json" title="Tools data"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,500&family=Cormorant+SC:wght@600&family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/style.css">{sch}</head>
 <body><a href="#main" class="skip">Skip to content</a><header class="top"><div class="wrap"><a class="logo" href="/" aria-label="Profitable Agent Stack home"><img src="/assets/brand/pas-logo-dark.svg" alt="Profitable Agent Stack" width="208" height="52"></a><nav aria-label="Main">{nav}</nav></div></header>
 {hero}<main id="main" class="wrap">{body}</main>
 <footer><div class="wrap">{FCRED}{foot or ((LOGONOTE if path.startswith(('directory','stages/','use-cases/')) else '')+f'<p><strong>Disclaimer:</strong> {e(DISC)}</p><p><a href="/stages/">Stacks by GTM team size</a> · <a href="/articles/">Articles</a> · <a href="/terms.html">Terms</a> · <a href="/privacy.html">Privacy</a> · <a href="/disclosure.html">Affiliate disclosure</a> · <a href="/review-policy.html">Review policy</a> · <a href="/corrections.html">Corrections &amp; takedowns</a> · <a href="/feedback.html">Share your experience</a> · © 2026 The Sinay Way LLC. This site is operated by The Sinay Way LLC as part of its advisory services.</p>')}</div></footer><script src="/assets/app.js" defer></script></body></html>'''
-  os.makedirs(os.path.dirname(path) or '.',exist_ok=True);open(path,'w').write(out);PAGES.append(url)
+  os.makedirs(os.path.dirname(path) or '.',exist_ok=True);open(path,'w').write(out)
+  if index: PAGES.append(url)
 PAGES=[]
 FCRED='<div class="fcred"><p class="cap">Profitable Agent Stack is a project of</p><img src="/assets/brand/sinay-way-white.svg" alt="The Sinay Way LLC" width="152" height="88" loading="lazy"><p class="tag">Independent, cost-first reviews of AI GTM tools.</p></div>'
 LOGONOTE='<p>Logos and trademarks belong to their owners and are used only to identify products; no endorsement implied. Owners can request removal via the <a href="/corrections.html">corrections page</a>.</p>'
@@ -302,6 +305,22 @@ simple('corrections.html','Corrections and Takedowns','How to request correction
 os.makedirs('api',exist_ok=True)
 api=dict(D);api['license']='CC BY 4.0 — attribute "Profitable Agent Stack (profitableagentstack.com)"';api['disclaimer']=DISC;api['methodology']=SITE+'/methodology.html';api.pop('watchlist',None);api.pop('il_stack',None);api.pop('stages_old_labels',None)
 json.dump(api,open('api/tools.json','w'),indent=1)
+# ---- 404 (Cloudflare Pages serves 404.html for unknown URLs; keep out of the sitemap)
+_st=''.join(f'<a class="card" href="/stages/{SLUG[s]}.html"><h3>{e(ST[s]["name"])}</h3><p class="mut">{e(ST[s]["size"])}</p></a>' for s in ST)
+_uc=' · '.join(f'<a href="/use-cases/{u["id"]}.html">{e(u["name"])}</a>' for u in D['use_cases'])
+page('404.html','Page not found | Profitable Agent Stack',"This page doesn't exist or has moved. Try the home page, directory, stacks by GTM team size, or articles.",
+f'''<h1>Page not found</h1>
+<p class="answer">This page doesn't exist or has moved. Try one of these instead.</p>
+<p style="margin:24px 0"><a class="btn" href="/">Back to home</a></p>
+<div class="grid">
+<a class="card" href="/directory.html"><h3>Directory</h3><p class="mut">All AI GTM tools, with prices and value scores.</p></a>
+<a class="card" href="/stages/"><h3>Stacks by GTM team size</h3><p class="mut">Recommended stacks from a solo founder to 40+ person teams.</p></a>
+<a class="card" href="/articles/"><h3>Articles</h3><p class="mut">Short guides on choosing tools by cost and fit.</p></a>
+</div>
+<h2>Stacks by GTM team size</h2>
+<div class="grid">{_st}</div>
+<h2>Use cases</h2>
+<p>{_uc}</p>''',index=False)
 open('robots.txt','w').write('User-agent: *\nAllow: /\n\n'+''.join(f'User-agent: {b}\nAllow: /\n\n' for b in ['GPTBot','OAI-SearchBot','ChatGPT-User','ClaudeBot','Claude-Web','anthropic-ai','PerplexityBot','Perplexity-User','Google-Extended','Applebot-Extended','CCBot','Bytespider','meta-externalagent','cohere-ai'])+f'Sitemap: {SITE}/sitemap.xml\n')
 open('sitemap.xml','w').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{u[:-5] if u.endswith(".html") else u}</loc><lastmod>{C}</lastmod></url>' for u in PAGES)+'</urlset>\n')
 L=f'# Profitable Agent Stack\n\n> Cost-first directory of AI GTM tools ranked by use-case fit, published price and user sentiment, with estimated monthly stack costs by GTM team size. Prices checked {C}; verify with vendors. Not advice.\n\n## Key pages\n- [Stacks by GTM team size]({SITE}/stages/)\n'+''.join(f'- [{s["name"]} ({s["size"]})]({SITE}/stages/{SLUG[s["id"]]}.html): est. {"at least " if s["id"]=="large" else ""}${tot[s["id"]]:,.0f}/mo stack\n' for s in D['stages'])+f'- [Directory]({SITE}/directory.html)\n- [Methodology]({SITE}/methodology.html)\n- [Articles]({SITE}/articles/)\n- [For AI agents]({SITE}/for-ai-agents.html)\n\n## Data\n- [tools.json]({SITE}/api/tools.json): CC BY 4.0, attribution required\n- [Full text]({SITE}/llms-full.txt)\n'
