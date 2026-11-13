@@ -1,7 +1,7 @@
 ---
 title: When to add AEO (AI search visibility) vs classic SEO
 slug: when-to-add-aeo
-date: 2026-11-05
+date: 2026-11-11
 summary: AEO tools track whether ChatGPT, Perplexity and Google's AI answers mention your brand. Classic search tools come first; add AEO when AI assistants already send you visits.
 ---
 AEO (answer engine optimization, also called GEO) tools run a set of buyer questions through AI assistants and report whether your brand is mentioned or cited. Classic SEO tools tell you how you rank in search results. They are different jobs, so we list them as separate use cases: **Search performance**, **Content optimization** and **AEO (AI search visibility)**.

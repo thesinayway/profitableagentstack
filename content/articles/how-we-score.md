@@ -1,7 +1,7 @@
 ---
 title: How we score AI GTM tools (and why cost counts)
 slug: how-we-score
-date: 2026-11-05
+date: 2026-11-02
 summary: The value score in plain words: what goes in, what does not, and why money never changes rank.
 ---
 Every tool in the [directory](/directory.html) gets one number: a **value score** from 0 to 100. Here is exactly what is behind it, so you can disagree with it intelligently.

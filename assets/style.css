@@ -52,3 +52,5 @@ footer{background:var(--bg);color:#b4bcc9;font-size:13px;padding:28px 0;margin-t
 .bio blockquote{margin:14px 0;padding:6px 0 6px 16px;border-left:3px solid #165368;font-style:italic}.bio blockquote p{margin:0 0 6px}.bio cite{font-style:normal;font-size:14px;color:#32353a}
 @media(max-width:640px){.bio{grid-template-columns:1fr;padding:16px}.bio picture{max-width:220px}}
 @media(max-width:640px){html[lang=en] main table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}.logo img{height:48px}.top .wrap{gap:6px}nav{width:100%;display:flex;flex-wrap:wrap;gap:2px 16px}nav a,[dir=rtl] nav a{margin:0;font-size:14px;line-height:1.3;padding:6px 0;white-space:nowrap}.fcred img{height:76px}.fcred .cap{font-size:13px;letter-spacing:.2em}}
+.byline{margin:-4px 0 14px}.byline a,.pubdate a{color:inherit;text-decoration:underline;text-underline-offset:2px}.pubdate{margin-top:28px}
+.wr{padding-left:20px}.wr li{margin:0 0 14px;line-height:1.5}.wr li>a{font-weight:600}

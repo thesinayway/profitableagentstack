@@ -1,7 +1,7 @@
 ---
 title: One tool per job: how to stop paying twice
 slug: one-tool-per-job
-date: 2026-11-05
+date: 2026-11-04
 summary: Most GTM stacks pay for the same job two or three times. Here is how we pick one tool per job and explain each pick.
 ---
 Tool sprawl is quiet. A sequencer here, a second enrichment plan there, and a scheduler nobody opened since March. Each is small; together they are a real line on the budget.

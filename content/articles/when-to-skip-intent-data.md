@@ -1,7 +1,7 @@
 ---
 title: When to skip intent data (and what to do first)
 slug: when-to-skip-intent-data
-date: 2026-11-05
+date: 2026-11-06
 summary: Intent and signals tools help you prioritize. If you have nobody worth prioritizing yet, they are an expensive distraction.
 ---
 Intent and signals tools answer one question: *who should I contact first?* That is a great question once you have a list, a message and a sequence that sometimes gets replies. Before that, it is a bill.

@@ -1,7 +1,7 @@
 ---
 title: Why we size stacks by GTM team size, not funding stage
 slug: stacks-by-gtm-team-size
-date: 2026-11-05
+date: 2026-11-09
 summary: Funding rounds say little about what tools you need. How many people do go-to-market says a lot.
 ---
 Two companies can raise the same round and have very different go-to-market teams: one founder selling alone, the other with fifteen people. They need different tools and should pay different amounts.
