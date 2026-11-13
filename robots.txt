@@ -1,46 +1,61 @@
 User-agent: *
 Allow: /
+Disallow: /assets/social/
 
 User-agent: GPTBot
 Allow: /
+Disallow: /assets/social/
 
 User-agent: OAI-SearchBot
 Allow: /
+Disallow: /assets/social/
 
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /assets/social/
 
 User-agent: ClaudeBot
 Allow: /
+Disallow: /assets/social/
 
 User-agent: Claude-Web
 Allow: /
+Disallow: /assets/social/
 
 User-agent: anthropic-ai
 Allow: /
+Disallow: /assets/social/
 
 User-agent: PerplexityBot
 Allow: /
+Disallow: /assets/social/
 
 User-agent: Perplexity-User
 Allow: /
+Disallow: /assets/social/
 
 User-agent: Google-Extended
 Allow: /
+Disallow: /assets/social/
 
 User-agent: Applebot-Extended
 Allow: /
+Disallow: /assets/social/
 
 User-agent: CCBot
 Allow: /
+Disallow: /assets/social/
 
 User-agent: Bytespider
 Allow: /
+Disallow: /assets/social/
 
 User-agent: meta-externalagent
 Allow: /
+Disallow: /assets/social/
 
 User-agent: cohere-ai
 Allow: /
+Disallow: /assets/social/
 
 Sitemap: https://profitableagentstack.com/sitemap.xml
