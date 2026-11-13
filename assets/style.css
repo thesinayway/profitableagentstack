@@ -37,7 +37,7 @@ footer{background:var(--bg);color:#b4bcc9;font-size:13px;padding:28px 0;margin-t
 .skip{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}.skip:focus{width:auto;height:auto;clip:auto;background:#fff;padding:8px;z-index:99}
 
 /* ---- Brand (D1 logo, The Sinay Way palette) ---- */
-.top .wrap{padding:8px 20px}.logo{display:block;line-height:0}.logo img{height:52px;width:auto;display:block}
+.top .wrap{padding:8px 20px}.logo{display:block;line-height:0}.logo img{height:57px;width:auto;display:block}
 .hero h1,main h1{font-family:'Cormorant Garamond',Georgia,'Times New Roman',serif;font-weight:600;letter-spacing:-.01em}
 .hero h1{font-size:clamp(36px,6vw,64px);line-height:1.05}main h1{font-size:clamp(32px,4.6vw,46px);line-height:1.1}
 .answer{border-left-color:var(--teal)}
@@ -51,4 +51,4 @@ footer{background:var(--bg);color:#b4bcc9;font-size:13px;padding:28px 0;margin-t
 .bio h2{margin-top:0}.bio ul{padding-left:20px}.bio li{margin:4px 0}
 .bio blockquote{margin:14px 0;padding:6px 0 6px 16px;border-left:3px solid #165368;font-style:italic}.bio blockquote p{margin:0 0 6px}.bio cite{font-style:normal;font-size:14px;color:#32353a}
 @media(max-width:640px){.bio{grid-template-columns:1fr;padding:16px}.bio picture{max-width:220px}}
-@media(max-width:640px){html[lang=en] main table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}.logo img{height:44px}.top .wrap{gap:6px}nav{width:100%;display:flex;flex-wrap:wrap;gap:2px 16px}nav a,[dir=rtl] nav a{margin:0;font-size:14px;line-height:1.3;padding:6px 0;white-space:nowrap}.fcred img{height:76px}.fcred .cap{font-size:13px;letter-spacing:.2em}}
+@media(max-width:640px){html[lang=en] main table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}.logo img{height:48px}.top .wrap{gap:6px}nav{width:100%;display:flex;flex-wrap:wrap;gap:2px 16px}nav a,[dir=rtl] nav a{margin:0;font-size:14px;line-height:1.3;padding:6px 0;white-space:nowrap}.fcred img{height:76px}.fcred .cap{font-size:13px;letter-spacing:.2em}}
