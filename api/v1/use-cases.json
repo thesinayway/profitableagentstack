@@ -1,0 +1,339 @@
+{
+ "meta": {
+  "api_version": "1.0.0",
+  "last_verified": "2026-11-16",
+  "source": "https://profitableagentstack.com",
+  "license": "CC BY 4.0. Credit \"Profitable Agent Stack (profitableagentstack.com)\", link the source page and state the last-verified date.",
+  "methodology": "value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial fit_score (1-5) x 20. cost_score = 100 - 60 x (entry_price - lowest entry price in the use case) / (highest - lowest); contact-sales tools get no cost or value score. The published formula reserves 20% for user sentiment, but no sentiment or user-review data is used in any score today, so fit and cost are reweighted 62.5/37.5. Stack picks also weigh fit for the GTM team size (reviewer company-size mix, case studies, enterprise-readiness evidence).",
+  "methodology_url": "https://profitableagentstack.com/methodology",
+  "disclaimer": "Profitable Agent Stack is for general information only, provided \"as is\" without warranties. Prices, plans, features and review data change often and may be inaccurate or out of date (last checked 2026-11-16); always verify with the vendor. Cost estimates and scores are editorial estimates, not advice. Nothing here is professional, legal or financial advice. Trademarks belong to their owners; listing is not endorsement. Some links may be affiliate or sponsored — see our Disclosure.",
+  "docs": "https://profitableagentstack.com/developers",
+  "openapi": "https://profitableagentstack.com/openapi.json",
+  "count": 17
+ },
+ "data": [
+  {
+   "id": "positioning",
+   "name": "Positioning & messaging research",
+   "group": "sales",
+   "separate_from_stacks": false,
+   "page_url": "https://profitableagentstack.com/use-cases/positioning",
+   "best_value_tool_id": null,
+   "lowest_entry_price_tool_ids": [],
+   "lowest_entry_price_monthly_usd": null,
+   "tool_ids": []
+  },
+  {
+   "id": "list-building",
+   "name": "List building & lead data",
+   "group": "sales",
+   "separate_from_stacks": false,
+   "page_url": "https://profitableagentstack.com/use-cases/list-building",
+   "best_value_tool_id": "apollo",
+   "lowest_entry_price_tool_ids": [
+    "apollo",
+    "exa"
+   ],
+   "lowest_entry_price_monthly_usd": 0,
+   "tool_ids": [
+    "apollo",
+    "exa",
+    "zoominfo"
+   ]
+  },
+  {
+   "id": "enrichment",
+   "name": "Enrichment & verification",
+   "group": "sales",
+   "separate_from_stacks": false,
+   "page_url": "https://profitableagentstack.com/use-cases/enrichment",
+   "best_value_tool_id": "clay",
+   "lowest_entry_price_tool_ids": [
+    "clay",
+    "hunter",
+    "fullenrich"
+   ],
+   "lowest_entry_price_monthly_usd": 0,
+   "tool_ids": [
+    "clay",
+    "hunter",
+    "fullenrich",
+    "clearout"
+   ]
+  },
+  {
+   "id": "outbound-email",
+   "name": "Outbound email / sequencing",
+   "group": "sales",
+   "separate_from_stacks": false,
+   "page_url": "https://profitableagentstack.com/use-cases/outbound-email",
+   "best_value_tool_id": "instantly",
+   "lowest_entry_price_tool_ids": [
+    "smartlead"
+   ],
+   "lowest_entry_price_monthly_usd": 39,
+   "tool_ids": [
+    "instantly",
+    "smartlead",
+    "salesforge",
+    "reply-io",
+    "lemlist",
+    "woodpecker",
+    "salesloft",
+    "outreach"
+   ]
+  },
+  {
+   "id": "linkedin",
+   "name": "LinkedIn outreach",
+   "group": "sales",
+   "separate_from_stacks": false,
+   "page_url": "https://profitableagentstack.com/use-cases/linkedin",
+   "best_value_tool_id": "waalaxy",
+   "lowest_entry_price_tool_ids": [
+    "heyreach"
+   ],
+   "lowest_entry_price_monthly_usd": 79,
+   "tool_ids": [
+    "waalaxy",
+    "heyreach",
+    "expandi"
+   ]
+  },
+  {
+   "id": "ai-sdr",
+   "name": "AI SDR / agentic SDR",
+   "group": "sales",
+   "separate_from_stacks": false,
+   "page_url": "https://profitableagentstack.com/use-cases/ai-sdr",
+   "best_value_tool_id": "unify",
+   "lowest_entry_price_tool_ids": [
+    "unify",
+    "regie-ai"
+   ],
+   "lowest_entry_price_monthly_usd": 0,
+   "tool_ids": [
+    "unify",
+    "regie-ai",
+    "swan-ai",
+    "origami",
+    "rox",
+    "amplemarket",
+    "11x",
+    "artisan",
+    "qualified",
+    "aisdr",
+    "microsoft-sales-development-agent",
+    "nooks",
+    "6sense-bdr-agent"
+   ]
+  },
+  {
+   "id": "signals",
+   "name": "Signals, intent & analytics",
+   "group": "sales",
+   "separate_from_stacks": false,
+   "page_url": "https://profitableagentstack.com/use-cases/signals",
+   "best_value_tool_id": "rb2b",
+   "lowest_entry_price_tool_ids": [
+    "rb2b",
+    "posthog"
+   ],
+   "lowest_entry_price_monthly_usd": 0,
+   "tool_ids": [
+    "rb2b",
+    "posthog",
+    "common-room",
+    "warmly"
+   ]
+  },
+  {
+   "id": "search-performance",
+   "name": "Search performance",
+   "group": "marketing",
+   "separate_from_stacks": false,
+   "page_url": "https://profitableagentstack.com/use-cases/search-performance",
+   "best_value_tool_id": "google-search-console",
+   "lowest_entry_price_tool_ids": [
+    "google-search-console",
+    "ahrefs-free"
+   ],
+   "lowest_entry_price_monthly_usd": 0,
+   "tool_ids": [
+    "google-search-console",
+    "ahrefs-free"
+   ]
+  },
+  {
+   "id": "content-optimization",
+   "name": "Content optimization",
+   "group": "marketing",
+   "separate_from_stacks": false,
+   "page_url": "https://profitableagentstack.com/use-cases/content-optimization",
+   "best_value_tool_id": "surfer",
+   "lowest_entry_price_tool_ids": [
+    "surfer"
+   ],
+   "lowest_entry_price_monthly_usd": 49,
+   "tool_ids": [
+    "surfer"
+   ]
+  },
+  {
+   "id": "aeo",
+   "name": "AEO (AI search visibility)",
+   "group": "marketing",
+   "separate_from_stacks": false,
+   "page_url": "https://profitableagentstack.com/use-cases/aeo",
+   "best_value_tool_id": "peec-ai",
+   "lowest_entry_price_tool_ids": [
+    "peec-ai"
+   ],
+   "lowest_entry_price_monthly_usd": 95,
+   "tool_ids": [
+    "peec-ai",
+    "otterly-ai",
+    "scrunch",
+    "athenahq",
+    "profound"
+   ]
+  },
+  {
+   "id": "social-scheduling",
+   "name": "Social scheduling",
+   "group": "marketing",
+   "separate_from_stacks": false,
+   "page_url": "https://profitableagentstack.com/use-cases/social-scheduling",
+   "best_value_tool_id": "buffer",
+   "lowest_entry_price_tool_ids": [
+    "buffer",
+    "typefully"
+   ],
+   "lowest_entry_price_monthly_usd": 0,
+   "tool_ids": [
+    "buffer",
+    "typefully",
+    "postiz"
+   ]
+  },
+  {
+   "id": "landing-pages",
+   "name": "Landing pages & websites",
+   "group": "marketing",
+   "separate_from_stacks": false,
+   "page_url": "https://profitableagentstack.com/use-cases/landing-pages",
+   "best_value_tool_id": "framer",
+   "lowest_entry_price_tool_ids": [
+    "carrd",
+    "framer",
+    "webflow"
+   ],
+   "lowest_entry_price_monthly_usd": 0,
+   "tool_ids": [
+    "framer",
+    "carrd",
+    "webflow"
+   ]
+  },
+  {
+   "id": "newsletters",
+   "name": "Newsletters",
+   "group": "marketing",
+   "separate_from_stacks": false,
+   "page_url": "https://profitableagentstack.com/use-cases/newsletters",
+   "best_value_tool_id": "beehiiv",
+   "lowest_entry_price_tool_ids": [
+    "beehiiv",
+    "kit"
+   ],
+   "lowest_entry_price_monthly_usd": 0,
+   "tool_ids": [
+    "beehiiv",
+    "kit"
+   ]
+  },
+  {
+   "id": "design-video",
+   "name": "Design & video",
+   "group": "marketing",
+   "separate_from_stacks": false,
+   "page_url": "https://profitableagentstack.com/use-cases/design-video",
+   "best_value_tool_id": "heygen",
+   "lowest_entry_price_tool_ids": [
+    "heygen",
+    "descript",
+    "capcut"
+   ],
+   "lowest_entry_price_monthly_usd": 0,
+   "tool_ids": [
+    "heygen",
+    "descript",
+    "capcut",
+    "canva"
+   ]
+  },
+  {
+   "id": "community",
+   "name": "Community",
+   "group": "marketing",
+   "separate_from_stacks": false,
+   "page_url": "https://profitableagentstack.com/use-cases/community",
+   "best_value_tool_id": "circle",
+   "lowest_entry_price_tool_ids": [
+    "circle"
+   ],
+   "lowest_entry_price_monthly_usd": 89,
+   "tool_ids": [
+    "circle",
+    "discord"
+   ]
+  },
+  {
+   "id": "web-analytics",
+   "name": "Web analytics",
+   "group": "marketing",
+   "separate_from_stacks": false,
+   "page_url": "https://profitableagentstack.com/use-cases/web-analytics",
+   "best_value_tool_id": "google-analytics",
+   "lowest_entry_price_tool_ids": [
+    "google-analytics"
+   ],
+   "lowest_entry_price_monthly_usd": 0,
+   "tool_ids": [
+    "google-analytics",
+    "plausible",
+    "fathom-analytics"
+   ]
+  },
+  {
+   "id": "crm",
+   "name": "CRM & pipeline",
+   "group": "sales",
+   "separate_from_stacks": true,
+   "page_url": "https://profitableagentstack.com/use-cases/crm",
+   "best_value_tool_id": "hubspot-sales-hub",
+   "lowest_entry_price_tool_ids": [
+    "hubspot-sales-hub",
+    "attio",
+    "zoho-crm",
+    "bigin-by-zoho",
+    "apollo-built-in-crm"
+   ],
+   "lowest_entry_price_monthly_usd": 0,
+   "tool_ids": [
+    "hubspot-sales-hub",
+    "salesforce-sales-cloud",
+    "attio",
+    "zoho-crm",
+    "bigin-by-zoho",
+    "close",
+    "pipedrive",
+    "apollo-built-in-crm",
+    "folk",
+    "copper",
+    "lightfield",
+    "day-ai"
+   ]
+  }
+ ]
+}

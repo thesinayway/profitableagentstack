@@ -1,0 +1,144 @@
+{
+ "meta": {
+  "api_version": "1.0.0",
+  "last_verified": "2026-11-16",
+  "source": "https://profitableagentstack.com",
+  "license": "CC BY 4.0. Credit \"Profitable Agent Stack (profitableagentstack.com)\", link the source page and state the last-verified date.",
+  "methodology": "value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial fit_score (1-5) x 20. cost_score = 100 - 60 x (entry_price - lowest entry price in the use case) / (highest - lowest); contact-sales tools get no cost or value score. The published formula reserves 20% for user sentiment, but no sentiment or user-review data is used in any score today, so fit and cost are reweighted 62.5/37.5. Stack picks also weigh fit for the GTM team size (reviewer company-size mix, case studies, enterprise-readiness evidence).",
+  "methodology_url": "https://profitableagentstack.com/methodology",
+  "disclaimer": "Profitable Agent Stack is for general information only, provided \"as is\" without warranties. Prices, plans, features and review data change often and may be inaccurate or out of date (last checked 2026-11-16); always verify with the vendor. Cost estimates and scores are editorial estimates, not advice. Nothing here is professional, legal or financial advice. Trademarks belong to their owners; listing is not endorsement. Some links may be affiliate or sponsored — see our Disclosure.",
+  "docs": "https://profitableagentstack.com/developers",
+  "openapi": "https://profitableagentstack.com/openapi.json"
+ },
+ "data": {
+  "id": "solo",
+  "name": "Solo founder",
+  "team_size": "1 GTM person",
+  "min_people": 1,
+  "max_people": 1,
+  "page_url": "https://profitableagentstack.com/stages/solo-founder",
+  "monthly_total_usd": 40.58,
+  "total_is_floor": false,
+  "extra_non_usd": "+ €19 Waalaxy",
+  "last_verified": "2026-11-02 to 2026-11-16 (per tool)",
+  "who": "One person doing all of go-to-market: you are the founder, the seller and the marketer. Your goal is the first repeatable customers, not a machine.",
+  "assumptions": "1 GTM person, 1 LinkedIn account, light volume. Hunter's free plan (50 credits/mo) caps how many new emails you can find; move up when you outgrow it. Monthly billing, entry tiers; Carrd is priced yearly ÷ 12.",
+  "items": [
+   {
+    "use_case": "list-building",
+    "job": "List building & lead data",
+    "tool_id": "apollo",
+    "tool_name": "Apollo",
+    "tier": "Free Starter plan",
+    "monthly_usd": 0,
+    "price_basis": "list price",
+    "reason": "Highest value score for list building (free, fit 5/5). Exa is a free alternative if you prefer search-style prospecting. Free-plan limits change, so check them."
+   },
+   {
+    "use_case": "enrichment",
+    "job": "Enrichment & verification",
+    "tool_id": "hunter",
+    "tool_name": "Hunter",
+    "tier": "Free plan (50 credits)",
+    "monthly_usd": 0,
+    "price_basis": "list price",
+    "reason": "Free email finding and verification is enough for light hand-built lists."
+   },
+   {
+    "use_case": "outbound-email",
+    "job": "Outbound email / sequencing",
+    "tool_id": "smartlead",
+    "tool_name": "Smartlead",
+    "tier": "Base, 1 workspace",
+    "monthly_usd": 39,
+    "price_basis": "list price",
+    "reason": "Lowest published entry price for outbound email in our list. Instantly scores higher on value (94 vs 88) but costs $8 more; revisit at 2–5 people."
+   },
+   {
+    "use_case": "linkedin",
+    "job": "LinkedIn outreach",
+    "tool_id": "waalaxy",
+    "tool_name": "Waalaxy",
+    "tier": "1 user × €19 (EUR, not converted)",
+    "monthly_usd": 0,
+    "price_basis": "list price",
+    "reason": "Cheapest listed LinkedIn tool and the best value score in its category. Per user, billed in euros."
+   },
+   {
+    "use_case": "landing-pages",
+    "job": "Landing pages & websites",
+    "tool_id": "carrd",
+    "tool_name": "Carrd",
+    "tier": "Pro Standard, $19/yr ÷ 12",
+    "monthly_usd": 1.58,
+    "price_basis": "list price",
+    "reason": "Cheapest custom-domain landing page in our list; $19/yr is the yearly price on its Pro page."
+   },
+   {
+    "use_case": "newsletters",
+    "job": "Newsletters",
+    "tool_id": "beehiiv",
+    "tool_name": "beehiiv",
+    "tier": "Free plan",
+    "monthly_usd": 0,
+    "price_basis": "list price",
+    "reason": "Highest value score; free until you monetize. Kit is the free alternative (free up to 10,000 subscribers)."
+   },
+   {
+    "use_case": "web-analytics",
+    "job": "Web analytics",
+    "tool_id": "google-analytics",
+    "tool_name": "Google Analytics",
+    "tier": "Free",
+    "monthly_usd": 0,
+    "price_basis": "list price",
+    "reason": "Free and good enough for basic traffic and source tracking at this size."
+   }
+  ],
+  "notes": [
+   {
+    "title": "Warm network & referrals",
+    "text": "Spreadsheet or notes app you already own. Message everyone you know who fits your ICP first; no tool is needed to do this."
+   },
+   {
+    "title": "ICP & positioning",
+    "text": "Customer conversations plus a one-page doc. We list no paid tool for this job: talk to buyers first."
+   }
+  ],
+  "skip_for_now": [
+   {
+    "use_case": "Signals & intent data (RB2B, PostHog, Common Room)",
+    "reason": "Paid intent and visitor-identification tools tell you who to talk to. Until hand-built outbound gets replies, you have nobody to prioritize."
+   },
+   {
+    "use_case": "AI SDR / agentic SDR",
+    "reason": "These are contact-sales products. An agent cannot fix messaging that does not work by hand yet."
+   },
+   {
+    "use_case": "Social scheduling, search and content tools, design/video, community",
+    "reason": "Useful later; none of them is needed to get the first customers. Free Search Console is worth setting up when you publish."
+   },
+   {
+    "use_case": "AEO (AI search visibility) tools",
+    "reason": "No AI-search demand to measure yet, and warm leads and outbound come first. Revisit when content gets traffic."
+   }
+  ],
+  "crm": {
+   "team_size": "solo",
+   "pick": "HubSpot Sales Hub",
+   "pick_tool_id": "hubspot-sales-hub",
+   "pick_tier": "Google Sheet first, then HubSpot Free CRM (up to 2 users) when a signal below appears",
+   "pick_cost": "$0",
+   "runner_up": "Attio",
+   "runner_up_tool_id": "attio",
+   "runner_up_tier": "Free plan (up to 3 users)",
+   "runner_up_cost": "$0",
+   "why": "HubSpot Sales Hub has the largest small-business reviewer base among the CRMs we checked (60.5% of its G2 reviewers are small businesses) and native integrations with Apollo, Hunter, Smartlead and Waalaxy. Attio suits founders who want a flexible data model.",
+   "spreadsheet_or_crm": "A sheet is usually enough while you are the only person selling, live deals stay under about 20 and most come from your network. Move to a free CRM the week you turn on a sequencer, or once a follow-up slips.",
+   "also": "Zoho CRM Free (3 users), Bigin by Zoho Free (1 user) and Close Solo ($9/mo billed annually, built-in calling) also fit here.",
+   "last_verified": "2026-11-10",
+   "page_url": "https://profitableagentstack.com/stages/solo-founder#crm",
+   "note": "CRM is a separate category and is not included in stack totals."
+  }
+ }
+}

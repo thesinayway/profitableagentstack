@@ -1,0 +1,174 @@
+{
+ "meta": {
+  "api_version": "1.0.0",
+  "last_verified": "2026-11-16",
+  "source": "https://profitableagentstack.com",
+  "license": "CC BY 4.0. Credit \"Profitable Agent Stack (profitableagentstack.com)\", link the source page and state the last-verified date.",
+  "methodology": "value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial fit_score (1-5) x 20. cost_score = 100 - 60 x (entry_price - lowest entry price in the use case) / (highest - lowest); contact-sales tools get no cost or value score. The published formula reserves 20% for user sentiment, but no sentiment or user-review data is used in any score today, so fit and cost are reweighted 62.5/37.5. Stack picks also weigh fit for the GTM team size (reviewer company-size mix, case studies, enterprise-readiness evidence).",
+  "methodology_url": "https://profitableagentstack.com/methodology",
+  "disclaimer": "Profitable Agent Stack is for general information only, provided \"as is\" without warranties. Prices, plans, features and review data change often and may be inaccurate or out of date (last checked 2026-11-16); always verify with the vendor. Cost estimates and scores are editorial estimates, not advice. Nothing here is professional, legal or financial advice. Trademarks belong to their owners; listing is not endorsement. Some links may be affiliate or sponsored — see our Disclosure.",
+  "docs": "https://profitableagentstack.com/developers",
+  "openapi": "https://profitableagentstack.com/openapi.json"
+ },
+ "data": {
+  "id": "small",
+  "name": "Small GTM team",
+  "team_size": "2–5 GTM people",
+  "min_people": 2,
+  "max_people": 5,
+  "page_url": "https://profitableagentstack.com/stages/small-gtm-team",
+  "monthly_total_usd": 106,
+  "total_is_floor": false,
+  "extra_non_usd": "+ €38 Waalaxy (2 users)",
+  "last_verified": "2026-11-02 to 2026-11-16 (per tool)",
+  "who": "Two to five people share go-to-market. Warm intros and hand outbound already produce some meetings, and you now want a repeatable sequence plus a little content.",
+  "assumptions": "3 GTM people, 2 LinkedIn users, ~5,000 emails/mo, monthly billing, entry tiers. Waalaxy is priced per user in euros and not converted.",
+  "items": [
+   {
+    "use_case": "list-building",
+    "job": "List building & lead data",
+    "tool_id": "apollo",
+    "tool_name": "Apollo",
+    "tier": "Free Starter plan",
+    "monthly_usd": 0,
+    "price_basis": "list price",
+    "reason": "Highest value score for list building; free. Check current free-plan limits."
+   },
+   {
+    "use_case": "enrichment",
+    "job": "Enrichment & verification",
+    "tool_id": "hunter",
+    "tool_name": "Hunter",
+    "tier": "Starter",
+    "monthly_usd": 49,
+    "price_basis": "list price",
+    "reason": "Hunter shares one credit pool across unlimited team members (vendor help center), so adding people does not add seats."
+   },
+   {
+    "use_case": "outbound-email",
+    "job": "Outbound email / sequencing",
+    "tool_id": "instantly",
+    "tool_name": "Instantly",
+    "tier": "Outreach Growth",
+    "monthly_usd": 47,
+    "price_basis": "list price",
+    "reason": "Highest value score for outbound (94). Unlimited mailboxes on one plan; its lead credits are not added because Hunter covers enrichment."
+   },
+   {
+    "use_case": "linkedin",
+    "job": "LinkedIn outreach",
+    "tool_id": "waalaxy",
+    "tool_name": "Waalaxy",
+    "tier": "2 users × €19 (EUR, not converted)",
+    "monthly_usd": 0,
+    "price_basis": "list price",
+    "reason": "Light LinkedIn volume at the lowest per-user price. Move to HeyReach when you run many senders."
+   },
+   {
+    "use_case": "search-performance",
+    "job": "Search performance",
+    "tool_id": "google-search-console",
+    "tool_name": "Google Search Console",
+    "tier": "Free",
+    "monthly_usd": 0,
+    "price_basis": "list price",
+    "reason": "Free first-party search data. Paid content optimization waits until you publish weekly."
+   },
+   {
+    "use_case": "social-scheduling",
+    "job": "Social scheduling",
+    "tool_id": "buffer",
+    "tool_name": "Buffer",
+    "tier": "Free (up to 3 channels)",
+    "monthly_usd": 0,
+    "price_basis": "list price",
+    "reason": "Free for up to 3 channels; best value score in its category (tied with Typefully)."
+   },
+   {
+    "use_case": "landing-pages",
+    "job": "Landing pages & websites",
+    "tool_id": "framer",
+    "tool_name": "Framer",
+    "tier": "Basic (yearly-billing view)",
+    "monthly_usd": 10,
+    "price_basis": "list price",
+    "reason": "Multi-page site with your own domain for content/SEO. Carrd is cheaper but single-page."
+   },
+   {
+    "use_case": "newsletters",
+    "job": "Newsletters",
+    "tool_id": "beehiiv",
+    "tool_name": "beehiiv",
+    "tier": "Free plan",
+    "monthly_usd": 0,
+    "price_basis": "list price",
+    "reason": "Free until you monetize."
+   },
+   {
+    "use_case": "web-analytics",
+    "job": "Web analytics",
+    "tool_id": "google-analytics",
+    "tool_name": "Google Analytics",
+    "tier": "Free",
+    "monthly_usd": 0,
+    "price_basis": "list price",
+    "reason": "Free web analytics; add product/funnel analytics later."
+   },
+   {
+    "use_case": "signals",
+    "job": "Signals, intent & analytics",
+    "tool_id": "rb2b",
+    "tool_name": "RB2B",
+    "tier": "Free plan",
+    "monthly_usd": 0,
+    "price_basis": "list price",
+    "reason": "Optional, and only if warm intros plus outbound are already booking meetings: free website-visitor identification to prioritize follow-up."
+   }
+  ],
+  "notes": [
+   {
+    "title": "Warm network & referrals",
+    "text": "Still your best channel. Keep it in a shared spreadsheet or your CRM."
+   },
+   {
+    "title": "ICP & positioning",
+    "text": "Revisit with real call notes; no paid tool listed for this job."
+   }
+  ],
+  "skip_for_now": [
+   {
+    "use_case": "Paid signals & intent data",
+    "reason": "Use at most the free RB2B plan, and only once outbound is booking meetings."
+   },
+   {
+    "use_case": "AI SDR / agentic SDR",
+    "reason": "Contact-sales pricing and little to feed it yet."
+   },
+   {
+    "use_case": "Content optimization (Surfer), video, community",
+    "reason": "Use Search Console and publish first; add paid content tools once content is a weekly habit."
+   },
+   {
+    "use_case": "AEO (AI search visibility) tools",
+    "reason": "Skip until AI assistants send you visits you can see in analytics; warm leads and outbound still produce more pipeline than AI-search visibility."
+   }
+  ],
+  "crm": {
+   "team_size": "small",
+   "pick": "HubSpot Sales Hub",
+   "pick_tool_id": "hubspot-sales-hub",
+   "pick_tier": "Free if 2 people work deals; Starter for 3 (3 seats × $20 list)",
+   "pick_cost": "$0–$60/mo",
+   "runner_up": "Pipedrive",
+   "runner_up_tool_id": "pipedrive",
+   "runner_up_tier": "Lite, 3 seats × $14 billed annually ($24 monthly)",
+   "runner_up_cost": "$42–$72/mo",
+   "why": "HubSpot integrates natively with Instantly, Hunter, Apollo and Waalaxy, so replies and meetings can log themselves. HubSpot currently shows a limited-time lower Starter price for new customers; we use list price. Pipedrive is a strong choice for a simple visual pipeline (75.1% of its G2 reviewers are small businesses).",
+   "spreadsheet_or_crm": "A shared sheet can work for a short while, but at 2–5 a second person usually already works the pipeline, which is the clearest signal to add a CRM.",
+   "also": "Attio and Zoho CRM are free for up to 3 users. Close Essentials ($35/user/mo billed annually) fits phone-heavy teams.",
+   "last_verified": "2026-11-10",
+   "page_url": "https://profitableagentstack.com/stages/small-gtm-team#crm",
+   "note": "CRM is a separate category and is not included in stack totals."
+  }
+ }
+}

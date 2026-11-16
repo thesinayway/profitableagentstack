@@ -1,0 +1,127 @@
+{
+ "meta": {
+  "api_version": "1.0.0",
+  "last_verified": "2026-11-10",
+  "source": "https://profitableagentstack.com",
+  "license": "CC BY 4.0. Credit \"Profitable Agent Stack (profitableagentstack.com)\", link the source page and state the last-verified date.",
+  "methodology": "value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial fit_score (1-5) x 20. cost_score = 100 - 60 x (entry_price - lowest entry price in the use case) / (highest - lowest); contact-sales tools get no cost or value score. The published formula reserves 20% for user sentiment, but no sentiment or user-review data is used in any score today, so fit and cost are reweighted 62.5/37.5. Stack picks also weigh fit for the GTM team size (reviewer company-size mix, case studies, enterprise-readiness evidence).",
+  "methodology_url": "https://profitableagentstack.com/methodology",
+  "disclaimer": "Profitable Agent Stack is for general information only, provided \"as is\" without warranties. Prices, plans, features and review data change often and may be inaccurate or out of date (last checked 2026-11-16); always verify with the vendor. Cost estimates and scores are editorial estimates, not advice. Nothing here is professional, legal or financial advice. Trademarks belong to their owners; listing is not endorsement. Some links may be affiliate or sponsored — see our Disclosure.",
+  "docs": "https://profitableagentstack.com/developers",
+  "openapi": "https://profitableagentstack.com/openapi.json"
+ },
+ "intro": "Your CRM is where conversations and deals live. We keep it separate from the recommended stack, so stack totals do not include it. Many teams start on a shared spreadsheet and add a CRM when it fits.",
+ "move_from_spreadsheet_when": [
+  {
+   "signal": "A second person works the pipeline",
+   "detail": "a cofounder, first seller, contractor SDR or agency. Shared sheets struggle with ownership, duplicates and overwritten notes."
+  },
+  {
+   "signal": "More than about 20–30 live deals or conversations at once",
+   "detail": "or a follow-up has slipped more than once."
+  },
+  {
+   "signal": "You copy sequencer replies into the sheet by hand",
+   "detail": "more than about 30 minutes a week. Most CRMs here receive replies from Instantly, Smartlead or lemlist directly."
+  },
+  {
+   "signal": "Email and LinkedIn reach the same people",
+   "detail": "one record per person stops you double-touching prospects."
+  },
+  {
+   "signal": "Investor or board pipeline reporting takes more than about an hour a month",
+   "detail": "stage history and pipeline reports are built into every CRM listed, including free plans (depth varies)."
+  },
+  {
+   "signal": "Inbound leads arrive or your first sales hire starts",
+   "detail": "forms, routing and activity history make the handoff work."
+  }
+ ],
+ "data": [
+  {
+   "team_size": "solo",
+   "pick": "HubSpot Sales Hub",
+   "pick_tool_id": "hubspot-sales-hub",
+   "pick_tier": "Google Sheet first, then HubSpot Free CRM (up to 2 users) when a signal below appears",
+   "pick_cost": "$0",
+   "runner_up": "Attio",
+   "runner_up_tool_id": "attio",
+   "runner_up_tier": "Free plan (up to 3 users)",
+   "runner_up_cost": "$0",
+   "why": "HubSpot Sales Hub has the largest small-business reviewer base among the CRMs we checked (60.5% of its G2 reviewers are small businesses) and native integrations with Apollo, Hunter, Smartlead and Waalaxy. Attio suits founders who want a flexible data model.",
+   "spreadsheet_or_crm": "A sheet is usually enough while you are the only person selling, live deals stay under about 20 and most come from your network. Move to a free CRM the week you turn on a sequencer, or once a follow-up slips.",
+   "also": "Zoho CRM Free (3 users), Bigin by Zoho Free (1 user) and Close Solo ($9/mo billed annually, built-in calling) also fit here.",
+   "last_verified": "2026-11-10",
+   "page_url": "https://profitableagentstack.com/stages/solo-founder#crm",
+   "note": "CRM is a separate category and is not included in stack totals."
+  },
+  {
+   "team_size": "small",
+   "pick": "HubSpot Sales Hub",
+   "pick_tool_id": "hubspot-sales-hub",
+   "pick_tier": "Free if 2 people work deals; Starter for 3 (3 seats × $20 list)",
+   "pick_cost": "$0–$60/mo",
+   "runner_up": "Pipedrive",
+   "runner_up_tool_id": "pipedrive",
+   "runner_up_tier": "Lite, 3 seats × $14 billed annually ($24 monthly)",
+   "runner_up_cost": "$42–$72/mo",
+   "why": "HubSpot integrates natively with Instantly, Hunter, Apollo and Waalaxy, so replies and meetings can log themselves. HubSpot currently shows a limited-time lower Starter price for new customers; we use list price. Pipedrive is a strong choice for a simple visual pipeline (75.1% of its G2 reviewers are small businesses).",
+   "spreadsheet_or_crm": "A shared sheet can work for a short while, but at 2–5 a second person usually already works the pipeline, which is the clearest signal to add a CRM.",
+   "also": "Attio and Zoho CRM are free for up to 3 users. Close Essentials ($35/user/mo billed annually) fits phone-heavy teams.",
+   "last_verified": "2026-11-10",
+   "page_url": "https://profitableagentstack.com/stages/small-gtm-team#crm",
+   "note": "CRM is a separate category and is not included in stack totals."
+  },
+  {
+   "team_size": "early",
+   "pick": "HubSpot Sales Hub",
+   "pick_tool_id": "hubspot-sales-hub",
+   "pick_tier": "Starter, 10 seats × $20 (list); Professional when you need forecasting and advanced automation",
+   "pick_cost": "$200/mo",
+   "runner_up": "Pipedrive",
+   "runner_up_tool_id": "pipedrive",
+   "runner_up_tier": "Growth, 10 seats × $39 billed annually ($49 monthly)",
+   "runner_up_cost": "$390–$490/mo",
+   "why": "35.5% of HubSpot Sales Hub's G2 reviewers are mid-market companies, which supports staying on it as the team grows. Pipedrive Growth adds email sync, automations and forecasts.",
+   "spreadsheet_or_crm": "At 6–15 GTM people a shared sheet is rarely enough: several people work deals and replies arrive from more than one channel.",
+   "also": "Zoho CRM Standard ($14/user/mo billed annually) is a lower-cost option with native Hunter, lemlist and Smartlead integrations.",
+   "last_verified": "2026-11-10",
+   "page_url": "https://profitableagentstack.com/stages/early-scaling#crm",
+   "note": "CRM is a separate category and is not included in stack totals."
+  },
+  {
+   "team_size": "scaling",
+   "pick": "HubSpot Sales Hub",
+   "pick_tool_id": "hubspot-sales-hub",
+   "pick_tier": "Professional, 25 seats × $90 billed annually, plus $1,500 one-time onboarding",
+   "pick_cost": "$2,250/mo + $1,500 one-time",
+   "runner_up": "Salesforce Sales Cloud",
+   "runner_up_tool_id": "salesforce-sales-cloud",
+   "runner_up_tier": "Pro Suite, 25 seats × $100 (billed annually, contract)",
+   "runner_up_cost": "$2,500/mo",
+   "why": "Professional adds forecasting and advanced automation. Salesforce has the largest mid-market and enterprise reviewer base in the category (45.7% mid-market, 33.7% enterprise of its G2 reviewers). If you pair Salesforce with Instantly, note that Instantly's native Salesforce integration retires on December 10, 2026; Instantly documents OutboundSync or Zapier as replacements.",
+   "spreadsheet_or_crm": "At this size the CRM is the system of record; a spreadsheet works only for side lists.",
+   "also": "Zoho CRM Professional (25 × $23 billed annually, about $575/mo) is the lowest-cost credible option we found at this size.",
+   "last_verified": "2026-11-10",
+   "page_url": "https://profitableagentstack.com/stages/scaling#crm",
+   "note": "CRM is a separate category and is not included in stack totals."
+  },
+  {
+   "team_size": "large",
+   "pick": "Salesforce Sales Cloud",
+   "pick_tool_id": "salesforce-sales-cloud",
+   "pick_tier": "Core (replaces Enterprise Edition), 40 seats × $195 billed annually; expect a quote",
+   "pick_cost": "from $7,800/mo",
+   "runner_up": "HubSpot Sales Hub",
+   "runner_up_tool_id": "hubspot-sales-hub",
+   "runner_up_tier": "Enterprise, 40 seats × $150, plus $3,500 one-time onboarding",
+   "runner_up_cost": "$6,000/mo + $3,500 one-time",
+   "why": "Salesforce has the largest enterprise reviewer base among the CRMs we checked (33.7% of its G2 reviewers are enterprise). Plan for a longer rollout. If you send with Instantly, its native Salesforce integration retires on December 10, 2026 (OutboundSync or Zapier are the documented replacements).",
+   "spreadsheet_or_crm": "At 40+ the CRM is the system of record; seat counts and admin rules matter more than the list price.",
+   "also": "",
+   "last_verified": "2026-11-10",
+   "page_url": "https://profitableagentstack.com/stages/large-multi-team#crm",
+   "note": "CRM is a separate category and is not included in stack totals."
+  }
+ ]
+}

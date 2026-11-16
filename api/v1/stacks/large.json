@@ -1,0 +1,196 @@
+{
+ "meta": {
+  "api_version": "1.0.0",
+  "last_verified": "2026-11-16",
+  "source": "https://profitableagentstack.com",
+  "license": "CC BY 4.0. Credit \"Profitable Agent Stack (profitableagentstack.com)\", link the source page and state the last-verified date.",
+  "methodology": "value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial fit_score (1-5) x 20. cost_score = 100 - 60 x (entry_price - lowest entry price in the use case) / (highest - lowest); contact-sales tools get no cost or value score. The published formula reserves 20% for user sentiment, but no sentiment or user-review data is used in any score today, so fit and cost are reweighted 62.5/37.5. Stack picks also weigh fit for the GTM team size (reviewer company-size mix, case studies, enterprise-readiness evidence).",
+  "methodology_url": "https://profitableagentstack.com/methodology",
+  "disclaimer": "Profitable Agent Stack is for general information only, provided \"as is\" without warranties. Prices, plans, features and review data change often and may be inaccurate or out of date (last checked 2026-11-16); always verify with the vendor. Cost estimates and scores are editorial estimates, not advice. Nothing here is professional, legal or financial advice. Trademarks belong to their owners; listing is not endorsement. Some links may be affiliate or sponsored — see our Disclosure.",
+  "docs": "https://profitableagentstack.com/developers",
+  "openapi": "https://profitableagentstack.com/openapi.json"
+ },
+ "data": {
+  "id": "large",
+  "name": "Large / multi-team",
+  "team_size": "40+ GTM people",
+  "min_people": 41,
+  "max_people": null,
+  "page_url": "https://profitableagentstack.com/stages/large-multi-team",
+  "monthly_total_usd": 7587,
+  "total_is_floor": true,
+  "extra_non_usd": "(list-price floor)",
+  "last_verified": "2026-11-02 to 2026-11-16 (per tool)",
+  "who": "More than forty people across several teams or regions. Procurement, security review and data-processing agreements are part of buying anything.",
+  "assumptions": "40+ GTM people across teams, 25 of them prospecting in Apollo (Organization, billed annually, 3-seat minimum), ~25 LinkedIn senders (HeyReach Agency tier), monthly list prices except Apollo and Common Room (billed annually, Common Room 5 seats). Clay is its Growth monthly list price; its Enterprise tier is custom. Salesloft (outbound) has no public price and counts as $0 here; expect a per-seat, annual quote with a seat minimum. Peec AI is Advanced's monthly list price; SSO needs its Enterprise quote. Enterprise tiers, SSO and security documents are quote-based. This total is a floor, not a quote.",
+  "items": [
+   {
+    "use_case": "list-building",
+    "job": "List building & lead data",
+    "tool_id": "apollo",
+    "tool_name": "Apollo",
+    "tier": "Organization, 25 seats × $119 (billed annually, 3-seat min)",
+    "monthly_usd": 2975,
+    "price_basis": "quote-based",
+    "reason": "Not the free Starter: 40+ people need SSO and admin controls, which Apollo sells on Organization ($119/seat/mo billed annually) and its Custom plan. Size evidence: of 9,858 G2 reviews, 28% come from mid-market and 5% from enterprise companies (roughly 2,800 and 450 reviewers), Apollo publishes a 130-rep customer story (Superside), and it lists SOC 2 Type II and ISO 27001 in its trust center. Seats assumed: 25 of your 40+ people prospect. ZoomInfo has a larger enterprise review share (26%) but no public price: quote both."
+   },
+   {
+    "use_case": "enrichment",
+    "job": "Enrichment & verification",
+    "tool_id": "clay",
+    "tool_name": "Clay",
+    "tier": "Growth from $495/mo; Enterprise is custom",
+    "monthly_usd": 495,
+    "price_basis": "quote-based",
+    "reason": "Clay's Enterprise tier lists SSO/SAML, SCIM, role-based access, IP allowlists and a custom DPA, it states SOC 2 Type II and ISO 27001, and its case studies include Intercom, Verkada and Rippling. Hunter's public pages list a custom enterprise volume plan but no SSO. Caveat: Clay's G2 reviewers skew small (74% under 51 employees, 1% enterprise), with a learning curve and fast credit use as top complaints, so pilot with credit budgets. $495 is Growth's monthly list price; SSO and RBAC need the Enterprise quote."
+   },
+   {
+    "use_case": "outbound-email",
+    "job": "Outbound email / sequencing",
+    "tool_id": "salesloft",
+    "tool_name": "Salesloft",
+    "tier": "Enterprise quote (per seat, no public list price)",
+    "monthly_usd": 0,
+    "price_basis": "quote-based",
+    "reason": "Pick over Outreach for a 40+ team: G2 reviewers are 32.6% enterprise and 50.9% mid-market (4,287 reviews) versus 21.7% and 59.2% for Outreach (3,574), G2 rates its ease of setup 8.6 vs 7.7 and support 8.6 vs 8.3, and it publicly documents SAML SSO (Okta, Entra, OneLogin) plus SOC 2 Type II, ISO 27001 and ISO 27701 with a public trust portal. No public price: $0 is counted, so this total is a floor. Outreach is the close alternative (SOC 2 Type II, ISO 27001, ISO 42001; trust center only via an account exec). Salesloft merged with Clari (Dec 2025): ask about packaging and renewal terms."
+   },
+   {
+    "use_case": "linkedin",
+    "job": "LinkedIn outreach",
+    "tool_id": "heyreach",
+    "tool_name": "HeyReach",
+    "tier": "Agency (25 senders)",
+    "monthly_usd": 999,
+    "price_basis": "list price",
+    "reason": "$999/mo for 25 senders beats $79 × 25. Roles are documented, but we found no SOC 2 claim and its DPA says SSO is not currently supported: confirm with security."
+   },
+   {
+    "use_case": "signals",
+    "job": "Signals, intent & analytics",
+    "tool_id": "common-room",
+    "tool_name": "Common Room",
+    "tier": "Essential (billed annually, 5 seats)",
+    "monthly_usd": 2500,
+    "price_basis": "list price",
+    "reason": "Vendor security page lists a SOC 2 Type 2 report, GDPR and CCPA, SSO/SAML/SCIM and role-based access."
+   },
+   {
+    "use_case": "search-performance",
+    "job": "Search performance",
+    "tool_id": "google-search-console",
+    "tool_name": "Google Search Console",
+    "tier": "Free",
+    "monthly_usd": 0,
+    "price_basis": "list price",
+    "reason": "Free first-party search performance data."
+   },
+   {
+    "use_case": "content-optimization",
+    "job": "Content optimization",
+    "tool_id": "surfer",
+    "tool_name": "Surfer",
+    "tier": "Discovery, billed yearly",
+    "monthly_usd": 49,
+    "price_basis": "list price",
+    "reason": "Content optimization, a separate job from search performance; check seat limits for multiple teams."
+   },
+   {
+    "use_case": "aeo",
+    "job": "AEO (AI search visibility)",
+    "tool_id": "peec-ai",
+    "tool_name": "Peec AI",
+    "tier": "Advanced, monthly list (SSO needs Enterprise quote)",
+    "monthly_usd": 495,
+    "price_basis": "quote-based",
+    "reason": "Advanced lists 350 prompts, 5 projects and a Data Studio connector, and SOC 2 is on every plan, but SSO is Enterprise-only (custom price): get a quote if security requires SSO. Profound (contact sales; SOC 2, SSO/SAML) is the enterprise-first alternative, and AthenaHQ and Scrunch also list Enterprise SSO. We found no G2 reviewer-size data for these tools."
+   },
+   {
+    "use_case": "social-scheduling",
+    "job": "Social scheduling",
+    "tool_id": "postiz",
+    "tool_name": "Postiz",
+    "tier": "Pro",
+    "monthly_usd": 49,
+    "price_basis": "list price",
+    "reason": "Social scheduling across teams."
+   },
+   {
+    "use_case": "landing-pages",
+    "job": "Landing pages & websites",
+    "tool_id": "webflow",
+    "tool_name": "Webflow",
+    "tier": "Premium (billed yearly)",
+    "monthly_usd": 25,
+    "price_basis": "list price",
+    "reason": "CMS-capable site; lowest CMS tier. Enterprise plans are quote-based."
+   },
+   {
+    "use_case": "web-analytics",
+    "job": "Web analytics",
+    "tool_id": "google-analytics",
+    "tool_name": "Google Analytics",
+    "tier": "Free",
+    "monthly_usd": 0,
+    "price_basis": "list price",
+    "reason": "Website traffic and sources."
+   },
+   {
+    "use_case": "signals",
+    "job": "Product & funnel analytics",
+    "tool_id": "posthog",
+    "tool_name": "PostHog",
+    "tier": "Free allowance",
+    "monthly_usd": 0,
+    "price_basis": "list price",
+    "reason": "Product/funnel analytics, usage-based beyond the free allowance."
+   },
+   {
+    "use_case": "ai-sdr",
+    "job": "AI SDR / agentic SDR",
+    "tool_id": "artisan",
+    "tool_name": "Artisan",
+    "tier": "Contact sales — optional, not counted",
+    "monthly_usd": 0,
+    "price_basis": "quote-based",
+    "reason": "Only after a measured pilot: contact sales is fine at this size when the need is real. 11x and Qualified are the other listed options."
+   }
+  ],
+  "notes": [
+   {
+    "title": "Warm network & referrals",
+    "text": "Account-based; lives in the CRM."
+   },
+   {
+    "title": "ICP & positioning",
+    "text": "Owned by product marketing; no paid tool listed."
+   }
+  ],
+  "skip_for_now": [
+   {
+    "use_case": "Newsletter tooling",
+    "reason": "Brand and lifecycle email usually sit with a marketing platform you already own; not counted."
+   },
+   {
+    "use_case": "Community and video tools",
+    "reason": "Optional, not counted."
+   }
+  ],
+  "crm": {
+   "team_size": "large",
+   "pick": "Salesforce Sales Cloud",
+   "pick_tool_id": "salesforce-sales-cloud",
+   "pick_tier": "Core (replaces Enterprise Edition), 40 seats × $195 billed annually; expect a quote",
+   "pick_cost": "from $7,800/mo",
+   "runner_up": "HubSpot Sales Hub",
+   "runner_up_tool_id": "hubspot-sales-hub",
+   "runner_up_tier": "Enterprise, 40 seats × $150, plus $3,500 one-time onboarding",
+   "runner_up_cost": "$6,000/mo + $3,500 one-time",
+   "why": "Salesforce has the largest enterprise reviewer base among the CRMs we checked (33.7% of its G2 reviewers are enterprise). Plan for a longer rollout. If you send with Instantly, its native Salesforce integration retires on December 10, 2026 (OutboundSync or Zapier are the documented replacements).",
+   "spreadsheet_or_crm": "At 40+ the CRM is the system of record; seat counts and admin rules matter more than the list price.",
+   "also": "",
+   "last_verified": "2026-11-10",
+   "page_url": "https://profitableagentstack.com/stages/large-multi-team#crm",
+   "note": "CRM is a separate category and is not included in stack totals."
+  }
+ }
+}

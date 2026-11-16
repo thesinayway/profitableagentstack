@@ -1,0 +1,981 @@
+{
+ "openapi": "3.1.0",
+ "info": {
+  "title": "Profitable Agent Stack API",
+  "version": "1.0.0",
+  "summary": "AI GTM tool prices, recommended stacks by GTM team size, use cases and CRM picks.",
+  "description": "Read-only JSON. No authentication, no API key, CORS open. Prices are published list prices with source URLs and last-verified dates (last full check 2026-11-16); always tell users to verify with the vendor. value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial fit_score (1-5) x 20. cost_score = 100 - 60 x (entry_price - lowest entry price in the use case) / (highest - lowest); contact-sales tools get no cost or value score. The published formula reserves 20% for user sentiment, but no sentiment or user-review data is used in any score today, so fit and cost are reweighted 62.5/37.5. Stack picks also weigh fit for the GTM team size (reviewer company-size mix, case studies, enterprise-readiness evidence). License: CC BY 4.0. Credit \"Profitable Agent Stack (profitableagentstack.com)\", link the source page and state the last-verified date. Not advice.",
+  "contact": {
+   "name": "Profitable Agent Stack",
+   "email": "limoraiassistant@thesinayway.com",
+   "url": "https://profitableagentstack.com/contact"
+  },
+  "license": {
+   "name": "CC BY 4.0",
+   "url": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ },
+ "servers": [
+  {
+   "url": "https://profitableagentstack.com"
+  }
+ ],
+ "externalDocs": {
+  "url": "https://profitableagentstack.com/developers",
+  "description": "Developer docs, MCP endpoint and examples"
+ },
+ "paths": {
+  "/api/v1/index.json": {
+   "get": {
+    "operationId": "getApiIndex",
+    "summary": "API index",
+    "description": "Lists endpoints, team sizes and query parameters.",
+    "tags": [
+     "data"
+    ],
+    "parameters": [],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Not found (RFC 9457 problem details)",
+      "content": {
+       "application/problem+json": {
+        "schema": {
+         "$ref": "#/components/schemas/Problem"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/v1/tools.json": {
+   "get": {
+    "operationId": "listTools",
+    "summary": "List AI GTM tools",
+    "description": "All tools ranked by value score, with entry price, currency, price status, pricing source URL and last-verified date. Optional filters.",
+    "tags": [
+     "data"
+    ],
+    "parameters": [
+     {
+      "name": "use_case",
+      "in": "query",
+      "required": false,
+      "description": "Filter by use case id",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "positioning",
+        "list-building",
+        "enrichment",
+        "outbound-email",
+        "linkedin",
+        "ai-sdr",
+        "signals",
+        "search-performance",
+        "content-optimization",
+        "aeo",
+        "social-scheduling",
+        "landing-pages",
+        "newsletters",
+        "design-video",
+        "community",
+        "web-analytics",
+        "crm"
+       ]
+      }
+     },
+     {
+      "name": "team_size",
+      "in": "query",
+      "required": false,
+      "description": "Filter to tools that fit a GTM team size",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "solo",
+        "small",
+        "early",
+        "scaling",
+        "large"
+       ]
+      }
+     },
+     {
+      "name": "max_price",
+      "in": "query",
+      "required": false,
+      "description": "Maximum entry price per month (USD); excludes contact-sales tools",
+      "schema": {
+       "type": "number",
+       "minimum": 0
+      }
+     },
+     {
+      "name": "q",
+      "in": "query",
+      "required": false,
+      "description": "Case-insensitive text match on tool name or use case",
+      "schema": {
+       "type": "string"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "required": [
+          "meta",
+          "data"
+         ],
+         "properties": {
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          },
+          "data": {
+           "type": "array",
+           "items": {
+            "$ref": "#/components/schemas/Tool"
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Not found (RFC 9457 problem details)",
+      "content": {
+       "application/problem+json": {
+        "schema": {
+         "$ref": "#/components/schemas/Problem"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/v1/tools/{tool_id}.json": {
+   "get": {
+    "operationId": "getTool",
+    "summary": "Get one tool",
+    "description": "One tool by id (slug of its name, e.g. apollo, smartlead).",
+    "tags": [
+     "data"
+    ],
+    "parameters": [
+     {
+      "name": "tool_id",
+      "in": "path",
+      "required": true,
+      "description": "Tool id",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "apollo",
+        "clay",
+        "google-search-console",
+        "framer",
+        "beehiiv",
+        "hubspot-sales-hub",
+        "instantly",
+        "salesforce-sales-cloud",
+        "smartlead",
+        "exa",
+        "hunter",
+        "fullenrich",
+        "waalaxy",
+        "heygen",
+        "rb2b",
+        "posthog",
+        "ahrefs-free",
+        "surfer",
+        "buffer",
+        "typefully",
+        "carrd",
+        "webflow",
+        "kit",
+        "descript",
+        "capcut",
+        "circle",
+        "google-analytics",
+        "unify",
+        "attio",
+        "zoho-crm",
+        "bigin-by-zoho",
+        "close",
+        "pipedrive",
+        "heyreach",
+        "peec-ai",
+        "salesforge",
+        "otterly-ai",
+        "regie-ai",
+        "apollo-built-in-crm",
+        "plausible",
+        "reply-io",
+        "swan-ai",
+        "origami",
+        "rox",
+        "scrunch",
+        "folk",
+        "copper",
+        "lemlist",
+        "expandi",
+        "postiz",
+        "common-room",
+        "fathom-analytics",
+        "athenahq",
+        "warmly",
+        "amplemarket",
+        "lightfield",
+        "woodpecker",
+        "zoominfo",
+        "clearout",
+        "11x",
+        "artisan",
+        "qualified",
+        "canva",
+        "discord",
+        "profound",
+        "salesloft",
+        "outreach",
+        "aisdr",
+        "microsoft-sales-development-agent",
+        "nooks",
+        "6sense-bdr-agent",
+        "day-ai"
+       ]
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "required": [
+          "meta",
+          "data"
+         ],
+         "properties": {
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          },
+          "data": {
+           "$ref": "#/components/schemas/Tool"
+          }
+         }
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Not found (RFC 9457 problem details)",
+      "content": {
+       "application/problem+json": {
+        "schema": {
+         "$ref": "#/components/schemas/Problem"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/v1/stacks.json": {
+   "get": {
+    "operationId": "listStacks",
+    "summary": "List recommended stacks",
+    "description": "Recommended stack for each of five GTM team sizes with line items, estimated monthly total, assumptions, what to skip and the CRM pick.",
+    "tags": [
+     "data"
+    ],
+    "parameters": [],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "required": [
+          "meta",
+          "data"
+         ],
+         "properties": {
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          },
+          "data": {
+           "type": "array",
+           "items": {
+            "$ref": "#/components/schemas/Stack"
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Not found (RFC 9457 problem details)",
+      "content": {
+       "application/problem+json": {
+        "schema": {
+         "$ref": "#/components/schemas/Problem"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/v1/stacks/{team_size}.json": {
+   "get": {
+    "operationId": "getStack",
+    "summary": "Get the stack for a GTM team size",
+    "description": "solo = 1 GTM person, small = 2-5, early = 6-15, scaling = 16-40, large = 40+.",
+    "tags": [
+     "data"
+    ],
+    "parameters": [
+     {
+      "name": "team_size",
+      "in": "path",
+      "required": true,
+      "description": "GTM team size id",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "solo",
+        "small",
+        "early",
+        "scaling",
+        "large"
+       ]
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "required": [
+          "meta",
+          "data"
+         ],
+         "properties": {
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          },
+          "data": {
+           "$ref": "#/components/schemas/Stack"
+          }
+         }
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Not found (RFC 9457 problem details)",
+      "content": {
+       "application/problem+json": {
+        "schema": {
+         "$ref": "#/components/schemas/Problem"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/v1/use-cases.json": {
+   "get": {
+    "operationId": "listUseCases",
+    "summary": "List use cases",
+    "description": "Use cases (categories) with the best-value tool, lowest entry price and ranked tool ids.",
+    "tags": [
+     "data"
+    ],
+    "parameters": [],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "required": [
+          "meta",
+          "data"
+         ],
+         "properties": {
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          },
+          "data": {
+           "type": "array",
+           "items": {
+            "$ref": "#/components/schemas/UseCase"
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Not found (RFC 9457 problem details)",
+      "content": {
+       "application/problem+json": {
+        "schema": {
+         "$ref": "#/components/schemas/Problem"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/v1/crm.json": {
+   "get": {
+    "operationId": "getCrmPicks",
+    "summary": "CRM picks by GTM team size",
+    "description": "CRM pick and runner-up per team size. CRM is separate from the stacks and not in stack totals.",
+    "tags": [
+     "data"
+    ],
+    "parameters": [],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          },
+          "data": {
+           "type": "array",
+           "items": {
+            "$ref": "#/components/schemas/Crm"
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Not found (RFC 9457 problem details)",
+      "content": {
+       "application/problem+json": {
+        "schema": {
+         "$ref": "#/components/schemas/Problem"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/v1/releases.json": {
+   "get": {
+    "operationId": "listReleases",
+    "summary": "New releases and price changes",
+    "description": "Weekly log of AI GTM tool releases and price changes with source links.",
+    "tags": [
+     "data"
+    ],
+    "parameters": [],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "required": [
+          "meta",
+          "data"
+         ],
+         "properties": {
+          "meta": {
+           "$ref": "#/components/schemas/Meta"
+          },
+          "data": {
+           "type": "array",
+           "items": {
+            "type": "object",
+            "properties": {
+             "date": {
+              "type": "string",
+              "format": "date"
+             },
+             "text": {
+              "type": "string"
+             },
+             "source": {
+              "type": "string",
+              "format": "uri"
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "Not found (RFC 9457 problem details)",
+      "content": {
+       "application/problem+json": {
+        "schema": {
+         "$ref": "#/components/schemas/Problem"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/tools.json": {
+   "get": {
+    "operationId": "getLegacyDataset",
+    "deprecated": true,
+    "summary": "Legacy full dataset",
+    "description": "Original unversioned dataset. Prefer /api/v1.",
+    "tags": [
+     "legacy"
+    ],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ },
+ "components": {
+  "schemas": {
+   "Meta": {
+    "type": "object",
+    "properties": {
+     "api_version": {
+      "type": "string"
+     },
+     "last_verified": {
+      "type": "string",
+      "description": "Date of the last full price check (YYYY-MM-DD)"
+     },
+     "license": {
+      "type": "string"
+     },
+     "methodology": {
+      "type": "string"
+     },
+     "disclaimer": {
+      "type": "string"
+     },
+     "count": {
+      "type": "integer"
+     }
+    }
+   },
+   "Tool": {
+    "type": "object",
+    "required": [
+     "id",
+     "name",
+     "use_case",
+     "price_text",
+     "last_verified",
+     "pricing_source_url"
+    ],
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "name": {
+      "type": "string"
+     },
+     "use_case": {
+      "type": "string"
+     },
+     "use_case_name": {
+      "type": "string"
+     },
+     "team_sizes": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "enum": [
+        "solo",
+        "small",
+        "early",
+        "scaling",
+        "large"
+       ]
+      }
+     },
+     "price_status": {
+      "type": "string",
+      "enum": [
+       "published",
+       "contact",
+       "unverified"
+      ]
+     },
+     "price_from_monthly": {
+      "type": [
+       "number",
+       "null"
+      ],
+      "description": "Lowest published monthly entry price (0 = free plan); null if contact sales"
+     },
+     "currency": {
+      "type": "string",
+      "enum": [
+       "USD",
+       "EUR"
+      ]
+     },
+     "price_text": {
+      "type": "string"
+     },
+     "price_verified": {
+      "type": "boolean"
+     },
+     "last_verified": {
+      "type": "string",
+      "format": "date"
+     },
+     "pricing_source_url": {
+      "type": "string",
+      "format": "uri"
+     },
+     "homepage_url": {
+      "type": "string",
+      "format": "uri"
+     },
+     "link": {
+      "type": "string",
+      "format": "uri"
+     },
+     "link_is_affiliate": {
+      "type": "boolean",
+      "description": "True if link is an affiliate link (disclosed; never affects scores)"
+     },
+     "fit_score": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Editorial fit 1-5"
+     },
+     "cost_score": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "value_score": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "best_value_in_use_case": {
+      "type": "boolean"
+     },
+     "in_recommended_stacks": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "crm_pick_for": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "page_url": {
+      "type": "string",
+      "format": "uri"
+     },
+     "reviews_url": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "format": "uri"
+     },
+     "note": {
+      "type": "string"
+     }
+    }
+   },
+   "StackItem": {
+    "type": "object",
+    "properties": {
+     "use_case": {
+      "type": "string"
+     },
+     "job": {
+      "type": "string"
+     },
+     "tool_id": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "tool_name": {
+      "type": "string"
+     },
+     "tier": {
+      "type": "string"
+     },
+     "monthly_usd": {
+      "type": "number"
+     },
+     "price_basis": {
+      "type": "string"
+     },
+     "reason": {
+      "type": "string"
+     }
+    }
+   },
+   "Stack": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string",
+      "enum": [
+       "solo",
+       "small",
+       "early",
+       "scaling",
+       "large"
+      ]
+     },
+     "name": {
+      "type": "string"
+     },
+     "team_size": {
+      "type": "string"
+     },
+     "min_people": {
+      "type": "integer"
+     },
+     "max_people": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "page_url": {
+      "type": "string",
+      "format": "uri"
+     },
+     "monthly_total_usd": {
+      "type": "number"
+     },
+     "total_is_floor": {
+      "type": "boolean"
+     },
+     "extra_non_usd": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "last_verified": {
+      "type": "string"
+     },
+     "who": {
+      "type": "string"
+     },
+     "assumptions": {
+      "type": "string"
+     },
+     "items": {
+      "type": "array",
+      "items": {
+       "$ref": "#/components/schemas/StackItem"
+      }
+     },
+     "notes": {
+      "type": "array",
+      "items": {
+       "type": "object"
+      }
+     },
+     "skip_for_now": {
+      "type": "array",
+      "items": {
+       "type": "object"
+      }
+     },
+     "crm": {
+      "oneOf": [
+       {
+        "$ref": "#/components/schemas/Crm"
+       },
+       {
+        "type": "null"
+       }
+      ]
+     }
+    }
+   },
+   "UseCase": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "name": {
+      "type": "string"
+     },
+     "group": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "separate_from_stacks": {
+      "type": "boolean"
+     },
+     "page_url": {
+      "type": "string",
+      "format": "uri"
+     },
+     "best_value_tool_id": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "lowest_entry_price_tool_ids": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "lowest_entry_price_monthly_usd": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "tool_ids": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    }
+   },
+   "Crm": {
+    "type": "object",
+    "properties": {
+     "team_size": {
+      "type": "string"
+     },
+     "pick": {
+      "type": "string"
+     },
+     "pick_tool_id": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "pick_tier": {
+      "type": "string"
+     },
+     "pick_cost": {
+      "type": "string"
+     },
+     "runner_up": {
+      "type": "string"
+     },
+     "runner_up_tier": {
+      "type": "string"
+     },
+     "runner_up_cost": {
+      "type": "string"
+     },
+     "why": {
+      "type": "string"
+     },
+     "last_verified": {
+      "type": "string"
+     },
+     "page_url": {
+      "type": "string",
+      "format": "uri"
+     }
+    }
+   },
+   "Problem": {
+    "type": "object",
+    "properties": {
+     "type": {
+      "type": "string"
+     },
+     "title": {
+      "type": "string"
+     },
+     "status": {
+      "type": "integer"
+     },
+     "code": {
+      "type": "string"
+     },
+     "detail": {
+      "type": "string"
+     },
+     "resolution": {
+      "type": "string"
+     },
+     "instance": {
+      "type": "string"
+     }
+    }
+   }
+  }
+ }
+}

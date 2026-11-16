@@ -1,0 +1,16 @@
+/api/*
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=3600
+/openapi.json
+  Access-Control-Allow-Origin: *
+/.well-known/api-catalog
+  Content-Type: application/linkset+json
+  Access-Control-Allow-Origin: *
+/.well-known/*
+  Access-Control-Allow-Origin: *
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+  Access-Control-Allow-Origin: *
+/llms-full.txt
+  Content-Type: text/plain; charset=utf-8
+  Access-Control-Allow-Origin: *

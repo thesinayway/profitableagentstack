@@ -1,0 +1,204 @@
+{
+ "meta": {
+  "api_version": "1.0.0",
+  "last_verified": "2026-11-16",
+  "source": "https://profitableagentstack.com",
+  "license": "CC BY 4.0. Credit \"Profitable Agent Stack (profitableagentstack.com)\", link the source page and state the last-verified date.",
+  "methodology": "value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial fit_score (1-5) x 20. cost_score = 100 - 60 x (entry_price - lowest entry price in the use case) / (highest - lowest); contact-sales tools get no cost or value score. The published formula reserves 20% for user sentiment, but no sentiment or user-review data is used in any score today, so fit and cost are reweighted 62.5/37.5. Stack picks also weigh fit for the GTM team size (reviewer company-size mix, case studies, enterprise-readiness evidence).",
+  "methodology_url": "https://profitableagentstack.com/methodology",
+  "disclaimer": "Profitable Agent Stack is for general information only, provided \"as is\" without warranties. Prices, plans, features and review data change often and may be inaccurate or out of date (last checked 2026-11-16); always verify with the vendor. Cost estimates and scores are editorial estimates, not advice. Nothing here is professional, legal or financial advice. Trademarks belong to their owners; listing is not endorsement. Some links may be affiliate or sponsored — see our Disclosure.",
+  "docs": "https://profitableagentstack.com/developers",
+  "openapi": "https://profitableagentstack.com/openapi.json"
+ },
+ "data": {
+  "id": "early",
+  "name": "Early scaling",
+  "team_size": "6–15 GTM people",
+  "min_people": 6,
+  "max_people": 15,
+  "page_url": "https://profitableagentstack.com/stages/early-scaling",
+  "monthly_total_usd": 913,
+  "total_is_floor": false,
+  "extra_non_usd": null,
+  "last_verified": "2026-11-02 to 2026-11-16 (per tool)",
+  "who": "Six to fifteen people run go-to-market: dedicated sellers, someone owning content, and enough volume that tooling gaps cost real pipeline.",
+  "assumptions": "10 GTM people, 5 LinkedIn senders, ~25,000 emails/mo (inside Instantly's 125,000/mo Hypergrowth tier), monthly billing. Surfer is its yearly-billed view; Framer is its yearly-billing view. PostHog counted at its free allowance (usage-based beyond it). Peec AI is its Starter monthly list price.",
+  "items": [
+   {
+    "use_case": "list-building",
+    "job": "List building & lead data",
+    "tool_id": "apollo",
+    "tool_name": "Apollo",
+    "tier": "Free Starter plan",
+    "monthly_usd": 0,
+    "price_basis": "list price",
+    "reason": "Free is for 'exploring or very light usage' per Apollo; we count $0 for light list pulls, but 6-15 people will likely outgrow it. Basic is $49/seat/mo billed annually (not counted). 28% of Apollo's 9,858 G2 reviewers are mid-market (51-1,000 employees)."
+   },
+   {
+    "use_case": "enrichment",
+    "job": "Enrichment & verification",
+    "tool_id": "hunter",
+    "tool_name": "Hunter",
+    "tier": "Growth",
+    "monthly_usd": 149,
+    "price_basis": "list price",
+    "reason": "Clearer enrichment: more credits shared across unlimited team members, and verification before sending."
+   },
+   {
+    "use_case": "outbound-email",
+    "job": "Outbound email / sequencing",
+    "tool_id": "instantly",
+    "tool_name": "Instantly",
+    "tier": "Outreach Hypergrowth (125,000 emails/mo)",
+    "monthly_usd": 97,
+    "price_basis": "list price",
+    "reason": "Full outbound volume on one plan; highest value score for outbound."
+   },
+   {
+    "use_case": "linkedin",
+    "job": "LinkedIn outreach",
+    "tool_id": "heyreach",
+    "tool_name": "HeyReach",
+    "tier": "Growth $79 × 5 senders",
+    "monthly_usd": 395,
+    "price_basis": "list price",
+    "reason": "Built for many senders (fit 5/5). Waalaxy is cheaper per seat if you only need light LinkedIn volume."
+   },
+   {
+    "use_case": "signals",
+    "job": "Signals, intent & analytics",
+    "tool_id": "rb2b",
+    "tool_name": "RB2B",
+    "tier": "Starter",
+    "monthly_usd": 79,
+    "price_basis": "list price",
+    "reason": "Signals become useful at this volume: identifies site visitors to feed outbound."
+   },
+   {
+    "use_case": "search-performance",
+    "job": "Search performance",
+    "tool_id": "google-search-console",
+    "tool_name": "Google Search Console",
+    "tier": "Free",
+    "monthly_usd": 0,
+    "price_basis": "list price",
+    "reason": "Free first-party data on which queries bring visitors (search performance)."
+   },
+   {
+    "use_case": "content-optimization",
+    "job": "Content optimization",
+    "tool_id": "surfer",
+    "tool_name": "Surfer",
+    "tier": "Discovery, billed yearly",
+    "monthly_usd": 49,
+    "price_basis": "list price",
+    "reason": "Content optimization is a separate job from search performance tracking. Discovery is its lowest listed tier."
+   },
+   {
+    "use_case": "aeo",
+    "job": "AEO (AI search visibility)",
+    "tool_id": "peec-ai",
+    "tool_name": "Peec AI",
+    "tier": "Starter, monthly",
+    "monthly_usd": 95,
+    "price_basis": "list price",
+    "reason": "Lowest-priced dedicated AI-search tracker with a published price we found that fits a team: 50 prompts on 3 models, unlimited users, SOC 2 on every plan. Surfer is not the AEO pick: its AI tracker is an add-on to content editing, and this is a different job. Start small; skip if AI search is not yet a channel."
+   },
+   {
+    "use_case": "social-scheduling",
+    "job": "Social scheduling",
+    "tool_id": "postiz",
+    "tool_name": "Postiz",
+    "tier": "Team",
+    "monthly_usd": 39,
+    "price_basis": "list price",
+    "reason": "Team scheduling beyond Buffer’s free 3-channel limit."
+   },
+   {
+    "use_case": "landing-pages",
+    "job": "Landing pages & websites",
+    "tool_id": "framer",
+    "tool_name": "Framer",
+    "tier": "Basic (yearly-billing view)",
+    "monthly_usd": 10,
+    "price_basis": "list price",
+    "reason": "Design-led site with custom domain; lowest paid tier."
+   },
+   {
+    "use_case": "newsletters",
+    "job": "Newsletters",
+    "tool_id": "beehiiv",
+    "tool_name": "beehiiv",
+    "tier": "Free plan",
+    "monthly_usd": 0,
+    "price_basis": "list price",
+    "reason": "Free until you monetize (Lite is $49/mo, yearly-billing view)."
+   },
+   {
+    "use_case": "web-analytics",
+    "job": "Web analytics",
+    "tool_id": "google-analytics",
+    "tool_name": "Google Analytics",
+    "tier": "Free",
+    "monthly_usd": 0,
+    "price_basis": "list price",
+    "reason": "Website traffic and sources."
+   },
+   {
+    "use_case": "signals",
+    "job": "Product & funnel analytics",
+    "tool_id": "posthog",
+    "tool_name": "PostHog",
+    "tier": "Free allowance",
+    "monthly_usd": 0,
+    "price_basis": "list price",
+    "reason": "Real product and funnel analytics (a separate job from visitor identification); usage-based beyond the free allowance."
+   }
+  ],
+  "notes": [
+   {
+    "title": "Warm network & referrals",
+    "text": "Track in your CRM; keep investing, it is still your cheapest channel."
+   },
+   {
+    "title": "ICP & positioning",
+    "text": "Refresh quarterly from win/loss notes; no paid tool listed."
+   }
+  ],
+  "skip_for_now": [
+   {
+    "use_case": "AI SDR / agentic SDR",
+    "reason": "Optional and contact-sales. Hire or train humans first; add an agent only when the motion is proven and measured."
+   },
+   {
+    "use_case": "Paid intent platforms (Common Room)",
+    "reason": "$2,500/mo billed annually is poor value until you have enough volume for multi-channel intent to change who you call."
+   },
+   {
+    "use_case": "Community, video",
+    "reason": "Only if a specific channel is already working."
+   },
+   {
+    "use_case": "Content optimization at higher tiers; AEO beyond Peec Starter",
+    "reason": "Start at the entry tiers; more prompts and models only when AI-search referrals show up in analytics."
+   }
+  ],
+  "crm": {
+   "team_size": "early",
+   "pick": "HubSpot Sales Hub",
+   "pick_tool_id": "hubspot-sales-hub",
+   "pick_tier": "Starter, 10 seats × $20 (list); Professional when you need forecasting and advanced automation",
+   "pick_cost": "$200/mo",
+   "runner_up": "Pipedrive",
+   "runner_up_tool_id": "pipedrive",
+   "runner_up_tier": "Growth, 10 seats × $39 billed annually ($49 monthly)",
+   "runner_up_cost": "$390–$490/mo",
+   "why": "35.5% of HubSpot Sales Hub's G2 reviewers are mid-market companies, which supports staying on it as the team grows. Pipedrive Growth adds email sync, automations and forecasts.",
+   "spreadsheet_or_crm": "At 6–15 GTM people a shared sheet is rarely enough: several people work deals and replies arrive from more than one channel.",
+   "also": "Zoho CRM Standard ($14/user/mo billed annually) is a lower-cost option with native Hunter, lemlist and Smartlead integrations.",
+   "last_verified": "2026-11-10",
+   "page_url": "https://profitableagentstack.com/stages/early-scaling#crm",
+   "note": "CRM is a separate category and is not included in stack totals."
+  }
+ }
+}

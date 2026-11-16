@@ -1,0 +1,72 @@
+{
+ "meta": {
+  "api_version": "1.0.0",
+  "last_verified": "2026-11-16",
+  "source": "https://profitableagentstack.com",
+  "license": "CC BY 4.0. Credit \"Profitable Agent Stack (profitableagentstack.com)\", link the source page and state the last-verified date.",
+  "methodology": "value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial fit_score (1-5) x 20. cost_score = 100 - 60 x (entry_price - lowest entry price in the use case) / (highest - lowest); contact-sales tools get no cost or value score. The published formula reserves 20% for user sentiment, but no sentiment or user-review data is used in any score today, so fit and cost are reweighted 62.5/37.5. Stack picks also weigh fit for the GTM team size (reviewer company-size mix, case studies, enterprise-readiness evidence).",
+  "methodology_url": "https://profitableagentstack.com/methodology",
+  "disclaimer": "Profitable Agent Stack is for general information only, provided \"as is\" without warranties. Prices, plans, features and review data change often and may be inaccurate or out of date (last checked 2026-11-16); always verify with the vendor. Cost estimates and scores are editorial estimates, not advice. Nothing here is professional, legal or financial advice. Trademarks belong to their owners; listing is not endorsement. Some links may be affiliate or sponsored — see our Disclosure.",
+  "docs": "https://profitableagentstack.com/developers",
+  "openapi": "https://profitableagentstack.com/openapi.json"
+ },
+ "description": "Read-only, no-auth JSON API for Profitable Agent Stack: AI GTM tools with published prices, recommended stacks by GTM team size, use cases and CRM picks.",
+ "endpoints": {
+  "tools": "https://profitableagentstack.com/api/v1/tools.json",
+  "tool": "https://profitableagentstack.com/api/v1/tools/{tool_id}.json",
+  "stacks": "https://profitableagentstack.com/api/v1/stacks.json",
+  "stack": "https://profitableagentstack.com/api/v1/stacks/{team_size}.json",
+  "use_cases": "https://profitableagentstack.com/api/v1/use-cases.json",
+  "crm": "https://profitableagentstack.com/api/v1/crm.json",
+  "releases": "https://profitableagentstack.com/api/v1/releases.json",
+  "openapi": "https://profitableagentstack.com/openapi.json",
+  "mcp": "https://profitableagentstack.com/mcp",
+  "llms_txt": "https://profitableagentstack.com/llms.txt",
+  "llms_full_txt": "https://profitableagentstack.com/llms-full.txt"
+ },
+ "team_sizes": [
+  {
+   "id": "solo",
+   "name": "Solo founder",
+   "size": "1 GTM person",
+   "min_people": 1,
+   "max_people": 1
+  },
+  {
+   "id": "small",
+   "name": "Small GTM team",
+   "size": "2–5 GTM people",
+   "min_people": 2,
+   "max_people": 5
+  },
+  {
+   "id": "early",
+   "name": "Early scaling",
+   "size": "6–15 GTM people",
+   "min_people": 6,
+   "max_people": 15
+  },
+  {
+   "id": "scaling",
+   "name": "Scaling",
+   "size": "16–40 GTM people",
+   "min_people": 16,
+   "max_people": 40
+  },
+  {
+   "id": "large",
+   "name": "Large / multi-team",
+   "size": "40+ GTM people",
+   "min_people": 41,
+   "max_people": null
+  }
+ ],
+ "query_parameters": {
+  "tools.json": {
+   "use_case": "use case id",
+   "team_size": "solo | small | early | scaling | large",
+   "max_price": "max entry price per month (USD)",
+   "q": "text match on name or use case"
+  }
+ }
+}

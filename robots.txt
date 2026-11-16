@@ -58,4 +58,56 @@ User-agent: cohere-ai
 Allow: /
 Disallow: /assets/social/
 
+User-agent: Claude-User
+Allow: /
+Disallow: /assets/social/
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /assets/social/
+
+User-agent: Applebot
+Allow: /
+Disallow: /assets/social/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /assets/social/
+
+User-agent: Amazonbot
+Allow: /
+Disallow: /assets/social/
+
+User-agent: DuckAssistBot
+Allow: /
+Disallow: /assets/social/
+
+User-agent: MistralAI-User
+Allow: /
+Disallow: /assets/social/
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+Disallow: /assets/social/
+
+User-agent: Google-CloudVertexBot
+Allow: /
+Disallow: /assets/social/
+
+User-agent: GoogleOther
+Allow: /
+Disallow: /assets/social/
+
+User-agent: YouBot
+Allow: /
+Disallow: /assets/social/
+
+User-agent: PhindBot
+Allow: /
+Disallow: /assets/social/
+
+User-agent: cohere-training-data-crawler
+Allow: /
+Disallow: /assets/social/
+
 Sitemap: https://profitableagentstack.com/sitemap.xml

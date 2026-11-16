@@ -1,0 +1,40 @@
+{
+ "linkset": [
+  {
+   "anchor": "https://profitableagentstack.com/api/v1/",
+   "service-desc": [
+    {
+     "href": "https://profitableagentstack.com/openapi.json",
+     "type": "application/vnd.oai.openapi+json"
+    }
+   ],
+   "service-doc": [
+    {
+     "href": "https://profitableagentstack.com/developers",
+     "type": "text/html"
+    }
+   ],
+   "service-meta": [
+    {
+     "href": "https://profitableagentstack.com/api/v1/index.json",
+     "type": "application/json"
+    }
+   ]
+  },
+  {
+   "anchor": "https://profitableagentstack.com/mcp",
+   "service-doc": [
+    {
+     "href": "https://profitableagentstack.com/developers#mcp",
+     "type": "text/html"
+    }
+   ],
+   "service-meta": [
+    {
+     "href": "https://profitableagentstack.com/.well-known/mcp/server-card.json",
+     "type": "application/json"
+    }
+   ]
+  }
+ ]
+}

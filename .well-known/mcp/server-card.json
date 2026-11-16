@@ -1,0 +1,31 @@
+{
+ "$schema": "https://static.modelcontextprotocol.io/schemas/mcp-server-card/v1.json",
+ "version": "1.0",
+ "protocolVersion": "2025-06-18",
+ "serverInfo": {
+  "name": "profitable-agent-stack",
+  "title": "Profitable Agent Stack",
+  "version": "1.0.0"
+ },
+ "description": "Read-only AI GTM tool prices, recommended stacks by GTM team size and CRM picks.",
+ "documentationUrl": "https://profitableagentstack.com/developers#mcp",
+ "transport": {
+  "type": "streamable-http",
+  "endpoint": "/mcp"
+ },
+ "capabilities": {
+  "tools": {
+   "listChanged": false
+  }
+ },
+ "authentication": {
+  "required": false
+ },
+ "tools": [
+  "search_tools",
+  "get_tool",
+  "get_stack",
+  "list_use_cases",
+  "get_crm_recommendation"
+ ]
+}
