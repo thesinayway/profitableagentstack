@@ -50,7 +50,16 @@ function filterTools(list, { q, use_case, team_size, max_price, include_contact_
   if (team_size) r = r.filter(t => t.team_sizes.includes(team_size));
   if (max_price !== undefined && max_price !== null && max_price !== '') { const m = Number(max_price); r = r.filter(t => t.price_from_monthly !== null && t.price_from_monthly <= m); }
   else if (include_contact_sales === false) r = r.filter(t => t.price_status !== 'contact');
-  if (q) { const s = String(q).toLowerCase(); r = r.filter(t => (t.name + ' ' + t.use_case + ' ' + t.use_case_name + ' ' + t.price_text).toLowerCase().includes(s)); }
+  if (q) {
+    const s = String(q).toLowerCase().trim();
+    const ALIAS = { cold: 'outbound', sequencer: 'sequencing', sdr: 'sdr', bdr: 'sdr', seo: 'search', intent: 'signals', visitor: 'signals', enrich: 'enrichment', verify: 'verification', leads: 'list', prospecting: 'list', geo: 'aeo', llm: 'aeo', video: 'video', newsletter: 'newsletters', schedule: 'scheduling', landing: 'landing', website: 'landing', analytics: 'analytics', crm: 'crm' };
+    const STOP = new Set(['the', 'and', 'for', 'tool', 'tools', 'best', 'cheapest', 'cheap', 'software', 'app', 'with', 'under', 'free', 'top', 'what', 'which', 'a', 'an', 'of', 'to', 'ai']);
+    const words = s.split(/[^a-z0-9.]+/).filter(w => w.length > 1 && !STOP.has(w)).map(w => ALIAS[w] || w);
+    const hay = t => (t.name + ' ' + t.id + ' ' + t.use_case + ' ' + t.use_case_name).toLowerCase();
+    const exact = r.filter(t => hay(t).includes(s));
+    if (exact.length) r = exact;
+    else if (words.length) { const sc = t => words.filter(w => hay(t).includes(w)).length; const m = Math.max(0, ...r.map(sc)); r = m ? r.filter(t => sc(t) === m) : []; }
+  }
   return r;
 }
 const SIZES = ['solo', 'small', 'early', 'scaling', 'large'];
