@@ -32,7 +32,7 @@ One tool per job, no paid overlap. Each pick weighs two things: its value score 
 | List building & lead data | **[Apollo](https://www.apollo.io/)** value 100 · best in category | Organization, 25 seats × $119 (billed annually, 3-seat min) | $2,975 + quote | Not the free Starter: 40+ people need SSO and admin controls, which Apollo sells on Organization ($119/seat/mo billed annually) and its Custom plan. Size evidence: of 9,858 G2 reviews, 28% come from mid-market and 5% from enterprise companies (roughly 2,800 and 450 reviewers), Apollo publishes a 130-rep customer story (Superside), and it lists SOC 2 Type II and ISO 27001 in its trust center. Seats assumed: 25 of your 40+ people prospect. ZoomInfo has a larger enterprise review share (26%) but no public price: quote both. |
 | Enrichment & verification | **[Clay](https://www.clay.com/)** value 100 · best in category | Growth from $495/mo; Enterprise is custom | $495 + quote | Clay's Enterprise tier lists SSO/SAML, SCIM, role-based access, IP allowlists and a custom DPA, it states SOC 2 Type II and ISO 27001, and its case studies include Intercom, Verkada and Rippling. Hunter's public pages list a custom enterprise volume plan but no SSO. Caveat: Clay's G2 reviewers skew small (74% under 51 employees, 1% enterprise), with a learning curve and fast credit use as top complaints, so pilot with credit budgets. $495 is Growth's monthly list price; SSO and RBAC need the Enterprise quote. |
 | Outbound email / sequencing | **[Salesloft](https://www.salesloft.com/)** value n/a | Enterprise quote (per seat, no public list price) | Quote | Pick over Outreach for a 40+ team: G2 reviewers are 32.6% enterprise and 50.9% mid-market (4,287 reviews) versus 21.7% and 59.2% for Outreach (3,574), G2 rates its ease of setup 8.6 vs 7.7 and support 8.6 vs 8.3, and it publicly documents SAML SSO (Okta, Entra, OneLogin) plus SOC 2 Type II, ISO 27001 and ISO 27701 with a public trust portal. No public price: $0 is counted, so this total is a floor. Outreach is the close alternative (SOC 2 Type II, ISO 27001, ISO 42001; trust center only via an account exec). Salesloft merged with Clari (Dec 2025): ask about packaging and renewal terms. |
-| LinkedIn outreach | **[HeyReach](https://www.heyreach.io/)** value 83 | Agency (25 senders) | $999 | $999/mo for 25 senders beats $79 × 25. Roles are documented, but we found no SOC 2 claim and its DPA says SSO is not currently supported: confirm with security. |
+| LinkedIn outreach | **[HeyReach](https://heyreach.io/?via=limor) affiliate** value 83 | Agency (25 senders) | $999 | $999/mo for 25 senders beats $79 × 25. Roles are documented, but we found no SOC 2 claim and its DPA says SSO is not currently supported: confirm with security. |
 | Signals, intent & analytics | **[Common Room](https://www.commonroom.io/)** value 65 | Essential (billed annually, 5 seats) | $2,500 | Vendor security page lists a SOC 2 Type 2 report, GDPR and CCPA, SSO/SAML/SCIM and role-based access. |
 | Product & funnel analytics | **[PostHog](https://posthog.com/)** value 88 · best in category | Free allowance | $0 | Product/funnel analytics, usage-based beyond the free allowance. |
 | AI SDR / agentic SDR | **[Artisan](https://www.artisan.co/)** value n/a | Contact sales — optional, not counted | Quote | Only after a measured pilot: contact sales is fine at this size when the need is real. 11x and Qualified are the other listed options. |
@@ -158,7 +158,7 @@ Fit 5/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / m
 
 Prices as of 2026-11-16, verify with vendor. [Pricing source](https://support.google.com/webmasters/answer/9128668) · [See reviews on G2](https://www.g2.com/search?query=Google+Search+Console)
 
-### [beehiiv](https://www.beehiiv.com/)
+### [beehiiv](https://www.beehiiv.com?via=limor-sinay) affiliate
 
 Newsletters
 
@@ -338,7 +338,7 @@ Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / m
 
 Prices as of 2026-11-16, verify with vendor. [Pricing source](https://marketingplatform.google.com/about/analytics/) · [See reviews on G2](https://www.g2.com/search?query=Google+Analytics)
 
-### [HeyReach](https://www.heyreach.io/)
+### [HeyReach](https://heyreach.io/?via=limor) affiliate
 
 LinkedIn outreach
 

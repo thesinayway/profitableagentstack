@@ -15,7 +15,7 @@ Last updated 2026-11-16. This page is a general notice for a small site. It is n
 
 ## Affiliate links
 
-Some links may be affiliate links; if you buy through them, The Sinay Way LLC may earn a commission at no extra cost to you. Affiliate links are marked "affiliate" and tagged rel="sponsored"; pages that contain them carry a disclosure at the top. As of 2026-11-16 affiliate links are active for: Smartlead, Salesforge, lemlist, Woodpecker, FullEnrich, Waalaxy, RB2B, Kit, Descript.
+Some links may be affiliate links; if you buy through them, The Sinay Way LLC may earn a commission at no extra cost to you. Affiliate links are marked "affiliate" and tagged rel="sponsored"; pages that contain them carry a disclosure at the top. As of 2026-11-16 affiliate links are active for: Smartlead, Salesforge, lemlist, Woodpecker, FullEnrich, HeyReach, Waalaxy, RB2B, beehiiv, Kit, Descript.
 
 ## Sponsored placements
 

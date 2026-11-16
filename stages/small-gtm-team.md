@@ -38,7 +38,7 @@ One tool per job, no paid overlap. Each pick weighs two things: its value score 
 | Search performance | **[Google Search Console](https://search.google.com/search-console/about)** value 100 · best in category | Free | $0 | Free first-party search data. Paid content optimization waits until you publish weekly. |
 | Social scheduling | **[Buffer](https://buffer.com/)** value 88 · best in category | Free (up to 3 channels) | $0 | Free for up to 3 channels; best value score in its category (tied with Typefully). |
 | Landing pages & websites | **[Framer](https://www.framer.com/)** value 100 · best in category | Basic (yearly-billing view) | $10 | Multi-page site with your own domain for content/SEO. Carrd is cheaper but single-page. |
-| Newsletters | **[beehiiv](https://www.beehiiv.com/)** value 100 · best in category | Free plan | $0 | Free until you monetize. |
+| Newsletters | **[beehiiv](https://www.beehiiv.com?via=limor-sinay) affiliate** value 100 · best in category | Free plan | $0 | Free until you monetize. |
 | Web analytics | **[Google Analytics](https://marketingplatform.google.com/about/analytics/)** value 88 · best in category | Free | $0 | Free web analytics; add product/funnel analytics later. |
 | **Estimated total $106 + €38 Waalaxy (2 users) | |** | | |
 
@@ -158,7 +158,7 @@ Fit 5/5 (editorial) · Fits: Solo, Small team, Early scaling
 
 Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.framer.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Framer)
 
-### [beehiiv](https://www.beehiiv.com/)
+### [beehiiv](https://www.beehiiv.com?via=limor-sinay) affiliate
 
 Newsletters
 
@@ -532,7 +532,7 @@ Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling
 
 Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.pipedrive.com/en/pricing) · [See reviews on G2](https://www.g2.com/products/pipedrive/reviews)
 
-### [HeyReach](https://www.heyreach.io/)
+### [HeyReach](https://heyreach.io/?via=limor) affiliate
 
 LinkedIn outreach
 

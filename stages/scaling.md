@@ -32,7 +32,7 @@ One tool per job, no paid overlap. Each pick weighs two things: its value score 
 | List building & lead data | **[Apollo](https://www.apollo.io/)** value 100 · best in category | Basic, 10 seats × $49 (billed annually) | $490 | Free is for 'exploring or very light usage' per Apollo, so we count Basic for the 10 people who prospect ($49/seat/mo billed annually, credits pooled across the team). 28% of Apollo's 9,858 G2 reviewers are mid-market (51-1,000 employees), roughly 2,800 reviewers. Professional ($79) adds waterfall enrichment, which overlaps Hunter, so it is not counted. Confirm seats and credits with the vendor. |
 | Enrichment & verification | **[Hunter](https://hunter.io/)** value 88 | Scale | $299 | Largest listed tier; unlimited team members share one credit pool, so no per-seat cost. G2 shows 31.9% of Hunter's 659 reviewers are mid-market (about 210) versus 24.8% of Clay's 234 (about 58), so Clay is not clearly the mid-market pick. Step up to Clay Growth ($495/mo monthly list) when RevOps needs CRM auto-sync, phone numbers and signals; the Large stack uses Clay. |
 | Outbound email / sequencing | **[Instantly](https://instantly.ai/)** value 94 · best in category | Outreach Hypergrowth (125,000 emails/mo) | $97 | Cost-first pick at this volume. Test its admin and role controls in the trial; Reply.io, Salesloft or Outreach are the step-ups when you need org-level roles and a sales-engagement suite (see Large). |
-| LinkedIn outreach | **[HeyReach](https://www.heyreach.io/)** value 83 | Growth $79 × 10 senders | $790 | Multi-seat: its help center documents Admin and Member roles with per-feature permissions. |
+| LinkedIn outreach | **[HeyReach](https://heyreach.io/?via=limor) affiliate** value 83 | Growth $79 × 10 senders | $790 | Multi-seat: its help center documents Admin and Member roles with per-feature permissions. |
 | Signals, intent & analytics | **[RB2B](https://rb2b.com/?ref=limor) affiliate** value 88 · best in category | Pro (from $149) | from $149 | Signals are core at this size. RB2B Pro is the lowest-cost listed paid tier; Common Room ($2,500/mo) is the step-up for community and multi-channel signals. |
 | Product & funnel analytics | **[PostHog](https://posthog.com/)** value 88 · best in category | Free allowance | $0 | Queryable product/funnel analytics. Pipeline and revenue reporting belong in your CRM, which this directory does not cover. |
 | **Marketing stack** | | | | |
@@ -41,7 +41,7 @@ One tool per job, no paid overlap. Each pick weighs two things: its value score 
 | AEO (AI search visibility) | **[Peec AI](https://peec.ai/)** value 82 · best in category | Pro, monthly | $245 | 150 prompts, 3 countries and 2 projects, plus API access for reporting. Dedicated AEO tracker with published pricing; AthenaHQ ($295) and Scrunch ($250) are the alternatives, Profound is contact sales. |
 | Social scheduling | **[Postiz](https://postiz.com/)** value 65 | Pro | $49 | Social scheduling across a marketing team. |
 | Landing pages & websites | **[Webflow](https://webflow.com/)** value 88 | Premium (billed yearly) | $25 | CMS-capable site for a content team; lowest CMS tier on its pricing page. |
-| Newsletters | **[beehiiv](https://www.beehiiv.com/)** value 100 · best in category | Free plan | $0 | Free until you monetize; Pro is $95/mo (yearly-billing view). |
+| Newsletters | **[beehiiv](https://www.beehiiv.com?via=limor-sinay) affiliate** value 100 · best in category | Free plan | $0 | Free until you monetize; Pro is $95/mo (yearly-billing view). |
 | Web analytics | **[Google Analytics](https://marketingplatform.google.com/about/analytics/)** value 88 · best in category | Free | $0 | Website traffic and sources. |
 | **Estimated total $2,193 | |** | | |
 
@@ -150,7 +150,7 @@ Fit 5/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / m
 
 Prices as of 2026-11-16, verify with vendor. [Pricing source](https://support.google.com/webmasters/answer/9128668) · [See reviews on G2](https://www.g2.com/search?query=Google+Search+Console)
 
-### [beehiiv](https://www.beehiiv.com/)
+### [beehiiv](https://www.beehiiv.com?via=limor-sinay) affiliate
 
 Newsletters
 
@@ -368,7 +368,7 @@ Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling
 
 Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.pipedrive.com/en/pricing) · [See reviews on G2](https://www.g2.com/products/pipedrive/reviews)
 
-### [HeyReach](https://www.heyreach.io/)
+### [HeyReach](https://heyreach.io/?via=limor) affiliate
 
 LinkedIn outreach
 

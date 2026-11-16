@@ -32,7 +32,7 @@ One tool per job, no paid overlap. Each pick weighs two things: its value score 
 | List building & lead data | **[Apollo](https://www.apollo.io/)** value 100 · best in category | Free Starter plan | $0 | Free is for 'exploring or very light usage' per Apollo; we count $0 for light list pulls, but 6-15 people will likely outgrow it. Basic is $49/seat/mo billed annually (not counted). 28% of Apollo's 9,858 G2 reviewers are mid-market (51-1,000 employees). |
 | Enrichment & verification | **[Hunter](https://hunter.io/)** value 88 | Growth | $149 | Clearer enrichment: more credits shared across unlimited team members, and verification before sending. |
 | Outbound email / sequencing | **[Instantly](https://instantly.ai/)** value 94 · best in category | Outreach Hypergrowth (125,000 emails/mo) | $97 | Full outbound volume on one plan; highest value score for outbound. |
-| LinkedIn outreach | **[HeyReach](https://www.heyreach.io/)** value 83 | Growth $79 × 5 senders | $395 | Built for many senders (fit 5/5). Waalaxy is cheaper per seat if you only need light LinkedIn volume. |
+| LinkedIn outreach | **[HeyReach](https://heyreach.io/?via=limor) affiliate** value 83 | Growth $79 × 5 senders | $395 | Built for many senders (fit 5/5). Waalaxy is cheaper per seat if you only need light LinkedIn volume. |
 | Signals, intent & analytics | **[RB2B](https://rb2b.com/?ref=limor) affiliate** value 88 · best in category | Starter | $79 | Signals become useful at this volume: identifies site visitors to feed outbound. |
 | Product & funnel analytics | **[PostHog](https://posthog.com/)** value 88 · best in category | Free allowance | $0 | Real product and funnel analytics (a separate job from visitor identification); usage-based beyond the free allowance. |
 | **Marketing stack** | | | | |
@@ -41,7 +41,7 @@ One tool per job, no paid overlap. Each pick weighs two things: its value score 
 | AEO (AI search visibility) | **[Peec AI](https://peec.ai/)** value 82 · best in category | Starter, monthly | $95 | Lowest-priced dedicated AI-search tracker with a published price we found that fits a team: 50 prompts on 3 models, unlimited users, SOC 2 on every plan. Surfer is not the AEO pick: its AI tracker is an add-on to content editing, and this is a different job. Start small; skip if AI search is not yet a channel. |
 | Social scheduling | **[Postiz](https://postiz.com/)** value 65 | Team | $39 | Team scheduling beyond Buffer’s free 3-channel limit. |
 | Landing pages & websites | **[Framer](https://www.framer.com/)** value 100 · best in category | Basic (yearly-billing view) | $10 | Design-led site with custom domain; lowest paid tier. |
-| Newsletters | **[beehiiv](https://www.beehiiv.com/)** value 100 · best in category | Free plan | $0 | Free until you monetize (Lite is $49/mo, yearly-billing view). |
+| Newsletters | **[beehiiv](https://www.beehiiv.com?via=limor-sinay) affiliate** value 100 · best in category | Free plan | $0 | Free until you monetize (Lite is $49/mo, yearly-billing view). |
 | Web analytics | **[Google Analytics](https://marketingplatform.google.com/about/analytics/)** value 88 · best in category | Free | $0 | Website traffic and sources. |
 | **Estimated total $913 | |** | | |
 
@@ -164,7 +164,7 @@ Fit 5/5 (editorial) · Fits: Solo, Small team, Early scaling
 
 Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.framer.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Framer)
 
-### [beehiiv](https://www.beehiiv.com/)
+### [beehiiv](https://www.beehiiv.com?via=limor-sinay) affiliate
 
 Newsletters
 
@@ -540,7 +540,7 @@ Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling
 
 Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.pipedrive.com/en/pricing) · [See reviews on G2](https://www.g2.com/products/pipedrive/reviews)
 
-### [HeyReach](https://www.heyreach.io/)
+### [HeyReach](https://heyreach.io/?via=limor) affiliate
 
 LinkedIn outreach
 

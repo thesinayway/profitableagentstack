@@ -67,7 +67,7 @@ Fit 5/5 (editorial) · Fits: Solo, Small team, Early scaling
 
 Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.framer.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Framer)
 
-### [beehiiv](https://www.beehiiv.com/)
+### [beehiiv](https://www.beehiiv.com?via=limor-sinay) affiliate
 
 Newsletters
 
@@ -455,7 +455,7 @@ Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling
 
 Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.pipedrive.com/en/pricing) · [See reviews on G2](https://www.g2.com/products/pipedrive/reviews)
 
-### [HeyReach](https://www.heyreach.io/)
+### [HeyReach](https://heyreach.io/?via=limor) affiliate
 
 LinkedIn outreach
 

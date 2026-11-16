@@ -35,7 +35,7 @@ One tool per job, no paid overlap. Each pick weighs two things: its value score 
 | LinkedIn outreach | **[Waalaxy](https://waal.ink/N47esf) affiliate** value 88 · best in category | 1 user × €19 (EUR, not converted) | $0 | Cheapest listed LinkedIn tool and the best value score in its category. Per user, billed in euros. |
 | **Marketing stack** | | | | |
 | Landing pages & websites | **[Carrd](https://carrd.com/)** value 88 | Pro Standard, $19/yr ÷ 12 | $1.58 | Cheapest custom-domain landing page in our list; $19/yr is the yearly price on its Pro page. |
-| Newsletters | **[beehiiv](https://www.beehiiv.com/)** value 100 · best in category | Free plan | $0 | Highest value score; free until you monetize. Kit is the free alternative (free up to 10,000 subscribers). |
+| Newsletters | **[beehiiv](https://www.beehiiv.com?via=limor-sinay) affiliate** value 100 · best in category | Free plan | $0 | Highest value score; free until you monetize. Kit is the free alternative (free up to 10,000 subscribers). |
 | Web analytics | **[Google Analytics](https://marketingplatform.google.com/about/analytics/)** value 88 · best in category | Free | $0 | Free and good enough for basic traffic and source tracking at this size. |
 | **Estimated total $41 + €19 Waalaxy | |** | | |
 
@@ -132,7 +132,7 @@ Fit 5/5 (editorial) · Fits: Solo, Small team, Early scaling
 
 Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.framer.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Framer)
 
-### [beehiiv](https://www.beehiiv.com/)
+### [beehiiv](https://www.beehiiv.com?via=limor-sinay) affiliate
 
 Newsletters
 
