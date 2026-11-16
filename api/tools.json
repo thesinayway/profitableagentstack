@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-09",
+ "checked": "2026-11-16",
  "use_cases": [
   {
    "id": "positioning",
@@ -112,7 +112,7 @@
    "logo": "/assets/logos/smartlead.ai.png",
    "homepage_url": "https://www.smartlead.ai/",
    "affiliate_url": "https://smartlead.ai?via=limor",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 88
@@ -141,7 +141,7 @@
    "logo": "/assets/logos/instantly.ai.png",
    "homepage_url": "https://instantly.ai/",
    "affiliate_url": "",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 84,
    "value_score": 94
@@ -168,7 +168,7 @@
    "logo": "/assets/logos/salesforge.ai.png",
    "homepage_url": "https://www.salesforge.ai/",
    "affiliate_url": "https://salesforge.ai/?via=limor",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 82,
    "value_score": 81
@@ -196,7 +196,7 @@
    "logo": "/assets/logos/lemlist.com.png",
    "homepage_url": "https://www.lemlist.com/",
    "affiliate_url": "https://get.lemlist.com/3q3jpladw6up",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 40,
    "value_score": 65
@@ -224,7 +224,7 @@
    "logo": "/assets/logos/reply.io.png",
    "homepage_url": "https://reply.io/",
    "affiliate_url": "",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 60,
    "value_score": 72
@@ -280,7 +280,7 @@
    "logo": "/assets/logos/apollo.io.png",
    "homepage_url": "https://www.apollo.io/",
    "affiliate_url": "",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 100
@@ -307,7 +307,7 @@
    "logo": "/assets/logos/exa.ai.png",
    "homepage_url": "https://exa.ai/",
    "affiliate_url": "",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 88
@@ -333,7 +333,7 @@
    "logo": "/assets/logos/zoominfo.com.png",
    "homepage_url": "https://www.zoominfo.com/",
    "affiliate_url": "",
-   "checked": "2026-11-05",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": null,
    "value_score": null
@@ -361,7 +361,7 @@
    "logo": "/assets/logos/clay.com.png",
    "homepage_url": "https://www.clay.com/",
    "affiliate_url": "",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 100
@@ -390,7 +390,7 @@
    "logo": "/assets/logos/hunter.io.png",
    "homepage_url": "https://hunter.io/",
    "affiliate_url": "",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 88
@@ -418,7 +418,7 @@
    "logo": "/assets/logos/fullenrich.com.png",
    "homepage_url": "https://fullenrich.com/",
    "affiliate_url": "",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 88
@@ -473,7 +473,7 @@
    "logo": "/assets/logos/heyreach.io.png",
    "homepage_url": "https://www.heyreach.io/",
    "affiliate_url": "",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 55,
    "value_score": 83
@@ -500,7 +500,7 @@
    "logo": "/assets/logos/expandi.io.png",
    "homepage_url": "https://expandi.io/",
    "affiliate_url": "",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 40,
    "value_score": 65
@@ -527,7 +527,7 @@
    "logo": "/assets/logos/waalaxy.com.png",
    "homepage_url": "https://www.waalaxy.com/",
    "affiliate_url": "https://waal.ink/N47esf",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 88
@@ -553,7 +553,7 @@
    "logo": "/assets/logos/11x.ai.png",
    "homepage_url": "https://www.11x.ai/",
    "affiliate_url": "",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": null,
    "value_score": null
@@ -581,7 +581,7 @@
    "logo": "/assets/logos/artisan.co.png",
    "homepage_url": "https://www.artisan.co/",
    "affiliate_url": "",
-   "checked": "2026-11-02",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": null,
    "value_score": null
@@ -607,7 +607,7 @@
    "logo": "/assets/logos/qualified.com.png",
    "homepage_url": "https://www.qualified.com/",
    "affiliate_url": "",
-   "checked": "2026-11-02",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": null,
    "value_score": null
@@ -636,7 +636,7 @@
    "logo": "/assets/logos/postiz.com.png",
    "homepage_url": "https://postiz.com/",
    "affiliate_url": "",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 40,
    "value_score": 65
@@ -665,7 +665,7 @@
    "logo": "/assets/logos/heygen.com.png",
    "homepage_url": "https://www.heygen.com/",
    "affiliate_url": "",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 88
@@ -693,7 +693,7 @@
    "logo": "/assets/logos/rb2b.com.png",
    "homepage_url": "https://www.rb2b.com/",
    "affiliate_url": "https://rb2b.com/?ref=limor",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 88
@@ -722,7 +722,7 @@
    "logo": "/assets/logos/posthog.com.png",
    "homepage_url": "https://posthog.com/",
    "affiliate_url": "",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 88
@@ -747,7 +747,7 @@
    "logo": "/assets/logos/commonroom.io.png",
    "homepage_url": "https://www.commonroom.io/",
    "affiliate_url": "",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 40,
    "value_score": 65
@@ -767,7 +767,7 @@
     "scaling",
     "large"
    ],
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -794,7 +794,7 @@
     "small",
     "early"
    ],
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -822,7 +822,7 @@
     "scaling",
     "large"
    ],
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -851,7 +851,7 @@
     "scaling",
     "large"
    ],
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -878,7 +878,7 @@
     "small",
     "early"
    ],
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -906,7 +906,7 @@
     "small",
     "early"
    ],
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -933,7 +933,7 @@
     "small",
     "early"
    ],
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -961,7 +961,7 @@
     "scaling",
     "large"
    ],
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -990,7 +990,7 @@
     "scaling",
     "large"
    ],
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -1017,7 +1017,7 @@
     "small",
     "early"
    ],
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -1044,7 +1044,7 @@
     "small",
     "early"
    ],
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -1071,7 +1071,7 @@
     "small",
     "early"
    ],
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -1128,7 +1128,7 @@
     "scaling",
     "large"
    ],
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -1184,14 +1184,14 @@
     "scaling",
     "large"
    ],
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Google+Analytics",
     "note": "G2/Capterra blocked automated fetch; rating not shown"
    },
-   "homepage_url": "https://marketingplatform.google.com/",
+   "homepage_url": "https://marketingplatform.google.com/about/analytics/",
    "affiliate_url": "",
    "logo": "/assets/logos/marketingplatform.google.com.png",
    "price_verified": true,
@@ -1211,7 +1211,7 @@
     "small",
     "early"
    ],
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -1240,7 +1240,7 @@
     "scaling",
     "large"
    ],
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "reviews": {
     "g2_rating": null,
     "g2_review_count": null,
@@ -1275,7 +1275,7 @@
    },
    "homepage_url": "https://peec.ai/",
    "affiliate_url": "",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 85,
    "value_score": 82
@@ -1285,7 +1285,7 @@
    "use_case": "aeo",
    "from": 29,
    "status": "published",
-   "price": "Lite $29/mo (15 prompts, 4 engines); Standard $189/mo (100 prompts); Premium $489/mo (400 prompts); Enterprise custom (SSO); Claude, AI Mode and Gemini are paid add-ons",
+   "price": "Lite \u20ac29/mo (16 prompts, 2,000 credits, 4 of 7 engines); Standard \u20ac189/mo (120 prompts, 15,000 credits); Premium \u20ac489/mo (403 prompts); Enterprise custom (SSO). Page showed EUR to our checker and says prices are in USD or EUR; Claude uses 3 credits per answer",
    "source": "https://otterly.ai/pricing",
    "fit_score": 3,
    "stages": [
@@ -1300,7 +1300,7 @@
    },
    "homepage_url": "https://otterly.ai/",
    "affiliate_url": "",
-   "checked": "2026-11-05",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 75
@@ -1326,7 +1326,7 @@
    },
    "homepage_url": "https://www.athenahq.ai/",
    "affiliate_url": "",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 40,
    "value_score": 65
@@ -1352,7 +1352,7 @@
    },
    "homepage_url": "https://scrunch.com/",
    "affiliate_url": "",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 50,
    "value_score": 69
@@ -1377,7 +1377,7 @@
    },
    "homepage_url": "https://www.tryprofound.com/",
    "affiliate_url": "",
-   "checked": "2026-11-05",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": null,
    "value_score": null
@@ -1402,7 +1402,7 @@
    },
    "homepage_url": "https://www.salesloft.com/",
    "affiliate_url": "",
-   "checked": "2026-11-05",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": null,
    "value_score": null
@@ -1427,7 +1427,7 @@
    },
    "homepage_url": "https://www.outreach.io/",
    "affiliate_url": "",
-   "checked": "2026-11-05",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": null,
    "value_score": null
@@ -1454,7 +1454,7 @@
    "logo": "/assets/logos/unifygtm.com.png",
    "homepage_url": "https://www.unifygtm.com/",
    "affiliate_url": "",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 88
@@ -1481,7 +1481,7 @@
    "logo": "/assets/logos/aisdr.com.png",
    "homepage_url": "https://aisdr.com/",
    "affiliate_url": "",
-   "checked": "2026-11-05",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": null,
    "value_score": null
@@ -1508,7 +1508,7 @@
    "logo": "/assets/logos/regie.ai.png",
    "homepage_url": "https://www.regie.ai/",
    "affiliate_url": "",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 75
@@ -1535,7 +1535,7 @@
    "logo": "/assets/logos/getswan.com.png",
    "homepage_url": "https://www.getswan.com/",
    "affiliate_url": "",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 90,
    "value_score": 71
@@ -1562,7 +1562,7 @@
    "logo": "/assets/logos/origami.chat.png",
    "homepage_url": "https://origami.chat/",
    "affiliate_url": "",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 90,
    "value_score": 71
@@ -1589,7 +1589,7 @@
    "logo": "/assets/logos/rox.com.png",
    "homepage_url": "https://www.rox.com/",
    "affiliate_url": "",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 90,
    "value_score": 71
@@ -1615,7 +1615,7 @@
    "logo": "/assets/logos/amplemarket.com.png",
    "homepage_url": "https://www.amplemarket.com/",
    "affiliate_url": "",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 40,
    "value_score": 52
@@ -1642,7 +1642,7 @@
    "logo": "/assets/logos/warmly.ai.png",
    "homepage_url": "https://www.warmly.ai/",
    "affiliate_url": "",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 80,
    "value_score": 55
@@ -1668,7 +1668,7 @@
    "logo": "/assets/logos/microsoft.com.png",
    "homepage_url": "https://www.microsoft.com/en-us/dynamics-365/products/sales",
    "affiliate_url": "",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": null,
    "value_score": null
@@ -1694,7 +1694,7 @@
    "logo": "/assets/logos/nooks.ai.png",
    "homepage_url": "https://www.nooks.ai/",
    "affiliate_url": "",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": null,
    "value_score": null
@@ -1777,7 +1777,7 @@
    "logo": "/assets/logos/pipedrive.com.png",
    "homepage_url": "https://www.pipedrive.com/",
    "affiliate_url": "",
-   "checked": "2026-11-10",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 91,
    "value_score": 84
@@ -1804,7 +1804,7 @@
    "logo": "/assets/logos/attio.com.png",
    "homepage_url": "https://attio.com/",
    "affiliate_url": "",
-   "checked": "2026-11-10",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 88
@@ -1830,7 +1830,7 @@
    "logo": "/assets/logos/folk.app.png",
    "homepage_url": "https://www.folk.app/",
    "affiliate_url": "",
-   "checked": "2026-11-10",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 84,
    "value_score": 69
@@ -1857,7 +1857,7 @@
    "logo": "/assets/logos/close.com.png",
    "homepage_url": "https://www.close.com/",
    "affiliate_url": "",
-   "checked": "2026-11-10",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 94,
    "value_score": 85
@@ -1867,7 +1867,7 @@
    "use_case": "crm",
    "from": 0,
    "status": "published",
-   "price": "Free for 3 users; Standard $14, Professional $23, Enterprise $40 per user/mo billed annually; monthly $20, $35, $50",
+   "price": "Free for 3 users; Standard $14, Professional $23, Enterprise $40 per user/mo billed annually; monthly $20, $35, $50 (free plan re-confirmed 2026-11-16; paid prices render client-side and were not re-verified)",
    "source": "https://www.zoho.com/crm/zohocrm-pricing.html",
    "fit_score": 4,
    "stages": [
@@ -1884,7 +1884,7 @@
    "logo": "/assets/logos/zoho.com.png",
    "homepage_url": "https://www.zoho.com/crm/",
    "affiliate_url": "",
-   "checked": "2026-11-10",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 100,
    "value_score": 88
@@ -1937,7 +1937,7 @@
    "logo": "/assets/logos/copper.com.png",
    "homepage_url": "https://www.copper.com/",
    "affiliate_url": "",
-   "checked": "2026-11-10",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 84,
    "value_score": 69
@@ -1964,7 +1964,7 @@
    "logo": "/assets/logos/salesforce.com.png",
    "homepage_url": "https://www.salesforce.com/sales/",
    "affiliate_url": "",
-   "checked": "2026-11-10",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 83,
    "value_score": 94
@@ -2042,13 +2042,38 @@
    "logo": "/assets/logos/lightfield.app.png",
    "homepage_url": "https://lightfield.app/",
    "affiliate_url": "",
-   "checked": "2026-11-10",
+   "checked": "2026-11-16",
    "price_verified": true,
    "cost_score": 40,
    "value_score": 52
   }
  ],
  "releases": [
+  {
+   "date": "2026-11-16",
+   "text": "New this week: LeadIQ launched Chewie, a standalone prospecting platform that turns a plain-language target description into a play: it finds the buying team on LeadIQ data, writes each email and lines up calls, with a person approving every message (Nov 12). Not listed or priced yet.",
+   "source": "https://leadiq.com/blog/meet-chewie"
+  },
+  {
+   "date": "2026-11-16",
+   "text": "New this week: Alsona launched on Product Hunt (Nov 10) with AI agents that watch about 30 buying signals (hiring, funding, tech changes, ad spend), score accounts against your ICP and draft signal-based LinkedIn and email outreach. Pricing is by number of active agents. Not listed yet.",
+   "source": "https://ai.lounge.ai/news/alsona-ai-agents-that-turn-buying-signals-into-booked-sales-calls"
+  },
+  {
+   "date": "2026-11-16",
+   "text": "Convoso made its Voice AI Agent generally available (Nov 3): a no-code voice agent inside its outbound dialer that qualifies leads and warm-transfers them to human reps. Not listed or priced yet.",
+   "source": "https://www.einpresswire.com/article/954041709/convoso-launches-voice-ai-agent-to-scale-lead-qualification-and-call-handling"
+  },
+  {
+   "date": "2026-11-16",
+   "text": "Reply.io (listed) added AI Enrichment (one prompt saves up to six researched fields per contact), an MCP server and external MCPs in Agentic Chat, and a Mac app for Jason AI SDR approvals (Nov 2). Prices unchanged.",
+   "source": "https://reply.io/blog/whats-new-in-reply-ai-enrichment-agentic-capabilities-and-more/"
+  },
+  {
+   "date": "2026-11-16",
+   "text": "Weekly price check: re-checked 63 of 72 tools on their vendor pricing pages; no price changes found. Otterly.AI now lists more prompts per plan (Lite 16, Standard 120, Premium 403) at the same \u20ac29/\u20ac189/\u20ac489 shown to our checker. Not re-verified this week (page blocked or prices render client-side): Woodpecker, Clearout, Canva, Discord, 6sense BDR Agent, HubSpot Sales Hub, Bigin by Zoho, Apollo (built-in CRM), Day AI.",
+   "source": "https://profitableagentstack.com/directory.html"
+  },
   {
    "date": "2026-11-10",
    "text": "Added CRM & pipeline as its own category: 12 CRMs in the directory (HubSpot Sales Hub, Pipedrive, Attio, folk, Close, Zoho CRM, Bigin by Zoho, Copper, Salesforce Sales Cloud, Apollo's built-in CRM, Day AI, Lightfield) and a separate 'CRM for this team size' section on each team-size page, with when a spreadsheet is enough. CRM is shown next to the recommended stacks and is not added to stack totals. Recommended stacks unchanged.",
@@ -2971,6 +2996,6 @@
   }
  },
  "license": "CC BY 4.0 \u2014 attribute \"Profitable Agent Stack (profitableagentstack.com)\"",
- "disclaimer": "Profitable Agent Stack is for general information only, provided \"as is\" without warranties. Prices, plans, features and review data change often and may be inaccurate or out of date (last checked 2026-11-09); always verify with the vendor. Cost estimates and scores are editorial estimates, not advice. Nothing here is professional, legal or financial advice. Trademarks belong to their owners; listing is not endorsement. Some links may be affiliate or sponsored \u2014 see our Disclosure.",
+ "disclaimer": "Profitable Agent Stack is for general information only, provided \"as is\" without warranties. Prices, plans, features and review data change often and may be inaccurate or out of date (last checked 2026-11-16); always verify with the vendor. Cost estimates and scores are editorial estimates, not advice. Nothing here is professional, legal or financial advice. Trademarks belong to their owners; listing is not endorsement. Some links may be affiliate or sponsored \u2014 see our Disclosure.",
  "methodology": "https://profitableagentstack.com/methodology.html"
 }
