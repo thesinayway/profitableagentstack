@@ -1,7 +1,7 @@
 ---
 title: Best CRM & pipeline Tools by Cost & Value (2026) | Profitable Agent Stack
 url: https://profitableagentstack.com/use-cases/crm
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/use-cases/crm)
 ---
 
@@ -62,7 +62,7 @@ Starter Suite $25/user/mo (billed monthly or annually); Pro Suite $100 (billed a
 
 Fit 5/5 (editorial) · Fits: Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.salesforce.com/sales/pricing/) · [See reviews on G2](https://www.g2.com/products/salesforce-salesforce-sales-cloud/reviews)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.salesforce.com/sales/pricing/) · [See reviews on G2](https://www.g2.com/products/salesforce-salesforce-sales-cloud/reviews)
 
 ### [Attio](https://attio.com/)
 
@@ -74,7 +74,7 @@ Free for up to 3 users (50,000 records); Plus $40/mo per workspace billed annual
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://attio.com/pricing) · [See reviews on G2](https://www.g2.com/products/attio/reviews)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://attio.com/pricing) · [See reviews on G2](https://www.g2.com/products/attio/reviews)
 
 ### [Zoho CRM](https://www.zoho.com/crm/)
 
@@ -86,7 +86,7 @@ Free for 3 users; Standard $14, Professional $23, Enterprise $40 per user/mo bil
 
 Fit 4/5 (editorial) · Fits: Small team, Early scaling, Scaling
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.zoho.com/crm/zohocrm-pricing.html) · [See reviews on G2](https://www.g2.com/products/zoho-crm/reviews)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.zoho.com/crm/zohocrm-pricing.html) · [See reviews on G2](https://www.g2.com/products/zoho-crm/reviews)
 
 ### [Bigin by Zoho](https://www.bigin.com/)
 
@@ -98,7 +98,7 @@ Free for 1 user (500 records); Express $7/user/mo billed yearly ($9 monthly); Pr
 
 Fit 4/5 (editorial) · Fits: Solo, Small team
 
-Prices as of 2026-11-10, verify with vendor. [Pricing source](https://www.bigin.com/pricing.html) · [See reviews on G2](https://www.g2.com/products/bigin-by-zoho-crm/reviews)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.bigin.com/pricing.html) · [See reviews on G2](https://www.g2.com/products/bigin-by-zoho-crm/reviews)
 
 ### [Close](https://www.close.com/)
 
@@ -110,7 +110,7 @@ No free plan (14-day trial). Solo $9/mo (1 user), Essentials $35, Growth $99, Sc
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.close.com/pricing) · [See reviews on G2](https://www.g2.com/products/close/reviews)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.close.com/pricing) · [See reviews on G2](https://www.g2.com/products/close/reviews)
 
 ### [Pipedrive](https://www.pipedrive.com/)
 
@@ -122,7 +122,7 @@ No free plan (14-day trial). Lite $14, Growth $39, Premium $59, Ultimate $79 per
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.pipedrive.com/en/pricing) · [See reviews on G2](https://www.g2.com/products/pipedrive/reviews)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.pipedrive.com/en/pricing) · [See reviews on G2](https://www.g2.com/products/pipedrive/reviews)
 
 ### [Apollo (built-in CRM)](https://www.apollo.io/)
 
@@ -146,7 +146,7 @@ Standard $24, Premium $48 per member/mo billed yearly ($30, $60 monthly); Enterp
 
 Fit 3/5 (editorial) · Fits: Solo, Small team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.folk.app/pricing) · [See reviews on G2](https://www.g2.com/products/folk-folk/reviews)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.folk.app/pricing) · [See reviews on G2](https://www.g2.com/products/folk-folk/reviews)
 
 ### [Copper](https://www.copper.com/)
 
@@ -158,7 +158,7 @@ Basic $23, Professional $59, Business $99 per seat/mo paid annually; monthly $29
 
 Fit 3/5 (editorial) · Fits: Solo, Small team, Early scaling
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.copper.com/pricing) · [See reviews on G2](https://www.g2.com/products/copper/reviews)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.copper.com/pricing) · [See reviews on G2](https://www.g2.com/products/copper/reviews)
 
 ### [Lightfield](https://lightfield.app/)
 
@@ -170,7 +170,7 @@ Starter $89/user/mo billed monthly (up to 3 seats); Pro $999/mo per workspace bi
 
 Fit 3/5 (editorial) · Fits: Solo, Small team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://lightfield.app/pricing) · [See reviews on G2](https://www.g2.com/search?query=Lightfield)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://lightfield.app/pricing) · [See reviews on G2](https://www.g2.com/search?query=Lightfield)
 
 ### [Day AI](https://day.ai/)
 
@@ -180,11 +180,11 @@ Value score: —
 
 Price not yet verified
 
-Priced per AI agent, not per seat: each workspace needs at least one Professional ($60/mo) or Executive ($200/mo) agent; Turbo agents $24/mo; Super $800/mo annual only; human colleagues can join free. Billing period of the default view not verified
+Priced per AI agent, not per seat: each workspace needs at least one Professional ($60/mo) or Executive ($200/mo) agent; Turbo agents $24/mo; Super $800/mo annual only; human colleagues can join free. Page has a Monthly/Annual toggle; prices shown in the default (monthly) view
 
 Fit 3/5 (editorial) · Fits: Solo, Small team
 
-Checked 2026-11-10, price could not be verified, verify with vendor. [Pricing source](https://day.ai/pricing) · [See reviews on G2](https://www.g2.com/search?query=Day+AI)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://day.ai/pricing) · [See reviews on G2](https://www.g2.com/search?query=Day+AI)
 
 ## FAQ
 
@@ -194,15 +194,15 @@ HubSpot Sales Hub has the highest value score (100) among tools we list, priced 
 
 ### How much do CRM & pipeline tools cost?
 
-Published entry prices for listed tools: HubSpot Sales Hub: Free CRM for up to 2 users; Starter $20/seat/mo list (new-customer limited-time price $10 monthly or $7 with annual prepay); Professional $90/seat/mo billed annually ($100 paid monthly with annual commitment) plus required $1,500 one-time onboarding; Enterprise from $150/seat/mo plus $3,500 one-time onboarding; Salesforce Sales Cloud: Starter Suite $25/user/mo (billed monthly or annually); Pro Suite $100 (billed annually, contract); Core $195 (replaces Enterprise Edition), Advanced $395, Max $550 per user/mo billed annually. Free Suite listed at $0 (limits not verified); Attio: Free for up to 3 users (50,000 records); Plus $40/mo per workspace billed annually incl. 1 user + $35 per extra user ($50 + $44 monthly); Pro $100/mo per workspace annually incl. 1 user + $79 per extra user ($125 + $99 monthly); Ultra $1,000/mo annual incl. 5 users + $189 per user; Zoho CRM: Free for 3 users; Standard $14, Professional $23, Enterprise $40 per user/mo billed annually; monthly $20, $35, $50 (free plan re-confirmed 2026-11-16; paid prices render client-side and were not re-verified); Bigin by Zoho: Free for 1 user (500 records); Express $7/user/mo billed yearly ($9 monthly); Premier $15 monthly (yearly price not rendered on vendor page); Bigin 360 $18/user/mo billed annually; Close: No free plan (14-day trial). Solo $9/mo (1 user), Essentials $35, Growth $99, Scale $139 per user/mo billed annually; monthly $19, $49, $109, $149. Calling/SMS usage-based; Pipedrive: No free plan (14-day trial). Lite $14, Growth $39, Premium $59, Ultimate $79 per seat/mo billed annually; monthly billing $24, $49, $79, $99; Apollo (built-in CRM): Free plan includes lead management; deal management starts on Basic $49/seat/mo billed annually ($65 monthly); Professional $79 ($99); Organization $119 annual only, 3-seat minimum; folk: Standard $24, Premium $48 per member/mo billed yearly ($30, $60 monthly); Enterprise from $80 yearly ($100 monthly). Free trial; no free plan shown; Copper: Basic $23, Professional $59, Business $99 per seat/mo paid annually; monthly $29, $69, $134. Free trial; no free plan. Built for Google Workspace; Lightfield: Starter $89/user/mo billed monthly (up to 3 seats); Pro $999/mo per workspace billed annually (5 capture seats, unlimited viewers); Growth $2,999/mo; Enterprise custom. 14-day trial, no free plan; Day AI: Priced per AI agent, not per seat: each workspace needs at least one Professional ($60/mo) or Executive ($200/mo) agent; Turbo agents $24/mo; Super $800/mo annual only; human colleagues can join free. Billing period of the default view not verified. Prices as of 2026-11-16.
+Published entry prices for listed tools: HubSpot Sales Hub: Free CRM for up to 2 users; Starter $20/seat/mo list (new-customer limited-time price $10 monthly or $7 with annual prepay); Professional $90/seat/mo billed annually ($100 paid monthly with annual commitment) plus required $1,500 one-time onboarding; Enterprise from $150/seat/mo plus $3,500 one-time onboarding; Salesforce Sales Cloud: Starter Suite $25/user/mo (billed monthly or annually); Pro Suite $100 (billed annually, contract); Core $195 (replaces Enterprise Edition), Advanced $395, Max $550 per user/mo billed annually. Free Suite listed at $0 (limits not verified); Attio: Free for up to 3 users (50,000 records); Plus $40/mo per workspace billed annually incl. 1 user + $35 per extra user ($50 + $44 monthly); Pro $100/mo per workspace annually incl. 1 user + $79 per extra user ($125 + $99 monthly); Ultra $1,000/mo annual incl. 5 users + $189 per user; Zoho CRM: Free for 3 users; Standard $14, Professional $23, Enterprise $40 per user/mo billed annually; monthly $20, $35, $50 (free plan re-confirmed 2026-11-16; paid prices render client-side and were not re-verified); Bigin by Zoho: Free for 1 user (500 records); Express $7/user/mo billed yearly ($9 monthly); Premier $15 monthly (yearly price not rendered on vendor page); Bigin 360 $18/user/mo billed annually; Close: No free plan (14-day trial). Solo $9/mo (1 user), Essentials $35, Growth $99, Scale $139 per user/mo billed annually; monthly $19, $49, $109, $149. Calling/SMS usage-based; Pipedrive: No free plan (14-day trial). Lite $14, Growth $39, Premium $59, Ultimate $79 per seat/mo billed annually; monthly billing $24, $49, $79, $99; Apollo (built-in CRM): Free plan includes lead management; deal management starts on Basic $49/seat/mo billed annually ($65 monthly); Professional $79 ($99); Organization $119 annual only, 3-seat minimum; folk: Standard $24, Premium $48 per member/mo billed yearly ($30, $60 monthly); Enterprise from $80 yearly ($100 monthly). Free trial; no free plan shown; Copper: Basic $23, Professional $59, Business $99 per seat/mo paid annually; monthly $29, $69, $134. Free trial; no free plan. Built for Google Workspace; Lightfield: Starter $89/user/mo billed monthly (up to 3 seats); Pro $999/mo per workspace billed annually (5 capture seats, unlimited viewers); Growth $2,999/mo; Enterprise custom. 14-day trial, no free plan; Day AI: Priced per AI agent, not per seat: each workspace needs at least one Professional ($60/mo) or Executive ($200/mo) agent; Turbo agents $24/mo; Super $800/mo annual only; human colleagues can join free. Page has a Monthly/Annual toggle; prices shown in the default (monthly) view. Prices as of 2026-11-23.
 
 ### What is the cheapest CRM & pipeline tool?
 
-By published entry price, HubSpot Sales Hub and Attio and Zoho CRM and Bigin by Zoho and Apollo (built-in CRM) start free. Free plans and entry tiers have limits, so check them against your volume. List prices as of 2026-11-16; verify with the vendor.
+By published entry price, HubSpot Sales Hub and Attio and Zoho CRM and Bigin by Zoho and Apollo (built-in CRM) start free. Free plans and entry tiers have limits, so check them against your volume. List prices as of 2026-11-23; verify with the vendor.
 
 ### When should I move from a spreadsheet to a CRM?
 
 When a second person works the pipeline, live deals pass about 20–30, you copy sequencer replies by hand, email and LinkedIn reach the same people, investor pipeline reporting takes more than about an hour a month, or inbound leads or a first sales hire arrive.
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/use-cases/crm
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/use-cases/crm

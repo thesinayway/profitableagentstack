@@ -1,7 +1,7 @@
 ---
 title: Review Policy | Profitable Agent Stack
 url: https://profitableagentstack.com/review-policy
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/review-policy)
 ---
 
@@ -22,4 +22,4 @@ Feedback submitted through "Share your experience" (not live yet) may be moderat
 We do not offer incentives for reviews. If that changes, incentivized feedback will be labeled.
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/review-policy
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/review-policy

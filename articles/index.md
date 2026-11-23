@@ -1,7 +1,7 @@
 ---
 title: Articles: AI GTM Stack Guides | Profitable Agent Stack
 url: https://profitableagentstack.com/articles/
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/articles/)
 ---
 
@@ -53,4 +53,4 @@ Widely shared pieces by other people on getting the same or better GTM results f
   Vercel’s COO on build vs. buy for GTM tools in the AI era and when a GTM engineer is worth it, so you know what to add later.
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/articles/
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/articles/

@@ -1,7 +1,7 @@
 ---
 title: Best Outbound email / sequencing Tools by Cost & Value (2026) | Profitable Agent Stack
 url: https://profitableagentstack.com/use-cases/outbound-email
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/use-cases/outbound-email)
 ---
 
@@ -23,7 +23,7 @@ Outreach: Growth $47/mo (5,000 emails), Hypergrowth $107/mo (125,000 emails, 25,
 
 Fit 5/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://instantly.ai/pricing) · [See reviews on G2](https://www.g2.com/search?query=Instantly)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://instantly.ai/pricing) · [See reviews on G2](https://www.g2.com/search?query=Instantly)
 
 ### [Smartlead](https://smartlead.ai?via=limor) affiliate
 
@@ -37,7 +37,7 @@ Base from $39/mo (pricing page also lists Pro, Smart, Prime tiers)
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.smartlead.ai/pricing) · [See reviews on G2](https://www.g2.com/search?query=Smartlead)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.smartlead.ai/pricing) · [See reviews on G2](https://www.g2.com/search?query=Smartlead)
 
 ### [Salesforge](https://salesforge.ai/?via=limor) affiliate
 
@@ -45,11 +45,11 @@ Outbound email / sequencing
 
 Value score: 81
 
-Page title says 'Starting at $48/mo'; plan subscriptions shown at $40 and $80/mo billed monthly
+Pro $48/mo billed monthly ($29.20/mo billed annually); Growth $96/mo billed monthly ($58.40/mo billed annually); page title says 'Starting at $48/mo'. Annual prices as shown on 2026-11-23 may include a seasonal offer
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.salesforge.ai/pricing) · [See reviews on G2](https://www.g2.com/search?query=Salesforge)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.salesforge.ai/pricing) · [See reviews on G2](https://www.g2.com/search?query=Salesforge)
 
 ### [Reply.io](https://reply.io/)
 
@@ -61,7 +61,7 @@ Email volume tiers 'starts from' $59 monthly (lower with annual); LinkedIn add-o
 
 Fit 4/5 (editorial) · Fits: Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://reply.io/pricing/) · [See reviews on G2](https://www.g2.com/search?query=Reply.io)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://reply.io/pricing/) · [See reviews on G2](https://www.g2.com/search?query=Reply.io)
 
 ### [lemlist](https://get.lemlist.com/3q3jpladw6up) affiliate
 
@@ -73,7 +73,7 @@ Email $69/mo monthly ($55 annual), 50,000 emails/mo; Multichannel $109/mo ($87 a
 
 Fit 4/5 (editorial) · Fits: Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.lemlist.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=lemlist)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.lemlist.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=lemlist)
 
 ### [Woodpecker](https://woodpecker.co/?red=thesin) affiliate
 
@@ -101,7 +101,7 @@ Contact sales
 
 Fit 4/5 (editorial) · Fits: Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.salesloft.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Salesloft)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.salesloft.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Salesloft)
 
 ### [Outreach](https://www.outreach.io/)
 
@@ -115,7 +115,7 @@ Contact sales
 
 Fit 4/5 (editorial) · Fits: Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.outreach.io/pricing) · [See reviews on G2](https://www.g2.com/search?query=Outreach)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.outreach.io/pricing) · [See reviews on G2](https://www.g2.com/search?query=Outreach)
 
 ## FAQ
 
@@ -125,11 +125,11 @@ Instantly has the highest value score (94) among tools we list, priced at: Outre
 
 ### How much do outbound email / sequencing tools cost?
 
-Published entry prices for listed tools: Instantly: Outreach: Growth $47/mo (5,000 emails), Hypergrowth $107/mo (125,000 emails, 25,000 contacts), Light Speed $358/mo (500,000 emails); monthly billing view. Credits plans (e.g. Growth Credits $47/mo) are separate; Smartlead: Base from $39/mo (pricing page also lists Pro, Smart, Prime tiers); Salesforge: Page title says 'Starting at $48/mo'; plan subscriptions shown at $40 and $80/mo billed monthly; Reply.io: Email volume tiers 'starts from' $59 monthly (lower with annual); LinkedIn add-on $69/mo/acct; higher tiers vary; lemlist: Email $69/mo monthly ($55 annual), 50,000 emails/mo; Multichannel $109/mo ($87 annual); Woodpecker: Price not captured automatically — see vendor page; Salesloft: Contact sales; Outreach: Contact sales. Prices as of 2026-11-16.
+Published entry prices for listed tools: Instantly: Outreach: Growth $47/mo (5,000 emails), Hypergrowth $107/mo (125,000 emails, 25,000 contacts), Light Speed $358/mo (500,000 emails); monthly billing view. Credits plans (e.g. Growth Credits $47/mo) are separate; Smartlead: Base from $39/mo (pricing page also lists Pro, Smart, Prime tiers); Salesforge: Pro $48/mo billed monthly ($29.20/mo billed annually); Growth $96/mo billed monthly ($58.40/mo billed annually); page title says 'Starting at $48/mo'. Annual prices as shown on 2026-11-23 may include a seasonal offer; Reply.io: Email volume tiers 'starts from' $59 monthly (lower with annual); LinkedIn add-on $69/mo/acct; higher tiers vary; lemlist: Email $69/mo monthly ($55 annual), 50,000 emails/mo; Multichannel $109/mo ($87 annual); Woodpecker: Price not captured automatically — see vendor page; Salesloft: Contact sales; Outreach: Contact sales. Prices as of 2026-11-23.
 
 ### What is the cheapest outbound email / sequencing tool?
 
-By published entry price, Smartlead start at $39/mo. Free plans and entry tiers have limits, so check them against your volume. List prices as of 2026-11-16; verify with the vendor.
+By published entry price, Smartlead start at $39/mo. Free plans and entry tiers have limits, so check them against your volume. List prices as of 2026-11-23; verify with the vendor.
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/use-cases/outbound-email
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/use-cases/outbound-email

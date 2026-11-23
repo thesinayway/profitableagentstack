@@ -1,7 +1,7 @@
 ---
 title: Affiliate and Sponsorship Disclosure | Profitable Agent Stack
 url: https://profitableagentstack.com/disclosure
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/disclosure)
 ---
 
@@ -11,11 +11,11 @@ license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" a
 
 We may earn affiliate commissions or accept labeled sponsorships, and The Sinay Way LLC offers advisory services. None of this changes prices, scores or rank.
 
-Last updated 2026-11-16. This page is a general notice for a small site. It is not legal advice, and it has not been reviewed by a lawyer.
+Last updated 2026-11-23. This page is a general notice for a small site. It is not legal advice, and it has not been reviewed by a lawyer.
 
 ## Affiliate links
 
-Some links may be affiliate links; if you buy through them, The Sinay Way LLC may earn a commission at no extra cost to you. Affiliate links are marked "affiliate" and tagged rel="sponsored"; pages that contain them carry a disclosure at the top. As of 2026-11-16 affiliate links are active for: Smartlead, Salesforge, lemlist, Woodpecker, FullEnrich, HeyReach, Waalaxy, RB2B, beehiiv, Kit, Descript.
+Some links may be affiliate links; if you buy through them, The Sinay Way LLC may earn a commission at no extra cost to you. Affiliate links are marked "affiliate" and tagged rel="sponsored"; pages that contain them carry a disclosure at the top. As of 2026-11-23 affiliate links are active for: Smartlead, Salesforge, lemlist, Woodpecker, FullEnrich, HeyReach, Waalaxy, RB2B, beehiiv, Kit, Descript.
 
 ## Sponsored placements
 
@@ -34,4 +34,4 @@ Payment never changes fit, cost or value scores, badges, or which third-party ra
 This disclosure is intended to follow the U.S. FTC Guides Concerning the Use of Endorsements and Testimonials in Advertising.
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/disclosure
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/disclosure

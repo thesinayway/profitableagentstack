@@ -1,7 +1,7 @@
 ---
 title: One tool per job: how to stop paying twice | Profitable Agent Stack
 url: https://profitableagentstack.com/articles/one-tool-per-job
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/articles/one-tool-per-job)
 ---
 
@@ -34,9 +34,9 @@ Two tools are fine when they do **different** jobs. In our stacks, Search Consol
 
 The [stacks by GTM team size](https://profitableagentstack.com/stages/) show one pick per job at each size, with the monthly estimate and the use cases we would skip.
 
-General information only. Prices change; verify with vendors. Prices as of 2026-11-16.
+General information only. Prices change; verify with vendors. Prices as of 2026-11-23.
 
 Published Nov 4, 2026
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/articles/one-tool-per-job
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/articles/one-tool-per-job

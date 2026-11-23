@@ -1,7 +1,7 @@
 ---
 title: Best Positioning & messaging research Tools by Cost & Value (2026) | Profitable Agent Stack
 url: https://profitableagentstack.com/use-cases/positioning
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/use-cases/positioning)
 ---
 
@@ -19,7 +19,7 @@ We have not yet listed tools with published prices for this use case.
 
 ### How much do positioning & messaging research tools cost?
 
-Published entry prices for listed tools: none listed yet. Prices as of 2026-11-16.
+Published entry prices for listed tools: none listed yet. Prices as of 2026-11-23.
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/use-cases/positioning
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/use-cases/positioning

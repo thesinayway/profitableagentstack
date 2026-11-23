@@ -1,7 +1,7 @@
 ---
 title: Best Community Tools by Cost & Value (2026) | Profitable Agent Stack
 url: https://profitableagentstack.com/use-cases/community
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/use-cases/community)
 ---
 
@@ -21,7 +21,7 @@ Professional $89/mo, Business $199/mo, Scale $419/mo (billing period not verifie
 
 Fit 4/5 (editorial) · Fits: Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://circle.so/pricing) · [See reviews on G2](https://www.g2.com/search?query=Circle)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://circle.so/pricing) · [See reviews on G2](https://www.g2.com/search?query=Circle)
 
 ### [Discord](https://discord.com/)
 
@@ -45,11 +45,11 @@ Circle has the highest value score (88) among tools we list, priced at: Professi
 
 ### How much do community tools cost?
 
-Published entry prices for listed tools: Circle: Professional $89/mo, Business $199/mo, Scale $419/mo (billing period not verified); 14-day free trial, no free plan listed; Discord: Price not captured: no pricing page found for community servers — see vendor. Prices as of 2026-11-16.
+Published entry prices for listed tools: Circle: Professional $89/mo, Business $199/mo, Scale $419/mo (billing period not verified); 14-day free trial, no free plan listed; Discord: Price not captured: no pricing page found for community servers — see vendor. Prices as of 2026-11-23.
 
 ### What is the cheapest community tool?
 
-By published entry price, Circle start at $89/mo. Free plans and entry tiers have limits, so check them against your volume. List prices as of 2026-11-16; verify with the vendor.
+By published entry price, Circle start at $89/mo. Free plans and entry tiers have limits, so check them against your volume. List prices as of 2026-11-23; verify with the vendor.
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/use-cases/community
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/use-cases/community

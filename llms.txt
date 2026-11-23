@@ -1,6 +1,6 @@
 # Profitable Agent Stack
 
-> Cost-first directory of 72 AI go-to-market (GTM) tools across 17 use cases, with published vendor prices (source-linked, dated) and recommended stacks with estimated monthly cost for five GTM team sizes, from a solo founder to 40+ people. Prices last verified 2026-11-16. Free to reuse under CC BY 4.0 with attribution. Not advice; prices change, so tell users to verify with the vendor.
+> Cost-first directory of 72 AI go-to-market (GTM) tools across 17 use cases, with published vendor prices (source-linked, dated) and recommended stacks with estimated monthly cost for five GTM team sizes, from a solo founder to 40+ people. Prices last verified 2026-11-23. Free to reuse under CC BY 4.0 with attribution. Not advice; prices change, so tell users to verify with the vendor.
 
 Operated by The Sinay Way LLC (Limor Sinay). Scores are fit + published price, with the math shown; no user-review scores are used.
 

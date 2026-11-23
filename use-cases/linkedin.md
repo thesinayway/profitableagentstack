@@ -1,7 +1,7 @@
 ---
 title: Best LinkedIn outreach Tools by Cost & Value (2026) | Profitable Agent Stack
 url: https://profitableagentstack.com/use-cases/linkedin
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/use-cases/linkedin)
 ---
 
@@ -23,7 +23,7 @@ Best valueIn our stacks: Solo, Small team
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.waalaxy.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Waalaxy)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.waalaxy.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Waalaxy)
 
 ### [HeyReach](https://heyreach.io/?via=limor) affiliate
 
@@ -37,7 +37,7 @@ Growth $79/sender/mo; Agency $999/mo (25 senders); Unlimited $2,999/mo
 
 Fit 5/5 (editorial) · Fits: Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.heyreach.io/pricing) · [See reviews on G2](https://www.g2.com/search?query=HeyReach)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.heyreach.io/pricing) · [See reviews on G2](https://www.g2.com/search?query=HeyReach)
 
 ### [Expandi](https://expandi.io/)
 
@@ -49,7 +49,7 @@ $99/mo monthly ($79 annual), 7-day free trial
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://expandi.io/pricing/) · [See reviews on G2](https://www.g2.com/search?query=Expandi)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://expandi.io/pricing/) · [See reviews on G2](https://www.g2.com/search?query=Expandi)
 
 ## FAQ
 
@@ -59,11 +59,11 @@ Waalaxy has the highest value score (88) among tools we list, priced at: €19, 
 
 ### How much do linkedIn outreach tools cost?
 
-Published entry prices for listed tools: Waalaxy: €19, €49, €69 per user/mo; 14-day free trial (EUR); HeyReach: Growth $79/sender/mo; Agency $999/mo (25 senders); Unlimited $2,999/mo; Expandi: $99/mo monthly ($79 annual), 7-day free trial. Prices as of 2026-11-16.
+Published entry prices for listed tools: Waalaxy: €19, €49, €69 per user/mo; 14-day free trial (EUR); HeyReach: Growth $79/sender/mo; Agency $999/mo (25 senders); Unlimited $2,999/mo; Expandi: $99/mo monthly ($79 annual), 7-day free trial. Prices as of 2026-11-23.
 
 ### What is the cheapest linkedIn outreach tool?
 
-By published entry price, HeyReach start at $79/mo. Free plans and entry tiers have limits, so check them against your volume. List prices as of 2026-11-16; verify with the vendor.
+By published entry price, HeyReach start at $79/mo. Free plans and entry tiers have limits, so check them against your volume. List prices as of 2026-11-23; verify with the vendor.
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/use-cases/linkedin
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/use-cases/linkedin

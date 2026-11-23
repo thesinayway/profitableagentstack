@@ -1,7 +1,7 @@
 ---
 title: Artificial Intelligence (AI) | Articles | Profitable Agent Stack
 url: https://profitableagentstack.com/articles/category/ai
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/articles/category/ai)
 ---
 
@@ -34,4 +34,4 @@ Nov 2, 2026
 The value score in plain words: what goes in, what does not, and why money never changes rank.](https://profitableagentstack.com/articles/how-we-score)
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/articles/category/ai
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/articles/category/ai

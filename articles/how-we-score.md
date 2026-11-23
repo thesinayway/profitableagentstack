@@ -1,7 +1,7 @@
 ---
 title: How we score AI GTM tools (and why cost counts) | Profitable Agent Stack
 url: https://profitableagentstack.com/articles/how-we-score
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/articles/how-we-score)
 ---
 
@@ -38,9 +38,9 @@ The score ranks tools within one use case. For a stack at a given team size we a
 
 A score cannot know your market, your data or your team. Use it to shortlist, then run a trial. The full method lives on the [methodology page](https://profitableagentstack.com/methodology), and if you spot an error, the [corrections page](https://profitableagentstack.com/corrections) is the fastest way to tell us.
 
-General information only, not professional, legal or financial advice. Prices as of 2026-11-16.
+General information only, not professional, legal or financial advice. Prices as of 2026-11-23.
 
 Published Nov 2, 2026
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/articles/how-we-score
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/articles/how-we-score

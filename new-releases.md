@@ -1,13 +1,23 @@
 ---
 title: New Releases & Price Changes | Profitable Agent Stack
 url: https://profitableagentstack.com/new-releases
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/new-releases)
 ---
 
 # What changed this week?
 
-Updated 2026-11-16. The latest AI GTM tool releases and price changes we have logged, newest first, each with a source link.
+Updated 2026-11-23. The latest AI GTM tool releases and price changes we have logged, newest first, each with a source link.
+
+**2026-11-23** — New this week: Reply.io (listed) released Jason Harness (Nov 20), a free, open-source (MIT) AI SDR harness that runs inside Claude Code or Codex as nine roles (planner, researcher, copywriter, critic and more). Reply sends the emails and LinkedIn messages and a person approves every send. In alpha; uses your own AI subscription, Reply plans still paid. [Source](https://www.einpresswire.com/article/957995784/reply-io-launches-open-source-jason-harness-for-outbound-sales)
+
+**2026-11-23** — New this week: Clay (listed) opened its global agent in beta (Nov 19): you describe a play in chat and it builds the search, audience, workflow and sequence, tests on sample records and shows an estimated cost before running at scale. Included on paid Launch, Growth and Enterprise plans. [Source](https://www.clay.com/blog/clay-global-agent-beta)
+
+**2026-11-23** — New this week: Swan AI (listed) moved its automations into goal-based agents (Nov 17): each agent owns one goal, such as booking first meetings with accounts showing buying signals, reviews its own results every few days and asks before bigger changes like new outreach or more credits. Prices unchanged. [Source](https://www.getswan.com/changelog/agents)
+
+**2026-11-23** — New this week: Spara announced Scout (Nov 17), a proactive sales assistant that watches job changes, company news, buying signals and CRM activity, then drafts outreach and next steps for reps to review in Slack or text. Not listed or priced yet. [Source](https://www.prnewswire.com/news-releases/spara-introduces-scout-the-first-ai-assistant-built-to-anticipate-salespeoples-needs-and-take-action-302940779.html)
+
+**2026-11-23** — Weekly price check: re-checked 62 of 72 tools on their vendor pricing pages. Changes: Origami Pro $199→$299/mo and Max $399→$499/mo (Starter unchanged at $99); Salesforge plan cards now show Pro $48 and Growth $96/mo billed monthly ($29.20 and $58.40 billed annually), previously recorded as $40 and $80 subscriptions; Kit's $50 first-year Pro offer is no longer shown (Pro $79/mo monthly; Creator $39/mo monthly with 50% off for 3 months to Dec 1). Not re-verified this week (page blocked or prices render client-side), last verified price kept: Woodpecker, Clearout, Canva, Discord, Apollo, Apollo (built-in CRM), HubSpot Sales Hub, 6sense BDR Agent, Microsoft Sales Development Agent, Typefully. [Source](https://profitableagentstack.com/directory.html)
 
 **2026-11-16** — New this week: LeadIQ launched Chewie, a standalone prospecting platform that turns a plain-language target description into a play: it finds the buying team on LeadIQ data, writes each email and lines up calls, with a person approving every message (Nov 12). Not listed or priced yet. [Source](https://leadiq.com/blog/meet-chewie)
 
@@ -56,4 +66,4 @@ Updated 2026-11-16. The latest AI GTM tool releases and price changes we have lo
 **2026-10-26** — Directory launched (draft) with 23 tools across 8 use cases. Weekly release and price-change log coming.
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/new-releases
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/new-releases

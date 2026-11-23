@@ -1,7 +1,7 @@
 ---
 title: When to add AEO (AI search visibility) vs classic SEO | Profitable Agent Stack
 url: https://profitableagentstack.com/articles/when-to-add-aeo
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/articles/when-to-add-aeo)
 ---
 
@@ -35,9 +35,9 @@ On the [published prices](https://profitableagentstack.com/directory) we checked
 
 These tools measure answers that change from run to run, and none can guarantee a mention. Treat the numbers as a trend, not a score.
 
-General information only, not advice. Prices as of 2026-11-16; verify with the vendor.
+General information only, not advice. Prices as of 2026-11-23; verify with the vendor.
 
 Published Nov 11, 2026
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/articles/when-to-add-aeo
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/articles/when-to-add-aeo

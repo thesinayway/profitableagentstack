@@ -1,7 +1,7 @@
 ---
 title: Advisory | Profitable Agent Stack
 url: https://profitableagentstack.com/advisory
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/advisory)
 ---
 
@@ -31,4 +31,4 @@ Advisory services are provided by The Sinay Way LLC, not by this directory. Scop
 or email [limor@thesinayway.com](mailto:limor@thesinayway.com?subject=Book%20a%20call)
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/advisory
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/advisory

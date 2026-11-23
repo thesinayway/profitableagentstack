@@ -1,7 +1,7 @@
 ---
 title: Share Your Experience | Profitable Agent Stack
 url: https://profitableagentstack.com/feedback
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/feedback)
 ---
 
@@ -22,4 +22,4 @@ I am not affiliated with this vendor and agree to the [Review policy](https://pr
 Submit
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/feedback
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/feedback

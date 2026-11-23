@@ -1,7 +1,7 @@
 ---
 title: Contact | Profitable Agent Stack
 url: https://profitableagentstack.com/contact
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/contact)
 ---
 
@@ -30,4 +30,4 @@ Data questions, API or MCP issues: same email. Docs are on the [developers page]
 For help choosing and putting in place a lean AI GTM stack, see [Advisory](https://profitableagentstack.com/advisory).
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/contact
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/contact

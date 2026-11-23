@@ -1,7 +1,7 @@
 ---
 title: AI GTM Stacks by GTM Team Size: Cost & Tools | Profitable Agent Stack
 url: https://profitableagentstack.com/stages/
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/stages/)
 ---
 
@@ -61,7 +61,7 @@ View stack](https://profitableagentstack.com/stages/large-multi-team)
 | [**Scaling**](https://profitableagentstack.com/stages/scaling) 16–40 GTM people | $2,193/mo | Sixteen to forty people in go-to-market, several managers, and RevOps starting to own reports, permissions and data hygiene. |
 | [**Large / multi-team**](https://profitableagentstack.com/stages/large-multi-team) 40+ GTM people | at least $7,587/mo | More than forty people across several teams or regions. Procurement, security review and data-processing agreements are part of buying anything. |
 
-Estimates from published list prices as of 2026-11-02 to 2026-11-16 (per tool); verify with vendors. Solo and Small also pay Waalaxy in euros (not converted). Large is a floor: enterprise tiers are quote-based. Read [why we size stacks this way](https://profitableagentstack.com/articles/stacks-by-gtm-team-size) and [how we pick one tool per job](https://profitableagentstack.com/articles/one-tool-per-job).
+Estimates from published list prices as of 2026-11-02 to 2026-11-23 (per tool); verify with vendors. Solo and Small also pay Waalaxy in euros (not converted). Large is a floor: enterprise tiers are quote-based. Read [why we size stacks this way](https://profitableagentstack.com/articles/stacks-by-gtm-team-size) and [how we pick one tool per job](https://profitableagentstack.com/articles/one-tool-per-job).
 
 ## FAQ
 
@@ -74,4 +74,4 @@ Count the people who do go-to-market work (selling, outbound, content, RevOps), 
 Funding rounds say little about the tools you need; the number of people running go-to-market says a lot, because seats, admin and volume drive both cost and fit.
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/stages/
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/stages/

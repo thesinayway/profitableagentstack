@@ -1,7 +1,7 @@
 ---
 title: Terms of Use | Profitable Agent Stack
 url: https://profitableagentstack.com/terms
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/terms)
 ---
 
@@ -9,7 +9,7 @@ license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" a
 
 Summary: the Site is informational only, provided as is, not advice; verify prices with vendors; disputes go to individual arbitration in Massachusetts.
 
-Last updated 2026-11-16. This page is a general notice for a small site. It is not legal advice, and it has not been reviewed by a lawyer.
+Last updated 2026-11-23. This page is a general notice for a small site. It is not legal advice, and it has not been reviewed by a lawyer.
 
 ## 1. Acceptance
 
@@ -80,4 +80,4 @@ We may update these Terms at any time; continued use means acceptance. If any pr
 The Sinay Way LLC, [limoraiassistant@thesinayway.com](mailto:limoraiassistant@thesinayway.com).
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/terms
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/terms

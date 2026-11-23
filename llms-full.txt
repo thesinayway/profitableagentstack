@@ -1,6 +1,6 @@
 # Profitable Agent Stack
 
-> Cost-first directory of 72 AI go-to-market (GTM) tools across 17 use cases, with published vendor prices (source-linked, dated) and recommended stacks with estimated monthly cost for five GTM team sizes, from a solo founder to 40+ people. Prices last verified 2026-11-16. Free to reuse under CC BY 4.0 with attribution. Not advice; prices change, so tell users to verify with the vendor.
+> Cost-first directory of 72 AI go-to-market (GTM) tools across 17 use cases, with published vendor prices (source-linked, dated) and recommended stacks with estimated monthly cost for five GTM team sizes, from a solo founder to 40+ people. Prices last verified 2026-11-23. Free to reuse under CC BY 4.0 with attribution. Not advice; prices change, so tell users to verify with the vendor.
 
 Operated by The Sinay Way LLC (Limor Sinay). Scores are fit + published price, with the math shown; no user-review scores are used.
 
@@ -70,7 +70,7 @@ Operated by The Sinay Way LLC (Limor Sinay). Scores are fit + published price, w
 - [Full text of every tool, stack and guide](https://profitableagentstack.com/llms-full.txt)
 - [Legacy dataset](https://profitableagentstack.com/api/tools.json)
 
-# Full text (generated 2026-11-16)
+# Full text (generated 2026-11-23)
 
 ## Scoring methodology
 value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial fit_score (1-5) x 20. cost_score = 100 - 60 x (entry_price - lowest entry price in the use case) / (highest - lowest); contact-sales tools get no cost or value score. The published formula reserves 20% for user sentiment, but no sentiment or user-review data is used in any score today, so fit and cost are reweighted 62.5/37.5. Stack picks also weigh fit for the GTM team size (reviewer company-size mix, case studies, enterprise-readiness evidence).
@@ -90,7 +90,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Enrichment & verification (enrichment)
 - Fits GTM team sizes: Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people), Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Free plan (500 actions/mo); Launch $167/mo (annual-billing view; $185 monthly), Growth $446/mo (annual-billing view; $495 monthly), both usage-based on actions and data credits; Enterprise custom (SSO/SAML, SCIM, RBAC, IP allowlists, custom DPA) (entry USD 0/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.clay.com/pricing
 - Scores: fit 5/5 (editorial), cost 100, value 100 (best value in its use case)
 - In our recommended stacks: Large / multi-team
@@ -99,7 +99,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Search performance (search-performance)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people), Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Free (Google describes it as a free service) (entry USD 0/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://support.google.com/webmasters/answer/9128668
 - Scores: fit 5/5 (editorial), cost 100, value 100 (best value in its use case)
 - In our recommended stacks: Small GTM team, Early scaling, Scaling, Large / multi-team
@@ -108,7 +108,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Landing pages & websites (landing-pages)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people)
 - Price: Free $0 (Framer domain); Basic $10/mo, Pro $30/mo (yearly-billing view; monthly-billing price not verified) (entry USD 0/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.framer.com/pricing
 - Scores: fit 5/5 (editorial), cost 100, value 100 (best value in its use case)
 - In our recommended stacks: Small GTM team, Early scaling
@@ -117,7 +117,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Newsletters (newsletters)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people), Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Free forever (1,000-subscriber view); Lite $49/mo yearly billing; Pro $95/mo yearly billing (entry USD 0/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.beehiiv.com/pricing
 - Scores: fit 5/5 (editorial), cost 100, value 100 (best value in its use case)
 - In our recommended stacks: Solo founder, Small GTM team, Early scaling, Scaling
@@ -135,7 +135,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Outbound email / sequencing (outbound-email)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people), Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Outreach: Growth $47/mo (5,000 emails), Hypergrowth $107/mo (125,000 emails, 25,000 contacts), Light Speed $358/mo (500,000 emails); monthly billing view. Credits plans (e.g. Growth Credits $47/mo) are separate (entry USD 47/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://instantly.ai/pricing
 - Scores: fit 5/5 (editorial), cost 84, value 94 (best value in its use case)
 - In our recommended stacks: Small GTM team, Early scaling, Scaling
@@ -144,7 +144,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: CRM & pipeline (crm)
 - Fits GTM team sizes: Early scaling (6–15 GTM people), Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Starter Suite $25/user/mo (billed monthly or annually); Pro Suite $100 (billed annually, contract); Core $195 (replaces Enterprise Edition), Advanced $395, Max $550 per user/mo billed annually. Free Suite listed at $0 (limits not verified) (entry USD 25/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.salesforce.com/sales/pricing/
 - Scores: fit 5/5 (editorial), cost 83, value 94
 - CRM pick for: Large / multi-team
@@ -153,7 +153,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Outbound email / sequencing (outbound-email)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people)
 - Price: Base from $39/mo (pricing page also lists Pro, Smart, Prime tiers) (entry USD 39/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.smartlead.ai/pricing
 - Scores: fit 4/5 (editorial), cost 100, value 88
 - In our recommended stacks: Solo founder
@@ -162,7 +162,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: List building & lead data (list-building)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people)
 - Price: Free $10 credits/mo; Search from $4 per 1k requests (usage-based) (entry USD 0/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://exa.ai/pricing
 - Scores: fit 4/5 (editorial), cost 100, value 88
 - Page: https://profitableagentstack.com/use-cases/list-building#exa
@@ -170,7 +170,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Enrichment & verification (enrichment)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people), Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Free (50 credits); Starter $49/mo monthly ($34 annual); Growth $149 ($104); Scale $299 ($209) (entry USD 0/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://hunter.io/pricing
 - Scores: fit 4/5 (editorial), cost 100, value 88
 - In our recommended stacks: Solo founder, Small GTM team, Early scaling, Scaling
@@ -179,7 +179,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Enrichment & verification (enrichment)
 - Fits GTM team sizes: Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people), Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Free trial; Pro 15K credits $720/mo; other credit tiers on page (entry USD 0/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://fullenrich.com/pricing
 - Scores: fit 4/5 (editorial), cost 100, value 88
 - Page: https://profitableagentstack.com/use-cases/enrichment#fullenrich
@@ -187,7 +187,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: LinkedIn outreach (linkedin)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people)
 - Price: €19, €49, €69 per user/mo; 14-day free trial (EUR) (entry EUR 19/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.waalaxy.com/pricing
 - Scores: fit 4/5 (editorial), cost 100, value 88 (best value in its use case)
 - In our recommended stacks: Solo founder, Small GTM team
@@ -196,7 +196,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Design & video (design-video)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people), Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Free $0; Creator $29/mo; Pro $49/mo; Business $149/mo (entry USD 0/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.heygen.com/pricing
 - Scores: fit 4/5 (editorial), cost 100, value 88 (best value in its use case)
 - Page: https://profitableagentstack.com/use-cases/design-video#heygen
@@ -204,7 +204,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Signals, intent & analytics (signals)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people), Scaling (16–40 GTM people)
 - Price: Free $0; Starter $79/mo; Pro from $149; Pro+ from $199 (entry USD 0/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.rb2b.com/pricing
 - Scores: fit 4/5 (editorial), cost 100, value 88 (best value in its use case)
 - In our recommended stacks: Small GTM team, Early scaling, Scaling
@@ -213,7 +213,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Signals, intent & analytics (signals)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people), Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Free monthly allowance (e.g. 1M analytics events), then usage-based (entry USD 0/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://posthog.com/pricing
 - Scores: fit 4/5 (editorial), cost 100, value 88 (best value in its use case)
 - In our recommended stacks: Early scaling, Scaling, Large / multi-team
@@ -222,7 +222,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Search performance (search-performance)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people)
 - Price: Free: site audit and SEO metrics for websites you verify (formerly Ahrefs Webmaster Tools); paid plans not captured (entry USD 0/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://ahrefs.com/webmaster-tools
 - Scores: fit 4/5 (editorial), cost 100, value 88
 - Page: https://profitableagentstack.com/use-cases/search-performance#ahrefs-free
@@ -230,7 +230,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Content optimization (content-optimization)
 - Fits GTM team sizes: Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people), Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Discovery $49/mo, AI Visibility $82/mo, Standard $99/mo, Pro $182/mo, Peace of Mind $299/mo (page lists "USD per month", billed yearly) (entry USD 49/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://surfer.ai/pricing/
 - Scores: fit 4/5 (editorial), cost 100, value 88 (best value in its use case)
 - In our recommended stacks: Early scaling, Scaling, Large / multi-team
@@ -239,7 +239,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Social scheduling (social-scheduling)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people), Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Free: up to 3 channels; Essentials $5/mo per channel and Team $10/mo per channel (billed-yearly view: $60/yr and $120/yr per channel); vendor says annual billing saves 20%, monthly price not captured (entry USD 0/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://buffer.com/pricing
 - Scores: fit 4/5 (editorial), cost 100, value 88 (best value in its use case)
 - In our recommended stacks: Small GTM team
@@ -256,7 +256,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Landing pages & websites (landing-pages)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people)
 - Price: Free account; Pro Lite $9/yr, Pro Standard $19/yr (custom domain), up to $69/yr for 50 sites (entry USD 0/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://carrd.com/pro
 - Scores: fit 4/5 (editorial), cost 100, value 88
 - In our recommended stacks: Solo founder
@@ -265,7 +265,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Landing pages & websites (landing-pages)
 - Fits GTM team sizes: Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people), Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Free (webflow.io domain); site plans Basic $15/mo billed yearly, Premium (CMS, new name on the page) $25/mo billed yearly (entry USD 0/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://webflow.com/pricing
 - Scores: fit 4/5 (editorial), cost 100, value 88
 - In our recommended stacks: Scaling, Large / multi-team
@@ -273,8 +273,8 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 ### Kit
 - Use case: Newsletters (newsletters)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people)
-- Price: Free $0 (up to 10,000 subscribers); Creator $33/mo billed yearly ($390/yr); Pro $66/mo billed yearly, shown at $50/mo for the first year as a limited-time offer (entry USD 0/mo)
-- Last verified: 2026-11-16
+- Price: Free $0 (up to 10,000 subscribers); Creator $39/mo billed monthly ($33/mo billed yearly, $390/yr, last seen 2026-11-16); Pro $79/mo billed monthly (yearly billing saves 17%). Black Friday offer to Dec 1: 50% off monthly Creator for the first 3 months (entry USD 0/mo)
+- Last verified: 2026-11-23
 - Pricing source: https://kit.com/pricing
 - Scores: fit 4/5 (editorial), cost 100, value 88
 - Page: https://profitableagentstack.com/use-cases/newsletters#kit
@@ -282,7 +282,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Design & video (design-video)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people)
 - Price: Free $0; Hobbyist $16/mo yearly ($24 monthly); Creator $24 yearly ($35 monthly); Business $50 yearly ($65 monthly), per person (entry USD 0/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.descript.com/pricing
 - Scores: fit 4/5 (editorial), cost 100, value 88 (best value in its use case)
 - Page: https://profitableagentstack.com/use-cases/design-video#descript
@@ -290,7 +290,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Design & video (design-video)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people)
 - Price: Free USD 0; paid plan prices not captured (entry USD 0/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.capcut.com/pricing
 - Scores: fit 4/5 (editorial), cost 100, value 88 (best value in its use case)
 - Page: https://profitableagentstack.com/use-cases/design-video#capcut
@@ -298,7 +298,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Community (community)
 - Fits GTM team sizes: Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people), Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Professional $89/mo, Business $199/mo, Scale $419/mo (billing period not verified); 14-day free trial, no free plan listed (entry USD 89/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://circle.so/pricing
 - Scores: fit 4/5 (editorial), cost 100, value 88 (best value in its use case)
 - Page: https://profitableagentstack.com/use-cases/community#circle
@@ -306,7 +306,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Web analytics (web-analytics)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people), Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Free of charge (Google) (entry USD 0/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://marketingplatform.google.com/about/analytics/
 - Scores: fit 4/5 (editorial), cost 100, value 88 (best value in its use case)
 - In our recommended stacks: Solo founder, Small GTM team, Early scaling, Scaling, Large / multi-team
@@ -315,7 +315,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: AI SDR / agentic SDR (ai-sdr)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people)
 - Price: Free plan (limited credits, up to 3 seats); Base $20/seat/mo (800 credits); Pro $60/seat/mo (2,400 credits); Business custom, annual. Website intent, signal-triggered automations and CRM writeback are Business features (entry USD 0/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.unifygtm.com/pricing
 - Scores: fit 4/5 (editorial), cost 100, value 88 (best value in its use case)
 - Page: https://profitableagentstack.com/use-cases/ai-sdr#unify
@@ -323,7 +323,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: CRM & pipeline (crm)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people)
 - Price: Free for up to 3 users (50,000 records); Plus $40/mo per workspace billed annually incl. 1 user + $35 per extra user ($50 + $44 monthly); Pro $100/mo per workspace annually incl. 1 user + $79 per extra user ($125 + $99 monthly); Ultra $1,000/mo annual incl. 5 users + $189 per user (entry USD 0/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://attio.com/pricing
 - Scores: fit 4/5 (editorial), cost 100, value 88
 - Page: https://profitableagentstack.com/use-cases/crm#attio
@@ -331,7 +331,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: CRM & pipeline (crm)
 - Fits GTM team sizes: Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people), Scaling (16–40 GTM people)
 - Price: Free for 3 users; Standard $14, Professional $23, Enterprise $40 per user/mo billed annually; monthly $20, $35, $50 (free plan re-confirmed 2026-11-16; paid prices render client-side and were not re-verified) (entry USD 0/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.zoho.com/crm/zohocrm-pricing.html
 - Scores: fit 4/5 (editorial), cost 100, value 88
 - Page: https://profitableagentstack.com/use-cases/crm#zoho-crm
@@ -339,7 +339,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: CRM & pipeline (crm)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people)
 - Price: Free for 1 user (500 records); Express $7/user/mo billed yearly ($9 monthly); Premier $15 monthly (yearly price not rendered on vendor page); Bigin 360 $18/user/mo billed annually (entry USD 0/mo)
-- Last verified: 2026-11-10
+- Last verified: 2026-11-23
 - Pricing source: https://www.bigin.com/pricing.html
 - Scores: fit 4/5 (editorial), cost 100, value 88
 - Page: https://profitableagentstack.com/use-cases/crm#bigin-by-zoho
@@ -347,7 +347,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: CRM & pipeline (crm)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people)
 - Price: No free plan (14-day trial). Solo $9/mo (1 user), Essentials $35, Growth $99, Scale $139 per user/mo billed annually; monthly $19, $49, $109, $149. Calling/SMS usage-based (entry USD 9/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.close.com/pricing
 - Scores: fit 4/5 (editorial), cost 94, value 85
 - Page: https://profitableagentstack.com/use-cases/crm#close
@@ -355,7 +355,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: CRM & pipeline (crm)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people), Scaling (16–40 GTM people)
 - Price: No free plan (14-day trial). Lite $14, Growth $39, Premium $59, Ultimate $79 per seat/mo billed annually; monthly billing $24, $49, $79, $99 (entry USD 14/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.pipedrive.com/en/pricing
 - Scores: fit 4/5 (editorial), cost 91, value 84
 - Page: https://profitableagentstack.com/use-cases/crm#pipedrive
@@ -363,7 +363,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: LinkedIn outreach (linkedin)
 - Fits GTM team sizes: Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people), Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Growth $79/sender/mo; Agency $999/mo (25 senders); Unlimited $2,999/mo (entry USD 79/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.heyreach.io/pricing
 - Scores: fit 5/5 (editorial), cost 55, value 83
 - In our recommended stacks: Early scaling, Scaling, Large / multi-team
@@ -372,7 +372,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: AEO (AI search visibility) (aeo)
 - Fits GTM team sizes: Early scaling (6–15 GTM people), Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Starter $95/mo (50 prompts, 3 chosen models, unlimited users, SOC 2); Pro $245/mo (150 prompts, API); Advanced $495/mo (350 prompts); Enterprise custom (SSO, more models) (entry USD 95/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://peec.ai/pricing
 - Scores: fit 4/5 (editorial), cost 85, value 82 (best value in its use case)
 - In our recommended stacks: Early scaling, Scaling, Large / multi-team
@@ -380,8 +380,8 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 ### Salesforge
 - Use case: Outbound email / sequencing (outbound-email)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people)
-- Price: Page title says 'Starting at $48/mo'; plan subscriptions shown at $40 and $80/mo billed monthly (entry USD 48/mo)
-- Last verified: 2026-11-16
+- Price: Pro $48/mo billed monthly ($29.20/mo billed annually); Growth $96/mo billed monthly ($58.40/mo billed annually); page title says 'Starting at $48/mo'. Annual prices as shown on 2026-11-23 may include a seasonal offer (entry USD 48/mo)
+- Last verified: 2026-11-23
 - Pricing source: https://www.salesforge.ai/pricing
 - Scores: fit 4/5 (editorial), cost 82, value 81
 - Page: https://profitableagentstack.com/use-cases/outbound-email#salesforge
@@ -389,7 +389,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: AEO (AI search visibility) (aeo)
 - Fits GTM team sizes: Early scaling (6–15 GTM people), Scaling (16–40 GTM people)
 - Price: Lite €29/mo (16 prompts, 2,000 credits, 4 of 7 engines); Standard €189/mo (120 prompts, 15,000 credits); Premium €489/mo (403 prompts); Enterprise custom (SSO). Page showed EUR to our checker and says prices are in USD or EUR; Claude uses 3 credits per answer (entry EUR 29/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://otterly.ai/pricing
 - Scores: fit 3/5 (editorial), cost 100, value 75
 - Page: https://profitableagentstack.com/use-cases/aeo#otterly-ai
@@ -397,7 +397,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: AI SDR / agentic SDR (ai-sdr)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people)
 - Price: Free (250 one-time credits per person, up to 10 people); Pro $49/mo for one person; Team $150/seat/mo with a 2-seat minimum; Enterprise custom (monthly billing view) (entry USD 0/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.regie.ai/pricing
 - Scores: fit 3/5 (editorial), cost 100, value 75
 - Page: https://profitableagentstack.com/use-cases/ai-sdr#regie-ai
@@ -413,7 +413,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Web analytics (web-analytics)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people)
 - Price: Starter $9/mo (up to 10k pageviews; monthly vs yearly billing view not verified), Growth $14/mo, Business $19/mo; 30-day free trial, no free plan (entry USD 9/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://plausible.io/
 - Scores: fit 4/5 (editorial), cost 64, value 74
 - Page: https://profitableagentstack.com/use-cases/web-analytics#plausible
@@ -421,7 +421,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Outbound email / sequencing (outbound-email)
 - Fits GTM team sizes: Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people), Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Email volume tiers 'starts from' $59 monthly (lower with annual); LinkedIn add-on $69/mo/acct; higher tiers vary (entry USD 59/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://reply.io/pricing/
 - Scores: fit 4/5 (editorial), cost 60, value 72
 - Page: https://profitableagentstack.com/use-cases/outbound-email#reply-io
@@ -429,15 +429,15 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: AI SDR / agentic SDR (ai-sdr)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people)
 - Price: Solo $100/mo (625 credits, 1 seat); Starter $200/mo (1,250 credits); Growth $419/mo (2,000 credits, 5 seats); Scale custom. Annual billing $80/$160/$335 per month. Free trial on Solo and Starter (entry USD 100/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.getswan.com/pricing
 - Scores: fit 3/5 (editorial), cost 90, value 71
 - Page: https://profitableagentstack.com/use-cases/ai-sdr#swan-ai
 ### Origami
 - Use case: AI SDR / agentic SDR (ai-sdr)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people)
-- Price: Starter $99/mo; Pro $199/mo; Max $399/mo; usage included and billed beyond that; unlimited team members on paid plans. 7-day trial requires a card and renews at $99/mo (entry USD 99/mo)
-- Last verified: 2026-11-16
+- Price: Starter $99/mo ($165 of usage included); Pro $299/mo ($495 of usage); Max $499/mo ($825 of usage); usage billed beyond that; unlimited team members on paid plans. 7-day trial requires a card and includes $66 of usage (entry USD 99/mo)
+- Last verified: 2026-11-23
 - Pricing source: https://origami.chat/pricing
 - Scores: fit 3/5 (editorial), cost 90, value 71
 - Page: https://profitableagentstack.com/use-cases/ai-sdr#origami
@@ -445,7 +445,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: AI SDR / agentic SDR (ai-sdr)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people)
 - Price: Individual from $100/mo; Teams from $255/mo for the whole team (unlimited seats); Enterprise contact sales. Usage billed in agent actions (entry USD 100/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.rox.com/pricing
 - Scores: fit 3/5 (editorial), cost 90, value 71
 - Page: https://profitableagentstack.com/use-cases/ai-sdr#rox
@@ -453,7 +453,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: AEO (AI search visibility) (aeo)
 - Fits GTM team sizes: Early scaling (6–15 GTM people), Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Core $250/mo (125 prompts, 4 LLMs, 5 licenses; third-party reports $300 month-to-month, not verified on vendor page); Enterprise custom (SSO, 9 LLMs, AXP) (entry USD 250/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://scrunch.com/pricing
 - Scores: fit 4/5 (editorial), cost 50, value 69
 - Page: https://profitableagentstack.com/use-cases/aeo#scrunch
@@ -461,7 +461,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: CRM & pipeline (crm)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people)
 - Price: Standard $24, Premium $48 per member/mo billed yearly ($30, $60 monthly); Enterprise from $80 yearly ($100 monthly). Free trial; no free plan shown (entry USD 24/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.folk.app/pricing
 - Scores: fit 3/5 (editorial), cost 84, value 69
 - Page: https://profitableagentstack.com/use-cases/crm#folk
@@ -469,7 +469,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: CRM & pipeline (crm)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people)
 - Price: Basic $23, Professional $59, Business $99 per seat/mo paid annually; monthly $29, $69, $134. Free trial; no free plan. Built for Google Workspace (entry USD 23/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.copper.com/pricing
 - Scores: fit 3/5 (editorial), cost 84, value 69
 - Page: https://profitableagentstack.com/use-cases/crm#copper
@@ -477,7 +477,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Outbound email / sequencing (outbound-email)
 - Fits GTM team sizes: Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people), Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Email $69/mo monthly ($55 annual), 50,000 emails/mo; Multichannel $109/mo ($87 annual) (entry USD 69/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.lemlist.com/pricing
 - Scores: fit 4/5 (editorial), cost 40, value 65
 - Page: https://profitableagentstack.com/use-cases/outbound-email#lemlist
@@ -485,7 +485,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: LinkedIn outreach (linkedin)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people)
 - Price: $99/mo monthly ($79 annual), 7-day free trial (entry USD 99/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://expandi.io/pricing/
 - Scores: fit 4/5 (editorial), cost 40, value 65
 - Page: https://profitableagentstack.com/use-cases/linkedin#expandi
@@ -493,7 +493,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Social scheduling (social-scheduling)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people), Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Standard $29/mo, Team $39, Pro $49, Ultimate $99 (entry USD 29/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://postiz.com/pricing
 - Scores: fit 4/5 (editorial), cost 40, value 65
 - In our recommended stacks: Early scaling, Scaling, Large / multi-team
@@ -502,7 +502,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Signals, intent & analytics (signals)
 - Fits GTM team sizes: Large / multi-team (40+ GTM people)
 - Price: Essential $2,500/mo billed annually (5 seats) (entry USD 2500/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.commonroom.io/pricing
 - Scores: fit 4/5 (editorial), cost 40, value 65
 - In our recommended stacks: Large / multi-team
@@ -511,7 +511,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Web analytics (web-analytics)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people), Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: From $15/mo (up to 100,000 monthly pageviews); 7-day free trial (entry USD 15/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://usefathom.com/pricing
 - Scores: fit 4/5 (editorial), cost 40, value 65
 - Page: https://profitableagentstack.com/use-cases/web-analytics#fathom-analytics
@@ -519,7 +519,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: AEO (AI search visibility) (aeo)
 - Fits GTM team sizes: Early scaling (6–15 GTM people), Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Essential free tier ($25 free credit); Starter $295/mo (3,600 credits, 11 models, billing basis monthly vs annual not verified); Enterprise custom (SAML SSO, RBAC, audit logs) (entry USD 295/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.athenahq.ai/plans
 - Scores: fit 4/5 (editorial), cost 40, value 65
 - Page: https://profitableagentstack.com/use-cases/aeo#athenahq
@@ -527,7 +527,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Signals, intent & analytics (signals)
 - Fits GTM team sizes: Early scaling (6–15 GTM people), Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: AI web de-anonymization from $10,000/yr; Inbound Chat $20,000/yr; AI Inbound Autopilot $30,000/yr; Signals add-on $10,000/yr (entry USD 833/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.warmly.ai/pricing
 - Scores: fit 2/5 (editorial), cost 80, value 55
 - Page: https://profitableagentstack.com/use-cases/signals#warmly
@@ -535,7 +535,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: AI SDR / agentic SDR (ai-sdr)
 - Fits GTM team sizes: Early scaling (6–15 GTM people), Scaling (16–40 GTM people)
 - Price: Startup $600/mo on an annual term with 2 users and 27,000 contacts; Growth and Elite custom (entry USD 600/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.amplemarket.com/pricing
 - Scores: fit 3/5 (editorial), cost 40, value 52
 - Page: https://profitableagentstack.com/use-cases/ai-sdr#amplemarket
@@ -543,7 +543,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: CRM & pipeline (crm)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people)
 - Price: Starter $89/user/mo billed monthly (up to 3 seats); Pro $999/mo per workspace billed annually (5 capture seats, unlimited viewers); Growth $2,999/mo; Enterprise custom. 14-day trial, no free plan (entry USD 89/mo)
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://lightfield.app/pricing
 - Scores: fit 3/5 (editorial), cost 40, value 52
 - Page: https://profitableagentstack.com/use-cases/crm#lightfield
@@ -559,7 +559,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: List building & lead data (list-building)
 - Fits GTM team sizes: Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Contact sales
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.zoominfo.com/pricing
 - Scores: fit 4/5 (editorial), cost n/a, value n/a
 - Page: https://profitableagentstack.com/use-cases/list-building#zoominfo
@@ -575,7 +575,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: AI SDR / agentic SDR (ai-sdr)
 - Fits GTM team sizes: Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Contact sales
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.11x.ai/
 - Scores: fit 4/5 (editorial), cost n/a, value n/a
 - Page: https://profitableagentstack.com/use-cases/ai-sdr#11x
@@ -583,7 +583,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: AI SDR / agentic SDR (ai-sdr)
 - Fits GTM team sizes: Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people), Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Contact sales
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.artisan.co/pricing
 - Scores: fit 4/5 (editorial), cost n/a, value n/a
 - Page: https://profitableagentstack.com/use-cases/ai-sdr#artisan
@@ -591,7 +591,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: AI SDR / agentic SDR (ai-sdr)
 - Fits GTM team sizes: Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Contact sales
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.qualified.com/pricing
 - Scores: fit 4/5 (editorial), cost n/a, value n/a
 - Page: https://profitableagentstack.com/use-cases/ai-sdr#qualified
@@ -615,7 +615,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: AEO (AI search visibility) (aeo)
 - Fits GTM team sizes: Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Contact sales
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.tryprofound.com/pricing
 - Scores: fit 4/5 (editorial), cost n/a, value n/a
 - Page: https://profitableagentstack.com/use-cases/aeo#profound
@@ -623,7 +623,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Outbound email / sequencing (outbound-email)
 - Fits GTM team sizes: Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Contact sales
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.salesloft.com/pricing
 - Scores: fit 4/5 (editorial), cost n/a, value n/a
 - In our recommended stacks: Large / multi-team
@@ -632,7 +632,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: Outbound email / sequencing (outbound-email)
 - Fits GTM team sizes: Scaling (16–40 GTM people), Large / multi-team (40+ GTM people)
 - Price: Contact sales
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.outreach.io/pricing
 - Scores: fit 4/5 (editorial), cost n/a, value n/a
 - Page: https://profitableagentstack.com/use-cases/outbound-email#outreach
@@ -640,7 +640,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: AI SDR / agentic SDR (ai-sdr)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people), Early scaling (6–15 GTM people)
 - Price: Pay as you go: $1.50 per person prospected, no monthly subscription minimum (100 prospects = $150). Free account and campaign building; extras like warmed mailboxes and managed campaigns cost more
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://aisdr.com/pricing/
 - Scores: fit 3/5 (editorial), cost n/a, value n/a
 - Page: https://profitableagentstack.com/use-cases/ai-sdr#aisdr
@@ -656,7 +656,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 - Use case: AI SDR / agentic SDR (ai-sdr)
 - Fits GTM team sizes: Early scaling (6–15 GTM people), Scaling (16–40 GTM people)
 - Price: Contact sales
-- Last verified: 2026-11-16
+- Last verified: 2026-11-23
 - Pricing source: https://www.nooks.ai/pricing
 - Scores: fit 3/5 (editorial), cost n/a, value n/a
 - Page: https://profitableagentstack.com/use-cases/ai-sdr#nooks
@@ -671,8 +671,8 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 ### Day AI
 - Use case: CRM & pipeline (crm)
 - Fits GTM team sizes: Solo founder (1 GTM person), Small GTM team (2–5 GTM people)
-- Price: Priced per AI agent, not per seat: each workspace needs at least one Professional ($60/mo) or Executive ($200/mo) agent; Turbo agents $24/mo; Super $800/mo annual only; human colleagues can join free. Billing period of the default view not verified
-- Last verified: 2026-11-10 (price could not be verified)
+- Price: Priced per AI agent, not per seat: each workspace needs at least one Professional ($60/mo) or Executive ($200/mo) agent; Turbo agents $24/mo; Super $800/mo annual only; human colleagues can join free. Page has a Monthly/Annual toggle; prices shown in the default (monthly) view
+- Last verified: 2026-11-23
 - Pricing source: https://day.ai/pricing
 - Scores: fit 3/5 (editorial), cost n/a, value n/a
 - Page: https://profitableagentstack.com/use-cases/crm#day-ai
@@ -687,7 +687,7 @@ value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial f
 
 # Solo founder: AI GTM stack for 1 GTM person, about $41/mo
 
-About $41/mo + €19 Waalaxy for our recommended stack, estimated from published list prices as of 2026-11-02 to 2026-11-16 (per tool). Assumptions: 1 GTM person, 1 LinkedIn account, light volume. Hunter's free plan (50 credits/mo) caps how many new emails you can find; move up when you outgrow it. Monthly billing, entry tiers; Carrd is priced yearly ÷ 12. Actual cost depends on your usage, billing period, taxes and add-ons.
+About $41/mo + €19 Waalaxy for our recommended stack, estimated from published list prices as of 2026-11-02 to 2026-11-23 (per tool). Assumptions: 1 GTM person, 1 LinkedIn account, light volume. Hunter's free plan (50 credits/mo) caps how many new emails you can find; move up when you outgrow it. Monthly billing, entry tiers; Carrd is priced yearly ÷ 12. Actual cost depends on your usage, billing period, taxes and add-ons.
 
 ## Who this is for
 
@@ -713,7 +713,7 @@ One tool per job, no paid overlap. Each pick weighs two things: its value score 
 | Web analytics | **[Google Analytics](https://marketingplatform.google.com/about/analytics/)** value 88 · best in category | Free | $0 | Free and good enough for basic traffic and source tracking at this size. |
 | **Estimated total $41 + €19 Waalaxy | |** | | |
 
-Math: $39 + $1.58 = $40.58/mo (shown as $41) + €19 Waalaxy. Assumptions: 1 GTM person, 1 LinkedIn account, light volume. Hunter's free plan (50 credits/mo) caps how many new emails you can find; move up when you outgrow it. Monthly billing, entry tiers; Carrd is priced yearly ÷ 12. Estimate only; excludes taxes, add-ons, overages and annual discounts. Prices as of 2026-11-02 to 2026-11-16 (per tool), verify with vendor. "from" and "quote" rows are not final prices.
+Math: $39 + $1.58 = $40.58/mo (shown as $41) + €19 Waalaxy. Assumptions: 1 GTM person, 1 LinkedIn account, light volume. Hunter's free plan (50 credits/mo) caps how many new emails you can find; move up when you outgrow it. Monthly billing, entry tiers; Carrd is priced yearly ÷ 12. Estimate only; excludes taxes, add-ons, overages and annual discounts. Prices as of 2026-11-02 to 2026-11-23 (per tool), verify with vendor. "from" and "quote" rows are not final prices.
 
 ## CRM for this team size (separate from the stack)
 
@@ -772,7 +772,7 @@ Starter sheet columns: Company, Contact, Email, LinkedIn URL, Source, Stage, Nex
 
 # Small GTM team: AI GTM stack for 2–5 GTM people, about $106/mo
 
-About $106/mo + €38 Waalaxy (2 users) for our recommended stack, estimated from published list prices as of 2026-11-02 to 2026-11-16 (per tool). Assumptions: 3 GTM people, 2 LinkedIn users, ~5,000 emails/mo, monthly billing, entry tiers. Waalaxy is priced per user in euros and not converted. Actual cost depends on your usage, billing period, taxes and add-ons.
+About $106/mo + €38 Waalaxy (2 users) for our recommended stack, estimated from published list prices as of 2026-11-02 to 2026-11-23 (per tool). Assumptions: 3 GTM people, 2 LinkedIn users, ~5,000 emails/mo, monthly billing, entry tiers. Waalaxy is priced per user in euros and not converted. Actual cost depends on your usage, billing period, taxes and add-ons.
 
 ## Who this is for
 
@@ -801,7 +801,7 @@ One tool per job, no paid overlap. Each pick weighs two things: its value score 
 | Web analytics | **[Google Analytics](https://marketingplatform.google.com/about/analytics/)** value 88 · best in category | Free | $0 | Free web analytics; add product/funnel analytics later. |
 | **Estimated total $106 + €38 Waalaxy (2 users) | |** | | |
 
-Math: $49 + $47 + $10 = $106.00/mo + €38 Waalaxy (2 users). Assumptions: 3 GTM people, 2 LinkedIn users, ~5,000 emails/mo, monthly billing, entry tiers. Waalaxy is priced per user in euros and not converted. Estimate only; excludes taxes, add-ons, overages and annual discounts. Prices as of 2026-11-02 to 2026-11-16 (per tool), verify with vendor. "from" and "quote" rows are not final prices.
+Math: $49 + $47 + $10 = $106.00/mo + €38 Waalaxy (2 users). Assumptions: 3 GTM people, 2 LinkedIn users, ~5,000 emails/mo, monthly billing, entry tiers. Waalaxy is priced per user in euros and not converted. Estimate only; excludes taxes, add-ons, overages and annual discounts. Prices as of 2026-11-02 to 2026-11-23 (per tool), verify with vendor. "from" and "quote" rows are not final prices.
 
 ## CRM for this team size (separate from the stack)
 
@@ -869,7 +869,7 @@ Advisory from The Sinay Way LLC. Scope and fees are set only in a separate signe
 
 # Early scaling: AI GTM stack for 6–15 GTM people, about $913/mo
 
-About $913/mo for our recommended stack, estimated from published list prices as of 2026-11-02 to 2026-11-16 (per tool). Assumptions: 10 GTM people, 5 LinkedIn senders, ~25,000 emails/mo (inside Instantly's 125,000/mo Hypergrowth tier), monthly billing. Surfer is its yearly-billed view; Framer is its yearly-billing view. PostHog counted at its free allowance (usage-based beyond it). Peec AI is its Starter monthly list price. Actual cost depends on your usage, billing period, taxes and add-ons.
+About $913/mo for our recommended stack, estimated from published list prices as of 2026-11-02 to 2026-11-23 (per tool). Assumptions: 10 GTM people, 5 LinkedIn senders, ~25,000 emails/mo (inside Instantly's 125,000/mo Hypergrowth tier), monthly billing. Surfer is its yearly-billed view; Framer is its yearly-billing view. PostHog counted at its free allowance (usage-based beyond it). Peec AI is its Starter monthly list price. Actual cost depends on your usage, billing period, taxes and add-ons.
 
 ## Who this is for
 
@@ -901,7 +901,7 @@ One tool per job, no paid overlap. Each pick weighs two things: its value score 
 | Web analytics | **[Google Analytics](https://marketingplatform.google.com/about/analytics/)** value 88 · best in category | Free | $0 | Website traffic and sources. |
 | **Estimated total $913 | |** | | |
 
-Math: $149 + $97 + $395 + $79 + $49 + $95 + $39 + $10 = $913.00/mo. Assumptions: 10 GTM people, 5 LinkedIn senders, ~25,000 emails/mo (inside Instantly's 125,000/mo Hypergrowth tier), monthly billing. Surfer is its yearly-billed view; Framer is its yearly-billing view. PostHog counted at its free allowance (usage-based beyond it). Peec AI is its Starter monthly list price. Estimate only; excludes taxes, add-ons, overages and annual discounts. Prices as of 2026-11-02 to 2026-11-16 (per tool), verify with vendor. "from" and "quote" rows are not final prices.
+Math: $149 + $97 + $395 + $79 + $49 + $95 + $39 + $10 = $913.00/mo. Assumptions: 10 GTM people, 5 LinkedIn senders, ~25,000 emails/mo (inside Instantly's 125,000/mo Hypergrowth tier), monthly billing. Surfer is its yearly-billed view; Framer is its yearly-billing view. PostHog counted at its free allowance (usage-based beyond it). Peec AI is its Starter monthly list price. Estimate only; excludes taxes, add-ons, overages and annual discounts. Prices as of 2026-11-02 to 2026-11-23 (per tool), verify with vendor. "from" and "quote" rows are not final prices.
 
 ## CRM for this team size (separate from the stack)
 
@@ -972,7 +972,7 @@ Advisory from The Sinay Way LLC. Scope and fees are set only in a separate signe
 
 # Scaling: AI GTM stack for 16–40 GTM people, about $2,193/mo
 
-About $2,193/mo for our recommended stack, estimated from published list prices as of 2026-11-02 to 2026-11-16 (per tool). Assumptions: 25 GTM people, 10 LinkedIn senders, high email volume (125,000/mo), monthly list prices except Apollo (10 prospecting seats, billed annually); Webflow and Surfer are yearly-billed views. RB2B Pro is a 'from' price. PostHog counted at its free allowance (usage-based beyond it). Peec AI is its Pro monthly list price. Actual cost depends on your usage, billing period, taxes and add-ons.
+About $2,193/mo for our recommended stack, estimated from published list prices as of 2026-11-02 to 2026-11-23 (per tool). Assumptions: 25 GTM people, 10 LinkedIn senders, high email volume (125,000/mo), monthly list prices except Apollo (10 prospecting seats, billed annually); Webflow and Surfer are yearly-billed views. RB2B Pro is a 'from' price. PostHog counted at its free allowance (usage-based beyond it). Peec AI is its Pro monthly list price. Actual cost depends on your usage, billing period, taxes and add-ons.
 
 ## Who this is for
 
@@ -1004,7 +1004,7 @@ One tool per job, no paid overlap. Each pick weighs two things: its value score 
 | Web analytics | **[Google Analytics](https://marketingplatform.google.com/about/analytics/)** value 88 · best in category | Free | $0 | Website traffic and sources. |
 | **Estimated total $2,193 | |** | | |
 
-Math: $490 + $299 + $97 + $790 + $149 + $49 + $245 + $49 + $25 = $2,193.00/mo. Assumptions: 25 GTM people, 10 LinkedIn senders, high email volume (125,000/mo), monthly list prices except Apollo (10 prospecting seats, billed annually); Webflow and Surfer are yearly-billed views. RB2B Pro is a 'from' price. PostHog counted at its free allowance (usage-based beyond it). Peec AI is its Pro monthly list price. Estimate only; excludes taxes, add-ons, overages and annual discounts. Prices as of 2026-11-02 to 2026-11-16 (per tool), verify with vendor. "from" and "quote" rows are not final prices.
+Math: $490 + $299 + $97 + $790 + $149 + $49 + $245 + $49 + $25 = $2,193.00/mo. Assumptions: 25 GTM people, 10 LinkedIn senders, high email volume (125,000/mo), monthly list prices except Apollo (10 prospecting seats, billed annually); Webflow and Surfer are yearly-billed views. RB2B Pro is a 'from' price. PostHog counted at its free allowance (usage-based beyond it). Peec AI is its Pro monthly list price. Estimate only; excludes taxes, add-ons, overages and annual discounts. Prices as of 2026-11-02 to 2026-11-23 (per tool), verify with vendor. "from" and "quote" rows are not final prices.
 
 ## CRM for this team size (separate from the stack)
 
@@ -1075,7 +1075,7 @@ Security and plan statements come from each vendor's own pages and are vendor cl
 
 # Large / multi-team: AI GTM stack for 40+ GTM people, at least $7,587/mo
 
-About at least $7,587/mo (list-price floor) for our recommended stack, estimated from published list prices as of 2026-11-02 to 2026-11-16 (per tool). Assumptions: 40+ GTM people across teams, 25 of them prospecting in Apollo (Organization, billed annually, 3-seat minimum), ~25 LinkedIn senders (HeyReach Agency tier), monthly list prices except Apollo and Common Room (billed annually, Common Room 5 seats). Clay is its Growth monthly list price; its Enterprise tier is custom. Salesloft (outbound) has no public price and counts as $0 here; expect a per-seat, annual quote with a seat minimum. Peec AI is Advanced's monthly list price; SSO needs its Enterprise quote. Enterprise tiers, SSO and security documents are quote-based. This total is a floor, not a quote. Actual cost depends on your usage, billing period, taxes and add-ons.
+About at least $7,587/mo (list-price floor) for our recommended stack, estimated from published list prices as of 2026-11-02 to 2026-11-23 (per tool). Assumptions: 40+ GTM people across teams, 25 of them prospecting in Apollo (Organization, billed annually, 3-seat minimum), ~25 LinkedIn senders (HeyReach Agency tier), monthly list prices except Apollo and Common Room (billed annually, Common Room 5 seats). Clay is its Growth monthly list price; its Enterprise tier is custom. Salesloft (outbound) has no public price and counts as $0 here; expect a per-seat, annual quote with a seat minimum. Peec AI is Advanced's monthly list price; SSO needs its Enterprise quote. Enterprise tiers, SSO and security documents are quote-based. This total is a floor, not a quote. Actual cost depends on your usage, billing period, taxes and add-ons.
 
 ## Who this is for
 
@@ -1107,7 +1107,7 @@ One tool per job, no paid overlap. Each pick weighs two things: its value score 
 | Web analytics | **[Google Analytics](https://marketingplatform.google.com/about/analytics/)** value 88 · best in category | Free | $0 | Website traffic and sources. |
 | **Estimated total at least $7,587 (list-price floor) | |** | | |
 
-Math: $2,975 + $495 + $999 + $2,500 + $49 + $495 + $49 + $25 = $7,587.00/mo (list-price floor). Assumptions: 40+ GTM people across teams, 25 of them prospecting in Apollo (Organization, billed annually, 3-seat minimum), ~25 LinkedIn senders (HeyReach Agency tier), monthly list prices except Apollo and Common Room (billed annually, Common Room 5 seats). Clay is its Growth monthly list price; its Enterprise tier is custom. Salesloft (outbound) has no public price and counts as $0 here; expect a per-seat, annual quote with a seat minimum. Peec AI is Advanced's monthly list price; SSO needs its Enterprise quote. Enterprise tiers, SSO and security documents are quote-based. This total is a floor, not a quote. Estimate only; excludes taxes, add-ons, overages and annual discounts. Prices as of 2026-11-02 to 2026-11-16 (per tool), verify with vendor. "from" and "quote" rows are not final prices.
+Math: $2,975 + $495 + $999 + $2,500 + $49 + $495 + $49 + $25 = $7,587.00/mo (list-price floor). Assumptions: 40+ GTM people across teams, 25 of them prospecting in Apollo (Organization, billed annually, 3-seat minimum), ~25 LinkedIn senders (HeyReach Agency tier), monthly list prices except Apollo and Common Room (billed annually, Common Room 5 seats). Clay is its Growth monthly list price; its Enterprise tier is custom. Salesloft (outbound) has no public price and counts as $0 here; expect a per-seat, annual quote with a seat minimum. Peec AI is Advanced's monthly list price; SSO needs its Enterprise quote. Enterprise tiers, SSO and security documents are quote-based. This total is a floor, not a quote. Estimate only; excludes taxes, add-ons, overages and annual discounts. Prices as of 2026-11-02 to 2026-11-23 (per tool), verify with vendor. "from" and "quote" rows are not final prices.
 
 ## CRM for this team size (separate from the stack)
 
@@ -1182,95 +1182,95 @@ Security and plan statements come from each vendor's own pages and are vendor cl
 
 # Quick answers about AI GTM tools and stacks
 
-Short answers built from our data: the recommended stack and monthly cost for each GTM team size, the lowest published entry price in each of 16 use cases, and the CRM to pick. Every answer uses vendor list prices (last verified 2026-11-16) and links to the page with the math. Not advice; verify with vendors.
+Short answers built from our data: the recommended stack and monthly cost for each GTM team size, the lowest published entry price in each of 16 use cases, and the CRM to pick. Every answer uses vendor list prices (last verified 2026-11-23) and links to the page with the math. Not advice; verify with vendors.
 
 ## Best AI GTM stack by team size
 
 ### What is the best AI GTM stack for a solo founder?
 
-Our recommended stack is about $41/mo + €19 Waalaxy at list prices (last verified 2026-11-02 to 2026-11-16 (per tool)): List building & lead data: Apollo (Free Starter plan); Enrichment & verification: Hunter (Free plan (50 credits)); Outbound email / sequencing: Smartlead (Base, 1 workspace); LinkedIn outreach: Waalaxy (1 user × €19 (EUR, not converted)); Landing pages & websites: Carrd (Pro Standard, $19/yr ÷ 12); Newsletters: beehiiv (Free plan); Web analytics: Google Analytics (Free). CRM is separate and not in the total. Details: https://profitableagentstack.com/stages/solo-founder
+Our recommended stack is about $41/mo + €19 Waalaxy at list prices (last verified 2026-11-02 to 2026-11-23 (per tool)): List building & lead data: Apollo (Free Starter plan); Enrichment & verification: Hunter (Free plan (50 credits)); Outbound email / sequencing: Smartlead (Base, 1 workspace); LinkedIn outreach: Waalaxy (1 user × €19 (EUR, not converted)); Landing pages & websites: Carrd (Pro Standard, $19/yr ÷ 12); Newsletters: beehiiv (Free plan); Web analytics: Google Analytics (Free). CRM is separate and not in the total. Details: https://profitableagentstack.com/stages/solo-founder
 
 ### What is the best AI GTM stack for a 3-person GTM team?
 
-A 3-person GTM team falls in our Small GTM team band (2–5 GTM people). Our recommended stack is about $106/mo + €38 Waalaxy (2 users) at list prices (last verified 2026-11-02 to 2026-11-16 (per tool)): List building & lead data: Apollo (Free Starter plan); Enrichment & verification: Hunter (Starter); Outbound email / sequencing: Instantly (Outreach Growth); LinkedIn outreach: Waalaxy (2 users × €19 (EUR, not converted)); Search performance: Google Search Console (Free); Social scheduling: Buffer (Free (up to 3 channels)); Landing pages & websites: Framer (Basic (yearly-billing view)); Newsletters: beehiiv (Free plan); Web analytics: Google Analytics (Free); Signals, intent & analytics: RB2B (Free plan). CRM is separate and not in the total. Details: https://profitableagentstack.com/stages/small-gtm-team
+A 3-person GTM team falls in our Small GTM team band (2–5 GTM people). Our recommended stack is about $106/mo + €38 Waalaxy (2 users) at list prices (last verified 2026-11-02 to 2026-11-23 (per tool)): List building & lead data: Apollo (Free Starter plan); Enrichment & verification: Hunter (Starter); Outbound email / sequencing: Instantly (Outreach Growth); LinkedIn outreach: Waalaxy (2 users × €19 (EUR, not converted)); Search performance: Google Search Console (Free); Social scheduling: Buffer (Free (up to 3 channels)); Landing pages & websites: Framer (Basic (yearly-billing view)); Newsletters: beehiiv (Free plan); Web analytics: Google Analytics (Free); Signals, intent & analytics: RB2B (Free plan). CRM is separate and not in the total. Details: https://profitableagentstack.com/stages/small-gtm-team
 
 ### What is the best AI GTM stack for a 10-person GTM team?
 
-A 10-person GTM team falls in our Early scaling band (6–15 GTM people). Our recommended stack is about $913/mo at list prices (last verified 2026-11-02 to 2026-11-16 (per tool)): List building & lead data: Apollo (Free Starter plan); Enrichment & verification: Hunter (Growth); Outbound email / sequencing: Instantly (Outreach Hypergrowth (125,000 emails/mo)); LinkedIn outreach: HeyReach (Growth $79 × 5 senders); Signals, intent & analytics: RB2B (Starter); Search performance: Google Search Console (Free); Content optimization: Surfer (Discovery, billed yearly); AEO (AI search visibility): Peec AI (Starter, monthly); Social scheduling: Postiz (Team); Landing pages & websites: Framer (Basic (yearly-billing view)); Newsletters: beehiiv (Free plan); Web analytics: Google Analytics (Free); Product & funnel analytics: PostHog (Free allowance). CRM is separate and not in the total. Details: https://profitableagentstack.com/stages/early-scaling
+A 10-person GTM team falls in our Early scaling band (6–15 GTM people). Our recommended stack is about $913/mo at list prices (last verified 2026-11-02 to 2026-11-23 (per tool)): List building & lead data: Apollo (Free Starter plan); Enrichment & verification: Hunter (Growth); Outbound email / sequencing: Instantly (Outreach Hypergrowth (125,000 emails/mo)); LinkedIn outreach: HeyReach (Growth $79 × 5 senders); Signals, intent & analytics: RB2B (Starter); Search performance: Google Search Console (Free); Content optimization: Surfer (Discovery, billed yearly); AEO (AI search visibility): Peec AI (Starter, monthly); Social scheduling: Postiz (Team); Landing pages & websites: Framer (Basic (yearly-billing view)); Newsletters: beehiiv (Free plan); Web analytics: Google Analytics (Free); Product & funnel analytics: PostHog (Free allowance). CRM is separate and not in the total. Details: https://profitableagentstack.com/stages/early-scaling
 
 ### What is the best AI GTM stack for a 25-person GTM team?
 
-A 25-person GTM team falls in our Scaling band (16–40 GTM people). Our recommended stack is about $2,193/mo at list prices (last verified 2026-11-02 to 2026-11-16 (per tool)): List building & lead data: Apollo (Basic, 10 seats × $49 (billed annually)); Enrichment & verification: Hunter (Scale); Outbound email / sequencing: Instantly (Outreach Hypergrowth (125,000 emails/mo)); LinkedIn outreach: HeyReach (Growth $79 × 10 senders); Signals, intent & analytics: RB2B (Pro (from $149)); Search performance: Google Search Console (Free); Content optimization: Surfer (Discovery, billed yearly); AEO (AI search visibility): Peec AI (Pro, monthly); Social scheduling: Postiz (Pro); Landing pages & websites: Webflow (Premium (billed yearly)); Newsletters: beehiiv (Free plan); Web analytics: Google Analytics (Free); Product & funnel analytics: PostHog (Free allowance). CRM is separate and not in the total. Details: https://profitableagentstack.com/stages/scaling
+A 25-person GTM team falls in our Scaling band (16–40 GTM people). Our recommended stack is about $2,193/mo at list prices (last verified 2026-11-02 to 2026-11-23 (per tool)): List building & lead data: Apollo (Basic, 10 seats × $49 (billed annually)); Enrichment & verification: Hunter (Scale); Outbound email / sequencing: Instantly (Outreach Hypergrowth (125,000 emails/mo)); LinkedIn outreach: HeyReach (Growth $79 × 10 senders); Signals, intent & analytics: RB2B (Pro (from $149)); Search performance: Google Search Console (Free); Content optimization: Surfer (Discovery, billed yearly); AEO (AI search visibility): Peec AI (Pro, monthly); Social scheduling: Postiz (Pro); Landing pages & websites: Webflow (Premium (billed yearly)); Newsletters: beehiiv (Free plan); Web analytics: Google Analytics (Free); Product & funnel analytics: PostHog (Free allowance). CRM is separate and not in the total. Details: https://profitableagentstack.com/stages/scaling
 
 ### What is the best AI GTM stack for a 50-person GTM team?
 
-A 50-person GTM team falls in our Large / multi-team band (40+ GTM people). Our recommended stack is at least $7,587/mo (list-price floor) at list prices (last verified 2026-11-02 to 2026-11-16 (per tool)): List building & lead data: Apollo (Organization, 25 seats × $119 (billed annually, 3-seat min)); Enrichment & verification: Clay (Growth from $495/mo; Enterprise is custom); Outbound email / sequencing: Salesloft (Enterprise quote (per seat, no public list price)); LinkedIn outreach: HeyReach (Agency (25 senders)); Signals, intent & analytics: Common Room (Essential (billed annually, 5 seats)); Search performance: Google Search Console (Free); Content optimization: Surfer (Discovery, billed yearly); AEO (AI search visibility): Peec AI (Advanced, monthly list (SSO needs Enterprise quote)); Social scheduling: Postiz (Pro); Landing pages & websites: Webflow (Premium (billed yearly)); Web analytics: Google Analytics (Free); Product & funnel analytics: PostHog (Free allowance); AI SDR / agentic SDR: Artisan (Contact sales — optional, not counted). CRM is separate and not in the total. Details: https://profitableagentstack.com/stages/large-multi-team
+A 50-person GTM team falls in our Large / multi-team band (40+ GTM people). Our recommended stack is at least $7,587/mo (list-price floor) at list prices (last verified 2026-11-02 to 2026-11-23 (per tool)): List building & lead data: Apollo (Organization, 25 seats × $119 (billed annually, 3-seat min)); Enrichment & verification: Clay (Growth from $495/mo; Enterprise is custom); Outbound email / sequencing: Salesloft (Enterprise quote (per seat, no public list price)); LinkedIn outreach: HeyReach (Agency (25 senders)); Signals, intent & analytics: Common Room (Essential (billed annually, 5 seats)); Search performance: Google Search Console (Free); Content optimization: Surfer (Discovery, billed yearly); AEO (AI search visibility): Peec AI (Advanced, monthly list (SSO needs Enterprise quote)); Social scheduling: Postiz (Pro); Landing pages & websites: Webflow (Premium (billed yearly)); Web analytics: Google Analytics (Free); Product & funnel analytics: PostHog (Free allowance); AI SDR / agentic SDR: Artisan (Contact sales — optional, not counted). CRM is separate and not in the total. Details: https://profitableagentstack.com/stages/large-multi-team
 
 ## Cheapest tool in each use case
 
 ### What is the cheapest list building & lead data tool?
 
-By published entry price, Apollo and Exa start free (Apollo: Free Starter plan (no time limit; Apollo's FAQ calls it for 'exploring or very light usage'); Basic $49, Professional $79, Organization $119 per seat/mo billed annually (Organization: 3-seat minimum, SSO listed in plan table); Custom plan for SSO, advanced security and custom volumes via sales; Exa: Free $10 credits/mo; Search from $4 per 1k requests (usage-based)). The best value (fit + price) is Apollo, value score 100. List prices last verified 2026-11-16; free plans have limits, so verify with the vendor. All list building & lead data tools: https://profitableagentstack.com/use-cases/list-building
+By published entry price, Apollo and Exa start free (Apollo: Free Starter plan (no time limit; Apollo's FAQ calls it for 'exploring or very light usage'); Basic $49, Professional $79, Organization $119 per seat/mo billed annually (Organization: 3-seat minimum, SSO listed in plan table); Custom plan for SSO, advanced security and custom volumes via sales; Exa: Free $10 credits/mo; Search from $4 per 1k requests (usage-based)). The best value (fit + price) is Apollo, value score 100. List prices last verified 2026-11-23; free plans have limits, so verify with the vendor. All list building & lead data tools: https://profitableagentstack.com/use-cases/list-building
 
 ### What is the cheapest enrichment & verification tool?
 
-By published entry price, Clay and Hunter and FullEnrich start free (Clay: Free plan (500 actions/mo); Launch $167/mo (annual-billing view; $185 monthly), Growth $446/mo (annual-billing view; $495 monthly), both usage-based on actions and data credits; Enterprise custom (SSO/SAML, SCIM, RBAC, IP allowlists, custom DPA); Hunter: Free (50 credits); Starter $49/mo monthly ($34 annual); Growth $149 ($104); Scale $299 ($209); FullEnrich: Free trial; Pro 15K credits $720/mo; other credit tiers on page). The best value (fit + price) is Clay, value score 100. List prices last verified 2026-11-16; free plans have limits, so verify with the vendor. All enrichment & verification tools: https://profitableagentstack.com/use-cases/enrichment
+By published entry price, Clay and Hunter and FullEnrich start free (Clay: Free plan (500 actions/mo); Launch $167/mo (annual-billing view; $185 monthly), Growth $446/mo (annual-billing view; $495 monthly), both usage-based on actions and data credits; Enterprise custom (SSO/SAML, SCIM, RBAC, IP allowlists, custom DPA); Hunter: Free (50 credits); Starter $49/mo monthly ($34 annual); Growth $149 ($104); Scale $299 ($209); FullEnrich: Free trial; Pro 15K credits $720/mo; other credit tiers on page). The best value (fit + price) is Clay, value score 100. List prices last verified 2026-11-23; free plans have limits, so verify with the vendor. All enrichment & verification tools: https://profitableagentstack.com/use-cases/enrichment
 
 ### What is the cheapest outbound email / sequencing tool?
 
-By published entry price, Smartlead start at $39/mo (Smartlead: Base from $39/mo (pricing page also lists Pro, Smart, Prime tiers)). The best value (fit + price) is Instantly, value score 94. List prices last verified 2026-11-16; free plans have limits, so verify with the vendor. All outbound email / sequencing tools: https://profitableagentstack.com/use-cases/outbound-email
+By published entry price, Smartlead start at $39/mo (Smartlead: Base from $39/mo (pricing page also lists Pro, Smart, Prime tiers)). The best value (fit + price) is Instantly, value score 94. List prices last verified 2026-11-23; free plans have limits, so verify with the vendor. All outbound email / sequencing tools: https://profitableagentstack.com/use-cases/outbound-email
 
 ### What is the cheapest linkedIn outreach tool?
 
-By published entry price, HeyReach start at $79/mo (HeyReach: Growth $79/sender/mo; Agency $999/mo (25 senders); Unlimited $2,999/mo). The best value (fit + price) is Waalaxy, value score 88. List prices last verified 2026-11-16; free plans have limits, so verify with the vendor. All linkedIn outreach tools: https://profitableagentstack.com/use-cases/linkedin
+By published entry price, HeyReach start at $79/mo (HeyReach: Growth $79/sender/mo; Agency $999/mo (25 senders); Unlimited $2,999/mo). The best value (fit + price) is Waalaxy, value score 88. List prices last verified 2026-11-23; free plans have limits, so verify with the vendor. All linkedIn outreach tools: https://profitableagentstack.com/use-cases/linkedin
 
 ### What is the cheapest AI SDR / agentic SDR tool?
 
-By published entry price, Unify and Regie.ai start free (Unify: Free plan (limited credits, up to 3 seats); Base $20/seat/mo (800 credits); Pro $60/seat/mo (2,400 credits); Business custom, annual. Website intent, signal-triggered automations and CRM writeback are Business features; Regie.ai: Free (250 one-time credits per person, up to 10 people); Pro $49/mo for one person; Team $150/seat/mo with a 2-seat minimum; Enterprise custom (monthly billing view)). The best value (fit + price) is Unify, value score 88. List prices last verified 2026-11-16; free plans have limits, so verify with the vendor. All AI SDR / agentic SDR tools: https://profitableagentstack.com/use-cases/ai-sdr
+By published entry price, Unify and Regie.ai start free (Unify: Free plan (limited credits, up to 3 seats); Base $20/seat/mo (800 credits); Pro $60/seat/mo (2,400 credits); Business custom, annual. Website intent, signal-triggered automations and CRM writeback are Business features; Regie.ai: Free (250 one-time credits per person, up to 10 people); Pro $49/mo for one person; Team $150/seat/mo with a 2-seat minimum; Enterprise custom (monthly billing view)). The best value (fit + price) is Unify, value score 88. List prices last verified 2026-11-23; free plans have limits, so verify with the vendor. All AI SDR / agentic SDR tools: https://profitableagentstack.com/use-cases/ai-sdr
 
 ### What is the cheapest signals, intent & analytics tool?
 
-By published entry price, RB2B and PostHog start free (RB2B: Free $0; Starter $79/mo; Pro from $149; Pro+ from $199; PostHog: Free monthly allowance (e.g. 1M analytics events), then usage-based). The best value (fit + price) is RB2B, value score 88. List prices last verified 2026-11-16; free plans have limits, so verify with the vendor. All signals, intent & analytics tools: https://profitableagentstack.com/use-cases/signals
+By published entry price, RB2B and PostHog start free (RB2B: Free $0; Starter $79/mo; Pro from $149; Pro+ from $199; PostHog: Free monthly allowance (e.g. 1M analytics events), then usage-based). The best value (fit + price) is RB2B, value score 88. List prices last verified 2026-11-23; free plans have limits, so verify with the vendor. All signals, intent & analytics tools: https://profitableagentstack.com/use-cases/signals
 
 ### What is the cheapest search performance tool?
 
-By published entry price, Google Search Console and Ahrefs Free start free (Google Search Console: Free (Google describes it as a free service); Ahrefs Free: Free: site audit and SEO metrics for websites you verify (formerly Ahrefs Webmaster Tools); paid plans not captured). The best value (fit + price) is Google Search Console, value score 100. List prices last verified 2026-11-16; free plans have limits, so verify with the vendor. All search performance tools: https://profitableagentstack.com/use-cases/search-performance
+By published entry price, Google Search Console and Ahrefs Free start free (Google Search Console: Free (Google describes it as a free service); Ahrefs Free: Free: site audit and SEO metrics for websites you verify (formerly Ahrefs Webmaster Tools); paid plans not captured). The best value (fit + price) is Google Search Console, value score 100. List prices last verified 2026-11-23; free plans have limits, so verify with the vendor. All search performance tools: https://profitableagentstack.com/use-cases/search-performance
 
 ### What is the cheapest content optimization tool?
 
-By published entry price, Surfer start at $49/mo (Surfer: Discovery $49/mo, AI Visibility $82/mo, Standard $99/mo, Pro $182/mo, Peace of Mind $299/mo (page lists "USD per month", billed yearly)). The best value (fit + price) is Surfer, value score 88. List prices last verified 2026-11-16; free plans have limits, so verify with the vendor. All content optimization tools: https://profitableagentstack.com/use-cases/content-optimization
+By published entry price, Surfer start at $49/mo (Surfer: Discovery $49/mo, AI Visibility $82/mo, Standard $99/mo, Pro $182/mo, Peace of Mind $299/mo (page lists "USD per month", billed yearly)). The best value (fit + price) is Surfer, value score 88. List prices last verified 2026-11-23; free plans have limits, so verify with the vendor. All content optimization tools: https://profitableagentstack.com/use-cases/content-optimization
 
 ### What is the cheapest AEO (AI search visibility) tool?
 
-By published entry price, Peec AI start at $95/mo (Peec AI: Starter $95/mo (50 prompts, 3 chosen models, unlimited users, SOC 2); Pro $245/mo (150 prompts, API); Advanced $495/mo (350 prompts); Enterprise custom (SSO, more models)). The best value (fit + price) is Peec AI, value score 82. List prices last verified 2026-11-16; free plans have limits, so verify with the vendor. All AEO (AI search visibility) tools: https://profitableagentstack.com/use-cases/aeo
+By published entry price, Peec AI start at $95/mo (Peec AI: Starter $95/mo (50 prompts, 3 chosen models, unlimited users, SOC 2); Pro $245/mo (150 prompts, API); Advanced $495/mo (350 prompts); Enterprise custom (SSO, more models)). The best value (fit + price) is Peec AI, value score 82. List prices last verified 2026-11-23; free plans have limits, so verify with the vendor. All AEO (AI search visibility) tools: https://profitableagentstack.com/use-cases/aeo
 
 ### What is the cheapest social scheduling tool?
 
-By published entry price, Buffer and Typefully start free (Buffer: Free: up to 3 channels; Essentials $5/mo per channel and Team $10/mo per channel (billed-yearly view: $60/yr and $120/yr per channel); vendor says annual billing saves 20%, monthly price not captured; Typefully: Free plan available; paid plan prices not captured). The best value (fit + price) is Buffer, value score 88. List prices last verified 2026-11-16; free plans have limits, so verify with the vendor. All social scheduling tools: https://profitableagentstack.com/use-cases/social-scheduling
+By published entry price, Buffer and Typefully start free (Buffer: Free: up to 3 channels; Essentials $5/mo per channel and Team $10/mo per channel (billed-yearly view: $60/yr and $120/yr per channel); vendor says annual billing saves 20%, monthly price not captured; Typefully: Free plan available; paid plan prices not captured). The best value (fit + price) is Buffer, value score 88. List prices last verified 2026-11-23; free plans have limits, so verify with the vendor. All social scheduling tools: https://profitableagentstack.com/use-cases/social-scheduling
 
 ### What is the cheapest landing pages & websites tool?
 
-By published entry price, Carrd and Framer and Webflow start free (Carrd: Free account; Pro Lite $9/yr, Pro Standard $19/yr (custom domain), up to $69/yr for 50 sites; Framer: Free $0 (Framer domain); Basic $10/mo, Pro $30/mo (yearly-billing view; monthly-billing price not verified); Webflow: Free (webflow.io domain); site plans Basic $15/mo billed yearly, Premium (CMS, new name on the page) $25/mo billed yearly). The best value (fit + price) is Framer, value score 100. List prices last verified 2026-11-16; free plans have limits, so verify with the vendor. All landing pages & websites tools: https://profitableagentstack.com/use-cases/landing-pages
+By published entry price, Carrd and Framer and Webflow start free (Carrd: Free account; Pro Lite $9/yr, Pro Standard $19/yr (custom domain), up to $69/yr for 50 sites; Framer: Free $0 (Framer domain); Basic $10/mo, Pro $30/mo (yearly-billing view; monthly-billing price not verified); Webflow: Free (webflow.io domain); site plans Basic $15/mo billed yearly, Premium (CMS, new name on the page) $25/mo billed yearly). The best value (fit + price) is Framer, value score 100. List prices last verified 2026-11-23; free plans have limits, so verify with the vendor. All landing pages & websites tools: https://profitableagentstack.com/use-cases/landing-pages
 
 ### What is the cheapest newsletters tool?
 
-By published entry price, beehiiv and Kit start free (beehiiv: Free forever (1,000-subscriber view); Lite $49/mo yearly billing; Pro $95/mo yearly billing; Kit: Free $0 (up to 10,000 subscribers); Creator $33/mo billed yearly ($390/yr); Pro $66/mo billed yearly, shown at $50/mo for the first year as a limited-time offer). The best value (fit + price) is beehiiv, value score 100. List prices last verified 2026-11-16; free plans have limits, so verify with the vendor. All newsletters tools: https://profitableagentstack.com/use-cases/newsletters
+By published entry price, beehiiv and Kit start free (beehiiv: Free forever (1,000-subscriber view); Lite $49/mo yearly billing; Pro $95/mo yearly billing; Kit: Free $0 (up to 10,000 subscribers); Creator $39/mo billed monthly ($33/mo billed yearly, $390/yr, last seen 2026-11-16); Pro $79/mo billed monthly (yearly billing saves 17%). Black Friday offer to Dec 1: 50% off monthly Creator for the first 3 months). The best value (fit + price) is beehiiv, value score 100. List prices last verified 2026-11-23; free plans have limits, so verify with the vendor. All newsletters tools: https://profitableagentstack.com/use-cases/newsletters
 
 ### What is the cheapest design & video tool?
 
-By published entry price, HeyGen and Descript and CapCut start free (HeyGen: Free $0; Creator $29/mo; Pro $49/mo; Business $149/mo; Descript: Free $0; Hobbyist $16/mo yearly ($24 monthly); Creator $24 yearly ($35 monthly); Business $50 yearly ($65 monthly), per person; CapCut: Free USD 0; paid plan prices not captured). The best value (fit + price) is HeyGen, value score 88. List prices last verified 2026-11-16; free plans have limits, so verify with the vendor. All design & video tools: https://profitableagentstack.com/use-cases/design-video
+By published entry price, HeyGen and Descript and CapCut start free (HeyGen: Free $0; Creator $29/mo; Pro $49/mo; Business $149/mo; Descript: Free $0; Hobbyist $16/mo yearly ($24 monthly); Creator $24 yearly ($35 monthly); Business $50 yearly ($65 monthly), per person; CapCut: Free USD 0; paid plan prices not captured). The best value (fit + price) is HeyGen, value score 88. List prices last verified 2026-11-23; free plans have limits, so verify with the vendor. All design & video tools: https://profitableagentstack.com/use-cases/design-video
 
 ### What is the cheapest community tool?
 
-By published entry price, Circle start at $89/mo (Circle: Professional $89/mo, Business $199/mo, Scale $419/mo (billing period not verified); 14-day free trial, no free plan listed). The best value (fit + price) is Circle, value score 88. List prices last verified 2026-11-16; free plans have limits, so verify with the vendor. All community tools: https://profitableagentstack.com/use-cases/community
+By published entry price, Circle start at $89/mo (Circle: Professional $89/mo, Business $199/mo, Scale $419/mo (billing period not verified); 14-day free trial, no free plan listed). The best value (fit + price) is Circle, value score 88. List prices last verified 2026-11-23; free plans have limits, so verify with the vendor. All community tools: https://profitableagentstack.com/use-cases/community
 
 ### What is the cheapest web analytics tool?
 
-By published entry price, Google Analytics start free (Google Analytics: Free of charge (Google)). The best value (fit + price) is Google Analytics, value score 88. List prices last verified 2026-11-16; free plans have limits, so verify with the vendor. All web analytics tools: https://profitableagentstack.com/use-cases/web-analytics
+By published entry price, Google Analytics start free (Google Analytics: Free of charge (Google)). The best value (fit + price) is Google Analytics, value score 88. List prices last verified 2026-11-23; free plans have limits, so verify with the vendor. All web analytics tools: https://profitableagentstack.com/use-cases/web-analytics
 
 ### What is the cheapest CRM & pipeline tool?
 
-By published entry price, HubSpot Sales Hub and Attio and Zoho CRM and Bigin by Zoho and Apollo (built-in CRM) start free (HubSpot Sales Hub: Free CRM for up to 2 users; Starter $20/seat/mo list (new-customer limited-time price $10 monthly or $7 with annual prepay); Professional $90/seat/mo billed annually ($100 paid monthly with annual commitment) plus required $1,500 one-time onboarding; Enterprise from $150/seat/mo plus $3,500 one-time onboarding; Attio: Free for up to 3 users (50,000 records); Plus $40/mo per workspace billed annually incl. 1 user + $35 per extra user ($50 + $44 monthly); Pro $100/mo per workspace annually incl. 1 user + $79 per extra user ($125 + $99 monthly); Ultra $1,000/mo annual incl. 5 users + $189 per user; Zoho CRM: Free for 3 users; Standard $14, Professional $23, Enterprise $40 per user/mo billed annually; monthly $20, $35, $50 (free plan re-confirmed 2026-11-16; paid prices render client-side and were not re-verified); Bigin by Zoho: Free for 1 user (500 records); Express $7/user/mo billed yearly ($9 monthly); Premier $15 monthly (yearly price not rendered on vendor page); Bigin 360 $18/user/mo billed annually; Apollo (built-in CRM): Free plan includes lead management; deal management starts on Basic $49/seat/mo billed annually ($65 monthly); Professional $79 ($99); Organization $119 annual only, 3-seat minimum). The best value (fit + price) is HubSpot Sales Hub, value score 100. List prices last verified 2026-11-16; free plans have limits, so verify with the vendor. All CRM & pipeline tools: https://profitableagentstack.com/use-cases/crm
+By published entry price, HubSpot Sales Hub and Attio and Zoho CRM and Bigin by Zoho and Apollo (built-in CRM) start free (HubSpot Sales Hub: Free CRM for up to 2 users; Starter $20/seat/mo list (new-customer limited-time price $10 monthly or $7 with annual prepay); Professional $90/seat/mo billed annually ($100 paid monthly with annual commitment) plus required $1,500 one-time onboarding; Enterprise from $150/seat/mo plus $3,500 one-time onboarding; Attio: Free for up to 3 users (50,000 records); Plus $40/mo per workspace billed annually incl. 1 user + $35 per extra user ($50 + $44 monthly); Pro $100/mo per workspace annually incl. 1 user + $79 per extra user ($125 + $99 monthly); Ultra $1,000/mo annual incl. 5 users + $189 per user; Zoho CRM: Free for 3 users; Standard $14, Professional $23, Enterprise $40 per user/mo billed annually; monthly $20, $35, $50 (free plan re-confirmed 2026-11-16; paid prices render client-side and were not re-verified); Bigin by Zoho: Free for 1 user (500 records); Express $7/user/mo billed yearly ($9 monthly); Premier $15 monthly (yearly price not rendered on vendor page); Bigin 360 $18/user/mo billed annually; Apollo (built-in CRM): Free plan includes lead management; deal management starts on Basic $49/seat/mo billed annually ($65 monthly); Professional $79 ($99); Organization $119 annual only, 3-seat minimum). The best value (fit + price) is HubSpot Sales Hub, value score 100. List prices last verified 2026-11-23; free plans have limits, so verify with the vendor. All CRM & pipeline tools: https://profitableagentstack.com/use-cases/crm
 
 ## Which CRM to pick
 
@@ -1333,7 +1333,7 @@ On the [published prices](https://profitableagentstack.com/directory) we checked
 
 These tools measure answers that change from run to run, and none can guarantee a mention. Treat the numbers as a trend, not a score.
 
-General information only, not advice. Prices as of 2026-11-16; verify with the vendor.
+General information only, not advice. Prices as of 2026-11-23; verify with the vendor.
 
 Published Nov 11, 2026
 
@@ -1411,7 +1411,7 @@ On the [published prices](https://profitableagentstack.com/directory) we checked
 
 Visitor identification and intent data raise privacy and consent questions that depend on where your buyers live. Check your obligations before you switch anything on.
 
-General information only, not legal or financial advice. Prices as of 2026-11-16; verify with the vendor.
+General information only, not legal or financial advice. Prices as of 2026-11-23; verify with the vendor.
 
 Published Nov 6, 2026
 
@@ -1445,7 +1445,7 @@ Two tools are fine when they do **different** jobs. In our stacks, Search Consol
 
 The [stacks by GTM team size](https://profitableagentstack.com/stages/) show one pick per job at each size, with the monthly estimate and the use cases we would skip.
 
-General information only. Prices change; verify with vendors. Prices as of 2026-11-16.
+General information only. Prices change; verify with vendors. Prices as of 2026-11-23.
 
 Published Nov 4, 2026
 
@@ -1483,7 +1483,7 @@ The score ranks tools within one use case. For a stack at a given team size we a
 
 A score cannot know your market, your data or your team. Use it to shortlist, then run a trial. The full method lives on the [methodology page](https://profitableagentstack.com/methodology), and if you spot an error, the [corrections page](https://profitableagentstack.com/corrections) is the fastest way to tell us.
 
-General information only, not professional, legal or financial advice. Prices as of 2026-11-16.
+General information only, not professional, legal or financial advice. Prices as of 2026-11-23.
 
 Published Nov 2, 2026
 
@@ -1516,7 +1516,7 @@ Within each use case, the lowest published starting price scores 100 and the hig
 
 ## Sentiment score
 
-Will use public G2 or Capterra ratings (rating ÷ 5 × 100) only when fetched with a source link and date. As of 2026-11-16 these sites blocked automated checks, so sentiment is not yet included and we link to reviews instead.
+Will use public G2 or Capterra ratings (rating ÷ 5 × 100) only when fetched with a source link and date. As of 2026-11-23 these sites blocked automated checks, so sentiment is not yet included and we link to reviews instead.
 
 ## CRM is shown separately
 
@@ -1535,7 +1535,17 @@ Sponsorships and affiliate links do not change scores, prices or order.
 
 # What changed this week?
 
-Updated 2026-11-16. The latest AI GTM tool releases and price changes we have logged, newest first, each with a source link.
+Updated 2026-11-23. The latest AI GTM tool releases and price changes we have logged, newest first, each with a source link.
+
+**2026-11-23** — New this week: Reply.io (listed) released Jason Harness (Nov 20), a free, open-source (MIT) AI SDR harness that runs inside Claude Code or Codex as nine roles (planner, researcher, copywriter, critic and more). Reply sends the emails and LinkedIn messages and a person approves every send. In alpha; uses your own AI subscription, Reply plans still paid. [Source](https://www.einpresswire.com/article/957995784/reply-io-launches-open-source-jason-harness-for-outbound-sales)
+
+**2026-11-23** — New this week: Clay (listed) opened its global agent in beta (Nov 19): you describe a play in chat and it builds the search, audience, workflow and sequence, tests on sample records and shows an estimated cost before running at scale. Included on paid Launch, Growth and Enterprise plans. [Source](https://www.clay.com/blog/clay-global-agent-beta)
+
+**2026-11-23** — New this week: Swan AI (listed) moved its automations into goal-based agents (Nov 17): each agent owns one goal, such as booking first meetings with accounts showing buying signals, reviews its own results every few days and asks before bigger changes like new outreach or more credits. Prices unchanged. [Source](https://www.getswan.com/changelog/agents)
+
+**2026-11-23** — New this week: Spara announced Scout (Nov 17), a proactive sales assistant that watches job changes, company news, buying signals and CRM activity, then drafts outreach and next steps for reps to review in Slack or text. Not listed or priced yet. [Source](https://www.prnewswire.com/news-releases/spara-introduces-scout-the-first-ai-assistant-built-to-anticipate-salespeoples-needs-and-take-action-302940779.html)
+
+**2026-11-23** — Weekly price check: re-checked 62 of 72 tools on their vendor pricing pages. Changes: Origami Pro $199→$299/mo and Max $399→$499/mo (Starter unchanged at $99); Salesforge plan cards now show Pro $48 and Growth $96/mo billed monthly ($29.20 and $58.40 billed annually), previously recorded as $40 and $80 subscriptions; Kit's $50 first-year Pro offer is no longer shown (Pro $79/mo monthly; Creator $39/mo monthly with 50% off for 3 months to Dec 1). Not re-verified this week (page blocked or prices render client-side), last verified price kept: Woodpecker, Clearout, Canva, Discord, Apollo, Apollo (built-in CRM), HubSpot Sales Hub, 6sense BDR Agent, Microsoft Sales Development Agent, Typefully. [Source](https://profitableagentstack.com/directory.html)
 
 **2026-11-16** — New this week: LeadIQ launched Chewie, a standalone prospecting platform that turns a plain-language target description into a play: it finds the buying team on LeadIQ data, writes each email and lines up calls, with a person approving every message (Nov 12). Not listed or priced yet. [Source](https://leadiq.com/blog/meet-chewie)
 
@@ -1611,11 +1621,11 @@ We do not offer incentives for reviews. If that changes, incentivized feedback w
 
 We may earn affiliate commissions or accept labeled sponsorships, and The Sinay Way LLC offers advisory services. None of this changes prices, scores or rank.
 
-Last updated 2026-11-16. This page is a general notice for a small site. It is not legal advice, and it has not been reviewed by a lawyer.
+Last updated 2026-11-23. This page is a general notice for a small site. It is not legal advice, and it has not been reviewed by a lawyer.
 
 ## Affiliate links
 
-Some links may be affiliate links; if you buy through them, The Sinay Way LLC may earn a commission at no extra cost to you. Affiliate links are marked "affiliate" and tagged rel="sponsored"; pages that contain them carry a disclosure at the top. As of 2026-11-16 affiliate links are active for: Smartlead, Salesforge, lemlist, Woodpecker, FullEnrich, HeyReach, Waalaxy, RB2B, beehiiv, Kit, Descript.
+Some links may be affiliate links; if you buy through them, The Sinay Way LLC may earn a commission at no extra cost to you. Affiliate links are marked "affiliate" and tagged rel="sponsored"; pages that contain them carry a disclosure at the top. As of 2026-11-23 affiliate links are active for: Smartlead, Salesforge, lemlist, Woodpecker, FullEnrich, HeyReach, Waalaxy, RB2B, beehiiv, Kit, Descript.
 
 ## Sponsored placements
 
@@ -1642,4 +1652,4 @@ A cost-first directory of AI go-to-market tools operated by The Sinay Way LLC as
 
 
 ## Disclaimer
-Profitable Agent Stack is for general information only, provided "as is" without warranties. Prices, plans, features and review data change often and may be inaccurate or out of date (last checked 2026-11-16); always verify with the vendor. Cost estimates and scores are editorial estimates, not advice. Nothing here is professional, legal or financial advice. Trademarks belong to their owners; listing is not endorsement. Some links may be affiliate or sponsored — see our Disclosure.
+Profitable Agent Stack is for general information only, provided "as is" without warranties. Prices, plans, features and review data change often and may be inaccurate or out of date (last checked 2026-11-23); always verify with the vendor. Cost estimates and scores are editorial estimates, not advice. Nothing here is professional, legal or financial advice. Trademarks belong to their owners; listing is not endorsement. Some links may be affiliate or sponsored — see our Disclosure.

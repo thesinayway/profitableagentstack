@@ -1,16 +1,41 @@
 {
  "meta": {
   "api_version": "1.0.0",
-  "last_verified": "2026-11-16",
+  "last_verified": "2026-11-23",
   "source": "https://profitableagentstack.com",
   "license": "CC BY 4.0. Credit \"Profitable Agent Stack (profitableagentstack.com)\", link the source page and state the last-verified date.",
   "methodology": "value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial fit_score (1-5) x 20. cost_score = 100 - 60 x (entry_price - lowest entry price in the use case) / (highest - lowest); contact-sales tools get no cost or value score. The published formula reserves 20% for user sentiment, but no sentiment or user-review data is used in any score today, so fit and cost are reweighted 62.5/37.5. Stack picks also weigh fit for the GTM team size (reviewer company-size mix, case studies, enterprise-readiness evidence).",
   "methodology_url": "https://profitableagentstack.com/methodology",
-  "disclaimer": "Profitable Agent Stack is for general information only, provided \"as is\" without warranties. Prices, plans, features and review data change often and may be inaccurate or out of date (last checked 2026-11-16); always verify with the vendor. Cost estimates and scores are editorial estimates, not advice. Nothing here is professional, legal or financial advice. Trademarks belong to their owners; listing is not endorsement. Some links may be affiliate or sponsored — see our Disclosure.",
+  "disclaimer": "Profitable Agent Stack is for general information only, provided \"as is\" without warranties. Prices, plans, features and review data change often and may be inaccurate or out of date (last checked 2026-11-23); always verify with the vendor. Cost estimates and scores are editorial estimates, not advice. Nothing here is professional, legal or financial advice. Trademarks belong to their owners; listing is not endorsement. Some links may be affiliate or sponsored — see our Disclosure.",
   "docs": "https://profitableagentstack.com/developers",
   "openapi": "https://profitableagentstack.com/openapi.json"
  },
  "data": [
+  {
+   "date": "2026-11-23",
+   "text": "New this week: Reply.io (listed) released Jason Harness (Nov 20), a free, open-source (MIT) AI SDR harness that runs inside Claude Code or Codex as nine roles (planner, researcher, copywriter, critic and more). Reply sends the emails and LinkedIn messages and a person approves every send. In alpha; uses your own AI subscription, Reply plans still paid.",
+   "source": "https://www.einpresswire.com/article/957995784/reply-io-launches-open-source-jason-harness-for-outbound-sales"
+  },
+  {
+   "date": "2026-11-23",
+   "text": "New this week: Clay (listed) opened its global agent in beta (Nov 19): you describe a play in chat and it builds the search, audience, workflow and sequence, tests on sample records and shows an estimated cost before running at scale. Included on paid Launch, Growth and Enterprise plans.",
+   "source": "https://www.clay.com/blog/clay-global-agent-beta"
+  },
+  {
+   "date": "2026-11-23",
+   "text": "New this week: Swan AI (listed) moved its automations into goal-based agents (Nov 17): each agent owns one goal, such as booking first meetings with accounts showing buying signals, reviews its own results every few days and asks before bigger changes like new outreach or more credits. Prices unchanged.",
+   "source": "https://www.getswan.com/changelog/agents"
+  },
+  {
+   "date": "2026-11-23",
+   "text": "New this week: Spara announced Scout (Nov 17), a proactive sales assistant that watches job changes, company news, buying signals and CRM activity, then drafts outreach and next steps for reps to review in Slack or text. Not listed or priced yet.",
+   "source": "https://www.prnewswire.com/news-releases/spara-introduces-scout-the-first-ai-assistant-built-to-anticipate-salespeoples-needs-and-take-action-302940779.html"
+  },
+  {
+   "date": "2026-11-23",
+   "text": "Weekly price check: re-checked 62 of 72 tools on their vendor pricing pages. Changes: Origami Pro $199→$299/mo and Max $399→$499/mo (Starter unchanged at $99); Salesforge plan cards now show Pro $48 and Growth $96/mo billed monthly ($29.20 and $58.40 billed annually), previously recorded as $40 and $80 subscriptions; Kit's $50 first-year Pro offer is no longer shown (Pro $79/mo monthly; Creator $39/mo monthly with 50% off for 3 months to Dec 1). Not re-verified this week (page blocked or prices render client-side), last verified price kept: Woodpecker, Clearout, Canva, Discord, Apollo, Apollo (built-in CRM), HubSpot Sales Hub, 6sense BDR Agent, Microsoft Sales Development Agent, Typefully.",
+   "source": "https://profitableagentstack.com/directory.html"
+  },
   {
    "date": "2026-11-16",
    "text": "New this week: LeadIQ launched Chewie, a standalone prospecting platform that turns a plain-language target description into a play: it finds the buying team on LeadIQ data, writes each email and lines up calls, with a person approving every message (Nov 12). Not listed or priced yet.",

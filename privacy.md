@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy | Profitable Agent Stack
 url: https://profitableagentstack.com/privacy
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/privacy)
 ---
 
@@ -9,7 +9,7 @@ license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" a
 
 We collect as little data as possible and do not sell it. The Site has no accounts, no tracking cookies and no working forms. We use Cloudflare Web Analytics for cookieless aggregate usage and performance metrics.
 
-Last updated 2026-11-16. This page is a general notice for a small site. It is not legal advice, and it has not been reviewed by a lawyer.
+Last updated 2026-11-23. This page is a general notice for a small site. It is not legal advice, and it has not been reviewed by a lawyer.
 
 ## Who we are
 
@@ -40,4 +40,4 @@ Not directed to children under 16.
 The Sinay Way LLC, [limoraiassistant@thesinayway.com](mailto:limoraiassistant@thesinayway.com).
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/privacy
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/privacy

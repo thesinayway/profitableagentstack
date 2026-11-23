@@ -1,7 +1,7 @@
 ---
 title: Scoring Methodology | Profitable Agent Stack
 url: https://profitableagentstack.com/methodology
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/methodology)
 ---
 
@@ -31,7 +31,7 @@ Within each use case, the lowest published starting price scores 100 and the hig
 
 ## Sentiment score
 
-Will use public G2 or Capterra ratings (rating ÷ 5 × 100) only when fetched with a source link and date. As of 2026-11-16 these sites blocked automated checks, so sentiment is not yet included and we link to reviews instead.
+Will use public G2 or Capterra ratings (rating ÷ 5 × 100) only when fetched with a source link and date. As of 2026-11-23 these sites blocked automated checks, so sentiment is not yet included and we link to reviews instead.
 
 ## CRM is shown separately
 
@@ -46,4 +46,4 @@ Sum of published monthly list prices for the stated tiers, seats and volumes on 
 Sponsorships and affiliate links do not change scores, prices or order.
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/methodology
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/methodology

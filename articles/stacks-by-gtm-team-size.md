@@ -1,7 +1,7 @@
 ---
 title: Why we size stacks by GTM team size, not funding stage | Profitable Agent Stack
 url: https://profitableagentstack.com/articles/stacks-by-gtm-team-size
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/articles/stacks-by-gtm-team-size)
 ---
 
@@ -43,4 +43,4 @@ Sizes are planning bands, not rules. Estimates are not advice; verify prices wit
 Published Nov 9, 2026
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/articles/stacks-by-gtm-team-size
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/articles/stacks-by-gtm-team-size

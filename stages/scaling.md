@@ -1,7 +1,7 @@
 ---
 title: AI GTM Stack for Scaling (16–40 GTM people): Cost & Tools | Profitable Agent Stack
 url: https://profitableagentstack.com/stages/scaling
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/stages/scaling)
 ---
 
@@ -13,7 +13,7 @@ license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" a
 
 # Scaling: AI GTM stack for 16–40 GTM people, about $2,193/mo
 
-About $2,193/mo for our recommended stack, estimated from published list prices as of 2026-11-02 to 2026-11-16 (per tool). Assumptions: 25 GTM people, 10 LinkedIn senders, high email volume (125,000/mo), monthly list prices except Apollo (10 prospecting seats, billed annually); Webflow and Surfer are yearly-billed views. RB2B Pro is a 'from' price. PostHog counted at its free allowance (usage-based beyond it). Peec AI is its Pro monthly list price. Actual cost depends on your usage, billing period, taxes and add-ons.
+About $2,193/mo for our recommended stack, estimated from published list prices as of 2026-11-02 to 2026-11-23 (per tool). Assumptions: 25 GTM people, 10 LinkedIn senders, high email volume (125,000/mo), monthly list prices except Apollo (10 prospecting seats, billed annually); Webflow and Surfer are yearly-billed views. RB2B Pro is a 'from' price. PostHog counted at its free allowance (usage-based beyond it). Peec AI is its Pro monthly list price. Actual cost depends on your usage, billing period, taxes and add-ons.
 
 ## Who this is for
 
@@ -45,7 +45,7 @@ One tool per job, no paid overlap. Each pick weighs two things: its value score 
 | Web analytics | **[Google Analytics](https://marketingplatform.google.com/about/analytics/)** value 88 · best in category | Free | $0 | Website traffic and sources. |
 | **Estimated total $2,193 | |** | | |
 
-Math: $490 + $299 + $97 + $790 + $149 + $49 + $245 + $49 + $25 = $2,193.00/mo. Assumptions: 25 GTM people, 10 LinkedIn senders, high email volume (125,000/mo), monthly list prices except Apollo (10 prospecting seats, billed annually); Webflow and Surfer are yearly-billed views. RB2B Pro is a 'from' price. PostHog counted at its free allowance (usage-based beyond it). Peec AI is its Pro monthly list price. Estimate only; excludes taxes, add-ons, overages and annual discounts. Prices as of 2026-11-02 to 2026-11-16 (per tool), verify with vendor. "from" and "quote" rows are not final prices.
+Math: $490 + $299 + $97 + $790 + $149 + $49 + $245 + $49 + $25 = $2,193.00/mo. Assumptions: 25 GTM people, 10 LinkedIn senders, high email volume (125,000/mo), monthly list prices except Apollo (10 prospecting seats, billed annually); Webflow and Surfer are yearly-billed views. RB2B Pro is a 'from' price. PostHog counted at its free allowance (usage-based beyond it). Peec AI is its Pro monthly list price. Estimate only; excludes taxes, add-ons, overages and annual discounts. Prices as of 2026-11-02 to 2026-11-23 (per tool), verify with vendor. "from" and "quote" rows are not final prices.
 
 ## CRM for this team size (separate from the stack)
 
@@ -134,7 +134,7 @@ Free plan (500 actions/mo); Launch $167/mo (annual-billing view; $185 monthly), 
 
 Fit 5/5 (editorial) · Fits: Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.clay.com/pricing) · [See reviews on G2](https://www.g2.com/products/clay-com-clay/reviews)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.clay.com/pricing) · [See reviews on G2](https://www.g2.com/products/clay-com-clay/reviews)
 
 ### [Google Search Console](https://search.google.com/search-console/about)
 
@@ -148,7 +148,7 @@ Free (Google describes it as a free service)
 
 Fit 5/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://support.google.com/webmasters/answer/9128668) · [See reviews on G2](https://www.g2.com/search?query=Google+Search+Console)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://support.google.com/webmasters/answer/9128668) · [See reviews on G2](https://www.g2.com/search?query=Google+Search+Console)
 
 ### [beehiiv](https://www.beehiiv.com?via=limor-sinay) affiliate
 
@@ -162,7 +162,7 @@ Free forever (1,000-subscriber view); Lite $49/mo yearly billing; Pro $95/mo yea
 
 Fit 5/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.beehiiv.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=beehiiv)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.beehiiv.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=beehiiv)
 
 ### [HubSpot Sales Hub](https://www.hubspot.com/products/crm)
 
@@ -190,7 +190,7 @@ Outreach: Growth $47/mo (5,000 emails), Hypergrowth $107/mo (125,000 emails, 25,
 
 Fit 5/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://instantly.ai/pricing) · [See reviews on G2](https://www.g2.com/search?query=Instantly)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://instantly.ai/pricing) · [See reviews on G2](https://www.g2.com/search?query=Instantly)
 
 ### [Salesforce Sales Cloud](https://www.salesforce.com/sales/)
 
@@ -204,7 +204,7 @@ Starter Suite $25/user/mo (billed monthly or annually); Pro Suite $100 (billed a
 
 Fit 5/5 (editorial) · Fits: Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.salesforce.com/sales/pricing/) · [See reviews on G2](https://www.g2.com/products/salesforce-salesforce-sales-cloud/reviews)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.salesforce.com/sales/pricing/) · [See reviews on G2](https://www.g2.com/products/salesforce-salesforce-sales-cloud/reviews)
 
 ### [Hunter](https://hunter.io/)
 
@@ -218,7 +218,7 @@ Free (50 credits); Starter $49/mo monthly ($34 annual); Growth $149 ($104); Scal
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://hunter.io/pricing) · [See reviews on G2](https://www.g2.com/products/hunter/reviews)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://hunter.io/pricing) · [See reviews on G2](https://www.g2.com/products/hunter/reviews)
 
 ### [FullEnrich](https://try.fullenrich.com/b4d0yq6n1ps4) affiliate
 
@@ -230,7 +230,7 @@ Free trial; Pro 15K credits $720/mo; other credit tiers on page
 
 Fit 4/5 (editorial) · Fits: Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://fullenrich.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=FullEnrich)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://fullenrich.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=FullEnrich)
 
 ### [HeyGen](https://www.heygen.com/)
 
@@ -244,7 +244,7 @@ Free $0; Creator $29/mo; Pro $49/mo; Business $149/mo
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.heygen.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=HeyGen)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.heygen.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=HeyGen)
 
 ### [RB2B](https://rb2b.com/?ref=limor) affiliate
 
@@ -258,7 +258,7 @@ Free $0; Starter $79/mo; Pro from $149; Pro+ from $199
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.rb2b.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=RB2B)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.rb2b.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=RB2B)
 
 ### [PostHog](https://posthog.com/)
 
@@ -272,7 +272,7 @@ Free monthly allowance (e.g. 1M analytics events), then usage-based
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://posthog.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=PostHog)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://posthog.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=PostHog)
 
 ### [Surfer](https://surfer.ai/)
 
@@ -286,7 +286,7 @@ Discovery $49/mo, AI Visibility $82/mo, Standard $99/mo, Pro $182/mo, Peace of M
 
 Fit 4/5 (editorial) · Fits: Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://surfer.ai/pricing/) · [See reviews on G2](https://www.g2.com/search?query=Surfer)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://surfer.ai/pricing/) · [See reviews on G2](https://www.g2.com/search?query=Surfer)
 
 ### [Buffer](https://buffer.com/)
 
@@ -300,7 +300,7 @@ Free: up to 3 channels; Essentials $5/mo per channel and Team $10/mo per channel
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://buffer.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Buffer)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://buffer.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Buffer)
 
 ### [Webflow](https://webflow.com/)
 
@@ -314,7 +314,7 @@ Free (webflow.io domain); site plans Basic $15/mo billed yearly, Premium (CMS, n
 
 Fit 4/5 (editorial) · Fits: Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://webflow.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Webflow)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://webflow.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Webflow)
 
 ### [Circle](https://circle.so/)
 
@@ -328,7 +328,7 @@ Professional $89/mo, Business $199/mo, Scale $419/mo (billing period not verifie
 
 Fit 4/5 (editorial) · Fits: Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://circle.so/pricing) · [See reviews on G2](https://www.g2.com/search?query=Circle)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://circle.so/pricing) · [See reviews on G2](https://www.g2.com/search?query=Circle)
 
 ### [Google Analytics](https://marketingplatform.google.com/about/analytics/)
 
@@ -342,7 +342,7 @@ Free of charge (Google)
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://marketingplatform.google.com/about/analytics/) · [See reviews on G2](https://www.g2.com/search?query=Google+Analytics)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://marketingplatform.google.com/about/analytics/) · [See reviews on G2](https://www.g2.com/search?query=Google+Analytics)
 
 ### [Zoho CRM](https://www.zoho.com/crm/)
 
@@ -354,7 +354,7 @@ Free for 3 users; Standard $14, Professional $23, Enterprise $40 per user/mo bil
 
 Fit 4/5 (editorial) · Fits: Small team, Early scaling, Scaling
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.zoho.com/crm/zohocrm-pricing.html) · [See reviews on G2](https://www.g2.com/products/zoho-crm/reviews)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.zoho.com/crm/zohocrm-pricing.html) · [See reviews on G2](https://www.g2.com/products/zoho-crm/reviews)
 
 ### [Pipedrive](https://www.pipedrive.com/)
 
@@ -366,7 +366,7 @@ No free plan (14-day trial). Lite $14, Growth $39, Premium $59, Ultimate $79 per
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.pipedrive.com/en/pricing) · [See reviews on G2](https://www.g2.com/products/pipedrive/reviews)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.pipedrive.com/en/pricing) · [See reviews on G2](https://www.g2.com/products/pipedrive/reviews)
 
 ### [HeyReach](https://heyreach.io/?via=limor) affiliate
 
@@ -380,7 +380,7 @@ Growth $79/sender/mo; Agency $999/mo (25 senders); Unlimited $2,999/mo
 
 Fit 5/5 (editorial) · Fits: Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.heyreach.io/pricing) · [See reviews on G2](https://www.g2.com/search?query=HeyReach)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.heyreach.io/pricing) · [See reviews on G2](https://www.g2.com/search?query=HeyReach)
 
 ### [Peec AI](https://peec.ai/)
 
@@ -394,7 +394,7 @@ Starter $95/mo (50 prompts, 3 chosen models, unlimited users, SOC 2); Pro $245/m
 
 Fit 4/5 (editorial) · Fits: Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://peec.ai/pricing) · [See reviews on G2](https://www.g2.com/search?query=Peec+AI)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://peec.ai/pricing) · [See reviews on G2](https://www.g2.com/search?query=Peec+AI)
 
 ### [Otterly.AI](https://otterly.ai/)
 
@@ -406,7 +406,7 @@ Lite €29/mo (16 prompts, 2,000 credits, 4 of 7 engines); Standard €189/mo (1
 
 Fit 3/5 (editorial) · Fits: Early scaling, Scaling
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://otterly.ai/pricing) · [See reviews on G2](https://www.g2.com/search?query=Otterly.AI)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://otterly.ai/pricing) · [See reviews on G2](https://www.g2.com/search?query=Otterly.AI)
 
 ### [Reply.io](https://reply.io/)
 
@@ -418,7 +418,7 @@ Email volume tiers 'starts from' $59 monthly (lower with annual); LinkedIn add-o
 
 Fit 4/5 (editorial) · Fits: Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://reply.io/pricing/) · [See reviews on G2](https://www.g2.com/search?query=Reply.io)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://reply.io/pricing/) · [See reviews on G2](https://www.g2.com/search?query=Reply.io)
 
 ### [Scrunch](https://scrunch.com/)
 
@@ -430,7 +430,7 @@ Core $250/mo (125 prompts, 4 LLMs, 5 licenses; third-party reports $300 month-to
 
 Fit 4/5 (editorial) · Fits: Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://scrunch.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Scrunch)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://scrunch.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Scrunch)
 
 ### [lemlist](https://get.lemlist.com/3q3jpladw6up) affiliate
 
@@ -442,7 +442,7 @@ Email $69/mo monthly ($55 annual), 50,000 emails/mo; Multichannel $109/mo ($87 a
 
 Fit 4/5 (editorial) · Fits: Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.lemlist.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=lemlist)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.lemlist.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=lemlist)
 
 ### [Postiz](https://postiz.com/)
 
@@ -456,7 +456,7 @@ Standard $29/mo, Team $39, Pro $49, Ultimate $99
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://postiz.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Postiz)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://postiz.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Postiz)
 
 ### [Fathom Analytics](https://usefathom.com/)
 
@@ -468,7 +468,7 @@ From $15/mo (up to 100,000 monthly pageviews); 7-day free trial
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://usefathom.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Fathom+Analytics)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://usefathom.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Fathom+Analytics)
 
 ### [AthenaHQ](https://www.athenahq.ai/)
 
@@ -480,7 +480,7 @@ Essential free tier ($25 free credit); Starter $295/mo (3,600 credits, 11 models
 
 Fit 4/5 (editorial) · Fits: Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.athenahq.ai/plans) · [See reviews on G2](https://www.g2.com/search?query=AthenaHQ)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.athenahq.ai/plans) · [See reviews on G2](https://www.g2.com/search?query=AthenaHQ)
 
 ### [Warmly](https://www.warmly.ai/)
 
@@ -492,7 +492,7 @@ AI web de-anonymization from $10,000/yr; Inbound Chat $20,000/yr; AI Inbound Aut
 
 Fit 2/5 (editorial) · Fits: Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.warmly.ai/pricing) · [See reviews on G2](https://www.g2.com/products/warmly-warmly/reviews)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.warmly.ai/pricing) · [See reviews on G2](https://www.g2.com/products/warmly-warmly/reviews)
 
 ### [Amplemarket](https://www.amplemarket.com/)
 
@@ -504,7 +504,7 @@ Startup $600/mo on an annual term with 2 users and 27,000 contacts; Growth and E
 
 Fit 3/5 (editorial) · Fits: Early scaling, Scaling
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.amplemarket.com/pricing) · [See reviews on G2](https://www.g2.com/products/amplemarket/reviews)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.amplemarket.com/pricing) · [See reviews on G2](https://www.g2.com/products/amplemarket/reviews)
 
 ### [ZoomInfo](https://www.zoominfo.com/)
 
@@ -518,7 +518,7 @@ Contact sales
 
 Fit 4/5 (editorial) · Fits: Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.zoominfo.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=ZoomInfo)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.zoominfo.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=ZoomInfo)
 
 ### [11x](https://www.11x.ai/)
 
@@ -532,7 +532,7 @@ Contact sales
 
 Fit 4/5 (editorial) · Fits: Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.11x.ai/) · [See reviews on G2](https://www.g2.com/search?query=11x)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.11x.ai/) · [See reviews on G2](https://www.g2.com/search?query=11x)
 
 ### [Artisan](https://www.artisan.co/)
 
@@ -546,7 +546,7 @@ Contact sales
 
 Fit 4/5 (editorial) · Fits: Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.artisan.co/pricing) · [See reviews on G2](https://www.g2.com/search?query=Artisan)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.artisan.co/pricing) · [See reviews on G2](https://www.g2.com/search?query=Artisan)
 
 ### [Qualified](https://www.qualified.com/)
 
@@ -560,7 +560,7 @@ Contact sales
 
 Fit 4/5 (editorial) · Fits: Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.qualified.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Qualified)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.qualified.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Qualified)
 
 ### [Canva](https://www.canva.com/)
 
@@ -588,7 +588,7 @@ Contact sales
 
 Fit 4/5 (editorial) · Fits: Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.tryprofound.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Profound)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.tryprofound.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Profound)
 
 ### [Salesloft](https://www.salesloft.com/)
 
@@ -602,7 +602,7 @@ Contact sales
 
 Fit 4/5 (editorial) · Fits: Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.salesloft.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Salesloft)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.salesloft.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Salesloft)
 
 ### [Outreach](https://www.outreach.io/)
 
@@ -616,7 +616,7 @@ Contact sales
 
 Fit 4/5 (editorial) · Fits: Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.outreach.io/pricing) · [See reviews on G2](https://www.g2.com/search?query=Outreach)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.outreach.io/pricing) · [See reviews on G2](https://www.g2.com/search?query=Outreach)
 
 ### [Microsoft Sales Development Agent](https://www.microsoft.com/en-us/dynamics-365/products/sales)
 
@@ -644,7 +644,7 @@ Contact sales
 
 Fit 3/5 (editorial) · Fits: Early scaling, Scaling
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.nooks.ai/pricing) · [See reviews on G2](https://www.g2.com/search?query=Nooks)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.nooks.ai/pricing) · [See reviews on G2](https://www.g2.com/search?query=Nooks)
 
 ### [6sense BDR Agent](https://6sense.com/)
 
@@ -664,7 +664,7 @@ Prices as of 2026-11-09, verify with vendor. [Pricing source](https://6sense.com
 
 ### How much does an AI GTM stack cost for 16–40 GTM people (scaling)?
 
-About $2,193/mo for our recommended stack, estimated from published list prices as of 2026-11-02 to 2026-11-16 (per tool). Assumptions: 25 GTM people, 10 LinkedIn senders, high email volume (125,000/mo), monthly list prices except Apollo (10 prospecting seats, billed annually); Webflow and Surfer are yearly-billed views. RB2B Pro is a 'from' price. PostHog counted at its free allowance (usage-based beyond it). Peec AI is its Pro monthly list price. Actual cost depends on your usage, billing period, taxes and add-ons.
+About $2,193/mo for our recommended stack, estimated from published list prices as of 2026-11-02 to 2026-11-23 (per tool). Assumptions: 25 GTM people, 10 LinkedIn senders, high email volume (125,000/mo), monthly list prices except Apollo (10 prospecting seats, billed annually); Webflow and Surfer are yearly-billed views. RB2B Pro is a 'from' price. PostHog counted at its free allowance (usage-based beyond it). Peec AI is its Pro monthly list price. Actual cost depends on your usage, billing period, taxes and add-ons.
 
 ### What is included in the recommended stack?
 
@@ -675,4 +675,4 @@ Apollo (List building & lead data), Hunter (Enrichment & verification), Instantl
 No. They are estimates from vendor pricing pages and can change at any time. Always verify with the vendor before buying.
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/stages/scaling
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/stages/scaling

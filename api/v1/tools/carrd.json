@@ -1,12 +1,12 @@
 {
  "meta": {
   "api_version": "1.0.0",
-  "last_verified": "2026-11-16",
+  "last_verified": "2026-11-23",
   "source": "https://profitableagentstack.com",
   "license": "CC BY 4.0. Credit \"Profitable Agent Stack (profitableagentstack.com)\", link the source page and state the last-verified date.",
   "methodology": "value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial fit_score (1-5) x 20. cost_score = 100 - 60 x (entry_price - lowest entry price in the use case) / (highest - lowest); contact-sales tools get no cost or value score. The published formula reserves 20% for user sentiment, but no sentiment or user-review data is used in any score today, so fit and cost are reweighted 62.5/37.5. Stack picks also weigh fit for the GTM team size (reviewer company-size mix, case studies, enterprise-readiness evidence).",
   "methodology_url": "https://profitableagentstack.com/methodology",
-  "disclaimer": "Profitable Agent Stack is for general information only, provided \"as is\" without warranties. Prices, plans, features and review data change often and may be inaccurate or out of date (last checked 2026-11-16); always verify with the vendor. Cost estimates and scores are editorial estimates, not advice. Nothing here is professional, legal or financial advice. Trademarks belong to their owners; listing is not endorsement. Some links may be affiliate or sponsored — see our Disclosure.",
+  "disclaimer": "Profitable Agent Stack is for general information only, provided \"as is\" without warranties. Prices, plans, features and review data change often and may be inaccurate or out of date (last checked 2026-11-23); always verify with the vendor. Cost estimates and scores are editorial estimates, not advice. Nothing here is professional, legal or financial advice. Trademarks belong to their owners; listing is not endorsement. Some links may be affiliate or sponsored — see our Disclosure.",
   "docs": "https://profitableagentstack.com/developers",
   "openapi": "https://profitableagentstack.com/openapi.json"
  },
@@ -25,7 +25,7 @@
   "currency": "USD",
   "price_text": "Free account; Pro Lite $9/yr, Pro Standard $19/yr (custom domain), up to $69/yr for 50 sites",
   "price_verified": true,
-  "last_verified": "2026-11-16",
+  "last_verified": "2026-11-23",
   "pricing_source_url": "https://carrd.com/pro",
   "homepage_url": "https://carrd.com/",
   "link": "https://carrd.com/",

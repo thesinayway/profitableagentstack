@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-16",
+  "checked": "2026-11-23",
   "use_cases": [
     {
       "id": "positioning",
@@ -112,7 +112,7 @@
       "logo": "/assets/logos/smartlead.ai.png",
       "homepage_url": "https://www.smartlead.ai/",
       "affiliate_url": "https://smartlead.ai?via=limor",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -139,7 +139,7 @@
       "logo": "/assets/logos/instantly.ai.png",
       "homepage_url": "https://instantly.ai/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -147,7 +147,7 @@
       "use_case": "outbound-email",
       "from": 48,
       "status": "published",
-      "price": "Page title says 'Starting at $48/mo'; plan subscriptions shown at $40 and $80/mo billed monthly",
+      "price": "Pro $48/mo billed monthly ($29.20/mo billed annually); Growth $96/mo billed monthly ($58.40/mo billed annually); page title says 'Starting at $48/mo'. Annual prices as shown on 2026-11-23 may include a seasonal offer",
       "source": "https://www.salesforge.ai/pricing",
       "fit_score": 4,
       "stages": [
@@ -164,7 +164,7 @@
       "logo": "/assets/logos/salesforge.ai.png",
       "homepage_url": "https://www.salesforge.ai/",
       "affiliate_url": "https://salesforge.ai/?via=limor",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -190,7 +190,7 @@
       "logo": "/assets/logos/lemlist.com.png",
       "homepage_url": "https://www.lemlist.com/",
       "affiliate_url": "https://get.lemlist.com/3q3jpladw6up",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -216,7 +216,7 @@
       "logo": "/assets/logos/reply.io.png",
       "homepage_url": "https://reply.io/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -269,7 +269,8 @@
       "homepage_url": "https://www.apollo.io/",
       "affiliate_url": "",
       "checked": "2026-11-16",
-      "price_verified": true
+      "price_verified": true,
+      "note": "2026-11-23: plan prices no longer render in the page HTML (page JSON-LD lists Basic $49 and Professional $99 without a billing basis; FAQ now lists Free, Basic, Professional and Custom, not Organization). Last verified prices kept from 2026-11-16"
     },
     {
       "name": "Exa",
@@ -293,7 +294,7 @@
       "logo": "/assets/logos/exa.ai.png",
       "homepage_url": "https://exa.ai/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -317,7 +318,7 @@
       "logo": "/assets/logos/zoominfo.com.png",
       "homepage_url": "https://www.zoominfo.com/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -343,7 +344,7 @@
       "logo": "/assets/logos/clay.com.png",
       "homepage_url": "https://www.clay.com/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -370,7 +371,7 @@
       "logo": "/assets/logos/hunter.io.png",
       "homepage_url": "https://hunter.io/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -396,7 +397,7 @@
       "logo": "/assets/logos/fullenrich.com.png",
       "homepage_url": "https://fullenrich.com/",
       "affiliate_url": "https://try.fullenrich.com/b4d0yq6n1ps4",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -447,7 +448,7 @@
       "logo": "/assets/logos/heyreach.io.png",
       "homepage_url": "https://www.heyreach.io/",
       "affiliate_url": "https://heyreach.io/?via=limor",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -472,7 +473,7 @@
       "logo": "/assets/logos/expandi.io.png",
       "homepage_url": "https://expandi.io/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -497,7 +498,7 @@
       "logo": "/assets/logos/waalaxy.com.png",
       "homepage_url": "https://www.waalaxy.com/",
       "affiliate_url": "https://waal.ink/N47esf",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -521,7 +522,7 @@
       "logo": "/assets/logos/11x.ai.png",
       "homepage_url": "https://www.11x.ai/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -547,7 +548,7 @@
       "logo": "/assets/logos/artisan.co.png",
       "homepage_url": "https://www.artisan.co/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -571,7 +572,7 @@
       "logo": "/assets/logos/qualified.com.png",
       "homepage_url": "https://www.qualified.com/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -598,7 +599,7 @@
       "logo": "/assets/logos/postiz.com.png",
       "homepage_url": "https://postiz.com/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -625,7 +626,7 @@
       "logo": "/assets/logos/heygen.com.png",
       "homepage_url": "https://www.heygen.com/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -651,7 +652,7 @@
       "logo": "/assets/logos/rb2b.com.png",
       "homepage_url": "https://www.rb2b.com/",
       "affiliate_url": "https://rb2b.com/?ref=limor",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -678,7 +679,7 @@
       "logo": "/assets/logos/posthog.com.png",
       "homepage_url": "https://posthog.com/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -701,7 +702,7 @@
       "logo": "/assets/logos/commonroom.io.png",
       "homepage_url": "https://www.commonroom.io/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -719,7 +720,7 @@
         "scaling",
         "large"
       ],
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "reviews": {
         "g2_rating": null,
         "g2_review_count": null,
@@ -744,7 +745,7 @@
         "small",
         "early"
       ],
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "reviews": {
         "g2_rating": null,
         "g2_review_count": null,
@@ -770,7 +771,7 @@
         "scaling",
         "large"
       ],
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "reviews": {
         "g2_rating": null,
         "g2_review_count": null,
@@ -797,7 +798,7 @@
         "scaling",
         "large"
       ],
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "reviews": {
         "g2_rating": null,
         "g2_review_count": null,
@@ -831,7 +832,7 @@
       },
       "homepage_url": "https://typefully.com/",
       "affiliate_url": "",
-      "note": "Paid prices not captured; check vendor",
+      "note": "Paid prices not captured; check vendor. 2026-11-23: pricing page rendered no plan text to our checker; free plan last confirmed 2026-11-16",
       "logo": "/assets/logos/typefully.com.png",
       "price_verified": true
     },
@@ -848,7 +849,7 @@
         "small",
         "early"
       ],
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "reviews": {
         "g2_rating": null,
         "g2_review_count": null,
@@ -873,7 +874,7 @@
         "small",
         "early"
       ],
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "reviews": {
         "g2_rating": null,
         "g2_review_count": null,
@@ -899,7 +900,7 @@
         "scaling",
         "large"
       ],
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "reviews": {
         "g2_rating": null,
         "g2_review_count": null,
@@ -926,7 +927,7 @@
         "scaling",
         "large"
       ],
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "reviews": {
         "g2_rating": null,
         "g2_review_count": null,
@@ -943,7 +944,7 @@
       "use_case": "newsletters",
       "from": 0,
       "status": "published",
-      "price": "Free $0 (up to 10,000 subscribers); Creator $33/mo billed yearly ($390/yr); Pro $66/mo billed yearly, shown at $50/mo for the first year as a limited-time offer",
+      "price": "Free $0 (up to 10,000 subscribers); Creator $39/mo billed monthly ($33/mo billed yearly, $390/yr, last seen 2026-11-16); Pro $79/mo billed monthly (yearly billing saves 17%). Black Friday offer to Dec 1: 50% off monthly Creator for the first 3 months",
       "source": "https://kit.com/pricing",
       "fit_score": 4,
       "stages": [
@@ -951,7 +952,7 @@
         "small",
         "early"
       ],
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "reviews": {
         "g2_rating": null,
         "g2_review_count": null,
@@ -976,7 +977,7 @@
         "small",
         "early"
       ],
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "reviews": {
         "g2_rating": null,
         "g2_review_count": null,
@@ -1001,7 +1002,7 @@
         "small",
         "early"
       ],
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "reviews": {
         "g2_rating": null,
         "g2_review_count": null,
@@ -1054,7 +1055,7 @@
         "scaling",
         "large"
       ],
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "reviews": {
         "g2_rating": null,
         "g2_review_count": null,
@@ -1106,7 +1107,7 @@
         "scaling",
         "large"
       ],
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "reviews": {
         "g2_rating": null,
         "g2_review_count": null,
@@ -1131,7 +1132,7 @@
         "small",
         "early"
       ],
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "reviews": {
         "g2_rating": null,
         "g2_review_count": null,
@@ -1158,7 +1159,7 @@
         "scaling",
         "large"
       ],
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "reviews": {
         "g2_rating": null,
         "g2_review_count": null,
@@ -1191,7 +1192,7 @@
       },
       "homepage_url": "https://peec.ai/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -1214,7 +1215,7 @@
       },
       "homepage_url": "https://otterly.ai/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -1238,7 +1239,7 @@
       },
       "homepage_url": "https://www.athenahq.ai/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -1262,7 +1263,7 @@
       },
       "homepage_url": "https://scrunch.com/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -1285,7 +1286,7 @@
       },
       "homepage_url": "https://www.tryprofound.com/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -1308,7 +1309,7 @@
       },
       "homepage_url": "https://www.salesloft.com/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -1331,7 +1332,7 @@
       },
       "homepage_url": "https://www.outreach.io/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -1356,7 +1357,7 @@
       "logo": "/assets/logos/unifygtm.com.png",
       "homepage_url": "https://www.unifygtm.com/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -1381,7 +1382,7 @@
       "logo": "/assets/logos/aisdr.com.png",
       "homepage_url": "https://aisdr.com/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -1406,7 +1407,7 @@
       "logo": "/assets/logos/regie.ai.png",
       "homepage_url": "https://www.regie.ai/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -1431,7 +1432,7 @@
       "logo": "/assets/logos/getswan.com.png",
       "homepage_url": "https://www.getswan.com/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -1439,7 +1440,7 @@
       "use_case": "ai-sdr",
       "from": 99,
       "status": "published",
-      "price": "Starter $99/mo; Pro $199/mo; Max $399/mo; usage included and billed beyond that; unlimited team members on paid plans. 7-day trial requires a card and renews at $99/mo",
+      "price": "Starter $99/mo ($165 of usage included); Pro $299/mo ($495 of usage); Max $499/mo ($825 of usage); usage billed beyond that; unlimited team members on paid plans. 7-day trial requires a card and includes $66 of usage",
       "source": "https://origami.chat/pricing",
       "fit_score": 3,
       "stages": [
@@ -1456,7 +1457,7 @@
       "logo": "/assets/logos/origami.chat.png",
       "homepage_url": "https://origami.chat/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -1481,7 +1482,7 @@
       "logo": "/assets/logos/rox.com.png",
       "homepage_url": "https://www.rox.com/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -1505,7 +1506,7 @@
       "logo": "/assets/logos/amplemarket.com.png",
       "homepage_url": "https://www.amplemarket.com/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -1530,7 +1531,7 @@
       "logo": "/assets/logos/warmly.ai.png",
       "homepage_url": "https://www.warmly.ai/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -1555,7 +1556,8 @@
       "homepage_url": "https://www.microsoft.com/en-us/dynamics-365/products/sales",
       "affiliate_url": "",
       "checked": "2026-11-16",
-      "price_verified": true
+      "price_verified": true,
+      "note": "2026-11-23: source blog loads but Copilot Credit pricing not re-confirmed; last verified 2026-11-16"
     },
     {
       "name": "Nooks",
@@ -1578,7 +1580,7 @@
       "logo": "/assets/logos/nooks.ai.png",
       "homepage_url": "https://www.nooks.ai/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -1603,7 +1605,8 @@
       "homepage_url": "https://6sense.com/",
       "affiliate_url": "",
       "checked": "2026-11-09",
-      "price_verified": true
+      "price_verified": true,
+      "note": "2026-11-23: 6sense blocked automated fetch (403); last checked 2026-11-09"
     },
     {
       "name": "HubSpot Sales Hub",
@@ -1630,7 +1633,8 @@
       "homepage_url": "https://www.hubspot.com/products/crm",
       "affiliate_url": "",
       "checked": "2026-11-10",
-      "price_verified": true
+      "price_verified": true,
+      "note": "2026-11-23: pricing page renders prices client-side; last verified prices kept from 2026-11-10"
     },
     {
       "name": "Pipedrive",
@@ -1655,7 +1659,7 @@
       "logo": "/assets/logos/pipedrive.com.png",
       "homepage_url": "https://www.pipedrive.com/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -1680,7 +1684,7 @@
       "logo": "/assets/logos/attio.com.png",
       "homepage_url": "https://attio.com/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -1704,7 +1708,7 @@
       "logo": "/assets/logos/folk.app.png",
       "homepage_url": "https://www.folk.app/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -1729,7 +1733,7 @@
       "logo": "/assets/logos/close.com.png",
       "homepage_url": "https://www.close.com/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -1754,7 +1758,7 @@
       "logo": "/assets/logos/zoho.com.png",
       "homepage_url": "https://www.zoho.com/crm/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -1778,7 +1782,7 @@
       "logo": "/assets/logos/bigin.com.png",
       "homepage_url": "https://www.bigin.com/",
       "affiliate_url": "",
-      "checked": "2026-11-10",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -1803,7 +1807,7 @@
       "logo": "/assets/logos/copper.com.png",
       "homepage_url": "https://www.copper.com/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -1828,7 +1832,7 @@
       "logo": "/assets/logos/salesforce.com.png",
       "homepage_url": "https://www.salesforce.com/sales/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     },
     {
@@ -1853,14 +1857,15 @@
       "homepage_url": "https://www.apollo.io/",
       "affiliate_url": "",
       "checked": "2026-11-10",
-      "price_verified": true
+      "price_verified": true,
+      "note": "2026-11-23: Apollo pricing page no longer renders plan prices in its HTML; last verified prices kept from 2026-11-10"
     },
     {
       "name": "Day AI",
       "use_case": "crm",
       "from": null,
       "status": "unverified",
-      "price": "Priced per AI agent, not per seat: each workspace needs at least one Professional ($60/mo) or Executive ($200/mo) agent; Turbo agents $24/mo; Super $800/mo annual only; human colleagues can join free. Billing period of the default view not verified",
+      "price": "Priced per AI agent, not per seat: each workspace needs at least one Professional ($60/mo) or Executive ($200/mo) agent; Turbo agents $24/mo; Super $800/mo annual only; human colleagues can join free. Page has a Monthly/Annual toggle; prices shown in the default (monthly) view",
       "source": "https://day.ai/pricing",
       "fit_score": 3,
       "stages": [
@@ -1876,8 +1881,8 @@
       "logo": "/assets/logos/day.ai.png",
       "homepage_url": "https://day.ai/",
       "affiliate_url": "",
-      "checked": "2026-11-10",
-      "price_verified": false
+      "checked": "2026-11-23",
+      "price_verified": true
     },
     {
       "name": "Lightfield",
@@ -1900,11 +1905,36 @@
       "logo": "/assets/logos/lightfield.app.png",
       "homepage_url": "https://lightfield.app/",
       "affiliate_url": "",
-      "checked": "2026-11-16",
+      "checked": "2026-11-23",
       "price_verified": true
     }
   ],
   "releases": [
+    {
+      "date": "2026-11-23",
+      "text": "New this week: Reply.io (listed) released Jason Harness (Nov 20), a free, open-source (MIT) AI SDR harness that runs inside Claude Code or Codex as nine roles (planner, researcher, copywriter, critic and more). Reply sends the emails and LinkedIn messages and a person approves every send. In alpha; uses your own AI subscription, Reply plans still paid.",
+      "source": "https://www.einpresswire.com/article/957995784/reply-io-launches-open-source-jason-harness-for-outbound-sales"
+    },
+    {
+      "date": "2026-11-23",
+      "text": "New this week: Clay (listed) opened its global agent in beta (Nov 19): you describe a play in chat and it builds the search, audience, workflow and sequence, tests on sample records and shows an estimated cost before running at scale. Included on paid Launch, Growth and Enterprise plans.",
+      "source": "https://www.clay.com/blog/clay-global-agent-beta"
+    },
+    {
+      "date": "2026-11-23",
+      "text": "New this week: Swan AI (listed) moved its automations into goal-based agents (Nov 17): each agent owns one goal, such as booking first meetings with accounts showing buying signals, reviews its own results every few days and asks before bigger changes like new outreach or more credits. Prices unchanged.",
+      "source": "https://www.getswan.com/changelog/agents"
+    },
+    {
+      "date": "2026-11-23",
+      "text": "New this week: Spara announced Scout (Nov 17), a proactive sales assistant that watches job changes, company news, buying signals and CRM activity, then drafts outreach and next steps for reps to review in Slack or text. Not listed or priced yet.",
+      "source": "https://www.prnewswire.com/news-releases/spara-introduces-scout-the-first-ai-assistant-built-to-anticipate-salespeoples-needs-and-take-action-302940779.html"
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Weekly price check: re-checked 62 of 72 tools on their vendor pricing pages. Changes: Origami Pro $199→$299/mo and Max $399→$499/mo (Starter unchanged at $99); Salesforge plan cards now show Pro $48 and Growth $96/mo billed monthly ($29.20 and $58.40 billed annually), previously recorded as $40 and $80 subscriptions; Kit's $50 first-year Pro offer is no longer shown (Pro $79/mo monthly; Creator $39/mo monthly with 50% off for 3 months to Dec 1). Not re-verified this week (page blocked or prices render client-side), last verified price kept: Woodpecker, Clearout, Canva, Discord, Apollo, Apollo (built-in CRM), HubSpot Sales Hub, 6sense BDR Agent, Microsoft Sales Development Agent, Typefully.",
+      "source": "https://profitableagentstack.com/directory.html"
+    },
     {
       "date": "2026-11-16",
       "text": "New this week: LeadIQ launched Chewie, a standalone prospecting platform that turns a plain-language target description into a play: it finds the buying team on LeadIQ data, writes each email and lines up calls, with a person approving every message (Nov 12). Not listed or priced yet.",

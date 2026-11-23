@@ -1,7 +1,7 @@
 ---
 title: Corrections and Takedowns | Profitable Agent Stack
 url: https://profitableagentstack.com/corrections
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/corrections)
 ---
 
@@ -22,4 +22,4 @@ For trademark, copyright or other takedown requests, include your contact detail
 We aim to acknowledge within 5 business days, check the official source, and correct, annotate or remove content. Corrections are logged on New releases.
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/corrections
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/corrections

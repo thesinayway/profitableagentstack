@@ -1,7 +1,7 @@
 ---
 title: AI GTM Stacks Ranked by Real Value | Profitable Agent Stack
 url: https://profitableagentstack.com/
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/)
 ---
 
@@ -113,11 +113,15 @@ By how many people do go-to-market: solo founder (1), small GTM team (2–5), ea
 
 ### Where do the prices come from?
 
-From each vendor's own pricing page, with a source link and the date checked (2026-11-16). Tools with no public price are marked contact sales.
+From each vendor's own pricing page, with a source link and the date checked (2026-11-23). Tools with no public price are marked contact sales.
+
+### What changed in AI GTM tool prices this week?
+
+As of 2026-11-23: re-checked 62 of 72 tools on their vendor pricing pages. Changes: Origami Pro $199→$299/mo and Max $399→$499/mo (Starter unchanged at $99); Salesforge plan cards now show Pro $48 and Growth $96/mo billed monthly ($29.20 and $58.40 billed annually), previously recorded as $40 and $80 subscriptions; Kit's $50 first-year Pro offer is no longer shown (Pro $79/mo monthly; Creator $39/mo monthly with 50% off for 3 months to Dec 1). Not re-verified this week (page blocked or prices render client-side), last verified price kept: Woodpecker, Clearout, Canva, Discord, Apollo, Apollo (built-in CRM), HubSpot Sales Hub, 6sense BDR Agent, Microsoft Sales Development Agent, Typefully. Full log: https://profitableagentstack.com/new-releases.html
 
 ### Do you publish user ratings?
 
 Only real public ratings from G2 or Capterra with a source link and date. Where they cannot be fetched reliably, we link to the reviews instead. We never create reviews or ratings ourselves.
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/

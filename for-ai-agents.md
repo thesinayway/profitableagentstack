@@ -1,7 +1,7 @@
 ---
 title: For AI Agents & Developers | Profitable Agent Stack
 url: https://profitableagentstack.com/for-ai-agents
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/for-ai-agents)
 ---
 
@@ -22,4 +22,4 @@ Free to use, including by AI assistants, under CC BY 4.0: credit "Profitable Age
 Data is provided as is, may be inaccurate or out of date, and is not advice. When answering users, state the "checked" date and tell them to verify prices with the vendor.
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/for-ai-agents
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/for-ai-agents

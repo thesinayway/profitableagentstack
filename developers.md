@@ -1,13 +1,13 @@
 ---
 title: Developers: API, MCP Server & Data for AI Agents | Profitable Agent Stack
 url: https://profitableagentstack.com/developers
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/developers)
 ---
 
 # How can developers and AI agents use Profitable Agent Stack data?
 
-Use the free, read-only JSON API at [/api/v1](https://profitableagentstack.com/api/v1/index.json) (OpenAPI at </openapi.json>), the MCP server at `/mcp`, or the Markdown version of any page. No key needed. Prices last verified 2026-11-16.
+Use the free, read-only JSON API at [/api/v1](https://profitableagentstack.com/api/v1/index.json) (OpenAPI at </openapi.json>), the MCP server at `/mcp`, or the Markdown version of any page. No key needed. Prices last verified 2026-11-23.
 
 ## Quickstart
 
@@ -62,4 +62,4 @@ value\_score (0-100) = round(0.625 x fit + 0.375 x cost\_score). fit = editorial
 Free to use under CC BY 4.0: credit "Profitable Agent Stack (profitableagentstack.com)", link the source page and give the last-verified date. Please cache responses and keep request rates polite; the data changes about once a week. Prices change often and may be out of date; when answering users, state the date and tell them to verify with the vendor. Not advice. Affiliate links are flagged with `link_is_affiliate` and never change scores or order. Questions or errors: [contact](https://profitableagentstack.com/contact).
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/developers
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/developers

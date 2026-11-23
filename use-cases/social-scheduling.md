@@ -1,7 +1,7 @@
 ---
 title: Best Social scheduling Tools by Cost & Value (2026) | Profitable Agent Stack
 url: https://profitableagentstack.com/use-cases/social-scheduling
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/use-cases/social-scheduling)
 ---
 
@@ -21,7 +21,7 @@ Free: up to 3 channels; Essentials $5/mo per channel and Team $10/mo per channel
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://buffer.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Buffer)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://buffer.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Buffer)
 
 ### [Typefully](https://typefully.com/)
 
@@ -49,7 +49,7 @@ Standard $29/mo, Team $39, Pro $49, Ultimate $99
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://postiz.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Postiz)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://postiz.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Postiz)
 
 ## FAQ
 
@@ -59,11 +59,11 @@ Buffer has the highest value score (88) among tools we list, priced at: Free: up
 
 ### How much do social scheduling tools cost?
 
-Published entry prices for listed tools: Buffer: Free: up to 3 channels; Essentials $5/mo per channel and Team $10/mo per channel (billed-yearly view: $60/yr and $120/yr per channel); vendor says annual billing saves 20%, monthly price not captured; Typefully: Free plan available; paid plan prices not captured; Postiz: Standard $29/mo, Team $39, Pro $49, Ultimate $99. Prices as of 2026-11-16.
+Published entry prices for listed tools: Buffer: Free: up to 3 channels; Essentials $5/mo per channel and Team $10/mo per channel (billed-yearly view: $60/yr and $120/yr per channel); vendor says annual billing saves 20%, monthly price not captured; Typefully: Free plan available; paid plan prices not captured; Postiz: Standard $29/mo, Team $39, Pro $49, Ultimate $99. Prices as of 2026-11-23.
 
 ### What is the cheapest social scheduling tool?
 
-By published entry price, Buffer and Typefully start free. Free plans and entry tiers have limits, so check them against your volume. List prices as of 2026-11-16; verify with the vendor.
+By published entry price, Buffer and Typefully start free. Free plans and entry tiers have limits, so check them against your volume. List prices as of 2026-11-23; verify with the vendor.
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/use-cases/social-scheduling
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/use-cases/social-scheduling

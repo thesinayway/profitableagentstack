@@ -1,7 +1,7 @@
 ---
 title: When to skip intent data (and what to do first) | Profitable Agent Stack
 url: https://profitableagentstack.com/articles/when-to-skip-intent-data
-last_verified: 2026-11-16
+last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/articles/when-to-skip-intent-data)
 ---
 
@@ -40,9 +40,9 @@ On the [published prices](https://profitableagentstack.com/directory) we checked
 
 Visitor identification and intent data raise privacy and consent questions that depend on where your buyers live. Check your obligations before you switch anything on.
 
-General information only, not legal or financial advice. Prices as of 2026-11-16; verify with the vendor.
+General information only, not legal or financial advice. Prices as of 2026-11-23; verify with the vendor.
 
 Published Nov 6, 2026
 
 ---
-Prices are vendor list prices last verified 2026-11-16; verify with the vendor. Not advice. Source: https://profitableagentstack.com/articles/when-to-skip-intent-data
+Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/articles/when-to-skip-intent-data
