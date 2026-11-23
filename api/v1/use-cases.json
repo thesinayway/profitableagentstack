@@ -204,15 +204,15 @@
    "group": "marketing",
    "separate_from_stacks": false,
    "page_url": "https://profitableagentstack.com/use-cases/social-scheduling",
-   "best_value_tool_id": "typefully",
+   "best_value_tool_id": "buffer",
    "lowest_entry_price_tool_ids": [
     "buffer",
     "typefully"
    ],
    "lowest_entry_price_monthly_usd": 0,
    "tool_ids": [
-    "typefully",
     "buffer",
+    "typefully",
     "postiz"
    ]
   },
@@ -267,8 +267,8 @@
    "lowest_entry_price_monthly_usd": 0,
    "tool_ids": [
     "heygen",
-    "descript",
     "capcut",
+    "descript",
     "canva"
    ]
   },
@@ -323,10 +323,10 @@
    "tool_ids": [
     "hubspot-sales-hub",
     "salesforce-sales-cloud",
-    "attio",
-    "zoho-crm",
     "bigin-by-zoho",
     "close",
+    "attio",
+    "zoho-crm",
     "pipedrive",
     "apollo-built-in-crm",
     "folk",

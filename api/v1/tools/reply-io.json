@@ -33,14 +33,21 @@
   "link_is_affiliate": false,
   "fit_score": 4,
   "cost_score": 60,
-  "sentiment_score": null,
-  "value_score": 72,
+  "sentiment_score": 80,
+  "value_score": 74,
   "best_value_in_use_case": false,
   "in_recommended_stacks": [],
   "crm_pick_for": [],
   "page_url": "https://profitableagentstack.com/use-cases/outbound-email#reply-io",
-  "reviews_url": "https://www.g2.com/search?query=Reply.io",
-  "review_status": "no review data yet",
-  "reviews": null
+  "reviews_url": "https://www.g2.com/products/reply/reviews",
+  "review_status": "verified",
+  "reviews": {
+   "source": "G2",
+   "rating": 4.6,
+   "review_count": 1572,
+   "url": "https://www.g2.com/products/reply/reviews",
+   "date_checked": "2026-11-23",
+   "url_is_product": true
+  }
  }
 }

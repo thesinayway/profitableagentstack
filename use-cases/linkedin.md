@@ -51,9 +51,9 @@ Value score: 65
 
 $99/mo monthly ($79 annual), 7-day free trial
 
-Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling
+Fit 4/5 (editorial) · sentiment 65 · Fits: Solo, Small team, Early scaling
 
-No review data yet
+[G2 4.3/5 · 195 reviews · checked 2026-11-23](https://www.g2.com/products/expandi-io/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://expandi.io/pricing/)
 

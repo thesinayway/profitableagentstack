@@ -116,22 +116,6 @@ Security and plan statements come from each vendor's own pages and are vendor cl
 
 ## All tools that fit this size
 
-### [HubSpot Sales Hub](https://www.hubspot.com/products/crm)
-
-CRM & pipeline
-
-Value score: 100
-
-Best valueCRM pick: Solo, Small team, Early scaling, Scaling
-
-Free CRM for up to 2 users; Starter $20/seat/mo list (new-customer limited-time price $10 monthly or $7 with annual prepay); Professional $90/seat/mo billed annually ($100 paid monthly with annual commitment) plus required $1,500 one-time onboarding; Enterprise from $150/seat/mo plus $3,500 one-time onboarding
-
-Fit 5/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
-
-No review data yet · [See reviews on G2](https://www.g2.com/products/hubspot-sales-hub/reviews)
-
-Prices as of 2026-11-10, verify with vendor. [Pricing source](https://www.hubspot.com/pricing/sales)
-
 ### [Apollo](https://www.apollo.io/)
 
 List building & lead data
@@ -196,21 +180,21 @@ Fit 5/5 (editorial) · sentiment 69 · Fits: Solo, Small team, Early scaling, Sc
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.beehiiv.com/pricing)
 
-### [Salesforce Sales Cloud](https://www.salesforce.com/sales/)
+### [HubSpot Sales Hub](https://www.hubspot.com/products/crm)
 
 CRM & pipeline
 
 Value score: 94
 
-CRM pick: Large / multi-team
+Best valueCRM pick: Solo, Small team, Early scaling, Scaling
 
-Starter Suite $25/user/mo (billed monthly or annually); Pro Suite $100 (billed annually, contract); Core $195 (replaces Enterprise Edition), Advanced $395, Max $550 per user/mo billed annually. Free Suite listed at $0 (limits not verified)
+Free CRM for up to 2 users; Starter $20/seat/mo list (new-customer limited-time price $10 monthly or $7 with annual prepay); Professional $90/seat/mo billed annually ($100 paid monthly with annual commitment) plus required $1,500 one-time onboarding; Enterprise from $150/seat/mo plus $3,500 one-time onboarding
 
-Fit 5/5 (editorial) · Fits: Early scaling, Scaling, Large / multi-team
+Fit 5/5 (editorial) · sentiment 70 · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-No review data yet · [See reviews on G2](https://www.g2.com/products/salesforce-salesforce-sales-cloud/reviews)
+[G2 4.4/5 · 14,410 reviews · checked 2026-11-23](https://www.g2.com/products/hubspot-sales-hub/reviews)
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.salesforce.com/sales/pricing/)
+Prices as of 2026-11-10, verify with vendor. [Pricing source](https://www.hubspot.com/pricing/sales)
 
 ### [Instantly](https://instantly.ai/)
 
@@ -228,19 +212,21 @@ Fit 5/5 (editorial) · sentiment 90 · Fits: Solo, Small team, Early scaling, Sc
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://instantly.ai/pricing)
 
-### [FullEnrich](https://try.fullenrich.com/b4d0yq6n1ps4) affiliate
+### [Salesforce Sales Cloud](https://www.salesforce.com/sales/)
 
-Enrichment & verification
+CRM & pipeline
 
-Value score: 88
+Value score: 89
 
-Free trial; Pro 15K credits $720/mo; other credit tiers on page
+CRM pick: Large / multi-team
 
-Fit 4/5 (editorial) · Fits: Small team, Early scaling, Scaling, Large / multi-team
+Starter Suite $25/user/mo (billed monthly or annually); Pro Suite $100 (billed annually, contract); Core $195 (replaces Enterprise Edition), Advanced $395, Max $550 per user/mo billed annually. Free Suite listed at $0 (limits not verified)
 
-No review data yet
+Fit 5/5 (editorial) · sentiment 70 · Fits: Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://fullenrich.com/pricing)
+[G2 4.4/5 · 27,595 reviews · checked 2026-11-23](https://www.g2.com/products/salesforce-sales-cloud/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.salesforce.com/sales/pricing/)
 
 ### [HeyGen](https://www.heygen.com/)
 
@@ -252,9 +238,9 @@ Best value
 
 Free $0; Creator $29/mo; Pro $49/mo; Business $149/mo
 
-Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
+Fit 4/5 (editorial) · sentiment 89 · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-No review data yet
+[G2 4.8/5 · 1,978 reviews · checked 2026-11-23](https://www.g2.com/products/heygen/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.heygen.com/pricing)
 
@@ -274,21 +260,19 @@ Fit 4/5 (editorial) · sentiment 88 · Fits: Small team, Early scaling, Scaling,
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://surfer.ai/pricing/)
 
-### [Circle](https://circle.so/)
+### [FullEnrich](https://try.fullenrich.com/b4d0yq6n1ps4) affiliate
 
-Community
+Enrichment & verification
 
-Value score: 88
+Value score: 87
 
-Best value
+Free trial; Pro 15K credits $720/mo; other credit tiers on page
 
-Professional $89/mo, Business $199/mo, Scale $419/mo (billing period not verified); 14-day free trial, no free plan listed
+Fit 4/5 (editorial) · sentiment 86 · Fits: Small team, Early scaling, Scaling, Large / multi-team
 
-Fit 4/5 (editorial) · Fits: Small team, Early scaling, Scaling, Large / multi-team
+[G2 4.8/5 · 266 reviews · checked 2026-11-23](https://www.g2.com/products/fullenrich/reviews)
 
-No review data yet
-
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://circle.so/pricing)
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://fullenrich.com/pricing)
 
 ### [PostHog](https://posthog.com/)
 
@@ -305,6 +289,22 @@ Fit 4/5 (editorial) · sentiment 75 · Fits: Solo, Small team, Early scaling, Sc
 [G2 4.5/5 · 1,057 reviews · checked 2026-11-23](https://www.g2.com/products/posthog/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://posthog.com/pricing)
+
+### [Circle](https://circle.so/)
+
+Community
+
+Value score: 85
+
+Best value
+
+Professional $89/mo, Business $199/mo, Scale $419/mo (billing period not verified); 14-day free trial, no free plan listed
+
+Fit 4/5 (editorial) · sentiment 74 · Fits: Small team, Early scaling, Scaling, Large / multi-team
+
+[G2 4.5/5 · 564 reviews · checked 2026-11-23](https://www.g2.com/products/circle-so-circle/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://circle.so/pricing)
 
 ### [Google Analytics](https://marketingplatform.google.com/about/analytics/)
 
@@ -360,7 +360,7 @@ Social scheduling
 
 Value score: 83
 
-In our stacks: Small team
+Best valueIn our stacks: Small team
 
 Free: up to 3 channels; Essentials $5/mo per channel and Team $10/mo per channel (billed-yearly view: $60/yr and $120/yr per channel); vendor says annual billing saves 20%, monthly price not captured
 
@@ -406,13 +406,13 @@ Prices as of 2026-11-23, verify with vendor. [Pricing source](https://peec.ai/pr
 
 Outbound email / sequencing
 
-Value score: 72
+Value score: 74
 
 Email volume tiers 'starts from' $59 monthly (lower with annual); LinkedIn add-on $69/mo/acct; higher tiers vary
 
-Fit 4/5 (editorial) · Fits: Small team, Early scaling, Scaling, Large / multi-team
+Fit 4/5 (editorial) · sentiment 80 · Fits: Small team, Early scaling, Scaling, Large / multi-team
 
-No review data yet
+[G2 4.6/5 · 1,572 reviews · checked 2026-11-23](https://www.g2.com/products/reply/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://reply.io/pricing/)
 
@@ -420,15 +420,29 @@ Prices as of 2026-11-23, verify with vendor. [Pricing source](https://reply.io/p
 
 AEO (AI search visibility)
 
-Value score: 69
+Value score: 70
 
 Core $250/mo (125 prompts, 4 LLMs, 5 licenses; third-party reports $300 month-to-month, not verified on vendor page); Enterprise custom (SSO, 9 LLMs, AXP)
 
-Fit 4/5 (editorial) · Fits: Early scaling, Scaling, Large / multi-team
+Fit 4/5 (editorial) · sentiment 74 · Fits: Early scaling, Scaling, Large / multi-team
 
-No review data yet
+[G2 4.6/5 · 74 reviews · checked 2026-11-23](https://www.g2.com/products/scrunch-ai/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://scrunch.com/pricing)
+
+### [lemlist](https://get.lemlist.com/3q3jpladw6up) affiliate
+
+Outbound email / sequencing
+
+Value score: 68
+
+Email $69/mo monthly ($55 annual), 50,000 emails/mo; Multichannel $109/mo ($87 annual)
+
+Fit 4/5 (editorial) · sentiment 80 · Fits: Small team, Early scaling, Scaling, Large / multi-team
+
+[G2 4.6/5 · 2,790 reviews · checked 2026-11-23](https://www.g2.com/products/lemlist/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.lemlist.com/pricing)
 
 ### [Postiz](https://postiz.com/)
 
@@ -446,6 +460,20 @@ Fit 4/5 (editorial) · sentiment 78 · Fits: Solo, Small team, Early scaling, Sc
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://postiz.com/pricing)
 
+### [AthenaHQ](https://www.athenahq.ai/)
+
+AEO (AI search visibility)
+
+Value score: 68
+
+Essential free tier ($25 free credit); Starter $295/mo (3,600 credits, 11 models, billing basis monthly vs annual not verified); Enterprise custom (SAML SSO, RBAC, audit logs)
+
+Fit 4/5 (editorial) · sentiment 78 · Fits: Early scaling, Scaling, Large / multi-team
+
+[G2 4.9/5 · 39 reviews · checked 2026-11-23](https://www.g2.com/products/athenahq/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.athenahq.ai/plans)
+
 ### [Common Room](https://www.commonroom.io/)
 
 Signals, intent & analytics
@@ -462,59 +490,31 @@ Fit 4/5 (editorial) · sentiment 72 · Fits: Large / multi-team
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.commonroom.io/pricing)
 
-### [lemlist](https://get.lemlist.com/3q3jpladw6up) affiliate
-
-Outbound email / sequencing
-
-Value score: 65
-
-Email $69/mo monthly ($55 annual), 50,000 emails/mo; Multichannel $109/mo ($87 annual)
-
-Fit 4/5 (editorial) · Fits: Small team, Early scaling, Scaling, Large / multi-team
-
-No review data yet
-
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.lemlist.com/pricing)
-
 ### [Fathom Analytics](https://usefathom.com/)
 
 Web analytics
 
-Value score: 65
+Value score: 66
 
 From $15/mo (up to 100,000 monthly pageviews); 7-day free trial
 
-Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
+Fit 4/5 (editorial) · sentiment 71 · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-No review data yet
+[G2 4.7/5 · 22 reviews · checked 2026-11-23](https://www.g2.com/products/fathom-analytics/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://usefathom.com/pricing)
-
-### [AthenaHQ](https://www.athenahq.ai/)
-
-AEO (AI search visibility)
-
-Value score: 65
-
-Essential free tier ($25 free credit); Starter $295/mo (3,600 credits, 11 models, billing basis monthly vs annual not verified); Enterprise custom (SAML SSO, RBAC, audit logs)
-
-Fit 4/5 (editorial) · Fits: Early scaling, Scaling, Large / multi-team
-
-No review data yet
-
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.athenahq.ai/plans)
 
 ### [Warmly](https://www.warmly.ai/)
 
 Signals, intent & analytics
 
-Value score: 55
+Value score: 59
 
 AI web de-anonymization from $10,000/yr; Inbound Chat $20,000/yr; AI Inbound Autopilot $30,000/yr; Signals add-on $10,000/yr
 
-Fit 2/5 (editorial) · Fits: Early scaling, Scaling, Large / multi-team
+Fit 2/5 (editorial) · sentiment 73 · Fits: Early scaling, Scaling, Large / multi-team
 
-No review data yet · [See reviews on G2](https://www.g2.com/products/warmly-warmly/reviews)
+[G2 4.5/5 · 250 reviews · checked 2026-11-23](https://www.g2.com/products/warmly-warmly/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.warmly.ai/pricing)
 
@@ -528,9 +528,9 @@ Contact sales
 
 Contact sales
 
-Fit 4/5 (editorial) · Fits: Scaling, Large / multi-team
+Fit 4/5 (editorial) · sentiment 75 · Fits: Scaling, Large / multi-team
 
-No review data yet
+[G2 rating for GTM Workspace powered by ZoomInfo: 4.5/5 · 9,255 reviews · checked 2026-11-23](https://www.g2.com/products/gtm-workspace-powered-by-zoominfo/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.zoominfo.com/pricing)
 
@@ -544,9 +544,9 @@ Contact sales
 
 Contact sales
 
-Fit 4/5 (editorial) · Fits: Scaling, Large / multi-team
+Fit 4/5 (editorial) · sentiment 71 · Fits: Scaling, Large / multi-team
 
-No review data yet
+[G2 4.5/5 · 62 reviews · checked 2026-11-23](https://www.g2.com/products/11x/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.11x.ai/)
 
@@ -576,9 +576,9 @@ Contact sales
 
 Contact sales
 
-Fit 4/5 (editorial) · Fits: Scaling, Large / multi-team
+Fit 4/5 (editorial) · sentiment 94 · Fits: Scaling, Large / multi-team
 
-No review data yet
+[G2 rating for Qualified: 4.9/5 · 1,580 reviews · checked 2026-11-23](https://www.g2.com/products/qualified/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.qualified.com/pricing)
 
@@ -592,9 +592,9 @@ Price not yet verified
 
 Price not captured: vendor pricing page blocked automated fetch — see vendor page
 
-Fit 5/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
+Fit 5/5 (editorial) · sentiment 85 · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-No review data yet
+[G2 4.7/5 · 7,924 reviews · checked 2026-11-23](https://www.g2.com/products/canva/reviews)
 
 Checked 2026-11-02, price could not be verified, verify with vendor. [Pricing source](https://www.canva.com/pricing/)
 
@@ -608,9 +608,9 @@ Contact sales
 
 Contact sales
 
-Fit 4/5 (editorial) · Fits: Scaling, Large / multi-team
+Fit 4/5 (editorial) · sentiment 75 · Fits: Scaling, Large / multi-team
 
-No review data yet
+[G2 4.5/5 · 1,133 reviews · checked 2026-11-23](https://www.g2.com/products/profound/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.tryprofound.com/pricing)
 
@@ -640,9 +640,9 @@ Contact sales
 
 Contact sales
 
-Fit 4/5 (editorial) · Fits: Scaling, Large / multi-team
+Fit 4/5 (editorial) · sentiment 65 · Fits: Scaling, Large / multi-team
 
-No review data yet
+[G2 4.3/5 · 3,676 reviews · checked 2026-11-23](https://www.g2.com/products/outreach/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.outreach.io/pricing)
 
@@ -672,9 +672,9 @@ Contact sales
 
 Contact sales
 
-Fit 3/5 (editorial) · Fits: Scaling, Large / multi-team
+Fit 3/5 (editorial) · sentiment 60 · Fits: Scaling, Large / multi-team
 
-No review data yet
+[G2 rating for 6sense Revenue Marketing: 4.2/5 · 1,594 reviews · checked 2026-11-23](https://www.g2.com/products/6sense-revenue-marketing/reviews)
 
 Prices as of 2026-11-09, verify with vendor. [Pricing source](https://6sense.com/news/6sense-repositions-as-partner-for-agentic-gtm-unveils-new-brand-and-major-product-innovations-at-breakthrough-2026)
 

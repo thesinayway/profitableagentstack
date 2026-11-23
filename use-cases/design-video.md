@@ -21,27 +21,11 @@ Best value
 
 Free $0; Creator $29/mo; Pro $49/mo; Business $149/mo
 
-Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
+Fit 4/5 (editorial) · sentiment 89 · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-No review data yet
+[G2 4.8/5 · 1,978 reviews · checked 2026-11-23](https://www.g2.com/products/heygen/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.heygen.com/pricing)
-
-### [Descript](https://get.descript.com/jpzrxh9lny7z) affiliate
-
-Design & video
-
-Value score: 88
-
-Best value
-
-Free $0; Hobbyist $16/mo yearly ($24 monthly); Creator $24 yearly ($35 monthly); Business $50 yearly ($65 monthly), per person
-
-Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling
-
-No review data yet
-
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.descript.com/pricing)
 
 ### [CapCut](https://www.capcut.com/)
 
@@ -59,6 +43,20 @@ No review data yet
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.capcut.com/pricing)
 
+### [Descript](https://get.descript.com/jpzrxh9lny7z) affiliate
+
+Design & video
+
+Value score: 86
+
+Free $0; Hobbyist $16/mo yearly ($24 monthly); Creator $24 yearly ($35 monthly); Business $50 yearly ($65 monthly), per person
+
+Fit 4/5 (editorial) · sentiment 79 · Fits: Solo, Small team, Early scaling
+
+[G2 4.6/5 · 940 reviews · checked 2026-11-23](https://www.g2.com/products/descript/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.descript.com/pricing)
+
 ### [Canva](https://www.canva.com/)
 
 Design & video
@@ -69,9 +67,9 @@ Price not yet verified
 
 Price not captured: vendor pricing page blocked automated fetch — see vendor page
 
-Fit 5/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
+Fit 5/5 (editorial) · sentiment 85 · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-No review data yet
+[G2 4.7/5 · 7,924 reviews · checked 2026-11-23](https://www.g2.com/products/canva/reviews)
 
 Checked 2026-11-02, price could not be verified, verify with vendor. [Pricing source](https://www.canva.com/pricing/)
 
@@ -83,11 +81,11 @@ HeyGen has the highest value score (88) among tools we list, priced at: Free $0;
 
 ### How much do design & video tools cost?
 
-Published entry prices for listed tools: HeyGen: Free $0; Creator $29/mo; Pro $49/mo; Business $149/mo; Descript: Free $0; Hobbyist $16/mo yearly ($24 monthly); Creator $24 yearly ($35 monthly); Business $50 yearly ($65 monthly), per person; CapCut: Free USD 0; paid plan prices not captured; Canva: Price not captured: vendor pricing page blocked automated fetch — see vendor page. Prices as of 2026-11-23.
+Published entry prices for listed tools: HeyGen: Free $0; Creator $29/mo; Pro $49/mo; Business $149/mo; CapCut: Free USD 0; paid plan prices not captured; Descript: Free $0; Hobbyist $16/mo yearly ($24 monthly); Creator $24 yearly ($35 monthly); Business $50 yearly ($65 monthly), per person; Canva: Price not captured: vendor pricing page blocked automated fetch — see vendor page. Prices as of 2026-11-23.
 
 ### What is the cheapest design & video tool?
 
-By published entry price, HeyGen and Descript and CapCut start free. Free plans and entry tiers have limits, so check them against your volume. List prices as of 2026-11-23; verify with the vendor.
+By published entry price, HeyGen and CapCut and Descript start free. Free plans and entry tiers have limits, so check them against your volume. List prices as of 2026-11-23; verify with the vendor.
 
 ---
 Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/use-cases/design-video

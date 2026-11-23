@@ -63,13 +63,13 @@ Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.common
 
 Signals, intent & analytics
 
-Value score: 55
+Value score: 59
 
 AI web de-anonymization from $10,000/yr; Inbound Chat $20,000/yr; AI Inbound Autopilot $30,000/yr; Signals add-on $10,000/yr
 
-Fit 2/5 (editorial) · Fits: Early scaling, Scaling, Large / multi-team
+Fit 2/5 (editorial) · sentiment 73 · Fits: Early scaling, Scaling, Large / multi-team
 
-No review data yet · [See reviews on G2](https://www.g2.com/products/warmly-warmly/reviews)
+[G2 4.5/5 · 250 reviews · checked 2026-11-23](https://www.g2.com/products/warmly-warmly/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.warmly.ai/pricing)
 

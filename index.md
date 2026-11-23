@@ -69,7 +69,7 @@ Best value: Surfer](https://profitableagentstack.com/use-cases/content-optimizat
 
 Best value: Peec AI](https://profitableagentstack.com/use-cases/aeo)[### Social scheduling
 
-Best value: Typefully](https://profitableagentstack.com/use-cases/social-scheduling)[### Landing pages & websites
+Best value: Buffer](https://profitableagentstack.com/use-cases/social-scheduling)[### Landing pages & websites
 
 Best value: Framer](https://profitableagentstack.com/use-cases/landing-pages)[### Newsletters
 

@@ -39,7 +39,7 @@ Operated by The Sinay Way LLC (Limor Sinay). Scores are use-case fit, published 
 - [Search performance](https://profitableagentstack.com/use-cases/search-performance.md): best value Google Search Console; lowest entry price Google Search Console, Ahrefs Free (free)
 - [Content optimization](https://profitableagentstack.com/use-cases/content-optimization.md): best value Surfer; lowest entry price Surfer ($49/mo)
 - [AEO (AI search visibility)](https://profitableagentstack.com/use-cases/aeo.md): best value Peec AI; lowest entry price Peec AI ($95/mo)
-- [Social scheduling](https://profitableagentstack.com/use-cases/social-scheduling.md): best value Typefully; lowest entry price Buffer, Typefully (free)
+- [Social scheduling](https://profitableagentstack.com/use-cases/social-scheduling.md): best value Buffer; lowest entry price Buffer, Typefully (free)
 - [Landing pages & websites](https://profitableagentstack.com/use-cases/landing-pages.md): best value Framer; lowest entry price Carrd, Framer, Webflow (free)
 - [Newsletters](https://profitableagentstack.com/use-cases/newsletters.md): best value beehiiv; lowest entry price beehiiv, Kit (free)
 - [Design & video](https://profitableagentstack.com/use-cases/design-video.md): best value HeyGen; lowest entry price HeyGen, Descript, CapCut (free)

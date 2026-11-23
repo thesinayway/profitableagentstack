@@ -7,21 +7,21 @@ license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" a
 
 # What is the best value tool for community?
 
-Circle has the highest value score (88) among tools we list, priced at: Professional $89/mo, Business $199/mo, Scale $419/mo (billing period not verified); 14-day free trial, no free plan listed. Verify with the vendor.
+Circle has the highest value score (85) among tools we list, priced at: Professional $89/mo, Business $199/mo, Scale $419/mo (billing period not verified); 14-day free trial, no free plan listed. Verify with the vendor.
 
 ### [Circle](https://circle.so/)
 
 Community
 
-Value score: 88
+Value score: 85
 
 Best value
 
 Professional $89/mo, Business $199/mo, Scale $419/mo (billing period not verified); 14-day free trial, no free plan listed
 
-Fit 4/5 (editorial) · Fits: Small team, Early scaling, Scaling, Large / multi-team
+Fit 4/5 (editorial) · sentiment 74 · Fits: Small team, Early scaling, Scaling, Large / multi-team
 
-No review data yet
+[G2 4.5/5 · 564 reviews · checked 2026-11-23](https://www.g2.com/products/circle-so-circle/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://circle.so/pricing)
 
@@ -45,7 +45,7 @@ Checked 2026-11-02, price could not be verified, verify with vendor. [Pricing so
 
 ### What is the best value tool for community?
 
-Circle has the highest value score (88) among tools we list, priced at: Professional $89/mo, Business $199/mo, Scale $419/mo (billing period not verified); 14-day free trial, no free plan listed. Verify with the vendor.
+Circle has the highest value score (85) among tools we list, priced at: Professional $89/mo, Business $199/mo, Scale $419/mo (billing period not verified); 14-day free trial, no free plan listed. Verify with the vendor.
 
 ### How much do community tools cost?
 

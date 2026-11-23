@@ -34,8 +34,8 @@
   "link_is_affiliate": false,
   "fit_score": 5,
   "cost_score": 100,
-  "sentiment_score": null,
-  "value_score": 100,
+  "sentiment_score": 70,
+  "value_score": 94,
   "best_value_in_use_case": true,
   "in_recommended_stacks": [],
   "crm_pick_for": [
@@ -46,8 +46,15 @@
   ],
   "page_url": "https://profitableagentstack.com/use-cases/crm#hubspot-sales-hub",
   "reviews_url": "https://www.g2.com/products/hubspot-sales-hub/reviews",
-  "review_status": "no review data yet",
-  "reviews": null,
+  "review_status": "verified",
+  "reviews": {
+   "source": "G2",
+   "rating": 4.4,
+   "review_count": 14410,
+   "url": "https://www.g2.com/products/hubspot-sales-hub/reviews",
+   "date_checked": "2026-11-23",
+   "url_is_product": true
+  },
   "note": "2026-11-23: pricing page renders prices client-side; last verified prices kept from 2026-11-10"
  }
 }

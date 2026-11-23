@@ -29,13 +29,13 @@ Prices as of 2026-11-23, verify with vendor. [Pricing source](https://marketingp
 
 Web analytics
 
-Value score: 74
+Value score: 73
 
 Starter $9/mo (up to 10k pageviews; monthly vs yearly billing view not verified), Growth $14/mo, Business $19/mo; 30-day free trial, no free plan
 
-Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling
+Fit 4/5 (editorial) · sentiment 69 · Fits: Solo, Small team, Early scaling
 
-No review data yet
+[G2 4.9/5 · 8 reviews · checked 2026-11-23](https://www.g2.com/products/plausible-analytics/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://plausible.io/)
 
@@ -43,13 +43,13 @@ Prices as of 2026-11-23, verify with vendor. [Pricing source](https://plausible.
 
 Web analytics
 
-Value score: 65
+Value score: 66
 
 From $15/mo (up to 100,000 monthly pageviews); 7-day free trial
 
-Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
+Fit 4/5 (editorial) · sentiment 71 · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-No review data yet
+[G2 4.7/5 · 22 reviews · checked 2026-11-23](https://www.g2.com/products/fathom-analytics/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://usefathom.com/pricing)
 

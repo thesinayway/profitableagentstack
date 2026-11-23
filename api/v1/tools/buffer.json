@@ -36,7 +36,7 @@
   "cost_score": 100,
   "sentiment_score": 65,
   "value_score": 83,
-  "best_value_in_use_case": false,
+  "best_value_in_use_case": true,
   "in_recommended_stacks": [
    "small"
   ],

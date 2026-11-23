@@ -29,13 +29,13 @@ Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.apollo
 
 List building & lead data
 
-Value score: 88
+Value score: 83
 
 Free $10 credits/mo; Search from $4 per 1k requests (usage-based)
 
-Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling
+Fit 4/5 (editorial) · sentiment 67 · Fits: Solo, Small team, Early scaling
 
-No review data yet
+[G2 4.4/5 · 23 reviews · checked 2026-11-23](https://www.g2.com/products/exa/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://exa.ai/pricing)
 
@@ -49,9 +49,9 @@ Contact sales
 
 Contact sales
 
-Fit 4/5 (editorial) · Fits: Scaling, Large / multi-team
+Fit 4/5 (editorial) · sentiment 75 · Fits: Scaling, Large / multi-team
 
-No review data yet
+[G2 rating for GTM Workspace powered by ZoomInfo: 4.5/5 · 9,255 reviews · checked 2026-11-23](https://www.g2.com/products/gtm-workspace-powered-by-zoominfo/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.zoominfo.com/pricing)
 

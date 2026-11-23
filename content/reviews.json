@@ -508,6 +508,1156 @@
       "date_checked": "2026-11-23",
       "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: 4.5 (269) https://www.capterra.com/p/136159/Webflow/reviews/. Note: G2 search top-link text was 'Ferret' but webflow card link is the product.",
       "batch": "batch2.json"
+    },
+    "hubspot-sales-hub": {
+      "id": "hubspot-sales-hub",
+      "name": "HubSpot Sales Hub",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/hubspot-sales-hub/reviews",
+      "url_is_product": true,
+      "rating": 4.4,
+      "review_count": 14410,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: 4.5 (506) (search card; HubSpot Sales Hub)",
+      "batch": "batch3.json"
+    },
+    "salesforce-sales-cloud": {
+      "id": "salesforce-sales-cloud",
+      "name": "Salesforce Sales Cloud",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/salesforce-sales-cloud/reviews",
+      "url_is_product": true,
+      "rating": 4.4,
+      "review_count": 27595,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: 4.4 (19,024) (search card)",
+      "batch": "batch3.json"
+    },
+    "exa": {
+      "id": "exa",
+      "name": "Exa",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/exa/reviews",
+      "url_is_product": true,
+      "rating": 4.4,
+      "review_count": 23,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Ambiguity: G2 'Exa' by Exa (23 reviews; vendor also lists 'Exa Websets', 5.0 (1)); assumed to be exa.ai but not independently confirmed; other 'EXA' products (EXA AG, Exa Corporation) are unrelated. Capterra: no matching listing found in search",
+      "batch": "batch3.json"
+    },
+    "fullenrich": {
+      "id": "fullenrich",
+      "name": "FullEnrich",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/fullenrich/reviews",
+      "url_is_product": true,
+      "rating": 4.8,
+      "review_count": 266,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: no matching listing found in search",
+      "batch": "batch3.json"
+    },
+    "heygen": {
+      "id": "heygen",
+      "name": "HeyGen",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/heygen/reviews",
+      "url_is_product": true,
+      "rating": 4.8,
+      "review_count": 1978,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: 4.7 (320) (search card)",
+      "batch": "batch3.json"
+    },
+    "ahrefs-free": {
+      "id": "ahrefs-free",
+      "name": "Ahrefs Free",
+      "source": "g2",
+      "source_label": "G2 rating for Ahrefs",
+      "url": "https://www.g2.com/products/ahrefs/reviews",
+      "url_is_product": true,
+      "rating": 4.5,
+      "review_count": 725,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Ambiguity: G2 lists the main 'Ahrefs' product (SEO Tools); no separate Ahrefs Webmaster Tools listing seen, so main Ahrefs listing used. Capterra: 4.7 (585) https://www.capterra.com/p/176340/Ahrefs/ (main Ahrefs)",
+      "batch": "batch3.json"
+    },
+    "typefully": {
+      "id": "typefully",
+      "name": "Typefully",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/typefully/reviews",
+      "url_is_product": true,
+      "rating": 0.5,
+      "review_count": 1,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. G2 card shows 0.5/5 from 1 review (as displayed). Capterra: listing exists https://www.capterra.com/p/10015231/Typefully/ but rating/count not shown on search card; product page hit a security check, not retrieved",
+      "batch": "batch3.json"
+    },
+    "kit": {
+      "id": "kit",
+      "name": "Kit",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/convertkit-kit/reviews",
+      "url_is_product": true,
+      "rating": 4.3,
+      "review_count": 237,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. G2 listing 'Kit (formerly ConvertKit)'. Capterra: no matching listing found in search for 'Kit ConvertKit' or 'ConvertKit'",
+      "batch": "batch3.json"
+    },
+    "descript": {
+      "id": "descript",
+      "name": "Descript",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/descript/reviews",
+      "url_is_product": true,
+      "rating": 4.6,
+      "review_count": 940,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: 4.6 (183) https://www.capterra.com/p/230702/Descript/",
+      "batch": "batch3.json"
+    },
+    "capcut": {
+      "id": "capcut",
+      "name": "CapCut",
+      "source": "g2",
+      "source_label": "G2",
+      "url": null,
+      "url_is_product": false,
+      "rating": null,
+      "review_count": null,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "No G2 listing for CapCut found in G2 search results. Capterra: no matching listing found in search",
+      "batch": "batch3.json"
+    },
+    "circle": {
+      "id": "circle",
+      "name": "Circle",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/circle-so-circle/reviews",
+      "url_is_product": true,
+      "rating": 4.5,
+      "review_count": 564,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. G2 card 'Circle' by Circle.so; a different G2 'Circle' (4.2, 12 reviews) also exists and was not used. Capterra: no Circle.so listing found; Capterra 'Circle' /p/175338 is XMPie Circle (unrelated)",
+      "batch": "batch3.json"
+    },
+    "unify": {
+      "id": "unify",
+      "name": "Unify",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/unifygtm/reviews",
+      "url_is_product": true,
+      "rating": null,
+      "review_count": 0,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 listing 'UnifyGTM' exists but card shows 0/5 with 0 reviews (rating recorded as null, no reviews). Other Unify products (UnifyCRM 4.4 (4), UnifyMe, UnifyML) are unrelated. G2 product page 403 from this network. Capterra: no matching listing found in search",
+      "batch": "batch3.json"
+    },
+    "attio": {
+      "id": "attio",
+      "name": "Attio",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/attio/reviews",
+      "url_is_product": true,
+      "rating": 4.3,
+      "review_count": 599,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: 3.8 (8) https://www.capterra.com/p/259360/Attio/",
+      "batch": "batch3.json"
+    },
+    "zoho-crm": {
+      "id": "zoho-crm",
+      "name": "Zoho CRM",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/zoho-crm/reviews",
+      "url_is_product": true,
+      "rating": 4.1,
+      "review_count": 2964,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: 4.3 (7,010) https://www.capterra.com/p/155928/Zoho-CRM/",
+      "batch": "batch3.json"
+    },
+    "bigin-by-zoho": {
+      "id": "bigin-by-zoho",
+      "name": "Bigin by Zoho",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/bigin-by-zoho-crm/reviews",
+      "url_is_product": true,
+      "rating": 4.6,
+      "review_count": 877,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: 4.7 (745) https://www.capterra.com/p/204998/Bigin-by-Zoho-CRM/",
+      "batch": "batch3.json"
+    },
+    "close": {
+      "id": "close",
+      "name": "Close",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/close/reviews",
+      "url_is_product": true,
+      "rating": 4.7,
+      "review_count": 2169,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Matched 'Close' by Close in results for 'close.com'; similarly named CloseBot/CloseCore/CloserCoach are different. Capterra: no matching listing found in search",
+      "batch": "batch3.json"
+    },
+    "pipedrive": {
+      "id": "pipedrive",
+      "name": "Pipedrive",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/pipedrive/reviews",
+      "url_is_product": true,
+      "rating": 4.3,
+      "review_count": 5131,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Other Pipedrive G2 listings (Dealbot 4.3 (14), CRM for G Suite 4.3 (49)) not used. Capterra: 4.5 (3,064) https://www.capterra.com/p/132666/Pipedrive/",
+      "batch": "batch3.json"
+    },
+    "salesforge": {
+      "id": "salesforge",
+      "name": "Salesforge",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/salesforge/reviews",
+      "url_is_product": true,
+      "rating": 4.6,
+      "review_count": 173,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Different G2 'SalesForge CRM' by DevSamurai (0 reviews) not used. Capterra: 4.6 (10) https://www.capterra.com/p/10015810/Salesforge/",
+      "batch": "batch3.json"
+    },
+    "otterly-ai": {
+      "id": "otterly-ai",
+      "name": "Otterly.AI",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/otterlyai/reviews",
+      "url_is_product": true,
+      "rating": 4.7,
+      "review_count": 53,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: listing exists https://www.capterra.com/p/10023384/Otterly-AI/ but rating/count not reliably read; not recorded",
+      "batch": "batch3.json"
+    },
+    "regie-ai": {
+      "id": "regie-ai",
+      "name": "Regie.ai",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/regie-ai/reviews",
+      "url_is_product": true,
+      "rating": 4.4,
+      "review_count": 355,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Ambiguity: a second G2 slug 'regie-ai-regie-ai' appeared in results; first card 'Regie.ai' used. Capterra: 4.0 (13) https://www.capterra.com/p/218262/REGIE/",
+      "batch": "batch3.json"
+    },
+    "plausible": {
+      "id": "plausible",
+      "name": "Plausible",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/plausible-analytics/reviews",
+      "url_is_product": true,
+      "rating": 4.9,
+      "review_count": 8,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: 4.6 (8) card 'Plausible Analytics'; likely https://www.capterra.com/p/187430/Plausible-Insights/ (link not confirmed to match card)",
+      "batch": "batch3.json"
+    },
+    "reply-io": {
+      "id": "reply-io",
+      "name": "Reply.io",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/reply/reviews",
+      "url_is_product": true,
+      "rating": 4.6,
+      "review_count": 1572,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. G2 card 'Reply' by Reply.io. Capterra: no matching listing found in search",
+      "batch": "batch3.json"
+    },
+    "swan-ai": {
+      "id": "swan-ai",
+      "name": "Swan AI",
+      "source": "g2",
+      "source_label": "G2",
+      "url": null,
+      "url_is_product": false,
+      "rating": null,
+      "review_count": null,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "Only G2 'Swan AI' result is by Loyalytics Consulting (4.6, 21 reviews), which does not appear to be the same product as Swan AI (swan.ai); treated as no G2 listing. Capterra: no matching listing found (only unrelated 'Swan Retail System')",
+      "batch": "batch3.json"
+    },
+    "origami": {
+      "id": "origami",
+      "name": "Origami",
+      "source": "g2",
+      "source_label": "G2",
+      "url": null,
+      "url_is_product": false,
+      "rating": null,
+      "review_count": null,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "No G2 listing clearly matching Origami Agents; several unrelated G2 'Origami' products exist (OwnLocal, Origami CRM, etc.). Capterra: no matching listing found in search",
+      "batch": "batch3.json"
+    },
+    "rox": {
+      "id": "rox",
+      "name": "Rox",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/rox-ai-agent-swarm/reviews",
+      "url_is_product": true,
+      "rating": null,
+      "review_count": 0,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "Ambiguity: G2 'Rox AI Agent Swarm' by Rox appears to be rox.com but card shows 0/5 with 0 reviews (rating null); not confirmed. Other Rox products (Rox Teddy, RoxyBrowser) unrelated. Capterra: no matching listing found in search",
+      "batch": "batch3.json"
+    },
+    "scrunch": {
+      "id": "scrunch",
+      "name": "Scrunch",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/scrunch-ai/reviews",
+      "url_is_product": true,
+      "rating": 4.6,
+      "review_count": 74,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra not checked (optional). Card: Scrunch AI (AI Search Visibility Optimization, by Sitecore per G2 card).",
+      "batch": "batch4.json"
+    },
+    "folk": {
+      "id": "folk",
+      "name": "folk",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/folk-folk/reviews",
+      "url_is_product": true,
+      "rating": 4.5,
+      "review_count": 347,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra not checked (optional). Card: folk (CRM). Also a different 'Folk Solution' (IT company) listing, ignored.",
+      "batch": "batch4.json"
+    },
+    "copper": {
+      "id": "copper",
+      "name": "Copper",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/copper/reviews",
+      "url_is_product": true,
+      "rating": 4.5,
+      "review_count": 1158,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra not checked (optional). Card: Copper CRM (card shows 1,158; 'closest match' blurb showed 1,126).",
+      "batch": "batch4.json"
+    },
+    "lemlist": {
+      "id": "lemlist",
+      "name": "lemlist",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/lemlist/reviews",
+      "url_is_product": true,
+      "rating": 4.6,
+      "review_count": 2790,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra not checked (optional). Card: lemlist (Sales Engagement).",
+      "batch": "batch4.json"
+    },
+    "expandi": {
+      "id": "expandi",
+      "name": "Expandi",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/expandi-io/reviews",
+      "url_is_product": true,
+      "rating": 4.3,
+      "review_count": 195,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra not checked (optional). Card: Expandi.io (Lead Capture category; LinkedIn automation).",
+      "batch": "batch4.json"
+    },
+    "fathom-analytics": {
+      "id": "fathom-analytics",
+      "name": "Fathom Analytics",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/fathom-analytics/reviews",
+      "url_is_product": true,
+      "rating": 4.7,
+      "review_count": 22,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra not checked (optional). Card: Fathom Analytics seller/product (analytics, not Fathom AI notetaker). Vendor site not confirmed from card.",
+      "batch": "batch4.json"
+    },
+    "athenahq": {
+      "id": "athenahq",
+      "name": "AthenaHQ",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/athenahq/reviews",
+      "url_is_product": true,
+      "rating": 4.9,
+      "review_count": 39,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra not checked (optional). Card: AthenaHQ (AEO).",
+      "batch": "batch4.json"
+    },
+    "warmly": {
+      "id": "warmly",
+      "name": "Warmly",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/warmly-warmly/reviews",
+      "url_is_product": true,
+      "rating": 4.5,
+      "review_count": 250,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra not checked (optional). Card: Warmly (lead intent platform). Separate 'AI Nametags by Warmly' (4.1, 6) ignored.",
+      "batch": "batch4.json"
+    },
+    "amplemarket": {
+      "id": "amplemarket",
+      "name": "Amplemarket",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/amplemarket/reviews",
+      "url_is_product": true,
+      "rating": 4.6,
+      "review_count": 720,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra not checked (optional). Card: Amplemarket.",
+      "batch": "batch4.json"
+    },
+    "lightfield": {
+      "id": "lightfield",
+      "name": "Lightfield",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/lightfield/reviews",
+      "url_is_product": true,
+      "rating": 5.0,
+      "review_count": 12,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra not checked (optional). Card: Lightfield (agentic CRM; launched Nov 2025).",
+      "batch": "batch4.json"
+    },
+    "woodpecker": {
+      "id": "woodpecker",
+      "name": "Woodpecker",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/woodpecker-co-woodpecker-co/reviews",
+      "url_is_product": true,
+      "rating": 4.4,
+      "review_count": 104,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra not checked (optional). Card: Woodpecker.co; card format showed '4.4 (104 reviews)'.",
+      "batch": "batch4.json"
+    },
+    "zoominfo": {
+      "id": "zoominfo",
+      "name": "ZoomInfo",
+      "source": "g2",
+      "source_label": "G2 rating for GTM Workspace powered by ZoomInfo",
+      "url": "https://www.g2.com/products/gtm-workspace-powered-by-zoominfo/reviews",
+      "url_is_product": true,
+      "rating": 4.5,
+      "review_count": 9255,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra not checked (optional). No product named 'ZoomInfo SalesOS' on search; closest/top ZoomInfo card is 'GTM Workspace powered by ZoomInfo' (likely rebrand of ZoomInfo Sales/SalesOS - not confirmed). Other ZoomInfo cards: GTM Studio 4.5 (3,518), Talent 4.5 (124).",
+      "batch": "batch4.json"
+    },
+    "clearout": {
+      "id": "clearout",
+      "name": "Clearout",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/clearout-io/reviews",
+      "url_is_product": true,
+      "rating": 4.6,
+      "review_count": 616,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra not checked (optional). Card: Clearout (clearout-io). Separate Clearout Phone listing ignored.",
+      "batch": "batch4.json"
+    },
+    "11x": {
+      "id": "11x",
+      "name": "11x",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/11x/reviews",
+      "url_is_product": true,
+      "rating": 4.5,
+      "review_count": 62,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra not checked (optional). Card: 11x (name match; vendor site not shown on card).",
+      "batch": "batch4.json"
+    },
+    "qualified": {
+      "id": "qualified",
+      "name": "Qualified",
+      "source": "g2",
+      "source_label": "G2 rating for Qualified",
+      "url": "https://www.g2.com/products/qualified/reviews",
+      "url_is_product": true,
+      "rating": 4.9,
+      "review_count": 1580,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra not checked (optional). Card: Qualified (main listing; no separate Piper AI SDR listing seen).",
+      "batch": "batch4.json"
+    },
+    "canva": {
+      "id": "canva",
+      "name": "Canva",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/canva/reviews",
+      "url_is_product": true,
+      "rating": 4.7,
+      "review_count": 7924,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra not checked (optional). Card: Canva.",
+      "batch": "batch4.json"
+    },
+    "discord": {
+      "id": "discord",
+      "name": "Discord",
+      "source": "g2",
+      "source_label": "G2",
+      "url": null,
+      "url_is_product": false,
+      "rating": null,
+      "review_count": null,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra not checked (optional). No dedicated Discord listing found in G2 search results (only third-party Discord bots/tools e.g. Textaify for Discord); recorded null.",
+      "batch": "batch4.json"
+    },
+    "profound": {
+      "id": "profound",
+      "name": "Profound",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/profound/reviews",
+      "url_is_product": true,
+      "rating": 4.5,
+      "review_count": 1133,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra not checked (optional). Card: Profound (AI search visibility). Other 'Profound' listings with 0 reviews ignored.",
+      "batch": "batch4.json"
+    },
+    "outreach": {
+      "id": "outreach",
+      "name": "Outreach",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/outreach/reviews",
+      "url_is_product": true,
+      "rating": 4.3,
+      "review_count": 3676,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra not checked (optional). Card: Outreach.",
+      "batch": "batch4.json"
+    },
+    "aisdr": {
+      "id": "aisdr",
+      "name": "AiSDR",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/aisdr-inc-aisdr/reviews",
+      "url_is_product": true,
+      "rating": 4.6,
+      "review_count": 106,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra not checked (optional). Card: AiSDR by AiSDR Inc.",
+      "batch": "batch4.json"
+    },
+    "microsoft-sales-development-agent": {
+      "id": "microsoft-sales-development-agent",
+      "name": "Microsoft Sales Development Agent",
+      "source": "g2",
+      "source_label": "G2",
+      "url": null,
+      "url_is_product": false,
+      "rating": null,
+      "review_count": null,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra not checked (optional). No dedicated Sales Development Agent listing on G2 search. Closest: Dynamics 365 Sales 3.8 (1,624) at /products/dynamics-365-sales/reviews; recorded null per instructions.",
+      "batch": "batch4.json"
+    },
+    "nooks": {
+      "id": "nooks",
+      "name": "Nooks",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/nooks/reviews",
+      "url_is_product": true,
+      "rating": 4.8,
+      "review_count": 1726,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra not checked (optional). Card: Nooks (name match; vendor site not shown on card).",
+      "batch": "batch4.json"
+    },
+    "6sense-bdr-agent": {
+      "id": "6sense-bdr-agent",
+      "name": "6sense BDR Agent",
+      "source": "g2",
+      "source_label": "G2 rating for 6sense Revenue Marketing",
+      "url": "https://www.g2.com/products/6sense-revenue-marketing/reviews",
+      "url_is_product": true,
+      "rating": 4.2,
+      "review_count": 1594,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra not checked (optional). No dedicated BDR Agent listing; used main 6sense Revenue Marketing card (ABM/ABX platform). Seller total 4.1 (2,753); 6sense Sales Intelligence 4.0 (1,159).",
+      "batch": "batch4.json"
+    },
+    "day-ai": {
+      "id": "day-ai",
+      "name": "Day AI",
+      "source": "g2",
+      "source_label": "G2",
+      "url": null,
+      "url_is_product": false,
+      "rating": null,
+      "review_count": null,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra not checked (optional). Could not confirm a G2 listing for Day AI (day.ai); searches returned unrelated products (Daydrm AI, Daylite). Recorded null.",
+      "batch": "batch4.json"
+    },
+    "apollo-built-in-crm": {
+      "id": "apollo-built-in-crm",
+      "name": "Apollo (built-in CRM)",
+      "source": "g2",
+      "source_label": "G2 rating for Apollo (same product listing)",
+      "url": "https://www.g2.com/products/apollo-io/reviews",
+      "url_is_product": true,
+      "rating": 4.7,
+      "review_count": 9864,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product/reviews page returned HTTP 403 'Access is temporarily restricted' (no captcha offered; retried). Rating/count taken from G2 public search-results card; segment data not shown there. Capterra: 4.5 (399) https://www.capterra.com/p/158696/Apollo/reviews/; no aggregate size breakdown (only per-review). Apollo (built-in CRM) reuses Apollo's G2 rating and review count because they share the same G2 product listing.",
+      "batch": "batch1.json + apollo-crm-reuse"
     }
   },
   "checked": "2026-11-23"

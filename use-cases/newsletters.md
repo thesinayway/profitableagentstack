@@ -31,13 +31,13 @@ Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.beehii
 
 Newsletters
 
-Value score: 88
+Value score: 83
 
 Free $0 (up to 10,000 subscribers); Creator $39/mo billed monthly ($33/mo billed yearly, $390/yr, last seen 2026-11-16); Pro $79/mo billed monthly (yearly billing saves 17%). Black Friday offer to Dec 1: 50% off monthly Creator for the first 3 months
 
-Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling
+Fit 4/5 (editorial) · sentiment 65 · Fits: Solo, Small team, Early scaling
 
-No review data yet
+[G2 4.3/5 · 237 reviews · checked 2026-11-23](https://www.g2.com/products/convertkit-kit/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://kit.com/pricing)
 

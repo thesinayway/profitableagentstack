@@ -31,13 +31,13 @@ Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.clay.c
 
 Enrichment & verification
 
-Value score: 88
+Value score: 87
 
 Free trial; Pro 15K credits $720/mo; other credit tiers on page
 
-Fit 4/5 (editorial) · Fits: Small team, Early scaling, Scaling, Large / multi-team
+Fit 4/5 (editorial) · sentiment 86 · Fits: Small team, Early scaling, Scaling, Large / multi-team
 
-No review data yet
+[G2 4.8/5 · 266 reviews · checked 2026-11-23](https://www.g2.com/products/fullenrich/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://fullenrich.com/pricing)
 
@@ -67,9 +67,9 @@ Price not yet verified
 
 Price not captured automatically (page renders prices client-side); vendor FAQ mentions 100 free credits to evaluate and monthly, annual and pay-as-you-go options — see vendor page
 
-Fit 3/5 (editorial) · Fits: Solo, Small team, Early scaling
+Fit 3/5 (editorial) · sentiment 79 · Fits: Solo, Small team, Early scaling
 
-No review data yet
+[G2 4.6/5 · 616 reviews · checked 2026-11-23](https://www.g2.com/products/clearout-io/reviews)
 
 Checked 2026-11-02, price could not be verified, verify with vendor. [Pricing source](https://clearout.io/pricing/)
 

@@ -262,11 +262,16 @@ Operated by The Sinay Way LLC (Limor Sinay). Scores are use-case fit, published 
 - [Legacy dataset]({SITE}/api/tools.json)
 '''
 open('llms.txt','w').write(L)
+def _revline(r):
+  if not r: return '- Reviews: no review data yet\n'
+  n=r['review_count']; word='review' if n==1 else 'reviews'
+  sep=': ' if str(r.get('source') or '').startswith('G2 rating for') else ' '
+  return f'- Reviews: {r["source"]}{sep}{r["rating"]}/5 from {n:,} {word}, checked {r["date_checked"]}'+(f' ({r["url"]})' if r.get('url') else '')+'\n'
 def _toolblock(x):
   return (f'### {x["name"]}\n- Use case: {x["use_case_name"]} ({x["use_case"]})\n- Fits GTM team sizes: {", ".join(ST[s]["name"]+" ("+ST[s]["size"]+")" for s in x["team_sizes"])}\n'
    f'- Price: {x["price_text"]}'+(f' (entry {x["currency"]} {x["price_from_monthly"]:g}/mo)' if x['price_from_monthly'] is not None else '')+f'\n- Last verified: {x["last_verified"]}{"" if x["price_verified"] else " (price could not be verified)"}\n- Pricing source: {x["pricing_source_url"]}\n'
    f'- Scores: fit {x["fit_score"]}/5 (editorial), cost {x["cost_score"] if x["cost_score"] is not None else "n/a"}, sentiment {x["sentiment_score"] if x.get("sentiment_score") is not None else "no review data yet"}, value {x["value_score"] if x["value_score"] is not None else "n/a"}'+(' (best value in its use case)' if x['best_value_in_use_case'] else '')+'\n'
-   +(f'- Reviews: {x["reviews"]["source"]} {x["reviews"]["rating"]}/5 from {x["reviews"]["review_count"]:,} reviews, checked {x["reviews"]["date_checked"]}'+(f' ({x["reviews"]["url"]})' if x["reviews"].get("url") else '')+'\n' if x.get("reviews") else '- Reviews: no review data yet\n')
+   +_revline(x.get('reviews'))
    +(f'- In our recommended stacks: {", ".join(ST[s]["name"] for s in x["in_recommended_stacks"])}\n' if x['in_recommended_stacks'] else '')+(f'- CRM pick for: {", ".join(ST[s]["name"] for s in x["crm_pick_for"])}\n' if x['crm_pick_for'] else '')
    +f'- Page: {x["page_url"]}\n')
 _body=lambda u:_re.sub(r'^---\n.*?\n---\n\n','',MDPAGES.get(u,''),count=1,flags=_re.S).rsplit('\n---\n',1)[0]

@@ -9,6 +9,8 @@ license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" a
 
 Updated 2026-11-23. The latest AI GTM tool releases and price changes we have logged, newest first, each with a source link.
 
+**2026-11-23** — Scoring: verified G2 ratings now cover 64 of 72 listed tools (batches 1-4, checked 2026-11-23). Eight tools still have no dated G2 rating and stay labeled "no review data yet." Typefully's public G2 card is 0.5/5 from 1 review and is included with the usual Bayesian shrink. Apollo (built-in CRM) reuses Apollo's G2 listing, noted on the card. [Source](https://profitableagentstack.com/methodology)
+
 **2026-11-23** — Scoring: verified G2 ratings now feed the 20% sentiment part of the value score for all 22 tools in the recommended stacks. Sentiment is a Bayesian average (prior 4.3, weight 50 reviews) mapped from 3.0-5.0 to 0-100. Tools without a dated G2 check keep the 62.5/37.5 fit/cost reweight and are labeled "no review data yet." Full math is on the methodology page. [Source](https://profitableagentstack.com/methodology)
 
 **2026-11-23** — New this week: Reply.io (listed) released Jason Harness (Nov 20), a free, open-source (MIT) AI SDR harness that runs inside Claude Code or Codex as nine roles (planner, researcher, copywriter, critic and more). Reply sends the emails and LinkedIn messages and a person approves every send. In alpha; uses your own AI subscription, Reply plans still paid. [Source](https://www.einpresswire.com/article/957995784/reply-io-launches-open-source-jason-harness-for-outbound-sales)

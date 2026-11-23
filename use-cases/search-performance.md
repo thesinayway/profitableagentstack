@@ -29,13 +29,13 @@ Prices as of 2026-11-23, verify with vendor. [Pricing source](https://support.go
 
 Search performance
 
-Value score: 88
+Value score: 85
 
 Free: site audit and SEO metrics for websites you verify (formerly Ahrefs Webmaster Tools); paid plans not captured
 
-Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling
+Fit 4/5 (editorial) · sentiment 74 · Fits: Solo, Small team, Early scaling
 
-No review data yet
+[G2 rating for Ahrefs: 4.5/5 · 725 reviews · checked 2026-11-23](https://www.g2.com/products/ahrefs/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://ahrefs.com/webmaster-tools)
 

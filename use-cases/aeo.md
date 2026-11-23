@@ -33,9 +33,9 @@ Value score: 75
 
 Lite €29/mo (16 prompts, 2,000 credits, 4 of 7 engines); Standard €189/mo (120 prompts, 15,000 credits); Premium €489/mo (403 prompts); Enterprise custom (SSO). Page showed EUR to our checker and says prices are in USD or EUR; Claude uses 3 credits per answer
 
-Fit 3/5 (editorial) · Fits: Early scaling, Scaling
+Fit 3/5 (editorial) · sentiment 75 · Fits: Early scaling, Scaling
 
-No review data yet
+[G2 4.7/5 · 53 reviews · checked 2026-11-23](https://www.g2.com/products/otterlyai/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://otterly.ai/pricing)
 
@@ -43,13 +43,13 @@ Prices as of 2026-11-23, verify with vendor. [Pricing source](https://otterly.ai
 
 AEO (AI search visibility)
 
-Value score: 69
+Value score: 70
 
 Core $250/mo (125 prompts, 4 LLMs, 5 licenses; third-party reports $300 month-to-month, not verified on vendor page); Enterprise custom (SSO, 9 LLMs, AXP)
 
-Fit 4/5 (editorial) · Fits: Early scaling, Scaling, Large / multi-team
+Fit 4/5 (editorial) · sentiment 74 · Fits: Early scaling, Scaling, Large / multi-team
 
-No review data yet
+[G2 4.6/5 · 74 reviews · checked 2026-11-23](https://www.g2.com/products/scrunch-ai/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://scrunch.com/pricing)
 
@@ -57,13 +57,13 @@ Prices as of 2026-11-23, verify with vendor. [Pricing source](https://scrunch.co
 
 AEO (AI search visibility)
 
-Value score: 65
+Value score: 68
 
 Essential free tier ($25 free credit); Starter $295/mo (3,600 credits, 11 models, billing basis monthly vs annual not verified); Enterprise custom (SAML SSO, RBAC, audit logs)
 
-Fit 4/5 (editorial) · Fits: Early scaling, Scaling, Large / multi-team
+Fit 4/5 (editorial) · sentiment 78 · Fits: Early scaling, Scaling, Large / multi-team
 
-No review data yet
+[G2 4.9/5 · 39 reviews · checked 2026-11-23](https://www.g2.com/products/athenahq/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.athenahq.ai/plans)
 
@@ -77,9 +77,9 @@ Contact sales
 
 Contact sales
 
-Fit 4/5 (editorial) · Fits: Scaling, Large / multi-team
+Fit 4/5 (editorial) · sentiment 75 · Fits: Scaling, Large / multi-team
 
-No review data yet
+[G2 4.5/5 · 1,133 reviews · checked 2026-11-23](https://www.g2.com/products/profound/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.tryprofound.com/pricing)
 

@@ -32,14 +32,21 @@
   "link_is_affiliate": true,
   "fit_score": 3,
   "cost_score": null,
-  "sentiment_score": null,
+  "sentiment_score": 68,
   "value_score": null,
   "best_value_in_use_case": false,
   "in_recommended_stacks": [],
   "crm_pick_for": [],
   "page_url": "https://profitableagentstack.com/use-cases/outbound-email#woodpecker",
-  "reviews_url": "https://www.g2.com/search?query=Woodpecker",
-  "review_status": "no review data yet",
-  "reviews": null
+  "reviews_url": "https://www.g2.com/products/woodpecker-co-woodpecker-co/reviews",
+  "review_status": "verified",
+  "reviews": {
+   "source": "G2",
+   "rating": 4.4,
+   "review_count": 104,
+   "url": "https://www.g2.com/products/woodpecker-co-woodpecker-co/reviews",
+   "date_checked": "2026-11-23",
+   "url_is_product": true
+  }
  }
 }

@@ -12,6 +12,14 @@ SENT_PRIOR=4.3; SENT_M=50
 SENT_LO,SENT_HI=3.0,5.0  # map 3.0->0, 5.0->100, clipped
 SEGMENT_FOR_SIZE={'solo':'small','small':'small','early':'mid','scaling':'mid','large':'enterprise'}
 REVIEW_ALIASES={'artisan (ai sdr)':'artisan','surfer (surferseo)':'surfer','surfer seo':'surfer'}
+# Proxy listings: show the rating, but label the actual G2 card (names taken from the batch notes).
+PROXY_LABELS={
+  'zoominfo':'G2 rating for GTM Workspace powered by ZoomInfo',
+  '6sense-bdr-agent':'G2 rating for 6sense Revenue Marketing',
+  'qualified':'G2 rating for Qualified',
+  'ahrefs-free':'G2 rating for Ahrefs',
+  'apollo-built-in-crm':'G2 rating for Apollo (same product listing)',
+}
 BATCH_DIR='/workspace/pas-ops/reviews'; REVIEWS_CANON='content/reviews.json'
 def _is_product_url(url):
   return bool(url) and '/products/' in url and '/search?' not in url
@@ -20,10 +28,13 @@ def _url_uncertain(rec):
 def _tid_from_batch_name(name, valid):
   key=name.strip().lower()
   if key in REVIEW_ALIASES: return REVIEW_ALIASES[key]
+  if key in valid: return key
   s=_slug(name)
   if s in valid: return s
   s=_slug(_re.sub(r'\s*\([^)]*\)\s*',' ',name))
   return s if s in valid else None
+def _label_for(tid, default='G2'):
+  return PROXY_LABELS.get(tid, default)
 def merge_reviews():
   valid={_slug(t['name']):t['name'] for t in D['tools']}
   canon={'prior':SENT_PRIOR,'prior_weight':SENT_M,'rating_map':'3.0->0, 5.0->100, clipped','tools':{}}
@@ -36,11 +47,19 @@ def merge_reviews():
         tid=_tid_from_batch_name(rec.get('tool',''),valid)
         if not tid:
           unmatched.append((os.path.basename(path),rec.get('tool')));continue
-        url=rec.get('url'); product=_is_product_url(url) and not _url_uncertain(rec)
-        if not product:
+        url=rec.get('url') or None
+        uncertain=_url_uncertain(rec)
+        product=_is_product_url(url) and not uncertain
+        # Only fall back to a G2 search URL when we have a rating but no confirmed product page (e.g. Artisan).
+        # Tools with rating null and no URL stay without a link (no listing found).
+        if rec.get('rating') is not None and not product:
           q='Artisan+AI+SDR' if tid=='artisan' else valid[tid].replace(' ','+')
-          url=f'https://www.g2.com/search?query={q}'
-        entry={'id':tid,'name':valid[tid],'source':'g2','source_label':'G2','url':url,'url_is_product':bool(product),
+          url=url or f'https://www.g2.com/search?query={q}'
+          if uncertain:
+            q='Artisan+AI+SDR' if tid=='artisan' else valid[tid].replace(' ','+')
+            url=f'https://www.g2.com/search?query={q}'
+            product=False
+        entry={'id':tid,'name':valid[tid],'source':'g2','source_label':_label_for(tid),'url':url,'url_is_product':bool(product),
                'rating':rec.get('rating'),'review_count':rec.get('review_count'),
                'segment_pct':rec.get('segment_pct') or {'small':None,'mid':None,'enterprise':None},
                'segment_rating':rec.get('segment_rating') or {'small':None,'mid':None,'enterprise':None},
@@ -49,6 +68,21 @@ def merge_reviews():
         if old and old.get('date_checked') and entry.get('date_checked') and old['date_checked']>entry['date_checked']:
           continue
         canon['tools'][tid]=entry
+  # Apollo (built-in CRM) shares Apollo's G2 product listing; reuse rating/count and say so.
+  if 'apollo' in canon['tools'] and 'apollo-built-in-crm' in valid:
+    src=canon['tools']['apollo']
+    if src.get('rating') is not None:
+      crm=dict(src)
+      crm['id']='apollo-built-in-crm'
+      crm['name']=valid['apollo-built-in-crm']
+      crm['source_label']=_label_for('apollo-built-in-crm')
+      extra="Apollo (built-in CRM) reuses Apollo's G2 rating and review count because they share the same G2 product listing."
+      notes=src.get('notes') or ''
+      crm['notes']=(notes+' ' if notes else '')+extra
+      crm['batch']=src.get('batch','')+' + apollo-crm-reuse'
+      old=canon['tools'].get('apollo-built-in-crm')
+      if not (old and old.get('date_checked') and crm.get('date_checked') and old['date_checked']>crm['date_checked']):
+        canon['tools']['apollo-built-in-crm']=crm
   dates=[x['date_checked'] for x in canon['tools'].values() if x.get('date_checked')]
   canon['checked']=max(dates) if dates else C
   os.makedirs(os.path.dirname(REVIEWS_CANON) or '.',exist_ok=True)
@@ -154,7 +188,10 @@ def review_html(t):
   r=t.get('reviews') or {}; url=r.get('g2_url') or ''
   if t.get('has_review_data') and r.get('g2_rating') is not None:
     n=r['g2_review_count']; ntxt=f'{n:,} review'+('' if n==1 else 's')
-    label=f"G2 {r['g2_rating']}/5 · {ntxt} · checked {r.get('date_checked')}"
+    src=r.get('source') or 'G2'
+    label=(f"{src}: {r['g2_rating']}/5 · {ntxt} · checked {r.get('date_checked')}"
+           if src.startswith('G2 rating for') else
+           f"{src} {r['g2_rating']}/5 · {ntxt} · checked {r.get('date_checked')}")
     if r.get('url_is_product') and url:
       return f'<a href="{e(url)}" rel="nofollow noopener" target="_blank">{e(label)}</a>'
     if url:
@@ -168,7 +205,10 @@ def review_md(t):
   r=t.get('reviews') or {}; url=r.get('g2_url') or ''
   if t.get('has_review_data') and r.get('g2_rating') is not None:
     n=r['g2_review_count']; ntxt=f'{n:,} review'+('' if n==1 else 's')
-    label=f"G2 {r['g2_rating']}/5 · {ntxt} · checked {r.get('date_checked')}"
+    src=r.get('source') or 'G2'
+    label=(f"{src}: {r['g2_rating']}/5 · {ntxt} · checked {r.get('date_checked')}"
+           if src.startswith('G2 rating for') else
+           f"{src} {r['g2_rating']}/5 · {ntxt} · checked {r.get('date_checked')}")
     if r.get('url_is_product') and url: return f'[{label}]({url})'
     if url: return f'{label} ([G2 search]({url}); product page not confirmed)'
     return label

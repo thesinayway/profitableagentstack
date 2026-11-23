@@ -1912,6 +1912,11 @@
   "releases": [
     {
       "date": "2026-11-23",
+      "text": "Scoring: verified G2 ratings now cover 64 of 72 listed tools (batches 1-4, checked 2026-11-23). Eight tools still have no dated G2 rating and stay labeled \"no review data yet.\" Typefully's public G2 card is 0.5/5 from 1 review and is included with the usual Bayesian shrink. Apollo (built-in CRM) reuses Apollo's G2 listing, noted on the card.",
+      "source": "https://profitableagentstack.com/methodology"
+    },
+    {
+      "date": "2026-11-23",
       "text": "Scoring: verified G2 ratings now feed the 20% sentiment part of the value score for all 22 tools in the recommended stacks. Sentiment is a Bayesian average (prior 4.3, weight 50 reviews) mapped from 3.0-5.0 to 0-100. Tools without a dated G2 check keep the 62.5/37.5 fit/cost reweight and are labeled \"no review data yet.\" Full math is on the methodology page.",
       "source": "https://profitableagentstack.com/methodology"
     },
@@ -2249,7 +2254,7 @@
           "Buffer",
           "Free (up to 3 channels)",
           0,
-          "Free for up to 3 channels. Typefully is a free alternative and currently has the higher value score (88 vs Buffer 83) because Buffer's verified G2 rating is in the score and Typefully has no review data yet.",
+          "Free for up to 3 channels; best value score in its category. Typefully is a free alternative.",
           ""
         ],
         [

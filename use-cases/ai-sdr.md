@@ -29,13 +29,13 @@ Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.unifyg
 
 AI SDR / agentic SDR
 
-Value score: 75
+Value score: 74
 
 Free (250 one-time credits per person, up to 10 people); Pro $49/mo for one person; Team $150/seat/mo with a 2-seat minimum; Enterprise custom (monthly billing view)
 
-Fit 3/5 (editorial) · Fits: Solo, Small team, Early scaling
+Fit 3/5 (editorial) · sentiment 69 · Fits: Solo, Small team, Early scaling
 
-No review data yet · [See reviews on G2](https://www.g2.com/products/regie-ai/reviews)
+[G2 4.4/5 · 355 reviews · checked 2026-11-23](https://www.g2.com/products/regie-ai/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.regie.ai/pricing)
 
@@ -85,13 +85,13 @@ Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.rox.co
 
 AI SDR / agentic SDR
 
-Value score: 52
+Value score: 58
 
 Startup $600/mo on an annual term with 2 users and 27,000 contacts; Growth and Elite custom
 
-Fit 3/5 (editorial) · Fits: Early scaling, Scaling
+Fit 3/5 (editorial) · sentiment 79 · Fits: Early scaling, Scaling
 
-No review data yet · [See reviews on G2](https://www.g2.com/products/amplemarket/reviews)
+[G2 4.6/5 · 720 reviews · checked 2026-11-23](https://www.g2.com/products/amplemarket/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.amplemarket.com/pricing)
 
@@ -105,9 +105,9 @@ Contact sales
 
 Contact sales
 
-Fit 4/5 (editorial) · Fits: Scaling, Large / multi-team
+Fit 4/5 (editorial) · sentiment 71 · Fits: Scaling, Large / multi-team
 
-No review data yet
+[G2 4.5/5 · 62 reviews · checked 2026-11-23](https://www.g2.com/products/11x/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.11x.ai/)
 
@@ -137,9 +137,9 @@ Contact sales
 
 Contact sales
 
-Fit 4/5 (editorial) · Fits: Scaling, Large / multi-team
+Fit 4/5 (editorial) · sentiment 94 · Fits: Scaling, Large / multi-team
 
-No review data yet
+[G2 rating for Qualified: 4.9/5 · 1,580 reviews · checked 2026-11-23](https://www.g2.com/products/qualified/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.qualified.com/pricing)
 
@@ -151,9 +151,9 @@ Value score: —
 
 Pay as you go: $1.50 per person prospected, no monthly subscription minimum (100 prospects = $150). Free account and campaign building; extras like warmed mailboxes and managed campaigns cost more
 
-Fit 3/5 (editorial) · Fits: Solo, Small team, Early scaling
+Fit 3/5 (editorial) · sentiment 75 · Fits: Solo, Small team, Early scaling
 
-No review data yet · [See reviews on G2](https://www.g2.com/products/aisdr-inc-aisdr/reviews)
+[G2 4.6/5 · 106 reviews · checked 2026-11-23](https://www.g2.com/products/aisdr-inc-aisdr/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://aisdr.com/pricing/)
 
@@ -183,9 +183,9 @@ Contact sales
 
 Contact sales
 
-Fit 3/5 (editorial) · Fits: Early scaling, Scaling
+Fit 3/5 (editorial) · sentiment 89 · Fits: Early scaling, Scaling
 
-No review data yet
+[G2 4.8/5 · 1,726 reviews · checked 2026-11-23](https://www.g2.com/products/nooks/reviews)
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.nooks.ai/pricing)
 
@@ -199,9 +199,9 @@ Contact sales
 
 Contact sales
 
-Fit 3/5 (editorial) · Fits: Scaling, Large / multi-team
+Fit 3/5 (editorial) · sentiment 60 · Fits: Scaling, Large / multi-team
 
-No review data yet
+[G2 rating for 6sense Revenue Marketing: 4.2/5 · 1,594 reviews · checked 2026-11-23](https://www.g2.com/products/6sense-revenue-marketing/reviews)
 
 Prices as of 2026-11-09, verify with vendor. [Pricing source](https://6sense.com/news/6sense-repositions-as-partner-for-agentic-gtm-unveils-new-brand-and-major-product-innovations-at-breakthrough-2026)
 
