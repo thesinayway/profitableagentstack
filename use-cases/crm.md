@@ -48,7 +48,9 @@ Free CRM for up to 2 users; Starter $20/seat/mo list (new-customer limited-time 
 
 Fit 5/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-10, verify with vendor. [Pricing source](https://www.hubspot.com/pricing/sales) · [See reviews on G2](https://www.g2.com/products/hubspot-sales-hub/reviews)
+No review data yet · [See reviews on G2](https://www.g2.com/products/hubspot-sales-hub/reviews)
+
+Prices as of 2026-11-10, verify with vendor. [Pricing source](https://www.hubspot.com/pricing/sales)
 
 ### [Salesforce Sales Cloud](https://www.salesforce.com/sales/)
 
@@ -62,7 +64,9 @@ Starter Suite $25/user/mo (billed monthly or annually); Pro Suite $100 (billed a
 
 Fit 5/5 (editorial) · Fits: Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.salesforce.com/sales/pricing/) · [See reviews on G2](https://www.g2.com/products/salesforce-salesforce-sales-cloud/reviews)
+No review data yet · [See reviews on G2](https://www.g2.com/products/salesforce-salesforce-sales-cloud/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.salesforce.com/sales/pricing/)
 
 ### [Attio](https://attio.com/)
 
@@ -74,7 +78,9 @@ Free for up to 3 users (50,000 records); Plus $40/mo per workspace billed annual
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://attio.com/pricing) · [See reviews on G2](https://www.g2.com/products/attio/reviews)
+No review data yet · [See reviews on G2](https://www.g2.com/products/attio/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://attio.com/pricing)
 
 ### [Zoho CRM](https://www.zoho.com/crm/)
 
@@ -86,7 +92,9 @@ Free for 3 users; Standard $14, Professional $23, Enterprise $40 per user/mo bil
 
 Fit 4/5 (editorial) · Fits: Small team, Early scaling, Scaling
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.zoho.com/crm/zohocrm-pricing.html) · [See reviews on G2](https://www.g2.com/products/zoho-crm/reviews)
+No review data yet · [See reviews on G2](https://www.g2.com/products/zoho-crm/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.zoho.com/crm/zohocrm-pricing.html)
 
 ### [Bigin by Zoho](https://www.bigin.com/)
 
@@ -98,7 +106,9 @@ Free for 1 user (500 records); Express $7/user/mo billed yearly ($9 monthly); Pr
 
 Fit 4/5 (editorial) · Fits: Solo, Small team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.bigin.com/pricing.html) · [See reviews on G2](https://www.g2.com/products/bigin-by-zoho-crm/reviews)
+No review data yet · [See reviews on G2](https://www.g2.com/products/bigin-by-zoho-crm/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.bigin.com/pricing.html)
 
 ### [Close](https://www.close.com/)
 
@@ -110,7 +120,9 @@ No free plan (14-day trial). Solo $9/mo (1 user), Essentials $35, Growth $99, Sc
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.close.com/pricing) · [See reviews on G2](https://www.g2.com/products/close/reviews)
+No review data yet · [See reviews on G2](https://www.g2.com/products/close/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.close.com/pricing)
 
 ### [Pipedrive](https://www.pipedrive.com/)
 
@@ -122,7 +134,9 @@ No free plan (14-day trial). Lite $14, Growth $39, Premium $59, Ultimate $79 per
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.pipedrive.com/en/pricing) · [See reviews on G2](https://www.g2.com/products/pipedrive/reviews)
+No review data yet · [See reviews on G2](https://www.g2.com/products/pipedrive/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.pipedrive.com/en/pricing)
 
 ### [Apollo (built-in CRM)](https://www.apollo.io/)
 
@@ -134,7 +148,9 @@ Free plan includes lead management; deal management starts on Basic $49/seat/mo 
 
 Fit 3/5 (editorial) · Fits: Solo, Small team
 
-Prices as of 2026-11-10, verify with vendor. [Pricing source](https://www.apollo.io/pricing) · [See reviews on G2](https://www.g2.com/products/apollo-io/reviews)
+No review data yet · [See reviews on G2](https://www.g2.com/products/apollo-io/reviews)
+
+Prices as of 2026-11-10, verify with vendor. [Pricing source](https://www.apollo.io/pricing)
 
 ### [folk](https://www.folk.app/)
 
@@ -146,7 +162,9 @@ Standard $24, Premium $48 per member/mo billed yearly ($30, $60 monthly); Enterp
 
 Fit 3/5 (editorial) · Fits: Solo, Small team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.folk.app/pricing) · [See reviews on G2](https://www.g2.com/products/folk-folk/reviews)
+No review data yet · [See reviews on G2](https://www.g2.com/products/folk-folk/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.folk.app/pricing)
 
 ### [Copper](https://www.copper.com/)
 
@@ -158,7 +176,9 @@ Basic $23, Professional $59, Business $99 per seat/mo paid annually; monthly $29
 
 Fit 3/5 (editorial) · Fits: Solo, Small team, Early scaling
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.copper.com/pricing) · [See reviews on G2](https://www.g2.com/products/copper/reviews)
+No review data yet · [See reviews on G2](https://www.g2.com/products/copper/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.copper.com/pricing)
 
 ### [Lightfield](https://lightfield.app/)
 
@@ -170,7 +190,9 @@ Starter $89/user/mo billed monthly (up to 3 seats); Pro $999/mo per workspace bi
 
 Fit 3/5 (editorial) · Fits: Solo, Small team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://lightfield.app/pricing) · [See reviews on G2](https://www.g2.com/search?query=Lightfield)
+No review data yet
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://lightfield.app/pricing)
 
 ### [Day AI](https://day.ai/)
 
@@ -184,7 +206,9 @@ Priced per AI agent, not per seat: each workspace needs at least one Professiona
 
 Fit 3/5 (editorial) · Fits: Solo, Small team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://day.ai/pricing) · [See reviews on G2](https://www.g2.com/search?query=Day+AI)
+No review data yet
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://day.ai/pricing)
 
 ## FAQ
 

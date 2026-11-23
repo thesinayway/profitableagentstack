@@ -104,10 +104,23 @@
     "early"
    ],
    "reviews": {
-    "g2_rating": null,
-    "g2_review_count": null,
-    "g2_url": "https://www.g2.com/search?query=Smartlead",
-    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+    "g2_rating": 4.4,
+    "g2_review_count": 478,
+    "g2_url": "https://www.g2.com/products/smartlead/reviews",
+    "note": "G2 product/reviews page returned HTTP 403 'Access is temporarily restricted' (no captcha offered; retried). Rating/count taken from G2 public search-results card; segment data not shown there. Capterra: 3.9 (8) https://www.capterra.com/p/254912/Smartlead/reviews/",
+    "url_is_product": true,
+    "date_checked": "2026-11-23",
+    "source": "G2",
+    "segment_pct": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    },
+    "segment_rating": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    }
    },
    "logo": "/assets/logos/smartlead.ai.png",
    "homepage_url": "https://www.smartlead.ai/",
@@ -115,7 +128,9 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 100,
-   "value_score": 88
+   "sentiment_score": 70,
+   "has_review_data": true,
+   "value_score": 84
   },
   {
    "name": "Instantly",
@@ -133,10 +148,23 @@
     "large"
    ],
    "reviews": {
-    "g2_rating": null,
-    "g2_review_count": null,
-    "g2_url": "https://www.g2.com/search?query=Instantly",
-    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+    "g2_rating": 4.8,
+    "g2_review_count": 4167,
+    "g2_url": "https://www.g2.com/products/instantly/reviews",
+    "note": "G2 product/reviews page returned HTTP 403 'Access is temporarily restricted' (no captcha offered; retried). Rating/count taken from G2 public search-results card; segment data not shown there. Capterra listing found but rating/URL not captured.",
+    "url_is_product": true,
+    "date_checked": "2026-11-23",
+    "source": "G2",
+    "segment_pct": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    },
+    "segment_rating": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    }
    },
    "logo": "/assets/logos/instantly.ai.png",
    "homepage_url": "https://instantly.ai/",
@@ -144,7 +172,9 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 84,
-   "value_score": 94
+   "sentiment_score": 90,
+   "has_review_data": true,
+   "value_score": 93
   },
   {
    "name": "Salesforge",
@@ -163,7 +193,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Salesforge",
-    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown",
+    "url_is_product": false
    },
    "logo": "/assets/logos/salesforge.ai.png",
    "homepage_url": "https://www.salesforge.ai/",
@@ -171,6 +202,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 82,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 81
   },
   {
@@ -191,7 +224,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=lemlist",
-    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown",
+    "url_is_product": false
    },
    "logo": "/assets/logos/lemlist.com.png",
    "homepage_url": "https://www.lemlist.com/",
@@ -199,6 +233,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 40,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 65
   },
   {
@@ -219,7 +255,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Reply.io",
-    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown",
+    "url_is_product": false
    },
    "logo": "/assets/logos/reply.io.png",
    "homepage_url": "https://reply.io/",
@@ -227,6 +264,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 60,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 72
   },
   {
@@ -246,7 +285,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Woodpecker",
-    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown",
+    "url_is_product": false
    },
    "logo": "/assets/logos/woodpecker.co.png",
    "homepage_url": "https://woodpecker.co/",
@@ -254,6 +294,8 @@
    "checked": "2026-11-02",
    "price_verified": false,
    "cost_score": null,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": null
   },
   {
@@ -272,10 +314,23 @@
     "large"
    ],
    "reviews": {
-    "g2_rating": null,
-    "g2_review_count": null,
+    "g2_rating": 4.7,
+    "g2_review_count": 9864,
     "g2_url": "https://www.g2.com/products/apollo-io/reviews",
-    "note": "Numeric G2 rating not shown (fetch limits). G2 reviewer company size, 2026-11-05: 67.0% small-business, 28.4% mid-market (51-1,000 employees), 4.6% enterprise (>1,000), of 9,858 reviews."
+    "note": "G2 product/reviews page returned HTTP 403 'Access is temporarily restricted' (no captcha offered; retried). Rating/count taken from G2 public search-results card; segment data not shown there. Capterra: 4.5 (399) https://www.capterra.com/p/158696/Apollo/reviews/; no aggregate size breakdown (only per-review).",
+    "url_is_product": true,
+    "date_checked": "2026-11-23",
+    "source": "G2",
+    "segment_pct": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    },
+    "segment_rating": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    }
    },
    "logo": "/assets/logos/apollo.io.png",
    "homepage_url": "https://www.apollo.io/",
@@ -284,7 +339,9 @@
    "price_verified": true,
    "note": "2026-11-23: plan prices no longer render in the page HTML (page JSON-LD lists Basic $49 and Professional $99 without a billing basis; FAQ now lists Free, Basic, Professional and Custom, not Organization). Last verified prices kept from 2026-11-16",
    "cost_score": 100,
-   "value_score": 100
+   "sentiment_score": 85,
+   "has_review_data": true,
+   "value_score": 97
   },
   {
    "name": "Exa",
@@ -303,7 +360,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Exa",
-    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown",
+    "url_is_product": false
    },
    "logo": "/assets/logos/exa.ai.png",
    "homepage_url": "https://exa.ai/",
@@ -311,6 +369,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 100,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 88
   },
   {
@@ -329,7 +389,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=ZoomInfo",
-    "note": "Numeric G2 rating not shown (fetch limits). G2 reviewer company size, 2026-11-05: 25.8% small-business, 48.1% mid-market, 26.1% enterprise, of 8,728 reviews (ZoomInfo Sales)."
+    "note": "Numeric G2 rating not shown (fetch limits). G2 reviewer company size, 2026-11-05: 25.8% small-business, 48.1% mid-market, 26.1% enterprise, of 8,728 reviews (ZoomInfo Sales).",
+    "url_is_product": false
    },
    "logo": "/assets/logos/zoominfo.com.png",
    "homepage_url": "https://www.zoominfo.com/",
@@ -337,6 +398,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": null,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": null
   },
   {
@@ -354,10 +417,23 @@
     "large"
    ],
    "reviews": {
-    "g2_rating": null,
-    "g2_review_count": null,
+    "g2_rating": 4.6,
+    "g2_review_count": 234,
     "g2_url": "https://www.g2.com/products/clay-com-clay/reviews",
-    "note": "Numeric G2 rating not shown (fetch limits). G2 reviewer company size, 2026-11-05: 73.8% small-business, 24.8% mid-market, 1.4% enterprise, of 234 reviews."
+    "note": "G2 product/reviews page returned HTTP 403 'Access is temporarily restricted' (no captcha offered; retried). Rating/count taken from G2 public search-results card; segment data not shown there. Capterra: https://www.capterra.com/p/10001919/CLay/reviews/ (rating not captured).",
+    "url_is_product": true,
+    "date_checked": "2026-11-23",
+    "source": "G2",
+    "segment_pct": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    },
+    "segment_rating": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    }
    },
    "logo": "/assets/logos/clay.com.png",
    "homepage_url": "https://www.clay.com/",
@@ -365,7 +441,9 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 100,
-   "value_score": 100
+   "sentiment_score": 77,
+   "has_review_data": true,
+   "value_score": 95
   },
   {
    "name": "Hunter",
@@ -383,10 +461,23 @@
     "large"
    ],
    "reviews": {
-    "g2_rating": null,
-    "g2_review_count": null,
+    "g2_rating": 4.4,
+    "g2_review_count": 660,
     "g2_url": "https://www.g2.com/products/hunter/reviews",
-    "note": "Numeric G2 rating not shown (fetch limits). G2 reviewers on 2026-11-05: 659 reviews, 31.9% mid-market (51-1,000 employees) per G2 comparison page."
+    "note": "G2 product/reviews page returned HTTP 403 'Access is temporarily restricted' (no captcha offered; retried). Rating/count taken from G2 public search-results card; segment data not shown there. Capterra: 4.6 (714) https://www.capterra.com/p/161625/Hunter/reviews/",
+    "url_is_product": true,
+    "date_checked": "2026-11-23",
+    "source": "G2",
+    "segment_pct": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    },
+    "segment_rating": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    }
    },
    "logo": "/assets/logos/hunter.io.png",
    "homepage_url": "https://hunter.io/",
@@ -394,7 +485,9 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 100,
-   "value_score": 88
+   "sentiment_score": 70,
+   "has_review_data": true,
+   "value_score": 84
   },
   {
    "name": "FullEnrich",
@@ -414,7 +507,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=FullEnrich",
-    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown",
+    "url_is_product": false
    },
    "logo": "/assets/logos/fullenrich.com.png",
    "homepage_url": "https://fullenrich.com/",
@@ -422,6 +516,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 100,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 88
   },
   {
@@ -441,7 +537,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Clearout",
-    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown",
+    "url_is_product": false
    },
    "logo": "/assets/logos/clearout.io.png",
    "homepage_url": "https://clearout.io/",
@@ -449,6 +546,8 @@
    "checked": "2026-11-02",
    "price_verified": false,
    "cost_score": null,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": null
   },
   {
@@ -466,10 +565,23 @@
     "large"
    ],
    "reviews": {
-    "g2_rating": null,
-    "g2_review_count": null,
-    "g2_url": "https://www.g2.com/search?query=HeyReach",
-    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+    "g2_rating": 4.6,
+    "g2_review_count": 74,
+    "g2_url": "https://www.g2.com/products/heyreach/reviews",
+    "note": "G2 product/reviews page returned HTTP 403 'Access is temporarily restricted' (no captcha offered; retried). Rating/count taken from G2 public search-results card; segment data not shown there. Capterra: 5.0 (2), URL not captured.",
+    "url_is_product": true,
+    "date_checked": "2026-11-23",
+    "source": "G2",
+    "segment_pct": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    },
+    "segment_rating": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    }
    },
    "logo": "/assets/logos/heyreach.io.png",
    "homepage_url": "https://www.heyreach.io/",
@@ -477,7 +589,9 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 55,
-   "value_score": 83
+   "sentiment_score": 74,
+   "has_review_data": true,
+   "value_score": 81
   },
   {
    "name": "Expandi",
@@ -496,7 +610,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Expandi",
-    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown",
+    "url_is_product": false
    },
    "logo": "/assets/logos/expandi.io.png",
    "homepage_url": "https://expandi.io/",
@@ -504,6 +619,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 40,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 65
   },
   {
@@ -520,10 +637,23 @@
     "early"
    ],
    "reviews": {
-    "g2_rating": null,
-    "g2_review_count": null,
-    "g2_url": "https://www.g2.com/search?query=Waalaxy",
-    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+    "g2_rating": 4.5,
+    "g2_review_count": 1747,
+    "g2_url": "https://www.g2.com/products/waalaxy/reviews",
+    "note": "G2 product/reviews page returned HTTP 403 'Access is temporarily restricted' (no captcha offered; retried). Rating/count taken from G2 public search-results card; segment data not shown there. G2 seller total shows 1,749 incl. Podawaa. Capterra: 4.4 (253) https://www.capterra.com/p/230606/Waalaxy/reviews/",
+    "url_is_product": true,
+    "date_checked": "2026-11-23",
+    "source": "G2",
+    "segment_pct": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    },
+    "segment_rating": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    }
    },
    "logo": "/assets/logos/waalaxy.com.png",
    "homepage_url": "https://www.waalaxy.com/",
@@ -531,7 +661,9 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 100,
-   "value_score": 88
+   "sentiment_score": 75,
+   "has_review_data": true,
+   "value_score": 85
   },
   {
    "name": "11x",
@@ -549,7 +681,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=11x",
-    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown",
+    "url_is_product": false
    },
    "logo": "/assets/logos/11x.ai.png",
    "homepage_url": "https://www.11x.ai/",
@@ -557,6 +690,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": null,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": null
   },
   {
@@ -574,10 +709,23 @@
     "large"
    ],
    "reviews": {
-    "g2_rating": null,
-    "g2_review_count": null,
-    "g2_url": "https://www.g2.com/search?query=Artisan",
-    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+    "g2_rating": 4.3,
+    "g2_review_count": 70,
+    "g2_url": "https://www.g2.com/search?query=Artisan+AI+SDR",
+    "note": "G2 product/reviews page returned HTTP 403 'Access is temporarily restricted' (no captcha offered; retried). Rating/count taken from G2 public search-results card; segment data not shown there. Slug artisan vs artisan-artisan: AI SDRs category card is 4.3 (70); slug not confirmed.",
+    "url_is_product": false,
+    "date_checked": "2026-11-23",
+    "source": "G2",
+    "segment_pct": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    },
+    "segment_rating": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    }
    },
    "logo": "/assets/logos/artisan.co.png",
    "homepage_url": "https://www.artisan.co/",
@@ -585,6 +733,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": null,
+   "sentiment_score": 65,
+   "has_review_data": true,
    "value_score": null
   },
   {
@@ -603,7 +753,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Qualified",
-    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown",
+    "url_is_product": false
    },
    "logo": "/assets/logos/qualified.com.png",
    "homepage_url": "https://www.qualified.com/",
@@ -611,6 +762,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": null,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": null
   },
   {
@@ -629,10 +782,23 @@
     "large"
    ],
    "reviews": {
-    "g2_rating": null,
-    "g2_review_count": null,
-    "g2_url": "https://www.g2.com/search?query=Postiz",
-    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+    "g2_rating": 4.8,
+    "g2_review_count": 51,
+    "g2_url": "https://www.g2.com/products/postiz/reviews",
+    "note": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: 5.0 (1) https://www.capterra.com/p/10024237/Postiz/",
+    "url_is_product": true,
+    "date_checked": "2026-11-23",
+    "source": "G2",
+    "segment_pct": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    },
+    "segment_rating": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    }
    },
    "logo": "/assets/logos/postiz.com.png",
    "homepage_url": "https://postiz.com/",
@@ -640,7 +806,9 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 40,
-   "value_score": 65
+   "sentiment_score": 78,
+   "has_review_data": true,
+   "value_score": 68
   },
   {
    "name": "HeyGen",
@@ -661,7 +829,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=HeyGen",
-    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown",
+    "url_is_product": false
    },
    "logo": "/assets/logos/heygen.com.png",
    "homepage_url": "https://www.heygen.com/",
@@ -669,6 +838,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 100,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 88
   },
   {
@@ -686,10 +857,23 @@
     "scaling"
    ],
    "reviews": {
-    "g2_rating": null,
-    "g2_review_count": null,
-    "g2_url": "https://www.g2.com/search?query=RB2B",
-    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+    "g2_rating": 4.5,
+    "g2_review_count": 285,
+    "g2_url": "https://www.g2.com/products/rb2b/reviews",
+    "note": "G2 product/reviews page returned HTTP 403 'Access is temporarily restricted' (no captcha offered; retried). Rating/count taken from G2 public search-results card; segment data not shown there. Capterra: 1.0 (1), URL not captured.",
+    "url_is_product": true,
+    "date_checked": "2026-11-23",
+    "source": "G2",
+    "segment_pct": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    },
+    "segment_rating": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    }
    },
    "logo": "/assets/logos/rb2b.com.png",
    "homepage_url": "https://www.rb2b.com/",
@@ -697,7 +881,9 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 100,
-   "value_score": 88
+   "sentiment_score": 74,
+   "has_review_data": true,
+   "value_score": 85
   },
   {
    "name": "PostHog",
@@ -715,10 +901,23 @@
     "large"
    ],
    "reviews": {
-    "g2_rating": null,
-    "g2_review_count": null,
-    "g2_url": "https://www.g2.com/search?query=PostHog",
-    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+    "g2_rating": 4.5,
+    "g2_review_count": 1057,
+    "g2_url": "https://www.g2.com/products/posthog/reviews",
+    "note": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: search returned no PostHog listing (only unrelated MakePostAI) - null.",
+    "url_is_product": true,
+    "date_checked": "2026-11-23",
+    "source": "G2",
+    "segment_pct": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    },
+    "segment_rating": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    }
    },
    "logo": "/assets/logos/posthog.com.png",
    "homepage_url": "https://posthog.com/",
@@ -726,7 +925,9 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 100,
-   "value_score": 88
+   "sentiment_score": 75,
+   "has_review_data": true,
+   "value_score": 85
   },
   {
    "name": "Common Room",
@@ -740,10 +941,23 @@
     "large"
    ],
    "reviews": {
-    "g2_rating": null,
-    "g2_review_count": null,
-    "g2_url": "https://www.g2.com/search?query=Common+Room",
-    "note": "G2/Capterra blocked automated fetch on 2026-10-26; rating not shown"
+    "g2_rating": 4.5,
+    "g2_review_count": 141,
+    "g2_url": "https://www.g2.com/products/common-room/reviews",
+    "note": "G2 product/reviews page returned HTTP 403 'Access is temporarily restricted' (no captcha offered; retried). Rating/count taken from G2 public search-results card; segment data not shown there. Capterra listing exists, no rating shown.",
+    "url_is_product": true,
+    "date_checked": "2026-11-23",
+    "source": "G2",
+    "segment_pct": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    },
+    "segment_rating": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    }
    },
    "logo": "/assets/logos/commonroom.io.png",
    "homepage_url": "https://www.commonroom.io/",
@@ -751,7 +965,9 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 40,
-   "value_score": 65
+   "sentiment_score": 72,
+   "has_review_data": true,
+   "value_score": 66
   },
   {
    "name": "Google Search Console",
@@ -770,17 +986,32 @@
    ],
    "checked": "2026-11-23",
    "reviews": {
-    "g2_rating": null,
-    "g2_review_count": null,
-    "g2_url": "https://www.g2.com/search?query=Google+Search+Console",
-    "note": "G2/Capterra blocked automated fetch; rating not shown"
+    "g2_rating": 4.7,
+    "g2_review_count": 519,
+    "g2_url": "https://www.g2.com/products/google-search-console/reviews",
+    "note": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: 4.8 (219) https://www.capterra.com/p/210297/Google-Search-Console/reviews/",
+    "url_is_product": true,
+    "date_checked": "2026-11-23",
+    "source": "G2",
+    "segment_pct": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    },
+    "segment_rating": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    }
    },
    "homepage_url": "https://search.google.com/search-console/about",
    "affiliate_url": "",
    "logo": "/assets/logos/support.google.com.png",
    "price_verified": true,
    "cost_score": 100,
-   "value_score": 100
+   "sentiment_score": 83,
+   "has_review_data": true,
+   "value_score": 97
   },
   {
    "name": "Ahrefs Free",
@@ -800,13 +1031,16 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Ahrefs+Free",
-    "note": "G2/Capterra blocked automated fetch; rating not shown"
+    "note": "G2/Capterra blocked automated fetch; rating not shown",
+    "url_is_product": false
    },
    "homepage_url": "https://ahrefs.com/",
    "affiliate_url": "",
    "logo": "/assets/logos/ahrefs.com.png",
    "price_verified": true,
    "cost_score": 100,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 88
   },
   {
@@ -825,16 +1059,31 @@
    ],
    "checked": "2026-11-23",
    "reviews": {
-    "g2_rating": null,
-    "g2_review_count": null,
-    "g2_url": "https://www.g2.com/search?query=Surfer",
-    "note": "G2/Capterra blocked automated fetch; rating not shown"
+    "g2_rating": 4.8,
+    "g2_review_count": 548,
+    "g2_url": "https://www.g2.com/products/surfer-surfer/reviews",
+    "note": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Card titled 'Surfer' by Surfer, SEO Tools category; matched as Surfer SEO. Capterra: search returned no Surfer SEO match (only unrelated Windsurfer CRS) - null.",
+    "url_is_product": true,
+    "date_checked": "2026-11-23",
+    "source": "G2",
+    "segment_pct": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    },
+    "segment_rating": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    }
    },
    "homepage_url": "https://surfer.ai/",
    "affiliate_url": "",
    "logo": "/assets/logos/surferseo.com.png",
    "price_verified": true,
    "cost_score": 100,
+   "sentiment_score": 88,
+   "has_review_data": true,
    "value_score": 88
   },
   {
@@ -854,17 +1103,32 @@
    ],
    "checked": "2026-11-23",
    "reviews": {
-    "g2_rating": null,
-    "g2_review_count": null,
-    "g2_url": "https://www.g2.com/search?query=Buffer",
-    "note": "G2/Capterra blocked automated fetch; rating not shown"
+    "g2_rating": 4.3,
+    "g2_review_count": 1043,
+    "g2_url": "https://www.g2.com/products/buffer/reviews",
+    "note": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: 4.5 (1492) https://www.capterra.com/p/143492/Buffer/reviews/",
+    "url_is_product": true,
+    "date_checked": "2026-11-23",
+    "source": "G2",
+    "segment_pct": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    },
+    "segment_rating": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    }
    },
    "homepage_url": "https://buffer.com/",
    "affiliate_url": "",
    "logo": "/assets/logos/buffer.com.png",
    "price_verified": true,
    "cost_score": 100,
-   "value_score": 88
+   "sentiment_score": 65,
+   "has_review_data": true,
+   "value_score": 83
   },
   {
    "name": "Typefully",
@@ -884,7 +1148,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Typefully",
-    "note": "G2/Capterra blocked automated fetch; rating not shown"
+    "note": "G2/Capterra blocked automated fetch; rating not shown",
+    "url_is_product": false
    },
    "homepage_url": "https://typefully.com/",
    "affiliate_url": "",
@@ -892,6 +1157,8 @@
    "logo": "/assets/logos/typefully.com.png",
    "price_verified": true,
    "cost_score": 100,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 88
   },
   {
@@ -909,17 +1176,32 @@
    ],
    "checked": "2026-11-23",
    "reviews": {
-    "g2_rating": null,
-    "g2_review_count": null,
-    "g2_url": "https://www.g2.com/search?query=Carrd",
-    "note": "G2/Capterra blocked automated fetch; rating not shown"
+    "g2_rating": 4.5,
+    "g2_review_count": 34,
+    "g2_url": "https://www.g2.com/products/carrd/reviews",
+    "note": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: 4.6 (28) https://www.capterra.com/p/210119/Carrd/reviews/",
+    "url_is_product": true,
+    "date_checked": "2026-11-23",
+    "source": "G2",
+    "segment_pct": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    },
+    "segment_rating": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    }
    },
    "homepage_url": "https://carrd.com/",
    "affiliate_url": "",
    "logo": "/assets/logos/carrd.co.png",
    "price_verified": true,
    "cost_score": 100,
-   "value_score": 88
+   "sentiment_score": 69,
+   "has_review_data": true,
+   "value_score": 84
   },
   {
    "name": "Framer",
@@ -936,17 +1218,32 @@
    ],
    "checked": "2026-11-23",
    "reviews": {
-    "g2_rating": null,
-    "g2_review_count": null,
-    "g2_url": "https://www.g2.com/search?query=Framer",
-    "note": "G2/Capterra blocked automated fetch; rating not shown"
+    "g2_rating": 4.5,
+    "g2_review_count": 163,
+    "g2_url": "https://www.g2.com/products/framer/reviews",
+    "note": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: 4.3 (32) https://www.capterra.com/p/178917/Framer/reviews/",
+    "url_is_product": true,
+    "date_checked": "2026-11-23",
+    "source": "G2",
+    "segment_pct": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    },
+    "segment_rating": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    }
    },
    "homepage_url": "https://www.framer.com/",
    "affiliate_url": "",
    "logo": "/assets/logos/framer.com.png",
    "price_verified": true,
    "cost_score": 100,
-   "value_score": 100
+   "sentiment_score": 73,
+   "has_review_data": true,
+   "value_score": 95
   },
   {
    "name": "Webflow",
@@ -964,17 +1261,32 @@
    ],
    "checked": "2026-11-23",
    "reviews": {
-    "g2_rating": null,
-    "g2_review_count": null,
-    "g2_url": "https://www.g2.com/search?query=Webflow",
-    "note": "G2/Capterra blocked automated fetch; rating not shown"
+    "g2_rating": 4.4,
+    "g2_review_count": 998,
+    "g2_url": "https://www.g2.com/products/webflow/reviews",
+    "note": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: 4.5 (269) https://www.capterra.com/p/136159/Webflow/reviews/. Note: G2 search top-link text was 'Ferret' but webflow card link is the product.",
+    "url_is_product": true,
+    "date_checked": "2026-11-23",
+    "source": "G2",
+    "segment_pct": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    },
+    "segment_rating": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    }
    },
    "homepage_url": "https://webflow.com/",
    "affiliate_url": "",
    "logo": "/assets/logos/webflow.com.png",
    "price_verified": true,
    "cost_score": 100,
-   "value_score": 88
+   "sentiment_score": 70,
+   "has_review_data": true,
+   "value_score": 84
   },
   {
    "name": "beehiiv",
@@ -993,17 +1305,32 @@
    ],
    "checked": "2026-11-23",
    "reviews": {
-    "g2_rating": null,
-    "g2_review_count": null,
-    "g2_url": "https://www.g2.com/search?query=beehiiv",
-    "note": "G2/Capterra blocked automated fetch; rating not shown"
+    "g2_rating": 4.5,
+    "g2_review_count": 40,
+    "g2_url": "https://www.g2.com/products/beehiiv/reviews",
+    "note": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: 4.4 (16) https://www.capterra.com/p/249823/beehiiv/reviews/",
+    "url_is_product": true,
+    "date_checked": "2026-11-23",
+    "source": "G2",
+    "segment_pct": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    },
+    "segment_rating": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    }
    },
    "homepage_url": "https://www.beehiiv.com/",
    "affiliate_url": "https://www.beehiiv.com?via=limor-sinay",
    "logo": "/assets/logos/beehiiv.com.png",
    "price_verified": true,
    "cost_score": 100,
-   "value_score": 100
+   "sentiment_score": 69,
+   "has_review_data": true,
+   "value_score": 94
   },
   {
    "name": "Kit",
@@ -1023,13 +1350,16 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Kit",
-    "note": "G2/Capterra blocked automated fetch; rating not shown"
+    "note": "G2/Capterra blocked automated fetch; rating not shown",
+    "url_is_product": false
    },
    "homepage_url": "https://kit.com/",
    "affiliate_url": "https://partners.kit.com/3lrqdv0acv0p",
    "logo": "/assets/logos/kit.com.png",
    "price_verified": true,
    "cost_score": 100,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 88
   },
   {
@@ -1050,13 +1380,16 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Descript",
-    "note": "G2/Capterra blocked automated fetch; rating not shown"
+    "note": "G2/Capterra blocked automated fetch; rating not shown",
+    "url_is_product": false
    },
    "homepage_url": "https://www.descript.com/",
    "affiliate_url": "https://get.descript.com/jpzrxh9lny7z",
    "logo": "/assets/logos/descript.com.png",
    "price_verified": true,
    "cost_score": 100,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 88
   },
   {
@@ -1077,13 +1410,16 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=CapCut",
-    "note": "G2/Capterra blocked automated fetch; rating not shown"
+    "note": "G2/Capterra blocked automated fetch; rating not shown",
+    "url_is_product": false
    },
    "homepage_url": "https://www.capcut.com/",
    "affiliate_url": "",
    "logo": "/assets/logos/capcut.com.png",
    "price_verified": true,
    "cost_score": 100,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 88
   },
   {
@@ -1106,13 +1442,16 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Canva",
-    "note": "G2/Capterra blocked automated fetch; rating not shown"
+    "note": "G2/Capterra blocked automated fetch; rating not shown",
+    "url_is_product": false
    },
    "homepage_url": "https://www.canva.com/",
    "affiliate_url": "",
    "logo": "/assets/logos/canva.com.png",
    "price_verified": false,
    "cost_score": null,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": null
   },
   {
@@ -1134,13 +1473,16 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Circle",
-    "note": "G2/Capterra blocked automated fetch; rating not shown"
+    "note": "G2/Capterra blocked automated fetch; rating not shown",
+    "url_is_product": false
    },
    "homepage_url": "https://circle.so/",
    "affiliate_url": "",
    "logo": "/assets/logos/circle.so.png",
    "price_verified": true,
    "cost_score": 100,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 88
   },
   {
@@ -1161,13 +1503,16 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Discord",
-    "note": "G2/Capterra blocked automated fetch; rating not shown"
+    "note": "G2/Capterra blocked automated fetch; rating not shown",
+    "url_is_product": false
    },
    "homepage_url": "https://discord.com/",
    "affiliate_url": "",
    "logo": "/assets/logos/discord.com.png",
    "price_verified": false,
    "cost_score": null,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": null
   },
   {
@@ -1187,17 +1532,32 @@
    ],
    "checked": "2026-11-23",
    "reviews": {
-    "g2_rating": null,
-    "g2_review_count": null,
-    "g2_url": "https://www.g2.com/search?query=Google+Analytics",
-    "note": "G2/Capterra blocked automated fetch; rating not shown"
+    "g2_rating": 4.5,
+    "g2_review_count": 6895,
+    "g2_url": "https://www.g2.com/products/google-analytics/reviews",
+    "note": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: 4.7 (8101) https://www.capterra.com/p/177042/Google-Analytics/reviews/ (card title read 'Google Analytics 360' but URL is the Google-Analytics product; ambiguous). G2 also lists separate Google Analytics 360 (4.4, 599).",
+    "url_is_product": true,
+    "date_checked": "2026-11-23",
+    "source": "G2",
+    "segment_pct": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    },
+    "segment_rating": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    }
    },
    "homepage_url": "https://marketingplatform.google.com/about/analytics/",
    "affiliate_url": "",
    "logo": "/assets/logos/marketingplatform.google.com.png",
    "price_verified": true,
    "cost_score": 100,
-   "value_score": 88
+   "sentiment_score": 75,
+   "has_review_data": true,
+   "value_score": 85
   },
   {
    "name": "Plausible",
@@ -1217,13 +1577,16 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Plausible",
-    "note": "G2/Capterra blocked automated fetch; rating not shown"
+    "note": "G2/Capterra blocked automated fetch; rating not shown",
+    "url_is_product": false
    },
    "homepage_url": "https://plausible.io/",
    "affiliate_url": "",
    "logo": "/assets/logos/plausible.io.png",
    "price_verified": true,
    "cost_score": 64,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 74
   },
   {
@@ -1246,13 +1609,16 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Fathom+Analytics",
-    "note": "G2/Capterra blocked automated fetch; rating not shown"
+    "note": "G2/Capterra blocked automated fetch; rating not shown",
+    "url_is_product": false
    },
    "homepage_url": "https://usefathom.com/",
    "affiliate_url": "",
    "logo": "/assets/logos/usefathom.com.png",
    "price_verified": true,
    "cost_score": 40,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 65
   },
   {
@@ -1269,17 +1635,32 @@
     "large"
    ],
    "reviews": {
-    "g2_rating": null,
-    "g2_review_count": null,
-    "g2_url": "https://www.g2.com/search?query=Peec+AI",
-    "note": "G2/Capterra not fetched for this tool; rating not shown"
+    "g2_rating": 4.7,
+    "g2_review_count": 21,
+    "g2_url": "https://www.g2.com/products/peec-ai/reviews",
+    "note": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: listing exists https://www.capterra.com/p/10030058/Peec-AI/ but no rating/count shown on card (null).",
+    "url_is_product": true,
+    "date_checked": "2026-11-23",
+    "source": "G2",
+    "segment_pct": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    },
+    "segment_rating": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    }
    },
    "homepage_url": "https://peec.ai/",
    "affiliate_url": "",
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 85,
-   "value_score": 82
+   "sentiment_score": 71,
+   "has_review_data": true,
+   "value_score": 80
   },
   {
    "name": "Otterly.AI",
@@ -1297,13 +1678,16 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Otterly.AI",
-    "note": "G2/Capterra not fetched for this tool; rating not shown"
+    "note": "G2/Capterra not fetched for this tool; rating not shown",
+    "url_is_product": false
    },
    "homepage_url": "https://otterly.ai/",
    "affiliate_url": "",
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 100,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 75
   },
   {
@@ -1323,13 +1707,16 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=AthenaHQ",
-    "note": "G2/Capterra not fetched for this tool; rating not shown"
+    "note": "G2/Capterra not fetched for this tool; rating not shown",
+    "url_is_product": false
    },
    "homepage_url": "https://www.athenahq.ai/",
    "affiliate_url": "",
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 40,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 65
   },
   {
@@ -1349,13 +1736,16 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Scrunch",
-    "note": "G2/Capterra not fetched for this tool; rating not shown"
+    "note": "G2/Capterra not fetched for this tool; rating not shown",
+    "url_is_product": false
    },
    "homepage_url": "https://scrunch.com/",
    "affiliate_url": "",
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 50,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 69
   },
   {
@@ -1374,13 +1764,16 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Profound",
-    "note": "G2/Capterra not fetched for this tool; rating not shown"
+    "note": "G2/Capterra not fetched for this tool; rating not shown",
+    "url_is_product": false
    },
    "homepage_url": "https://www.tryprofound.com/",
    "affiliate_url": "",
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": null,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": null
   },
   {
@@ -1396,16 +1789,31 @@
     "large"
    ],
    "reviews": {
-    "g2_rating": null,
-    "g2_review_count": null,
-    "g2_url": "https://www.g2.com/search?query=Salesloft",
-    "note": "Numeric G2 rating not shown (policy: not shown until fetched consistently). G2 reviewer company size, 2026-11-05: 16.5% small-business, 50.9% mid-market, 32.6% enterprise, of 4,287 reviews."
+    "g2_rating": 4.5,
+    "g2_review_count": 9916,
+    "g2_url": "https://www.g2.com/products/salesloft/reviews",
+    "note": "G2 product/reviews page returned HTTP 403 'Access is temporarily restricted' (no captcha offered; retried). Rating/count taken from G2 public search-results card; segment data not shown there. Capterra: 4.5 (562) https://www.capterra.com/p/157977/Salesloft/reviews/",
+    "url_is_product": true,
+    "date_checked": "2026-11-23",
+    "source": "G2",
+    "segment_pct": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    },
+    "segment_rating": {
+     "small": null,
+     "mid": null,
+     "enterprise": null
+    }
    },
    "homepage_url": "https://www.salesloft.com/",
    "affiliate_url": "",
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": null,
+   "sentiment_score": 75,
+   "has_review_data": true,
    "value_score": null
   },
   {
@@ -1424,13 +1832,16 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Outreach",
-    "note": "Numeric G2 rating not shown (policy: not shown until fetched consistently). G2 reviewer company size, 2026-11-05: 19.1% small-business, 59.2% mid-market, 21.7% enterprise, of 3,574 reviews."
+    "note": "Numeric G2 rating not shown (policy: not shown until fetched consistently). G2 reviewer company size, 2026-11-05: 19.1% small-business, 59.2% mid-market, 21.7% enterprise, of 3,574 reviews.",
+    "url_is_product": false
    },
    "homepage_url": "https://www.outreach.io/",
    "affiliate_url": "",
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": null,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": null
   },
   {
@@ -1447,10 +1858,11 @@
     "early"
    ],
    "reviews": {
-    "g2_rating": 4.7,
-    "g2_review_count": 44,
+    "g2_rating": null,
+    "g2_review_count": null,
     "g2_url": "https://www.g2.com/products/unify-unify/reviews",
-    "note": ""
+    "note": "",
+    "url_is_product": true
    },
    "logo": "/assets/logos/unifygtm.com.png",
    "homepage_url": "https://www.unifygtm.com/",
@@ -1458,6 +1870,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 100,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 88
   },
   {
@@ -1474,10 +1888,11 @@
     "early"
    ],
    "reviews": {
-    "g2_rating": 4.6,
-    "g2_review_count": 105,
+    "g2_rating": null,
+    "g2_review_count": null,
     "g2_url": "https://www.g2.com/products/aisdr-inc-aisdr/reviews",
-    "note": ""
+    "note": "",
+    "url_is_product": true
    },
    "logo": "/assets/logos/aisdr.com.png",
    "homepage_url": "https://aisdr.com/",
@@ -1485,6 +1900,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": null,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": null
   },
   {
@@ -1501,10 +1918,11 @@
     "early"
    ],
    "reviews": {
-    "g2_rating": 4.4,
-    "g2_review_count": 355,
+    "g2_rating": null,
+    "g2_review_count": null,
     "g2_url": "https://www.g2.com/products/regie-ai/reviews",
-    "note": "Aggregate includes reviews of older Regie products"
+    "note": "Aggregate includes reviews of older Regie products",
+    "url_is_product": true
    },
    "logo": "/assets/logos/regie.ai.png",
    "homepage_url": "https://www.regie.ai/",
@@ -1512,6 +1930,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 100,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 75
   },
   {
@@ -1531,7 +1951,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "",
-    "note": "No verified independent G2/Capterra review corpus found for this vendor on 2026-11-05; rating not shown. The G2 listing named Swan AI is an unrelated retail product"
+    "note": "No verified independent G2/Capterra review corpus found for this vendor on 2026-11-05; rating not shown. The G2 listing named Swan AI is an unrelated retail product",
+    "url_is_product": false
    },
    "logo": "/assets/logos/getswan.com.png",
    "homepage_url": "https://www.getswan.com/",
@@ -1539,6 +1960,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 90,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 71
   },
   {
@@ -1558,7 +1981,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "",
-    "note": "No verified independent G2/Capterra review corpus found for this vendor on 2026-11-05; rating not shown"
+    "note": "No verified independent G2/Capterra review corpus found for this vendor on 2026-11-05; rating not shown",
+    "url_is_product": false
    },
    "logo": "/assets/logos/origami.chat.png",
    "homepage_url": "https://origami.chat/",
@@ -1566,6 +1990,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 90,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 71
   },
   {
@@ -1585,7 +2011,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/sellers/rox",
-    "note": "No verified independent G2/Capterra review corpus found for this vendor on 2026-11-05; rating not shown"
+    "note": "No verified independent G2/Capterra review corpus found for this vendor on 2026-11-05; rating not shown",
+    "url_is_product": false
    },
    "logo": "/assets/logos/rox.com.png",
    "homepage_url": "https://www.rox.com/",
@@ -1593,6 +2020,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 90,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 71
   },
   {
@@ -1608,10 +2037,11 @@
     "scaling"
    ],
    "reviews": {
-    "g2_rating": 4.6,
-    "g2_review_count": 711,
+    "g2_rating": null,
+    "g2_review_count": null,
     "g2_url": "https://www.g2.com/products/amplemarket/reviews",
-    "note": ""
+    "note": "",
+    "url_is_product": true
    },
    "logo": "/assets/logos/amplemarket.com.png",
    "homepage_url": "https://www.amplemarket.com/",
@@ -1619,6 +2049,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 40,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 52
   },
   {
@@ -1635,10 +2067,11 @@
     "large"
    ],
    "reviews": {
-    "g2_rating": 4.5,
-    "g2_review_count": 250,
+    "g2_rating": null,
+    "g2_review_count": null,
     "g2_url": "https://www.g2.com/products/warmly-warmly/reviews",
-    "note": ""
+    "note": "",
+    "url_is_product": true
    },
    "logo": "/assets/logos/warmly.ai.png",
    "homepage_url": "https://www.warmly.ai/",
@@ -1646,6 +2079,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 80,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 55
   },
   {
@@ -1664,7 +2099,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Microsoft%20Sales%20Development%20Agent",
-    "note": "No verified independent G2/Capterra review corpus found for this preview agent on 2026-11-09; rating not shown"
+    "note": "No verified independent G2/Capterra review corpus found for this preview agent on 2026-11-09; rating not shown",
+    "url_is_product": false
    },
    "logo": "/assets/logos/microsoft.com.png",
    "homepage_url": "https://www.microsoft.com/en-us/dynamics-365/products/sales",
@@ -1673,6 +2109,8 @@
    "price_verified": true,
    "note": "2026-11-23: source blog loads but Copilot Credit pricing not re-confirmed; last verified 2026-11-16",
    "cost_score": null,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": null
   },
   {
@@ -1691,7 +2129,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Nooks",
-    "note": "No verified independent G2/Capterra rating captured on 2026-11-09; rating not shown"
+    "note": "No verified independent G2/Capterra rating captured on 2026-11-09; rating not shown",
+    "url_is_product": false
    },
    "logo": "/assets/logos/nooks.ai.png",
    "homepage_url": "https://www.nooks.ai/",
@@ -1699,6 +2138,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": null,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": null
   },
   {
@@ -1717,7 +2158,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=6sense",
-    "note": "No verified independent G2/Capterra review corpus found for BDR Agent (beta) on 2026-11-09; rating not shown"
+    "note": "No verified independent G2/Capterra review corpus found for BDR Agent (beta) on 2026-11-09; rating not shown",
+    "url_is_product": false
    },
    "logo": "/assets/logos/6sense.com.png",
    "homepage_url": "https://6sense.com/",
@@ -1726,6 +2168,8 @@
    "price_verified": true,
    "note": "2026-11-23: 6sense blocked automated fetch (403); last checked 2026-11-09",
    "cost_score": null,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": null
   },
   {
@@ -1747,7 +2191,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/products/hubspot-sales-hub/reviews",
-    "note": "Reviewer mix read from G2 2026-11-10 (star ratings not shown, per site rule). Reviewer company size: 60.5% small-business, 35.5% mid-market, 4.0% enterprise."
+    "note": "Reviewer mix read from G2 2026-11-10. Overall G2 star ratings appear on the tool card when a dated check is on file. Reviewer company size: 60.5% small-business, 35.5% mid-market, 4.0% enterprise.",
+    "url_is_product": true
    },
    "logo": "/assets/logos/hubspot.com.png",
    "homepage_url": "https://www.hubspot.com/products/crm",
@@ -1756,6 +2201,8 @@
    "price_verified": true,
    "note": "2026-11-23: pricing page renders prices client-side; last verified prices kept from 2026-11-10",
    "cost_score": 100,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 100
   },
   {
@@ -1776,7 +2223,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/products/pipedrive/reviews",
-    "note": "Reviewer mix read from G2 2026-11-10 (star ratings not shown, per site rule). Reviewer company size: 75.1% small-business, 21.7% mid-market, 3.3% enterprise."
+    "note": "Reviewer mix read from G2 2026-11-10. Overall G2 star ratings appear on the tool card when a dated check is on file. Reviewer company size: 75.1% small-business, 21.7% mid-market, 3.3% enterprise.",
+    "url_is_product": true
    },
    "logo": "/assets/logos/pipedrive.com.png",
    "homepage_url": "https://www.pipedrive.com/",
@@ -1784,6 +2232,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 91,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 84
   },
   {
@@ -1803,7 +2253,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/products/attio/reviews",
-    "note": "Reviewer mix read from G2 2026-11-10 (star ratings not shown, per site rule). Reviewer company size: 83.7% small-business, 15.8% mid-market, 0.5% enterprise."
+    "note": "Reviewer mix read from G2 2026-11-10. Overall G2 star ratings appear on the tool card when a dated check is on file. Reviewer company size: 83.7% small-business, 15.8% mid-market, 0.5% enterprise.",
+    "url_is_product": true
    },
    "logo": "/assets/logos/attio.com.png",
    "homepage_url": "https://attio.com/",
@@ -1811,6 +2262,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 100,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 88
   },
   {
@@ -1829,7 +2282,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/products/folk-folk/reviews",
-    "note": "Reviewer mix read from G2 2026-11-10 (star ratings not shown, per site rule). G2 compare layout shows ~97.1% small-business; mid-market/enterprise split not readable."
+    "note": "Reviewer mix read from G2 2026-11-10. Overall G2 star ratings appear on the tool card when a dated check is on file. G2 compare layout shows ~97.1% small-business; mid-market/enterprise split not readable.",
+    "url_is_product": true
    },
    "logo": "/assets/logos/folk.app.png",
    "homepage_url": "https://www.folk.app/",
@@ -1837,6 +2291,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 84,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 69
   },
   {
@@ -1856,7 +2312,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/products/close/reviews",
-    "note": "Reviewer mix read from G2 2026-11-10 (star ratings not shown, per site rule). Reviewer company size: 79.7% small-business, 19.7% mid-market; enterprise share not shown."
+    "note": "Reviewer mix read from G2 2026-11-10. Overall G2 star ratings appear on the tool card when a dated check is on file. Reviewer company size: 79.7% small-business, 19.7% mid-market; enterprise share not shown.",
+    "url_is_product": true
    },
    "logo": "/assets/logos/close.com.png",
    "homepage_url": "https://www.close.com/",
@@ -1864,6 +2321,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 94,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 85
   },
   {
@@ -1883,7 +2342,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/products/zoho-crm/reviews",
-    "note": "Reviewer mix read from G2 2026-11-10 (star ratings not shown, per site rule). Reviewer company size: 61.4% small-business, 32.5% mid-market, 6.0% enterprise."
+    "note": "Reviewer mix read from G2 2026-11-10. Overall G2 star ratings appear on the tool card when a dated check is on file. Reviewer company size: 61.4% small-business, 32.5% mid-market, 6.0% enterprise.",
+    "url_is_product": true
    },
    "logo": "/assets/logos/zoho.com.png",
    "homepage_url": "https://www.zoho.com/crm/",
@@ -1891,6 +2351,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 100,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 88
   },
   {
@@ -1909,7 +2371,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/products/bigin-by-zoho-crm/reviews",
-    "note": "Reviewer mix read from G2 2026-11-10 (star ratings not shown, per site rule). Reviewer company size: 90.9% small-business, 8.1% mid-market, 1.0% enterprise."
+    "note": "Reviewer mix read from G2 2026-11-10. Overall G2 star ratings appear on the tool card when a dated check is on file. Reviewer company size: 90.9% small-business, 8.1% mid-market, 1.0% enterprise.",
+    "url_is_product": true
    },
    "logo": "/assets/logos/bigin.com.png",
    "homepage_url": "https://www.bigin.com/",
@@ -1917,6 +2380,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 100,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 88
   },
   {
@@ -1936,7 +2401,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/products/copper/reviews",
-    "note": "Reviewer mix read from G2 2026-11-10 (star ratings not shown, per site rule). Reviewer company size: 79.2% small-business, 17.3% mid-market; enterprise share not shown."
+    "note": "Reviewer mix read from G2 2026-11-10. Overall G2 star ratings appear on the tool card when a dated check is on file. Reviewer company size: 79.2% small-business, 17.3% mid-market; enterprise share not shown.",
+    "url_is_product": true
    },
    "logo": "/assets/logos/copper.com.png",
    "homepage_url": "https://www.copper.com/",
@@ -1944,6 +2410,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 84,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 69
   },
   {
@@ -1963,7 +2431,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/products/salesforce-salesforce-sales-cloud/reviews",
-    "note": "Reviewer mix read from G2 2026-11-10 (star ratings not shown, per site rule). Reviewer company size: 20.6% small-business, 45.7% mid-market, 33.7% enterprise."
+    "note": "Reviewer mix read from G2 2026-11-10. Overall G2 star ratings appear on the tool card when a dated check is on file. Reviewer company size: 20.6% small-business, 45.7% mid-market, 33.7% enterprise.",
+    "url_is_product": true
    },
    "logo": "/assets/logos/salesforce.com.png",
    "homepage_url": "https://www.salesforce.com/sales/",
@@ -1971,6 +2440,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 83,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 94
   },
   {
@@ -1989,7 +2460,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/products/apollo-io/reviews",
-    "note": "G2 reviews cover Apollo as a whole (67.1% small-business on 2026-11-10), not its CRM features specifically, so no CRM rating shown."
+    "note": "G2 reviews cover Apollo as a whole (67.1% small-business on 2026-11-10), not its CRM features specifically, so no CRM rating shown.",
+    "url_is_product": true
    },
    "logo": "/assets/logos/apollo.io.png",
    "homepage_url": "https://www.apollo.io/",
@@ -1998,6 +2470,8 @@
    "price_verified": true,
    "note": "2026-11-23: Apollo pricing page no longer renders plan prices in its HTML; last verified prices kept from 2026-11-10",
    "cost_score": 100,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 75
   },
   {
@@ -2016,7 +2490,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Day+AI",
-    "note": "No G2 review base found 2026-11-10. Newer AI-native CRM; evidence thin."
+    "note": "No G2 review base found 2026-11-10. Newer AI-native CRM; evidence thin.",
+    "url_is_product": false
    },
    "logo": "/assets/logos/day.ai.png",
    "homepage_url": "https://day.ai/",
@@ -2024,6 +2499,8 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": null,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": null
   },
   {
@@ -2042,7 +2519,8 @@
     "g2_rating": null,
     "g2_review_count": null,
     "g2_url": "https://www.g2.com/search?query=Lightfield",
-    "note": "G2 page not read on G2 directly 2026-11-10, so not shown."
+    "note": "G2 page not read on G2 directly 2026-11-10, so not shown.",
+    "url_is_product": false
    },
    "logo": "/assets/logos/lightfield.app.png",
    "homepage_url": "https://lightfield.app/",
@@ -2050,10 +2528,17 @@
    "checked": "2026-11-23",
    "price_verified": true,
    "cost_score": 40,
+   "sentiment_score": null,
+   "has_review_data": false,
    "value_score": 52
   }
  ],
  "releases": [
+  {
+   "date": "2026-11-23",
+   "text": "Scoring: verified G2 ratings now feed the 20% sentiment part of the value score for all 22 tools in the recommended stacks. Sentiment is a Bayesian average (prior 4.3, weight 50 reviews) mapped from 3.0-5.0 to 0-100. Tools without a dated G2 check keep the 62.5/37.5 fit/cost reweight and are labeled \"no review data yet.\" Full math is on the methodology page.",
+   "source": "https://profitableagentstack.com/methodology"
+  },
   {
    "date": "2026-11-23",
    "text": "New this week: Reply.io (listed) released Jason Harness (Nov 20), a free, open-source (MIT) AI SDR harness that runs inside Claude Code or Codex as nine roles (planner, researcher, copywriter, critic and more). Reply sends the emails and LinkedIn messages and a person approves every send. In alpha; uses your own AI subscription, Reply plans still paid.",
@@ -2273,7 +2758,7 @@
      "Smartlead",
      "Base, 1 workspace",
      39,
-     "Lowest published entry price for outbound email in our list. Instantly scores higher on value (94 vs 88) but costs $8 more; revisit at 2\u20135 people.",
+     "Lowest published entry price for outbound email in our list. Instantly scores higher on value (93 vs 84) but costs $8 more; revisit at 2\u20135 people.",
      ""
     ],
     [
@@ -2364,7 +2849,7 @@
      "Instantly",
      "Outreach Growth",
      47,
-     "Highest value score for outbound (94). Unlimited mailboxes on one plan; its lead credits are not added because Hunter covers enrichment.",
+     "Highest value score for outbound (93). Unlimited mailboxes on one plan; its lead credits are not added because Hunter covers enrichment.",
      ""
     ],
     [
@@ -2388,7 +2873,7 @@
      "Buffer",
      "Free (up to 3 channels)",
      0,
-     "Free for up to 3 channels; best value score in its category (tied with Typefully).",
+     "Free for up to 3 channels. Typefully is a free alternative and currently has the higher value score (88 vs Buffer 83) because Buffer's verified G2 rating is in the score and Typefully has no review data yet.",
      ""
     ],
     [
@@ -2527,7 +3012,7 @@
      "Postiz",
      "Team",
      39,
-     "Team scheduling beyond Buffer\u2019s free 3-channel limit.",
+     "Team scheduling beyond Buffer's free 3-channel limit.",
      ""
     ],
     [

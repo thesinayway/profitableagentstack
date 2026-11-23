@@ -7,21 +7,23 @@ license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" a
 
 # What is the best value tool for search performance?
 
-Google Search Console has the highest value score (100) among tools we list, priced at: Free (Google describes it as a free service). Verify with the vendor.
+Google Search Console has the highest value score (97) among tools we list, priced at: Free (Google describes it as a free service). Verify with the vendor.
 
 ### [Google Search Console](https://search.google.com/search-console/about)
 
 Search performance
 
-Value score: 100
+Value score: 97
 
 Best valueIn our stacks: Small team, Early scaling, Scaling, Large / multi-team
 
 Free (Google describes it as a free service)
 
-Fit 5/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
+Fit 5/5 (editorial) · sentiment 83 · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://support.google.com/webmasters/answer/9128668) · [See reviews on G2](https://www.g2.com/search?query=Google+Search+Console)
+[G2 4.7/5 · 519 reviews · checked 2026-11-23](https://www.g2.com/products/google-search-console/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://support.google.com/webmasters/answer/9128668)
 
 ### [Ahrefs Free](https://ahrefs.com/)
 
@@ -33,13 +35,15 @@ Free: site audit and SEO metrics for websites you verify (formerly Ahrefs Webmas
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://ahrefs.com/webmaster-tools) · [See reviews on G2](https://www.g2.com/search?query=Ahrefs+Free)
+No review data yet
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://ahrefs.com/webmaster-tools)
 
 ## FAQ
 
 ### What is the best value tool for search performance?
 
-Google Search Console has the highest value score (100) among tools we list, priced at: Free (Google describes it as a free service). Verify with the vendor.
+Google Search Console has the highest value score (97) among tools we list, priced at: Free (Google describes it as a free service). Verify with the vendor.
 
 ### How much do search performance tools cost?
 

@@ -1,5 +1,5 @@
 ---
-title: AI GTM Stacks Ranked by Real Value | Profitable Agent Stack
+title: AI GTM Stacks Scored on Fit, Price and Verified Ratings | Profitable Agent Stack
 url: https://profitableagentstack.com/
 last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/)
@@ -69,7 +69,7 @@ Best value: Surfer](https://profitableagentstack.com/use-cases/content-optimizat
 
 Best value: Peec AI](https://profitableagentstack.com/use-cases/aeo)[### Social scheduling
 
-Best value: Buffer](https://profitableagentstack.com/use-cases/social-scheduling)[### Landing pages & websites
+Best value: Typefully](https://profitableagentstack.com/use-cases/social-scheduling)[### Landing pages & websites
 
 Best value: Framer](https://profitableagentstack.com/use-cases/landing-pages)[### Newsletters
 
@@ -105,7 +105,7 @@ Intent and signals tools help you prioritize. If you have nobody worth prioritiz
 
 ### What is Profitable Agent Stack?
 
-A value-first directory that ranks AI go-to-market tools by use case, real user reviews and published price, with estimated monthly stack costs by GTM team size.
+A value-first directory that scores AI go-to-market tools on use-case fit, published price and verified G2 user ratings (math shown), with estimated monthly stack costs by GTM team size.
 
 ### How are the stacks grouped?
 
@@ -121,7 +121,7 @@ As of 2026-11-23: re-checked 62 of 72 tools on their vendor pricing pages. Chang
 
 ### Do you publish user ratings?
 
-Only real public ratings from G2 or Capterra with a source link and date. Where they cannot be fetched reliably, we link to the reviews instead. We never create reviews or ratings ourselves.
+Yes, when we have a verified public G2 rating with a source link and the date checked. That rating feeds the 20% sentiment part of the value score, shrunk toward a neutral prior when the review count is low. Tools we have not yet checked are labeled "no review data yet" and are scored on fit and cost only. We never create reviews or ratings ourselves.
 
 ---
 Prices are vendor list prices last verified 2026-11-23; verify with the vendor. Not advice. Source: https://profitableagentstack.com/

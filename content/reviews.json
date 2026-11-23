@@ -1,0 +1,514 @@
+{
+  "prior": 4.3,
+  "prior_weight": 50,
+  "rating_map": "3.0->0, 5.0->100, clipped",
+  "tools": {
+    "apollo": {
+      "id": "apollo",
+      "name": "Apollo",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/apollo-io/reviews",
+      "url_is_product": true,
+      "rating": 4.7,
+      "review_count": 9864,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product/reviews page returned HTTP 403 'Access is temporarily restricted' (no captcha offered; retried). Rating/count taken from G2 public search-results card; segment data not shown there. Capterra: 4.5 (399) https://www.capterra.com/p/158696/Apollo/reviews/; no aggregate size breakdown (only per-review).",
+      "batch": "batch1.json"
+    },
+    "clay": {
+      "id": "clay",
+      "name": "Clay",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/clay-com-clay/reviews",
+      "url_is_product": true,
+      "rating": 4.6,
+      "review_count": 234,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product/reviews page returned HTTP 403 'Access is temporarily restricted' (no captcha offered; retried). Rating/count taken from G2 public search-results card; segment data not shown there. Capterra: https://www.capterra.com/p/10001919/CLay/reviews/ (rating not captured).",
+      "batch": "batch1.json"
+    },
+    "smartlead": {
+      "id": "smartlead",
+      "name": "Smartlead",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/smartlead/reviews",
+      "url_is_product": true,
+      "rating": 4.4,
+      "review_count": 478,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product/reviews page returned HTTP 403 'Access is temporarily restricted' (no captcha offered; retried). Rating/count taken from G2 public search-results card; segment data not shown there. Capterra: 3.9 (8) https://www.capterra.com/p/254912/Smartlead/reviews/",
+      "batch": "batch1.json"
+    },
+    "instantly": {
+      "id": "instantly",
+      "name": "Instantly",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/instantly/reviews",
+      "url_is_product": true,
+      "rating": 4.8,
+      "review_count": 4167,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product/reviews page returned HTTP 403 'Access is temporarily restricted' (no captcha offered; retried). Rating/count taken from G2 public search-results card; segment data not shown there. Capterra listing found but rating/URL not captured.",
+      "batch": "batch1.json"
+    },
+    "heyreach": {
+      "id": "heyreach",
+      "name": "HeyReach",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/heyreach/reviews",
+      "url_is_product": true,
+      "rating": 4.6,
+      "review_count": 74,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product/reviews page returned HTTP 403 'Access is temporarily restricted' (no captcha offered; retried). Rating/count taken from G2 public search-results card; segment data not shown there. Capterra: 5.0 (2), URL not captured.",
+      "batch": "batch1.json"
+    },
+    "hunter": {
+      "id": "hunter",
+      "name": "Hunter",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/hunter/reviews",
+      "url_is_product": true,
+      "rating": 4.4,
+      "review_count": 660,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product/reviews page returned HTTP 403 'Access is temporarily restricted' (no captcha offered; retried). Rating/count taken from G2 public search-results card; segment data not shown there. Capterra: 4.6 (714) https://www.capterra.com/p/161625/Hunter/reviews/",
+      "batch": "batch1.json"
+    },
+    "waalaxy": {
+      "id": "waalaxy",
+      "name": "Waalaxy",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/waalaxy/reviews",
+      "url_is_product": true,
+      "rating": 4.5,
+      "review_count": 1747,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product/reviews page returned HTTP 403 'Access is temporarily restricted' (no captcha offered; retried). Rating/count taken from G2 public search-results card; segment data not shown there. G2 seller total shows 1,749 incl. Podawaa. Capterra: 4.4 (253) https://www.capterra.com/p/230606/Waalaxy/reviews/",
+      "batch": "batch1.json"
+    },
+    "rb2b": {
+      "id": "rb2b",
+      "name": "RB2B",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/rb2b/reviews",
+      "url_is_product": true,
+      "rating": 4.5,
+      "review_count": 285,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product/reviews page returned HTTP 403 'Access is temporarily restricted' (no captcha offered; retried). Rating/count taken from G2 public search-results card; segment data not shown there. Capterra: 1.0 (1), URL not captured.",
+      "batch": "batch1.json"
+    },
+    "salesloft": {
+      "id": "salesloft",
+      "name": "Salesloft",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/salesloft/reviews",
+      "url_is_product": true,
+      "rating": 4.5,
+      "review_count": 9916,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product/reviews page returned HTTP 403 'Access is temporarily restricted' (no captcha offered; retried). Rating/count taken from G2 public search-results card; segment data not shown there. Capterra: 4.5 (562) https://www.capterra.com/p/157977/Salesloft/reviews/",
+      "batch": "batch1.json"
+    },
+    "common-room": {
+      "id": "common-room",
+      "name": "Common Room",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/common-room/reviews",
+      "url_is_product": true,
+      "rating": 4.5,
+      "review_count": 141,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product/reviews page returned HTTP 403 'Access is temporarily restricted' (no captcha offered; retried). Rating/count taken from G2 public search-results card; segment data not shown there. Capterra listing exists, no rating shown.",
+      "batch": "batch1.json"
+    },
+    "artisan": {
+      "id": "artisan",
+      "name": "Artisan",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/search?query=Artisan+AI+SDR",
+      "url_is_product": false,
+      "rating": 4.3,
+      "review_count": 70,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product/reviews page returned HTTP 403 'Access is temporarily restricted' (no captcha offered; retried). Rating/count taken from G2 public search-results card; segment data not shown there. Slug artisan vs artisan-artisan: AI SDRs category card is 4.3 (70); slug not confirmed.",
+      "batch": "batch1.json"
+    },
+    "carrd": {
+      "id": "carrd",
+      "name": "Carrd",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/carrd/reviews",
+      "url_is_product": true,
+      "rating": 4.5,
+      "review_count": 34,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: 4.6 (28) https://www.capterra.com/p/210119/Carrd/reviews/",
+      "batch": "batch2.json"
+    },
+    "beehiiv": {
+      "id": "beehiiv",
+      "name": "beehiiv",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/beehiiv/reviews",
+      "url_is_product": true,
+      "rating": 4.5,
+      "review_count": 40,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: 4.4 (16) https://www.capterra.com/p/249823/beehiiv/reviews/",
+      "batch": "batch2.json"
+    },
+    "google-analytics": {
+      "id": "google-analytics",
+      "name": "Google Analytics",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/google-analytics/reviews",
+      "url_is_product": true,
+      "rating": 4.5,
+      "review_count": 6895,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: 4.7 (8101) https://www.capterra.com/p/177042/Google-Analytics/reviews/ (card title read 'Google Analytics 360' but URL is the Google-Analytics product; ambiguous). G2 also lists separate Google Analytics 360 (4.4, 599).",
+      "batch": "batch2.json"
+    },
+    "google-search-console": {
+      "id": "google-search-console",
+      "name": "Google Search Console",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/google-search-console/reviews",
+      "url_is_product": true,
+      "rating": 4.7,
+      "review_count": 519,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: 4.8 (219) https://www.capterra.com/p/210297/Google-Search-Console/reviews/",
+      "batch": "batch2.json"
+    },
+    "buffer": {
+      "id": "buffer",
+      "name": "Buffer",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/buffer/reviews",
+      "url_is_product": true,
+      "rating": 4.3,
+      "review_count": 1043,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: 4.5 (1492) https://www.capterra.com/p/143492/Buffer/reviews/",
+      "batch": "batch2.json"
+    },
+    "framer": {
+      "id": "framer",
+      "name": "Framer",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/framer/reviews",
+      "url_is_product": true,
+      "rating": 4.5,
+      "review_count": 163,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: 4.3 (32) https://www.capterra.com/p/178917/Framer/reviews/",
+      "batch": "batch2.json"
+    },
+    "surfer": {
+      "id": "surfer",
+      "name": "Surfer",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/surfer-surfer/reviews",
+      "url_is_product": true,
+      "rating": 4.8,
+      "review_count": 548,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Card titled 'Surfer' by Surfer, SEO Tools category; matched as Surfer SEO. Capterra: search returned no Surfer SEO match (only unrelated Windsurfer CRS) - null.",
+      "batch": "batch2.json"
+    },
+    "peec-ai": {
+      "id": "peec-ai",
+      "name": "Peec AI",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/peec-ai/reviews",
+      "url_is_product": true,
+      "rating": 4.7,
+      "review_count": 21,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: listing exists https://www.capterra.com/p/10030058/Peec-AI/ but no rating/count shown on card (null).",
+      "batch": "batch2.json"
+    },
+    "postiz": {
+      "id": "postiz",
+      "name": "Postiz",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/postiz/reviews",
+      "url_is_product": true,
+      "rating": 4.8,
+      "review_count": 51,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: 5.0 (1) https://www.capterra.com/p/10024237/Postiz/",
+      "batch": "batch2.json"
+    },
+    "posthog": {
+      "id": "posthog",
+      "name": "PostHog",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/posthog/reviews",
+      "url_is_product": true,
+      "rating": 4.5,
+      "review_count": 1057,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: search returned no PostHog listing (only unrelated MakePostAI) - null.",
+      "batch": "batch2.json"
+    },
+    "webflow": {
+      "id": "webflow",
+      "name": "Webflow",
+      "source": "g2",
+      "source_label": "G2",
+      "url": "https://www.g2.com/products/webflow/reviews",
+      "url_is_product": true,
+      "rating": 4.4,
+      "review_count": 998,
+      "segment_pct": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "segment_rating": {
+        "small": null,
+        "mid": null,
+        "enterprise": null
+      },
+      "date_checked": "2026-11-23",
+      "notes": "G2 product page 403 from this network; rating/count from G2 search card. Segment data not shown. Capterra: 4.5 (269) https://www.capterra.com/p/136159/Webflow/reviews/. Note: G2 search top-link text was 'Ferret' but webflow card link is the product.",
+      "batch": "batch2.json"
+    }
+  },
+  "checked": "2026-11-23"
+}

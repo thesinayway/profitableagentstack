@@ -23,7 +23,9 @@ Free $0; Creator $29/mo; Pro $49/mo; Business $149/mo
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.heygen.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=HeyGen)
+No review data yet
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.heygen.com/pricing)
 
 ### [Descript](https://get.descript.com/jpzrxh9lny7z) affiliate
 
@@ -37,7 +39,9 @@ Free $0; Hobbyist $16/mo yearly ($24 monthly); Creator $24 yearly ($35 monthly);
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.descript.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Descript)
+No review data yet
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.descript.com/pricing)
 
 ### [CapCut](https://www.capcut.com/)
 
@@ -51,7 +55,9 @@ Free USD 0; paid plan prices not captured
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.capcut.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=CapCut)
+No review data yet
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.capcut.com/pricing)
 
 ### [Canva](https://www.canva.com/)
 
@@ -65,7 +71,9 @@ Price not captured: vendor pricing page blocked automated fetch — see vendor p
 
 Fit 5/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-Checked 2026-11-02, price could not be verified, verify with vendor. [Pricing source](https://www.canva.com/pricing/) · [See reviews on G2](https://www.g2.com/search?query=Canva)
+No review data yet
+
+Checked 2026-11-02, price could not be verified, verify with vendor. [Pricing source](https://www.canva.com/pricing/)
 
 ## FAQ
 

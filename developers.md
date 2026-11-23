@@ -55,7 +55,7 @@ Every page has a Markdown twin at the same path ending in `.md` (for example </s
 
 ## How scores work
 
-value\_score (0-100) = round(0.625 x fit + 0.375 x cost\_score). fit = editorial fit\_score (1-5) x 20. cost\_score = 100 - 60 x (entry\_price - lowest entry price in the use case) / (highest - lowest); contact-sales tools get no cost or value score. The published formula reserves 20% for user sentiment, but no sentiment or user-review data is used in any score today, so fit and cost are reweighted 62.5/37.5. Stack picks also weigh fit for the GTM team size (reviewer company-size mix, case studies, enterprise-readiness evidence).
+When a dated G2 rating is on file: value\_score (0-100) = round(0.5 x fit + 0.3 x cost\_score + 0.2 x sentiment\_score). fit = editorial fit\_score (1-5) x 20. cost\_score = 100 - 60 x (entry\_price - lowest entry price in the use case) / (highest - lowest); contact-sales tools get no cost or value score. sentiment\_score = round(clip((Bayesian average - 3.0) / 2.0 x 100, 0, 100)), where Bayesian average = (50 x 4.3 + review\_count x G2 rating) / (50 + review\_count). Tools without review data are labeled "no review data yet" and keep value\_score = round(0.625 x fit + 0.375 x cost\_score). The category-wide value score uses the overall G2 rating. When segment ratings exist later, stack pages prefer the rating for that team size (solo/small -> small business, early/scaling -> mid-market, large -> enterprise). Stack picks also weigh fit for the GTM team size (reviewer company-size mix, case studies, enterprise-readiness evidence).
 
 ## Use, limits and attribution
 

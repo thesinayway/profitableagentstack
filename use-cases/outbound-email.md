@@ -9,35 +9,39 @@ license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" a
 
 # What is the best value tool for outbound email / sequencing?
 
-Instantly has the highest value score (94) among tools we list, priced at: Outreach: Growth $47/mo (5,000 emails), Hypergrowth $107/mo (125,000 emails, 25,000 contacts), Light Speed $358/mo (500,000 emails); monthly billing view. Credits plans (e.g. Growth Credits $47/mo) are separate. Verify with the vendor.
+Instantly has the highest value score (93) among tools we list, priced at: Outreach: Growth $47/mo (5,000 emails), Hypergrowth $107/mo (125,000 emails, 25,000 contacts), Light Speed $358/mo (500,000 emails); monthly billing view. Credits plans (e.g. Growth Credits $47/mo) are separate. Verify with the vendor.
 
 ### [Instantly](https://instantly.ai/)
 
 Outbound email / sequencing
 
-Value score: 94
+Value score: 93
 
 Best valueIn our stacks: Small team, Early scaling, Scaling
 
 Outreach: Growth $47/mo (5,000 emails), Hypergrowth $107/mo (125,000 emails, 25,000 contacts), Light Speed $358/mo (500,000 emails); monthly billing view. Credits plans (e.g. Growth Credits $47/mo) are separate
 
-Fit 5/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
+Fit 5/5 (editorial) · sentiment 90 · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://instantly.ai/pricing) · [See reviews on G2](https://www.g2.com/search?query=Instantly)
+[G2 4.8/5 · 4,167 reviews · checked 2026-11-23](https://www.g2.com/products/instantly/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://instantly.ai/pricing)
 
 ### [Smartlead](https://smartlead.ai?via=limor) affiliate
 
 Outbound email / sequencing
 
-Value score: 88
+Value score: 84
 
 In our stacks: Solo
 
 Base from $39/mo (pricing page also lists Pro, Smart, Prime tiers)
 
-Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling
+Fit 4/5 (editorial) · sentiment 70 · Fits: Solo, Small team, Early scaling
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.smartlead.ai/pricing) · [See reviews on G2](https://www.g2.com/search?query=Smartlead)
+[G2 4.4/5 · 478 reviews · checked 2026-11-23](https://www.g2.com/products/smartlead/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.smartlead.ai/pricing)
 
 ### [Salesforge](https://salesforge.ai/?via=limor) affiliate
 
@@ -49,7 +53,9 @@ Pro $48/mo billed monthly ($29.20/mo billed annually); Growth $96/mo billed mont
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.salesforge.ai/pricing) · [See reviews on G2](https://www.g2.com/search?query=Salesforge)
+No review data yet
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.salesforge.ai/pricing)
 
 ### [Reply.io](https://reply.io/)
 
@@ -61,7 +67,9 @@ Email volume tiers 'starts from' $59 monthly (lower with annual); LinkedIn add-o
 
 Fit 4/5 (editorial) · Fits: Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://reply.io/pricing/) · [See reviews on G2](https://www.g2.com/search?query=Reply.io)
+No review data yet
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://reply.io/pricing/)
 
 ### [lemlist](https://get.lemlist.com/3q3jpladw6up) affiliate
 
@@ -73,7 +81,9 @@ Email $69/mo monthly ($55 annual), 50,000 emails/mo; Multichannel $109/mo ($87 a
 
 Fit 4/5 (editorial) · Fits: Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.lemlist.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=lemlist)
+No review data yet
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.lemlist.com/pricing)
 
 ### [Woodpecker](https://woodpecker.co/?red=thesin) affiliate
 
@@ -87,7 +97,9 @@ Price not captured automatically — see vendor page
 
 Fit 3/5 (editorial) · Fits: Solo, Small team, Early scaling
 
-Checked 2026-11-02, price could not be verified, verify with vendor. [Pricing source](https://woodpecker.co/pricing/) · [See reviews on G2](https://www.g2.com/search?query=Woodpecker)
+No review data yet
+
+Checked 2026-11-02, price could not be verified, verify with vendor. [Pricing source](https://woodpecker.co/pricing/)
 
 ### [Salesloft](https://www.salesloft.com/)
 
@@ -99,9 +111,11 @@ In our stacks: Large / multi-teamContact sales
 
 Contact sales
 
-Fit 4/5 (editorial) · Fits: Scaling, Large / multi-team
+Fit 4/5 (editorial) · sentiment 75 · Fits: Scaling, Large / multi-team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.salesloft.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Salesloft)
+[G2 4.5/5 · 9,916 reviews · checked 2026-11-23](https://www.g2.com/products/salesloft/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.salesloft.com/pricing)
 
 ### [Outreach](https://www.outreach.io/)
 
@@ -115,13 +129,15 @@ Contact sales
 
 Fit 4/5 (editorial) · Fits: Scaling, Large / multi-team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.outreach.io/pricing) · [See reviews on G2](https://www.g2.com/search?query=Outreach)
+No review data yet
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.outreach.io/pricing)
 
 ## FAQ
 
 ### What is the best value tool for outbound email / sequencing?
 
-Instantly has the highest value score (94) among tools we list, priced at: Outreach: Growth $47/mo (5,000 emails), Hypergrowth $107/mo (125,000 emails, 25,000 contacts), Light Speed $358/mo (500,000 emails); monthly billing view. Credits plans (e.g. Growth Credits $47/mo) are separate. Verify with the vendor.
+Instantly has the highest value score (93) among tools we list, priced at: Outreach: Growth $47/mo (5,000 emails), Hypergrowth $107/mo (125,000 emails, 25,000 contacts), Light Speed $358/mo (500,000 emails); monthly billing view. Credits plans (e.g. Growth Credits $47/mo) are separate. Verify with the vendor.
 
 ### How much do outbound email / sequencing tools cost?
 

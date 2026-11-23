@@ -1,18 +1,109 @@
 #!/usr/bin/env python3
 """Build static site from tools.json (source of truth). Run: python3 build.py"""
-import json,os,html,shutil
+import json,os,html,shutil,glob,re
 D=json.load(open('tools.json'));C=D['checked'];SITE='https://profitableagentstack.com'
 UC={u['id']:u['name'] for u in D['use_cases']};ST={s['id']:s for s in D['stages']};T={t['name']:t for t in D['tools']}
 e=html.escape
-# ---- scoring: value = 0.5 fit + 0.3 cost + 0.2 sentiment; sentiment missing -> reweight fit .625 / cost .375
+_re=re
+def _slug(n): return _re.sub(r'[^a-z0-9]+','-',n.lower()).strip('-')
+# ---- reviews: merge /workspace/pas-ops/reviews/batch*.json into content/reviews.json (keyed by tool id)
+# Future batches drop in as batchN.json and are merged here (newer date_checked wins).
+SENT_PRIOR=4.3; SENT_M=50
+SENT_LO,SENT_HI=3.0,5.0  # map 3.0->0, 5.0->100, clipped
+SEGMENT_FOR_SIZE={'solo':'small','small':'small','early':'mid','scaling':'mid','large':'enterprise'}
+REVIEW_ALIASES={'artisan (ai sdr)':'artisan','surfer (surferseo)':'surfer','surfer seo':'surfer'}
+BATCH_DIR='/workspace/pas-ops/reviews'; REVIEWS_CANON='content/reviews.json'
+def _is_product_url(url):
+  return bool(url) and '/products/' in url and '/search?' not in url
+def _url_uncertain(rec):
+  return 'slug not confirmed' in (rec.get('notes') or '').lower()
+def _tid_from_batch_name(name, valid):
+  key=name.strip().lower()
+  if key in REVIEW_ALIASES: return REVIEW_ALIASES[key]
+  s=_slug(name)
+  if s in valid: return s
+  s=_slug(_re.sub(r'\s*\([^)]*\)\s*',' ',name))
+  return s if s in valid else None
+def merge_reviews():
+  valid={_slug(t['name']):t['name'] for t in D['tools']}
+  canon={'prior':SENT_PRIOR,'prior_weight':SENT_M,'rating_map':'3.0->0, 5.0->100, clipped','tools':{}}
+  if os.path.exists(REVIEWS_CANON):
+    prev=json.load(open(REVIEWS_CANON,encoding='utf-8'));canon['tools']=prev.get('tools') or {}
+  unmatched=[]
+  if os.path.isdir(BATCH_DIR):
+    for path in sorted(glob.glob(os.path.join(BATCH_DIR,'batch*.json'))):
+      for rec in json.load(open(path,encoding='utf-8')):
+        tid=_tid_from_batch_name(rec.get('tool',''),valid)
+        if not tid:
+          unmatched.append((os.path.basename(path),rec.get('tool')));continue
+        url=rec.get('url'); product=_is_product_url(url) and not _url_uncertain(rec)
+        if not product:
+          q='Artisan+AI+SDR' if tid=='artisan' else valid[tid].replace(' ','+')
+          url=f'https://www.g2.com/search?query={q}'
+        entry={'id':tid,'name':valid[tid],'source':'g2','source_label':'G2','url':url,'url_is_product':bool(product),
+               'rating':rec.get('rating'),'review_count':rec.get('review_count'),
+               'segment_pct':rec.get('segment_pct') or {'small':None,'mid':None,'enterprise':None},
+               'segment_rating':rec.get('segment_rating') or {'small':None,'mid':None,'enterprise':None},
+               'date_checked':rec.get('date_checked'),'notes':rec.get('notes') or '','batch':os.path.basename(path)}
+        old=canon['tools'].get(tid)
+        if old and old.get('date_checked') and entry.get('date_checked') and old['date_checked']>entry['date_checked']:
+          continue
+        canon['tools'][tid]=entry
+  dates=[x['date_checked'] for x in canon['tools'].values() if x.get('date_checked')]
+  canon['checked']=max(dates) if dates else C
+  os.makedirs(os.path.dirname(REVIEWS_CANON) or '.',exist_ok=True)
+  json.dump(canon,open(REVIEWS_CANON,'w',encoding='utf-8'),indent=2,ensure_ascii=False);open(REVIEWS_CANON,'a',encoding='utf-8').write('\n')
+  if unmatched:
+    print('Unmatched review records:', unmatched)
+  return canon
+REV=merge_reviews()
+def _bayes(rating,n,prior=SENT_PRIOR,m=SENT_M):
+  return (m*prior+n*rating)/(m+n)
+def _sentiment_from(rating,n):
+  if rating is None or n is None: return None
+  return round(max(0,min(100,(_bayes(rating,n)-SENT_LO)/(SENT_HI-SENT_LO)*100)))
+def sentiment_score(t, segment=None):
+  """Category-wide sentiment uses the overall G2 rating. If a segment is given and a matching
+  segment rating exists, use that rating (and segment share of reviews as the count when published).
+  Stack size mapping: solo/small->small, early/scaling->mid, large->enterprise."""
+  rec=REV['tools'].get(_slug(t['name']))
+  if not rec or rec.get('rating') is None or rec.get('review_count') is None: return None
+  rating,n=rec['rating'],rec['review_count']
+  if segment:
+    key=SEGMENT_FOR_SIZE.get(segment,segment)
+    sr=(rec.get('segment_rating') or {}).get(key)
+    if sr is not None:
+      rating=sr
+      pct=(rec.get('segment_pct') or {}).get(key)
+      if pct is not None: n=max(1,round(n*pct/100.0))
+  return _sentiment_from(rating,n)
+# ---- scoring: value = 0.5 fit + 0.3 cost + 0.2 sentiment when review data exists;
+# sentiment missing -> reweight fit .625 / cost .375 and label "no review data yet".
+# Contact-sales / no public price: no cost score and no value score (sentiment may still be shown).
 def cost_score(t):
   if t['from'] is None: return None
   peers=[x['from'] for x in D['tools'] if x['use_case']==t['use_case'] and x['from'] is not None]
   lo,hi=min(peers),max(peers)
   return 100 if hi==lo else round(100-60*(t['from']-lo)/(hi-lo))
 for t in D['tools']:
-  f=t['fit_score']*20;c=cost_score(t);t['cost_score']=c
-  t['value_score']=round(.625*f+.375*c) if c is not None else None
+  rec=REV['tools'].get(_slug(t['name']))
+  r=dict(t.get('reviews') or {})
+  if rec and rec.get('rating') is not None:
+    r.update({'g2_rating':rec['rating'],'g2_review_count':rec['review_count'],'g2_url':rec['url'],
+              'url_is_product':rec.get('url_is_product'),'date_checked':rec.get('date_checked'),
+              'source':rec.get('source_label','G2'),
+              'segment_pct':rec.get('segment_pct'),'segment_rating':rec.get('segment_rating')})
+    if rec.get('notes'): r['note']=rec['notes']
+  else:
+    # Do not surface undated ratings from tools.json until a dated batch confirms them.
+    r['g2_rating']=None; r['g2_review_count']=None; r.pop('date_checked',None); r.pop('source',None)
+    r['url_is_product']=_is_product_url(r.get('g2_url'))
+  t['reviews']=r
+  f=t['fit_score']*20;c=cost_score(t);s=sentiment_score(t)
+  t['cost_score']=c; t['sentiment_score']=s; t['has_review_data']=s is not None
+  if c is None: t['value_score']=None
+  elif s is not None: t['value_score']=round(.5*f+.3*c+.2*s)
+  else: t['value_score']=round(.625*f+.375*c)
 best={}
 for t in D['tools']:
   if t['value_score'] is not None and (t['use_case'] not in best or t['value_score']>best[t['use_case']]['value_score']): best[t['use_case']]=t
@@ -53,12 +144,36 @@ def init(n): return ''.join(w[0] for w in n.replace('.',' ').split()[:2]).upper(
 def price(t): return 'Contact sales' if t['status']=='contact' else t['price']
 import urllib.parse as _u
 UTM={'utm_source':'profitableagentstack','utm_medium':'referral'}
-import re as _re
-def _slug(n): return _re.sub(r'[^a-z0-9]+','-',n.lower()).strip('-')
 def tool_link(t,camp='directory'):
   """Single source for outbound tool links. Returns (href, rel, is_affiliate)."""
   aff=bool(t.get('affiliate_url'));p=_u.urlparse(t['affiliate_url'] if aff else t['homepage_url']);q=dict(_u.parse_qsl(p.query));q.update(UTM);q['utm_campaign']=camp;q['utm_content']=_slug(t['name'])
   return _u.urlunparse(p._replace(query=_u.urlencode(q))),('sponsored noopener' if aff else 'noopener'),aff
+def review_html(t):
+  """Rating, count, source link and date when verified; otherwise 'no review data yet'.
+  'See reviews on G2' only when the URL is a confirmed product page."""
+  r=t.get('reviews') or {}; url=r.get('g2_url') or ''
+  if t.get('has_review_data') and r.get('g2_rating') is not None:
+    n=r['g2_review_count']; ntxt=f'{n:,} review'+('' if n==1 else 's')
+    label=f"G2 {r['g2_rating']}/5 · {ntxt} · checked {r.get('date_checked')}"
+    if r.get('url_is_product') and url:
+      return f'<a href="{e(url)}" rel="nofollow noopener" target="_blank">{e(label)}</a>'
+    if url:
+      return f'{e(label)} (<a href="{e(url)}" rel="nofollow noopener" target="_blank">G2 search</a>; product page not confirmed)'
+    return e(label)
+  bits=['No review data yet']
+  if url and _is_product_url(url):
+    bits.append(f'<a href="{e(url)}" rel="nofollow noopener" target="_blank">See reviews on G2</a>')
+  return ' · '.join(bits)
+def review_md(t):
+  r=t.get('reviews') or {}; url=r.get('g2_url') or ''
+  if t.get('has_review_data') and r.get('g2_rating') is not None:
+    n=r['g2_review_count']; ntxt=f'{n:,} review'+('' if n==1 else 's')
+    label=f"G2 {r['g2_rating']}/5 · {ntxt} · checked {r.get('date_checked')}"
+    if r.get('url_is_product') and url: return f'[{label}]({url})'
+    if url: return f'{label} ([G2 search]({url}); product page not confirmed)'
+    return label
+  if url and _is_product_url(url): return f'No review data yet. [See reviews on G2]({url})'
+  return 'No review data yet'
 ISBEST=lambda t:t['value_score'] is not None and t['value_score']==best[t['use_case']]['value_score']
 def card(t,camp='directory'):
   b=''
@@ -71,8 +186,9 @@ def card(t,camp='directory'):
   sc=t['value_score'];cost=t['from'] if t['from'] is not None else 1e9
   return f'''<article class="card" id="{_slug(t['name'])}" data-uc="{t['use_case']}" data-stages="{' '.join(t['stages'])}" data-score="{sc or 0}" data-cost="{cost}">
 <div class="row">{f'<a href="{e(L[0])}" target="_blank" rel="{L[1]}"><img class="logo-img" src="{t["logo"]}" alt="{e(t["name"])} logo" width="40" height="40" loading="lazy"></a>' if t.get('logo') else ''}<div><h3 style="margin:0"><a href="{e(L[0])}" target="_blank" rel="{L[1]}" style="color:inherit;text-decoration:none">{e(t['name'])}</a>{' <span class="badge c">affiliate</span>' if L[2] else ''}</h3><span class="mut">{UC[t['use_case']]}</span></div><div style="margin-left:auto;text-align:right"><div class="score">{sc if sc is not None else '—'}</div><span class="mut">value score</span></div></div>
-<p>{b}</p><p>{e(price(t))}</p><p class="mut">Fit {t['fit_score']}/5 (editorial) · Fits: {', '.join(ST[s]['short'] for s in t['stages'])}</p>
-<p class="mut">{'Prices as of' if t.get('price_verified',True) else 'Checked'} {t.get('checked',C)}{'' if t.get('price_verified',True) else ', price could not be verified'}, verify with vendor. <a href="{t['source']}" rel="nofollow noopener" target="_blank">Pricing source</a> · <a href="{t['reviews']['g2_url']}" rel="nofollow noopener" target="_blank">See reviews on G2</a></p></article>'''
+<p>{b}</p><p>{e(price(t))}</p><p class="mut">Fit {t['fit_score']}/5 (editorial){" · sentiment "+str(t['sentiment_score']) if t.get('has_review_data') else ''} · Fits: {', '.join(ST[s]['short'] for s in t['stages'])}</p>
+<p class="mut">{review_html(t)}</p>
+<p class="mut">{'Prices as of' if t.get('price_verified',True) else 'Checked'} {t.get('checked',C)}{'' if t.get('price_verified',True) else ', price could not be verified'}, verify with vendor. <a href="{t['source']}" rel="nofollow noopener" target="_blank">Pricing source</a></p></article>'''
 def sw(t):
   o={"@type":"SoftwareApplication","@id":SITE+'/use-cases/'+t['use_case']+'#'+_slug(t['name']),"name":t['name'],"applicationCategory":"BusinessApplication","applicationSubCategory":UC[t['use_case']],"operatingSystem":"Web","url":t['homepage_url']}
   if t['from'] is not None and t['status']=='published': o["offers"]={"@type":"Offer","price":t['from'],"priceCurrency":"EUR" if '€' in t['price'] else "USD","description":t['price']+' (list price as of '+t.get('checked',C)+')',"url":t['source'],"validFrom":t.get('checked',C)}
@@ -96,11 +212,11 @@ bars='<div class="bars">'+''.join(f'<div><span>{ST[s]["name"]} <small class="mut
 def pick(s,tool): return next(i for i in D['stacks'][s]['items'] if i[1]==tool)
 TOK={'checked':C,'cost:solo':f'${tot["solo"]:,.0f}','price:RB2B:starter':f'${pick("early","RB2B")[3]:,.0f}','price:Peec AI:starter':f'${pick("early","Peec AI")[3]:,.0f}','price:Common Room:essential':f'${pick("large","Common Room")[3]:,.0f}'}
 hero=f'''<section class="hero"><div class="wrap"><span class="pill">Prices checked {C} · {len(D['tools'])} tools · {len(UC)} use cases</span><h1>Build your AI GTM stack for the best <span class="grad">value per dollar</span>.</h1>
-<p>Ranked by real user reviews and published prices — one tool per job, plus the use cases you can safely skip until your team is bigger. From about {TOK['cost:solo']}/mo for one person.</p>
+<p>Scored on fit, published price and verified G2 user ratings, math shown — one tool per job, plus the use cases you can safely skip until your team is bigger. From about {TOK['cost:solo']}/mo for one person.</p>
 <p><a class="btn" href="/stages/">See stacks by GTM team size</a> <a class="btn ghost" href="/directory.html">Browse all tools</a></p></div></section>'''
 _uc=lambda ids:''.join(f'<a class="card" href="/use-cases/{u}.html"><h3>{UC[u]}</h3><p class="mut">{"Best value: "+best[u]["name"] if u in best else "Coming soon"}</p></a>' for u in ids)
 ucc=f'<h3>Sales</h3><div class="grid">{_uc([u for u in UC if u not in MKT and u not in SEP])}</div><h3>Marketing</h3><div class="grid">{_uc([u for u in UC if u in MKT])}</div>'+(f'<h3>CRM (separate from the stack)</h3><p class="mut">Not counted in stack totals. Start on a spreadsheet and add a CRM when it fits.</p><div class="grid">{_uc([u for u in UC if u in SEP])}</div>' if SEP else '')
-HQ=[('What is Profitable Agent Stack?','A value-first directory that ranks AI go-to-market tools by use case, real user reviews and published price, with estimated monthly stack costs by GTM team size.'),('How are the stacks grouped?','By how many people do go-to-market: solo founder (1), small GTM team (2–5), early scaling (6–15), scaling (16–40) and large / multi-team (40+).'),('Where do the prices come from?',f'From each vendor\'s own pricing page, with a source link and the date checked ({C}). Tools with no public price are marked contact sales.'),('What changed in AI GTM tool prices this week?',next((f'As of {r["date"]}: '+r['text'].replace('Weekly price check: ','',1) for r in D['releases'] if r['text'].startswith('Weekly price check')),'See New Releases & Price Changes for the latest log.')+' Full log: https://profitableagentstack.com/new-releases.html'),('Do you publish user ratings?','Only real public ratings from G2 or Capterra with a source link and date. Where they cannot be fetched reliably, we link to the reviews instead. We never create reviews or ratings ourselves.')]
+HQ=[('What is Profitable Agent Stack?','A value-first directory that scores AI go-to-market tools on use-case fit, published price and verified G2 user ratings (math shown), with estimated monthly stack costs by GTM team size.'),('How are the stacks grouped?','By how many people do go-to-market: solo founder (1), small GTM team (2–5), early scaling (6–15), scaling (16–40) and large / multi-team (40+).'),('Where do the prices come from?',f'From each vendor\'s own pricing page, with a source link and the date checked ({C}). Tools with no public price are marked contact sales.'),('What changed in AI GTM tool prices this week?',next((f'As of {r["date"]}: '+r['text'].replace('Weekly price check: ','',1) for r in D['releases'] if r['text'].startswith('Weekly price check')),'See New Releases & Price Changes for the latest log.')+' Full log: https://profitableagentstack.com/new-releases.html'),('Do you publish user ratings?','Yes, when we have a verified public G2 rating with a source link and the date checked. That rating feeds the 20% sentiment part of the value score, shrunk toward a neutral prior when the review count is low. Tools we have not yet checked are labeled "no review data yet" and are scored on fit and cost only. We never create reviews or ratings ourselves.')]
 ARTS=[]
 def _load_articles():
   import glob
@@ -111,7 +227,7 @@ def _load_articles():
   ARTS.sort(key=lambda a:(a['date'],a['slug']),reverse=True)
 _load_articles()
 artcards=''.join(f'<a class="card" href="/articles/{a["slug"]}.html"><h3>{e(a["title"])}</h3><p class="mut">{e(a["summary"])}</p></a>' for a in ARTS[:3])
-page('index.html','AI GTM Stacks Ranked by Real Value | Profitable Agent Stack','Value-first directory of AI GTM tools: real user reviews, published prices and estimated monthly stack costs by GTM team size, from solo founders to 40+ person teams.',
+page('index.html','AI GTM Stacks Scored on Fit, Price and Verified Ratings | Profitable Agent Stack','Value-first directory of AI GTM tools scored on fit, published price and verified G2 user ratings, with estimated monthly stack costs by GTM team size, from solo founders to 40+ person teams.',
 f'''<h2>What does an AI GTM stack cost, by GTM team size?</h2><p class="answer">Based on published list prices, our recommended stacks are estimated at about {TOK['cost:solo']}/mo (+€19) for a solo founder, ${tot['small']:,.0f}/mo (+€38) for a 2–5 person team, ${tot['early']:,.0f}/mo for 6–15, ${tot['scaling']:,.0f}/mo for 16–40, and at least ${tot['large']:,.0f}/mo for 40+. Estimates only; each page shows the math.</p>{bars}
 <section class="card feat" style="margin:24px 0"><h2 style="margin-top:0">Find the stack for your GTM team size</h2><p>Five sizes, from 1 person to 40+. Each page shows who it is for, the recommended stack and monthly cost, the use cases that matter, and the ones to skip.</p><a class="btn ghost" href="/stages/">See stacks by GTM team size</a></section>
 <h2>How we keep the bill low</h2><div class="grid"><div class="card"><h3>One tool per job</h3><p class="mut">No paid overlap, and every pick comes with a reason. <a href="/articles/one-tool-per-job.html">Read why</a>.</p></div><div class="card"><h3>Real, dated prices</h3><p class="mut">Each price links to the vendor page and shows the date checked. If we could not verify it, we say so.</p></div><div class="card"><h3>Skip what you do not need yet</h3><p class="mut">Intent data and AI SDRs are not for everyone. <a href="/articles/when-to-skip-intent-data.html">See when to skip them</a>.</p></div></div>
@@ -123,8 +239,8 @@ opt=lambda d:''.join(f'<option value="{k}">{v}</option>' for k,v in d.items())
 R=rank(D['tools'])
 _nv=[t['name'] for t in D['tools'] if t.get('checked')!=C]
 DQ=[('How many AI GTM tools does the directory list?',f'{len(R)} tools across {len(UC)} use cases, as of {C}. Each card links to the vendor pricing page and shows the date its price was last checked.'),('When were prices last checked?',f'Our weekly price check ran on {C}: {len(R)-len(_nv)} of {len(R)} tools were re-verified on the vendor pricing page that day.'+(f' Not re-verified this week (page blocked or prices render client-side), so the last verified price and date are shown: {", ".join(_nv)}.' if _nv else ''))]
-page('directory.html','AI GTM Tools Directory: Filter by GTM Team Size & Use Case | Profitable Agent Stack',f'All {len(R)} AI GTM tools with published prices, value scores and review links. Filter by GTM team size and use case, sort by value or cost.',
-f'''<h1>Which AI GTM tool is the best value?</h1><p class="answer">This directory ranks {len(R)} tools by value score (use-case fit + published cost; sentiment added when verified data is available). Filter by GTM team size or use case, or sort by cost. <a href="/methodology.html">How scoring works</a>.</p>
+page('directory.html','AI GTM Tools Directory: Filter by GTM Team Size & Use Case | Profitable Agent Stack',f'All {len(R)} AI GTM tools with published prices, value scores and verified G2 ratings when we have them. Filter by GTM team size and use case, sort by value or cost.',
+f'''<h1>Which AI GTM tool is the best value?</h1><p class="answer">This directory ranks {len(R)} tools by value score (use-case fit, published cost, and verified G2 ratings when we have them; math on the methodology page). Tools without a dated G2 check are labeled "no review data yet" and are scored on fit and cost only. Filter by GTM team size or use case, or sort by cost. <a href="/methodology.html">How scoring works</a>.</p>
 <div class="filters"><label class="sr">GTM team size <select data-filter="stage"><option value="">All sizes</option>{opt({k:v['name']+' ('+v['size']+')' for k,v in ST.items()})}</select></label><label>Use case <select data-filter="uc"><option value="">All use cases</option>{opt(UC)}</select></label><label>Sort <select id="sort"><option value="value">Best value</option><option value="asc">Cost: low to high</option><option value="desc">Cost: high to low</option></select></label></div>
 <div class="grid" id="list">{''.join(card(t) for t in R)}</div>{faqhtml(DQ)}''',[itemlist(R,'AI GTM tools ranked by value'),faq(DQ)])
 # ---- use cases
@@ -190,7 +306,7 @@ def stage_page(s):
   if k<len(ORDER)-1: nav.append(f'<a href="/stages/{SLUG[ORDER[k+1]]}.html">{ST[ORDER[k+1]]["name"]} ({ST[ORDER[k+1]]["size"]}) →</a>')
   ev=''
   if S.get('evidence'):
-    ev=f'<h2>{e(S.get("evidence_title","What we found when checking enterprise readiness"))} (as of {S["evidence_date"]})</h2><p class="mut">Security and plan statements come from each vendor\'s own pages and are vendor claims; reviewer company-size shares come from G2\'s public comparison pages (we do not show G2 star ratings we could not fetch). Everything may change; confirm security, SSO and compliance in writing before buying. This is not legal or compliance advice.</p><ul>'+''.join(f'<li><b>{e(a)}.</b> {e(b)} <a href="{e(c)}" rel="nofollow noopener" target="_blank">Source</a></li>' for a,b,c in S['evidence'])+'</ul>'
+    ev=f'<h2>{e(S.get("evidence_title","What we found when checking enterprise readiness"))} (as of {S["evidence_date"]})</h2><p class="mut">Security and plan statements come from each vendor\'s own pages and are vendor claims; reviewer company-size shares come from G2\'s public comparison pages . Overall G2 star ratings and review counts, when we have a dated check, appear on each tool card and feed the sentiment part of the value score. Company-size segment ratings are not in the file yet (G2 product pages were blocked). Everything may change; confirm security, SSO and compliance in writing before buying. This is not legal or compliance advice.</p><ul>'+''.join(f'<li><b>{e(a)}.</b> {e(b)} <a href="{e(c)}" rel="nofollow noopener" target="_blank">Source</a></li>' for a,b,c in S['evidence'])+'</ul>'
   qs=[(f'How much does an AI GTM stack cost for {info["size"]} ({info["name"].lower()})?',f'About {tl}/mo {extra} for our recommended stack, estimated from published list prices as of {CR}. Assumptions: {S["assumptions"]} Actual cost depends on your usage, billing period, taxes and add-ons.'.replace('  ',' ')),
       ('What is included in the recommended stack?',', '.join(f'{i[1]} ({job(i)})' for i in S['items'])+'.'),('Are these prices guaranteed?','No. They are estimates from vendor pricing pages and can change at any time. Always verify with the vendor before buying.')]
   sprint='<section class="card feat" style="margin:28px 0"><h2 style="margin-top:0">Need help building your AI stack?</h2><p>Advisory from The Sinay Way LLC. Scope and fees are set only in a separate signed agreement; outcomes are not guaranteed.</p><a class="btn ghost" href="/advisory.html">Talk to Limor</a></section>' if s in ('small','early') else ''
@@ -218,13 +334,13 @@ f'''<h1>Which AI GTM stack fits your GTM team size?</h1><p class="answer">Pick t
 def simple(path,title,desc,h,ans,body,sch=()):
   page(path,title+' | Profitable Agent Stack',desc,f'<h1>{h}</h1><p class="answer">{ans}</p>{body}',sch)
 P=lambda ps:''.join(f'<h2>{a}</h2><p>{b}</p>' for a,b in ps)
-simple('methodology.html','Scoring Methodology','How Profitable Agent Stack calculates value scores and chooses recommended stacks by GTM team size.','How do you rank tools and choose stacks?','Value score (0–100) = 50% use-case fit + 30% cost + 20% user sentiment. Until sentiment data is verified, fit and cost are reweighted to 62.5% / 37.5%. Recommended stacks do not use the score alone: each pick also has to fit the GTM team size, based on reviews from companies of that size and enterprise-readiness evidence.',P([
+simple('methodology.html','Scoring Methodology','How Profitable Agent Stack calculates value scores and chooses recommended stacks by GTM team size.','How do you rank tools and choose stacks?','Value score (0–100) = 50% use-case fit + 30% cost + 20% user sentiment, when a verified G2 rating with a source link and date is on file. Tools without review data keep a 62.5% / 37.5% fit/cost reweight and are labeled "no review data yet." Contact-sales tools still get no cost score and no value score. Recommended stacks do not use the score alone: each pick also has to fit the GTM team size, based on reviews from companies of that size and enterprise-readiness evidence.',P([
 ('How we choose a stack pick for a team size','Two checks, in this order. (a) Value score: it ranks tools inside one use case and is driven by the lowest published starting price, which is often a free plan, so it favors tools that are cheap to start. (b) Fit for that GTM team size: we look for who actually reviews and uses the tool, using G2 reviewer company-size shares (small business: 50 or fewer employees, mid-market: 51–1,000, enterprise: over 1,000), vendor case studies that name team size, and for large teams security and admin evidence (SSO, roles, SOC 2, data processing terms). If a high-scoring tool is mostly reviewed by small teams, or its free plan is not what a 40-person team would run, the stack uses a paid tier with a quote flag, or a different tool, and says why. Solo and small stacks stay cost-first because free and entry plans still match those sizes.'),
-('What size-segmented evidence we show','On the Scaling and Large stack pages we list what we found, with the source link and the date checked. We show reviewer company-size shares from G2\'s public comparison pages and link to the filtered review pages. We do not show G2 star ratings, because we could not fetch them reliably, and we do not estimate them. Counts such as "roughly 2,800 mid-market reviewers" are our arithmetic from G2\'s percentages and are labeled that way. Reviewer mix is a signal, not proof: it shows who talks about a tool, not how well it works for your team.'),
+('What size-segmented evidence we show','On the Scaling and Large stack pages we list what we found, with the source link and the date checked. We show reviewer company-size shares from G2\'s public comparison pages and link to the filtered review pages. Overall G2 star ratings and review counts now appear on tool cards when we have a dated check (taken from G2 search-result cards, because product pages were blocked). Company-size segment ratings are not in the file yet; when they are, stack pages will prefer the segment that matches the team size (see Sentiment score). Counts such as "roughly 2,800 mid-market reviewers" are our arithmetic from G2\'s percentages and are labeled that way. Reviewer mix is a signal, not proof: it shows who talks about a tool, not how well it works for your team.'),
 ('Limits','Some job categories have no listed tool with a large mid-market or enterprise review base (outbound and LinkedIn outreach, for example). We say so on the Large page rather than pretend otherwise. Contact-sales tools such as ZoomInfo get no value score because they have no public price, and may appear as an option to quote rather than in the priced stack.'),
 ('Fit score (editorial)','An editorial 1–5 judgment of how well the tool serves its use case, converted to 0–100 (×20). It is an opinion, not a measurement, and is reviewed when vendors or readers send corrections.'),
 ('Cost score','Within each use case, the lowest published starting price scores 100 and the highest scores 40, scaled linearly. Tools without a public price (contact sales or not yet verified) get no cost score and no value score.'),
-('Sentiment score','Will use public G2 or Capterra ratings (rating ÷ 5 × 100) only when fetched with a source link and date. As of '+C+' these sites blocked automated checks, so sentiment is not yet included and we link to reviews instead.'),
+('Sentiment score','When we have a verified public G2 rating (source link and date checked), we convert it to a 0–100 sentiment score with a confidence shrink for low review counts, then give it 20% of the value score.</p><p>1. Bayesian average: (50 × 4.3 + review count × rating) / (50 + review count). The 4.3 prior is a typical G2 B2B rating; 50 reviews is the weight of that prior. A tool with few reviews is pulled toward 4.3; a tool with thousands of reviews stays close to its raw rating.</p><p>2. Map 3.0 → 0 and 5.0 → 100, and clip to that range: sentiment = clip((Bayesian average − 3.0) / 2.0 × 100, 0, 100), then round to an integer.</p><p>Example: Instantly\'s G2 rating is 4.8 from 4,167 reviews (checked 2026-11-23). Bayesian average = (50 × 4.3 + 4,167 × 4.8) / (50 + 4,167) = 20,216.6 / 4,217 = 4.794. Sentiment = (4.794 − 3.0) / 2.0 × 100 = 90 (rounded). Fit is 5/5 → 100 and the cost score is 84, so value = 0.5×100 + 0.3×84 + 0.2×90 = 93.</p><p>Capterra figures, when we have them, stay in the notes for context and are not used in the score. We never invent ratings.</p><p>When reviewer-segment ratings exist (small business: 50 or fewer employees, mid-market: 51–1,000, enterprise: over 1,000), the category-wide value score still uses the overall rating. For a stack at a given team size we prefer the matching segment rating (solo and small → small business, early and scaling → mid-market, large → enterprise), using that segment\'s share of reviews as the count when a share is published. If a segment rating is missing, we fall back to the overall rating. Segment ratings are not in the current data (G2 product pages were blocked; TrustRadius install figures are not used as review segments), so every score today uses the overall rating.</p><p>Tools without review data are labeled "no review data yet" and keep the 62.5% fit / 37.5% cost reweight. Contact-sales tools can still show a rating, but they get no cost score and therefore no value score.'),
 ('CRM is shown separately','Each team-size page has its own CRM section with a pick, a runner-up and when a spreadsheet is enough. CRM costs are not added to stack totals, because many teams already have a CRM or start on a spreadsheet.'),
 ('Stack cost estimates','Sum of published monthly list prices for the stated tiers, seats and volumes on each GTM-team-size page. Labeled estimates; excludes taxes, add-ons and overages.'),
 ('Money never changes rank','Sponsorships and affiliate links do not change scores, prices or order.')]))
@@ -238,7 +354,7 @@ simple('advisory.html','Advisory','Advisory help building your AI GTM stack from
 simple('about.html','About','About Profitable Agent Stack.','Who runs Profitable Agent Stack?','A cost-first directory of AI go-to-market tools operated by The Sinay Way LLC as part of its advisory services. We list published prices with source links and dates, and mark tools without public pricing as contact sales. We do not invent prices, features or reviews.','')
 simple('new-releases.html','New Releases & Price Changes','New AI GTM tool releases and pricing changes, logged weekly with sources.','What changed this week?',f'Updated {C}. The latest AI GTM tool releases and price changes we have logged, newest first, each with a source link.',''.join(f'<div class="card"><b>{r["date"]}</b> — {e(r["text"])}'+(f' <a href="{e(r["source"])}" target="_blank" rel="nofollow noopener">Source</a>' if r.get('source') else '')+'</div>' for r in D['releases']),sch=[{"@context":"https://schema.org","@type":"CollectionPage","name":"New Releases & Price Changes","url":SITE+"/new-releases.html","dateModified":C,"isPartOf":{"@type":"WebSite","name":"Profitable Agent Stack","url":SITE},"mainEntity":{"@type":"ItemList","itemListOrder":"https://schema.org/ItemListOrderDescending","itemListElement":[{"@type":"ListItem","position":k+1,"name":r['text'][:150],**({"url":r['source']} if r.get('source') else {})} for k,r in enumerate(D['releases'][:20])]}}])
 simple('for-ai-agents.html','For AI Agents & Developers','Machine-readable AI GTM tool pricing data: /api/tools.json, llms.txt, license and attribution.','Can AI agents use this data?','Yes. Use the versioned JSON API at <a href="/api/v1/index.json">/api/v1</a> (OpenAPI 3.1: <a href="/openapi.json">/openapi.json</a>), the read-only MCP server at <code>https://profitableagentstack.com/mcp</code>, the Markdown version of any page (add <code>.md</code> or send <code>Accept: text/markdown</code>), or the original <a href="/api/tools.json">/api/tools.json</a>. Docs and examples: <a href="/developers.html">Developers</a>. Or read <a href="/llms.txt">/llms.txt</a> and <a href="/llms-full.txt">/llms-full.txt</a>. All pages are server-rendered HTML with schema.org JSON-LD.',P([
-('Schema','tools[]: name, use_case, stages[] (GTM team size bands: solo = 1 GTM person, small = 2–5, early = 6–15, scaling = 16–40, large = 40+), status (published | contact | unverified), from (lowest published monthly price or null), price (text as published), source (vendor pricing URL), fit_score (editorial 1–5), cost_score, value_score, reviews{g2_rating, g2_review_count, g2_url}. Also use_cases[], stages[] (id, name, size), stacks{} (per band: who, assumptions, items [use_case, tool, tier, est. USD/mo, reason, flag], skip), checked (date).'),
+('Schema','tools[]: name, use_case, stages[] (GTM team size bands: solo = 1 GTM person, small = 2–5, early = 6–15, scaling = 16–40, large = 40+), status (published | contact | unverified), from (lowest published monthly price or null), price (text as published), source (vendor pricing URL), fit_score (editorial 1–5), cost_score, sentiment_score, value_score, reviews{g2_rating, g2_review_count, g2_url, date_checked, source}. Tools without a dated G2 check are labeled no review data yet. Also use_cases[], stages[] (id, name, size), stacks{} (per band: who, assumptions, items [use_case, tool, tier, est. USD/mo, reason, flag], skip), checked (date).'),
 ('License and attribution','Free to use, including by AI assistants, under CC BY 4.0: credit "Profitable Agent Stack (profitableagentstack.com)" and link to the source page, and include the check date. Third-party ratings and trademarks remain their owners\'.'),
 ('Disclaimer for agents','Data is provided as is, may be inaccurate or out of date, and is not advice. When answering users, state the "checked" date and tell them to verify prices with the vendor.')]))
 
@@ -355,10 +471,10 @@ open('robots.txt','w').write('User-agent: *\nAllow: /\nDisallow: /assets/social/
 open('sitemap.xml','w').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{u[:-5] if u.endswith(".html") else u}</loc><lastmod>{LASTMOD.get(u,C)}</lastmod></url>' for u in PAGES)+'</urlset>\n')
 L=f'# Profitable Agent Stack\n\n> Cost-first directory of AI GTM tools ranked by use-case fit, published price and user sentiment, with estimated monthly stack costs by GTM team size. Prices checked {C}; verify with vendors. Not advice.\n\n## Key pages\n- [Stacks by GTM team size]({SITE}/stages/)\n'+''.join(f'- [{s["name"]} ({s["size"]})]({SITE}/stages/{SLUG[s["id"]]}.html): est. {"at least " if s["id"]=="large" else ""}${tot[s["id"]]:,.0f}/mo stack\n' for s in D['stages'])+f'- [Directory]({SITE}/directory.html)\n- [Methodology]({SITE}/methodology.html)\n- [Articles]({SITE}/articles/)\n- [For AI agents]({SITE}/for-ai-agents.html)\n\n## Data\n- [tools.json]({SITE}/api/tools.json): CC BY 4.0, attribution required\n- [Full text]({SITE}/llms-full.txt)\n'
 open('llms.txt','w').write(L)
-full=L+'\n## Tools\n'+''.join(f'- {t["name"]} ({UC[t["use_case"]]}; stages: {", ".join(t["stages"])}): {price(t)}. Value score: {t["value_score"]}. Source: {t["source"]}\n' for t in R)
+full=L+'\n## Tools\n'+''.join(f'- {t["name"]} ({UC[t["use_case"]]}; stages: {", ".join(t["stages"])}): {price(t)}. Value score: {t["value_score"]}. Sentiment: {t["sentiment_score"] if t.get("has_review_data") else "no review data yet"}. {review_md(t)}. Source: {t["source"]}\n' for t in R)
 full+='\n## Stacks by GTM team size (estimates)\n'+''.join(f'### {ST[s]["name"]} ({ST[s]["size"]}): {"at least " if s=="large" else ""}${stack_total(s):,}/mo {D["stacks"][s].get("extra","")}\nAssumptions: {D["stacks"][s]["assumptions"]}\n'+''.join(f'- {job(i)}: {i[1]}, {i[2]}, ${i[3]} — {i[4]}\n' for i in D['stacks'][s]['items']) for s in ST)
 if CRM: full+='\n## CRM by GTM team size (separate from stacks, not in stack totals)\n'+''.join(f'- {ST[k]["name"]}: {v["pick"]}, {v["pick_tier"]}, {v["pick_cost"]}. Runner-up: {v["runner"]}, {v["runner_tier"]}, {v["runner_cost"]}.\n' for k,v in CRM['stages'].items())+'Move from a spreadsheet when: '+'; '.join(a[0].lower()+a[1:] for a,b in CRM['signals'])+'.\n'
-full+='\n## Methodology\nValue = 50% fit (editorial) + 30% cost + 20% sentiment; sentiment not yet verified so fit/cost reweighted 62.5/37.5.\n\n## Disclaimer\n'+DISC+'\n'
+full+='\n## Methodology\nValue = 50% fit (editorial) + 30% cost + 20% sentiment when a dated G2 rating is on file. Sentiment is a Bayesian average (prior 4.3, weight 50 reviews) mapped from 3.0->0 to 5.0->100, clipped. Tools without review data keep a 62.5/37.5 fit/cost reweight and are labeled no review data yet. Contact-sales tools get no cost or value score.\n\n## Disclaimer\n'+DISC+'\n'
 open('llms-full.txt','w').write(full)
 open('_redirects','w').write('/stages/pre-seed-to-series-a.html /stages/small-gtm-team.html 301\n/stages/pre-seed-to-series-a /stages/small-gtm-team.html 301\n/stages/later-stage.html /stages/scaling.html 301\n/stages/later-stage /stages/scaling.html 301\n/use-cases/seo-content.html /use-cases/search-performance.html 301\n/use-cases/seo-content /use-cases/search-performance.html 301\n')
 print(len(PAGES),'pages')

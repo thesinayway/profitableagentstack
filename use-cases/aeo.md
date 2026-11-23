@@ -7,21 +7,23 @@ license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" a
 
 # What is the best value tool for AEO (AI search visibility)?
 
-Peec AI has the highest value score (82) among tools we list, priced at: Starter $95/mo (50 prompts, 3 chosen models, unlimited users, SOC 2); Pro $245/mo (150 prompts, API); Advanced $495/mo (350 prompts); Enterprise custom (SSO, more models). Verify with the vendor.
+Peec AI has the highest value score (80) among tools we list, priced at: Starter $95/mo (50 prompts, 3 chosen models, unlimited users, SOC 2); Pro $245/mo (150 prompts, API); Advanced $495/mo (350 prompts); Enterprise custom (SSO, more models). Verify with the vendor.
 
 ### [Peec AI](https://peec.ai/)
 
 AEO (AI search visibility)
 
-Value score: 82
+Value score: 80
 
 Best valueIn our stacks: Early scaling, Scaling, Large / multi-team
 
 Starter $95/mo (50 prompts, 3 chosen models, unlimited users, SOC 2); Pro $245/mo (150 prompts, API); Advanced $495/mo (350 prompts); Enterprise custom (SSO, more models)
 
-Fit 4/5 (editorial) · Fits: Early scaling, Scaling, Large / multi-team
+Fit 4/5 (editorial) · sentiment 71 · Fits: Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://peec.ai/pricing) · [See reviews on G2](https://www.g2.com/search?query=Peec+AI)
+[G2 4.7/5 · 21 reviews · checked 2026-11-23](https://www.g2.com/products/peec-ai/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://peec.ai/pricing)
 
 ### [Otterly.AI](https://otterly.ai/)
 
@@ -33,7 +35,9 @@ Lite €29/mo (16 prompts, 2,000 credits, 4 of 7 engines); Standard €189/mo (1
 
 Fit 3/5 (editorial) · Fits: Early scaling, Scaling
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://otterly.ai/pricing) · [See reviews on G2](https://www.g2.com/search?query=Otterly.AI)
+No review data yet
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://otterly.ai/pricing)
 
 ### [Scrunch](https://scrunch.com/)
 
@@ -45,7 +49,9 @@ Core $250/mo (125 prompts, 4 LLMs, 5 licenses; third-party reports $300 month-to
 
 Fit 4/5 (editorial) · Fits: Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://scrunch.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Scrunch)
+No review data yet
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://scrunch.com/pricing)
 
 ### [AthenaHQ](https://www.athenahq.ai/)
 
@@ -57,7 +63,9 @@ Essential free tier ($25 free credit); Starter $295/mo (3,600 credits, 11 models
 
 Fit 4/5 (editorial) · Fits: Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.athenahq.ai/plans) · [See reviews on G2](https://www.g2.com/search?query=AthenaHQ)
+No review data yet
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.athenahq.ai/plans)
 
 ### [Profound](https://www.tryprofound.com/)
 
@@ -71,13 +79,15 @@ Contact sales
 
 Fit 4/5 (editorial) · Fits: Scaling, Large / multi-team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.tryprofound.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Profound)
+No review data yet
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.tryprofound.com/pricing)
 
 ## FAQ
 
 ### What is the best value tool for AEO (AI search visibility)?
 
-Peec AI has the highest value score (82) among tools we list, priced at: Starter $95/mo (50 prompts, 3 chosen models, unlimited users, SOC 2); Pro $245/mo (150 prompts, API); Advanced $495/mo (350 prompts); Enterprise custom (SSO, more models). Verify with the vendor.
+Peec AI has the highest value score (80) among tools we list, priced at: Starter $95/mo (50 prompts, 3 chosen models, unlimited users, SOC 2); Pro $245/mo (150 prompts, API); Advanced $495/mo (350 prompts); Enterprise custom (SSO, more models). Verify with the vendor.
 
 ### How much do AEO (AI search visibility) tools cost?
 

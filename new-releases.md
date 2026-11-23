@@ -9,6 +9,8 @@ license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" a
 
 Updated 2026-11-23. The latest AI GTM tool releases and price changes we have logged, newest first, each with a source link.
 
+**2026-11-23** — Scoring: verified G2 ratings now feed the 20% sentiment part of the value score for all 22 tools in the recommended stacks. Sentiment is a Bayesian average (prior 4.3, weight 50 reviews) mapped from 3.0-5.0 to 0-100. Tools without a dated G2 check keep the 62.5/37.5 fit/cost reweight and are labeled "no review data yet." Full math is on the methodology page. [Source](https://profitableagentstack.com/methodology)
+
 **2026-11-23** — New this week: Reply.io (listed) released Jason Harness (Nov 20), a free, open-source (MIT) AI SDR harness that runs inside Claude Code or Codex as nine roles (planner, researcher, copywriter, critic and more). Reply sends the emails and LinkedIn messages and a person approves every send. In alpha; uses your own AI subscription, Reply plans still paid. [Source](https://www.einpresswire.com/article/957995784/reply-io-launches-open-source-jason-harness-for-outbound-sales)
 
 **2026-11-23** — New this week: Clay (listed) opened its global agent in beta (Nov 19): you describe a play in chat and it builds the search, audience, workflow and sequence, tests on sample records and shows an estimated cost before running at scale. Included on paid Launch, Growth and Enterprise plans. [Source](https://www.clay.com/blog/clay-global-agent-beta)

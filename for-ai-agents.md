@@ -11,7 +11,7 @@ Yes. Use the versioned JSON API at [/api/v1](https://profitableagentstack.com/ap
 
 ## Schema
 
-tools[]: name, use\_case, stages[] (GTM team size bands: solo = 1 GTM person, small = 2–5, early = 6–15, scaling = 16–40, large = 40+), status (published | contact | unverified), from (lowest published monthly price or null), price (text as published), source (vendor pricing URL), fit\_score (editorial 1–5), cost\_score, value\_score, reviews{g2\_rating, g2\_review\_count, g2\_url}. Also use\_cases[], stages[] (id, name, size), stacks{} (per band: who, assumptions, items [use\_case, tool, tier, est. USD/mo, reason, flag], skip), checked (date).
+tools[]: name, use\_case, stages[] (GTM team size bands: solo = 1 GTM person, small = 2–5, early = 6–15, scaling = 16–40, large = 40+), status (published | contact | unverified), from (lowest published monthly price or null), price (text as published), source (vendor pricing URL), fit\_score (editorial 1–5), cost\_score, sentiment\_score, value\_score, reviews{g2\_rating, g2\_review\_count, g2\_url, date\_checked, source}. Tools without a dated G2 check are labeled no review data yet. Also use\_cases[], stages[] (id, name, size), stacks{} (per band: who, assumptions, items [use\_case, tool, tier, est. USD/mo, reason, flag], skip), checked (date).
 
 ## License and attribution
 

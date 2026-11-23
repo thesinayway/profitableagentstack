@@ -9,35 +9,39 @@ license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" a
 
 # What is the best value tool for linkedIn outreach?
 
-Waalaxy has the highest value score (88) among tools we list, priced at: €19, €49, €69 per user/mo; 14-day free trial (EUR). Verify with the vendor.
+Waalaxy has the highest value score (85) among tools we list, priced at: €19, €49, €69 per user/mo; 14-day free trial (EUR). Verify with the vendor.
 
 ### [Waalaxy](https://waal.ink/N47esf) affiliate
 
 LinkedIn outreach
 
-Value score: 88
+Value score: 85
 
 Best valueIn our stacks: Solo, Small team
 
 €19, €49, €69 per user/mo; 14-day free trial (EUR)
 
-Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling
+Fit 4/5 (editorial) · sentiment 75 · Fits: Solo, Small team, Early scaling
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.waalaxy.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Waalaxy)
+[G2 4.5/5 · 1,747 reviews · checked 2026-11-23](https://www.g2.com/products/waalaxy/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.waalaxy.com/pricing)
 
 ### [HeyReach](https://heyreach.io/?via=limor) affiliate
 
 LinkedIn outreach
 
-Value score: 83
+Value score: 81
 
 In our stacks: Early scaling, Scaling, Large / multi-team
 
 Growth $79/sender/mo; Agency $999/mo (25 senders); Unlimited $2,999/mo
 
-Fit 5/5 (editorial) · Fits: Small team, Early scaling, Scaling, Large / multi-team
+Fit 5/5 (editorial) · sentiment 74 · Fits: Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.heyreach.io/pricing) · [See reviews on G2](https://www.g2.com/search?query=HeyReach)
+[G2 4.6/5 · 74 reviews · checked 2026-11-23](https://www.g2.com/products/heyreach/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.heyreach.io/pricing)
 
 ### [Expandi](https://expandi.io/)
 
@@ -49,13 +53,15 @@ $99/mo monthly ($79 annual), 7-day free trial
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://expandi.io/pricing/) · [See reviews on G2](https://www.g2.com/search?query=Expandi)
+No review data yet
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://expandi.io/pricing/)
 
 ## FAQ
 
 ### What is the best value tool for linkedIn outreach?
 
-Waalaxy has the highest value score (88) among tools we list, priced at: €19, €49, €69 per user/mo; 14-day free trial (EUR). Verify with the vendor.
+Waalaxy has the highest value score (85) among tools we list, priced at: €19, €49, €69 per user/mo; 14-day free trial (EUR). Verify with the vendor.
 
 ### How much do linkedIn outreach tools cost?
 

@@ -9,49 +9,55 @@ license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" a
 
 # What is the best value tool for signals, intent & analytics?
 
-RB2B has the highest value score (88) among tools we list, priced at: Free $0; Starter $79/mo; Pro from $149; Pro+ from $199. Verify with the vendor.
+RB2B has the highest value score (85) among tools we list, priced at: Free $0; Starter $79/mo; Pro from $149; Pro+ from $199. Verify with the vendor.
 
 ### [RB2B](https://rb2b.com/?ref=limor) affiliate
 
 Signals, intent & analytics
 
-Value score: 88
+Value score: 85
 
 Best valueIn our stacks: Small team, Early scaling, Scaling
 
 Free $0; Starter $79/mo; Pro from $149; Pro+ from $199
 
-Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling
+Fit 4/5 (editorial) · sentiment 74 · Fits: Solo, Small team, Early scaling, Scaling
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.rb2b.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=RB2B)
+[G2 4.5/5 · 285 reviews · checked 2026-11-23](https://www.g2.com/products/rb2b/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.rb2b.com/pricing)
 
 ### [PostHog](https://posthog.com/)
 
 Signals, intent & analytics
 
-Value score: 88
+Value score: 85
 
 Best valueIn our stacks: Early scaling, Scaling, Large / multi-team
 
 Free monthly allowance (e.g. 1M analytics events), then usage-based
 
-Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
+Fit 4/5 (editorial) · sentiment 75 · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://posthog.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=PostHog)
+[G2 4.5/5 · 1,057 reviews · checked 2026-11-23](https://www.g2.com/products/posthog/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://posthog.com/pricing)
 
 ### [Common Room](https://www.commonroom.io/)
 
 Signals, intent & analytics
 
-Value score: 65
+Value score: 66
 
 In our stacks: Large / multi-team
 
 Essential $2,500/mo billed annually (5 seats)
 
-Fit 4/5 (editorial) · Fits: Large / multi-team
+Fit 4/5 (editorial) · sentiment 72 · Fits: Large / multi-team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.commonroom.io/pricing) · [See reviews on G2](https://www.g2.com/search?query=Common+Room)
+[G2 4.5/5 · 141 reviews · checked 2026-11-23](https://www.g2.com/products/common-room/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.commonroom.io/pricing)
 
 ### [Warmly](https://www.warmly.ai/)
 
@@ -63,13 +69,15 @@ AI web de-anonymization from $10,000/yr; Inbound Chat $20,000/yr; AI Inbound Aut
 
 Fit 2/5 (editorial) · Fits: Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.warmly.ai/pricing) · [See reviews on G2](https://www.g2.com/products/warmly-warmly/reviews)
+No review data yet · [See reviews on G2](https://www.g2.com/products/warmly-warmly/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.warmly.ai/pricing)
 
 ## FAQ
 
 ### What is the best value tool for signals, intent & analytics?
 
-RB2B has the highest value score (88) among tools we list, priced at: Free $0; Starter $79/mo; Pro from $149; Pro+ from $199. Verify with the vendor.
+RB2B has the highest value score (85) among tools we list, priced at: Free $0; Starter $79/mo; Pro from $149; Pro+ from $199. Verify with the vendor.
 
 ### How much do signals, intent & analytics tools cost?
 

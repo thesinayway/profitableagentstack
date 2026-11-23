@@ -7,7 +7,7 @@ license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" a
 
 # How do you rank tools and choose stacks?
 
-Value score (0–100) = 50% use-case fit + 30% cost + 20% user sentiment. Until sentiment data is verified, fit and cost are reweighted to 62.5% / 37.5%. Recommended stacks do not use the score alone: each pick also has to fit the GTM team size, based on reviews from companies of that size and enterprise-readiness evidence.
+Value score (0–100) = 50% use-case fit + 30% cost + 20% user sentiment, when a verified G2 rating with a source link and date is on file. Tools without review data keep a 62.5% / 37.5% fit/cost reweight and are labeled "no review data yet." Contact-sales tools still get no cost score and no value score. Recommended stacks do not use the score alone: each pick also has to fit the GTM team size, based on reviews from companies of that size and enterprise-readiness evidence.
 
 ## How we choose a stack pick for a team size
 
@@ -15,7 +15,7 @@ Two checks, in this order. (a) Value score: it ranks tools inside one use case a
 
 ## What size-segmented evidence we show
 
-On the Scaling and Large stack pages we list what we found, with the source link and the date checked. We show reviewer company-size shares from G2's public comparison pages and link to the filtered review pages. We do not show G2 star ratings, because we could not fetch them reliably, and we do not estimate them. Counts such as "roughly 2,800 mid-market reviewers" are our arithmetic from G2's percentages and are labeled that way. Reviewer mix is a signal, not proof: it shows who talks about a tool, not how well it works for your team.
+On the Scaling and Large stack pages we list what we found, with the source link and the date checked. We show reviewer company-size shares from G2's public comparison pages and link to the filtered review pages. Overall G2 star ratings and review counts now appear on tool cards when we have a dated check (taken from G2 search-result cards, because product pages were blocked). Company-size segment ratings are not in the file yet; when they are, stack pages will prefer the segment that matches the team size (see Sentiment score). Counts such as "roughly 2,800 mid-market reviewers" are our arithmetic from G2's percentages and are labeled that way. Reviewer mix is a signal, not proof: it shows who talks about a tool, not how well it works for your team.
 
 ## Limits
 
@@ -31,7 +31,19 @@ Within each use case, the lowest published starting price scores 100 and the hig
 
 ## Sentiment score
 
-Will use public G2 or Capterra ratings (rating ÷ 5 × 100) only when fetched with a source link and date. As of 2026-11-23 these sites blocked automated checks, so sentiment is not yet included and we link to reviews instead.
+When we have a verified public G2 rating (source link and date checked), we convert it to a 0–100 sentiment score with a confidence shrink for low review counts, then give it 20% of the value score.
+
+1. Bayesian average: (50 × 4.3 + review count × rating) / (50 + review count). The 4.3 prior is a typical G2 B2B rating; 50 reviews is the weight of that prior. A tool with few reviews is pulled toward 4.3; a tool with thousands of reviews stays close to its raw rating.
+
+2. Map 3.0 → 0 and 5.0 → 100, and clip to that range: sentiment = clip((Bayesian average − 3.0) / 2.0 × 100, 0, 100), then round to an integer.
+
+Example: Instantly's G2 rating is 4.8 from 4,167 reviews (checked 2026-11-23). Bayesian average = (50 × 4.3 + 4,167 × 4.8) / (50 + 4,167) = 20,216.6 / 4,217 = 4.794. Sentiment = (4.794 − 3.0) / 2.0 × 100 = 90 (rounded). Fit is 5/5 → 100 and the cost score is 84, so value = 0.5×100 + 0.3×84 + 0.2×90 = 93.
+
+Capterra figures, when we have them, stay in the notes for context and are not used in the score. We never invent ratings.
+
+When reviewer-segment ratings exist (small business: 50 or fewer employees, mid-market: 51–1,000, enterprise: over 1,000), the category-wide value score still uses the overall rating. For a stack at a given team size we prefer the matching segment rating (solo and small → small business, early and scaling → mid-market, large → enterprise), using that segment's share of reviews as the count when a share is published. If a segment rating is missing, we fall back to the overall rating. Segment ratings are not in the current data (G2 product pages were blocked; TrustRadius install figures are not used as review segments), so every score today uses the overall rating.
+
+Tools without review data are labeled "no review data yet" and keep the 62.5% fit / 37.5% cost reweight. Contact-sales tools can still show a rating, but they get no cost score and therefore no value score.
 
 ## CRM is shown separately
 

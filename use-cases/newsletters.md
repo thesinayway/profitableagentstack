@@ -9,21 +9,23 @@ license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" a
 
 # What is the best value tool for newsletters?
 
-beehiiv has the highest value score (100) among tools we list, priced at: Free forever (1,000-subscriber view); Lite $49/mo yearly billing; Pro $95/mo yearly billing. Verify with the vendor.
+beehiiv has the highest value score (94) among tools we list, priced at: Free forever (1,000-subscriber view); Lite $49/mo yearly billing; Pro $95/mo yearly billing. Verify with the vendor.
 
 ### [beehiiv](https://www.beehiiv.com?via=limor-sinay) affiliate
 
 Newsletters
 
-Value score: 100
+Value score: 94
 
 Best valueIn our stacks: Solo, Small team, Early scaling, Scaling
 
 Free forever (1,000-subscriber view); Lite $49/mo yearly billing; Pro $95/mo yearly billing
 
-Fit 5/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
+Fit 5/5 (editorial) · sentiment 69 · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.beehiiv.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=beehiiv)
+[G2 4.5/5 · 40 reviews · checked 2026-11-23](https://www.g2.com/products/beehiiv/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.beehiiv.com/pricing)
 
 ### [Kit](https://partners.kit.com/3lrqdv0acv0p) affiliate
 
@@ -35,13 +37,15 @@ Free $0 (up to 10,000 subscribers); Creator $39/mo billed monthly ($33/mo billed
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://kit.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Kit)
+No review data yet
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://kit.com/pricing)
 
 ## FAQ
 
 ### What is the best value tool for newsletters?
 
-beehiiv has the highest value score (100) among tools we list, priced at: Free forever (1,000-subscriber view); Lite $49/mo yearly billing; Pro $95/mo yearly billing. Verify with the vendor.
+beehiiv has the highest value score (94) among tools we list, priced at: Free forever (1,000-subscriber view); Lite $49/mo yearly billing; Pro $95/mo yearly billing. Verify with the vendor.
 
 ### How much do newsletters tools cost?
 

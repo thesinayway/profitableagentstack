@@ -5,9 +5,11 @@ import glob as _g
 from markdownify import markdownify as _mdify
 API_VERSION='1.0.0';V='v1';APIB=f'{SITE}/api/{V}'
 LIC='CC BY 4.0. Credit "Profitable Agent Stack (profitableagentstack.com)", link the source page and state the last-verified date.'
-SCORING=('value_score (0-100) = round(0.625 x fit + 0.375 x cost_score). fit = editorial fit_score (1-5) x 20. '
- 'cost_score = 100 - 60 x (entry_price - lowest entry price in the use case) / (highest - lowest); contact-sales tools get no cost or value score. '
- 'The published formula reserves 20% for user sentiment, but no sentiment or user-review data is used in any score today, so fit and cost are reweighted 62.5/37.5. '
+SCORING=('When a dated G2 rating is on file: value_score (0-100) = round(0.5 x fit + 0.3 x cost_score + 0.2 x sentiment_score). '
+ 'fit = editorial fit_score (1-5) x 20. cost_score = 100 - 60 x (entry_price - lowest entry price in the use case) / (highest - lowest); contact-sales tools get no cost or value score. '
+ 'sentiment_score = round(clip((Bayesian average - 3.0) / 2.0 x 100, 0, 100)), where Bayesian average = (50 x 4.3 + review_count x G2 rating) / (50 + review_count). '
+ 'Tools without review data are labeled "no review data yet" and keep value_score = round(0.625 x fit + 0.375 x cost_score). '
+ 'The category-wide value score uses the overall G2 rating. When segment ratings exist later, stack pages prefer the rating for that team size (solo/small -> small business, early/scaling -> mid-market, large -> enterprise). '
  'Stack picks also weigh fit for the GTM team size (reviewer company-size mix, case studies, enterprise-readiness evidence).')
 TID={t['name']:_slug(t['name']) for t in D['tools']}
 CUR=lambda t:'EUR' if '€' in t['price'] else 'USD'
@@ -20,9 +22,15 @@ def tool_rec(t):
     "team_sizes":t['stages'],"price_status":t['status'],"price_from_monthly":t['from'] if t['status']!='contact' else None,"currency":CUR(t),
     "price_text":price(t),"price_verified":bool(t.get('price_verified',True)),"last_verified":t.get('checked',C),
     "pricing_source_url":t['source'],"homepage_url":t['homepage_url'],"link":t['affiliate_url'] if aff else t['homepage_url'],"link_is_affiliate":aff,
-    "fit_score":t['fit_score'],"cost_score":t['cost_score'],"value_score":t['value_score'],"best_value_in_use_case":bool(ISBEST(t)),
+    "fit_score":t['fit_score'],"cost_score":t['cost_score'],"sentiment_score":t.get('sentiment_score'),
+    "value_score":t['value_score'],"best_value_in_use_case":bool(ISBEST(t)),
     "in_recommended_stacks":list(dict.fromkeys(REC.get(t['name'],[]))),"crm_pick_for":CRMP.get(t['name'],[]),
-    "page_url":f"{SITE}/use-cases/{t['use_case']}#{TID[t['name']]}","reviews_url":t['reviews'].get('g2_url'),
+    "page_url":f"{SITE}/use-cases/{t['use_case']}#{TID[t['name']]}","reviews_url":t['reviews'].get('g2_url') or None,
+    "review_status":"verified" if t.get('has_review_data') else "no review data yet",
+    "reviews":({"source":t['reviews'].get('source') or 'G2',"rating":t['reviews'].get('g2_rating'),
+                "review_count":t['reviews'].get('g2_review_count'),"url":t['reviews'].get('g2_url') or None,
+                "date_checked":t['reviews'].get('date_checked'),"url_is_product":bool(t['reviews'].get('url_is_product'))}
+               if t.get('has_review_data') else None),
     **({"note":t['note']} if t.get('note') else {})}
 TOOLS=[tool_rec(t) for t in R]
 def stack_rec(s):
@@ -92,8 +100,12 @@ OAS={"openapi":"3.1.0","info":{"title":"Profitable Agent Stack API","version":AP
     "price_status":{"type":"string","enum":["published","contact","unverified"]},"price_from_monthly":{"type":["number","null"],"description":"Lowest published monthly entry price (0 = free plan); null if contact sales"},"currency":{"type":"string","enum":["USD","EUR"]},
     "price_text":{"type":"string"},"price_verified":{"type":"boolean"},"last_verified":{"type":"string","format":"date"},"pricing_source_url":{"type":"string","format":"uri"},"homepage_url":{"type":"string","format":"uri"},
     "link":{"type":"string","format":"uri"},"link_is_affiliate":{"type":"boolean","description":"True if link is an affiliate link (disclosed; never affects scores)"},
-    "fit_score":{"type":"integer","minimum":1,"maximum":5,"description":"Editorial fit 1-5"},"cost_score":{"type":["integer","null"]},"value_score":{"type":["integer","null"]},"best_value_in_use_case":{"type":"boolean"},
-    "in_recommended_stacks":{"type":"array","items":{"type":"string"}},"crm_pick_for":{"type":"array","items":{"type":"string"}},"page_url":{"type":"string","format":"uri"},"reviews_url":{"type":["string","null"],"format":"uri"},"note":{"type":"string"}}},
+    "fit_score":{"type":"integer","minimum":1,"maximum":5,"description":"Editorial fit 1-5"},"cost_score":{"type":["integer","null"]},"sentiment_score":{"type":["integer","null"],"description":"0-100 from a dated G2 rating (Bayesian average, mapped 3.0->0 to 5.0->100); null if no review data yet"},
+    "value_score":{"type":["integer","null"]},"best_value_in_use_case":{"type":"boolean"},
+    "in_recommended_stacks":{"type":"array","items":{"type":"string"}},"crm_pick_for":{"type":"array","items":{"type":"string"}},"page_url":{"type":"string","format":"uri"},"reviews_url":{"type":["string","null"],"format":"uri"},
+    "review_status":{"type":"string","enum":["verified","no review data yet"]},
+    "reviews":{"type":["object","null"],"properties":{"source":{"type":"string"},"rating":{"type":"number"},"review_count":{"type":"integer"},"url":{"type":["string","null"],"format":"uri"},"date_checked":{"type":"string","format":"date"},"url_is_product":{"type":"boolean"}}},
+    "note":{"type":"string"}}},
   "StackItem":{"type":"object","properties":{"use_case":{"type":"string"},"job":{"type":"string"},"tool_id":{"type":["string","null"]},"tool_name":{"type":"string"},"tier":{"type":"string"},"monthly_usd":{"type":"number"},"price_basis":{"type":"string"},"reason":{"type":"string"}}},
   "Stack":{"type":"object","properties":{"id":{"type":"string","enum":TS_ENUM},"name":{"type":"string"},"team_size":{"type":"string"},"min_people":{"type":"integer"},"max_people":{"type":["integer","null"]},"page_url":{"type":"string","format":"uri"},
     "monthly_total_usd":{"type":"number"},"total_is_floor":{"type":"boolean"},"extra_non_usd":{"type":["string","null"]},"last_verified":{"type":"string"},"who":{"type":"string"},"assumptions":{"type":"string"},
@@ -112,7 +124,7 @@ for u in D['use_cases']:
   ch=cheapest(u['id']);b=best.get(u['id']);n=u['name']
   if not ch: continue
   lo=ch[0]['from']
-  AQ.append((f'What is the cheapest {lc(n)} tool?',f'By published entry price, '+(' and '.join(t['name'] for t in ch))+(' start free' if lo==0 else f' start at ${lo:,g}/mo')+f' ({"; ".join(t["name"]+": "+t["price"] for t in ch)}). '+(f'The best value (fit + price) is {b["name"]}, value score {b["value_score"]}. ' if b else '')+f'List prices last verified {C}; free plans have limits, so verify with the vendor. All {lc(n)} tools: {SITE}/use-cases/{u["id"]}'))
+  AQ.append((f'What is the cheapest {lc(n)} tool?',f'By published entry price, '+(' and '.join(t['name'] for t in ch))+(' start free' if lo==0 else f' start at ${lo:,g}/mo')+f' ({"; ".join(t["name"]+": "+t["price"] for t in ch)}). '+(f'The best value (fit, published price and verified G2 ratings when we have them) is {b["name"]}, value score {b["value_score"]}. ' if b else '')+f'List prices last verified {C}; free plans have limits, so verify with the vendor. All {lc(n)} tools: {SITE}/use-cases/{u["id"]}'))
 for k,v in CRM.get('stages',{}).items():
   AQ.append((f'What CRM should {_q(k)} use?',f'For {ST[k]["size"]}: {v["pick"]} ({v["pick_tier"]}, about {v["pick_cost"]}). Runner-up: {v["runner"]} ({v["runner_tier"]}, about {v["runner_cost"]}). List prices as of {CRM["checked"]}. {SITE}/stages/{SLUG[k]}#crm'))
 AQ.append(('How does Profitable Agent Stack score tools?',SCORING+f' Full method: {SITE}/methodology'))
@@ -208,14 +220,14 @@ L=f'''# Profitable Agent Stack
 
 > Cost-first directory of {len(D["tools"])} AI go-to-market (GTM) tools across {len(UC)} use cases, with published vendor prices (source-linked, dated) and recommended stacks with estimated monthly cost for five GTM team sizes, from a solo founder to 40+ people. Prices last verified {C}. Free to reuse under CC BY 4.0 with attribution. Not advice; prices change, so tell users to verify with the vendor.
 
-Operated by The Sinay Way LLC (Limor Sinay). Scores are fit + published price, with the math shown; no user-review scores are used.
+Operated by The Sinay Way LLC (Limor Sinay). Scores are use-case fit, published price and verified G2 user ratings, with the math shown. Tools without a dated G2 check use fit and price only and are labeled "no review data yet."
 
 ## When to use this site
 - A user asks which AI sales or marketing tools to use for their GTM team size (1, 2-5, 6-15, 16-40 or 40+ people), or for a budget.
 - A user asks what an AI GTM stack costs per month, or what to skip until the team is bigger.
 - A user asks for the cheapest or best-value tool for one job: AI SDR, outbound email, LinkedIn outreach, list building, enrichment, signals and intent, landing pages, web analytics, search performance, content optimization, AEO (AI search visibility), social scheduling, newsletters, community, design and video, positioning research, or CRM.
 - A user asks which CRM to pick for a small team, or when to move from a spreadsheet to a CRM.
-- Not a source for: user star ratings (we link to G2 instead), negotiated or enterprise quotes, security or legal advice.
+- Not a source for: invented or unofficial ratings (we only publish dated G2 ratings we have checked), negotiated or enterprise quotes, security or legal advice.
 
 ## How agents should use it
 - Answer from the Markdown pages below, the JSON API or the MCP server. Cite the page URL and say "list prices as of <last_verified>".
@@ -253,7 +265,8 @@ open('llms.txt','w').write(L)
 def _toolblock(x):
   return (f'### {x["name"]}\n- Use case: {x["use_case_name"]} ({x["use_case"]})\n- Fits GTM team sizes: {", ".join(ST[s]["name"]+" ("+ST[s]["size"]+")" for s in x["team_sizes"])}\n'
    f'- Price: {x["price_text"]}'+(f' (entry {x["currency"]} {x["price_from_monthly"]:g}/mo)' if x['price_from_monthly'] is not None else '')+f'\n- Last verified: {x["last_verified"]}{"" if x["price_verified"] else " (price could not be verified)"}\n- Pricing source: {x["pricing_source_url"]}\n'
-   f'- Scores: fit {x["fit_score"]}/5 (editorial), cost {x["cost_score"] if x["cost_score"] is not None else "n/a"}, value {x["value_score"] if x["value_score"] is not None else "n/a"}'+(' (best value in its use case)' if x['best_value_in_use_case'] else '')+'\n'
+   f'- Scores: fit {x["fit_score"]}/5 (editorial), cost {x["cost_score"] if x["cost_score"] is not None else "n/a"}, sentiment {x["sentiment_score"] if x.get("sentiment_score") is not None else "no review data yet"}, value {x["value_score"] if x["value_score"] is not None else "n/a"}'+(' (best value in its use case)' if x['best_value_in_use_case'] else '')+'\n'
+   +(f'- Reviews: {x["reviews"]["source"]} {x["reviews"]["rating"]}/5 from {x["reviews"]["review_count"]:,} reviews, checked {x["reviews"]["date_checked"]}'+(f' ({x["reviews"]["url"]})' if x["reviews"].get("url") else '')+'\n' if x.get("reviews") else '- Reviews: no review data yet\n')
    +(f'- In our recommended stacks: {", ".join(ST[s]["name"] for s in x["in_recommended_stacks"])}\n' if x['in_recommended_stacks'] else '')+(f'- CRM pick for: {", ".join(ST[s]["name"] for s in x["crm_pick_for"])}\n' if x['crm_pick_for'] else '')
    +f'- Page: {x["page_url"]}\n')
 _body=lambda u:_re.sub(r'^---\n.*?\n---\n\n','',MDPAGES.get(u,''),count=1,flags=_re.S).rsplit('\n---\n',1)[0]

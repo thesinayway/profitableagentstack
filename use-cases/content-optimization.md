@@ -19,9 +19,11 @@ Best valueIn our stacks: Early scaling, Scaling, Large / multi-team
 
 Discovery $49/mo, AI Visibility $82/mo, Standard $99/mo, Pro $182/mo, Peace of Mind $299/mo (page lists "USD per month", billed yearly)
 
-Fit 4/5 (editorial) · Fits: Small team, Early scaling, Scaling, Large / multi-team
+Fit 4/5 (editorial) · sentiment 88 · Fits: Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://surfer.ai/pricing/) · [See reviews on G2](https://www.g2.com/search?query=Surfer)
+[G2 4.8/5 · 548 reviews · checked 2026-11-23](https://www.g2.com/products/surfer-surfer/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://surfer.ai/pricing/)
 
 ## FAQ
 

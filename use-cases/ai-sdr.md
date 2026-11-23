@@ -21,7 +21,9 @@ Free plan (limited credits, up to 3 seats); Base $20/seat/mo (800 credits); Pro 
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.unifygtm.com/pricing) · [See reviews on G2](https://www.g2.com/products/unify-unify/reviews)
+No review data yet · [See reviews on G2](https://www.g2.com/products/unify-unify/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.unifygtm.com/pricing)
 
 ### [Regie.ai](https://www.regie.ai/)
 
@@ -33,7 +35,9 @@ Free (250 one-time credits per person, up to 10 people); Pro $49/mo for one pers
 
 Fit 3/5 (editorial) · Fits: Solo, Small team, Early scaling
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.regie.ai/pricing) · [See reviews on G2](https://www.g2.com/products/regie-ai/reviews)
+No review data yet · [See reviews on G2](https://www.g2.com/products/regie-ai/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.regie.ai/pricing)
 
 ### [Swan AI](https://www.getswan.com/)
 
@@ -45,7 +49,9 @@ Solo $100/mo (625 credits, 1 seat); Starter $200/mo (1,250 credits); Growth $419
 
 Fit 3/5 (editorial) · Fits: Solo, Small team, Early scaling
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.getswan.com/pricing) · See reviews on G2
+No review data yet
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.getswan.com/pricing)
 
 ### [Origami](https://origami.chat/)
 
@@ -57,7 +63,9 @@ Starter $99/mo ($165 of usage included); Pro $299/mo ($495 of usage); Max $499/m
 
 Fit 3/5 (editorial) · Fits: Solo, Small team, Early scaling
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://origami.chat/pricing) · See reviews on G2
+No review data yet
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://origami.chat/pricing)
 
 ### [Rox](https://www.rox.com/)
 
@@ -69,7 +77,9 @@ Individual from $100/mo; Teams from $255/mo for the whole team (unlimited seats)
 
 Fit 3/5 (editorial) · Fits: Solo, Small team, Early scaling
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.rox.com/pricing) · [See reviews on G2](https://www.g2.com/sellers/rox)
+No review data yet
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.rox.com/pricing)
 
 ### [Amplemarket](https://www.amplemarket.com/)
 
@@ -81,7 +91,9 @@ Startup $600/mo on an annual term with 2 users and 27,000 contacts; Growth and E
 
 Fit 3/5 (editorial) · Fits: Early scaling, Scaling
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.amplemarket.com/pricing) · [See reviews on G2](https://www.g2.com/products/amplemarket/reviews)
+No review data yet · [See reviews on G2](https://www.g2.com/products/amplemarket/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.amplemarket.com/pricing)
 
 ### [11x](https://www.11x.ai/)
 
@@ -95,7 +107,9 @@ Contact sales
 
 Fit 4/5 (editorial) · Fits: Scaling, Large / multi-team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.11x.ai/) · [See reviews on G2](https://www.g2.com/search?query=11x)
+No review data yet
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.11x.ai/)
 
 ### [Artisan](https://www.artisan.co/)
 
@@ -107,9 +121,11 @@ Contact sales
 
 Contact sales
 
-Fit 4/5 (editorial) · Fits: Small team, Early scaling, Scaling, Large / multi-team
+Fit 4/5 (editorial) · sentiment 65 · Fits: Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.artisan.co/pricing) · [See reviews on G2](https://www.g2.com/search?query=Artisan)
+G2 4.3/5 · 70 reviews · checked 2026-11-23 ([G2 search](https://www.g2.com/search?query=Artisan+AI+SDR); product page not confirmed)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.artisan.co/pricing)
 
 ### [Qualified](https://www.qualified.com/)
 
@@ -123,7 +139,9 @@ Contact sales
 
 Fit 4/5 (editorial) · Fits: Scaling, Large / multi-team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.qualified.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Qualified)
+No review data yet
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.qualified.com/pricing)
 
 ### [AiSDR](https://aisdr.com/)
 
@@ -135,7 +153,9 @@ Pay as you go: $1.50 per person prospected, no monthly subscription minimum (100
 
 Fit 3/5 (editorial) · Fits: Solo, Small team, Early scaling
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://aisdr.com/pricing/) · [See reviews on G2](https://www.g2.com/products/aisdr-inc-aisdr/reviews)
+No review data yet · [See reviews on G2](https://www.g2.com/products/aisdr-inc-aisdr/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://aisdr.com/pricing/)
 
 ### [Microsoft Sales Development Agent](https://www.microsoft.com/en-us/dynamics-365/products/sales)
 
@@ -149,7 +169,9 @@ Contact sales
 
 Fit 3/5 (editorial) · Fits: Scaling, Large / multi-team
 
-Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/03/sales-development-agent-enterprise-setup-best-practices/) · [See reviews on G2](https://www.g2.com/search?query=Microsoft+Sales+Development+Agent)
+No review data yet
+
+Prices as of 2026-11-16, verify with vendor. [Pricing source](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/03/sales-development-agent-enterprise-setup-best-practices/)
 
 ### [Nooks](https://www.nooks.ai/)
 
@@ -163,7 +185,9 @@ Contact sales
 
 Fit 3/5 (editorial) · Fits: Early scaling, Scaling
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.nooks.ai/pricing) · [See reviews on G2](https://www.g2.com/search?query=Nooks)
+No review data yet
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.nooks.ai/pricing)
 
 ### [6sense BDR Agent](https://6sense.com/)
 
@@ -177,7 +201,9 @@ Contact sales
 
 Fit 3/5 (editorial) · Fits: Scaling, Large / multi-team
 
-Prices as of 2026-11-09, verify with vendor. [Pricing source](https://6sense.com/news/6sense-repositions-as-partner-for-agentic-gtm-unveils-new-brand-and-major-product-innovations-at-breakthrough-2026) · [See reviews on G2](https://www.g2.com/search?query=6sense)
+No review data yet
+
+Prices as of 2026-11-09, verify with vendor. [Pricing source](https://6sense.com/news/6sense-repositions-as-partner-for-agentic-gtm-unveils-new-brand-and-major-product-innovations-at-breakthrough-2026)
 
 ## FAQ
 

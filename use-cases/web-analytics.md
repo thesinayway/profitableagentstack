@@ -7,21 +7,23 @@ license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" a
 
 # What is the best value tool for web analytics?
 
-Google Analytics has the highest value score (88) among tools we list, priced at: Free of charge (Google). Verify with the vendor.
+Google Analytics has the highest value score (85) among tools we list, priced at: Free of charge (Google). Verify with the vendor.
 
 ### [Google Analytics](https://marketingplatform.google.com/about/analytics/)
 
 Web analytics
 
-Value score: 88
+Value score: 85
 
 Best valueIn our stacks: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
 Free of charge (Google)
 
-Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
+Fit 4/5 (editorial) · sentiment 75 · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://marketingplatform.google.com/about/analytics/) · [See reviews on G2](https://www.g2.com/search?query=Google+Analytics)
+[G2 4.5/5 · 6,895 reviews · checked 2026-11-23](https://www.g2.com/products/google-analytics/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://marketingplatform.google.com/about/analytics/)
 
 ### [Plausible](https://plausible.io/)
 
@@ -33,7 +35,9 @@ Starter $9/mo (up to 10k pageviews; monthly vs yearly billing view not verified)
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://plausible.io/) · [See reviews on G2](https://www.g2.com/search?query=Plausible)
+No review data yet
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://plausible.io/)
 
 ### [Fathom Analytics](https://usefathom.com/)
 
@@ -45,13 +49,15 @@ From $15/mo (up to 100,000 monthly pageviews); 7-day free trial
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://usefathom.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Fathom+Analytics)
+No review data yet
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://usefathom.com/pricing)
 
 ## FAQ
 
 ### What is the best value tool for web analytics?
 
-Google Analytics has the highest value score (88) among tools we list, priced at: Free of charge (Google). Verify with the vendor.
+Google Analytics has the highest value score (85) among tools we list, priced at: Free of charge (Google). Verify with the vendor.
 
 ### How much do web analytics tools cost?
 

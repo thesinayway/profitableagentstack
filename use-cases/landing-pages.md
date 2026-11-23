@@ -7,55 +7,61 @@ license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" a
 
 # What is the best value tool for landing pages & websites?
 
-Framer has the highest value score (100) among tools we list, priced at: Free $0 (Framer domain); Basic $10/mo, Pro $30/mo (yearly-billing view; monthly-billing price not verified). Verify with the vendor.
+Framer has the highest value score (95) among tools we list, priced at: Free $0 (Framer domain); Basic $10/mo, Pro $30/mo (yearly-billing view; monthly-billing price not verified). Verify with the vendor.
 
 ### [Framer](https://www.framer.com/)
 
 Landing pages & websites
 
-Value score: 100
+Value score: 95
 
 Best valueIn our stacks: Small team, Early scaling
 
 Free $0 (Framer domain); Basic $10/mo, Pro $30/mo (yearly-billing view; monthly-billing price not verified)
 
-Fit 5/5 (editorial) · Fits: Solo, Small team, Early scaling
+Fit 5/5 (editorial) · sentiment 73 · Fits: Solo, Small team, Early scaling
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.framer.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Framer)
+[G2 4.5/5 · 163 reviews · checked 2026-11-23](https://www.g2.com/products/framer/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.framer.com/pricing)
 
 ### [Carrd](https://carrd.com/)
 
 Landing pages & websites
 
-Value score: 88
+Value score: 84
 
 In our stacks: Solo
 
 Free account; Pro Lite $9/yr, Pro Standard $19/yr (custom domain), up to $69/yr for 50 sites
 
-Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling
+Fit 4/5 (editorial) · sentiment 69 · Fits: Solo, Small team, Early scaling
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://carrd.com/pro) · [See reviews on G2](https://www.g2.com/search?query=Carrd)
+[G2 4.5/5 · 34 reviews · checked 2026-11-23](https://www.g2.com/products/carrd/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://carrd.com/pro)
 
 ### [Webflow](https://webflow.com/)
 
 Landing pages & websites
 
-Value score: 88
+Value score: 84
 
 In our stacks: Scaling, Large / multi-team
 
 Free (webflow.io domain); site plans Basic $15/mo billed yearly, Premium (CMS, new name on the page) $25/mo billed yearly
 
-Fit 4/5 (editorial) · Fits: Small team, Early scaling, Scaling, Large / multi-team
+Fit 4/5 (editorial) · sentiment 70 · Fits: Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://webflow.com/pricing) · [See reviews on G2](https://www.g2.com/search?query=Webflow)
+[G2 4.4/5 · 998 reviews · checked 2026-11-23](https://www.g2.com/products/webflow/reviews)
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://webflow.com/pricing)
 
 ## FAQ
 
 ### What is the best value tool for landing pages & websites?
 
-Framer has the highest value score (100) among tools we list, priced at: Free $0 (Framer domain); Basic $10/mo, Pro $30/mo (yearly-billing view; monthly-billing price not verified). Verify with the vendor.
+Framer has the highest value score (95) among tools we list, priced at: Free $0 (Framer domain); Basic $10/mo, Pro $30/mo (yearly-billing view; monthly-billing price not verified). Verify with the vendor.
 
 ### How much do landing pages & websites tools cost?
 

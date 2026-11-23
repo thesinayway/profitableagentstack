@@ -21,7 +21,9 @@ Professional $89/mo, Business $199/mo, Scale $419/mo (billing period not verifie
 
 Fit 4/5 (editorial) · Fits: Small team, Early scaling, Scaling, Large / multi-team
 
-Prices as of 2026-11-23, verify with vendor. [Pricing source](https://circle.so/pricing) · [See reviews on G2](https://www.g2.com/search?query=Circle)
+No review data yet
+
+Prices as of 2026-11-23, verify with vendor. [Pricing source](https://circle.so/pricing)
 
 ### [Discord](https://discord.com/)
 
@@ -35,7 +37,9 @@ Price not captured: no pricing page found for community servers — see vendor
 
 Fit 4/5 (editorial) · Fits: Solo, Small team, Early scaling
 
-Checked 2026-11-02, price could not be verified, verify with vendor. [Pricing source](https://discord.com/) · [See reviews on G2](https://www.g2.com/search?query=Discord)
+No review data yet
+
+Checked 2026-11-02, price could not be verified, verify with vendor. [Pricing source](https://discord.com/)
 
 ## FAQ
 
