@@ -8,7 +8,7 @@ nav a{color:#d6dbe4;text-decoration:none;margin-left:14px;font-size:14px;font-we
 .hero{background:radial-gradient(1000px 460px at 85% -10%,#16536888,transparent),radial-gradient(700px 380px at 0% 110%,#9cafbd33,transparent),var(--bg);color:#fff;padding:64px 0 72px}
 .hero h1{font-size:clamp(32px,5.5vw,58px);line-height:1.05;letter-spacing:-.03em;margin:0 0 16px;max-width:850px}
 .grad{background:linear-gradient(90deg,#9cafbd,#7fc4d6);-webkit-background-clip:text;color:transparent}
-.hero p{color:#d6dbe4;font-size:19px;max-width:680px}.pill{display:inline-block;border:1px solid #ffffff33;border-radius:99px;padding:4px 12px;font-size:13px;color:#e2e8f0;margin-bottom:18px}
+.hero p{color:#d6dbe4;font-size:19px;max-width:680px}.hero p.price-check{font-size:13px;color:#b7c0cc;margin:12px 0 0;max-width:680px}.pill{display:inline-block;border:1px solid #ffffff33;border-radius:99px;padding:4px 12px;font-size:13px;color:#e2e8f0;margin-bottom:18px}
 .btn{display:inline-block;background:var(--teal);color:#fff;border:0;padding:12px 20px;border-radius:10px;font-weight:700;text-decoration:none;cursor:pointer;box-shadow:0 8px 24px #16536844}
 .btn.ghost{background:transparent;border:1px solid #ffffff44;box-shadow:none}.btn:hover{transform:translateY(-1px)}
 main{padding:32px 0}h1,h2,h3{letter-spacing:-.02em;line-height:1.2}h2{font-size:28px;margin-top:40px}
