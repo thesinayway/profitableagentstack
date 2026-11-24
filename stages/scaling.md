@@ -438,7 +438,7 @@ Fit 4/5 (editorial) · sentiment 65 · Fits: Solo, Small team, Early scaling, Sc
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.pipedrive.com/en/pricing)
 
-### [Otterly.AI](https://otterly.ai/)
+### [Otterly.AI](https://otterly.ai?via=limor) affiliate
 
 AEO (AI search visibility)
 

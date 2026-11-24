@@ -577,7 +577,7 @@ Fit 3/5 (editorial) · sentiment 85 · Fits: Solo, Small team
 
 Prices as of 2026-11-10, verify with vendor. [Pricing source](https://www.apollo.io/pricing)
 
-### [Otterly.AI](https://otterly.ai/)
+### [Otterly.AI](https://otterly.ai?via=limor) affiliate
 
 AEO (AI search visibility)
 

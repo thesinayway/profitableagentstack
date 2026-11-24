@@ -5,6 +5,8 @@ last_verified: 2026-11-23
 license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" and link https://profitableagentstack.com/use-cases/aeo)
 ---
 
+**Affiliate disclosure:** this page includes affiliate links (marked "affiliate"). If you buy through them, The Sinay Way LLC may earn a commission at no extra cost to you. It never changes scores, prices or order. See our [disclosure](https://profitableagentstack.com/disclosure).
+
 # What is the best value tool for AEO (AI search visibility)?
 
 Peec AI has the highest value score (80) among tools we list, priced at: Starter $95/mo (50 prompts, 3 chosen models, unlimited users, SOC 2); Pro $245/mo (150 prompts, API); Advanced $495/mo (350 prompts); Enterprise custom (SSO, more models). Verify with the vendor.
@@ -25,7 +27,7 @@ Fit 4/5 (editorial) · sentiment 71 · Fits: Early scaling, Scaling, Large / mul
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://peec.ai/pricing)
 
-### [Otterly.AI](https://otterly.ai/)
+### [Otterly.AI](https://otterly.ai?via=limor) affiliate
 
 AEO (AI search visibility)
 
