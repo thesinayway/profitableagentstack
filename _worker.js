@@ -174,6 +174,8 @@ export default {
     const url = new URL(req.url); const p = url.pathname;
     try {
       if (req.method === 'OPTIONS') return new Response(null, { status: 204, headers: { ...CORS, 'Access-Control-Max-Age': '86400' } });
+      // Hebrew static tree: do not apply English markdown/API/MCP handling.
+      if (p === '/il' || p.startsWith('/il/')) return env.ASSETS.fetch(req);
       if (p === '/mcp' || p === '/mcp/') return mcp(req, env, url);
       if (p === '/api' || p === '/api/' || p === '/api/v1' || p === '/api/v1/') {
         return withHeaders(await asset(env, url, '/api/v1/index.json'), { 'Content-Type': 'application/json; charset=utf-8', ...CORS });

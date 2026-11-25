@@ -307,10 +307,25 @@ open('_headers','w').write('''/api/*
   Content-Type: text/plain; charset=utf-8
   Access-Control-Allow-Origin: *
 ''')
-json.dump({"version":1,"include":["/*"],"exclude":["/assets/*","/robots.txt","/sitemap.xml","/llms.txt","/llms-full.txt","/.well-known/*"]},open('_routes.json','w'))
+json.dump({"version":1,"include":["/*"],"exclude":["/assets/*","/robots.txt","/sitemap.xml","/llms.txt","/llms-full.txt","/.well-known/*","/il/*"]},open('_routes.json','w'))
 # IndexNow key (public by design)
 IDXKEY='9f3c2a7e5b1d4c8a96e0f7b2d3a1c5e4'
 open(f'{IDXKEY}.txt','w').write(IDXKEY)
 # sitemap again (new pages added above)
 open('sitemap.xml','w').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{u[:-5] if u.endswith(".html") else u}</loc><lastmod>{LASTMOD.get(u,C)}</lastmod></url>' for u in PAGES)+'</urlset>\n')
 print('ai layer:',len(TOOLS),'tools,',len(MDPAGES),'md pages,',len(AQ),'answers')
+
+# Keep the Hebrew site at ./il so English rebuilds/deploys do not wipe /il/.
+# English pages stay unlinked from /il/; this only copies generated files.
+import subprocess as _sp
+def _sync_he():
+  he='/workspace/pas-he'
+  if not os.path.isfile(he+'/build_he.py'):
+    print('WARNING: /workspace/pas-he missing; ./il not updated')
+    return
+  _sp.check_call(['python3','build_he.py'], cwd=he)
+  if os.path.isdir('il'):
+    shutil.rmtree('il')
+  shutil.copytree(he+'/dist','il')
+  print('synced Hebrew site to ./il/')
+_sync_he()

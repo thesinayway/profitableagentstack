@@ -1,113 +1,142 @@
 User-agent: *
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 User-agent: GPTBot
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 User-agent: OAI-SearchBot
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 User-agent: ChatGPT-User
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 User-agent: ClaudeBot
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 User-agent: Claude-Web
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 User-agent: anthropic-ai
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 User-agent: PerplexityBot
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 User-agent: Perplexity-User
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 User-agent: Google-Extended
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 User-agent: Applebot-Extended
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 User-agent: CCBot
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 User-agent: Bytespider
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 User-agent: meta-externalagent
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 User-agent: cohere-ai
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 User-agent: Claude-User
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 User-agent: Claude-SearchBot
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 User-agent: Applebot
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 User-agent: Bingbot
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 User-agent: Amazonbot
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 User-agent: DuckAssistBot
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 User-agent: MistralAI-User
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 User-agent: Meta-ExternalFetcher
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 User-agent: Google-CloudVertexBot
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 User-agent: GoogleOther
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 User-agent: YouBot
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 User-agent: PhindBot
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 User-agent: cohere-training-data-crawler
 Allow: /
+Allow: /il/
 Disallow: /assets/social/
 
 Sitemap: https://profitableagentstack.com/sitemap.xml
+Sitemap: https://profitableagentstack.com/il/sitemap.xml
