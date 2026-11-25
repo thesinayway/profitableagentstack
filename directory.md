@@ -75,7 +75,7 @@ Fit 5/5 (editorial) · sentiment 73 · Fits: Solo, Small team, Early scaling
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.framer.com/pricing)
 
-### [beehiiv](https://www.beehiiv.com?via=limor-sinay) affiliate
+### [beehiiv](https://profitableagentstack.com/go/beehiiv) affiliate
 
 Newsletters
 
@@ -203,7 +203,7 @@ No review data yet · [See reviews on G2](https://www.g2.com/products/unify-unif
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.unifygtm.com/pricing)
 
-### [FullEnrich](https://try.fullenrich.com/b4d0yq6n1ps4) affiliate
+### [FullEnrich](https://profitableagentstack.com/go/fullenrich) affiliate
 
 Enrichment & verification
 
@@ -217,7 +217,7 @@ Fit 4/5 (editorial) · sentiment 86 · Fits: Small team, Early scaling, Scaling,
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://fullenrich.com/pricing)
 
-### [Descript](https://get.descript.com/jpzrxh9lny7z) affiliate
+### [Descript](https://profitableagentstack.com/go/descript) affiliate
 
 Design & video
 
@@ -245,7 +245,7 @@ Fit 4/5 (editorial) · sentiment 79 · Fits: Solo, Small team
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.bigin.com/pricing.html)
 
-### [Waalaxy](https://waal.ink/N47esf) affiliate
+### [Waalaxy](https://profitableagentstack.com/go/waalaxy) affiliate
 
 LinkedIn outreach
 
@@ -261,7 +261,7 @@ Fit 4/5 (editorial) · sentiment 75 · Fits: Solo, Small team, Early scaling
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.waalaxy.com/pricing)
 
-### [RB2B](https://rb2b.com/?ref=limor) affiliate
+### [RB2B](https://profitableagentstack.com/go/rb2b) affiliate
 
 Signals, intent & analytics
 
@@ -353,7 +353,7 @@ Fit 4/5 (editorial) · sentiment 85 · Fits: Solo, Small team, Early scaling
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.close.com/pricing)
 
-### [Smartlead](https://smartlead.ai?via=limor) affiliate
+### [Smartlead](https://profitableagentstack.com/go/smartlead) affiliate
 
 Outbound email / sequencing
 
@@ -447,7 +447,7 @@ Fit 4/5 (editorial) · sentiment 65 · Fits: Solo, Small team, Early scaling, Sc
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://buffer.com/pricing)
 
-### [Kit](https://partners.kit.com/3lrqdv0acv0p) affiliate
+### [Kit](https://profitableagentstack.com/go/kit) affiliate
 
 Newsletters
 
@@ -489,7 +489,7 @@ Fit 4/5 (editorial) · sentiment 61 · Fits: Solo, Small team, Early scaling
 
 Prices as of 2026-11-16, verify with vendor. [Pricing source](https://typefully.com/pricing)
 
-### [HeyReach](https://heyreach.io/?via=limor) affiliate
+### [HeyReach](https://profitableagentstack.com/go/heyreach) affiliate
 
 LinkedIn outreach
 
@@ -519,7 +519,7 @@ Fit 4/5 (editorial) · sentiment 55 · Fits: Small team, Early scaling, Scaling
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.zoho.com/crm/zohocrm-pricing.html)
 
-### [Salesforge](https://salesforge.ai/?via=limor) affiliate
+### [Salesforge](https://profitableagentstack.com/go/salesforge) affiliate
 
 Outbound email / sequencing
 
@@ -577,7 +577,7 @@ Fit 3/5 (editorial) · sentiment 85 · Fits: Solo, Small team
 
 Prices as of 2026-11-10, verify with vendor. [Pricing source](https://www.apollo.io/pricing)
 
-### [Otterly.AI](https://otterly.ai?via=limor) affiliate
+### [Otterly.AI](https://profitableagentstack.com/go/otterly-ai) affiliate
 
 AEO (AI search visibility)
 
@@ -717,7 +717,7 @@ Fit 3/5 (editorial) · sentiment 75 · Fits: Solo, Small team, Early scaling
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.copper.com/pricing)
 
-### [lemlist](https://get.lemlist.com/3q3jpladw6up) affiliate
+### [lemlist](https://profitableagentstack.com/go/lemlist) affiliate
 
 Outbound email / sequencing
 
@@ -847,7 +847,7 @@ Fit 3/5 (editorial) · sentiment 72 · Fits: Solo, Small team
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://lightfield.app/pricing)
 
-### [Woodpecker](https://woodpecker.co/?red=thesin) affiliate
+### [Woodpecker](https://profitableagentstack.com/go/woodpecker) affiliate
 
 Outbound email / sequencing
 

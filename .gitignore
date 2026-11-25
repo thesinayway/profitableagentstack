@@ -2,3 +2,4 @@ dist/
 __pycache__/
 # Generated Hebrew site (built from /workspace/pas-he by build_ai.py). Do not edit.
 il/
+go/

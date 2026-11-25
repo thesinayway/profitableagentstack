@@ -32,13 +32,13 @@ One tool per job, no paid overlap. Each pick weighs two things: its value score 
 | List building & lead data | **[Apollo](https://www.apollo.io/)** value 97 · best in category | Free Starter plan | $0 | Highest value score for list building; free. Check current free-plan limits. |
 | Enrichment & verification | **[Hunter](https://hunter.io/)** value 84 | Starter | $49 | Hunter shares one credit pool across unlimited team members (vendor help center), so adding people does not add seats. |
 | Outbound email / sequencing | **[Instantly](https://instantly.ai/)** value 93 · best in category | Outreach Growth | $47 | Highest value score for outbound (93). Unlimited mailboxes on one plan; its lead credits are not added because Hunter covers enrichment. |
-| LinkedIn outreach | **[Waalaxy](https://waal.ink/N47esf) affiliate** value 85 · best in category | 2 users × €19 (EUR, not converted) | $0 | Light LinkedIn volume at the lowest per-user price. Move to HeyReach when you run many senders. |
-| Signals, intent & analytics | **[RB2B](https://rb2b.com/?ref=limor) affiliate** value 85 · best in category | Free plan | $0 | Optional, and only if warm intros plus outbound are already booking meetings: free website-visitor identification to prioritize follow-up. |
+| LinkedIn outreach | **[Waalaxy](https://profitableagentstack.com/go/waalaxy) affiliate** value 85 · best in category | 2 users × €19 (EUR, not converted) | $0 | Light LinkedIn volume at the lowest per-user price. Move to HeyReach when you run many senders. |
+| Signals, intent & analytics | **[RB2B](https://profitableagentstack.com/go/rb2b) affiliate** value 85 · best in category | Free plan | $0 | Optional, and only if warm intros plus outbound are already booking meetings: free website-visitor identification to prioritize follow-up. |
 | **Marketing stack** | | | | |
 | Search performance | **[Google Search Console](https://search.google.com/search-console/about)** value 97 · best in category | Free | $0 | Free first-party search data. Paid content optimization waits until you publish weekly. |
 | Social scheduling | **[Buffer](https://buffer.com/)** value 83 · best in category | Free (up to 3 channels) | $0 | Free for up to 3 channels; best value score in its category. Typefully is a free alternative. |
 | Landing pages & websites | **[Framer](https://www.framer.com/)** value 95 · best in category | Basic (yearly-billing view) | $10 | Multi-page site with your own domain for content/SEO. Carrd is cheaper but single-page. |
-| Newsletters | **[beehiiv](https://www.beehiiv.com?via=limor-sinay) affiliate** value 94 · best in category | Free plan | $0 | Free until you monetize. |
+| Newsletters | **[beehiiv](https://profitableagentstack.com/go/beehiiv) affiliate** value 94 · best in category | Free plan | $0 | Free until you monetize. |
 | Web analytics | **[Google Analytics](https://marketingplatform.google.com/about/analytics/)** value 85 · best in category | Free | $0 | Free web analytics; add product/funnel analytics later. |
 | **Estimated total $106 + €38 Waalaxy (2 users) | |** | | |
 
@@ -166,7 +166,7 @@ Fit 5/5 (editorial) · sentiment 73 · Fits: Solo, Small team, Early scaling
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.framer.com/pricing)
 
-### [beehiiv](https://www.beehiiv.com?via=limor-sinay) affiliate
+### [beehiiv](https://profitableagentstack.com/go/beehiiv) affiliate
 
 Newsletters
 
@@ -278,7 +278,7 @@ No review data yet · [See reviews on G2](https://www.g2.com/products/unify-unif
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.unifygtm.com/pricing)
 
-### [FullEnrich](https://try.fullenrich.com/b4d0yq6n1ps4) affiliate
+### [FullEnrich](https://profitableagentstack.com/go/fullenrich) affiliate
 
 Enrichment & verification
 
@@ -292,7 +292,7 @@ Fit 4/5 (editorial) · sentiment 86 · Fits: Small team, Early scaling, Scaling,
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://fullenrich.com/pricing)
 
-### [Descript](https://get.descript.com/jpzrxh9lny7z) affiliate
+### [Descript](https://profitableagentstack.com/go/descript) affiliate
 
 Design & video
 
@@ -320,7 +320,7 @@ Fit 4/5 (editorial) · sentiment 79 · Fits: Solo, Small team
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.bigin.com/pricing.html)
 
-### [Waalaxy](https://waal.ink/N47esf) affiliate
+### [Waalaxy](https://profitableagentstack.com/go/waalaxy) affiliate
 
 LinkedIn outreach
 
@@ -336,7 +336,7 @@ Fit 4/5 (editorial) · sentiment 75 · Fits: Solo, Small team, Early scaling
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.waalaxy.com/pricing)
 
-### [RB2B](https://rb2b.com/?ref=limor) affiliate
+### [RB2B](https://profitableagentstack.com/go/rb2b) affiliate
 
 Signals, intent & analytics
 
@@ -428,7 +428,7 @@ Fit 4/5 (editorial) · sentiment 85 · Fits: Solo, Small team, Early scaling
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.close.com/pricing)
 
-### [Smartlead](https://smartlead.ai?via=limor) affiliate
+### [Smartlead](https://profitableagentstack.com/go/smartlead) affiliate
 
 Outbound email / sequencing
 
@@ -522,7 +522,7 @@ Fit 4/5 (editorial) · sentiment 65 · Fits: Solo, Small team, Early scaling, Sc
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://buffer.com/pricing)
 
-### [Kit](https://partners.kit.com/3lrqdv0acv0p) affiliate
+### [Kit](https://profitableagentstack.com/go/kit) affiliate
 
 Newsletters
 
@@ -564,7 +564,7 @@ Fit 4/5 (editorial) · sentiment 61 · Fits: Solo, Small team, Early scaling
 
 Prices as of 2026-11-16, verify with vendor. [Pricing source](https://typefully.com/pricing)
 
-### [HeyReach](https://heyreach.io/?via=limor) affiliate
+### [HeyReach](https://profitableagentstack.com/go/heyreach) affiliate
 
 LinkedIn outreach
 
@@ -594,7 +594,7 @@ Fit 4/5 (editorial) · sentiment 55 · Fits: Small team, Early scaling, Scaling
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.zoho.com/crm/zohocrm-pricing.html)
 
-### [Salesforge](https://salesforge.ai/?via=limor) affiliate
+### [Salesforge](https://profitableagentstack.com/go/salesforge) affiliate
 
 Outbound email / sequencing
 
@@ -748,7 +748,7 @@ Fit 3/5 (editorial) · sentiment 75 · Fits: Solo, Small team, Early scaling
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.copper.com/pricing)
 
-### [lemlist](https://get.lemlist.com/3q3jpladw6up) affiliate
+### [lemlist](https://profitableagentstack.com/go/lemlist) affiliate
 
 Outbound email / sequencing
 
@@ -820,7 +820,7 @@ Fit 3/5 (editorial) · sentiment 72 · Fits: Solo, Small team
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://lightfield.app/pricing)
 
-### [Woodpecker](https://woodpecker.co/?red=thesin) affiliate
+### [Woodpecker](https://profitableagentstack.com/go/woodpecker) affiliate
 
 Outbound email / sequencing
 

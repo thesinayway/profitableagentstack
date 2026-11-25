@@ -27,7 +27,7 @@ Fit 5/5 (editorial) · sentiment 90 · Fits: Solo, Small team, Early scaling, Sc
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://instantly.ai/pricing)
 
-### [Smartlead](https://smartlead.ai?via=limor) affiliate
+### [Smartlead](https://profitableagentstack.com/go/smartlead) affiliate
 
 Outbound email / sequencing
 
@@ -43,7 +43,7 @@ Fit 4/5 (editorial) · sentiment 70 · Fits: Solo, Small team, Early scaling
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.smartlead.ai/pricing)
 
-### [Salesforge](https://salesforge.ai/?via=limor) affiliate
+### [Salesforge](https://profitableagentstack.com/go/salesforge) affiliate
 
 Outbound email / sequencing
 
@@ -71,7 +71,7 @@ Fit 4/5 (editorial) · sentiment 80 · Fits: Small team, Early scaling, Scaling,
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://reply.io/pricing/)
 
-### [lemlist](https://get.lemlist.com/3q3jpladw6up) affiliate
+### [lemlist](https://profitableagentstack.com/go/lemlist) affiliate
 
 Outbound email / sequencing
 
@@ -85,7 +85,7 @@ Fit 4/5 (editorial) · sentiment 80 · Fits: Small team, Early scaling, Scaling,
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.lemlist.com/pricing)
 
-### [Woodpecker](https://woodpecker.co/?red=thesin) affiliate
+### [Woodpecker](https://profitableagentstack.com/go/woodpecker) affiliate
 
 Outbound email / sequencing
 

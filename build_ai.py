@@ -306,6 +306,9 @@ open('_headers','w').write('''/api/*
 /llms-full.txt
   Content-Type: text/plain; charset=utf-8
   Access-Control-Allow-Origin: *
+/go/*
+  X-Robots-Tag: noindex, nofollow
+  Cache-Control: public, max-age=3600
 ''')
 json.dump({"version":1,"include":["/*"],"exclude":["/assets/*","/robots.txt","/sitemap.xml","/llms.txt","/llms-full.txt","/.well-known/*","/il/*"]},open('_routes.json','w'))
 # IndexNow key (public by design)

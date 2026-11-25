@@ -11,7 +11,7 @@ license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" a
 
 beehiiv has the highest value score (94) among tools we list, priced at: Free forever (1,000-subscriber view); Lite $49/mo yearly billing; Pro $95/mo yearly billing. Verify with the vendor.
 
-### [beehiiv](https://www.beehiiv.com?via=limor-sinay) affiliate
+### [beehiiv](https://profitableagentstack.com/go/beehiiv) affiliate
 
 Newsletters
 
@@ -27,7 +27,7 @@ Fit 5/5 (editorial) · sentiment 69 · Fits: Solo, Small team, Early scaling, Sc
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.beehiiv.com/pricing)
 
-### [Kit](https://partners.kit.com/3lrqdv0acv0p) affiliate
+### [Kit](https://profitableagentstack.com/go/kit) affiliate
 
 Newsletters
 

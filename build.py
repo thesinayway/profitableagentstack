@@ -154,6 +154,12 @@ DISC=f'Profitable Agent Stack is for general information only, provided "as is" 
 def ld(o): return '<script type="application/ld+json">'+json.dumps(o)+'</script>'
 ORG={"@context":"https://schema.org","@type":"Organization","name":"Profitable Agent Stack","url":SITE,"logo":SITE+"/assets/brand/logo-512.png","image":SITE+"/assets/brand/og-default.png","legalName":"The Sinay Way LLC","email":"limoraiassistant@thesinayway.com","description":"Cost-first directory of AI go-to-market tools with published vendor prices, source links and last-verified dates, plus recommended stacks with estimated monthly cost by GTM team size.","keywords":"AI GTM tools, AI sales tools pricing, GTM stack by team size, AI SDR pricing, cold email tools, sales tools directory","knowsAbout":["AI GTM tools","AI sales tools","Go-to-market stack","AI SDR","Cold email software","Sales intelligence","CRM","Answer engine optimization"],"contactPoint":{"@type":"ContactPoint","contactType":"customer support","email":"limoraiassistant@thesinayway.com","url":SITE+"/contact","availableLanguage":["English"]},"address":{"@type":"PostalAddress","addressRegion":"MA","addressCountry":"US"},"sameAs":["https://limorsinay.com/"],"founder":{"@type":"Person","name":"Limor Sinay","url":"https://limorsinay.com/","sameAs":["https://limorsinay.com/","https://www.linkedin.com/in/limor-sinay/"]}}
 AFFNOTE='<p class="mut" role="note"><strong>Affiliate disclosure:</strong> this page includes affiliate links (marked "affiliate"). If you buy through them, The Sinay Way LLC may earn a commission at no extra cost to you. It never changes scores, prices or order. See our <a href="/disclosure.html">disclosure</a>.</p>'
+def _he_pair(path):
+  """Hebrew URL path under /il when a counterpart exists. Head-only hreflang; no visible English-site language link."""
+  m={'index.html':'/','directory.html':'/directory.html','methodology.html':'/methodology.html','privacy.html':'/privacy.html','disclosure.html':'/disclosure.html','about.html':'/about.html','articles/index.html':'/articles/','articles/how-companies-use-ai-for-gtm.html':'/articles/how-companies-use-ai-for-gtm.html','articles/smartlead-vs-instantly-vs-lemlist.html':'/articles/smartlead-vs-instantly-vs-lemlist.html','stages/index.html':'/stages/'}
+  for slug in ('solo-founder','small-gtm-team','early-scaling','scaling','large-multi-team'):
+    m['stages/'+slug+'.html']='/stages/'+slug+'.html'
+  return m.get(path)
 def page(path,title,desc,body,schema=(),hero='',foot=None,index=True,lastmod=None):
   url=SITE+'/'+('' if path=='index.html' else path.replace('index.html',''))
   url=url[:-5] if url.endswith('.html') else url
@@ -162,10 +168,12 @@ def page(path,title,desc,body,schema=(),hero='',foot=None,index=True,lastmod=Non
   sch=''.join(ld(s) for s in schema)
   robots='' if index else '<meta name="robots" content="noindex">'
   canon=f'<link rel="canonical" href="{url}">' if index else ''
+  hepath=_he_pair(path)
+  hl=(f'<link rel="alternate" hreflang="en" href="{url}"><link rel="alternate" hreflang="x-default" href="{url}">'+(f'<link rel="alternate" hreflang="he" href="{SITE}/il{hepath}">' if hepath else '')) if index else ''
   out=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{e(title)}</title><meta name="description" content="{e(desc)}">{robots}{canon}
+<title>{e(title)}</title><meta name="description" content="{e(desc)}">{robots}{canon}{hl}
 <meta property="og:type" content="website"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{url}"><meta property="og:site_name" content="Profitable Agent Stack"><meta property="og:image" content="{SITE}/assets/brand/og-default.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Profitable Agent Stack logo"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{SITE}/assets/brand/og-default.png"><link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml"><link rel="icon" href="/assets/brand/favicon-32.png" sizes="32x32" type="image/png"><link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png"><meta name="theme-color" content="#262c47">
-<link rel="alternate" type="application/json" href="/api/tools.json" title="Tools data"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,500&family=Cormorant+SC:wght@600&family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/style.css?v=3">{sch}</head>
+<link rel="alternate" type="application/json" href="/api/tools.json" title="Tools data"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,500&family=Cormorant+SC:wght@600&family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/style.css?v=4">{sch}</head>
 <body><a href="#main" class="skip">Skip to content</a><header class="top"><div class="wrap"><a class="logo" href="/" aria-label="Profitable Agent Stack home"><img src="/assets/brand/pas-logo-dark.svg?v=2" alt="Profitable Agent Stack" width="209" height="57"></a><nav aria-label="Main">{nav}</nav></div></header>
 {hero}<main id="main" class="wrap">{body}</main>
 <footer><div class="wrap">{FCRED}{foot or ((LOGONOTE if path.startswith(('directory','stages/','use-cases/')) else '')+f'<p><strong>Disclaimer:</strong> {e(DISC)}</p><p><a href="/stages/">Stacks by GTM team size</a> · <a href="/articles/">Articles</a> · <a href="/terms.html">Terms</a> · <a href="/privacy.html">Privacy</a> · <a href="/disclosure.html">Affiliate disclosure</a> · <a href="/review-policy.html">Review policy</a> · <a href="/corrections.html">Corrections &amp; takedowns</a> · <a href="/feedback.html">Share your experience</a> · <a href="/contact.html">Contact</a> · <a href="/answers.html">Quick answers</a> · <a href="/developers.html">Developers &amp; API</a> · <a href="/llms.txt">llms.txt</a> · © 2026 The Sinay Way LLC. This site is operated by The Sinay Way LLC as part of its advisory services.</p>')}</div></footer><script src="/assets/app.js" defer></script></body></html>'''
@@ -178,10 +186,23 @@ def init(n): return ''.join(w[0] for w in n.replace('.',' ').split()[:2]).upper(
 def price(t): return 'Contact sales' if t['status']=='contact' else t['price']
 import urllib.parse as _u
 UTM={'utm_source':'profitableagentstack','utm_medium':'referral'}
-def tool_link(t,camp='directory'):
-  """Single source for outbound tool links. Returns (href, rel, is_affiliate)."""
+def tool_dest(t,camp='directory'):
+  """Final vendor or affiliate URL, with PAS UTM tags."""
   aff=bool(t.get('affiliate_url'));p=_u.urlparse(t['affiliate_url'] if aff else t['homepage_url']);q=dict(_u.parse_qsl(p.query));q.update(UTM);q['utm_campaign']=camp;q['utm_content']=_slug(t['name'])
-  return _u.urlunparse(p._replace(query=_u.urlencode(q))),('sponsored noopener' if aff else 'noopener'),aff
+  return _u.urlunparse(p._replace(query=_u.urlencode(q))),aff
+def tool_link(t,camp='directory'):
+  """Outbound tool links. Affiliate clicks go through /go/{slug} so cookieless analytics can count them."""
+  dest,aff=tool_dest(t,camp)
+  if aff: return f'/go/{_slug(t["name"])}','sponsored noopener',True
+  return dest,'noopener',False
+def write_go_pages():
+  """Static /go/{slug}/ hop pages: short delay so Web Analytics can record the path, then redirect."""
+  import json as _json
+  for t in D['tools']:
+    if not t.get('affiliate_url'): continue
+    sid=_slug(t['name']); dest,_=tool_dest(t,'go'); dest_e=e(dest)
+    html_doc='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Opening '+e(t['name'])+'</title><meta name="robots" content="noindex,nofollow"><meta http-equiv="refresh" content="1;url='+dest_e+'"></head><body><p>Opening <a href="'+dest_e+'" rel="sponsored noopener">'+e(t['name'])+'</a>.</p><script>setTimeout(function(){location.replace('+_json.dumps(dest)+')},400);</script></body></html>'
+    os.makedirs('go/'+sid, exist_ok=True); open('go/'+sid+'/index.html','w').write(html_doc)
 def review_html(t):
   """Rating, count, source link and date when verified; otherwise 'no review data yet'.
   'See reviews on G2' only when the URL is a confirmed product page."""
@@ -406,7 +427,13 @@ def _inline(t,camp='articles'):
   t=e(t)
   def link(m):
     txt,href=m.group(1),html.unescape(m.group(2))
+    if href.startswith('/go/'):
+      return f'<a href="{e(href)}" rel="sponsored noopener">{txt}</a>'
     if href.startswith('http'):
+      for t in D['tools']:
+        au=t.get('affiliate_url') or ''
+        if au and href.split('?')[0]==au.split('?')[0]:
+          return f'<a href="/go/{_slug(t["name"])}" rel="sponsored noopener">{txt}</a>'
       p=_u.urlparse(href);q=dict(_u.parse_qsl(p.query));q.update(UTM);q['utm_campaign']=camp
       return f'<a href="{e(_u.urlunparse(p._replace(query=_u.urlencode(q))))}" target="_blank" rel="noopener">{txt}</a>'
     return f'<a href="{e(href)}">{txt}</a>'
@@ -415,16 +442,31 @@ def _inline(t,camp='articles'):
   return t
 def md(src):
   src=_re.sub(r'\{\{([^}]+)\}\}',lambda m:TOK[m.group(1)],src)
-  out=[];lst=None
+  out=[];lst=None;table=None
   def close():
-    nonlocal lst
+    nonlocal lst,table
     if lst: out.append(f'</{lst}>');lst=None
+    if table is not None:
+      rows=[]
+      for i,row in enumerate(table):
+        cells=[c.strip() for c in row.strip().strip('|').split('|')]
+        if i==1 and cells and all(_re.fullmatch(r':?-{3,}:?', c.replace(' ','')) for c in cells):
+          continue
+        tag='th' if i==0 else 'td'
+        rows.append('<tr>'+''.join(f'<{tag}>{_inline(c)}</{tag}>' for c in cells)+'</tr>')
+      out.append('<div class="table-wrap"><table>'+''.join(rows)+'</table></div>');table=None
   for ln in src.strip().splitlines():
     if not ln.strip(): close();continue
+    if ln.startswith('|'):
+      if lst: close()
+      if table is None: table=[]
+      table.append(ln);continue
     if ln.startswith('## '): close();out.append(f'<h2>{_inline(ln[3:])}</h2>');continue
+    if ln.startswith('> '): close();out.append(f'<blockquote>{_inline(ln[2:])}</blockquote>');continue
     m=_re.match(r'(\d+)\. (.*)',ln)
     if ln.startswith('- ') or m:
       kind='ul' if ln.startswith('- ') else 'ol'
+      if table is not None: close()
       if lst!=kind: close();out.append(f'<{kind}>');lst=kind
       out.append(f'<li>{_inline(ln[2:] if kind=="ul" else m.group(2))}</li>');continue
     close()
@@ -433,7 +475,7 @@ def md(src):
   close();return ''.join(out)
 import datetime as _dt
 def nicedate(d): x=_dt.date.fromisoformat(d);return x.strftime('%b ')+str(x.day)+x.strftime(', %Y')
-CATS={'ai':('Artificial Intelligence (AI)','Guides on choosing and paying for AI go-to-market tools without overspending.'),'blog-posts':('Blog Posts','Every Profitable Agent Stack blog post, newest first.')}
+CATS={'ai':('Artificial Intelligence (AI)','Guides on choosing and paying for AI go-to-market tools without overspending.'),'ai-for-gtm':('AI for GTM','How real companies grow with AI tools in go-to-market, with sourced results and links to the original write-ups.'),'blog-posts':('Blog Posts','Every Profitable Agent Stack blog post, newest first.')}
 for a in ARTS: a['cats']=[c.strip() for c in a.get('categories','ai, blog-posts').split(',') if c.strip() in CATS]
 NEWEST=ARTS[0]['date'] if ARTS else C
 AUTHOR={"@type":"Person","name":"Limor Sinay","url":"https://limorsinay.com/","jobTitle":"Founder, The Sinay Way LLC","sameAs":["https://limorsinay.com/","https://www.linkedin.com/in/limor-sinay/"]}
@@ -441,8 +483,10 @@ PUB={"@type":"Organization","name":"Profitable Agent Stack","url":SITE,"logo":{"
 def byline(a): return '<p class="mut byline">by <a href="/advisory.html">Limor Sinay</a>, Profitable Agent Stack | '+', '.join(f'<a href="/articles/category/{c}.html">{e(CATS[c][0])}</a>' for c in a['cats'])+'</p>'
 def acard(a): return f'<a class="card" href="/articles/{a["slug"]}.html"><h3>{e(a["title"])}</h3><p class="mut"><time datetime="{a["date"]}">{nicedate(a["date"])}</time></p><p>{e(a["summary"])}</p></a>'
 for a in ARTS:
-  sch={"@context":"https://schema.org","@type":"Article","headline":a['title'],"description":a['summary'],"datePublished":a['date'],"dateModified":a['date'],"author":AUTHOR,"publisher":PUB,"articleSection":[CATS[c][0] for c in a['cats']],"mainEntityOfPage":f"{SITE}/articles/{a['slug']}"}
-  page(f'articles/{a["slug"]}.html',a['title']+' | Profitable Agent Stack',a['summary'],f'<p><a href="/articles/">Articles</a> › {e(a["title"])}</p><article><h1>{e(a["title"])}</h1>{byline(a)}<p class="answer">{e(a["summary"])}</p>{md(a["body"])}<p class="mut pubdate">Published <time datetime="{a["date"]}">{nicedate(a["date"])}</time></p></article>',[sch],lastmod=a['date'])
+  mod=a.get('updated') or a['date']
+  sch={"@context":"https://schema.org","@type":"Article","headline":a['title'],"description":a['summary'],"datePublished":a['date'],"dateModified":mod,"author":AUTHOR,"publisher":PUB,"articleSection":[CATS[c][0] for c in a['cats']],"mainEntityOfPage":f"{SITE}/articles/{a['slug']}"}
+  upd='' if mod==a['date'] else f', updated <time datetime="{mod}">{nicedate(mod)}</time>'
+  page(f'articles/{a["slug"]}.html',a['title']+' | Profitable Agent Stack',a['summary'],f'<p><a href="/articles/">Articles</a> › {e(a["title"])}</p><article><h1>{e(a["title"])}</h1>{byline(a)}<p class="answer">{e(a["summary"])}</p>{md(a["body"])}<p class="mut pubdate">Published <time datetime="{a["date"]}">{nicedate(a["date"])}</time>{upd}</p></article>',[sch],lastmod=mod)
 for c,(cn,cd) in CATS.items():
   arts=[a for a in ARTS if c in a['cats']]
   page(f'articles/category/{c}.html',f'{cn} | Articles | Profitable Agent Stack',cd,f'<p><a href="/articles/">Articles</a> › {e(cn)}</p><h1>{e(cn)}</h1><p class="answer">{e(cd)}</p><div class="grid">'+''.join(acard(a) for a in arts)+'</div>',[{"@context":"https://schema.org","@type":"CollectionPage","name":cn,"url":f"{SITE}/articles/category/{c}"}],lastmod=arts[0]['date'] if arts else C)
@@ -457,7 +501,7 @@ WR=[
 ('What world-class GTM looks like in 2026 (with Jeanne DeWitt Grosser)','Lenny Rachitsky','Lenny’s Podcast','https://www.lennysnewsletter.com/p/what-the-best-gtm-teams-do-differently','Vercel’s COO on build vs. buy for GTM tools in the AI era and when a GTM engineer is worth it, so you know what to add later.'),
 ]
 wrhtml='<section id="worth-reading" aria-labelledby="wr-h"><h2 id="wr-h">Worth reading</h2><p class="mut">Widely shared pieces by other people on getting the same or better GTM results for less. Links open the original; the notes are ours.</p><ul class="wr">'+''.join(f'<li><a href="{e(u)}" target="_blank" rel="noopener">{e(t)}</a> <span class="mut">by {e(au)}, {e(pb)}</span><br>{e(n)}</li>' for t,au,pb,u,n in WR)+'</ul></section>'
-AD='Short guides on spending less on your AI GTM stack for more value.'
+AD='Short guides on spending less on your AI GTM stack for more value, including sourced AI-for-GTM stories from named companies.'
 page('articles/index.html','Articles: AI GTM Stack Guides | Profitable Agent Stack','Short guides on spending less on your AI GTM stack for more value: how we score tools, one tool per job, when to skip intent data, AEO and stacks by team size.',
  f'<h1>Articles</h1><p class="answer">{AD}</p><p class="mut">Browse by topic: '+' · '.join(f'<a href="/articles/category/{c}.html">{e(cn)}</a>' for c,(cn,cd) in CATS.items())+'. General information only, not advice.</p><div class="grid">'+''.join(acard(a) for a in ARTS)+'</div>'+wrhtml,
  [{"@context":"https://schema.org","@type":"CollectionPage","name":"Articles","description":AD,"url":SITE+"/articles/"}],lastmod=NEWEST)
@@ -482,11 +526,11 @@ simple('terms.html','Terms of Use','Terms of Use for profitableagentstack.com.',
 simple('privacy.html','Privacy Policy','Privacy Policy for profitableagentstack.com.','Privacy Policy','We collect as little data as possible and do not sell it. The Site has no accounts, no tracking cookies and no working forms. We use Cloudflare Web Analytics for cookieless aggregate usage and performance metrics.',LEG+P([
 ('Who we are','The Site is operated by The Sinay Way LLC as part of its advisory services.'),
 ('What we collect','The Site itself does not collect personal data through forms: its feedback form is a placeholder that sends and stores nothing. If you email us, we receive your email address and what you write, and use it only to reply and to handle corrections or requests. Hosting providers may keep standard server logs (such as IP address and browser type). Cloudflare Web Analytics collects only aggregate, cookieless usage and performance metrics and does not identify individual visitors; metrics from visitors in the European Union are excluded.'),
-('Cookies and analytics','No tracking cookies. We use Cloudflare Web Analytics (automatic injection on this hostname) for cookieless aggregate page-view and performance metrics. It does not set cookies, does not identify visitors, and excludes EU visitors. Google Fonts is loaded from Google\'s servers, which receive your IP address.'),
+('Cookies and analytics','No tracking cookies. We use Cloudflare Web Analytics (automatic injection on this hostname) for cookieless aggregate page-view and performance metrics. It does not set cookies, does not identify visitors, and excludes EU visitors. When you click an affiliate link, we first send you to a short /go/{tool} page on this Site so the same cookieless analytics can count the click as a page view of that path; those /go/ pages are not indexed and do not set cookies or store your name or email. Google Fonts is loaded from Google\'s servers, which receive your IP address.'),
 ('Sharing','We do not sell or rent personal data and do not use it for advertising. Aggregate analytics are processed by Cloudflare as our analytics provider. We may disclose data if required by law. If we add a form or any tool that collects personal data, we will update this policy first and name the provider.'),
 ('Your choices','Ask to access or delete anything you emailed us at <a href="mailto:limoraiassistant@thesinayway.com">limoraiassistant@thesinayway.com</a>.'),('Children','Not directed to children under 16.'),('Contact','The Sinay Way LLC, <a href="mailto:limoraiassistant@thesinayway.com">limoraiassistant@thesinayway.com</a>.')]))
 simple('disclosure.html','Affiliate and Sponsorship Disclosure','How Profitable Agent Stack earns money and keeps rankings independent.','How do you make money?','We may earn affiliate commissions or accept labeled sponsorships, and The Sinay Way LLC offers advisory services. None of this changes prices, scores or rank.',LEG+P([
-('Affiliate links','Some links may be affiliate links; if you buy through them, The Sinay Way LLC may earn a commission at no extra cost to you. Affiliate links are marked "affiliate" and tagged rel="sponsored"; pages that contain them carry a disclosure at the top. '+(('As of '+C+' affiliate links are active for: '+', '.join(t['name'] for t in D['tools'] if t.get('affiliate_url'))+'.') if any(t.get('affiliate_url') for t in D['tools']) else 'As of '+C+' no affiliate links are active. Outbound links to vendors carry UTM tags (utm_source=profitableagentstack) so traffic can be attributed, and they are not affiliate links.')),('Sponsored placements','Any sponsored listing will be clearly labeled "Sponsored". None are sold at present.'),
+('Affiliate links','Some links may be affiliate links; if you buy through them, The Sinay Way LLC may earn a commission at no extra cost to you. Affiliate links are marked "affiliate" and tagged rel="sponsored"; they go through a /go/{tool} hop on this Site so we can count clicks in cookieless analytics. Pages that contain them carry a disclosure at the top. '+(('As of '+C+' affiliate links are active for: '+', '.join(t['name'] for t in D['tools'] if t.get('affiliate_url'))+'.') if any(t.get('affiliate_url') for t in D['tools']) else 'As of '+C+' no affiliate links are active. Outbound links to vendors carry UTM tags (utm_source=profitableagentstack) so traffic can be attributed, and they are not affiliate links.')),('Sponsored placements','Any sponsored listing will be clearly labeled "Sponsored". None are sold at present.'),
 ('Our own services','This site is operated by The Sinay Way LLC as part of its advisory services, and we promote those services, including on some stack pages. They are provided only under a separate signed agreement; outcomes are not guaranteed. Recommended stacks are chosen by the published method, not to sell services.'),
 ('Scores and reviews','Payment never changes fit, cost or value scores, badges, or which third-party ratings are shown. We do not accept payment for reviews.'),('FTC','This disclosure is intended to follow the U.S. FTC Guides Concerning the Use of Endorsements and Testimonials in Advertising.')]))
 simple('corrections.html','Corrections and Takedowns','How to request corrections or takedowns.','How do I report an error?','Email <a href="mailto:limoraiassistant@thesinayway.com?subject=Correction">limoraiassistant@thesinayway.com</a> (The Sinay Way LLC) with the subject "Correction: [tool name]", the page URL, what is wrong, and a link to the official vendor source.',P([('Logo removal','Trademark owners can ask us to remove their logo: email <a href="mailto:limoraiassistant@thesinayway.com?subject=Logo%20removal">limoraiassistant@thesinayway.com</a> with the subject "Logo removal: [tool name]" and proof you represent the owner. We will remove the logo promptly, usually within 5 business days.'),('Takedowns','For trademark, copyright or other takedown requests, include your contact details, the content concerned, the right you assert, and a good-faith statement that the request is accurate.'),('What we do','We aim to acknowledge within 5 business days, check the official source, and correct, annotate or remove content. Corrections are logged on New releases.')]))
@@ -510,7 +554,8 @@ f'''<h1>Page not found</h1>
 <div class="grid">{_st}</div>
 <h2>Use cases</h2>
 <p>{_uc}</p>''',index=False)
-open('robots.txt','w').write('User-agent: *\nAllow: /\nAllow: /il/\nDisallow: /assets/social/\n\n'+''.join(f'User-agent: {b}\nAllow: /\nAllow: /il/\nDisallow: /assets/social/\n\n' for b in ['GPTBot','OAI-SearchBot','ChatGPT-User','ClaudeBot','Claude-Web','anthropic-ai','PerplexityBot','Perplexity-User','Google-Extended','Applebot-Extended','CCBot','Bytespider','meta-externalagent','cohere-ai','Claude-User','Claude-SearchBot','Applebot','Bingbot','Amazonbot','DuckAssistBot','MistralAI-User','Meta-ExternalFetcher','Google-CloudVertexBot','GoogleOther','YouBot','PhindBot','cohere-training-data-crawler'])+f'Sitemap: {SITE}/sitemap.xml\nSitemap: {SITE}/il/sitemap.xml\n')
+write_go_pages()
+open('robots.txt','w').write('User-agent: *\nAllow: /\nAllow: /il/\nDisallow: /assets/social/\nDisallow: /go/\n\n'+''.join(f'User-agent: {b}\nAllow: /\nAllow: /il/\nDisallow: /assets/social/\nDisallow: /go/\n\n' for b in ['GPTBot','OAI-SearchBot','ChatGPT-User','ClaudeBot','Claude-Web','anthropic-ai','PerplexityBot','Perplexity-User','Google-Extended','Applebot-Extended','CCBot','Bytespider','meta-externalagent','cohere-ai','Claude-User','Claude-SearchBot','Applebot','Bingbot','Amazonbot','DuckAssistBot','MistralAI-User','Meta-ExternalFetcher','Google-CloudVertexBot','GoogleOther','YouBot','PhindBot','cohere-training-data-crawler'])+f'Sitemap: {SITE}/sitemap.xml\nSitemap: {SITE}/il/sitemap.xml\n')
 open('sitemap.xml','w').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{u[:-5] if u.endswith(".html") else u}</loc><lastmod>{LASTMOD.get(u,C)}</lastmod></url>' for u in PAGES)+'</urlset>\n')
 L=f'# Profitable Agent Stack\n\n> Cost-first directory of AI GTM tools ranked by use-case fit, published price and user sentiment, with estimated monthly stack costs by GTM team size. Prices checked {C}; verify with vendors. Not advice.\n\n## Key pages\n- [Stacks by GTM team size]({SITE}/stages/)\n'+''.join(f'- [{s["name"]} ({s["size"]})]({SITE}/stages/{SLUG[s["id"]]}.html): est. {"at least " if s["id"]=="large" else ""}${tot[s["id"]]:,.0f}/mo stack\n' for s in D['stages'])+f'- [Directory]({SITE}/directory.html)\n- [Methodology]({SITE}/methodology.html)\n- [Articles]({SITE}/articles/)\n- [For AI agents]({SITE}/for-ai-agents.html)\n\n## Data\n- [tools.json]({SITE}/api/tools.json): CC BY 4.0, attribution required\n- [Full text]({SITE}/llms-full.txt)\n'
 open('llms.txt','w').write(L)

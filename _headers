@@ -14,3 +14,6 @@
 /llms-full.txt
   Content-Type: text/plain; charset=utf-8
   Access-Control-Allow-Origin: *
+/go/*
+  X-Robots-Tag: noindex, nofollow
+  Cache-Control: public, max-age=3600

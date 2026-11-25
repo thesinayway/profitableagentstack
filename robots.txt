@@ -2,141 +2,169 @@ User-agent: *
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 User-agent: GPTBot
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 User-agent: OAI-SearchBot
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 User-agent: ChatGPT-User
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 User-agent: ClaudeBot
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 User-agent: Claude-Web
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 User-agent: anthropic-ai
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 User-agent: PerplexityBot
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 User-agent: Perplexity-User
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 User-agent: Google-Extended
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 User-agent: Applebot-Extended
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 User-agent: CCBot
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 User-agent: Bytespider
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 User-agent: meta-externalagent
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 User-agent: cohere-ai
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 User-agent: Claude-User
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 User-agent: Claude-SearchBot
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 User-agent: Applebot
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 User-agent: Bingbot
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 User-agent: Amazonbot
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 User-agent: DuckAssistBot
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 User-agent: MistralAI-User
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 User-agent: Meta-ExternalFetcher
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 User-agent: Google-CloudVertexBot
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 User-agent: GoogleOther
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 User-agent: YouBot
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 User-agent: PhindBot
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 User-agent: cohere-training-data-crawler
 Allow: /
 Allow: /il/
 Disallow: /assets/social/
+Disallow: /go/
 
 Sitemap: https://profitableagentstack.com/sitemap.xml
 Sitemap: https://profitableagentstack.com/il/sitemap.xml

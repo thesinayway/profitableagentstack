@@ -11,7 +11,7 @@ license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" a
 
 RB2B has the highest value score (85) among tools we list, priced at: Free $0; Starter $79/mo; Pro from $149; Pro+ from $199. Verify with the vendor.
 
-### [RB2B](https://rb2b.com/?ref=limor) affiliate
+### [RB2B](https://profitableagentstack.com/go/rb2b) affiliate
 
 Signals, intent & analytics
 

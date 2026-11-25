@@ -21,7 +21,7 @@ The Site itself does not collect personal data through forms: its feedback form 
 
 ## Cookies and analytics
 
-No tracking cookies. We use Cloudflare Web Analytics (automatic injection on this hostname) for cookieless aggregate page-view and performance metrics. It does not set cookies, does not identify visitors, and excludes EU visitors. Google Fonts is loaded from Google's servers, which receive your IP address.
+No tracking cookies. We use Cloudflare Web Analytics (automatic injection on this hostname) for cookieless aggregate page-view and performance metrics. It does not set cookies, does not identify visitors, and excludes EU visitors. When you click an affiliate link, we first send you to a short /go/{tool} page on this Site so the same cookieless analytics can count the click as a page view of that path; those /go/ pages are not indexed and do not set cookies or store your name or email. Google Fonts is loaded from Google's servers, which receive your IP address.
 
 ## Sharing
 

@@ -164,6 +164,35 @@ async function mcp(req, env, url) {
   return out ? new Response(JSON.stringify(out), { status: 200, headers: H }) : new Response(null, { status: 202, headers: CORS });
 }
 
+
+function slugify(n) { return String(n || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); }
+async function goHop(req, env, url) {
+  const slug = url.pathname.replace(/^\/go\//, '').replace(/\/$/, '');
+  if (!slug || slug.includes('/') || !/^[a-z0-9-]+$/.test(slug)) {
+    return new Response('Not found', { status: 404, headers: { 'X-Robots-Tag': 'noindex, nofollow', ...CORS } });
+  }
+  for (const path of [`/go/${slug}/`, `/go/${slug}/index.html`, `/go/${slug}.html`]) {
+    const r = await asset(env, url, path);
+    const ct = r.headers.get('content-type') || '';
+    if (r.ok && ct.includes('text/html')) {
+      return withHeaders(r, { 'X-Robots-Tag': 'noindex, nofollow', 'Cache-Control': 'public, max-age=3600' });
+    }
+  }
+  try {
+    const D = await data(env, url);
+    const list = (D.tools && D.tools.data) || [];
+    const t = list.find(x => x.id === slug || slugify(x.name) === slug);
+    if (!t || !t.link_is_affiliate || !t.link) {
+      return new Response('Not found', { status: 404, headers: { 'X-Robots-Tag': 'noindex, nofollow', ...CORS } });
+    }
+    const dest = t.link, name = t.name;
+    const body = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Opening ${name}</title><meta name="robots" content="noindex,nofollow"><meta http-equiv="refresh" content="1;url=${dest}"></head><body><p>Opening <a href="${dest}" rel="sponsored noopener">${name}</a>.</p><script>setTimeout(function(){location.replace(${JSON.stringify(dest)})},400);</script></body></html>`;
+    return new Response(body, { status: 200, headers: { 'Content-Type': 'text/html; charset=utf-8', 'X-Robots-Tag': 'noindex, nofollow', 'Cache-Control': 'public, max-age=3600', ...CORS } });
+  } catch (e) {
+    return new Response('Not found', { status: 404, headers: { 'X-Robots-Tag': 'noindex, nofollow', ...CORS } });
+  }
+}
+
 function withHeaders(res, add, status) {
   const h = new Headers(res.headers); for (const [k, v] of Object.entries(add)) h.set(k, v);
   return new Response(res.body, { status: status || res.status, statusText: res.statusText, headers: h });
@@ -174,6 +203,8 @@ export default {
     const url = new URL(req.url); const p = url.pathname;
     try {
       if (req.method === 'OPTIONS') return new Response(null, { status: 204, headers: { ...CORS, 'Access-Control-Max-Age': '86400' } });
+      if (p === '/go' || p === '/go/') return new Response('Not found', { status: 404, headers: { 'X-Robots-Tag': 'noindex, nofollow', ...CORS } });
+      if (p.startsWith('/go/')) return goHop(req, env, url);
       // Hebrew static tree: do not apply English markdown/API/MCP handling.
       if (p === '/il' || p.startsWith('/il/')) return env.ASSETS.fetch(req);
       if (p === '/mcp' || p === '/mcp/') return mcp(req, env, url);
