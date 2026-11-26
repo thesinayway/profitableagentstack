@@ -27,7 +27,7 @@ Fit 4/5 (editorial) · sentiment 71 · Fits: Early scaling, Scaling, Large / mul
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://peec.ai/pricing)
 
-### [Otterly.AI](https://profitableagentstack.com/go/otterly-ai) affiliate
+### [Otterly.AI](https://profitableagentstack.com/go/otterly-ai/) affiliate
 
 AEO (AI search visibility)
 

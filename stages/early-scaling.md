@@ -32,8 +32,8 @@ One tool per job, no paid overlap. Each pick weighs two things: its value score 
 | List building & lead data | **[Apollo](https://www.apollo.io/)** value 97 · best in category | Free Starter plan | $0 | Free is for 'exploring or very light usage' per Apollo; we count $0 for light list pulls, but 6-15 people will likely outgrow it. Basic is $49/seat/mo billed annually (not counted). 28% of Apollo's 9,858 G2 reviewers are mid-market (51-1,000 employees). |
 | Enrichment & verification | **[Hunter](https://hunter.io/)** value 84 | Growth | $149 | Clearer enrichment: more credits shared across unlimited team members, and verification before sending. |
 | Outbound email / sequencing | **[Instantly](https://instantly.ai/)** value 93 · best in category | Outreach Hypergrowth (125,000 emails/mo) | $97 | Full outbound volume on one plan; highest value score for outbound. |
-| LinkedIn outreach | **[HeyReach](https://profitableagentstack.com/go/heyreach) affiliate** value 81 | Growth $79 × 5 senders | $395 | Built for many senders (fit 5/5). Waalaxy is cheaper per seat if you only need light LinkedIn volume. |
-| Signals, intent & analytics | **[RB2B](https://profitableagentstack.com/go/rb2b) affiliate** value 85 · best in category | Starter | $79 | Signals become useful at this volume: identifies site visitors to feed outbound. |
+| LinkedIn outreach | **[HeyReach](https://profitableagentstack.com/go/heyreach/) affiliate** value 81 | Growth $79 × 5 senders | $395 | Built for many senders (fit 5/5). Waalaxy is cheaper per seat if you only need light LinkedIn volume. |
+| Signals, intent & analytics | **[RB2B](https://profitableagentstack.com/go/rb2b/) affiliate** value 85 · best in category | Starter | $79 | Signals become useful at this volume: identifies site visitors to feed outbound. |
 | Product & funnel analytics | **[PostHog](https://posthog.com/)** value 85 · best in category | Free allowance | $0 | Real product and funnel analytics (a separate job from visitor identification); usage-based beyond the free allowance. |
 | **Marketing stack** | | | | |
 | Search performance | **[Google Search Console](https://search.google.com/search-console/about)** value 97 · best in category | Free | $0 | Free first-party data on which queries bring visitors (search performance). |
@@ -41,7 +41,7 @@ One tool per job, no paid overlap. Each pick weighs two things: its value score 
 | AEO (AI search visibility) | **[Peec AI](https://peec.ai/)** value 80 · best in category | Starter, monthly | $95 | Lowest-priced dedicated AI-search tracker with a published price we found that fits a team: 50 prompts on 3 models, unlimited users, SOC 2 on every plan. Surfer is not the AEO pick: its AI tracker is an add-on to content editing, and this is a different job. Start small; skip if AI search is not yet a channel. |
 | Social scheduling | **[Postiz](https://postiz.com/)** value 68 | Team | $39 | Team scheduling beyond Buffer's free 3-channel limit. |
 | Landing pages & websites | **[Framer](https://www.framer.com/)** value 95 · best in category | Basic (yearly-billing view) | $10 | Design-led site with custom domain; lowest paid tier. |
-| Newsletters | **[beehiiv](https://profitableagentstack.com/go/beehiiv) affiliate** value 94 · best in category | Free plan | $0 | Free until you monetize (Lite is $49/mo, yearly-billing view). |
+| Newsletters | **[beehiiv](https://profitableagentstack.com/go/beehiiv/) affiliate** value 94 · best in category | Free plan | $0 | Free until you monetize (Lite is $49/mo, yearly-billing view). |
 | Web analytics | **[Google Analytics](https://marketingplatform.google.com/about/analytics/)** value 85 · best in category | Free | $0 | Website traffic and sources. |
 | **Estimated total $913 | |** | | |
 
@@ -172,7 +172,7 @@ Fit 5/5 (editorial) · sentiment 73 · Fits: Solo, Small team, Early scaling
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.framer.com/pricing)
 
-### [beehiiv](https://profitableagentstack.com/go/beehiiv) affiliate
+### [beehiiv](https://profitableagentstack.com/go/beehiiv/) affiliate
 
 Newsletters
 
@@ -300,7 +300,7 @@ No review data yet · [See reviews on G2](https://www.g2.com/products/unify-unif
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.unifygtm.com/pricing)
 
-### [FullEnrich](https://profitableagentstack.com/go/fullenrich) affiliate
+### [FullEnrich](https://profitableagentstack.com/go/fullenrich/) affiliate
 
 Enrichment & verification
 
@@ -314,7 +314,7 @@ Fit 4/5 (editorial) · sentiment 86 · Fits: Small team, Early scaling, Scaling,
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://fullenrich.com/pricing)
 
-### [Descript](https://profitableagentstack.com/go/descript) affiliate
+### [Descript](https://profitableagentstack.com/go/descript/) affiliate
 
 Design & video
 
@@ -328,7 +328,7 @@ Fit 4/5 (editorial) · sentiment 79 · Fits: Solo, Small team, Early scaling
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.descript.com/pricing)
 
-### [Waalaxy](https://profitableagentstack.com/go/waalaxy) affiliate
+### [Waalaxy](https://profitableagentstack.com/go/waalaxy/) affiliate
 
 LinkedIn outreach
 
@@ -344,7 +344,7 @@ Fit 4/5 (editorial) · sentiment 75 · Fits: Solo, Small team, Early scaling
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.waalaxy.com/pricing)
 
-### [RB2B](https://profitableagentstack.com/go/rb2b) affiliate
+### [RB2B](https://profitableagentstack.com/go/rb2b/) affiliate
 
 Signals, intent & analytics
 
@@ -436,7 +436,7 @@ Fit 4/5 (editorial) · sentiment 85 · Fits: Solo, Small team, Early scaling
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.close.com/pricing)
 
-### [Smartlead](https://profitableagentstack.com/go/smartlead) affiliate
+### [Smartlead](https://profitableagentstack.com/go/smartlead/) affiliate
 
 Outbound email / sequencing
 
@@ -530,7 +530,7 @@ Fit 4/5 (editorial) · sentiment 65 · Fits: Solo, Small team, Early scaling, Sc
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://buffer.com/pricing)
 
-### [Kit](https://profitableagentstack.com/go/kit) affiliate
+### [Kit](https://profitableagentstack.com/go/kit/) affiliate
 
 Newsletters
 
@@ -572,7 +572,7 @@ Fit 4/5 (editorial) · sentiment 61 · Fits: Solo, Small team, Early scaling
 
 Prices as of 2026-11-16, verify with vendor. [Pricing source](https://typefully.com/pricing)
 
-### [HeyReach](https://profitableagentstack.com/go/heyreach) affiliate
+### [HeyReach](https://profitableagentstack.com/go/heyreach/) affiliate
 
 LinkedIn outreach
 
@@ -602,7 +602,7 @@ Fit 4/5 (editorial) · sentiment 55 · Fits: Small team, Early scaling, Scaling
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.zoho.com/crm/zohocrm-pricing.html)
 
-### [Salesforge](https://profitableagentstack.com/go/salesforge) affiliate
+### [Salesforge](https://profitableagentstack.com/go/salesforge/) affiliate
 
 Outbound email / sequencing
 
@@ -646,7 +646,7 @@ Fit 4/5 (editorial) · sentiment 65 · Fits: Solo, Small team, Early scaling, Sc
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.pipedrive.com/en/pricing)
 
-### [Otterly.AI](https://profitableagentstack.com/go/otterly-ai) affiliate
+### [Otterly.AI](https://profitableagentstack.com/go/otterly-ai/) affiliate
 
 AEO (AI search visibility)
 
@@ -772,7 +772,7 @@ Fit 3/5 (editorial) · sentiment 75 · Fits: Solo, Small team, Early scaling
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.copper.com/pricing)
 
-### [lemlist](https://profitableagentstack.com/go/lemlist) affiliate
+### [lemlist](https://profitableagentstack.com/go/lemlist/) affiliate
 
 Outbound email / sequencing
 
@@ -872,7 +872,7 @@ Fit 3/5 (editorial) · sentiment 79 · Fits: Early scaling, Scaling
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.amplemarket.com/pricing)
 
-### [Woodpecker](https://profitableagentstack.com/go/woodpecker) affiliate
+### [Woodpecker](https://profitableagentstack.com/go/woodpecker/) affiliate
 
 Outbound email / sequencing
 

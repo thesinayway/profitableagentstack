@@ -11,6 +11,8 @@ license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" a
 
 How real companies grow with AI tools in go-to-market, with sourced results and links to the original write-ups.
 
+Start with [how named companies use AI for GTM](https://profitableagentstack.com/articles/how-companies-use-ai-for-gtm) (sourced results and links to the original write-ups) or the [Smartlead vs Instantly vs lemlist](https://profitableagentstack.com/articles/smartlead-vs-instantly-vs-lemlist) comparison. Then use the [directory](https://profitableagentstack.com/directory) and [stacks by team size](https://profitableagentstack.com/stages/) to price the jobs those stories describe. General information only, not advice.
+
 [### How real companies use AI for GTM (sourced results)
 
 Nov 24, 2026

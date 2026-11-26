@@ -39,6 +39,12 @@ Each price links to the vendor page and shows the date checked. If we could not 
 
 Intent data and AI SDRs are not for everyone. [See when to skip them](https://profitableagentstack.com/articles/when-to-skip-intent-data).
 
+## How companies use AI for GTM
+
+Sourced stories from named companies, with the tools they used and the results they published, plus a side-by-side of Smartlead, Instantly and lemlist.
+
+[Read the case studies](https://profitableagentstack.com/articles/how-companies-use-ai-for-gtm) [Compare outbound tools](https://profitableagentstack.com/articles/smartlead-vs-instantly-vs-lemlist)
+
 ## Which tool should I use for each use case?
 
 ### Sales

@@ -27,7 +27,7 @@ Fit 5/5 (editorial) · sentiment 77 · Fits: Small team, Early scaling, Scaling,
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.clay.com/pricing)
 
-### [FullEnrich](https://profitableagentstack.com/go/fullenrich) affiliate
+### [FullEnrich](https://profitableagentstack.com/go/fullenrich/) affiliate
 
 Enrichment & verification
 

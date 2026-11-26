@@ -11,7 +11,7 @@ license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" a
 
 Waalaxy has the highest value score (85) among tools we list, priced at: €19, €49, €69 per user/mo; 14-day free trial (EUR). Verify with the vendor.
 
-### [Waalaxy](https://profitableagentstack.com/go/waalaxy) affiliate
+### [Waalaxy](https://profitableagentstack.com/go/waalaxy/) affiliate
 
 LinkedIn outreach
 
@@ -27,7 +27,7 @@ Fit 4/5 (editorial) · sentiment 75 · Fits: Solo, Small team, Early scaling
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.waalaxy.com/pricing)
 
-### [HeyReach](https://profitableagentstack.com/go/heyreach) affiliate
+### [HeyReach](https://profitableagentstack.com/go/heyreach/) affiliate
 
 LinkedIn outreach
 

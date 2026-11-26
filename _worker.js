@@ -171,6 +171,10 @@ async function goHop(req, env, url) {
   if (!slug || slug.includes('/') || !/^[a-z0-9-]+$/.test(slug)) {
     return new Response('Not found', { status: 404, headers: { 'X-Robots-Tag': 'noindex, nofollow', ...CORS } });
   }
+  if (!url.pathname.endsWith('/')) {
+    url.pathname = '/go/' + slug + '/';
+    return new Response(null, { status: 301, headers: { Location: url.toString(), 'X-Robots-Tag': 'noindex, nofollow' } });
+  }
   for (const path of [`/go/${slug}/`, `/go/${slug}/index.html`, `/go/${slug}.html`]) {
     const r = await asset(env, url, path);
     const ct = r.headers.get('content-type') || '';
@@ -186,7 +190,7 @@ async function goHop(req, env, url) {
       return new Response('Not found', { status: 404, headers: { 'X-Robots-Tag': 'noindex, nofollow', ...CORS } });
     }
     const dest = t.link, name = t.name;
-    const body = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Opening ${name}</title><meta name="robots" content="noindex,nofollow"><meta http-equiv="refresh" content="1;url=${dest}"></head><body><p>Opening <a href="${dest}" rel="sponsored noopener">${name}</a>.</p><script>setTimeout(function(){location.replace(${JSON.stringify(dest)})},400);</script></body></html>`;
+    const body = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Opening ${name}</title><meta name="robots" content="noindex,nofollow"><meta http-equiv="refresh" content="1;url=${dest}"></head><body><p>Opening <a href="${dest}" rel="sponsored nofollow noopener">${name}</a>.</p><script>setTimeout(function(){location.replace(${JSON.stringify(dest)})},400);</script></body></html>`;
     return new Response(body, { status: 200, headers: { 'Content-Type': 'text/html; charset=utf-8', 'X-Robots-Tag': 'noindex, nofollow', 'Cache-Control': 'public, max-age=3600', ...CORS } });
   } catch (e) {
     return new Response('Not found', { status: 404, headers: { 'X-Robots-Tag': 'noindex, nofollow', ...CORS } });
@@ -202,6 +206,12 @@ export default {
   async fetch(req, env) {
     const url = new URL(req.url); const p = url.pathname;
     try {
+      const host = url.hostname.toLowerCase();
+      if (host === 'www.profitableagentstack.com' || host === 'profitableagentstack.pages.dev') {
+        url.hostname = 'profitableagentstack.com';
+        url.protocol = 'https:';
+        return new Response(null, { status: 301, headers: { Location: url.toString() } });
+      }
       if (req.method === 'OPTIONS') return new Response(null, { status: 204, headers: { ...CORS, 'Access-Control-Max-Age': '86400' } });
       if (p === '/go' || p === '/go/') return new Response('Not found', { status: 404, headers: { 'X-Robots-Tag': 'noindex, nofollow', ...CORS } });
       if (p.startsWith('/go/')) return goHop(req, env, url);

@@ -9,7 +9,7 @@ license: CC BY 4.0 (credit "Profitable Agent Stack (profitableagentstack.com)" a
 
 # Which AI GTM tool is the best value?
 
-This directory ranks 72 tools by value score (use-case fit, published cost, and verified G2 ratings when we have them; math on the methodology page). Tools without a dated G2 check are labeled "no review data yet" and are scored on fit and cost only. Filter by GTM team size or use case, or sort by cost. [How scoring works](https://profitableagentstack.com/methodology).
+This directory ranks 72 tools by value score (use-case fit, published cost, and verified G2 ratings when we have them; math on the methodology page). Tools without a dated G2 check are labeled "no review data yet" and are scored on fit and cost only. Filter by GTM team size or use case, or sort by cost. [How scoring works](https://profitableagentstack.com/methodology). New guides: [How companies use AI for GTM](https://profitableagentstack.com/articles/how-companies-use-ai-for-gtm) · [Smartlead vs Instantly vs lemlist](https://profitableagentstack.com/articles/smartlead-vs-instantly-vs-lemlist).
 
 ### [Apollo](https://www.apollo.io/)
 
@@ -75,7 +75,7 @@ Fit 5/5 (editorial) · sentiment 73 · Fits: Solo, Small team, Early scaling
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.framer.com/pricing)
 
-### [beehiiv](https://profitableagentstack.com/go/beehiiv) affiliate
+### [beehiiv](https://profitableagentstack.com/go/beehiiv/) affiliate
 
 Newsletters
 
@@ -203,7 +203,7 @@ No review data yet · [See reviews on G2](https://www.g2.com/products/unify-unif
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.unifygtm.com/pricing)
 
-### [FullEnrich](https://profitableagentstack.com/go/fullenrich) affiliate
+### [FullEnrich](https://profitableagentstack.com/go/fullenrich/) affiliate
 
 Enrichment & verification
 
@@ -217,7 +217,7 @@ Fit 4/5 (editorial) · sentiment 86 · Fits: Small team, Early scaling, Scaling,
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://fullenrich.com/pricing)
 
-### [Descript](https://profitableagentstack.com/go/descript) affiliate
+### [Descript](https://profitableagentstack.com/go/descript/) affiliate
 
 Design & video
 
@@ -245,7 +245,7 @@ Fit 4/5 (editorial) · sentiment 79 · Fits: Solo, Small team
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.bigin.com/pricing.html)
 
-### [Waalaxy](https://profitableagentstack.com/go/waalaxy) affiliate
+### [Waalaxy](https://profitableagentstack.com/go/waalaxy/) affiliate
 
 LinkedIn outreach
 
@@ -261,7 +261,7 @@ Fit 4/5 (editorial) · sentiment 75 · Fits: Solo, Small team, Early scaling
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.waalaxy.com/pricing)
 
-### [RB2B](https://profitableagentstack.com/go/rb2b) affiliate
+### [RB2B](https://profitableagentstack.com/go/rb2b/) affiliate
 
 Signals, intent & analytics
 
@@ -353,7 +353,7 @@ Fit 4/5 (editorial) · sentiment 85 · Fits: Solo, Small team, Early scaling
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.close.com/pricing)
 
-### [Smartlead](https://profitableagentstack.com/go/smartlead) affiliate
+### [Smartlead](https://profitableagentstack.com/go/smartlead/) affiliate
 
 Outbound email / sequencing
 
@@ -447,7 +447,7 @@ Fit 4/5 (editorial) · sentiment 65 · Fits: Solo, Small team, Early scaling, Sc
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://buffer.com/pricing)
 
-### [Kit](https://profitableagentstack.com/go/kit) affiliate
+### [Kit](https://profitableagentstack.com/go/kit/) affiliate
 
 Newsletters
 
@@ -489,7 +489,7 @@ Fit 4/5 (editorial) · sentiment 61 · Fits: Solo, Small team, Early scaling
 
 Prices as of 2026-11-16, verify with vendor. [Pricing source](https://typefully.com/pricing)
 
-### [HeyReach](https://profitableagentstack.com/go/heyreach) affiliate
+### [HeyReach](https://profitableagentstack.com/go/heyreach/) affiliate
 
 LinkedIn outreach
 
@@ -519,7 +519,7 @@ Fit 4/5 (editorial) · sentiment 55 · Fits: Small team, Early scaling, Scaling
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.zoho.com/crm/zohocrm-pricing.html)
 
-### [Salesforge](https://profitableagentstack.com/go/salesforge) affiliate
+### [Salesforge](https://profitableagentstack.com/go/salesforge/) affiliate
 
 Outbound email / sequencing
 
@@ -577,7 +577,7 @@ Fit 3/5 (editorial) · sentiment 85 · Fits: Solo, Small team
 
 Prices as of 2026-11-10, verify with vendor. [Pricing source](https://www.apollo.io/pricing)
 
-### [Otterly.AI](https://profitableagentstack.com/go/otterly-ai) affiliate
+### [Otterly.AI](https://profitableagentstack.com/go/otterly-ai/) affiliate
 
 AEO (AI search visibility)
 
@@ -717,7 +717,7 @@ Fit 3/5 (editorial) · sentiment 75 · Fits: Solo, Small team, Early scaling
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.copper.com/pricing)
 
-### [lemlist](https://profitableagentstack.com/go/lemlist) affiliate
+### [lemlist](https://profitableagentstack.com/go/lemlist/) affiliate
 
 Outbound email / sequencing
 
@@ -847,7 +847,7 @@ Fit 3/5 (editorial) · sentiment 72 · Fits: Solo, Small team
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://lightfield.app/pricing)
 
-### [Woodpecker](https://profitableagentstack.com/go/woodpecker) affiliate
+### [Woodpecker](https://profitableagentstack.com/go/woodpecker/) affiliate
 
 Outbound email / sequencing
 

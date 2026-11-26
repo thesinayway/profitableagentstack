@@ -43,7 +43,7 @@ No review data yet
 
 Prices as of 2026-11-23, verify with vendor. [Pricing source](https://www.capcut.com/pricing)
 
-### [Descript](https://profitableagentstack.com/go/descript) affiliate
+### [Descript](https://profitableagentstack.com/go/descript/) affiliate
 
 Design & video
 
